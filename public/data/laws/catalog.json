@@ -24,9 +24,9 @@
     },
     "group": "notary",
     "source": "https://lex.bg/laws/ldoc/2135558368",
-    "retrieved": "2026-10-21",
+    "retrieved": "2026-10-22",
     "partial": true,
-    "articles": 64,
+    "articles": 78,
     "inForce": "В сила от 01.03.2008 г.",
     "published": "Обн. ДВ. бр.59 от 20 Юли 2007г.",
     "lastChange": "изм. и доп. ДВ. бр.92 от 6 Октомври 2026г."
@@ -311,9 +311,9 @@
     },
     "group": "registers",
     "source": "https://lex.bg/laws/ldoc/2132550145",
-    "retrieved": "2026-10-21",
+    "retrieved": "2026-10-22",
     "partial": true,
-    "articles": 12,
+    "articles": 17,
     "inForce": "",
     "published": "Обн. ДВ. бр.17 от 1 Март 1991г.",
     "lastChange": "изм. и доп. ДВ. бр.88 от 25 Септември 2026г."
@@ -333,6 +333,70 @@
     "inForce": "",
     "published": "Обн. ДВ. бр.82 от 27 Септември 1996г.",
     "lastChange": "изм. ДВ. бр.102 от 8 Декември 2023г."
+  },
+  {
+    "id": "zut",
+    "abbr": "ЗУТ",
+    "title": {
+      "bg": "Закон за устройство на територията (извадка)",
+      "en": "Spatial Development Act (extract)"
+    },
+    "group": "registers",
+    "source": "https://lex.bg/laws/ldoc/2135163904",
+    "retrieved": "2026-10-22",
+    "partial": true,
+    "articles": 26,
+    "inForce": "В сила от 31.03.2001 г.",
+    "published": "Обн. ДВ. бр.1 от 2 Януари 2001г.",
+    "lastChange": "изм. и доп. ДВ. бр.87 от 17 Октомври 2025г."
+  },
+  {
+    "id": "zds",
+    "abbr": "ЗДС",
+    "title": {
+      "bg": "Закон за държавната собственост (извадка)",
+      "en": "State Property Act (extract)"
+    },
+    "group": "registers",
+    "source": "https://lex.bg/laws/ldoc/2133874689",
+    "retrieved": "2026-10-22",
+    "partial": true,
+    "articles": 15,
+    "inForce": "В сила от 01.06.1996 г.",
+    "published": "Обн. ДВ. бр.44 от 21 Май 1996г.",
+    "lastChange": "изм. ДВ. бр.60 от 1 Юли 2026г."
+  },
+  {
+    "id": "zos",
+    "abbr": "ЗОС",
+    "title": {
+      "bg": "Закон за общинската собственост (извадка)",
+      "en": "Municipal Property Act (extract)"
+    },
+    "group": "registers",
+    "source": "https://lex.bg/laws/ldoc/2133874691",
+    "retrieved": "2026-10-22",
+    "partial": true,
+    "articles": 10,
+    "inForce": "В сила от 01.06.1996 г.",
+    "published": "Обн. ДВ. бр.44 от 21 Май 1996г.",
+    "lastChange": "доп. ДВ. бр.17 от 26 Февруари 2021г."
+  },
+  {
+    "id": "zvsoni",
+    "abbr": "ЗВСОНИ",
+    "title": {
+      "bg": "Закон за възстановяване на собствеността върху одържавени недвижими имоти",
+      "en": "Restitution of Ownership of Nationalised Real Estate Act"
+    },
+    "group": "registers",
+    "source": "https://lex.bg/laws/ldoc/2132811266",
+    "retrieved": "2026-10-22",
+    "partial": false,
+    "articles": 10,
+    "inForce": "",
+    "published": "Обн. ДВ. бр.15 от 21 Февруари 1992г.",
+    "lastChange": "доп. ДВ. бр.70 от 20 Август 2024г."
   },
   {
     "id": "zmdt",
@@ -502,9 +566,9 @@
     },
     "group": "other",
     "source": "https://lex.bg/laws/ldoc/2135560660",
-    "retrieved": "2026-10-21",
+    "retrieved": "2026-10-22",
     "partial": true,
-    "articles": 16,
+    "articles": 17,
     "inForce": "",
     "published": "Обн. ДВ. бр.64 от 7 Август 2007г.",
     "lastChange": "доп. ДВ. бр.92 от 6 Октомври 2026г."

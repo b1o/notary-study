@@ -12,7 +12,7 @@
     "abbr": "ГПК",
     "title": { "bg": "Граждански процесуален кодекс (извадка)", "en": "Civil Procedure Code (extract)" },
     "group": "notary",
-    "include": ["37-58", "60-63", "143-144", "164", "170", "179-180", "189", "275", "417-418", "569-594"]
+    "include": ["37-58", "60-63", "143-144", "164", "170", "179-180", "189", "193-194", "275", "417-418", "530-541", "569-594"]
   },
   {
     "id": "n32",
@@ -142,13 +142,44 @@
     "abbr": "ЗСПЗЗ",
     "title": { "bg": "Закон за собствеността и ползването на земеделските земи (извадка)", "en": "Ownership and Use of Agricultural Land Act (extract)" },
     "group": "registers",
-    "include": ["1-5", "24а-24б"]
+    "include": ["1-5", "10", "14", "24а-24б"]
   },
   {
     "id": "zaz",
     "lex": "2133894145",
     "abbr": "ЗАЗ",
     "title": { "bg": "Закон за арендата в земеделието", "en": "Agricultural Lease Act" },
+    "group": "registers"
+  },
+  {
+    "id": "zut",
+    "lex": "2135163904",
+    "abbr": "ЗУТ",
+    "title": { "bg": "Закон за устройство на територията (извадка)", "en": "Spatial Development Act (extract)" },
+    "group": "registers",
+    "include": ["1", "7-8", "12", "14-19", "38", "177-178", "181-185", "190-193", "200-202"]
+  },
+  {
+    "id": "zds",
+    "lex": "2133874689",
+    "abbr": "ЗДС",
+    "title": { "bg": "Закон за държавната собственост (извадка)", "en": "State Property Act (extract)" },
+    "group": "registers",
+    "include": ["2", "5-7", "43-44", "48", "68", "70"]
+  },
+  {
+    "id": "zos",
+    "lex": "2133874691",
+    "abbr": "ЗОС",
+    "title": { "bg": "Закон за общинската собственост (извадка)", "en": "Municipal Property Act (extract)" },
+    "group": "registers",
+    "include": ["2-3", "5-7", "34-35", "56", "58"]
+  },
+  {
+    "id": "zvsoni",
+    "lex": "2132811266",
+    "abbr": "ЗВСОНИ",
+    "title": { "bg": "Закон за възстановяване на собствеността върху одържавени недвижими имоти", "en": "Restitution of Ownership of Nationalised Real Estate Act" },
     "group": "registers"
   },
   {
@@ -232,7 +263,7 @@
     "abbr": "ЗСВ",
     "title": { "bg": "Закон за съдебната власт (извадка)", "en": "Judiciary Act (extract)" },
     "group": "other",
-    "include": ["279-284", "294-302"]
+    "include": ["130", "279-284", "294-302"]
   },
   {
     "id": "plzp",
