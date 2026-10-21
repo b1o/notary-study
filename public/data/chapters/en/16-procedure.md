@@ -85,7 +85,7 @@ A notarial act is **null** when the notary had **no power** to perform it, or wh
 | The rules for deaf, mute or illiterate participants were not followed | [[gpk:583]] |
 | The persons did not appear personally for a signature certification | [[gpk:589:2]] |
 
-A null act produces no effect. For a sale, this means the buyer did not become the owner. Nullity can be invoked at any time.
+A null act produces no effect. For a sale, this means the buyer did not become the owner. Nullity can be invoked at any time. Chapter 20 covers the other defects of acts, the claim of a third person and the entry as a proceeding.
 
 ## Refusal and appeal
 

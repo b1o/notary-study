@@ -55,6 +55,7 @@ Key points for the deed:
 - Material interest for the fee: **90%** of the market price of the land, or of the part on which the right is granted ([[znnd:96:2]]).
 - The common deal with developers: the landowner grants a building right and, in exchange, receives finished apartments in the future building ({{обезщетение}}). The deed must state precisely which apartments, their area and position, the deadline, the quality of construction, and the penalties or guarantees if the developer is late.
 - Rights to add floors or extensions to an existing building are a kind of building right ([[zs:66]]).
+- Chapter 10 gives the planning rules for building rights, for building in a co-owned plot and for adding floors.
 
 ## Right of use (право на ползване)
 

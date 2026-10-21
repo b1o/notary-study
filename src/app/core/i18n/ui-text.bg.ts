@@ -67,7 +67,7 @@ export const UI_TEXT_BG: UiText = {
     startReading: 'Започни с глава 1',
     progress: (read, total) => `Прочетени ${read} от ${total} глави`,
     libraryAndTools: 'Справочник и инструменти',
-    lawsHint: '34 акта, с превод на цитираните членове',
+    lawsHint: '38 акта, с превод на цитираните членове',
     glossaryHint: 'Термини с определения',
     templatesHint: 'Актове, пълномощни, декларации',
     checklistsHint: 'Документи и проверки по вид преписка',

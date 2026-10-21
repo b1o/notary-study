@@ -67,7 +67,7 @@ export const UI_TEXT_EN: UiText = {
     startReading: 'Start with chapter 1',
     progress: (read, total) => `${read} of ${total} chapters read`,
     libraryAndTools: 'Library and tools',
-    lawsHint: '34 acts, with English for the cited articles',
+    lawsHint: '38 acts, with English for the cited articles',
     glossaryHint: 'Bulgarian terms with definitions',
     templatesHint: 'Deeds, powers of attorney, declarations',
     checklistsHint: 'Documents and checks per file type',

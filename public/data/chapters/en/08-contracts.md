@@ -55,6 +55,8 @@ As a general rule, claims lapse after **five years** ([[zzd:110]]). Claims for d
 
 ## The main contracts in the office
 
+Chapter 15 covers the other contracts that the office certifies often: taking over a debt, the guarantee, the pledge, the lease, the agricultural lease and the sale of an inheritance.
+
 ### Sale
 
 The seller transfers ownership of a thing or another right, and the buyer pays a price ([[zzd:183]]).

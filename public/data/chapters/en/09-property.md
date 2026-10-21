@@ -9,6 +9,7 @@ The owner may recover the property from anybody who possesses or holds it withou
 - **Possession** ({{владение}}) is factual control over a thing that the person holds as their own, personally or through another person. **Holding** ({{държане}}) is factual control over a thing that the person does not hold as their own, such as a tenant ([[zs:68]]). The law presumes that the possessor holds the thing as their own ([[zs:69]]).
 - A possessor is in **good faith** when the possession rests on a legal ground capable of making the possessor the owner, and the possessor does not know that the transferor was not the owner or that the form was defective ([[zs:70]]).
 - Ownership of real estate is acquired by **10 years** of uninterrupted possession, or by **5 years** in good faith ([[zs:79]]). Loss of possession for more than six months interrupts the period ([[zs:81]]). A possessor may add the possession of the predecessor ([[zs:82]]).
+- Public state and municipal property cannot be acquired by prescription ([[zs:86]]). For private state and municipal property, the years from 1 June 2006 to 7 March 2022 do not count (chapter 11).
 
 > [!tip] Why prescription matters in the office
 > Many Bulgarian families have no document for an old house: the land was inherited, the house was built decades ago, the documents were lost. The owner can get a **declaratory notarial deed** by a **circumstantial verification** with three witnesses ([[gpk:587:2]]). Chapter 17 explains the procedure. The tax on the acquisition is due also in this case ([[zmdt:44:3]]).
@@ -56,7 +57,7 @@ The owner of land can grant another person the right to build a building on the 
 - The material interest for the fee is **90%** of the market price of the land, or of the part on which the right is created ([[znnd:96:2]]).
 
 > [!tip] The typical deal
-> A family owns an old house on a plot in a city. A developer builds a block of flats. In exchange for the building right, the family receives several apartments in the new building. This is a contract for the exchange of a building right against future apartments ({{обезщетение}}). It is made by notarial deed and is one of the most complex deeds in an office.
+> A family owns an old house on a plot in a city. A developer builds a block of flats. In exchange for the building right, the family receives several apartments in the new building. This is a contract for the exchange of a building right against future apartments ({{обезщетение}}). It is made by notarial deed and is one of the most complex deeds in an office. Chapter 10 gives the planning rules for such a deal.
 
 ### The right of use (право на ползване)
 

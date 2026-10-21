@@ -69,7 +69,9 @@ Read the seller's document and follow the chain back. A buyer's lawyer usually c
 - gifts from parents who died recently (reduction risk, chapter 13);
 - sales by an agent under an old power of attorney;
 - partitions where an heir may be missing ([[zn:75:2]]);
-- declaratory deeds by circumstantial verification (they can be disputed).
+- declaratory deeds by circumstantial verification (they can be disputed);
+- acts of state or municipal property, contracts with public bodies and restitution decisions (chapter 11);
+- partitions of plots and sales of real parts of a plot, which must meet the planning rules (chapter 10).
 
 ### Encumbrances in the property register
 
