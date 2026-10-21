@@ -32,6 +32,9 @@ bun run lint           # ESLint, including template accessibility rules
 bun run check:content  # checks citations, links and translations in public/data
 ```
 
+A push to `main` runs these checks, builds the app and publishes it on GitHub Pages at
+https://b1o.github.io/notary-study/ (`.github/workflows/pages.yml`).
+
 ## Structure
 
 ```

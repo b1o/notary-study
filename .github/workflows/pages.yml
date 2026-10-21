@@ -1,0 +1,51 @@
+# Checks and builds the app, and publishes it on GitHub Pages at https://b1o.github.io/notary-study/.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time. A newer push waits; a deployment that runs is not stopped.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: package.json
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: package.json
+      - run: bun install --frozen-lockfile
+      - run: bun run check:content
+      - run: bun run lint
+      - run: bun run test --watch=false
+      # The site is under /notary-study/. GitHub Pages has no fallback for app routes, so the
+      # 404 page is a copy of the app: a deep link such as /notary-study/laws/znnd/25 starts it.
+      - run: bun run build --base-href /notary-study/
+      - run: cp dist/notary-course/browser/index.html dist/notary-course/browser/404.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/notary-course/browser
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
