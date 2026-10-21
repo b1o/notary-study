@@ -3,18 +3,24 @@ import { Component, computed, inject, input } from '@angular/core';
 import type { Language } from '../../core/i18n/language';
 import { LanguageService } from '../../core/i18n/language.service';
 import { LawDisplayService } from '../../core/laws/law-display.service';
+import { LawLibraryService } from '../../core/laws/law-library.service';
 import { groupParagraphs, type LawParagraph } from '../../core/laws/law-text';
 import type { ArticleTranslation, LawArticle } from '../../core/laws/law.models';
 
 interface TextVersion {
   readonly language: Language;
+  /** "Чл. 25", "§ 1" or "Art. 25", in the language of the text. */
+  readonly number: string;
   readonly title?: string;
   readonly paragraphs: readonly LawParagraph[];
+  /** True when the text writes paragraph numbers, so the view keeps a margin for them. */
+  readonly numbered: boolean;
 }
 
 /**
  * The text of one article: the Bulgarian original, the English translation, or both,
  * as LawDisplayService says. The paragraph in `highlight` is marked, for example the cited one.
+ * All sizes are relative to the law text size, so the reading settings keep the proportions.
  */
 @Component({
   selector: 'nc-law-article-text',
@@ -27,12 +33,17 @@ interface TextVersion {
   },
 })
 export class LawArticleText {
+  /** Id of the act, for the name of the numbered unit ("чл.", or "т." in the tariff). */
+  readonly act = input.required<string>();
   readonly article = input.required<LawArticle>();
   readonly translation = input<ArticleTranslation>();
   /** Paragraph number to mark, for example "9". */
   readonly highlight = input<string>();
+  /** Level of the article header among the headings of the page. */
+  readonly headingLevel = input(3);
 
   protected readonly display = inject(LawDisplayService);
+  private readonly laws = inject(LawLibraryService);
   protected readonly ui = inject(LanguageService).text;
 
   protected readonly versions = computed<TextVersion[]>(() => {
@@ -41,18 +52,10 @@ export class LawArticleText {
     const translation = this.translation();
     const versions: TextVersion[] = [];
     if (choice !== 'en' || !translation) {
-      versions.push({
-        language: 'bg',
-        title: article.title,
-        paragraphs: groupParagraphs(article.paragraphs),
-      });
+      versions.push(this.version('bg', article.title, article.paragraphs));
     }
     if (choice !== 'bg' && translation) {
-      versions.push({
-        language: 'en',
-        title: translation.title,
-        paragraphs: groupParagraphs(translation.paragraphs),
-      });
+      versions.push(this.version('en', translation.title, translation.paragraphs));
     }
     return versions;
   });
@@ -61,4 +64,23 @@ export class LawArticleText {
   protected readonly translationMissing = computed(
     () => this.display.textLanguage() === 'en' && !this.translation(),
   );
+
+  private version(
+    language: Language,
+    title: string | undefined,
+    lines: readonly string[],
+  ): TextVersion {
+    const label = this.laws.shortLabel(
+      { act: this.act(), article: this.article().number },
+      language,
+    );
+    const paragraphs = groupParagraphs(lines);
+    return {
+      language,
+      number: label.charAt(0).toUpperCase() + label.slice(1),
+      title,
+      paragraphs,
+      numbered: paragraphs.some((paragraph) => paragraph.marker),
+    };
+  }
 }

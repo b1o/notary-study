@@ -2,6 +2,7 @@ import { HttpClient, httpResource } from '@angular/common/http';
 import { computed, inject, Service } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 
+import type { Language } from '../i18n/language';
 import { LanguageService } from '../i18n/language.service';
 import { indexAct, type ActIndex } from './act-index';
 import { formatReference, parseReference, type LawReference } from './citation';
@@ -38,10 +39,13 @@ export class LawLibraryService {
     return formatReference(parsed, this.entry(parsed.act), this.language.current());
   }
 
-  /** Label without the act, for lists inside one act: "чл. 25, ал. 9" or "Art. 25(9)". */
-  shortLabel(reference: LawReference): string {
+  /**
+   * Label without the act, for lists inside one act: "чл. 25, ал. 9" or "Art. 25(9)".
+   * The language is the interface language, unless the caller names the language of a text.
+   */
+  shortLabel(reference: LawReference, language: Language = this.language.current()): string {
     const unit = this.entry(reference.act)?.unit;
-    return formatReference(reference, { abbr: '', unit }, this.language.current()).trim();
+    return formatReference(reference, { abbr: '', unit }, language).trim();
   }
 
   /** Router link to a provision in the library. The paragraph travels as a query parameter. */

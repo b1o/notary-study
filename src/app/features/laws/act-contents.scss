@@ -1,0 +1,40 @@
+.act-contents {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: 1.35;
+}
+
+.act-contents li + li {
+  margin-block-start: 2px;
+}
+
+.act-contents a {
+  display: block;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: 5px var(--space-2);
+  border-radius: var(--radius-sm);
+  color: var(--color-ink-2);
+  text-decoration: none;
+}
+
+.act-contents a:hover {
+  background: var(--color-hover);
+  color: var(--color-ink);
+}
+
+.act-contents__label {
+  color: var(--color-ink-3);
+}
+
+/* Titles in capital letters, as the source writes many chapter titles. */
+.act-contents__caps {
+  font-size: 0.92em;
+  letter-spacing: 0.03em;
+}
+
+.act-contents__section a {
+  padding-inline-start: var(--space-5);
+}

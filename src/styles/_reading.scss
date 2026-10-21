@@ -6,7 +6,7 @@
 :root {
   --reading-size: 1.125rem;
   --reading-leading: 1.65;
-  /* The line length grows with the text size, so it stays near 70 characters. */
+  /* The line length grows with the text size: about 57, 70 or 82 characters of Literata per line. */
   --measure-factor: 37;
   --measure: calc(var(--reading-size) * var(--measure-factor));
 }
@@ -36,7 +36,7 @@
 }
 
 :root[data-text-width='wide'] {
-  --measure-factor: 46;
+  --measure-factor: 42;
 }
 
 :root[data-reading-font='sans'] {

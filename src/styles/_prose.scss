@@ -93,7 +93,7 @@ $callouts: (
     font-family: var(--font-ui);
     font-weight: 650;
     letter-spacing: -0.01em;
-    color: var(--color-ink);
+    color: var(--color-ink-strong);
   }
 
   h2 {
@@ -109,10 +109,6 @@ $callouts: (
   h4 {
     margin: 1.5em 0 0.4em;
     font-size: 1em;
-  }
-
-  strong {
-    font-weight: 650;
   }
 
   hr {

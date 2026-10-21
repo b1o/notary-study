@@ -28,7 +28,14 @@ h2,
 h3,
 h4 {
   line-height: 1.25;
+  color: var(--color-ink-strong);
   text-wrap: balance;
+}
+
+b,
+strong {
+  font-weight: 700;
+  color: var(--color-ink-strong);
 }
 
 p {

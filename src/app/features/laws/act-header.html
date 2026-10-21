@@ -1,0 +1,40 @@
+@let text = ui().law;
+@let act = entry();
+<header class="act-head">
+  <p class="act-head__abbr" lang="bg">{{ act.abbr }}</p>
+  <h1 class="page-title">{{ act.title[lang()] }}</h1>
+  @if (lang() === 'en') {
+    <p class="act-head__original" lang="bg">{{ act.title.bg }}</p>
+  }
+  <dl class="act-facts">
+    @if (act.inForce) {
+      <div>
+        <dt>{{ text.inForce }}</dt>
+        <dd>{{ act.inForce }}</dd>
+      </div>
+    }
+    @if (act.lastChange) {
+      <div>
+        <dt>{{ text.lastChange }}</dt>
+        <dd>{{ act.lastChange }}</dd>
+      </div>
+    }
+    <div>
+      <dt>{{ text.retrieved }}</dt>
+      <dd>{{ act.retrieved }}</dd>
+    </div>
+    <div>
+      <dt>{{ text.source }}</dt>
+      <dd><a [href]="act.source" target="_blank" rel="noopener">lex.bg</a></dd>
+    </div>
+  </dl>
+  <div class="act-notes">
+    @if (act.note) {
+      <p>{{ act.note[lang()] }}</p>
+    }
+    <p>{{ text.officialNote }}</p>
+    @if (act.group === 'tax') {
+      <p>{{ text.euroNote }}</p>
+    }
+  </div>
+</header>

@@ -50,8 +50,8 @@
 }
 
 .choice-group__option input:checked + span {
-  background: var(--color-surface);
-  color: var(--color-ink);
+  background: var(--color-raised);
+  color: var(--color-ink-strong);
   box-shadow: var(--shadow-1);
 }
 

@@ -1,10 +1,25 @@
 :host {
   display: block;
-  container-type: inline-size;
 }
 
 .act-page {
   padding: var(--page-padding);
+}
+
+/*
+ * The page is as wide as the contents column, the gap and the text, and stays centred in the sheet.
+ * Side by side, the text has two columns: the original and the translation.
+ */
+.act-frame {
+  --act-rail-width: 16rem;
+  --act-gap: clamp(2rem, 4vw, 4.5rem);
+  --act-text-width: var(--measure);
+  max-inline-size: calc(var(--act-rail-width) + var(--act-gap) + var(--act-text-width));
+  margin-inline: auto;
+}
+
+:host(.act-page--side-by-side) .act-frame {
+  --act-text-width: calc(2 * var(--measure) + 2.5 * var(--reading-size));
 }
 
 .back-link {
@@ -20,49 +35,6 @@
 
 .back-link:hover {
   color: var(--color-ink);
-}
-
-.act-head {
-  max-inline-size: 48rem;
-  margin-block-end: var(--space-6);
-}
-
-.act-head__abbr {
-  margin: 0 0 var(--space-1);
-  font-size: var(--text-lg);
-  font-weight: 650;
-  color: var(--color-accent-text);
-}
-
-.act-head__original {
-  margin: var(--space-2) 0 0;
-  color: var(--color-ink-2);
-}
-
-.act-facts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2) var(--space-6);
-  margin: var(--space-4) 0 0;
-  font-size: var(--text-sm);
-}
-
-.act-facts dt {
-  color: var(--color-ink-3);
-}
-
-.act-facts dd {
-  margin: 0;
-}
-
-.act-notes {
-  margin-block-start: var(--space-4);
-  font-size: var(--text-sm);
-  color: var(--color-ink-2);
-}
-
-.act-notes p {
-  margin: var(--space-1) 0 0;
 }
 
 .act-tools {
@@ -91,75 +63,62 @@
   color: var(--color-warn);
 }
 
-.act-layout {
-  display: grid;
-  grid-template-columns: minmax(0, var(--measure));
-  gap: var(--space-7);
+/*
+ * The text part works in em of the reading size, so headings, gaps and the point where the
+ * contents column appears all follow the "Text size" setting.
+ */
+.act-body {
   margin-block-start: var(--space-5);
+  font-size: var(--reading-size);
+  container-type: inline-size;
 }
 
-.act-contents__title {
+.act-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5em;
+}
+
+/* Below the width for a contents column, the contents fold into a disclosure above the text. */
+.act-rail {
+  display: none;
+}
+
+.act-rail__title {
   margin: 0 0 var(--space-2);
   font-size: var(--text-sm);
   font-weight: 650;
 }
 
-.act-contents__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: var(--text-sm);
-}
-
-.act-contents__list a {
-  display: block;
-  padding: var(--space-1) var(--space-2);
-  margin-inline: calc(-1 * var(--space-2));
-  border-radius: var(--radius-sm);
-  color: var(--color-ink-2);
-  text-decoration: none;
-}
-
-.act-contents__list a:hover {
-  background: var(--color-hover);
-  color: var(--color-ink);
-}
-
-.act-contents__sub a {
-  padding-inline-start: var(--space-5);
-}
-
-.act-contents--rail {
-  display: none;
-}
-
-.act-contents--inline {
+.act-inline-contents {
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-md);
   background: var(--color-surface-2);
+  font-size: var(--text-sm);
 }
 
-.act-contents--inline summary {
-  margin: 0;
+.act-inline-contents summary {
+  font-weight: 650;
   cursor: pointer;
 }
 
-.act-contents--inline[open] summary {
+.act-inline-contents[open] summary {
   margin-block-end: var(--space-2);
 }
 
-/* Wide: the contents become a column next to the text, and stay in view. */
-@container (min-width: 64rem) {
+/* The contents column appears only when the text keeps about 30 em next to it. */
+@container (min-width: 50em) {
   .act-layout {
-    grid-template-columns: 15rem minmax(0, var(--measure));
+    grid-template-columns: var(--act-rail-width) minmax(0, 1fr);
+    column-gap: var(--act-gap);
   }
 
   .act-layout--no-contents {
-    grid-template-columns: minmax(0, var(--measure));
+    grid-template-columns: minmax(0, 1fr);
   }
 
   /* The padding gives the hover background of the links room inside the scroll box. */
-  .act-contents--rail {
+  .act-rail {
     position: sticky;
     inset-block-start: calc(var(--sticky-offset) + 4.5rem);
     display: block;
@@ -171,40 +130,83 @@
     scrollbar-width: thin;
   }
 
-  .act-contents--inline {
+  .act-inline-contents {
     display: none;
   }
-}
-
-.act-heading {
-  margin: var(--space-7) 0 var(--space-3);
-  font-size: var(--text-lg);
-  font-weight: 650;
-  scroll-margin-block-start: calc(var(--sticky-offset) + 5rem);
-}
-
-.act-heading--section {
-  margin-block-start: var(--space-5);
-  font-size: var(--text-md);
-  color: var(--color-ink-2);
 }
 
 .act-text > :first-child {
   margin-block-start: 0;
 }
 
+/* Headings of the act: a muted label ("Глава първа"), the title, and amendment notes. */
+.act-heading {
+  margin: 2.6em 0 0.9em;
+  font-family: var(--font-ui);
+  font-size: 1em;
+  line-height: 1.25;
+  color: var(--color-ink-strong);
+  scroll-margin-block-start: calc(var(--sticky-offset) + 5rem);
+}
+
+.act-heading--section {
+  margin-block: 1.9em 0.7em;
+}
+
+.act-heading__label,
+.act-heading__title,
+.act-heading__note {
+  display: block;
+}
+
+.act-heading__label {
+  margin-block-end: 0.35em;
+  font-size: 0.78em;
+  font-weight: 500;
+  color: var(--color-ink-3);
+}
+
+.act-heading__title {
+  font-size: 1.4em;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.act-heading--section .act-heading__title {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+/* Many titles are in capital letters in the source: set them smaller and with more spacing. */
+.act-heading--caps .act-heading__title {
+  font-size: 1.22em;
+  letter-spacing: 0.035em;
+}
+
+.act-heading--section.act-heading--caps .act-heading__title {
+  font-size: 0.98em;
+}
+
+.act-heading__note {
+  margin-block-start: 0.35em;
+  font-size: 0.72em;
+  font-weight: 400;
+  color: var(--color-ink-3);
+}
+
 .act-article {
-  padding-block: var(--space-3);
+  padding-block: 1.1em;
   scroll-margin-block-start: calc(var(--sticky-offset) + 5rem);
 }
 
 .act-note {
-  margin-block: var(--space-5);
-  font-size: var(--text-sm);
+  margin-block: 1.5em;
+  font-size: 0.85em;
   color: var(--color-ink-2);
 }
 
 .act-note__title {
-  font-size: var(--text-md);
-  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: 1.05em;
+  color: var(--color-ink-strong);
 }

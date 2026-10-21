@@ -3,25 +3,56 @@
 }
 <div class="law-article-text__versions">
   @for (version of versions(); track version.language) {
-    <section class="law-version" [attr.lang]="version.language">
+    <section
+      class="law-version"
+      [class.law-version--numbered]="version.numbered"
+      [attr.lang]="version.language"
+    >
       @if (version.language === 'en') {
         <p class="law-version__label">{{ ui().law.translation }}</p>
       }
-      @if (version.title) {
-        <p class="law-version__title">{{ version.title }}</p>
-      }
+      <div class="law-version__head" role="heading" [attr.aria-level]="headingLevel()">
+        <span class="law-version__number">{{ version.number }}</span>
+        @if (version.title) {
+          &ngsp;<span class="law-version__title">{{ version.title }}</span>
+        }
+      </div>
+
       @for (paragraph of version.paragraphs; track $index) {
         <div
           class="law-paragraph"
           [class.law-paragraph--highlight]="!!highlight() && paragraph.number === highlight()"
         >
-          @for (line of paragraph.lines; track $index) {
-            <p class="law-line" [class.law-line--item]="line.item">
-              @for (segment of line.segments; track $index) {
-                <span [class]="'law-segment law-segment--' + segment.kind">{{ segment.text }}</span>
-              }
-            </p>
+          @if (version.numbered) {
+            <span class="law-paragraph__marker">{{ paragraph.marker }}</span
+            >&ngsp;
           }
+          <div class="law-paragraph__body">
+            @for (line of paragraph.lines; track $index) {
+              <div class="law-line" [class.law-line--item]="!!line.marker">
+                @if (line.marker) {
+                  <span class="law-line__marker">{{ line.marker }}</span
+                  >&ngsp;
+                }
+                <div class="law-line__body">
+                  @for (note of line.notes; track $index) {
+                    <p class="law-note">{{ note }}</p>
+                  }
+                  @if (line.segments.length) {
+                    <p class="law-line__text">
+                      @for (segment of line.segments; track $index) {
+                        @if (segment.kind === 'amendment') {
+                          <span class="law-note law-note--inline">{{ segment.text }}</span>
+                        } @else {
+                          {{ segment.text }}
+                        }
+                      }
+                    </p>
+                  }
+                </div>
+              </div>
+            }
+          </div>
         </div>
       }
     </section>

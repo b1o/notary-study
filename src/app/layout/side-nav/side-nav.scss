@@ -16,7 +16,7 @@
   font-size: var(--text-md);
   font-weight: 650;
   letter-spacing: -0.01em;
-  color: var(--color-ink);
+  color: var(--color-ink-strong);
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ a.nav-link--active:hover {
   padding: 7px var(--space-3);
   border-radius: var(--radius-sm);
   font-weight: 550;
-  color: var(--color-ink);
+  color: var(--color-ink-strong);
   cursor: pointer;
   list-style: none;
   --icon-size: 1rem;

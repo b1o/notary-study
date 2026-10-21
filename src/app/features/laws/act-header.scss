@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+
+.act-head {
+  max-inline-size: 48rem;
+  margin-block-end: var(--space-6);
+}
+
+.act-head__abbr {
+  margin: 0 0 var(--space-1);
+  font-size: var(--text-lg);
+  font-weight: 650;
+  color: var(--color-accent-text);
+}
+
+.act-head__original {
+  margin: var(--space-2) 0 0;
+  color: var(--color-ink-2);
+}
+
+.act-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  margin: var(--space-4) 0 0;
+  font-size: var(--text-sm);
+}
+
+.act-facts dt {
+  color: var(--color-ink-3);
+}
+
+.act-facts dd {
+  margin: 0;
+}
+
+.act-notes {
+  margin-block-start: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
+}
+
+.act-notes p {
+  margin: var(--space-1) 0 0;
+}

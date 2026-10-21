@@ -1,3 +1,7 @@
+/*
+ * Every size here is in em of the law text size, so the reading settings (text size,
+ * line spacing, font) change the whole article and keep its proportions.
+ */
 :host {
   display: block;
   font-family: var(--font-law);
@@ -8,84 +12,124 @@
 }
 
 .law-article-text__notice {
-  margin: 0 0 var(--space-3);
+  margin: 0 0 0.75em;
   font-family: var(--font-ui);
-  font-size: var(--text-sm);
+  font-size: 0.8em;
   color: var(--color-ink-2);
 }
 
-.law-version + .law-version {
-  margin-block-start: var(--space-5);
+.law-version {
+  max-inline-size: var(--measure);
 }
 
-/* Wide enough for two readable columns: the original and the translation side by side. */
-@container (min-width: 46rem) {
+/* Closer than two articles are to each other, so the original and its translation read as one unit. */
+.law-version + .law-version {
+  margin-block-start: 0.9em;
+}
+
+/* Room for two columns of about 60 characters: the original and the translation side by side. */
+@container (min-width: 60em) {
   :host(.law-article-text--both) .law-article-text__versions {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--space-6);
+    gap: 2.5em;
   }
 
-  .law-version + .law-version {
+  :host(.law-article-text--both) .law-version + .law-version {
     margin-block-start: 0;
   }
 }
 
 .law-version__label {
-  margin: 0 0 var(--space-2);
+  margin: 0 0 0.35em;
   font-family: var(--font-ui);
-  font-size: var(--text-sm);
+  font-size: 0.75em;
   color: var(--color-ink-3);
 }
 
-.law-version__title {
-  margin: 0 0 var(--space-2);
+.law-version__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1em 0.6em;
+  margin-block-end: 0.5em;
   font-family: var(--font-ui);
+  line-height: 1.3;
+}
+
+.law-version__number {
+  font-weight: 700;
+  color: var(--color-accent-text);
+  white-space: nowrap;
+}
+
+.law-version__title {
   font-weight: 600;
+  color: var(--color-ink-strong);
 }
 
 /* The negative margin keeps the text aligned with the content around it when the paragraph is tinted. */
 .law-paragraph {
-  margin-inline: calc(-1 * var(--space-3));
-  padding: var(--space-1) var(--space-3);
+  margin-inline: -0.5em;
+  padding: 0.2em 0.5em;
   border-radius: var(--radius-md);
 }
 
 .law-paragraph + .law-paragraph {
-  margin-block-start: var(--space-2);
+  margin-block-start: 0.3em;
 }
 
 .law-paragraph--highlight {
   background: var(--color-mark);
 }
 
-.law-line {
-  margin: 0;
+/* Paragraph numbers hang in the margin, so the text of all paragraphs starts at one line. */
+.law-version--numbered .law-paragraph {
+  display: grid;
+  grid-template-columns: 2.2em minmax(0, 1fr);
+  align-items: first baseline;
+}
+
+.law-paragraph__marker {
+  font-family: var(--font-ui);
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--color-accent-text);
+  font-variant-numeric: tabular-nums;
 }
 
 .law-line + .law-line {
-  margin-block-start: var(--space-1);
+  margin-block-start: 0.25em;
 }
 
 .law-line--item {
-  padding-inline-start: var(--space-5);
+  display: grid;
+  grid-template-columns: 2em minmax(0, 1fr);
+  align-items: first baseline;
 }
 
-.law-segment--number {
-  font-weight: 700;
+.law-line__marker {
+  color: var(--color-ink-2);
+  font-variant-numeric: tabular-nums;
 }
 
-.law-segment--paragraph {
-  font-weight: 600;
-  color: var(--color-accent-text);
+.law-line__text {
+  margin: 0;
 }
 
-.law-segment--amendment {
+/* Amendment notes: small, with their own line height, so long notes do not look double-spaced. */
+.law-note {
+  margin: 0 0 0.2em;
   font-family: var(--font-ui);
-  font-size: 0.8em;
+  font-size: max(0.74em, 0.75rem);
+  line-height: 1.45;
   color: var(--color-ink-3);
 }
 
-:host(.law-article-text--no-amendments) .law-segment--amendment {
+.law-note--inline {
+  font-size: max(0.78em, 0.75rem);
+}
+
+:host(.law-article-text--no-amendments) .law-note {
   display: none;
 }

@@ -6,32 +6,16 @@ import { RouterLink } from '@angular/router';
 import { LanguageService } from '../../core/i18n/language.service';
 import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
-import {
-  isArticle,
-  type ActTranslation,
-  type LawArticle,
-  type LawItem,
-} from '../../core/laws/law.models';
+import type { ActTranslation } from '../../core/laws/law.models';
 import { pageTitleEffect } from '../../core/page-title';
 import { scrollToTarget } from '../../shared/dom/scroll-to-target';
 import { LawArticleText } from '../../shared/law/law-article-text';
 import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
 import { Icon } from '../../shared/ui/icon';
 import { LoadStatus } from '../../shared/ui/load-status';
-
-/** One item of the act with the fragment id that links to it. */
-type ActEntry =
-  | { readonly kind: 'heading'; readonly id: string; readonly level: 1 | 2; readonly text: string }
-  | {
-      readonly kind: 'note';
-      readonly id: string;
-      readonly title: string;
-      readonly paragraphs: readonly string[];
-    }
-  | { readonly kind: 'article'; readonly id: string; readonly article: LawArticle };
-
-/** Fragment id of an article: "art-25а", "art-§1". */
-const articleAnchor = (number: string) => `art-${number}`;
+import { ActContents } from './act-contents';
+import { articleAnchor, matchesQuery, toEntry, type ActEntry } from './act-entries';
+import { ActHeader } from './act-header';
 
 /**
  * The whole text of an act. With an article in the URL (laws/znnd/25?paragraph=9),
@@ -39,9 +23,22 @@ const articleAnchor = (number: string) => `art-${number}`;
  */
 @Component({
   selector: 'nc-act-page',
-  imports: [RouterLink, FormField, NgTemplateOutlet, Icon, ChoiceGroup, LawArticleText, LoadStatus],
+  imports: [
+    RouterLink,
+    FormField,
+    NgTemplateOutlet,
+    Icon,
+    ChoiceGroup,
+    LawArticleText,
+    LoadStatus,
+    ActContents,
+    ActHeader,
+  ],
   templateUrl: './act-page.html',
   styleUrl: './act-page.scss',
+  host: {
+    '[class.act-page--side-by-side]': 'sideBySide()',
+  },
 })
 export default class ActPage {
   /** From the route: laws/:actId and laws/:actId/:article */
@@ -52,9 +49,7 @@ export default class ActPage {
 
   protected readonly laws = inject(LawLibraryService);
   protected readonly display = inject(LawDisplayService);
-  private readonly language = inject(LanguageService);
-  protected readonly ui = this.language.text;
-  protected readonly lang = this.language.current;
+  protected readonly ui = inject(LanguageService).text;
 
   protected readonly entry = computed(() => this.laws.entry(this.actId()));
   protected readonly act = resource({
@@ -67,6 +62,11 @@ export default class ActPage {
   });
   protected readonly translationOf = computed<ActTranslation>(() =>
     this.translations.hasValue() ? this.translations.value() : {},
+  );
+
+  /** "Both" languages and an act with translations: the page widens for two text columns. */
+  protected readonly sideBySide = computed(
+    () => this.display.textLanguage() === 'both' && Object.keys(this.translationOf()).length > 0,
   );
 
   protected readonly filter = form(signal(''));
@@ -88,7 +88,7 @@ export default class ActPage {
     if (!query) return this.entries();
     const translations = this.translationOf();
     return this.entries().filter(
-      (entry) => entry.kind === 'article' && matches(entry.article, translations, query),
+      (entry) => entry.kind === 'article' && matchesQuery(entry.article, translations, query),
     );
   });
 
@@ -112,23 +112,4 @@ export default class ActPage {
       return article && ready ? articleAnchor(article) : undefined;
     });
   }
-}
-
-function toEntry(item: LawItem, index: number): ActEntry {
-  if (isArticle(item)) return { kind: 'article', id: articleAnchor(item.number), article: item };
-  if (item.kind === 'heading')
-    return { kind: 'heading', id: `h-${index}`, level: item.level, text: item.text };
-  return { kind: 'note', id: `note-${index}`, title: item.title, paragraphs: item.paragraphs };
-}
-
-/** An article matches its number ("25", "чл. 25") or a word of its Bulgarian or English text. */
-function matches(article: LawArticle, translations: ActTranslation, query: string): boolean {
-  const number = query.replace(/^(?:чл|art)\.?\s*/, '');
-  if (article.number.toLowerCase() === number) return true;
-  const texts = [
-    article.title,
-    ...article.paragraphs,
-    ...(translations[article.number]?.paragraphs ?? []),
-  ];
-  return texts.some((text) => text?.toLowerCase().includes(query));
 }
