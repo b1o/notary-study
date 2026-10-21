@@ -11,7 +11,7 @@ This document tells how to write and change the course content and the law data.
 | `public/data/chapters/{en,bg}/NN-id.json` | The objectives, the cards and the test of a chapter. |
 | `public/data/laws/catalog.json`, `laws/acts/<id>.json` | The law library, written by `tools/import_laws.py`. Do not edit the act files by hand. |
 | `public/data/laws/en/<id>.json` | Unofficial English translations, by article number. |
-| `tools/manual/tarifa.json` | The fee tariff, a hand-made act. |
+| `tools/manual/tarifa.json`, `tools/manual/tdtav.json` | Hand-made acts: the notarial fee tariff (ТНТ) and section I of the Registry Agency tariff (ТДТАВ). The importer writes them to `laws/acts` on every run. |
 | `public/data/glossary.json`, `templates.json`, `checklists.json` | Glossary, document templates, checklists. |
 
 The progress of a reader, the flashcard boxes and the test results use the chapter `id`, not the number. A card key is `<chapter id>:<card index>`.

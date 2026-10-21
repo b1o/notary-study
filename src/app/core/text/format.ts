@@ -25,6 +25,15 @@ export function formatNumber(value: number, language: Language): string {
   return value.toLocaleString(LOCALES[language]);
 }
 
+/** The site of an address without "www.": "registryagency.bg". Other text stays as it is. */
+export function hostOf(address: string): string {
+  try {
+    return new URL(address).hostname.replace(/^www\./, '');
+  } catch {
+    return address;
+  }
+}
+
 /** An amount with two decimals and its currency: "1 234,50 €" or "1,234.50 лв.". */
 export function formatMoney(amount: number, currency: 'EUR' | 'BGN', language: Language): string {
   const number = amount.toLocaleString(LOCALES[language], {

@@ -109,8 +109,6 @@ export default class FeesPage {
     return this.bill().lines.map((line) => ({
       label: labels[line.kind](line),
       refs: line.ref ? [line.ref] : [],
-      // The entry fee follows the tariff of the Registry Agency, which is not in the law library.
-      source: line.kind === 'entry' ? text.entryFeeSource : undefined,
       euro: this.money(line.euro),
       leva: line.leva === undefined ? undefined : this.money(line.leva, 'BGN'),
     }));

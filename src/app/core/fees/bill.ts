@@ -113,7 +113,7 @@ export function computeBill(action: FeeAction, inputs: FeeInputs): Bill {
 
   if (action.entry && inputs.entry) {
     const leva = entryFee(interestLeva);
-    lines.push({ kind: 'entry', euro: toEuro(leva), leva });
+    lines.push({ kind: 'entry', euro: toEuro(leva), leva, ref: 'tdtav:2:1' });
   }
 
   const tax = TAX_KINDS.find((kind) => kind.id === inputs.taxKind);

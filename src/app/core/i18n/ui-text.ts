@@ -119,7 +119,8 @@ export interface UiText {
     readonly extract: string;
     readonly withTranslation: string;
     readonly groups: Readonly<Record<LawGroup, string>>;
-    readonly officialNote: string;
+    /** The notice on an act page; `source` is the site of the text, for example "lex.bg". */
+    readonly officialNote: (source: string) => string;
     readonly euroNote: string;
     readonly inForce: string;
     readonly published: string;
@@ -271,7 +272,6 @@ export interface UiText {
     readonly additionalFee: string;
     readonly vatLine: string;
     readonly entryFeeLine: string;
-    readonly entryFeeSource: string;
     readonly localTax: (rate: string) => string;
     readonly total: string;
     readonly whoPays: string;

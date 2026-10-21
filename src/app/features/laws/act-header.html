@@ -31,14 +31,16 @@
     </div>
     <div>
       <dt>{{ text.source }}</dt>
-      <dd><a [href]="act.source" target="_blank" rel="noopener">lex.bg</a></dd>
+      <dd>
+        <a [href]="act.source" target="_blank" rel="noopener">{{ sourceHost() }}</a>
+      </dd>
     </div>
   </dl>
   <nc-notice class="act-head__notes">
     @if (act.note) {
       <p>{{ act.note[lang()] }}</p>
     }
-    <p>{{ text.officialNote }}</p>
+    <p>{{ text.officialNote(sourceHost()) }}</p>
     @if (act.group === 'tax') {
       <p>{{ text.euroNote }}</p>
     }

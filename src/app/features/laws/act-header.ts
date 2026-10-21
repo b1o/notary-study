@@ -3,7 +3,7 @@ import { Component, computed, inject, input } from '@angular/core';
 import { LanguageService } from '../../core/i18n/language.service';
 import { gazetteIssue, inForceDate } from '../../core/laws/act-dates';
 import type { LawCatalogEntry } from '../../core/laws/law.models';
-import { formatLongDate } from '../../core/text/format';
+import { formatLongDate, hostOf } from '../../core/text/format';
 import { PageHeader } from '../../shared/layout/page-header';
 import { Notice } from '../../shared/ui/notice';
 
@@ -24,6 +24,8 @@ export class ActHeader {
   /** The dates from the notes of lex.bg, written in the language of the page. */
   protected readonly inForce = computed(() => inForceDate(this.entry().inForce));
   protected readonly lastIssue = computed(() => gazetteIssue(this.entry().lastChange));
+  /** The site the text comes from: lex.bg for imported acts, the publisher for hand-made ones. */
+  protected readonly sourceHost = computed(() => hostOf(this.entry().source));
 
   protected date(iso: string): string {
     return formatLongDate(iso, this.lang());

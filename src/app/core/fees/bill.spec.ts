@@ -42,7 +42,10 @@ describe('computeBill', () => {
   it('adds VAT on the notarial fee, the entry fee and the local tax', () => {
     const fee = line('fee')!.euro;
     expect(line('vat')?.euro).toBeCloseTo(fee * 0.2, 2);
-    expect(line('entry')?.euro).toBe(toEuro(0.001 * toLeva(150_000)));
+    expect(line('entry')).toMatchObject({
+      euro: toEuro(0.001 * toLeva(150_000)),
+      ref: 'tdtav:2:1',
+    });
     expect(line('tax')).toMatchObject({ euro: 4_500, rate: 3, ref: 'zmdt:47:2' });
   });
 

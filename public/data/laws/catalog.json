@@ -612,5 +612,25 @@
       "bg": "Текстът е преписан от публикацията на Нотариалната камара. Сумите са в левове, както в официалния текст. От 1 януари 2026 г. те се прилагат в евро по курс 1,95583 (вижте таблицата в края)."
     },
     "articles": 23
+  },
+  {
+    "id": "tdtav",
+    "abbr": "ТДТАВ",
+    "title": {
+      "bg": "Тарифа за държавните такси, събирани от Агенцията по вписванията (извадка)",
+      "en": "Tariff of the State Fees Collected by the Registry Agency (extract)"
+    },
+    "group": "tax",
+    "source": "https://www.registryagency.bg/media/filer_public/2026/08/01/tarifa_za_drzhavnite_taksi_sbirani_ot_agentsiia_po_vpisvaniiata.pdf",
+    "retrieved": "2026-10-22",
+    "partial": true,
+    "inForce": "25.11.2005 г.",
+    "published": "ДВ, бр. 94 от 25.11.2005 г. (ПМС № 243 от 14.11.2005 г.)",
+    "lastChange": "изм. и доп. ДВ, бр. 115 от 30.12.2025 г.",
+    "note": {
+      "en": "Transcribed by hand from the consolidated text that the Registry Agency publishes on its site. Only Section I: the fees under the Regulations on Entries. The amounts are in leva, as in the official text. From 1 January 2026 they count as euro at 1.95583.",
+      "bg": "Текстът е преписан от консолидираната редакция, която Агенцията по вписванията публикува на сайта си. Само раздел I: таксите по Правилника за вписванията. Сумите са в левове, както в официалния текст. От 1 януари 2026 г. те се прилагат в евро по курс 1,95583."
+    },
+    "articles": 8
   }
 ]

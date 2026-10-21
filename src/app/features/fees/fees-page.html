@@ -95,9 +95,7 @@
               <tr>
                 <th scope="row">
                   {{ line.label }}
-                  @if (line.source) {
-                    <span class="bill__ref">{{ line.source }}</span>
-                  } @else if (line.refs.length) {
+                  @if (line.refs.length) {
                     <nc-law-refs class="bill__ref" [refs]="line.refs" />
                   }
                 </th>

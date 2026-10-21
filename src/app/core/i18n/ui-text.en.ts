@@ -67,7 +67,7 @@ export const UI_TEXT_EN: UiText = {
     startReading: 'Start with chapter 1',
     progress: (read, total) => `${read} of ${total} chapters read`,
     libraryAndTools: 'Library and tools',
-    lawsHint: '38 acts, with English for the cited articles',
+    lawsHint: '39 acts, with English for the cited articles',
     glossaryHint: 'Bulgarian terms with definitions',
     templatesHint: 'Deeds, powers of attorney, declarations',
     checklistsHint: 'Documents and checks per file type',
@@ -120,8 +120,8 @@ export const UI_TEXT_EN: UiText = {
       aml: 'Money laundering prevention',
       other: 'Other acts',
     },
-    officialNote:
-      'Unofficial consolidated text from lex.bg. Check the official text in the State Gazette (Държавен вестник) before you rely on it.',
+    officialNote: (source) =>
+      `Unofficial consolidated text from ${source}. Check the official text in the State Gazette (Държавен вестник) before you rely on it.`,
     euroNote:
       'Since 1 January 2026 amounts in leva count as euro at 1.95583 leva per euro (Art. 11–13 ЗВЕРБ).',
     inForce: 'In force',
@@ -278,7 +278,6 @@ export const UI_TEXT_EN: UiText = {
     additionalFee: 'Additional fee',
     vatLine: 'VAT 20% on the notarial fee',
     entryFeeLine: 'Entry fee, Registry Agency (no VAT)',
-    entryFeeSource: 'Art. 2, Tariff of the Registry Agency',
     localTax: (rate) => `Local tax on acquisition, ${rate}%`,
     total: 'Total',
     whoPays:
