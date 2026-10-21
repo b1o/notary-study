@@ -57,3 +57,13 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use the `providedIn: 'root'` option for singleton services
 - Prefer the `@Service` decorator over `@Injectable({providedIn: 'root'})` for new singleton services (Angular v22+)
 - Use the `inject()` function instead of constructor injection
+
+## This project
+
+- Read `README.md` for the folder structure and how the parts work.
+- Layers: `features/` and `layout/` may use `shared/` and `core/`; `shared/` may use `core/`; `core/` uses neither.
+- Every interface text goes into `core/i18n/ui-text.ts` and both language files. Never hard-code a text in a template.
+- Course content and law data are files in `public/data`. Run `bun run check:content` after a content change.
+- Styles use the tokens of `src/styles/_tokens.scss`. Do not use coloured side borders as decoration.
+- A value that the reader sets and that must survive a reload uses `storedSignal()` from `core/storage`.
+- Before a commit: `bun run lint`, `bun run test`, `bun run build`, and `bunx prettier --check "src/**/*.{ts,html,scss}"`.
