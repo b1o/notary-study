@@ -42,6 +42,24 @@
   outline: none;
 }
 
+/*
+ * A phone: the panel fills the screen, so there is no width to choose and no edge to drag
+ * (a 12 px edge is also too small for a finger). A swipe to the right closes the panel (app.ts).
+ */
+@media (width < 40rem) {
+  :host {
+    padding: 0;
+  }
+
+  .law-panel__handle {
+    display: none;
+  }
+
+  .law-panel__sheet {
+    border-radius: 0;
+  }
+}
+
 .law-panel__sheet {
   display: flex;
   flex: 1;

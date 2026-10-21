@@ -82,6 +82,11 @@ describe('findMatches', () => {
     expect(findMatches(ranked, 'нотариал', 10).total).toBe(3);
   });
 
+  it('ranks a title that starts with the query first', () => {
+    const terms = [item('Текст.', 'оттегляне на пълномощно'), item('Текст.', 'пълномощно')];
+    expect(findMatches(terms, 'пълномощно', 5).matches[0].item).toBe(terms[1]);
+  });
+
   it('finds a number only as a whole word', () => {
     const numbers = [item('Срокът по чл. 28 е кратък.'), item('Виж чл. 128.'), item('Чл. 28а.')];
     expect(findMatches(numbers, 'чл. 28', 5).matches.map((match) => match.item)).toEqual([

@@ -74,6 +74,10 @@
   margin-block-start: var(--space-5);
 }
 
+.quiz-actions .button {
+  white-space: nowrap;
+}
+
 .quiz-actions__hidden {
   visibility: hidden;
 }

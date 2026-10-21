@@ -100,7 +100,8 @@ const LETTER_OR_DIGIT = /[\p{L}\p{N}]/u;
 
 /**
  * How a text ranks: the score of each word of the query (the text must have every word), two
- * more for the whole query of two or more words, and two more again when the title has the query.
+ * more for the whole query of two or more words, two more again when the title has the query, and
+ * one more when the title starts with it (the term "пълномощно" before "оттегляне на пълномощно").
  * A query of one word gets no points for the whole query: they would only repeat its own score.
  */
 function score(text: SearchText, terms: readonly QueryWord[], phrase: string): number {
@@ -112,7 +113,8 @@ function score(text: SearchText, terms: readonly QueryWord[], phrase: string): n
   }
   const inTitle = text.title.includes(phrase);
   const inText = terms.length > 1 && text.folded.includes(phrase);
-  return rank + (inTitle || inText ? 2 : 0) + (inTitle ? 2 : 0);
+  const titleStarts = text.title.startsWith(phrase);
+  return rank + (inTitle || inText ? 2 : 0) + (inTitle ? 2 : 0) + (titleStarts ? 1 : 0);
 }
 
 /** The text of an item with the best rank, if the item matches. */

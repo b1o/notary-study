@@ -81,7 +81,11 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
 - **Law panel.** `LawPanelService` holds the shown provision, its history and the panel width.
   The panel shows the article with the cited paragraph marked, the heading path, the neighbouring
   articles, the other articles of the section, the chapter sections that cite the article, and the
-  glossary terms. Drag its left edge, or focus the edge and use the arrow keys, to resize it.
+  glossary terms. Drag its left edge, or focus the edge and use the arrow keys, to resize it. On a
+  phone the panel fills the screen and has no edge to drag.
+- **Gestures.** On a small screen, a swipe to the right from the left edge opens the navigation, a
+  swipe to the left closes it, and a swipe to the right on the law panel closes the panel
+  (`shared/dom/swipe.ts`, handled in `app.ts`). Vertical scrolling stays with the browser.
 - **Templates.** A template is plain text, so that the copy button gives it as it is.
   `core/reference/document-layout.ts` finds its title, register line, headings, signatures and the
   certification of the notary; `DocumentSheet` sets them like the paper document, with the seal and

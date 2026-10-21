@@ -130,6 +130,7 @@ p {
   display: grid;
   gap: 1.25em;
   margin-block-start: 2em;
+  container-type: inline-size;
 }
 
 .sheet__row {
@@ -178,6 +179,26 @@ p {
   line-height: 1.4;
   text-align: center;
   color: var(--color-ink-2);
+}
+
+/* A narrow sheet (a phone): the role above the line, and the line as wide as there is room. */
+@container (width < 24em) {
+  .sheet__signer {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'role role'
+      'lines seal'
+      'note seal';
+    inline-size: 100%;
+  }
+
+  .sheet__lines {
+    flex-direction: column;
+  }
+
+  .sheet__line {
+    inline-size: 100%;
+  }
 }
 
 /* The place of the seal: a ring of stamp ink, a little turned, as a hand stamps it. */

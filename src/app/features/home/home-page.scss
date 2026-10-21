@@ -54,8 +54,14 @@
   color: var(--color-ink-2);
 }
 
+/* The bar gives way on a narrow page, so the count stays on one line. */
 .resume__progress progress {
   flex: 0 1 12rem;
+  min-inline-size: 4rem;
+}
+
+.resume__progress span {
+  white-space: nowrap;
 }
 
 .home-section + .home-section {

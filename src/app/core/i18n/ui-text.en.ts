@@ -209,7 +209,7 @@ export const UI_TEXT_EN: UiText = {
     chapterTestIntro: (count, passMark) =>
       `${count} questions. You pass with ${passMark}% or more. The answers show at the end.`,
     question: (index, total) => `Question ${index} of ${total}`,
-    previous: 'Previous question',
+    previous: 'Back',
     next: 'Next question',
     finish: 'See the result',
     correct: 'Right',

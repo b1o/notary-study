@@ -74,6 +74,13 @@
   }
 }
 
+/* A phone: the panel covers the whole screen and keeps no chosen width (law-panel.scss hides the edge). */
+@media (width < 40rem) {
+  .app-panel {
+    inline-size: 100vw;
+  }
+}
+
 /* Small screens: the navigation becomes a drawer, opened from the bar at the top. */
 @media (width < 64rem) {
   :host {

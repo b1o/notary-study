@@ -209,7 +209,7 @@ export const UI_TEXT_BG: UiText = {
     chapterTestIntro: (count, passMark) =>
       `${count} въпроса. Тестът се издържа с поне ${passMark}%. Отговорите се показват в края.`,
     question: (index, total) => `Въпрос ${index} от ${total}`,
-    previous: 'Предишен въпрос',
+    previous: 'Назад',
     next: 'Следващ въпрос',
     finish: 'Виж резултата',
     correct: 'Вярно',

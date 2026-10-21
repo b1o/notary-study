@@ -123,6 +123,13 @@ kbd {
   color: var(--color-ink-2);
 }
 
+/* A touch screen has no keys to name. */
+@media (pointer: coarse) and (hover: none) {
+  kbd {
+    display: none;
+  }
+}
+
 /* Each grade button names its key, and tells the box and the day the card comes back. */
 .grade-actions {
   display: grid;
