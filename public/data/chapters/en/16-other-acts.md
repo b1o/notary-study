@@ -25,7 +25,7 @@ The fee is 20 leva (10.23 €) for the invitation; the other copies are charged 
 
 ## Serving at an address: the rules
 
-The employee who serves acts as the **server** ({{връчител}}). The rules come from the Civil Procedure Code and apply to notarial service "under the conditions and procedure" of Art. 37–58 ([[znnd:50]]).
+The employee who serves acts as the **server** ({{връчител}}). The rules come from the Civil Procedure Code and apply to notarial service "under the conditions and procedure" of Art. 37–58 ([[znnd:50]]). These articles are written for court papers; the office applies them to invitations accordingly, so the papers stay at the notary office instead of the court.
 
 ### Where
 
@@ -106,11 +106,13 @@ The notary may accept documents and papers for **safekeeping** ({{съхране
 - On return, a **handover protocol** is signed by the requester, the requester's heirs or a special agent, and entered in the register ([[gpk:594:2]]).
 - A case file is opened for each deposit ([[n32:10:1]]); the register of holographic wills and deposits records it ([[n32:9:2]]).
 
+The fee is 30 leva (15.34 €) for documents without a material interest ([[tarifa:1]]) and 50% of item 8, at least 30 leva, for documents with a material interest ([[tarifa:9]]); the return costs 10 leva (5.11 €) ([[tarifa:2]]).
+
 Holographic wills follow the special rules of the Inheritance Act (chapter 22).
 
 ## Inquiries and certificates
 
-The notary gives **inquiries** from the notarial books, and certificates about acts performed or about a person ([[gpk:569]]). Only the parties, their successors and their representatives receive information from case files ([[znnd:28а:4]]). The fee is 2 leva for an oral inquiry and 10 leva for a certificate ([[tarifa:7]]).
+The notary gives **inquiries** from the notarial books, and certificates about acts performed or about a person ([[gpk:569]]). Only the parties, their successors and their representatives receive information from case files ([[znnd:28а:4]]). The fee is 2 leva (1.02 €) for an oral inquiry and 10 leva (5.11 €) for a certificate ([[tarifa:7]]).
 
 ## Protests
 

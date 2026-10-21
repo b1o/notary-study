@@ -38,4 +38,4 @@ Facts verified. Card 13 (distraint) has no provision; cite ГПК Art. 452–453
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 3, 4, 7 and 8 fixed; 2 verified (Art. 3(1) items 1–2 ЗОПБ: 10,000 лв., related payments added up); 6 kept (the table already names the Registry Agency tariff); "Tools menu" replaced by "the menu". Card 13 for pass 3.

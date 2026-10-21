@@ -23,7 +23,7 @@ A breach of the rule of personal appearance makes the certification **null** ([[
 ### Step by step
 
 1. **Ask what the document is for.** If it serves a deal that needs a special form, check that a signature certification is enough. A power of attorney to sell real estate needs signature **and content at the same time** ([[zzd:37]]).
-2. **Read the document.** The notary must not certify documents against the law ([[gpk:574]]). Blank spaces in the text are crossed out before signing. Do not certify a signature on a blank sheet or on a document with missing essential parts.
+2. **Read the document.** The notary must not certify documents against the law ([[gpk:574]]). Blank spaces in the text are crossed out before signing. Do not certify a signature on a blank sheet or on a document with missing essential parts: the certification covers a document with content ([[gpk:590:1]], [[gpk:580]]).
 3. **Check identity and capacity** (chapter 7).
 4. **The person signs** before the notary or confirms the existing signature; for real estate documents, also writes the full name.
 5. **Prepare the endorsement.** Most offices use stamps of the approved model ([[n32:17]]).
@@ -42,7 +42,7 @@ A breach of the rule of personal appearance makes the certification **null** ([[
 
 ### Documents in a foreign language
 
-If a private document is in a foreign language and is not subject to entry, the rule on interpreters applies accordingly ([[gpk:589:3]]). In practice the notary must understand the content to check its legality. When the notary does not know the language, the office asks for a translation or certifies only a bilingual document.
+If a private document is in a foreign language and is not subject to entry, the rule on interpreters applies accordingly: the notary appoints an interpreter when the notary does not know the language ([[gpk:589:3]], [[gpk:582]]). The notary must understand the content to check its legality. In practice, when the notary does not know the language, the office asks for a translation or certifies only a bilingual document.
 
 ## Certification of content
 
@@ -102,7 +102,7 @@ When certifying a copy, the notary **compares the copy with the original** and s
 | Content without material interest, first copy: first page / each further page (other copies are charged as copies) | [[tarifa:4]] | 10 / 2 лв. (5.11 / 1.02 €) |
 | Copy: first page / each further page | [[tarifa:6]] | 3 / 2 лв. (1.53 / 1.02 €) |
 | Signatures on a contract with a material interest | [[tarifa:10]] | 30% of item 8, at least 30 лв. (15.34 €) |
-| Signatures on a contract subject to entry, content with a material interest | [[tarifa:9]] | 50% of item 8, at least 30 лв. |
+| Signatures on a contract subject to entry, content with a material interest | [[tarifa:9]] | 50% of item 8, at least 30 лв. (15.34 €) |
 | Unilateral statement with a material interest (receipt, consent to delete a mortgage) | [[tarifa:12]] | Half of item 10, at least 25 лв. (12.78 €) |
 
-Add VAT if the notary is registered for VAT, and the additional fee for work outside the office ([[tarifa:23]]). The fee calculator in the Tools menu does the arithmetic.
+Add VAT if the notary is registered for VAT, and the additional fee for work outside the office ([[tarifa:23]]). The fee calculator in the menu does the arithmetic.

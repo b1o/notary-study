@@ -31,7 +31,7 @@ The answers decide which documents you need. Ask:
 | Document of ownership, **entered** | Ownership check ([[gpk:586]]); unentered title stops the deed ([[gpk:586:4]]) | Earlier notary / court / municipality |
 | For inherited property: certificate of heirs, the deceased's document of ownership, any will | Ownership by inheritance (chapter 11) | Municipality; earlier notary |
 | Certificate of **tax assessment** under Art. 264(1) ДОПК ({{удостоверение за данъчна оценка}}) | Base for fees and tax; shows unpaid property taxes ([[dopk:264:1]], [[zmdt:46:2]]) | Municipality, local taxes department |
-| **Sketch** of the plot or **scheme** of the separate object, from the cadastral map | Required for the entry ([[zkir:77]]) | Cadastre office (АГКК, online) |
+| **Sketch** of the plot or **scheme** of the separate object, from the cadastral map | Required for the entry; a sketch-project or scheme-project when the deal forms new or changed properties ([[zkir:77]]) | Cadastre office (АГКК, online) |
 | Declaration on citizenship and marital status | [[znnd:25:8]] | Signed at the office |
 | For a co-owned share sold to a third person: proof of the offer to co-owners | [[zs:33]] | Usually a notarial invitation |
 | For a company: current status, decision of the general meeting or owner | [[tz:137:4]], [[tz:147:2]] | Commercial Register; notary |
@@ -117,7 +117,7 @@ Check whether the property is **common** (chapter 10). If yes, both spouses sign
 | Notarial fee | Both parties equally ([[zzd:186]]) | Item 8 on the higher of price and tax assessment | [[tarifa:8]], [[znnd:96:3]] |
 | VAT on the notarial fee | With the fee | 20%, if the notary is VAT-registered | — |
 | Entry fee | With the notarial costs | 0.1% of the material interest, at least 10 лв. (5.11 €) | Registry Agency tariff |
-| Local tax on acquisition | The **acquirer** ([[zmdt:45:1]]) | 0.1–3% of the higher of price and tax assessment, set by the municipality | [[zmdt:46]], [[zmdt:47:2]] |
+| Local tax on acquisition | The **acquirer** ([[zmdt:45:1]]) | 0.1–3% of the higher of price and tax assessment, in euro, set by the municipality | [[zmdt:46]], [[zmdt:47:2]] |
 
 > [!example] A worked example
 > A flat in Varna sells for **150,000 €**; its tax assessment is 60,000 €. The base is 150,000 € (= 293,374.50 лв.).
@@ -155,11 +155,11 @@ The clerk takes the deed to the registry office of the district of the property:
 
 ## 9. After the deal
 
-- **Notice to the municipality.** Within **7 days** of the deal, the notary informs the municipality about the transferred rights and the amount and base of the tax paid ([[zmdt:51:2]]). The registry office also informs the municipality ([[zmdt:51:1]]); the municipal officer then sets the new owner's annual property tax ([[zmdt:51:5]]). The buyer does **not** file a tax declaration for a property acquired this way ([[zmdt:14:3]]).
+- **Notice to the municipality.** Within **7 days** of the deal, the notary informs the municipality about the transferred rights and the amount and base of the tax paid ([[zmdt:51:2]]). The registry office also informs the municipality ([[zmdt:51:1]]); the municipal officer then sets the new owner's annual property tax within one month ([[zmdt:51:5]]). The buyer does **not** file a tax declaration for a property acquired this way ([[zmdt:14:3]]).
 - **Payment to the seller** from the special account, when the agreed conditions are met.
 - **Copies** to the parties against signature ([[n32:20:2]]).
 - **Archive**: the case file holds the request, the signed copy, the declarations, the proof of representation and the bill ([[n32:11]]).
 - The buyer handles utilities and the condominium registration.
 
 > [!task] Practice
-> Open the checklist "Sale of an apartment" in the Tools menu and work through a file: Ivan and Elena, married since 2005, sell a flat bought in 2010 in Ivan's name to Georgi, a single buyer who pays with a bank loan. Which spouse signs? Which documents come from the bank? Who pays which cost by default?
+> Open the example checklist "Sale of an apartment" from the menu and work through a file: Ivan and Elena, married since 2005, sell a flat bought in 2010 in Ivan's name to Georgi, a single buyer who pays with a bank loan. Which spouse signs? Which documents come from the bank? Who pays which cost by default?

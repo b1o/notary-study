@@ -36,4 +36,4 @@ Facts verified. Rework 3 cards into case form (a document signed at home; a copy
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 3 and 4 fixed; the euro amount of item 9 added; "Tools menu" replaced by "the menu" (the app has no Tools menu: the calculator sits in the Reference group); the others kept.

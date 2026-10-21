@@ -34,4 +34,4 @@ Facts verified. Rework 3 cards into case form (a minor at the door; a company wi
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2, 5 and 6 fixed; the others kept.

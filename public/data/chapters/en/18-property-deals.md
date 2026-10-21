@@ -61,7 +61,7 @@ Key points for the deed:
 - Created by a deed, or reserved in a sale or gift ([[zs:56]]).
 - Material interest: the market rent for the whole term, and if no term is set, for **3 years** ([[znnd:96:2]]).
 - It ends at the holder's death, or when the holder is a legal entity, when it ends; it also ends by non-use for 5 years or when the property perishes ([[zs:59]]).
-- The holder may **waive** the right. A waiver of a real right in real estate is entered ([[pv:4]]); it needs at least a notarially certified signature.
+- The holder may **waive** the right. A waiver of a real right in real estate is entered ([[pv:4]]); an act for entry is in notarial form or carries a notarially certified signature ([[pv:3:1]]).
 
 ## Voluntary partition (доброволна делба)
 
@@ -81,7 +81,7 @@ Key points for the deed:
 - A mortgage may secure one's own debt or another person's debt ([[zzd:149]]). A child's property can secure another's debt only with court permission in exceptional cases ([[sk:130:4]]).
 - Priority follows the order of entry ([[zzd:169]]). The entry is effective for 10 years and can be renewed ([[zzd:172]]).
 - An agreement that the creditor becomes the owner if the debt is not paid, or any other agreed way of satisfaction different from the law, is **invalid** ([[zzd:152]]).
-- Material interest: the secured amount ([[znnd:97:1]]).
+- Material interest: the secured amount, as the nominal value of a monetary claim under item 7 of Art. 97(1) ([[znnd:97:1]]).
 
 ### The statutory mortgage
 
@@ -93,7 +93,7 @@ A transfer, pledge or attachment of a claim secured by a mortgage needs written 
 
 ### Deleting a mortgage
 
-The entry of a mortgage is deleted on the creditor's **consent in notarially certified form** or on a final court decision, by a request with the consent attached ([[zzd:179]]). The fee for certifying the creditor's consent is half of the item 10 fee, at least 25 leva ([[tarifa:12]]). The registry office charges half of the entry fee for a deletion.
+The entry of a mortgage is deleted on the creditor's **consent in notarially certified form** or on a final court decision, by a request with the consent attached ([[zzd:179]]). The fee for certifying the creditor's consent is half of the item 10 fee, at least 25 leva ([[tarifa:12]]). Under the tariff of the Registry Agency, the registry office charges half of the entry fee for a deletion.
 
 > [!example] A sale with a bank loan
 > One morning, three acts: (1) the seller's bank certifies its consent to delete the seller's old mortgage, paid from the price; (2) the sale deed; (3) the buyer's mortgage deed in favour of the buyer's bank. The clerk takes the deletion, the sale and the new mortgage to the registry office the same day, in that order. The buyer's bank pays the seller after the entry.

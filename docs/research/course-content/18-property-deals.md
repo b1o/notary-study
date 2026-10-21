@@ -33,4 +33,4 @@ Facts verified. Rework 3 cards into case form (a gift to a minor; a right of use
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2, 3 and 4 fixed; the others kept. The gift-tax table gives rates only, so the base question of the polish-pass session (Art. 46(2) item 1: the tax assessment for a gift) needed no change here.
