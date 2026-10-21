@@ -33,4 +33,4 @@ Facts verified. Rework 3 cards into case form (a will for a house in another dis
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2 and 4 fixed; the others kept.

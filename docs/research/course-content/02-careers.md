@@ -40,4 +40,4 @@ Facts verified. Rework 4 cards into condition/consequence form (substitute requi
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit 976cca7): findings 1, 3, 4, 5 and 6 fixed; 2 and 7 kept. The lesson now names the case and the decision and says that the limit stays in the text in force; the outcome of the decision still needs a check by a person.

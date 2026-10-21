@@ -50,7 +50,7 @@ Majorities: decisions under items 1, 2 and 9 need more than three quarters of th
 
 - A share ({{дружествен дял}}) can be transferred and inherited. A transfer between partners is free. A transfer to a **third person** needs the admission of a new partner by the general meeting and requires that the company has **no unpaid wages, compensations or mandatory social contributions** of its workers, including those who left in the last three years ([[tz:129:1]]).
 - **Form:** a contract with notarial certification of the **signatures and content, made at the same time** ([[tz:129:2]]).
-- The transfer is entered in the Commercial Register after the registration officer checks electronically at the National Revenue Agency that the company and the transferor have no unpaid enforceable public debts for social contributions, and after the manager and the transferor declare that there are no other unpaid debts to workers ([[tz:129:2]]).
+- The transfer is entered in the Commercial Register after the manager and the transferor declare that there are no unpaid debts to workers; from 2 April 2027 the registration officer also checks electronically at the National Revenue Agency that the company and the transferor have no unpaid enforceable public debts for social contributions ([[tz:129:2]]).
 - A mayor may not certify such signatures ([[znnd:83:2]]).
 
 The fee: when the Commerce Act or the Special Pledges Act requires the content to be certified together with the signatures, the notary charges an **ordinary fee** from section I of the tariff, not a proportional fee on the price ([[znnd:90:2]], [[tarifa:4]], [[tarifa:5]]).
@@ -60,17 +60,17 @@ The fee: when the Commerce Act or the Special Pledges Act requires the content t
 - An enterprise as a whole, with its rights, obligations and factual relations, can be transferred by a written contract with notarial certification of the **signatures and content, made at the same time** ([[tz:15:1]]).
 - The transferor must notify the creditors and the debtors ([[tz:15:1]]).
 - Unless agreed otherwise with the creditors, the transferor is jointly liable with the acquirer up to the value of the rights received ([[tz:15:3]]).
-- The transfer is entered in the Commercial Register for both parties, after a check for unpaid social contributions and a declaration about unpaid wages ([[tz:16]]).
+- The transfer is entered in the Commercial Register for both parties, after a declaration about unpaid wages; from 2 April 2027 also after a check for unpaid social contributions ([[tz:16]]).
 - For six months after the entry, the acquirer manages the enterprise separately, and creditors may ask for performance or security ([[tz:16а]]).
 - The material interest for the fee is the book value of the fixed assets for the last quarter ([[znnd:97:1]]).
 
 ## Representation through procurators and commercial agents
 
-A **procurator** ({{прокурист}}) manages the enterprise and may perform all acts connected with the business, but may not sell or encumber real estate without special authorisation ([[tz:21]], [[tz:22]]). The procuration is effective towards third parties after its entry in the Commercial Register ([[tz:24]]). A **commercial agent** ({{търговски пълномощник}}) performs only the acts stated in the power ([[tz:26]]).
+A **procurator** ({{прокурист}}) manages the enterprise and may perform all acts connected with the business, but may not sell or encumber real estate without special authorisation ([[tz:21]], [[tz:22]]). The procuration is given in writing with notarially certified signatures and is entered in the Commercial Register with a specimen of the procurator's signature ([[tz:21:1]]); it is effective towards third parties after the entry ([[tz:24]]). A **commercial agent** ({{търговски пълномощник}}) performs only the acts stated in the power, which is written with a notarially certified signature; real estate, bills of exchange, loans and litigation need an express authorisation ([[tz:26:1]], [[tz:26:2]]). Both powers are notarial work.
 
 ## Special pledges
 
-A **special pledge** ({{особен залог}}) is a pledge without handing over the property, for example over machines, receivables, company shares or a whole enterprise ([[zoz:1]], [[zoz:4]]). The pledgor must as a rule be a merchant ([[zoz:3]]).
+A **special pledge** ({{особен залог}}) is a pledge without handing over the property, for example over machines, receivables, company shares or a whole enterprise ([[zoz:1]], [[zoz:4]]). The pledgor must as a rule be a merchant, with exceptions, for example a pledge of company shares by any person ([[zoz:3]]).
 
 - The pledge arises by **entry** in the Central Register of Special Pledges on the basis of a pledge contract ([[zoz:2:1]]).
 - The contract is in **written form**, and in the cases provided in the act, in written form with **notarially certified signatures**. Every consent of the pledgee is given in writing with a **notarially certified signature** ([[zoz:2:2]], [[zoz:2:3]]).
@@ -86,4 +86,4 @@ A bill of exchange ({{менителница}}) and a promissory note ({{зап�
 - The notary enters the content of the protest in the register and issues copies; the original goes to the holder ([[tz:504]]).
 - A holder who misses the protest deadlines loses the claims against the endorsers and the drawer ([[tz:514]]). The drawer or an endorser may waive the protest by the clause "без разноски" (without costs) ([[tz:500]]).
 
-The fee for a protest is 50% of the item 8 fee, at least 30 leva ([[tarifa:9]]). Chapter 16 explains how the notary visits the debtor.
+The fee for a protest is 50% of the item 8 fee, at least 30 leva (15.34 euro) ([[tarifa:9]]). Chapter 16 explains how the notary visits the debtor.

@@ -33,4 +33,4 @@ Facts verified. Rework 3 cards into case form (the race to entry, a reserved rig
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 3 and 4 fixed; 5 verified (Art. 96(2) item 1 ЗННД: 90 % of the market price of the land); the others kept.

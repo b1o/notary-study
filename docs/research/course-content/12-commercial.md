@@ -39,4 +39,4 @@ Facts verified. Rework 3 cards into case form (a protocol without certification;
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 1, 3, 4 and 6 fixed; 5 verified (Art. 97(1) item 2 ЗННД); the others kept.

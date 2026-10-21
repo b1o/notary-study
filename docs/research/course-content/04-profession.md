@@ -39,4 +39,4 @@ Facts verified. Rework 4 cards into consequence form (liability limit as a case,
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit 976cca7): findings 1, 2, 5 and 6 fixed; 3 and 4 kept; 7: Art. 25(4) and (7) are repealed, so there is nothing to cite.

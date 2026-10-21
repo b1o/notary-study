@@ -33,4 +33,4 @@ Facts verified. Rework 3 cards into case form (a flat bought with premarital mon
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 2, 3, 5, 6 and 8 fixed; the others kept.

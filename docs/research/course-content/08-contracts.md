@@ -33,4 +33,4 @@ Facts verified. Rework 3 cards into case form (earnest money both ways, the leas
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 1, 2, 3 and 4 fixed; the others kept.

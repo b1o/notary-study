@@ -38,4 +38,4 @@ Facts verified. Rework 4 cards into case form (witness exclusions, the end of a 
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 4, 7 and 9 fixed; 2 and 3 verified against the items of Art. 13(1) ЗБЛД and Art. 3(2) of the ordinance; the others kept.

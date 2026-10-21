@@ -1,6 +1,6 @@
 ## Opening of the inheritance
 
-The inheritance opens at the moment of **death**, at the **last domicile** of the deceased ([[zn:1]]). A person who was not conceived at that moment, or who was born not capable of living, cannot inherit ([[zn:2]]). A person who killed or tried to kill the deceased, falsely accused the deceased of a crime, or forced or prevented a will by violence or fraud is **unworthy** and does not inherit ([[zn:3]]), unless the deceased expressly forgave them by an act with notarially certified content or by a will ([[zn:4]]).
+The inheritance opens at the moment of **death**, at the **last domicile** of the deceased ([[zn:1]]). A person who was not conceived at that moment, or who was born not capable of living, cannot inherit ([[zn:2]]). A person who killed or tried to kill the deceased, falsely accused the deceased of a crime, forced or prevented a will by violence or fraud, or destroyed, hid or altered a will or knowingly used a false one, is **unworthy** and does not inherit ([[zn:3]]), unless the deceased expressly forgave them by an act with notarially certified content or by a will ([[zn:4]]).
 
 ## Heirs by law
 
@@ -14,7 +14,7 @@ The inheritance opens at the moment of **death**, at the **last domicile** of th
 | Spouse alone | Everything | [[zn:9:3]] |
 | Siblings only | Equal shares; half-siblings get half of what full siblings get | [[zn:8:1]], [[zn:8:3]] |
 | Siblings and grandparents | Siblings 2/3, grandparents 1/3 | [[zn:8:2]] |
-| Nobody up to the 6th degree of collateral relationship | The state; dwellings, studios, garages and housing plots go to the municipality | [[zn:8:4]], [[zn:11]] |
+| Nobody up to the 6th degree of collateral relationship | The state; dwellings, studios, garages, housing plots and movable things go to the municipality | [[zn:8:4]], [[zn:11]] |
 
 **Representation.** Descendants of a child who died before the deceased take the child's place without limit of degree. Siblings who died earlier are replaced only by their children or grandchildren. They inherit **per stirpes** ({{по коляно}}) ([[zn:10]]).
 
@@ -48,7 +48,7 @@ Only the notary personally makes a notarial will; an assistant notary may not ([
 
 ### Announcing a holographic will
 
-The person who holds a holographic will must ask a notary to announce it **as soon as** they learn of the testator's death ([[zn:27:1]]). The notary announces it by a protocol that describes the condition of the will and its opening, signed by the person who presented it and by the notary; the will is attached to the protocol, countersigned on every page ([[zn:27:3]]). If the will was deposited with a notary, that notary announces it ([[zn:27:4]]). Chapter 22 shows the procedure in the office.
+The person who holds a holographic will must ask a notary to announce it **as soon as** they learn of the testator's death ([[zn:27:1]]). Any interested person may ask the district judge to set a deadline for presenting the will to the notary ([[zn:27:2]]). The notary announces it by a protocol that describes the condition of the will and its opening, signed by the person who presented it and by the notary; the will is attached to the protocol, countersigned on every page ([[zn:27:3]]). If the will was deposited with a notary, that notary announces it ([[zn:27:4]]). Chapter 22 shows the procedure in the office.
 
 ### Revocation
 
@@ -71,7 +71,7 @@ Descendants, parents and the spouse have a **reserved portion** ({{запазе�
 
 Source: [[zn:29]].
 
-An heir whose reserved portion is affected may ask for the **reduction** of wills and gifts ([[zn:30]]). To calculate it, all gifts (except usual presents) are added back to the estate ([[zn:31]]). Wills are reduced first; gifts are reduced only after that, starting from the **latest** gift ([[zn:32]], [[zn:33]]). Transfers by the recipient of a gift made within one year of the opening of the inheritance can be set aside in some cases ([[zn:37]]).
+An heir whose reserved portion is affected may ask for the **reduction** of wills and gifts ([[zn:30]]). To claim reduction against persons who are not legal heirs, the heir must have accepted the inheritance by inventory ([[zn:30:2]]). To calculate it, all gifts (except usual presents) are added back to the estate ([[zn:31]]). Wills are reduced first; gifts are reduced only after that, starting from the **latest** gift ([[zn:32]], [[zn:33]]). Transfers by the recipient of a gift made within one year of the opening of the inheritance can be set aside in some cases ([[zn:37]]).
 
 > [!warn] Why this matters for buyers
 > A buyer who buys a house that the seller received as a **gift** from a parent who died recently takes a risk: the other children may ask for reduction. Staff should flag gifts from parents in the history of the property, and the notary explains the risk.
@@ -83,8 +83,8 @@ An heir whose reserved portion is affected may ask for the **reduction** of will
 - Any interested person can ask the district judge to set a deadline for the heir to accept or renounce; silence means loss of the right ([[zn:51]]).
 - **Renunciation** ({{отказ от наследство}}) is made the same way, by a written statement to the **district judge**, and is entered in the same book ([[zn:52]]). The shares of the others grow ([[zn:53]]).
 - Acceptance or renunciation under a condition, with a term or for a part of the inheritance is **invalid** ([[zn:54]]).
-- **Acceptance by inventory** ({{приемане по опис}}) limits liability to the value of the estate ([[zn:60:2]]). It is declared in writing to the district judge within **three months** of learning of the opening (extendable by three months) ([[zn:61:1]]). Persons without capacity, the state and public organisations accept only by inventory ([[zn:61:2]]). The heir may not dispose of inherited real estate for **five years** without court permission ([[zn:65]]).
-- Creditors of an heir who renounced can ask for the renunciation to be annulled in their favour ([[zn:56]]).
+- **Acceptance by inventory** ({{приемане по опис}}) limits liability to the value of the estate ([[zn:60:2]]). It is declared in writing to the district judge within **three months** of learning of the opening (extendable by three months) ([[zn:61:1]]). Persons without capacity, the state and public organisations accept only by inventory ([[zn:61:2]]). The heir may not dispose of inherited real estate for **five years**, and of movables for three years, without court permission ([[zn:65]]).
+- Creditors of an heir who renounced can ask for the renunciation to be annulled in their favour, within one year of learning of it and at most three years after the renunciation ([[zn:56]]).
 
 > [!note] What the notary does here
 > Acceptance and renunciation go to the **district court**, not to the notary. The notary often **certifies the signature** on the statement, especially when the heir sends it by post or through a representative. For minors, the Family Code treats a waiver of rights as void ([[sk:130:4]]), and minors accept an inheritance only by inventory ([[zn:61:2]]). Check the current case law before any renunciation in the name of a child.
@@ -111,4 +111,4 @@ The surviving spouse and the heirs in the direct line pay **no inheritance tax**
 For deaths since 17 August 2015, the EU Succession Regulation (EU) No 650/2012 applies in Bulgaria: as a rule, the law of the deceased's last **habitual residence** governs the whole succession, and a person may choose the law of their nationality in a will. The European Certificate of Succession issued in another Member State proves the status of heirs in Bulgaria without a special procedure.
 
 > [!reform] Draft law 2026
-> The Ministry of Justice draft of August 2026 would create a central information system of wills at the Notary Chamber, searchable only after the death, and a one-month period for objections before copies of announced holographic wills are issued, when the will was brought by a person other than the testator. Check the State Gazette before you rely on these rules.
+> The Ministry of Justice draft of August 2026 would enter announced wills in the information system of the Notary Chamber, publish a notice of each announced holographic will on the site of the Chamber, and give one month for objections before copies of the will are issued. Check the State Gazette before you rely on these rules.

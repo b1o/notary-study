@@ -34,4 +34,4 @@ Facts verified. Rework 3 cards into "what follows" form (an assistant's deed; a 
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): finding 1 fixed (date and publisher); 2 verified (Art. 17а(2) item 1 ПЛЗП names notarial acts and certifications); 3–6 kept.

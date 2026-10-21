@@ -31,4 +31,4 @@ Facts verified. Rework 3 cards into case form (a deed signed at home; an unenter
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2 and 3 fixed; the condition of Art. 582 ГПК (the notary does not know the language) added to the interpreter bullet; 4 kept; 5 for pass 3.

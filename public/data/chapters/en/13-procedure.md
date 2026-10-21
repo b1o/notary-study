@@ -45,7 +45,7 @@ The distinction matters for recusal (below), for the identity checks and for the
 ## Place and time
 
 - Deeds for entry are issued **only in the office** and **only in working hours** ([[gpk:573:2]]).
-- Other acts may be performed outside the office and out of hours when good reasons prevent the participants from coming, or when the act must be done at once ([[gpk:573:3]]). Example: certifying the signature of a patient in a hospital on a power of attorney. An additional fee applies ([[tarifa:23]]).
+- Other acts may be performed outside the office and out of hours when good reasons prevent the participants from coming, or when the act must be done at once ([[gpk:573:3]]). Example: certifying the signature of a patient in a hospital on a power of attorney. An additional fee applies: 25% outside the office in working hours or in the office out of hours, 50% outside the office out of hours or outside the town, and double outside the office, out of hours and outside the town ([[tarifa:23]]).
 
 ## Legality
 
@@ -101,7 +101,7 @@ The notary refuses to perform an act when the conditions are not met: a missing 
 ## What a notarial act gives the client
 
 - **Proof.** A notarial act is an official document: it proves the statements made before the notary and the acts done by the notary ([[gpk:179:1]]).
-- **Enforcement.** A notarial deed, a settlement or another contract with notarially certified signatures, about obligations to pay money or to hand over things, allows the creditor to ask a court for an **order for immediate enforcement**, regardless of the amount ([[gpk:417]], [[gpk:418]]). This is why lenders prefer a notarial form.
+- **Enforcement.** A notarial deed, a settlement or another contract with notarially certified signatures, about obligations to pay money or to hand over things, allows the creditor to ask a court for an **order for immediate enforcement**, regardless of the amount ([[gpk:417]], [[gpk:418]]). This is why lenders prefer a notarial form. Since 1 July 2025 the creditor presents the original of the notarial document: with a paper application, or within seven days after an electronic application ([[gpk:417:2]], [[gpk:417:3]]).
 - **Priority.** A deed entered in the property register can be relied upon against later acquirers (chapter 9).
 
 ## Fees

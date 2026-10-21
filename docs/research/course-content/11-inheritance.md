@@ -36,4 +36,4 @@ Facts verified. Rework 3 cards into calculation or case form (a spouse with thre
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2, 3, 4, 5, 6, 7 and 9 fixed; the others kept.

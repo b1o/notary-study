@@ -40,4 +40,4 @@ Facts verified. Rework 4 cards into consequence form (the two-hour rule as a cas
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 1, 5 and 10 fixed; the others kept.

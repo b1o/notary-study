@@ -67,13 +67,13 @@ The template library has full versions of this and other deeds.
 ### Special participants
 
 - A participant who cannot sign because of illiteracy or a disability puts the print of the **right thumb**; the deed is **not countersigned** by witnesses ([[gpk:579:2]], [[gpk:189]]).
-- A participant who does not know Bulgarian signs through an **interpreter** appointed by the notary ([[gpk:582]]).
+- A participant who does not know Bulgarian signs through an **interpreter** appointed by the notary, when the notary does not know the participant's language ([[gpk:582]]).
 - For deaf, mute or deaf-mute participants, the rules of [[gpk:583]] apply.
 - Witnesses and interpreters promise to tell the truth and sign the deed ([[gpk:585]]). They must not fall under [[gpk:584]].
 
 ### Corrections
 
-When the deed needs **corrections, additions or deletions**, an express note is made and signed **like the deed itself** ([[gpk:579:3]]). After the deed is signed and entered, an error is corrected only by a **correction deed** ({{акт за поправка}}) signed by the same parties; the tariff charges a fixed fee for it ([[tarifa:1]]).
+When the deed needs **corrections, additions or deletions**, an express note is made and signed **like the deed itself** ([[gpk:579:3]]). After the deed is signed and entered, an error is corrected only by a **correction deed** ({{акт за поправка}}) signed by the same parties; the tariff charges a fixed fee of 30 leva (15.34 euro) for it ([[tarifa:1]]).
 
 ## The ownership check
 
@@ -110,4 +110,4 @@ The declaratory deed contains the notary's data, the owner's full name and ident
 > A declaratory deed **certifies** ownership; it does not create it. It legitimises the holder as owner. A person who disputes it must prove in court that the holder is not the owner. A true owner who was not heard can still win in court.
 
 > [!reform] Stricter rules proposed in 2026
-> The Ministry of Justice draft of August 2026 would require the notary to collect written evidence as well as witness statements, allow the notary to require the personal appearance and a declaration of the applicant, announce each procedure publicly on the website and the notice board of the municipality, and allow the questioning of the witnesses no earlier than **30 days** after the announcement. These rules are not law yet.
+> The Ministry of Justice draft of August 2026 would require the notary to collect written evidence as well as witness statements, allow the notary to require the personal appearance and a declaration of the applicant, announce each procedure publicly on the website and the notice board of the municipality, and set a waiting period after the announcement before the witnesses are questioned. These rules are not law yet.
