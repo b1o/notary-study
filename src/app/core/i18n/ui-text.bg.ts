@@ -242,6 +242,8 @@ export const UI_TEXT_BG: UiText = {
     tax: 'Местен данък при придобиване (чл. 44–49 ЗМДТ)',
     taxKind: 'Вид придобиване',
     taxRate: 'Ставка на общината, %',
+    rateOutside: (min, max) =>
+      `Законът допуска ${min}–${max}%. Сметката използва най-близката граница.`,
     price: 'Уговорена цена, €',
     assessment: 'Данъчна оценка, €',
     buildingHint:

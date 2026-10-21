@@ -241,6 +241,7 @@ export const UI_TEXT_EN: UiText = {
     tax: 'Local tax on acquisition (Art. 44–49 ЗМДТ)',
     taxKind: 'Type of acquisition',
     taxRate: 'Rate of the municipality, %',
+    rateOutside: (min, max) => `The law allows ${min}–${max}%. The bill uses the nearest limit.`,
     price: 'Agreed price, €',
     assessment: 'Tax assessment (данъчна оценка), €',
     buildingHint:

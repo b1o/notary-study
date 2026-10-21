@@ -145,6 +145,28 @@
   accent-color: var(--color-accent);
 }
 
+/* A form control with its label above it: <label class="field"><span class="field__label">. */
+.field {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.field__label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-ink-2);
+}
+
+.field__hint {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-ink-3);
+}
+
+.field__hint--warn {
+  color: var(--color-warn);
+}
+
 /* A Bulgarian term inside English text ({{term}} in the course Markdown). */
 .term {
   font-style: italic;

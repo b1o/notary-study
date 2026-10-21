@@ -229,6 +229,7 @@ export interface UiText {
     readonly tax: string;
     readonly taxKind: string;
     readonly taxRate: string;
+    readonly rateOutside: (min: string, max: string) => string;
     readonly price: string;
     readonly assessment: string;
     readonly buildingHint: string;

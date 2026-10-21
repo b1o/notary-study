@@ -11,11 +11,17 @@ export function formatDate(iso: string, language: Language): string {
   });
 }
 
+/** A number as the reader's language writes it: "0,6" or "0.6". */
+export function formatNumber(value: number, language: Language): string {
+  return value.toLocaleString(LOCALES[language]);
+}
+
 /** An amount with two decimals and its currency: "1 234,50 €" or "1,234.50 лв.". */
 export function formatMoney(amount: number, currency: 'EUR' | 'BGN', language: Language): string {
   const number = amount.toLocaleString(LOCALES[language], {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   });
-  return currency === 'BGN' ? `${number} лв.` : `${number} €`;
+  // A no-break space keeps the currency on the line of its amount.
+  return currency === 'BGN' ? `${number}\u00a0лв.` : `${number}\u00a0€`;
 }
