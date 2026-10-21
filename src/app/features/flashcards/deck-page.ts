@@ -1,33 +1,40 @@
 import {
+  afterRenderEffect,
   Component,
   computed,
+  ElementRef,
   inject,
   input,
   linkedSignal,
   resource,
+  signal,
   untracked,
+  viewChild,
 } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 import { ContentService } from '../../core/content/content.service';
 import { LanguageService } from '../../core/i18n/language.service';
 import { MarkdownService } from '../../core/markdown/markdown.service';
 import { pageTitleEffect } from '../../core/page-title';
 import { FlashcardsService, SPECIAL_DECKS } from '../../core/study/flashcards.service';
-import { BOX_DAYS, studyOrder } from '../../core/study/leitner';
+import { BOX_DAYS, grade, studyOrder } from '../../core/study/leitner';
 import { MissingPage } from '../../shared/layout/missing-page';
 import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
+import { Icon } from '../../shared/ui/icon';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
 
 /**
  * Study one deck. The order is fixed when the deck opens (due cards first, then the lower
  * boxes), so a graded card does not jump back into the queue during the session.
+ * The card turns over to show the answer; the two grade buttons tell where the card goes.
  * Keys: Space shows the answer, 1 means "Again", 2 means "I knew it".
  */
 @Component({
   selector: 'nc-deck-page',
-  imports: [PageLayout, PageHeader, MissingPage, MarkdownContent, LoadStatus],
+  imports: [RouterLink, PageLayout, PageHeader, MissingPage, MarkdownContent, LoadStatus, Icon],
   templateUrl: './deck-page.html',
   styleUrl: './deck-page.scss',
   host: {
@@ -61,6 +68,11 @@ export default class DeckPage {
   protected readonly position = linkedSignal({ source: this.queue, computation: () => 0 });
   protected readonly flipped = linkedSignal({ source: this.position, computation: () => false });
   protected readonly total = computed(() => this.queue().length);
+  /** The grades of this session, for the summary at the end. */
+  protected readonly session = linkedSignal({
+    source: this.queue,
+    computation: () => ({ known: 0, again: 0 }),
+  });
 
   protected readonly card = computed(() => {
     const card = this.queue()[this.position()];
@@ -73,6 +85,19 @@ export default class DeckPage {
       box: this.flashcards.state(card.key).box,
       chapterNumber: card.chapterId !== this.deck() ? chapter?.number : undefined,
     };
+  });
+
+  /** Where each grade puts the current card: its box, and the days until it comes back. */
+  protected readonly outcomes = computed(() => {
+    const card = this.card();
+    if (!card) return undefined;
+    const state = this.flashcards.state(card.key);
+    const now = Date.now();
+    const outcome = (knewIt: boolean) => {
+      const { box } = grade(state, knewIt, now);
+      return { box, days: BOX_DAYS[box] };
+    };
+    return { again: outcome(false), knewIt: outcome(true) };
   });
 
   /** How many cards of the deck are in each box (0 = new). */
@@ -102,18 +127,43 @@ export default class DeckPage {
       !(SPECIAL_DECKS as readonly string[]).includes(this.deck()),
   );
 
+  private readonly front = viewChild<ElementRef<HTMLElement>>('front');
+  private readonly back = viewChild<ElementRef<HTMLElement>>('back');
+  private readonly end = viewChild<ElementRef<HTMLElement>>('end');
+  /** Set by the reader's first action, so that the page does not take the focus when it opens. */
+  private readonly studying = signal(false);
+
   constructor() {
     pageTitleEffect(() => this.title() || undefined);
+
+    // The focus follows the card: to the answer when it turns, to the next card after a grade,
+    // and to the summary after the last card.
+    afterRenderEffect(() => {
+      const flipped = this.flipped();
+      this.position();
+      if (!this.studying()) return;
+      (flipped ? this.back() : (this.front() ?? this.end()))?.nativeElement.focus();
+    });
+  }
+
+  protected flip(): void {
+    this.studying.set(true);
+    this.flipped.set(true);
   }
 
   protected grade(knewIt: boolean): void {
     const card = this.card();
     if (!card) return;
     this.flashcards.grade(card.key, knewIt);
+    this.session.update(({ known, again }) =>
+      knewIt ? { known: known + 1, again } : { known, again: again + 1 },
+    );
     this.position.update((position) => position + 1);
   }
 
   protected restart(): void {
+    this.studying.set(true);
+    this.session.set({ known: 0, again: 0 });
     this.position.set(0);
   }
 
@@ -123,7 +173,7 @@ export default class DeckPage {
     if (!this.card() || target?.closest('input, textarea, select')) return;
     if (event.key === ' ' && !this.flipped() && !target?.closest('button, a')) {
       event.preventDefault();
-      this.flipped.set(true);
+      this.flip();
     } else if (this.flipped() && (event.key === '1' || event.key === '2')) {
       this.grade(event.key === '2');
     }

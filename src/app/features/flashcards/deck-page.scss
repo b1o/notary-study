@@ -1,38 +1,164 @@
-.deck-position {
-  margin: 0 0 var(--space-3);
+.deck-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-block-end: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
 }
 
-/* The card: a raised sheet with the question; the answer appears under a line. */
+.deck-progress progress {
+  flex: 1;
+  max-inline-size: 16rem;
+}
+
+/*
+ * The card turns over around its vertical axis. The two faces lie in one grid cell; the back
+ * face starts turned away. Without motion (a setting) the duration is 0 and the card just changes.
+ */
 .flashcard {
   display: grid;
-  min-block-size: 12rem;
-  padding: var(--space-6);
-  border-radius: var(--radius-lg);
-  background: var(--color-paper);
-  box-shadow: var(--shadow-2);
+  perspective: 1600px;
   font-family: var(--font-reading);
   font-size: calc(var(--reading-size) * 1.1);
   line-height: 1.5;
 }
 
+.flashcard__face {
+  grid-area: 1 / 1;
+  display: grid;
+  min-block-size: 15rem;
+  padding: var(--space-5) var(--space-6) var(--space-6);
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-2);
+  color: var(--color-ink);
+  font: inherit;
+  text-align: start;
+  backface-visibility: hidden;
+  transition:
+    rotate calc(2 * var(--duration-medium)) var(--ease),
+    box-shadow var(--duration-fast) var(--ease);
+}
+
 .flashcard__front {
-  align-self: center;
-  font-weight: 550;
-  color: var(--color-ink-strong);
+  grid-template-rows: auto 1fr auto;
+  gap: var(--space-4);
+  cursor: pointer;
+}
+
+.flashcard__front:hover {
+  box-shadow: var(--shadow-3);
 }
 
 .flashcard__back {
-  margin-block-start: var(--space-5);
-  padding-block-start: var(--space-5);
-  border-block-start: 1px solid var(--color-line);
-  font-size: 0.92em;
+  align-content: start;
+  rotate: y 180deg;
 }
 
-.flashcard-actions {
+.flashcard__back:focus {
+  outline: none;
+}
+
+.flashcard--flipped .flashcard__front {
+  rotate: y -180deg;
+}
+
+.flashcard--flipped .flashcard__back {
+  rotate: y 0deg;
+}
+
+.flashcard__tags {
   display: flex;
   flex-wrap: wrap;
+  gap: var(--space-1);
+  font-family: var(--font-ui);
+}
+
+.flashcard__question {
+  align-self: center;
+  justify-self: center;
+  max-inline-size: 32em;
+  font-size: 1.15em;
+  font-weight: 550;
+  line-height: 1.4;
+  text-align: center;
+  text-wrap: balance;
+  color: var(--color-ink-strong);
+}
+
+.flashcard__turn {
+  display: inline-flex;
+  align-items: center;
+  justify-self: center;
   gap: var(--space-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 550;
+  color: var(--color-accent-text);
+}
+
+/* The question again, small, above the answer. */
+.flashcard__asked {
+  margin: 0 0 var(--space-4);
+  padding-block-end: var(--space-4);
+  border-block-end: 1px solid var(--color-line);
+  font-size: 0.85em;
+  color: var(--color-ink-2);
+}
+
+.flashcard__answer {
+  font-size: 0.95em;
+}
+
+kbd {
+  padding: 0 0.4em;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-2);
+  box-shadow: inset 0 -1px 0 var(--color-line-strong);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-ink-2);
+}
+
+/* Each grade button names its key, and tells the box and the day the card comes back. */
+.grade-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
   margin-block-start: var(--space-4);
+  transition: opacity var(--duration-medium) var(--ease);
+}
+
+.grade-actions--waiting {
+  opacity: 0;
+}
+
+.grade {
+  display: grid;
+  justify-items: center;
+  gap: 0;
+  padding-block: var(--space-2);
+}
+
+.grade__label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.grade__detail {
+  font-size: var(--text-xs);
+  font-weight: 450;
+  opacity: 0.85;
+}
+
+.button--primary kbd {
+  background: color-mix(in srgb, var(--color-on-accent) 18%, transparent);
+  box-shadow: none;
+  color: inherit;
 }
 
 .deck-end {
@@ -45,11 +171,21 @@
   background: var(--color-surface-2);
 }
 
+.deck-end:focus {
+  outline: none;
+}
+
 .deck-end p {
   margin: 0;
 }
 
-/* How many cards are in each box: new, then box 1 to 5. */
+.deck-end__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* How many cards are in each box: new, then box 1 to 5. The box of the shown card is marked. */
 .boxes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
@@ -63,6 +199,11 @@
   padding: var(--space-2);
   border-radius: var(--radius-md);
   background: var(--color-surface-2);
+}
+
+.box--current {
+  background: var(--color-accent-soft);
+  box-shadow: inset 0 0 0 2px var(--color-accent);
 }
 
 .box__count {

@@ -14,45 +14,88 @@
 
     @if (cards.hasValue()) {
       @if (card(); as card) {
-        <ul class="meta-list deck-position" aria-live="polite">
-          <li>{{ text.flashcards.position(position() + 1, total()) }}</li>
-          <li>{{ card.box ? text.flashcards.box(card.box) : text.flashcards.newCard }}</li>
-          @if (card.chapterNumber) {
-            <li>{{ text.chapter.number(card.chapterNumber) }}</li>
-          }
-        </ul>
-
-        <article class="flashcard">
-          <div class="flashcard__front" [attr.lang]="card.frontLang ?? null">
-            <nc-markdown-content inline [content]="card.frontHtml" />
-          </div>
-          @if (flipped()) {
-            <div class="flashcard__back">
-              <nc-markdown-content [content]="card.backHtml" />
-            </div>
-          }
-        </article>
-
-        <div class="flashcard-actions">
-          @if (flipped()) {
-            <button type="button" class="button" (click)="grade(false)">
-              {{ text.flashcards.again }}
-            </button>
-            <button type="button" class="button button--primary" (click)="grade(true)">
-              {{ text.flashcards.knewIt }}
-            </button>
-          } @else {
-            <button type="button" class="button button--primary" (click)="flipped.set(true)">
-              {{ text.flashcards.showAnswer }}
-            </button>
-          }
+        <div class="deck-progress">
+          <span aria-live="polite">{{ text.flashcards.position(position() + 1, total()) }}</span>
+          <progress [value]="position()" [max]="total()"></progress>
         </div>
-      } @else if (total()) {
-        <div class="deck-end">
-          <p>{{ text.flashcards.deckDone }}</p>
-          <button type="button" class="button button--primary" (click)="restart()">
-            {{ text.flashcards.restart }}
+
+        <!-- Both faces share one grid cell, so the card keeps its height when it turns. -->
+        <div class="flashcard" [class.flashcard--flipped]="flipped()">
+          <button
+            #front
+            type="button"
+            class="flashcard__face flashcard__front"
+            aria-keyshortcuts="Space"
+            [inert]="flipped()"
+            (click)="flip()"
+          >
+            <span class="flashcard__tags">
+              <span class="badge">{{
+                card.box ? text.flashcards.box(card.box) : text.flashcards.newCard
+              }}</span>
+              @if (card.chapterNumber) {
+                <span class="badge">{{ text.chapter.number(card.chapterNumber) }}</span>
+              }
+            </span>
+            <span class="flashcard__question" [attr.lang]="card.frontLang ?? null">
+              <nc-markdown-content inline [content]="card.frontHtml" />
+            </span>
+            <span class="flashcard__turn">
+              {{ text.flashcards.showAnswer }}
+              <kbd aria-hidden="true">Space</kbd>
+            </span>
           </button>
+          <div #back class="flashcard__face flashcard__back" tabindex="-1" [inert]="!flipped()">
+            <p class="flashcard__asked" [attr.lang]="card.frontLang ?? null">
+              <nc-markdown-content inline [content]="card.frontHtml" />
+            </p>
+            <nc-markdown-content class="flashcard__answer" [content]="card.backHtml" />
+          </div>
+        </div>
+
+        <!-- The grade buttons keep their place while the card is unturned, so nothing moves. -->
+        @if (outcomes(); as outcomes) {
+          <div
+            class="grade-actions"
+            [class.grade-actions--waiting]="!flipped()"
+            [inert]="!flipped()"
+          >
+            <button type="button" class="button grade" aria-keyshortcuts="1" (click)="grade(false)">
+              <span class="grade__label"
+                ><kbd aria-hidden="true">1</kbd>{{ text.flashcards.again }}</span
+              >
+              <span class="grade__detail">
+                {{ text.flashcards.box(outcomes.again.box) }} ·
+                {{ text.flashcards.comesBack(outcomes.again.days) }}
+              </span>
+            </button>
+            <button
+              type="button"
+              class="button button--primary grade"
+              aria-keyshortcuts="2"
+              (click)="grade(true)"
+            >
+              <span class="grade__label"
+                ><kbd aria-hidden="true">2</kbd>{{ text.flashcards.knewIt }}</span
+              >
+              <span class="grade__detail">
+                {{ text.flashcards.box(outcomes.knewIt.box) }} ·
+                {{ text.flashcards.comesBack(outcomes.knewIt.days) }}
+              </span>
+            </button>
+          </div>
+        }
+      } @else if (total()) {
+        <div class="deck-end" #end tabindex="-1">
+          <p>{{ text.flashcards.deckDone(session().known, session().again) }}</p>
+          <div class="deck-end__actions">
+            <button type="button" class="button button--primary" (click)="restart()">
+              {{ text.flashcards.restart }}
+            </button>
+            <a class="button" routerLink="/flashcards">
+              <nc-icon name="arrowLeft" />{{ text.nav.flashcards }}
+            </a>
+          </div>
         </div>
       } @else {
         <p class="deck-end">{{ text.flashcards.deckEmpty }}</p>
@@ -60,7 +103,11 @@
 
       <ol class="row-list boxes">
         @for (count of boxes(); track $index) {
-          <li class="box">
+          <li
+            class="box"
+            [class.box--current]="card()?.box === $index"
+            [attr.aria-current]="card()?.box === $index ? 'true' : null"
+          >
             <span class="box__count">{{ count }}</span>
             <span class="box__label">{{
               $index ? text.flashcards.box($index) : text.flashcards.newCard

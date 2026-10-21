@@ -189,7 +189,9 @@ export interface UiText {
     readonly newCard: string;
     readonly box: (box: number) => string;
     readonly boxes: string;
-    readonly deckDone: string;
+    /** When a graded card comes back: 1 day is "tomorrow". */
+    readonly comesBack: (days: number) => string;
+    readonly deckDone: (known: number, again: number) => string;
     readonly deckEmpty: string;
     readonly restart: string;
   };

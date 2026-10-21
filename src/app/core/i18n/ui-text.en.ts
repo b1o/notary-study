@@ -198,7 +198,9 @@ export const UI_TEXT_EN: UiText = {
     box: (box) => `Box ${box}`,
     boxes:
       'A card moves one box up when you know it and back to box 1 when you miss it. Box 1 comes back the next day, box 5 after 30 days.',
-    deckDone: 'You went through the whole deck.',
+    comesBack: (days) => (days === 1 ? 'tomorrow' : `in ${days} days`),
+    deckDone: (known, again) =>
+      `You went through the whole deck: ${known} known, ${again} to repeat.`,
     deckEmpty: 'No cards are due. Come back tomorrow, or pick another deck.',
     restart: 'Study this deck again',
   },
