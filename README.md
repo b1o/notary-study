@@ -73,3 +73,7 @@ Fontsource. Both keep the standard Cyrillic letter forms when the page language 
 
 `tools/import_laws.py` downloads the acts from lex.bg and writes `public/data/laws`. The texts are
 unofficial consolidated versions. Check the State Gazette (Държавен вестник) before you rely on one.
+
+lex.bg marks chapters and sections in most acts. In some older acts (ЗЗД, ЗЛС, ЗН) every heading has
+the same mark, so the importer finds the outline from the numbering: "ОБЩА ЧАСТ", "I.", "1.", "А)".
+The rules and examples are in `outline_levels`; run `python -m doctest tools/import_laws.py` after a change.

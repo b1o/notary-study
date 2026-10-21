@@ -37,6 +37,26 @@ ARTICLE_NO_RE = re.compile(r"^Чл\.\s*(\d+)\s*([а-я]?)\s*\.")
 BARE_ARTICLE_NO_RE = re.compile(r"^(\d+)\s*([а-я]?)\.\s")
 PARAGRAPH_NO_RE = re.compile(r"^§\s*(\d+)\s*([а-я]?)\s*\.")
 
+# Numbering styles of headings, for acts whose headings lex.bg marks all alike (see outline_levels).
+HEADING_STYLES = [
+    ("part", re.compile(r"^(?:(?:ОБЩА|ОСОБЕНА)\s+ЧАСТ|(?:ЧАСТ|Част|ДЯЛ|Дял)\s)")),
+    ("chapter", re.compile(r"^(?:ГЛАВА|Глава)\s")),
+    ("section", re.compile(r"^(?:РАЗДЕЛ|Раздел)\s")),
+    ("roman", re.compile(r"^[IVXLCІХ]+\.")),  # Latin letters, or the Cyrillic І and Х that some acts use
+    ("arabic", re.compile(r"^\d+\.\s")),
+    ("letter-paren", re.compile(r"^[А-Я]\)\s")),
+    ("letter-dot", re.compile(r"^[А-Я]\.\s")),
+]
+# The closing parts of an act, which always return to the top level.
+FINAL_HEADING_RE = re.compile(
+    r"^(?:(?:преходн|заключителн|допълнителн)[аи](?:\s+и\s+(?:преходн|заключителн)[аи])?\s+"
+    r"(?:разпоредб[аи]|правила)|изменени[ея]\s+на\s+други\s+закони)",
+    re.I,
+)
+AMENDMENT_RE = re.compile(r"\((?:нов|изм|доп|отм|предиш|попр|загл|обн)[^()]*(?:\([^()]*\)[^()]*)*\)", re.I)
+# Deepest heading level that the app shows (h2 to h5).
+MAX_HEADING_LEVEL = 4
+
 
 def fetch(lex_id, cache_dir):
     if cache_dir:
@@ -116,6 +136,11 @@ def included(num, ranges):
 
 
 def parse_law(text, ranges, bare_numbers=False):
+    # The act ends where the right-hand column of the page (ads, news) begins. Without this cut
+    # the last block of the act runs to the end of the page and takes in the news headlines.
+    end = text.find('<div id="colright"')
+    if end != -1:
+        text = text[:end]
     items = []
     pending_headings = []
     in_skipped_final_block = False
@@ -174,6 +199,67 @@ def parse_law(text, ranges, bare_numbers=False):
     return items
 
 
+def heading_style(text):
+    """The numbering style of a heading, for example "roman" for "II. ДОГОВОРИ"."""
+    if FINAL_HEADING_RE.match(text):
+        return "final"
+    for name, pattern in HEADING_STYLES:
+        if pattern.match(text):
+            return name
+    letters = re.sub(r"[^А-Яа-яA-Za-z]", "", AMENDMENT_RE.sub("", text))
+    return "caps" if letters and letters == letters.upper() else "plain"
+
+
+def outline_levels(texts):
+    """Heading levels (1 = outermost) from the numbering of the headings.
+
+    lex.bg marks every heading of some acts (for example ЗЗД) in the same way, so the outline
+    comes from the text: a numbering style seen before on the current path starts a sibling,
+    a new style starts a level below. Unnumbered titles in capitals rank above unnumbered
+    titles in sentence case. Final provisions always go back to the top, and so does every
+    unnumbered heading after them (for example the provisions of an amending act).
+
+    >>> outline_levels(["ОБЩА ЧАСТ", "I. ОСНОВНИ", "1. ДОГОВОРИ", "А) СКЛЮЧВАНЕ", "Б) ДЕЙСТВИЕ",
+    ...                 "2. ДРУГИ", "II. ВТОРИ", "V.ЗАЕМ", "ОСОБЕНА ЧАСТ", "Заключителни разпоредби"])
+    [1, 2, 3, 4, 4, 3, 2, 2, 1, 1]
+    >>> outline_levels(["II. СЕМЕЙСТВО", "А. Брак", "Сключване на брак", "Б. Произход",
+    ...                 "III. ЮРИДИЧЕСКИ ЛИЦА", "Общи разпоредби", "ЛИЦА С НЕСТОПАНСКА ЦЕЛ", "Сдружения"])
+    [1, 2, 3, 2, 1, 2, 2, 3]
+    >>> outline_levels(["Глава първа. ОБЩИ", "Глава трета. ЗАВЕЩАНИЕ", "1. ФОРМА", "Глава четвърта. ОТКАЗ"])
+    [1, 1, 2, 1]
+    >>> outline_levels(["Глава шеста. НАКАЗАНИЯ", "Допълнителна разпоредба", "Преходни разпоредби",
+    ...                 "ПОСТАНОВЛЕНИЕ № 339 ЗА ИЗМЕНЕНИЕ"])
+    [1, 1, 1, 1]
+    """
+    stack = []  # numbering styles from the outermost heading to the current one
+    levels = []
+    for text in texts:
+        style = heading_style(text)
+        if stack[:1] == ["final"] and style in ("caps", "plain"):
+            style = "final"
+        if style == "final":
+            stack = [style]
+        elif style in stack:
+            del stack[stack.index(style) + 1:]
+        else:
+            if style == "caps" and stack and stack[-1] == "plain":
+                stack.pop()
+            stack.append(style)
+        levels.append(min(len(stack), MAX_HEADING_LEVEL))
+    return levels
+
+
+def assign_heading_levels(items):
+    """Give every heading a level ("l"). lex.bg levels win when the act has both kinds of heading."""
+    headings = [it for it in items if it["k"] in ("h", "s")]
+    if any(h["k"] == "s" for h in headings):
+        for h in headings:
+            h["l"] = 1 if h["k"] == "h" else 2
+        return
+    for heading, level in zip(headings, outline_levels([h["t"] for h in headings])):
+        heading["l"] = level
+
+
 def document_meta(text):
     meta = {}
     m = re.search(r'id="preHistory">(.*?)</div>', text, re.S)
@@ -191,7 +277,7 @@ def to_public_item(item):
     """Convert a parsed item ({"k", "n", "t", "p"}) to the JSON shape that the app reads."""
     kind = item["k"]
     if kind in ("h", "s"):
-        return {"kind": "heading", "level": 1 if kind == "h" else 2, "text": item["t"]}
+        return {"kind": "heading", "level": item["l"], "text": item["t"]}
     if kind == "x":
         return {"kind": "note", "title": item["t"], "paragraphs": item["p"]}
     public = {"kind": "article" if kind == "a" else "provision", "number": item["n"]}
@@ -203,6 +289,7 @@ def to_public_item(item):
 
 def write_act(entry, items):
     os.makedirs(DATA_DIR, exist_ok=True)
+    assign_heading_levels(items)
     payload = {**entry, "items": [to_public_item(it) for it in items]}
     with open(os.path.join(DATA_DIR, f"{entry['id']}.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
