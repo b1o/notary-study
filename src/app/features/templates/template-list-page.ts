@@ -17,7 +17,7 @@ import { Notice } from '../../shared/ui/notice';
     @let text = ui();
     <nc-page-layout>
       <nc-page-header pageHeader [heading]="text.nav.templates" [lead]="text.templates.lead">
-        <nc-notice class="templates-note">{{ text.templates.note }}</nc-notice>
+        <nc-notice class="header-note">{{ text.templates.note }}</nc-notice>
       </nc-page-header>
 
       <nc-load-status [resource]="templates.resource" />
@@ -42,12 +42,6 @@ import { Notice } from '../../shared/ui/notice';
         }
       </div>
     </nc-page-layout>
-  `,
-  styles: `
-    .templates-note {
-      max-inline-size: 42rem;
-      margin-block-start: var(--space-4);
-    }
   `,
 })
 export default class TemplateListPage {

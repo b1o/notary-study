@@ -168,8 +168,10 @@ export interface UiText {
   };
   readonly checklists: {
     readonly lead: string;
-    readonly clear: string;
-    readonly progress: (ticked: number, total: number) => string;
+    /** The lists are examples of a typical flow, not the exact procedure (docs/design.md). */
+    readonly exampleNote: string;
+    /** The mark of an item that cites no provision. */
+    readonly noSource: string;
   };
   readonly flashcards: {
     readonly lead: string;

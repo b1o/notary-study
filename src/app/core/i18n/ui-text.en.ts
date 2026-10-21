@@ -171,9 +171,10 @@ export const UI_TEXT_EN: UiText = {
     notes: 'Notes',
   },
   checklists: {
-    lead: 'What to ask the client for, and what the office checks itself, for each common transaction. The ticks stay in this browser.',
-    clear: 'Clear the ticks',
-    progress: (ticked, total) => `${ticked} of ${total} done`,
+    lead: 'What an office usually asks the client for, and what it checks itself, for common transactions.',
+    exampleNote:
+      'Each list is an example of a typical flow, not the exact procedure: an office can work in another order or ask for more. An item with a cited provision is required by law. An item marked “No source” cites no provision: it can be common practice, or a rule that the list does not cite yet.',
+    noSource: 'No source',
   },
   flashcards: {
     lead: 'Short questions and answers for every chapter, and the glossary terms. Review the cards that are due each day.',

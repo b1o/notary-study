@@ -7,15 +7,18 @@ import { ChecklistsService } from '../../core/reference/checklists.service';
 import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
+import { Notice } from '../../shared/ui/notice';
 
-/** All document checklists. */
+/** All checklists: examples of a typical flow for common transactions. */
 @Component({
   selector: 'nc-checklist-list-page',
-  imports: [RouterLink, PageLayout, PageHeader, LoadStatus],
+  imports: [RouterLink, PageLayout, PageHeader, LoadStatus, Notice],
   template: `
     @let text = ui();
     <nc-page-layout main="reading">
-      <nc-page-header pageHeader [heading]="text.nav.checklists" [lead]="text.checklists.lead" />
+      <nc-page-header pageHeader [heading]="text.nav.checklists" [lead]="text.checklists.lead">
+        <nc-notice class="header-note">{{ text.checklists.exampleNote }}</nc-notice>
+      </nc-page-header>
 
       <nc-load-status [resource]="checklists.resource" />
 
