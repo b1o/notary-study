@@ -204,7 +204,7 @@ def to_public_item(item):
 def write_act(entry, items):
     os.makedirs(DATA_DIR, exist_ok=True)
     payload = {**entry, "items": [to_public_item(it) for it in items]}
-    with open(os.path.join(DATA_DIR, f"{entry['id']}.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(DATA_DIR, f"{entry['id']}.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
 
@@ -264,7 +264,7 @@ def main(argv):
             if manual["id"] not in order:
                 order.append(manual["id"])
     ordered = [catalog[i] for i in order if i in catalog]
-    with open(CATALOG, "w", encoding="utf-8") as f:
+    with open(CATALOG, "w", encoding="utf-8", newline="\n") as f:
         json.dump(ordered, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
