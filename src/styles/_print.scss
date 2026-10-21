@@ -1,5 +1,16 @@
+@use 'tokens';
+
 /* Printing a page (a template, a checklist): only the page itself, on white paper. */
 @media print {
+  /*
+   * Print is always light, whatever the theme. The selector matches the root at the same weight
+   * as the theme rules in _tokens.scss, and comes after them.
+   */
+  :root:is([data-theme], :not([data-theme])) {
+    @include tokens.light-colors;
+    --page-padding: 0;
+  }
+
   .app-bar,
   .app-nav,
   .app-panel,
@@ -14,7 +25,30 @@
     box-shadow: none;
   }
 
+  .app-sheet {
+    min-block-size: 0;
+  }
+
   .app-main {
     padding: 0;
   }
+
+  /* A header with nothing to print leaves no empty space (or page) before the content. */
+  .page-layout__header:has(> .no-print:only-child) {
+    display: none;
+  }
+}
+
+/*
+ * The pages of a document template (features/templates/document-sheet): each sheet is one page
+ * of paper at its real size, with its own margins, so the paper has none.
+ */
+@page sheet-a4 {
+  size: A4;
+  margin: 0;
+}
+
+@page sheet-envelope {
+  size: 229mm 162mm;
+  margin: 0;
 }

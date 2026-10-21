@@ -1,6 +1,6 @@
 /**
- * The layout of a document template. A template is plain text, so that it can be copied as it is;
- * this file finds its parts, so that the page can set it like the paper document:
+ * The layout of a document template. A template is plain text, as it is typed; this file finds its
+ * parts, so that the page can set it like the paper document:
  *
  *   НОТАРИАЛЕН АКТ                        title: the first block; its next lines are the subtitle
  *   за покупко-продажба на недвижим имот
@@ -8,7 +8,8 @@
  *   УПЪЛНОМОЩАВАМ                         heading: a block of one short line in capitals
  *   Днес, [дата] г., пред мен, ...        text: every other line; a blank line ends a block
  *   ПРОДАВАЧ: ..........  (име)           signatures: a line with a run of dots
- *   ---                                   the certification of the notary (a stamp) follows
+ *   ---                                   a certification of the notary (a stamp) follows;
+ *                                         each "---" starts one more stamp
  *
  * In a line, "[...]" is a blank to fill in (blanks can hold blanks) and "[ ]" is a box to tick.
  */
@@ -38,17 +39,20 @@ export interface SignatureRow {
   readonly signers: readonly Signer[];
 }
 
-export type DocumentBlock =
+type BlockContent =
   | { readonly kind: 'title'; readonly title: Line; readonly subtitle: readonly Line[] }
   | { readonly kind: 'register'; readonly line: Line }
   | { readonly kind: 'heading'; readonly line: Line }
   | { readonly kind: 'text'; readonly lines: readonly Line[] }
   | { readonly kind: 'signatures'; readonly rows: readonly SignatureRow[] };
 
+/** A block of the document. `gap` is true when a blank line comes before it in the text. */
+export type DocumentBlock = BlockContent & { readonly gap: boolean };
+
 export interface DocumentLayout {
   readonly body: readonly DocumentBlock[];
-  /** The certification under the document (after the line "---"), set as a stamp. */
-  readonly stamp: readonly DocumentBlock[];
+  /** The certifications under the document (each after a line "---"), set as stamps. */
+  readonly stamps: readonly (readonly DocumentBlock[])[];
 }
 
 /** The role of the notary, who signs with the seal. */
@@ -61,14 +65,26 @@ const LABELLED_LINE = /^(.*?)\s*[.…]{6,}$/;
 const HEADING_MAX_LENGTH = 40;
 
 export function documentLayout(text: string): DocumentLayout {
-  const lines = text.replace(/\r\n?/g, '\n').split('\n');
-  const separator = lines.findIndex((line) => line.trim() === '---');
-  const bodyLines = separator === -1 ? lines : lines.slice(0, separator);
-  const stampLines = separator === -1 ? [] : lines.slice(separator + 1);
+  const [bodyLines, ...stampLines] = sections(text.replace(/\r\n?/g, '\n').split('\n'));
   return {
     body: blocks(paragraphs(bodyLines), true),
-    stamp: blocks(paragraphs(stampLines), false),
+    stamps: stampLines
+      .map((lines) => blocks(paragraphs(lines), false))
+      .filter((stamp) => stamp.length > 0),
   };
+}
+
+/** The lines before the first "---", and the lines after each "---". */
+function sections(lines: readonly string[]): string[][] {
+  const result: string[][] = [[]];
+  for (const line of lines) {
+    if (line.trim() === '---') {
+      result.push([]);
+    } else {
+      result[result.length - 1].push(line);
+    }
+  }
+  return result;
 }
 
 /** The groups of lines between blank lines. */
@@ -90,14 +106,18 @@ function paragraphs(lines: readonly string[]): string[][] {
 function blocks(groups: readonly string[][], withTitle: boolean): DocumentBlock[] {
   const result: DocumentBlock[] = [];
   groups.forEach((group, index) => {
+    const gap = index > 0;
     if (withTitle && index === 0) {
       result.push(...titleBlocks(group));
     } else if (group.length === 1 && isRegister(group[0])) {
-      result.push({ kind: 'register', line: parseLine(group[0].trim()) });
+      result.push({ kind: 'register', line: parseLine(group[0].trim()), gap });
     } else if (group.length === 1 && isHeading(group[0])) {
-      result.push({ kind: 'heading', line: parseLine(group[0].trim()) });
+      result.push({ kind: 'heading', line: parseLine(group[0].trim()), gap });
     } else {
-      result.push(...textAndSignatures(group));
+      // Only the first block of a group follows a blank line.
+      result.push(
+        ...textAndSignatures(group).map((block, at) => ({ ...block, gap: gap && at === 0 })),
+      );
     }
   });
   return result;
@@ -109,14 +129,14 @@ function titleBlocks(group: readonly string[]): DocumentBlock[] {
   const subtitle = rest.filter((line) => !isRegister(line)).map(parseLine);
   const register = rest.filter(isRegister).map((line) => parseLine(line));
   return [
-    { kind: 'title', title: parseLine(title), subtitle },
-    ...register.map((line): DocumentBlock => ({ kind: 'register', line })),
+    { kind: 'title', title: parseLine(title), subtitle, gap: false },
+    ...register.map((line): DocumentBlock => ({ kind: 'register', line, gap: false })),
   ];
 }
 
 /** A block can mix text lines and signature lines, as a certification does. */
-function textAndSignatures(group: readonly string[]): DocumentBlock[] {
-  const result: DocumentBlock[] = [];
+function textAndSignatures(group: readonly string[]): BlockContent[] {
+  const result: BlockContent[] = [];
   let text: Line[] = [];
   let rows: SignatureRow[] = [];
   const flushText = () => {

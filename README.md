@@ -10,7 +10,7 @@ not a tool for real case work), the content rules and the decisions so far.
 | Course                | 28 chapters in 7 parts. Every legal statement cites its provision.                        |
 | Law library           | 34 acts from lex.bg, with an unofficial English translation of 561 articles               |
 | Glossary              | 173 Bulgarian terms with the English term, a definition and the provisions                |
-| Templates, checklists | Document templates set like the paper documents; checklists as examples of a typical flow |
+| Templates, checklists | Document templates on A4 pages, for study; checklists as examples of a typical flow       |
 | Fee calculator        | Notarial fee, additional fee, VAT, entry fee and local tax, as a bill with its provisions |
 | Tests and exam        | A test per chapter (pass mark 80%) and a final exam of 40 questions (pass mark 75%)       |
 | Flashcards            | Leitner boxes per chapter and for the glossary                                            |
@@ -58,7 +58,7 @@ src/
       course/      Chapter list by part, glossary list
       law/         Article text, citation pills (LawRefs), the click rule for citations
       ui/          Icon, notice, choice group, select field, search box, outline list,
-                   Markdown content, load status, copy and print buttons
+                   Markdown content, load status, print button
       dom/         Element size (ResizeObserver), scroll to a fragment, sticky bar
     layout/        Parts of the app frame: side navigation, law panel, reading settings
     features/      Pages, one folder per route. Each page loads lazily.
@@ -87,11 +87,14 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
 - **Gestures.** On a small screen, a swipe to the right from the left edge opens the navigation, a
   swipe to the left closes it, and a swipe to the right on the law panel closes the panel
   (`shared/dom/swipe.ts`, handled in `app.ts`). Vertical scrolling stays with the browser.
-- **Templates.** A template is plain text, so that the copy button gives it as it is.
-  `core/reference/document-layout.ts` finds its title, register line, headings, signatures and the
-  certification of the notary; `DocumentSheet` sets them like the paper document, with the seal and
-  the stamp. A notarial deed also gets the fee box, the entry box and the frame of the official form
-  (Appendix 7 to Ordinance No. 32), from `forms` in `templates.json`.
+- **Templates.** A template is plain text, as it is typed. `core/reference/document-layout.ts` finds its title, register line, headings, signatures and the
+  certifications of the notary (one stamp after each `---`). `sheet-line.ts` sizes each blank by
+  what goes in it (`blank-size.ts`), and `sheet-flow.ts` gives the rules for page breaks.
+  `DocumentSheet` lays the text out in a hidden A4 page at the real size, measures it, and
+  `sheet-pages.ts` breaks it into pages; the screen and the print show the same pages. A notarial
+  deed also gets the fee box, the entry box and the frame of the official form (Appendix 7 to
+  Ordinance No. 32), from `forms` in `templates.json`. The standards and the decisions are in
+  `docs/research/templates`.
 - **Study tools.** Flashcards use Leitner boxes (`core/study/leitner.ts`): a known card moves one
   box up and comes back after 1, 3, 7, 14 or 30 days; a missed card goes back to box 1. Tests and
   the exam draw from the chapter questions (`core/study/quiz.ts`); `ProgressService` keeps the

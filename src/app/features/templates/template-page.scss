@@ -4,10 +4,9 @@
   color: var(--color-ink-2);
 }
 
-.template-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
+/* The notes, the translation and the notice keep the reading measure of the other pages. */
+.template-reading {
+  max-inline-size: var(--measure);
 }
 
 .template-translation {

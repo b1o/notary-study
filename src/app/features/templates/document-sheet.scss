@@ -1,261 +1,328 @@
-/*
- * A sheet of paper in the reading size, set after the forms of Ordinance No. 32: a deed has the
- * fee box and the entry box at the top (Appendix 7) and its text in a frame (Art. 18(2)); a
- * certification is a stamp (Appendix 6). The seal and the stamp have the colour of stamp ink.
- */
-:host {
-  display: block;
-  margin-block: var(--space-6);
-  font-size: var(--reading-size);
-}
+@use 'paper' as *;
 
-.sheet {
-  padding: clamp(1.25em, 6%, 3em);
-  border-radius: 2px;
-  background: var(--color-paper);
-  box-shadow: var(--shadow-2);
-  font-family: var(--font-serif);
-  font-size: 0.88em;
-  line-height: 1.6;
+/*
+ * A template on paper (docs/research/templates/decisions.md). The page has the real size of the
+ * paper; the lengths inside it are in em of its 12 pt text (paper.scss).
+ */
+
+/* The page header above keeps its own space to the sheet. */
+:host {
+  position: relative;
+  display: block;
+  margin-block-end: var(--space-6);
+  font-size: var(--reading-size);
 }
 
 p {
   margin: 0;
 }
 
-/* The boxes of the form, side by side when they fit. */
-.sheet__boxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16em), 1fr));
-  gap: 1em 2em;
-  margin-block-end: 2em;
-  font-family: var(--font-ui);
-  font-size: 0.78em;
-  line-height: 1.5;
+/* The paper and the number of pages, above the pages. */
+.sheet-caption {
+  margin-block-end: var(--space-4);
+  font-size: var(--text-sm);
   color: var(--color-ink-2);
+}
+
+.sheet-pages {
+  display: grid;
+  justify-items: start;
+}
+
+/* "Page 2 of 3 · back of sheet 1", under each page. */
+.sheet-page-caption {
+  margin-block: var(--space-2) var(--space-6);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
+}
+
+/*
+ * A page at the real size. Margins after ИПА 2014: 20 mm at the top, 10 mm at the bottom, 30 mm at
+ * the binding edge and 20 mm at the other edge. The text is 12 pt Tinos (the widths of Times New
+ * Roman), 1.5 lines apart as a word processor sets them (1.725 × the size).
+ */
+.sheet-page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  inline-size: 210mm;
+  block-size: 297mm;
+  padding-block: 20mm 10mm;
+  padding-inline: 30mm 20mm;
+  background: var(--color-paper);
+  box-shadow: var(--shadow-2);
+  color: var(--color-ink);
+  font-family: var(--font-document);
+  font-size: 12pt;
+  line-height: 1.725;
+  --seal-size: #{mm(40)};
+}
+
+/* The back of the sheet (both sides are printed, Ordinance No. 32 Art. 19(1)): bound on the right. */
+.sheet-page--back {
+  padding-inline: 20mm 30mm;
+}
+
+/* The envelope of a deposited will: C5, lying (Закон за наследството Art. 25(2)). */
+.sheet-page--envelope {
+  inline-size: 229mm;
+  block-size: 162mm;
+  padding: 15mm;
+  /* A note on an envelope, not a typed page: single line spacing. */
+  line-height: 1.15;
+}
+
+/* The text area: the room between the boxes of a deed and the page number. */
+.sheet-page__text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-block-size: 0;
+}
+
+/* A notarial deed has its text in a frame on each page (Ordinance No. 32 Art. 18(2)). */
+.sheet-page__text--framed {
+  padding: mm(3) mm(4);
+  border: 0.75pt solid currentColor;
+}
+
+/* The rest of the frame on the last page of a deed, struck out (ГПК Art. 578(3)). */
+.sheet-page__struck {
+  flex: 1;
+  min-block-size: 0;
+  container-type: size;
+}
+
+.sheet-page__struck svg {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.sheet-page__struck line {
+  stroke: var(--color-ink-3);
+  stroke-width: 1;
+}
+
+@container (block-size < 3em) {
+  .sheet-page__struck svg {
+    display: none;
+  }
+}
+
+/* The page number, from page 2 (Ordinance No. 32 Art. 18(2) and Art. 20(1)). */
+.sheet-page__footer {
+  display: flex;
+  flex: none;
+  align-items: flex-end;
+  justify-content: center;
+  block-size: mm(8);
+  font-size: pt(10);
+  line-height: 1;
+}
+
+/* The fee box and the entry box of a deed, above the title (Appendix 7, Art. 19(3)). */
+.sheet-page__boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: mm(5);
+  margin-block-end: mm(6);
+  font-size: pt(10);
+  line-height: 1.35;
 }
 
 .sheet__box {
-  padding: 0.75em 1em;
-  border: 1px solid var(--color-line-strong);
+  padding: mm(2) mm(3);
+  border: 0.75pt solid currentColor;
 }
 
 .sheet__box-title {
-  margin-block-end: 0.35em;
-  font-weight: 650;
-  color: var(--color-ink-strong);
-}
-
-.sheet--form .sheet__body {
-  padding: 1.5em clamp(1em, 5%, 2em) 2em;
-  border: 1px solid var(--color-line-strong);
-}
-
-.sheet__title {
-  font-size: 1.3em;
+  margin-block-end: 0.25em;
   font-weight: 700;
-  letter-spacing: 0.16em;
-  text-align: center;
-  color: var(--color-ink-strong);
 }
 
-.sheet__subtitle {
-  margin-block-start: 0.15em;
-  text-align: center;
-}
-
-.sheet__register {
-  margin-block-start: 1.5em;
-}
-
-.sheet__heading {
-  margin-block: 1.25em;
-  font-weight: 700;
-  letter-spacing: 0.24em;
-  text-align: center;
-  color: var(--color-ink-strong);
-}
-
-.sheet__text {
-  margin-block-start: 0.9em;
-}
-
-.sheet__text p {
-  text-indent: 2em;
-}
-
-.sheet__text p + p {
-  margin-block-start: 0.2em;
-}
-
-/* Justified like the paper, where a line is long enough not to leave wide gaps. */
-@media (width >= 48rem) {
-  .sheet__body .sheet__text p {
-    text-align: justify;
-  }
-}
-
-/* A blank to fill in: quiet italic on a dotted line. */
-.sheet__blank {
-  font-style: italic;
-  color: var(--color-ink-2);
-  text-decoration: underline dotted var(--color-ink-3);
-  text-underline-offset: 0.25em;
-}
-
-.sheet__blank .sheet__blank {
-  text-decoration: none;
-}
-
-/* "[...]" is a dotted line to write on. */
-.sheet__blank--empty {
-  display: inline-block;
-  inline-size: 2.5em;
-  block-size: 1em;
-  border-block-end: 1px dotted var(--color-ink-2);
-  text-decoration: none;
-}
-
-/* A box to tick. */
-.sheet__tick {
-  display: inline-block;
-  inline-size: 0.8em;
-  block-size: 0.8em;
-  margin-inline-end: 0.15em;
-  border: 1px solid currentColor;
-  vertical-align: -0.05em;
-}
-
-.sheet__signatures {
-  display: grid;
-  gap: 1.25em;
-  margin-block-start: 2em;
+/* The flow: an empty line before an item that follows a blank line in the text. Its width decides
+   whether the signers stand in the narrow layout (sheet-signatures.scss). */
+.sheet__flow {
   container-type: inline-size;
 }
 
-.sheet__row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 1em 3em;
+.sheet__item {
+  display: flow-root;
 }
 
-/* The place and the date at the start, the signature at the end. */
-.sheet__row--placed {
-  justify-content: space-between;
+.sheet__item--gap {
+  padding-block-start: 1lh;
 }
 
-.sheet__signer {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-areas:
-    'role lines seal'
-    '. note seal';
-  align-items: end;
-  column-gap: 0.5em;
-}
-
-.sheet__role {
-  grid-area: role;
-  font-weight: 650;
-}
-
-.sheet__lines {
-  grid-area: lines;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25em 1em;
-}
-
-.sheet__line {
-  inline-size: 9em;
-  block-size: 1.4em;
-  border-block-end: 1px solid var(--color-ink-3);
-}
-
-.sheet__note {
-  grid-area: note;
-  font-size: 0.8em;
-  line-height: 1.4;
-  text-align: center;
-  color: var(--color-ink-2);
-}
-
-/* A narrow sheet (a phone): the role above the line, and the line as wide as there is room. */
-@container (width < 24em) {
-  .sheet__signer {
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas:
-      'role role'
-      'lines seal'
-      'note seal';
-    inline-size: 100%;
-  }
-
-  .sheet__lines {
-    flex-direction: column;
-  }
-
-  .sheet__line {
-    inline-size: 100%;
-  }
-}
-
-/* The place of the seal: a ring of stamp ink, a little turned, as a hand stamps it. */
-.sheet__seal {
-  grid-area: seal;
-  display: grid;
-  place-items: center;
-  inline-size: 4.5em;
-  block-size: 4.5em;
-  margin-inline-start: 0.75em;
-  border: 3px double var(--color-accent-text);
-  border-radius: 50%;
-  font-family: var(--font-ui);
-  font-size: 0.8em;
-  font-weight: 650;
-  letter-spacing: 0.08em;
-  color: var(--color-accent-text);
-  rotate: -12deg;
-}
-
-/* The certification of the notary: a stamp under the document. */
-.sheet__stamp {
-  max-inline-size: 34em;
-  margin-block-start: 2.5em;
-  padding: 1em 1.25em;
-  border: 2px solid var(--color-accent-text);
-  border-radius: 4px;
-  font-family: var(--font-ui);
-  font-size: 0.85em;
+.sheet__title {
+  font-size: pt(14);
+  font-weight: 700;
   line-height: 1.5;
-  color: var(--color-accent-text);
+  letter-spacing: 0.16em;
+  text-align: center;
 }
 
-.sheet__stamp .sheet__text:first-child {
-  margin-block-start: 0;
+.sheet__subtitle,
+.sheet__heading {
+  text-align: center;
 }
 
-.sheet__stamp .sheet__text p {
+.sheet__heading {
+  font-weight: 700;
+  letter-spacing: 0.24em;
+}
+
+/* A paragraph: justified, with a first-line indent of 1.25 cm (ИПА 2014). */
+.sheet__p {
+  text-align: justify;
+  text-indent: mm(12.5);
+}
+
+/* A paragraph cut by a page break: no indent on the next page, a full last line on this one. */
+.sheet__p--continued {
   text-indent: 0;
 }
 
-.sheet__stamp .sheet__blank,
-.sheet__stamp .sheet__note {
-  color: inherit;
+.sheet__p--continues {
+  text-align-last: justify;
 }
 
-.sheet__stamp .sheet__line {
-  border-color: currentColor;
+/*
+ * A certification of the notary: a stamp in the wording of Appendix 6, with the seal beside it.
+ * No source sets the size of a stamp; 100 mm holds the 70 characters of a line of the appendix
+ * in 10 pt. The text, the blanks and the lines in it have the ink of the stamp.
+ */
+.sheet__stamp-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: mm(4);
 }
 
-.sheet__stamp .sheet__signatures {
-  margin-block-start: 1em;
+.sheet__stamp {
+  box-sizing: border-box;
+  inline-size: mm(100);
+  max-inline-size: 100%;
+  padding: mm(2) mm(3);
+  border: 1.5pt solid currentColor;
+  border-radius: 2px;
+  font-size: pt(10);
+  line-height: 1.35;
+  color: var(--color-accent-text);
+  --sheet-hint: currentColor;
+  --sheet-rule: currentColor;
+  --signature-line: #{mm(25)};
 }
 
+.sheet__stamp .sheet__p {
+  text-align: start;
+  text-indent: 0;
+}
+
+.sheet__stamp nc-sheet-signatures {
+  margin-block-start: 0.5lh;
+}
+
+/* The hidden page that the sheet measures, and the size of 1em of the reader's text size. */
+.sheet-measure {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inline-size: 0;
+  block-size: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.sheet-page--measure {
+  block-size: auto;
+}
+
+.sheet-page--measure .sheet-page__text {
+  flex: none;
+}
+
+.sheet__em {
+  display: block;
+  inline-size: 1em;
+}
+
+/*
+ * The page is wider than the column: the text flows in the width of the screen, at the reader's
+ * text size. The pages keep the breaks of the real pages.
+ */
+@media screen {
+  /* The column has the width of the screen, so a stamp of 100 mm gets narrower, not the page wider. */
+  .sheet-pages--flowing {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: stretch;
+  }
+
+  .sheet-pages--flowing .sheet-page {
+    inline-size: auto;
+    block-size: auto;
+    padding: clamp(1rem, 5%, 2rem);
+    font-size: 1em;
+  }
+
+  .sheet-pages--flowing .sheet__p,
+  .sheet-pages--flowing .sheet__p--continues {
+    text-align: start;
+    text-align-last: auto;
+  }
+
+  /* A smaller indent on a narrow screen, for the paragraphs of the text (not of a stamp). */
+  .sheet-pages--flowing .sheet__item > .sheet__p {
+    text-indent: 1.5em;
+  }
+
+  .sheet-pages--flowing .sheet__item > .sheet__p--continued {
+    text-indent: 0;
+  }
+
+  .sheet-pages--flowing .sheet-page__boxes {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16em), 1fr));
+  }
+
+  .sheet-pages--flowing .sheet-page__struck {
+    display: none;
+  }
+
+  .sheet-pages--flowing .sheet-page__footer {
+    block-size: auto;
+    margin-block-start: 1em;
+  }
+}
+
+/* Print gives the real pages: one paper page for each page, at its size (src/styles/_print.scss). */
 @media print {
-  .sheet {
-    padding: 0;
+  :host {
+    margin: 0;
+  }
+
+  .sheet-caption,
+  .sheet-page-caption,
+  .sheet-measure {
+    display: none;
+  }
+
+  .sheet-pages {
+    display: block;
+    zoom: 1 !important;
+  }
+
+  .sheet-page {
     box-shadow: none;
+    page: sheet-a4;
+  }
+
+  .sheet-page--envelope {
+    page: sheet-envelope;
+  }
+
+  .sheet-page ~ .sheet-page {
+    break-before: page;
   }
 }

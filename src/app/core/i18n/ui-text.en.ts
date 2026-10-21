@@ -169,6 +169,11 @@ export const UI_TEXT_EN: UiText = {
     note: 'Templates are learning aids. The notary decides the final wording of every document.',
     translation: 'English working translation',
     notes: 'Notes',
+    sheet: (paper, pages) =>
+      `${paper === 'envelope' ? 'C5 envelope, 229 × 162 mm' : 'A4 paper, 210 × 297 mm'} · ${pages === 1 ? '1 page' : `${pages} pages`}`,
+    page: (page, count, twoSided) =>
+      `Page ${page} of ${count}` +
+      (twoSided ? ` · ${page % 2 ? 'front' : 'back'} of sheet ${Math.ceil(page / 2)}` : ''),
   },
   checklists: {
     lead: 'What an office usually asks the client for, and what it checks itself, for common transactions.',
@@ -295,7 +300,5 @@ export const UI_TEXT_EN: UiText = {
     notFound: 'This page does not exist.',
     goHome: 'Go to the home page',
     print: 'Print',
-    copy: 'Copy the text',
-    copied: 'Copied',
   },
 };

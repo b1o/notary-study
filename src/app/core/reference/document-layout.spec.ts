@@ -60,7 +60,7 @@ describe('documentLayout', () => {
       'signatures | 2 rows',
       'signatures | 1 rows',
     ]);
-    expect(layout.stamp).toEqual([]);
+    expect(layout.stamps).toEqual([]);
   });
 
   it('reads the role, the note and the seal of each signer', () => {
@@ -149,13 +149,58 @@ describe('documentLayout', () => {
     );
 
     expect(outline(layout.body)).toEqual(['title | ПЪЛНОМОЩНО', 'text | Текст.']);
-    expect(outline(layout.stamp)).toEqual([
+    const [stamp] = layout.stamps;
+    expect(outline(stamp)).toEqual([
       'text | Удостоверявам подписа на [три имена]. | Рег. № [...] / [дата]. Такса [...] евро.',
       'signatures | 1 rows',
     ]);
-    const [notary] = signers(layout.stamp[1])[0];
+    const [notary] = signers(stamp[1])[0];
     expect(notary.seal).toBe(true);
     expect(notary.note).toBeNull();
+  });
+
+  it('starts one more stamp at each further "---"', () => {
+    const { stamps } = documentLayout(
+      [
+        'ПЪЛНОМОЩНО',
+        '',
+        'Текст.',
+        '---',
+        'удостоверявам подписа',
+        'НОТАРИУС: ..................   (печат)',
+        '---',
+        'удостоверявам съдържанието',
+        'НОТАРИУС: ..................   (печат)',
+      ].join('\n'),
+    );
+
+    expect(stamps.map(outline)).toEqual([
+      ['text | удостоверявам подписа', 'signatures | 1 rows'],
+      ['text | удостоверявам съдържанието', 'signatures | 1 rows'],
+    ]);
+  });
+
+  it('marks the blocks that follow a blank line', () => {
+    const { body } = documentLayout(
+      [
+        'ПЪЛНОМОЩНО',
+        '№ 1',
+        '',
+        'Първи ред,',
+        'втори ред.',
+        'ПРОДАВАЧ: ..........',
+        '',
+        'УПЪЛНОМОЩАВАМ',
+      ].join('\n'),
+    );
+
+    expect(body.map((block) => `${block.kind} ${block.gap}`)).toEqual([
+      'title false',
+      'register false',
+      'text true',
+      'signatures false',
+      'heading true',
+    ]);
   });
 });
 

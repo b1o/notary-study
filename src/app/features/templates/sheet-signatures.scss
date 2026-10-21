@@ -1,0 +1,118 @@
+@use 'paper' as *;
+
+/*
+ * Lengths are in em of the page text (paper.scss). A stamp sets --signature-line to a shorter line
+ * and --sheet-rule to its ink.
+ */
+:host {
+  display: grid;
+  row-gap: 1lh;
+}
+
+p {
+  margin: 0;
+}
+
+/* The place, the roles and the signature lines of a row on one level (their first baseline). */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5lh mm(6);
+}
+
+/* The place and the date at the start, the signature at the end. */
+.row--placed {
+  justify-content: space-between;
+}
+
+/*
+ * A signer: the role and the signature line, the note or the line for the name under them, the
+ * seal beside them. The first row takes the height of the seal, so the role and the line stay on
+ * the level of the other signers in the row.
+ */
+.signer {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    'role lines seal'
+    '. note seal'
+    'hand hand seal';
+  align-items: end;
+  column-gap: mm(2);
+}
+
+.role {
+  grid-area: role;
+  font-weight: 700;
+}
+
+.lines {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: lines;
+  gap: 0.25em mm(5);
+}
+
+/* A signature line: 40 mm. */
+.line {
+  inline-size: var(--signature-line, #{mm(40)});
+  block-size: 1lh;
+  border-block-end: 1px solid var(--sheet-rule, var(--color-ink-3));
+}
+
+.note {
+  grid-area: note;
+}
+
+.note,
+.hand__caption {
+  font-size: pt(9.5);
+  line-height: 1.4;
+  text-align: center;
+  color: var(--sheet-hint, var(--color-ink-2));
+}
+
+/* The line for the full name written by hand (ГПК Art. 579(1)), with its caption. */
+.hand {
+  display: grid;
+  grid-area: hand;
+  justify-items: center;
+  justify-self: end;
+}
+
+.hand__line {
+  max-inline-size: 100%;
+  block-size: 1.5lh;
+  border-block-end: 1px solid var(--sheet-rule, var(--color-ink-3));
+}
+
+/* The seal: 40 mm (Ordinance No. 32 Art. 14(1)), next to the notary's signature. */
+.seal {
+  grid-area: seal;
+  align-self: center;
+  margin-inline-start: mm(4);
+}
+
+/* A narrow sheet (a phone): the role above the line, and the line as wide as there is room. */
+@container (width < 24em) {
+  .signer {
+    grid-template-rows: auto;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'role role'
+      'lines seal'
+      'note seal'
+      'hand hand';
+    inline-size: 100%;
+  }
+
+  .lines {
+    flex-direction: column;
+  }
+
+  .line {
+    inline-size: 100%;
+  }
+}
