@@ -37,7 +37,7 @@ Sources: [[znnd:28а:2]], [[znnd:28а:3]], [[n32:10:5]], [[n32:9а]], [[zmip:67]
 
 ## When a notary stops working
 
-When a notary loses the capacity, the archive is **sealed** by order of the president of the district court ([[znnd:36:2]], [[n32:22:1]]). The notary or the heirs, the persons working in the office and others must ask for the sealing **at once** ([[n32:22:2]], [[n32:22:3]]). On unsealing, a representative of the Notary Chamber makes an inventory and the archive goes to another notary of the same district who wants it, or to the registration judge ([[n32:23:2]]). The seals are destroyed by a commission of the Chamber ([[n32:24]]). The receiving notary performs acts only on the documents in the archive, for example issues copies ([[znnd:38]]).
+When a notary loses the capacity, the archive is **sealed** by order of the president of the district court ([[znnd:36:2]], [[n32:22:1]]). The notary or the heirs ask for the sealing **at once**; in their absence, the mayor, the district judge, the guardian or the curator does, and the president of the court may also order it ex officio ([[n32:22:2]], [[n32:22:4]]). On unsealing, a representative of the Notary Chamber makes an inventory and the archive goes to another notary of the same district who wants it, or to the registration judge; if the heirs name no notary, the Council of Notaries decides who receives it ([[n32:23:2]], [[n32:23:3]]). The seals are destroyed by a commission of the Chamber ([[n32:24]]). The receiving notary performs acts only on the documents in the archive, for example issues copies ([[znnd:38]]).
 
 ## Inspections
 
@@ -85,5 +85,5 @@ Data of deceased persons may be processed only on a legal ground, with measures 
 - **Accounts**: personal accounts for the information systems; never share the notary's credentials (the access to the population and identity registers is personal and audited, [[nnbd:10]]).
 - **E-mail**: send documents with personal data only to verified addresses, preferably encrypted.
 - **Disposal**: shred paper; wipe or destroy disks.
-- **Breaches**: a lost laptop, a mis-sent e-mail or a break-in must be reported to the notary at once; under the GDPR, the controller notifies the Commission for Personal Data Protection within 72 hours when the breach is a risk to people.
+- **Breaches**: a lost laptop, a mis-sent e-mail or a break-in must be reported to the notary at once; under Art. 33 of the GDPR, the controller notifies the Commission for Personal Data Protection within 72 hours when the breach is a risk to people.
 - **Video surveillance** at the office needs rules and notices ([[zzld:25д]]).

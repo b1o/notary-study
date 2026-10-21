@@ -30,4 +30,4 @@ Rework 3 cards into case form; add 2 cards (the oath; the clerk's answer to "whi
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: finding 2 fixed (the statute, no separate code); the interpreter condition of Art. 582 added; the "small favour" bullet now separates the null certification (Art. 576) from the false date (Art. 580, a crime); the others kept.

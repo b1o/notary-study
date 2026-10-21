@@ -31,4 +31,4 @@ Facts verified. Rework 3 cards into case form.
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 3, 4 and 5 fixed; the others kept.

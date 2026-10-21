@@ -33,4 +33,4 @@ Facts verified. Add one card (the time stamp of Art. 84(5)); rework 3 into case 
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2 and 3 fixed; the others kept.

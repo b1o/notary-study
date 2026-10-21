@@ -41,4 +41,4 @@ Facts verified. Card 11 ("Only the testator personally, with two witnesses") rea
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2 (commit a129829): findings 2, 3, 4 and 12 fixed; the others kept or verified.

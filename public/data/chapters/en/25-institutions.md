@@ -40,7 +40,7 @@ The partida **announces**; it is **not evidence** of the facts and rights entere
 
 - An entry is made at the request of the interested person, at the request of a **notary** in the cases of law, or ex officio ([[zkir:76:1]]).
 - The request states the property, its **identifier**, the partida number and the fact entered, and has a **sketch** or **scheme** attached ([[zkir:77]]).
-- The judge orders the entry; the date is recorded and the judge signs; the act shows the incoming number, the date and the partida ([[zkir:84]]). An entry without the judge's order or signature is invalid ([[zkir:85]]).
+- The judge orders the entry; the date is recorded and the judge signs; the act shows the incoming number, the date and the partida ([[zkir:84]]). The entry is also certified with a qualified electronic time stamp ([[zkir:84:5]]). An entry without the judge's order or signature is invalid ([[zkir:85]]).
 - The registry office **notifies the cadastre office** of new partidas and entries at once ([[zkir:86]]) and the municipality within 7 days ([[zmdt:51:1]]).
 
 ### Inquiries and certificates
@@ -64,7 +64,7 @@ The cadastre is the set of basic data about the location, boundaries and size of
 The office orders from the cadastre office, usually online:
 
 - a **sketch** ({{скица}}) of a plot, or a **scheme** ({{схема}}) of a separate object: needed for the entry ([[zkir:77]]);
-- a **sketch-project** ({{скица-проект}}) when a deal creates new properties, for example a partition or a declaratory deed for a property not yet on the map ([[zkir:52]]).
+- a **sketch-project** ({{скица-проект}}) when a deal forms new or changed properties, for example a partition, for the individualisation of a property that is transferred, or for a declaratory deed ([[zkir:52:1]]).
 
 Errors in the map are corrected by the cadastre office on written evidence and a project ([[zkir:54]]); obvious errors on application ([[zkir:53б]]). A dispute about ownership is settled in court ([[zkir:54:2]]).
 

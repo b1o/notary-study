@@ -1,6 +1,6 @@
 ## The ethical frame
 
-The notary must observe **professional ethics** and protect the **prestige** of the profession under the statute of the Notary Chamber ([[znnd:34:1]]). The notary must also introduce, train and guide the assistant notary and the employees ([[znnd:34:2]]). The Notary Chamber adopts a code of ethics that gives the detailed rules. On taking office, every notary swears to perform the duties honestly, conscientiously and impartially and to keep professional secrecy ([[znnd:15:1]]).
+The notary must observe **professional ethics** and protect the **prestige** of the profession under the statute of the Notary Chamber ([[znnd:34:1]]). The notary must also introduce, train and guide the assistant notary and the employees ([[znnd:34:2]]). The statute of the Notary Chamber gives the detailed rules. On taking office, every notary swears to perform the duties honestly, conscientiously and impartially and to keep professional secrecy ([[znnd:15:1]]).
 
 For the whole office this means:
 
@@ -39,7 +39,7 @@ Some clients cannot protect their interests well: very old people, people who ar
 
 - **Meet alone.** The notary meets the person alone, unless the person wants others present ([[znnd:20]]). Ask relatives to wait outside.
 - **Plain language.** Use short sentences. Ask the client to explain in their own words what they are doing.
-- **Interpreter.** The notary appoints an interpreter when a participant does not know Bulgarian ([[gpk:582]]). A person who gains from the act, a relative of the notary and office staff cannot be interpreters ([[gpk:584]]).
+- **Interpreter.** The notary appoints an interpreter when a participant does not know Bulgarian and the notary does not know the participant's language ([[gpk:582]]). A person who gains from the act, a relative of the notary and office staff cannot be interpreters ([[gpk:584]]).
 - **Capacity.** If the person cannot understand or control their acts, the contract is voidable ([[zzd:31]]). Postpone the act and, if appropriate, ask for a medical opinion.
 - **Time.** Offer time to think. A deed that must happen "today" for an old person is a warning sign.
 
@@ -74,6 +74,6 @@ Property fraud in Bulgaria often uses the notary office to give a false deal the
 ## Complaints and difficult situations
 
 - **An angry client.** Stay calm, listen, explain the legal reason in plain words, offer the next step (a missing document, a court permission). Never argue about the law at the desk.
-- **A client who demands a "small favour"** (back-dating, a missing signature "later", a certification without the person): say no, explain that it would make the act null ([[gpk:576]]) and that the office would break the law.
+- **A client who demands a "small favour"** (back-dating, a missing signature "later", a certification without the person): say no: a certification without the person is null ([[gpk:576]]), a deed must carry its true date ([[gpk:580]]), and a false date in an official document is a crime for the notary.
 - **A complaint about the notary.** Clients may complain to the Council of Notaries or to the Minister of Justice; both can start disciplinary proceedings or inspections ([[znnd:77:1]], [[znnd:80б:2]]). Pass every written complaint to the notary at once.
 - **Media and social networks.** Do not discuss clients, deals or famous visitors, even without names.
