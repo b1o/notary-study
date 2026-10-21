@@ -1,0 +1,141 @@
+/*
+ * Design tokens. Components use only these custom properties, never raw values,
+ * so the themes and the reading settings change the whole app from here.
+ */
+
+@mixin light-colors {
+  color-scheme: light;
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-surface-2: #eef0f3;
+  --color-paper: #fffefa;
+  --color-hover: rgb(26 29 35 / 0.05);
+  --color-hover-strong: #e3e6eb;
+  --color-ink: #1a1d23;
+  --color-ink-2: #4b5261;
+  --color-ink-3: #626977;
+  --color-line: #dce0e6;
+  --color-line-strong: #c3c9d2;
+  --color-accent: #5140c8;
+  --color-accent-strong: #4234ab;
+  --color-accent-text: #4a3ab8;
+  --color-accent-soft: #eceafb;
+  --color-accent-soft-strong: #dcd8f7;
+  --color-on-accent: #ffffff;
+  /* The cited paragraph, marked like a highlighter on paper. */
+  --color-mark: #fbefc4;
+  --color-success: #1e7a4f;
+  --color-success-soft: #e3f3ea;
+  --color-warn: #8a4f05;
+  --color-warn-soft: #fbf0dc;
+  --color-danger: #b42318;
+  --color-danger-soft: #fdecea;
+  --color-info: #1d5fa8;
+  --color-info-soft: #e6eef9;
+  --color-focus: #5140c8;
+  --color-scrim: rgb(17 19 24 / 0.4);
+  --shadow-1: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.05);
+  --shadow-2: 0 1px 3px rgb(16 24 40 / 0.05), 0 8px 24px rgb(16 24 40 / 0.08);
+  --shadow-3: 0 4px 10px rgb(16 24 40 / 0.06), 0 18px 44px rgb(16 24 40 / 0.16);
+}
+
+@mixin dark-colors {
+  color-scheme: dark;
+  --color-bg: #111318;
+  --color-surface: #181b22;
+  --color-surface-2: #20242d;
+  --color-paper: #1f232b;
+  --color-hover: rgb(231 233 238 / 0.06);
+  --color-hover-strong: #2a2f3a;
+  --color-ink: #e7e9ee;
+  --color-ink-2: #b4bac6;
+  --color-ink-3: #9098a6;
+  --color-line: #2c313b;
+  --color-line-strong: #3d4350;
+  --color-accent: #a79cff;
+  --color-accent-strong: #bdb4ff;
+  --color-accent-text: #b8afff;
+  --color-accent-soft: #2a2650;
+  --color-accent-soft-strong: #373166;
+  --color-on-accent: #16123a;
+  --color-mark: #3a3117;
+  --color-success: #5cc493;
+  --color-success-soft: #15302a;
+  --color-warn: #e3a64c;
+  --color-warn-soft: #33270f;
+  --color-danger: #ff8a80;
+  --color-danger-soft: #3a1a18;
+  --color-info: #86b4f0;
+  --color-info-soft: #172940;
+  --color-focus: #a79cff;
+  --color-scrim: rgb(0 0 0 / 0.55);
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-2: 0 1px 3px rgb(0 0 0 / 0.3), 0 8px 24px rgb(0 0 0 / 0.35);
+  --shadow-3: 0 4px 10px rgb(0 0 0 / 0.35), 0 18px 44px rgb(0 0 0 / 0.5);
+}
+
+:root {
+  @include light-colors;
+
+  /* Type. Golos Text for the interface and headings, Literata for long text and laws.
+     Both keep the standard Cyrillic letter forms when lang="bg". */
+  --font-ui: 'Golos Text Variable', system-ui, sans-serif;
+  --font-serif: 'Literata Variable', Georgia, serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --font-reading: var(--font-serif);
+  --font-law: var(--font-reading);
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.375rem;
+
+  /* Space, on a 4 px base. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* Layout of the frame (see app.scss). */
+  --nav-width: 17rem;
+  --frame-gap: 0.75rem;
+  --app-bar-height: 3.25rem;
+  /* Height of the bar that stays at the top of the window: none on wide screens. */
+  --sticky-offset: 0px;
+  --page-padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1rem, 5vw, 4rem) var(--space-9);
+
+  --duration-fast: 120ms;
+  --duration-medium: 220ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (width < 64rem) {
+  :root {
+    --sticky-offset: var(--app-bar-height);
+  }
+}
+
+/* "System" theme: follow the operating system. A chosen theme sets data-theme on <html>. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    @include dark-colors;
+  }
+}
+
+:root[data-theme='dark'] {
+  @include dark-colors;
+}

@@ -30,7 +30,12 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "node_modules/@fontsource-variable/golos-text/index.css",
+              "node_modules/@fontsource-variable/literata/opsz.css",
+              "node_modules/@fontsource-variable/literata/opsz-italic.css",
+              "src/styles.scss"
+            ]
           },
           "configurations": {
             "production": {

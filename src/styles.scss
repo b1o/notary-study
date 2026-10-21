@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+ * Global styles. Component styles live next to their components;
+ * this file holds only what the whole app shares. The fonts come from angular.json "styles".
+ */
+@use 'styles/tokens';
+@use 'styles/reading';
+@use 'styles/base';
+@use 'styles/components';
+@use 'styles/prose';

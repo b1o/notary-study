@@ -1,13 +1,22 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>NotaryCourse</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <nc-root></nc-root>
-</body>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notary course</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      // Apply a chosen theme before the app starts, so a dark page does not flash white.
+      // ReadingSettingsService owns these settings and sets the same attribute later.
+      try {
+        const theme = JSON.parse(localStorage.getItem('nc.reading') ?? '{}').theme;
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <nc-root></nc-root>
+  </body>
 </html>

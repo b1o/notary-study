@@ -1,0 +1,308 @@
+@use 'sass:list';
+
+/*
+ * Course text rendered from Markdown (see core/markdown/render-markdown.ts).
+ * These styles are global because the HTML is inserted with innerHTML, outside of Angular's
+ * style encapsulation. Sizes are in em, so the whole text follows the "Text size" setting.
+ */
+
+/* A stroke icon for CSS masks, drawn on the same 24×24 grid as shared/ui/icon.ts. */
+@function icon($path) {
+  @return url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='#{$path}'/%3E%3C/svg%3E");
+}
+
+/* Look of each callout kind: background, title colour, icon. */
+$callouts: (
+  law: (
+    var(--color-accent-soft),
+    var(--color-accent-text),
+    'M12 4v16M8 20h8M5 7h14M7 7l-3 6.5h6ZM17 7l-3 6.5h6Z',
+  ),
+  tip: (
+    var(--color-success-soft),
+    var(--color-success),
+    'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z',
+  ),
+  warn: (
+    var(--color-warn-soft),
+    var(--color-warn),
+    'M12 4 2.8 19.5h18.4ZM12 10v4M12 17h.01',
+  ),
+  example: (
+    var(--color-surface-2),
+    var(--color-ink-2),
+    'M14 3H6.5a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V7.5ZM14 3v4.5h4.5M9 12h6M9 16h4',
+  ),
+  note: (
+    var(--color-info-soft),
+    var(--color-info),
+    'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18ZM12 11v5M12 8h.01',
+  ),
+  task: (
+    var(--color-surface-2),
+    var(--color-ink-2),
+    'M4 20h4L19 9l-4-4L4 16ZM13.5 6.5l4 4',
+  ),
+  reform: (
+    var(--color-info-soft),
+    var(--color-info),
+    'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18ZM12 7.5V12l3 2',
+  ),
+  solution: (
+    var(--color-surface-2),
+    var(--color-ink),
+    'M5 12.5l4.5 4.5L19 7.5',
+  ),
+);
+
+.prose {
+  display: block;
+  font-family: var(--font-reading);
+  font-size: var(--reading-size);
+  line-height: var(--reading-leading);
+  color: var(--color-ink);
+  overflow-wrap: break-word;
+
+  > :first-child {
+    margin-block-start: 0;
+  }
+
+  p,
+  ul,
+  ol {
+    margin: 0 0 1em;
+  }
+
+  ul,
+  ol {
+    padding-inline-start: 1.4em;
+  }
+
+  li + li {
+    margin-block-start: 0.35em;
+  }
+
+  li > ul,
+  li > ol {
+    margin-block: 0.35em 0;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-ui);
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    color: var(--color-ink);
+  }
+
+  h2 {
+    margin: 2.2em 0 0.6em;
+    font-size: 1.45em;
+  }
+
+  h3 {
+    margin: 1.8em 0 0.5em;
+    font-size: 1.15em;
+  }
+
+  h4 {
+    margin: 1.5em 0 0.4em;
+    font-size: 1em;
+  }
+
+  strong {
+    font-weight: 650;
+  }
+
+  hr {
+    block-size: 1px;
+    margin: 2em 0;
+    border: 0;
+    background: var(--color-line);
+  }
+
+  code {
+    padding: 0.1em 0.3em;
+    border-radius: 4px;
+    background: var(--color-surface-2);
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+  }
+
+  blockquote {
+    margin: 0 0 1em;
+    padding: 0.75em 1em;
+    border-radius: var(--radius-md);
+    background: var(--color-surface-2);
+    color: var(--color-ink-2);
+  }
+
+  blockquote > :last-child {
+    margin-block-end: 0;
+  }
+
+  /* A Bulgarian term inside English text. */
+  .term {
+    font-style: italic;
+  }
+
+  /* A law citation. It is filled while the law panel shows it. */
+  .cite {
+    padding: 0.08em 0.5em;
+    border-radius: var(--radius-pill);
+    background: var(--color-accent-soft);
+    color: var(--color-accent-text);
+    font-family: var(--font-ui);
+    font-size: 0.8em;
+    font-weight: 550;
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      background-color var(--duration-fast) var(--ease),
+      color var(--duration-fast) var(--ease);
+  }
+
+  .cite:hover {
+    background: var(--color-accent-soft-strong);
+  }
+
+  .cite--active,
+  .cite--active:hover {
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+  }
+
+  .table-scroll {
+    margin: 1.5em 0;
+    overflow-x: auto;
+  }
+
+  table {
+    inline-size: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-ui);
+    font-size: 0.82em;
+    line-height: 1.45;
+  }
+
+  th,
+  td {
+    padding: 0.6em 0.75em;
+    text-align: start;
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--color-surface-2);
+    font-weight: 600;
+  }
+
+  th:first-child {
+    border-start-start-radius: var(--radius-sm);
+    border-end-start-radius: var(--radius-sm);
+  }
+
+  th:last-child {
+    border-start-end-radius: var(--radius-sm);
+    border-end-end-radius: var(--radius-sm);
+  }
+
+  tbody tr + tr td {
+    border-block-start: 1px solid var(--color-line);
+  }
+
+  /* The text of a document (```doc), set like a sheet of paper. */
+  .document {
+    margin: 1.75em 0;
+    padding: 2em clamp(1.25em, 5%, 2.75em);
+    border-radius: 4px;
+    background: var(--color-paper);
+    box-shadow: var(--shadow-2);
+  }
+
+  .document__title {
+    margin-block-end: 1.25em;
+    font-family: var(--font-serif);
+    font-weight: 650;
+    text-align: center;
+  }
+
+  .document__text {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 0.88em;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+
+  /* Callouts: a tinted panel with an icon in the title. */
+  .callout {
+    margin: 1.5em 0;
+    padding: 0.9em 1.15em 1em;
+    border-radius: var(--radius-md);
+    background: var(--callout-bg);
+    font-size: 0.94em;
+  }
+
+  .callout__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 0 0.4em;
+    font-family: var(--font-ui);
+    font-size: 0.92em;
+    font-weight: 650;
+    color: var(--callout-ink);
+  }
+
+  .callout__title::before {
+    content: '';
+    flex: none;
+    inline-size: 1.2em;
+    block-size: 1.2em;
+    background: currentColor;
+    mask: var(--callout-icon) center / contain no-repeat;
+  }
+
+  .callout__body > :last-child {
+    margin-block-end: 0;
+  }
+
+  @each $kind, $look in $callouts {
+    .callout--#{$kind} {
+      --callout-bg: #{list.nth($look, 1)};
+      --callout-ink: #{list.nth($look, 2)};
+      --callout-icon: #{icon(list.nth($look, 3))};
+    }
+  }
+
+  /* The model solution stays closed until the reader opens it. */
+  details.callout > summary {
+    margin: 0;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  details.callout > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.callout > summary::after {
+    content: '';
+    inline-size: 1em;
+    block-size: 1em;
+    margin-inline-start: auto;
+    background: currentColor;
+    mask: icon('M6 9l6 6 6-6') center / contain no-repeat;
+    transition: rotate var(--duration-fast) var(--ease);
+  }
+
+  details.callout[open] > summary {
+    margin-block-end: 0.6em;
+  }
+
+  details.callout[open] > summary::after {
+    rotate: 180deg;
+  }
+}
