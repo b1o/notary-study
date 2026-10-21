@@ -1,3 +1,4 @@
+import { LocationStrategy } from '@angular/common';
 import { HttpClient, httpResource } from '@angular/common/http';
 import { computed, inject, Service } from '@angular/core';
 import { Router } from '@angular/router';
@@ -18,6 +19,7 @@ export class LawLibraryService {
   private readonly http = inject(HttpClient);
   private readonly language = inject(LanguageService);
   private readonly router = inject(Router);
+  private readonly locationStrategy = inject(LocationStrategy);
 
   readonly catalog = httpResource<readonly LawCatalogEntry[]>(() => `${LAWS}/catalog.json`);
 
@@ -62,11 +64,16 @@ export class LawLibraryService {
     return { commands, queryParams: reference.paragraph ? { paragraph: reference.paragraph } : {} };
   }
 
-  /** The same link as an address, for an href: "/laws/znnd/25?paragraph=9". */
+  /**
+   * The same link as an address, for an href: "/laws/znnd/25?paragraph=9". The address starts
+   * with the base href, as the href of a RouterLink does, so that a link opened in a new tab
+   * stays in the app when the app is not at the root of its host.
+   */
   url(reference: LawReference | string): string {
     const parsed = typeof reference === 'string' ? parseReference(reference) : reference;
     const { commands, queryParams } = this.link(parsed);
-    return this.router.serializeUrl(this.router.createUrlTree(commands, { queryParams }));
+    const tree = this.router.createUrlTree(commands, { queryParams });
+    return this.locationStrategy.prepareExternalUrl(this.router.serializeUrl(tree));
   }
 
   loadAct(actId: string): Promise<ActIndex> {
