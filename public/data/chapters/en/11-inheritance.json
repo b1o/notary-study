@@ -13,8 +13,8 @@
       "back": "At the moment of **death**, at the **last domicile** of the deceased (Art. 1 ЗН)."
     },
     {
-      "front": "Share of the spouse when inheriting with children?",
-      "back": "A share **equal to each child** (Art. 9(1) ЗН)."
+      "front": "A man dies and leaves a wife and three children. What is the wife's share of his estate?",
+      "back": "**1/4**: a share equal to each child (Art. 9(1) ЗН). Her own half of the community property is not part of the estate (Art. 28 СК)."
     },
     {
       "front": "Share of the spouse with parents after 12 years of marriage?",
@@ -25,8 +25,8 @@
       "back": "**Half** of a full sibling's share (Art. 8(3) ЗН)."
     },
     {
-      "front": "Who inherits if there are no relatives up to the 6th degree?",
-      "back": "The **state**; dwellings, garages and housing plots go to the **municipality** (Art. 11 ЗН)."
+      "front": "An heir wants to renounce the inherited debts and keep the flat. Is that possible?",
+      "back": "**No**: a renunciation for a part of the inheritance is invalid (Art. 54 ЗН). The heir accepts **by inventory** to limit the liability to the value of the estate (Art. 60(2), 61 ЗН)."
     },
     {
       "front": "Minimum age to make a will?",
@@ -41,8 +41,8 @@
       "back": "Written **entirely by hand**, **dated**, **signed after** the dispositions (Art. 25(1) ЗН)."
     },
     {
-      "front": "Can two spouses make one joint will?",
-      "back": "**No** (Art. 15 ЗН)."
+      "front": "A nephew comes with a power of attorney to take back his aunt's deposited will. What follows?",
+      "back": "Refusal: only the **testator personally** may take a deposited will back; the note in the register is signed by the testator, two witnesses and the notary (Art. 26 ЗН)."
     },
     {
       "front": "Reserved portion with two children and no spouse?",
@@ -79,9 +79,10 @@
         "Nothing"
       ],
       "answer": 0,
-      "explanation": "The spouse gets a share equal to each child: four equal shares.",
+      "explanation": "Art. 9(1) ЗН: the spouse inherits a share equal to each child; with three children, four equal shares of 1/4. The other half of the flat is already hers as community property (Art. 28 СК) and is not inherited.",
       "refs": [
-        "zn:9:1"
+        "zn:9:1",
+        "sk:28"
       ]
     },
     {
@@ -93,7 +94,7 @@
         "Everything"
       ],
       "answer": 0,
-      "explanation": "With ascendants, the spouse gets 1/2 if the inheritance opened before 10 years of marriage.",
+      "explanation": "Art. 9(2) ЗН: with parents or siblings, the spouse gets 1/2 when the inheritance opened before ten years of marriage and 2/3 after ten years; 1/3 applies when parents and siblings both survive. After six years: 1/2 to the husband, 1/2 to the father.",
       "refs": [
         "zn:9:2"
       ]
@@ -101,13 +102,13 @@
     {
       "question": "A grandchild whose father died before the grandmother: does the grandchild inherit from the grandmother?",
       "options": [
-        "Yes, by representation in place of the father",
-        "No, grandchildren never inherit while a child lives",
-        "Only by a will",
-        "Only half of the father's share"
+        "Yes; by representation in place of the father",
+        "No; grandchildren never inherit while a child lives",
+        "Only by a will of the grandmother",
+        "Only half of the father's share, as a grandchild"
       ],
       "answer": 0,
-      "explanation": "Descendants of a predeceased child replace the child without limit of degree.",
+      "explanation": "Art. 10(1) ЗН: the descendants of a child who died before the deceased take the child's place without limit of degree, per stirpes. The grandchild takes the whole share of the father; a living child of the grandmother does not exclude the grandchild.",
       "refs": [
         "zn:10:1"
       ]
@@ -116,15 +117,16 @@
       "question": "Which will is valid?",
       "options": [
         "A will written entirely by hand, dated and signed at the end",
-        "A will typed on a computer and signed",
-        "A will written by hand but not dated",
-        "A joint will of two spouses signed by both"
+        "A will typed on a computer, dated and signed at the end",
+        "A will written entirely by hand and signed, without a date",
+        "A will written by hand by two spouses and signed by both"
       ],
       "answer": 0,
-      "explanation": "A holographic will must be handwritten, dated and signed after the dispositions; joint wills are not allowed.",
+      "explanation": "Art. 25(1) ЗН: a holographic will is written entirely by hand, dated and signed after the dispositions; a typed text or a missing date makes it void (Art. 42). Two persons may not make a will in one act (Art. 15).",
       "refs": [
         "zn:25:1",
-        "zn:15"
+        "zn:15",
+        "zn:42"
       ]
     },
     {
@@ -136,23 +138,25 @@
         "Three"
       ],
       "answer": 0,
-      "explanation": "The notarial will is made in the presence of two witnesses.",
+      "explanation": "Art. 24(1) ЗН: the notarial will is made before the notary in the presence of two witnesses, who must meet Art. 584 ГПК; the notary reads the will to the testator in their presence (Art. 24(2)).",
       "refs": [
-        "zn:24:1"
+        "zn:24:1",
+        "gpk:584"
       ]
     },
     {
       "question": "May an assistant notary make a notarial will?",
       "options": [
-        "No",
-        "Yes, on the notary's instructions",
+        "No; a will needs the notary personally",
+        "Yes, on the instructions of the notary",
         "Yes, if two witnesses are present",
-        "Yes, outside the office"
+        "Yes, but only outside the office"
       ],
       "answer": 0,
-      "explanation": "Notarial wills are excluded from an assistant notary's competence.",
+      "explanation": "Art. 40(1) item 3 ЗННД excludes notarial wills and their revocation from the powers of an assistant notary; only the notary, or a registered substitute (Art. 46), makes a will.",
       "refs": [
-        "znnd:40:1"
+        "znnd:40:1",
+        "znnd:46:1"
       ]
     },
     {
@@ -160,39 +164,42 @@
       "options": [
         "1/2 of the estate",
         "Everything",
-        "1/3",
-        "1/4"
+        "1/3 of the estate",
+        "1/4 of the estate"
       ],
       "answer": 0,
-      "explanation": "With one child and no spouse, the reserved portion is 1/2.",
+      "explanation": "Art. 29(1) ЗН: with one child and no spouse, the reserved portion is 1/2; the freely disposable portion is the other 1/2 (Art. 28(2)). The child may ask for the reduction of the will beyond that (Art. 30).",
       "refs": [
-        "zn:29:1"
+        "zn:29:1",
+        "zn:28",
+        "zn:30"
       ]
     },
     {
       "question": "Which gifts are reduced first when the reserved portion is affected?",
       "options": [
         "After the wills, starting from the latest gift",
-        "The oldest gift first",
-        "All gifts proportionally",
-        "Gifts are never reduced"
+        "Before the wills, starting from the oldest gift",
+        "Together with the wills, all gifts proportionally",
+        "Never; only wills are reduced, not gifts"
       ],
       "answer": 0,
-      "explanation": "Wills are reduced first; gifts afterwards, from the latest to the earlier ones.",
+      "explanation": "Art. 32 and 33 ЗН: wills are reduced first, proportionally; gifts only when the wills do not suffice, starting from the latest gift. Transfers by the donee within a year of the opening may be set aside (Art. 37).",
       "refs": [
-        "zn:33"
+        "zn:33",
+        "zn:32"
       ]
     },
     {
       "question": "Where does an heir file a renunciation of an inheritance?",
       "options": [
         "With the district judge where the inheritance opened",
-        "With any notary",
-        "With the municipality",
-        "With the Registry Agency"
+        "With any notary, by a certified declaration",
+        "With the municipality of the last address",
+        "With the Registry Agency, in the property register"
       ],
       "answer": 0,
-      "explanation": "Acceptance and renunciation are made by a written statement to the district judge.",
+      "explanation": "Art. 52 with Art. 49(1) ЗН: acceptance and renunciation are made by a written statement to the district judge of the place where the inheritance opened, entered in a special book. The notary only certifies the signature on the statement when the heir does not file it in person.",
       "refs": [
         "zn:52",
         "zn:49:1"
@@ -201,16 +208,17 @@
     {
       "question": "An heir wants to renounce only the inherited debts and keep the flat. Is that possible?",
       "options": [
-        "No, renunciation of a part of the inheritance is invalid",
-        "Yes, with a declaration to the judge",
-        "Yes, at the notary",
-        "Yes, within three months"
+        "No; renunciation of a part of the inheritance is invalid",
+        "Yes, with a declaration to the district judge within the term",
+        "Yes, with a declaration certified by a notary and entered",
+        "Yes, within three months of the opening of the inheritance"
       ],
       "answer": 0,
-      "explanation": "Acceptance and renunciation for a part of the inheritance are invalid. Acceptance by inventory is the tool to limit liability.",
+      "explanation": "Art. 54(1) ЗН: acceptance or renunciation under a condition, with a term or for a part of the inheritance is invalid. The tool to limit liability for debts is acceptance by inventory (Art. 60(2), 61), within three months of learning of the opening.",
       "refs": [
         "zn:54:1",
-        "zn:60:2"
+        "zn:60:2",
+        "zn:61:1"
       ]
     },
     {
@@ -222,23 +230,25 @@
         "It is valid if the fourth heir is paid later"
       ],
       "answer": 0,
-      "explanation": "A partition made without one of the co-heirs is entirely void.",
+      "explanation": "Art. 75(2) ЗН: a partition made without one of the co-heirs is entirely void, also between the three who signed. The one-year term concerns a partition challenged for a mistake of more than a quarter (Art. 74).",
       "refs": [
-        "zn:75:2"
+        "zn:75:2",
+        "zn:74"
       ]
     },
     {
       "question": "A nephew inherits from his aunt. Does he pay inheritance tax?",
       "options": [
-        "Possibly yes; only the spouse and the direct line are exempt",
-        "No, nobody pays inheritance tax",
-        "Yes, always 6%",
-        "No, relatives are always exempt"
+        "Possibly; 0.4–0.8% on the share above 250,000 лв.",
+        "No; nobody pays inheritance tax in Bulgaria",
+        "Yes; 3.3–6.6% on the whole inherited share",
+        "No; relatives are always exempt from the tax"
       ],
       "answer": 0,
-      "explanation": "Only the surviving spouse and heirs in the direct line are exempt.",
+      "explanation": "Art. 31(2) ЗМДТ: only the surviving spouse and the direct line are exempt. A nephew is a child of a sibling: Art. 36 item 1 sets 0.4–0.8% on the part of the share above 250,000 лв. (127,822.97 euro); other persons pay 3.3–6.6% (item 2). Below the threshold no tax is due.",
       "refs": [
-        "zmdt:31:2"
+        "zmdt:31:2",
+        "zmdt:36"
       ]
     }
   ]

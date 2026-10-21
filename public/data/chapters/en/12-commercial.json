@@ -29,8 +29,8 @@
       "back": "Admission/expulsion and consent to share transfer; capital; election of manager; acquisition and disposal of real estate, unless the articles provide written form (Art. 137(4) ТЗ)."
     },
     {
-      "front": "What happens to a decision taken without the required protocol form?",
-      "back": "It is **null** (Art. 137(5) ТЗ)."
+      "front": "The partners sign a protocol for the sale of the company's shop with simple signatures; the articles say nothing about form. What follows?",
+      "back": "The decision is **null** (Art. 137(4)–(5) ТЗ). The notary refuses the deed until a protocol with certified signatures and content exists."
     },
     {
       "front": "Form of a contract for the transfer of a company share?",
@@ -45,8 +45,8 @@
       "back": "Written with notarial certification of **signatures and content at the same time** (Art. 15(1) ТЗ)."
     },
     {
-      "front": "May a procurator sell the merchant's real estate?",
-      "back": "Only with **special authorisation** (Art. 22(2) ТЗ)."
+      "front": "A procurator brings a draft deed to mortgage the merchant's warehouse. What does the notary check?",
+      "back": "A **special authorisation** for real estate (Art. 22(2) ТЗ); the procuration alone, even entered in the register, does not allow a sale or an encumbrance of real estate."
     },
     {
       "front": "How does a special pledge arise?",
@@ -57,36 +57,37 @@
       "back": "The **notary of the place of payment or acceptance**, at the written request of the holder (Art. 501 ТЗ)."
     },
     {
-      "front": "Deadline for a protest for non-payment?",
-      "back": "Within **one of the two working days** after the day of payment (Art. 498 ТЗ)."
+      "front": "A promissory note was due on Friday and was not paid. Until when can the protest be made?",
+      "back": "On **Monday or Tuesday**: within one of the two working days after the day of payment (Art. 498 ТЗ). A late protest loses the claims against the endorsers and the drawer (Art. 514)."
     }
   ],
   "quiz": [
     {
       "question": "The general meeting of an OOD decided to sell the company's warehouse. The protocol has only simple signatures, and the articles say nothing about form. What is the status of the decision?",
       "options": [
-        "Null, because the protocol needs notarial certification of signatures and content",
-        "Valid, because the partners signed",
-        "Voidable within three years",
-        "Valid if the manager confirms it"
+        "Null",
+        "Valid",
+        "Voidable",
+        "Valid once entered"
       ],
       "answer": 0,
-      "explanation": "Decisions under Art. 137(1), item 7 need a protocol with notarially certified signatures and content, unless the articles provide written form; otherwise they are null.",
+      "explanation": "Art. 137(4) ТЗ: a decision on the disposal of real estate (Art. 137(1) item 7) needs a protocol with notarial certification of the signatures and the content at the same time, unless the articles provide simple written form; a decision in breach is null (Art. 137(5)). Entry cannot cure a null decision.",
       "refs": [
         "tz:137:4",
-        "tz:137:5"
+        "tz:137:5",
+        "tz:137:1"
       ]
     },
     {
       "question": "The sole owner of an EOOD decides to sell the company's office. What form does the decision need?",
       "options": [
-        "The same form as a general meeting decision: a protocol with notarially certified signature and content, unless the articles say otherwise",
-        "No form; the owner may simply sign the deed",
-        "An oral decision is enough",
-        "A decision of the Commercial Register"
+        "A protocol with certified signature and content",
+        "A protocol in simple written form, signed by the owner",
+        "A notarial deed of the decision",
+        "An oral decision, noted by the manager"
       ],
       "answer": 0,
-      "explanation": "The sole owner decides in the form required for general meeting decisions.",
+      "explanation": "Art. 147(2) ТЗ: the sole owner decides the matters of the general meeting in the form required for its decisions; for real estate that is the protocol of Art. 137(4) with certified signature and content, unless the articles provide written form.",
       "refs": [
         "tz:147:2",
         "tz:137:4"
@@ -95,13 +96,13 @@
     {
       "question": "A partner sells her OOD share to her co-partner. What is required?",
       "options": [
-        "A contract with signature and content certified at the same time; no admission decision is needed between partners",
-        "Only a simple written contract",
-        "A notarial deed",
-        "A court decision"
+        "A contract with signature and content certified at the same time",
+        "A simple written contract between the two partners, filed with the register",
+        "A notarial deed, because the share is a real right",
+        "A court decision, because the share changes the capital"
       ],
       "answer": 0,
-      "explanation": "Transfers between partners are free, but the form of Art. 129(2) applies.",
+      "explanation": "Art. 129(1) ТЗ: a transfer between partners is free, so no admission decision is needed; Art. 129(2) still requires a contract with notarial certification of the signatures and the content at the same time, entered in the Commercial Register.",
       "refs": [
         "tz:129:1",
         "tz:129:2"
@@ -110,127 +111,137 @@
     {
       "question": "What prevents the transfer of an OOD share to a third person?",
       "options": [
-        "Unpaid wages or social contributions of the company's workers",
-        "A bank loan of the company",
-        "A pending tax audit of the partner",
-        "A lease of the company's office"
+        "Unpaid wages or social contributions of the workers",
+        "A bank loan of the company that is not yet repaid",
+        "A pending tax audit of the transferring partner",
+        "A lease of the company's office with two years left"
       ],
       "answer": 0,
-      "explanation": "Art. 129(1) ТЗ requires that there are no unpaid wages, compensations and mandatory social contributions.",
+      "explanation": "Art. 129(1) ТЗ: a share passes to a third person only if the company has no unpaid wages, compensations and mandatory social contributions of its workers, including those who left in the last three years; the manager and the transferor declare it (Art. 129(2)). Loans, audits and leases do not block the transfer.",
       "refs": [
-        "tz:129:1"
+        "tz:129:1",
+        "tz:129:2"
       ]
     },
     {
-      "question": "Can a mayor certify the signatures on a share transfer contract?",
+      "question": "The articles of an OOD provide simple written form for the decisions of the general meeting. The partners admit a new partner and sign a protocol without a notary. Is the decision valid?",
       "options": [
-        "No",
-        "Yes, in villages without a notary",
-        "Yes, with the consent of the partners",
-        "Yes, if the share is small"
+        "Yes; the articles may provide written form for these decisions",
+        "No; the admission of a partner always needs a certified protocol",
+        "No; the protocol needs at least certified signatures",
+        "Yes, but only after the registration officer approves it"
       ],
       "answer": 0,
-      "explanation": "Art. 83(2) ЗННД excludes the Commerce Act cases.",
+      "explanation": "Art. 137(4) ТЗ requires the certified protocol for the decisions of items 2, 4, 5 (first proposal) and 7 \"освен ако в дружествения договор е предвидена писмена форма\". When the articles provide written form, simple signatures suffice; the registration officer checks the form against the articles (Art. 21 ЗТРРЮЛНЦ).",
       "refs": [
-        "znnd:83:2"
+        "tz:137:4",
+        "ztr:21"
       ]
     },
     {
       "question": "A merchant sells his whole enterprise. Towards whom must he give notice?",
       "options": [
         "The creditors and the debtors",
-        "Only the employees",
-        "Only the tax authority",
-        "Nobody"
+        "Only the employees of the enterprise",
+        "Only the tax authority and the register",
+        "Nobody; the entry in the register is enough"
       ],
       "answer": 0,
-      "explanation": "The transferor must notify the creditors and debtors of the transfer.",
+      "explanation": "Art. 15(1) ТЗ: the transferor must notify the creditors and the debtors of the transfer; the entry in the register for both parties (Art. 16) does not replace the notice. The transferor stays jointly liable up to the value received (Art. 15(3)).",
       "refs": [
-        "tz:15:1"
+        "tz:15:1",
+        "tz:15:3",
+        "tz:16"
       ]
     },
     {
       "question": "What is the material interest for the fee on the transfer of an enterprise?",
       "options": [
         "The book value of the fixed assets for the last quarter",
-        "The annual turnover",
-        "The share capital",
-        "The market value of the brand"
+        "The annual turnover of the enterprise for the last financial year",
+        "The share capital of the merchant",
+        "The market value of the brand, the stock and the goodwill"
       ],
       "answer": 0,
-      "explanation": "Art. 97(1), item 2 ЗННД.",
+      "explanation": "Art. 97(1) item 2 ЗННД: for the transfer of a commercial enterprise the certified material interest is the book value of the fixed assets for the last quarter; turnover, capital and brand are not the base. The fee is item 9 of the tariff, 50% of item 8.",
       "refs": [
-        "znnd:97:1"
+        "znnd:97:1",
+        "tarifa:9"
       ]
     },
     {
       "question": "A procurator wants to mortgage the merchant's building for a loan. Is it allowed?",
       "options": [
-        "Only with special authorisation",
-        "Yes, it is within the business",
-        "Yes, if the loan is small",
-        "Never"
+        "Only with a special authorisation",
+        "Yes; a mortgage is within the business",
+        "Yes, if the loan is small compared with the assets",
+        "Never; a procurator cannot touch real estate"
       ],
       "answer": 0,
-      "explanation": "A procurator may not sell or encumber real estate unless specially authorised.",
+      "explanation": "Art. 22(2) ТЗ: a procurator may not sell or encumber real estate of the merchant without a special authorisation; with such an authorisation, given in the form of the procuration (Art. 21(1)), the mortgage is possible.",
       "refs": [
-        "tz:22:2"
+        "tz:22:2",
+        "tz:21:1"
       ]
     },
     {
       "question": "A bill of exchange was due on Monday and was not paid. When must the protest be made?",
       "options": [
-        "On Tuesday or Wednesday (one of the two working days after the day of payment)",
-        "On Monday",
-        "Within a month",
-        "At any time"
+        "On Tuesday or Wednesday",
+        "On Monday, the day of payment",
+        "Within a month of the due date",
+        "At any time before the claim lapses"
       ],
       "answer": 0,
-      "explanation": "The protest for non-payment is made within one of the two working days after the day of payment.",
+      "explanation": "Art. 498 ТЗ: a protest for non-payment of a bill payable on a fixed day is made within one of the two working days after the day of payment; Monday is the due date itself. A holder who misses the term loses the claims against the endorsers and the drawer (Art. 514).",
       "refs": [
-        "tz:498"
+        "tz:498",
+        "tz:514"
       ]
     },
     {
       "question": "Which notary makes a protest?",
       "options": [
         "The notary of the place of payment or acceptance",
-        "Any notary in Bulgaria",
-        "The notary of the holder's domicile",
-        "The notary chosen by the drawee"
+        "Any notary in Bulgaria, like for a certification",
+        "The notary of the domicile of the holder of the bill",
+        "The notary chosen by the drawee of the bill"
       ],
       "answer": 0,
-      "explanation": "Art. 501 ТЗ.",
+      "explanation": "Art. 501 ТЗ: the protest is made at the written request of the holder by the notary of the place of payment or acceptance, not by any notary; the content of the protest follows Art. 502.",
       "refs": [
-        "tz:501"
+        "tz:501",
+        "tz:502"
       ]
     },
     {
-      "question": "What does a manager present to the Commercial Register when elected?",
+      "question": "A share transfer contract is certified in May 2026. What does the registration officer check about debts before the entry?",
       "options": [
-        "A notarially certified consent with a specimen signature",
-        "A criminal record certificate only",
-        "A diploma",
-        "A bank reference"
+        "The declarations of the manager and the transferor on unpaid wages",
+        "An electronic check at the revenue agency for contributions, from 2026",
+        "A certificate of the revenue agency presented by the transferor",
+        "Nothing; the notary already checked the debts of the company"
       ],
       "answer": 0,
-      "explanation": "The manager presents a notarially certified consent with a specimen of the signature.",
+      "explanation": "Art. 129(2) ТЗ: the entry follows the declarations of the manager and the transferor on the approved form that there are no unpaid debts under Art. 129(1). The electronic check by the registration officer at the National Revenue Agency applies from 2 April 2027 (ДВ, бр. 69 от 2026 г.); in May 2026 it does not exist yet.",
       "refs": [
-        "tz:141:3"
+        "tz:129:2",
+        "tz:129:1"
       ]
     },
     {
       "question": "A creditor of a pledge agreement gives consent to a change. In what form?",
       "options": [
         "In writing with a notarially certified signature",
-        "Orally",
-        "By e-mail",
-        "By a notarial deed"
+        "Orally, before the manager of the pledgor",
+        "By an e-mail to the Central Register of Special Pledges",
+        "By a notarial deed with the pledgor"
       ],
       "answer": 0,
-      "explanation": "Every consent of the pledgee is given in writing with a notarially certified signature.",
+      "explanation": "Art. 2(3) ЗОЗ: every consent of the pledgee is given in writing with a notarially certified signature; the pledge contract itself is written, with certified signatures in the cases of the act (Art. 2(2)).",
       "refs": [
-        "zoz:2:3"
+        "zoz:2:3",
+        "zoz:2:2"
       ]
     }
   ]

@@ -45,16 +45,16 @@
       "back": "**No** (Art. 38 ЗС)."
     },
     {
-      "front": "When does an unused building right lapse?",
-      "back": "After **5 years** of non-use (Art. 67 ЗС)."
+      "front": "A building right of 2019 was never used. May the holder start building in 2026?",
+      "back": "**No.** The right to build on another's land lapses after **5 years** of non-use (Art. 67 ЗС)."
     },
     {
       "front": "Material interest for a building right deed?",
       "back": "**90%** of the market price of the land (Art. 96(2) ЗННД)."
     },
     {
-      "front": "Can the holder of a right of use sell it?",
-      "back": "**No** (Art. 56 ЗС)."
+      "front": "A father kept a right of use after a gift and then lived in a care home for six years. What happened to the right?",
+      "back": "It **lapsed**: a right of use ends when it is not exercised for **5 years** (Art. 59 ЗС). It also cannot be sold (Art. 56)."
     },
     {
       "front": "When does a right of use end?",
@@ -65,50 +65,50 @@
       "back": "Written with **notarially certified signature**, and **entered** in the property register (Art. 100 ЗС)."
     },
     {
-      "front": "What is the effect of entering a deed first?",
-      "back": "An unentered act cannot be relied upon against a third person who acquired from the same owner earlier and **entered** first (Art. 113 ЗС)."
+      "front": "The seller sold the same flat twice; the second buyer entered first. Who owns it?",
+      "back": "The **second** buyer: an unentered act cannot be opposed to a third person who acquired from the same owner and **entered** first (Art. 113 ЗС)."
     }
   ],
   "quiz": [
     {
       "question": "A person has possessed a house in good faith on the basis of a defective deed for 6 years without interruption. What is the position?",
       "options": [
-        "The person can claim ownership by prescription, as 5 years are enough in good faith",
-        "The person needs 10 years in any case",
-        "Possession never gives ownership of real estate",
-        "The person needs 20 years"
+        "Ownership by prescription: five years suffice in good faith",
+        "No ownership yet; ten years are needed in every case",
+        "No ownership; possession never replaces a deed for real estate",
+        "No ownership yet; twenty years are needed for a house"
       ],
       "answer": 0,
-      "explanation": "5 years in good faith, 10 years otherwise.",
+      "explanation": "Art. 79 ЗС: a good-faith possessor acquires real estate by five years of uninterrupted possession; otherwise ten years. Good faith means possession on a legal ground capable of making the possessor the owner, without knowledge of its defect (Art. 70). Twenty years is not a term of the act.",
       "refs": [
         "zs:79",
         "zs:70"
       ]
     },
     {
-      "question": "Three siblings own a house in shares 1/2, 1/4, 1/4. Nothing proves the shares. What does the law presume?",
+      "question": "Three siblings own a house. Nothing proves the shares. What does the law presume?",
       "options": [
         "Equal shares of 1/3 each",
         "The shares stated by the oldest sibling",
-        "Shares by age",
-        "No presumption"
+        "Shares in proportion to the age of each sibling",
+        "No presumption; a court sets the shares"
       ],
       "answer": 0,
-      "explanation": "Shares are presumed equal until the contrary is proven.",
+      "explanation": "Art. 30 ЗС: the shares of co-owners are presumed equal until the contrary is proven. A deed or a certificate of heirs can prove other shares; age and seniority prove nothing.",
       "refs": [
         "zs:30"
       ]
     },
     {
-      "question": "A co-owner wants to sell her share to a stranger. What does the notary require?",
+      "question": "A co-owner wants to sell her share to a stranger. What does the notary require from her?",
       "options": [
-        "Written evidence of an offer to the other co-owners on the same terms and her declaration that nobody accepted",
-        "The written consent of the other co-owners",
-        "A court permission",
-        "Nothing special"
+        "Proof of an offer to the co-owners and a declaration of refusal",
+        "The written consent of the other co-owners to the sale",
+        "A permission of the district court for the sale of a share to a stranger",
+        "A valuation of the share by a licensed appraiser"
       ],
       "answer": 0,
-      "explanation": "Art. 33 ЗС.",
+      "explanation": "Art. 33 ЗС: before selling a share to a third person, the co-owner presents written evidence that the share was offered to the other co-owners on the same terms and declares in writing that none of them accepted. Their consent is not needed: the offer and its refusal suffice; a false declaration opens the redemption claim.",
       "refs": [
         "zs:33"
       ]
@@ -117,12 +117,12 @@
       "question": "A co-owner sold his share to a third person with a false declaration. Within what time can another co-owner sue to redeem it?",
       "options": [
         "Two months from the sale",
-        "One year",
-        "Five years",
-        "Six months"
+        "One year from the sale",
+        "Five years from the sale",
+        "Six months from the sale"
       ],
       "answer": 0,
-      "explanation": "The redemption claim must be filed within two months of the sale.",
+      "explanation": "Art. 33 ЗС: the claim for redemption is filed within two months of the sale; the co-owner who wins must pay within one month after the decision becomes final, or the decision is void by law.",
       "refs": [
         "zs:33"
       ]
@@ -130,13 +130,13 @@
     {
       "question": "A building right was granted in 2018. Construction never started. What is the position in 2026?",
       "options": [
-        "The right lapsed because it was not used for 5 years",
-        "It is still valid",
-        "It became ownership of the land",
-        "It lapses only after 10 years"
+        "The right lapsed; it was not used for five years",
+        "The right is still valid; it has no time limit",
+        "The right turned into ownership of the land",
+        "The right lapses only after ten years of non-use"
       ],
       "answer": 0,
-      "explanation": "The right to build on somebody else's land lapses if not used for 5 years.",
+      "explanation": "Art. 67 ЗС: the right to build on another's land lapses when it is not exercised for five years. 2018 plus five years ended in 2023; the land stays with its owner.",
       "refs": [
         "zs:67"
       ]
@@ -144,13 +144,13 @@
     {
       "question": "Parents donate their flat to their son and keep a life-long right of use. Who pays the property tax while the parents live there?",
       "options": [
-        "The parents as holders of the right of use",
-        "The son as owner",
-        "Both equally",
-        "Nobody"
+        "The parents, as holders of the right of use",
+        "The son, as the owner of the flat",
+        "Both, in equal parts, as the law presumes for spouses",
+        "Nobody, because the flat is a family home"
       ],
       "answer": 0,
-      "explanation": "The holder of the right of use pays the costs of use, including taxes and fees.",
+      "explanation": "Art. 57 ЗС: the holder of the right of use pays the costs of use, including taxes and fees. The owner of the bare ownership pays nothing while the right lasts; the Local Taxes Act says the same for the property tax (Art. 11(3) ЗМДТ, not in the library).",
       "refs": [
         "zs:57"
       ]
@@ -158,41 +158,43 @@
     {
       "question": "May the holder of a right of use sell that right to a third person?",
       "options": [
-        "No",
-        "Yes, with a notarial deed",
-        "Yes, with the owner's consent",
-        "Yes, but only to relatives"
+        "No; the holder cannot transfer the right",
+        "Yes, with a notarial deed and an entry",
+        "Yes, with the written consent of the owner",
+        "Yes, but only to relatives in the direct line"
       ],
       "answer": 0,
-      "explanation": "The holder of a right of use cannot transfer the right.",
+      "explanation": "Art. 56 ЗС: the holder of a right of use may not transfer it; the right is personal and ends with the holder's death (Art. 59). No consent or form changes that.",
       "refs": [
-        "zs:56"
+        "zs:56",
+        "zs:59"
       ]
     },
     {
       "question": "Which form does a voluntary partition of a plot between two co-owners need?",
       "options": [
         "Written with notarially certified signatures",
-        "A notarial deed",
-        "Simple written form",
-        "Oral agreement"
+        "A notarial deed issued by the notary of the district",
+        "Simple written form, signed by both",
+        "An oral agreement before two witnesses"
       ],
       "answer": 0,
-      "explanation": "Art. 35 ЗС requires written form with notarially certified signatures.",
+      "explanation": "Art. 35 ЗС: a voluntary partition of real estate needs written form with notarially certified signatures; persons without capacity or absent persons need court permission. In practice offices make a partition contract certified and entered (Art. 4 ПВ).",
       "refs": [
-        "zs:35"
+        "zs:35",
+        "pv:4"
       ]
     },
     {
       "question": "An owner wants to waive ownership of a ruined barn. When is the waiver effective?",
       "options": [
-        "When made in writing with a notarially certified signature and entered in the property register",
-        "When announced to the municipality",
-        "When the owner stops paying tax",
-        "When signed in simple writing"
+        "When written with a certified signature and entered",
+        "When announced in writing to the municipality and the cadastre",
+        "When the owner stops paying the property tax",
+        "When signed in simple writing before a witness"
       ],
       "answer": 0,
-      "explanation": "Art. 100 ЗС.",
+      "explanation": "Art. 100 ЗС: a waiver of ownership of real estate takes effect only when made in writing with a notarially certified signature and entered in the property register; until the entry the owner may withdraw it.",
       "refs": [
         "zs:100"
       ]
@@ -202,11 +204,11 @@
       "options": [
         "B, who entered first",
         "A, who bought first",
-        "Both equally",
+        "Both, in equal shares",
         "The seller decides"
       ],
       "answer": 0,
-      "explanation": "An unentered act cannot be relied upon against a third person who entered first.",
+      "explanation": "Art. 113 ЗС: until entry, an act cannot be relied upon against third persons who acquired rights from the same owner and entered them earlier. B entered first and wins; A keeps only a claim for damages against the seller.",
       "refs": [
         "zs:113"
       ]
@@ -214,30 +216,32 @@
     {
       "question": "A buyer of a car from a person who was not the owner acted in good faith. Did the buyer become the owner?",
       "options": [
-        "No, because the transfer of a car needs notarially certified signatures",
-        "Yes, good faith is always enough for movables",
-        "Yes, after 6 months",
-        "Yes, if the price was fair"
+        "No; a car transfer needs certified signatures",
+        "Yes; good faith always suffices for movables of any kind",
+        "Yes; after six months of possession",
+        "Yes; if the price paid was a fair one"
       ],
       "answer": 0,
-      "explanation": "Good-faith acquisition from a non-owner does not apply when the transfer needs a notarial deed or certified signatures.",
+      "explanation": "Art. 78 ЗС: good-faith acquisition of a movable from a non-owner does not apply when the transfer needs a notarial deed or notarially certified signatures; a car needs certified signatures (Art. 144(2) ЗДвП). Movables are otherwise acquired by prescription in five years (Art. 80).",
       "refs": [
         "zs:78",
-        "zdvp:144:2"
+        "zdvp:144:2",
+        "zs:80"
       ]
     },
     {
-      "question": "What are the common parts of a condominium?",
+      "question": "The owners of the four flats in a small building want to divide the yard into four fenced gardens by a contract. Is that possible?",
       "options": [
-        "The land, the foundations, the roof, the stairs, the main installations and other parts for common use",
-        "Only the stairs",
-        "Only the land",
-        "Each apartment's balcony"
+        "No; the common parts cannot be divided",
+        "Yes; with a partition contract with certified signatures",
+        "Yes; with the consent of three quarters of the owners",
+        "Yes; if the municipality approves the four gardens"
       ],
       "answer": 0,
-      "explanation": "Art. 38 ЗС lists the common parts; they cannot be divided.",
+      "explanation": "Art. 38 ЗС: the common parts of a condominium, including the land and the yard, cannot be divided. The owners may agree on the use of the yard, but each flat keeps its ideal part of the common parts (Art. 40).",
       "refs": [
-        "zs:38"
+        "zs:38",
+        "zs:40"
       ]
     }
   ]

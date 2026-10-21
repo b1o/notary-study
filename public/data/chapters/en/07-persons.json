@@ -29,8 +29,8 @@
       "back": "Legal restrictions, marital status, marriage and divorce, death data, relatives (Art. 3(2) of the access ordinance)."
     },
     {
-      "front": "Which acts of a minor are void without exception?",
-      "back": "Gift, waiver of rights, loan, and security for another person's debt (except pledge/mortgage allowed by the court) (Art. 130(4) СК)."
+      "front": "Parents want to mortgage their child's flat for their own loan. Is that possible?",
+      "back": "Only by **exception**: the court may permit a pledge or a mortgage for a clear benefit of the child or an extraordinary need of the family (Art. 130(4) СК). A gift, a waiver or a loan by the minor is void."
     },
     {
       "front": "Who signs for a person under full judicial disability?",
@@ -41,20 +41,20 @@
       "back": "With the print of the **right thumb**; a notarial deed is **not** countersigned by witnesses (Art. 579(2) and 189 ГПК)."
     },
     {
-      "front": "Who appoints the interpreter for a party who does not know Bulgarian?",
-      "back": "The **notary** (Art. 582 ГПК)."
+      "front": "A buyer speaks only Greek, and the notary knows no Greek. What follows?",
+      "back": "The notary appoints an **interpreter** (Art. 582 ГПК), who promises to translate truly and signs (Art. 585 ГПК)."
     },
     {
-      "front": "Can an employee of the notary office be a witness to a deed?",
-      "back": "**No** (Art. 584, item 6 ГПК)."
+      "front": "The seller has no document and brings his brother and a clerk of the office as witnesses. What follows?",
+      "back": "Neither may witness: a relative of a party (Art. 584 item 3 with Art. 575 ГПК) and an employee of the office (Art. 584 item 6) are excluded."
     },
     {
       "front": "Which law governs the capacity of a foreigner?",
       "back": "The law of the state of **citizenship** (Art. 50(1) КМЧП)."
     },
     {
-      "front": "May a procurator sell the merchant's real estate?",
-      "back": "**Only with a special authorisation** (Art. 22(2) ТЗ)."
+      "front": "A procurator signs a deed to sell the company's warehouse. What does the office check?",
+      "back": "A **special authorisation** for real estate (Art. 22(2) ТЗ); the procuration alone does not cover a sale or an encumbrance of real estate."
     },
     {
       "front": "Who decides on the disposal of real estate in an OOD?",
@@ -69,13 +69,13 @@
     {
       "question": "A seller lost the identity card yesterday and has no other document. Can the deed proceed?",
       "options": [
-        "Yes, if identity is proven by two witnesses with established identity who meet the conditions of the law",
-        "No, never",
-        "Yes, if the seller shows a photo of the card",
-        "Yes, if the buyer confirms the identity"
+        "Yes, with two witnesses whose identity is established",
+        "No; the act is postponed until a new card is issued",
+        "Yes, if the seller shows a photo of the card on a phone",
+        "Yes, if the buyer confirms the identity of the seller"
       ],
       "answer": 0,
-      "explanation": "Without an identity document, identity is proven with two witnesses.",
+      "explanation": "Art. 578(5) ГПК: a person without an identity document proves identity with two witnesses whose identity is established and who meet Art. 584 (no relatives, beneficiaries or office staff). Postponing is a common office habit, not the law; a photo or the buyer's word proves nothing.",
       "refs": [
         "gpk:578:5",
         "gpk:584"
@@ -86,40 +86,42 @@
       "options": [
         "The notary or the assistant notary",
         "Any employee of the office",
-        "The client",
+        "The client, from a public portal",
         "The clerk, with the notary's password"
       ],
       "answer": 0,
-      "explanation": "Individual access is given only to notaries and assistant notaries (and registration judges when they substitute).",
+      "explanation": "Art. 2 of the ordinance on the register of identity documents: only notaries and assistant notaries have individual access; the access is personal and audited (Art. 10–11 of the population-database ordinance). A clerk with the notary's password breaks the rule.",
       "refs": [
-        "nnrbld:2"
+        "nnrbld:2",
+        "nnbd:10"
       ]
     },
     {
       "question": "A 16-year-old wants to sell an inherited plot. What is needed?",
       "options": [
-        "The minor signs with the consent of a parent, and the district court gives permission",
-        "Only the signature of the minor",
-        "Only the signature of a parent",
-        "It is impossible until the age of 18"
+        "The minor signs with a parent's consent, and the district court permits",
+        "The minor signs alone; an inherited plot is personal property",
+        "A parent signs alone in the name of the minor, as legal representative",
+        "Nothing is possible until the minor turns 18 and signs alone"
       ],
       "answer": 0,
-      "explanation": "Minors 14–18 act with parental consent; disposal of real estate needs court permission.",
+      "explanation": "Art. 4 ЗЛС: a minor from 14 to 18 acts personally with the consent of a parent; Art. 130(3) СК adds the permission of the district court for a disposal of real estate. A parent signs alone only for a child under 14 (Art. 3 ЗЛС).",
       "refs": [
         "zls:4",
-        "sk:130:3"
+        "sk:130:3",
+        "zls:3"
       ]
     },
     {
       "question": "Parents want to donate an apartment of their 10-year-old child to the grandmother. What is the position?",
       "options": [
         "The gift is void; a minor cannot make a gift",
-        "It is valid with court permission",
-        "It is valid if both parents sign",
-        "It is valid if the grandmother accepts"
+        "It is valid with the permission of the court",
+        "It is valid if both parents sign the deed",
+        "It is valid if the grandmother accepts it"
       ],
       "answer": 0,
-      "explanation": "Gifts by a minor are void without exception.",
+      "explanation": "Art. 130(4) СК: a gift, a waiver of rights, a loan and a security for another's debt by a minor are void; the court may allow only a pledge or a mortgage, as an exception. Signatures and acceptance cannot cure a void act.",
       "refs": [
         "sk:130:4"
       ]
@@ -127,13 +129,13 @@
     {
       "question": "An elderly seller cannot explain what the deed does, and a nephew keeps answering. What should happen?",
       "options": [
-        "The notary talks with the seller alone; if the will is unclear, the act is postponed",
-        "The nephew signs for the seller",
-        "The act proceeds because the seller has a valid ID",
-        "The clerk decides"
+        "The notary talks with the seller alone; if the will is unclear, the act waits",
+        "The nephew signs for the seller as the person who answered the questions",
+        "The act proceeds, because the seller holds a valid identity card",
+        "The clerk decides whether the seller understands the deed and its effects"
       ],
       "answer": 0,
-      "explanation": "The notary must clarify the will and may meet the person alone. A contract by a person who cannot understand is voidable.",
+      "explanation": "Art. 20 ЗННД: the notary meets the person alone; Art. 25(1) requires the notary to clarify the will. A contract by a person who cannot understand or control the acts is voidable (Art. 31 ЗЗД). A valid identity card proves identity, not capacity; nobody signs for the seller without a power.",
       "refs": [
         "znnd:20",
         "znnd:25:1",
@@ -143,29 +145,32 @@
     {
       "question": "Which person can be a witness for identity before the notary?",
       "options": [
-        "An unrelated adult neighbour with a valid ID card who gets nothing from the deed",
-        "The buyer's brother",
-        "A clerk of the notary office",
-        "A clerk of the registry office"
+        "An unrelated adult neighbour who gains nothing from the deed",
+        "The brother of the buyer, with a valid identity card",
+        "A clerk of the notary office who knows the seller for years",
+        "A clerk of the registry office who will enter the deed"
       ],
       "answer": 0,
-      "explanation": "Relatives, beneficiaries and employees of the notary office or registry office cannot be witnesses.",
+      "explanation": "Art. 584 ГПК excludes persons without capacity, persons illiterate in Bulgarian, relatives of the parties or of the notary in the degrees of Art. 575, beneficiaries of the act, blind, deaf and mute persons, and the staff of the notary office and of the registry office.",
       "refs": [
-        "gpk:584"
+        "gpk:584",
+        "gpk:575"
       ]
     },
     {
       "question": "A deaf and illiterate person is a seller. What does the notary do?",
       "options": [
-        "Appoints a Bulgarian sign language interpreter and notes it in the act",
-        "Refuses the act",
-        "Asks the person to read the act aloud",
-        "Lets a relative sign"
+        "Appoints a sign language interpreter and notes it",
+        "Refuses the act until a guardian is appointed",
+        "Asks the person to read the deed and nod agreement",
+        "Lets a relative sign the deed in the person's name"
       ],
       "answer": 0,
-      "explanation": "Art. 583(2)–(3) ГПК.",
+      "explanation": "Art. 583 ГПК has two cases: a literate deaf or mute person reads the deed and states agreement, a mute person in writing (paragraph 1); an illiterate deaf, mute or deaf-mute person needs a Bulgarian sign language interpreter appointed by the notary and noted in the act (paragraphs 2–3). That interpreter may be a relative (Art. 584 item 3).",
       "refs": [
-        "gpk:583:2"
+        "gpk:583:2",
+        "gpk:583:1",
+        "gpk:584"
       ]
     },
     {
@@ -173,70 +178,76 @@
       "options": [
         "German law, as the law of citizenship",
         "Bulgarian law, because the act is in Bulgaria",
-        "EU law",
-        "The notary decides"
+        "The law of the state where the German lives",
+        "The law that the notary finds more suitable"
       ],
       "answer": 0,
-      "explanation": "Capacity follows the law of the state of citizenship.",
+      "explanation": "Art. 50(1) КМЧП: the capacity of a natural person follows the law of the state of citizenship. A Bulgarian who is also a citizen of another state counts as Bulgarian (Art. 48(2)).",
       "refs": [
-        "kmchp:50:1"
+        "kmchp:50:1",
+        "kmchp:48:2"
       ]
     },
     {
       "question": "The manager of an OOD wants to sell the company's office. What does the office ask for?",
       "options": [
-        "The current status in the Commercial Register and the decision of the general meeting",
-        "Only the manager's ID card",
-        "The tax returns of the company",
-        "Consent of the employees"
+        "The current status in the register and the decision of the general meeting",
+        "Only the identity card of the manager and the deed of the office",
+        "The tax returns of the company for the last three years and its balance sheet",
+        "The written consent of the employees who work in the office that is sold"
       ],
       "answer": 0,
-      "explanation": "The manager represents the company; the general meeting decides on disposals of real estate.",
+      "explanation": "The manager represents the company (Art. 141(2) ТЗ), which the office checks in the Commercial Register (Art. 10 ЗТРРЮЛНЦ); the disposal of real estate needs a decision of the general meeting (Art. 137(1) item 7), in the form of Art. 137(4).",
       "refs": [
         "tz:141:2",
-        "tz:137:1"
+        "tz:137:1",
+        "ztr:10"
       ]
     },
     {
       "question": "A power of attorney says \"to manage my apartment and collect the rent\". Can the agent sell the apartment with it?",
       "options": [
-        "No, the scope does not cover a sale",
-        "Yes, management includes sale",
-        "Yes, if the price is fair",
-        "Yes, with the consent of the buyer"
+        "No; the scope does not cover a sale",
+        "Yes; management includes a sale at a fair price",
+        "Yes; the notary may widen the scope at the signing",
+        "Yes, with the consent of the buyer and the bank"
       ],
       "answer": 0,
-      "explanation": "The scope of the power is what the principal stated.",
+      "explanation": "Art. 39 ЗЗД: the scope of the power is what the principal stated; \"to manage\" and \"to collect the rent\" do not include a sale. Nobody widens a power except the principal, in the form of Art. 37.",
       "refs": [
-        "zzd:39"
+        "zzd:39",
+        "zzd:37"
       ]
     },
     {
       "question": "The principal died a week ago. The agent wants to sign a sale under the power of attorney. What is the rule?",
       "options": [
-        "The power ended with the principal's death",
-        "The power is valid for one more month",
-        "The power is valid if certified by a notary",
-        "The heirs must revoke it first"
+        "The power ended with the death of the principal",
+        "The power stays valid for one more month after the death",
+        "The power stays valid, because a notary certified it",
+        "The power stays valid until the heirs revoke it"
       ],
       "answer": 0,
-      "explanation": "A power of attorney ends with the death of the principal.",
+      "explanation": "Art. 41 ЗЗД: a power of attorney ends with the death or the judicial disability of the principal or the agent; a certification does not prolong it, and the heirs need not revoke it. An agent who signs after the death acts without power (Art. 42).",
       "refs": [
-        "zzd:41"
+        "zzd:41",
+        "zzd:42"
       ]
     },
     {
       "question": "How does a literate blind person sign a private document?",
       "options": [
-        "Signs, and two witnesses countersign",
-        "With a thumbprint only",
-        "Through an interpreter",
-        "The notary signs for the person"
+        "Signs, and two witnesses countersign the document",
+        "Puts a thumbprint, and nobody countersigns",
+        "Signs through an interpreter appointed by the notary",
+        "Signs, and the notary countersigns for the person"
       ],
       "answer": 0,
-      "explanation": "Art. 189(2) ГПК.",
+      "explanation": "Art. 189(2) ГПК: a private document of a literate blind person is countersigned by two witnesses. The thumbprint is for a person who cannot sign at all (Art. 189(1)); a notarial deed is never countersigned by witnesses (Art. 579(2)).",
       "refs": [
-        "gpk:189:2"
+        "gpk:189:2",
+        "gpk:189:1",
+        "gpk:579:2"
       ]
     }
   ]

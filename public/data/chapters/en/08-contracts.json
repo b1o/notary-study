@@ -9,20 +9,20 @@
   ],
   "cards": [
     {
-      "front": "When is a contract concluded?",
-      "back": "When the **acceptance reaches** the offeror (Art. 14 ЗЗД)."
+      "front": "A flat with a tenant is sold. Does the lease bind the buyer?",
+      "back": "An **entered** lease binds the buyer for its whole term; a lease with a certain date, not entered, for at most **one year** after the transfer; a lease without a certain date only as a lease without a term (Art. 237 ЗЗД)."
     },
     {
       "front": "What form does a preliminary contract for the sale of real estate need?",
       "back": "**Written** form with the **essential terms** of the final contract (Art. 19 ЗЗД)."
     },
     {
-      "front": "What happens if the party who received earnest money fails to perform?",
-      "back": "The other party may withdraw and claim **double** the earnest money (Art. 93 ЗЗД)."
+      "front": "Earnest money of 3,000 euro was given. The buyer withdraws; or the seller withdraws. What follows?",
+      "back": "The buyer fails: the seller may withdraw and **keep** the 3,000 euro. The seller fails: the buyer may withdraw and claim **6,000 euro**, double the earnest money (Art. 93 ЗЗД)."
     },
     {
-      "front": "Can a court reduce a penalty?",
-      "back": "**Yes**, if it is excessive compared with the damage, or if the obligation was partly performed (Art. 92 ЗЗД)."
+      "front": "A debtor donates his flat to his daughter before the bailiff comes. What may the creditor do?",
+      "back": "Sue to declare the gift **ineffective towards the creditor** (Art. 135 ЗЗД). For a spouse, a descendant, an ascendant, a brother or a sister of the debtor, the knowledge of the harm is **presumed** (Art. 135(2))."
     },
     {
       "front": "What is a sham contract and its effect?",
@@ -73,13 +73,13 @@
     {
       "question": "Two parties signed a preliminary contract for the sale of a flat, in writing but without the price. Is it valid?",
       "options": [
-        "No, it must contain the essential terms of the final contract, including the price",
-        "Yes, written form is enough",
-        "Yes, if signatures are certified",
-        "Yes, the court can set the price"
+        "No; it must contain the essential terms, including the price",
+        "Yes; written form with the signatures of both parties is enough",
+        "Yes; if the signatures are certified by a notary",
+        "Yes; a court can set the price when the parties disagree"
       ],
       "answer": 0,
-      "explanation": "The preliminary contract must contain the essential terms of the final contract.",
+      "explanation": "Art. 19(1)–(2) ЗЗД: a preliminary contract for a deal in notarial form must be in writing and must contain the essential terms of the final contract; for a sale the price is essential. A court declares the final contract concluded only on those terms (Art. 19(3)); a certification adds proof, not content.",
       "refs": [
         "zzd:19"
       ]
@@ -87,43 +87,47 @@
     {
       "question": "A buyer paid 5,000 euro as earnest money. The seller refuses to sell. What can the buyer claim after withdrawing from the contract?",
       "options": [
-        "10,000 euro (double the earnest money)",
-        "5,000 euro",
-        "Only the costs",
-        "Nothing"
+        "10,000 euro, double the earnest money",
+        "5,000 euro, the earnest money back",
+        "Only the costs of the preliminary contract",
+        "Nothing without a court decision on the sale"
       ],
       "answer": 0,
-      "explanation": "If the party who received earnest money fails, the other may claim double.",
+      "explanation": "Art. 93 ЗЗД: when the party who received the earnest money fails to perform, the other party may withdraw and claim double. When the party who gave it fails, the other party keeps it. The buyer may instead ask the court for the final contract (Art. 19(3)).",
       "refs": [
-        "zzd:93"
+        "zzd:93",
+        "zzd:19"
       ]
     },
     {
-      "question": "Parties want to write a price of 40,000 euro in a deed although they agreed 90,000 euro. What is right?",
+      "question": "Parties want to write a price of 40,000 euro in a deed although they agreed 90,000 euro. What does the notary do?",
       "options": [
-        "The notary explains that they must declare the actual price and that a false declaration is a crime",
-        "The notary writes 40,000 euro if both agree",
-        "The notary writes both prices",
-        "The notary writes the tax assessment"
+        "Explains that the deed must state the actual price",
+        "Writes 40,000 euro, because both parties agree",
+        "Writes both prices, the agreed and the declared",
+        "Writes the tax assessment instead of the price"
       ],
       "answer": 0,
-      "explanation": "The parties declare in the deed that the price is the payment actually agreed.",
+      "explanation": "Art. 25(9) ЗННД: the participants declare in the deed that the stated amount is the payment actually agreed; a false declaration is a crime (Art. 313 НК). A lower price saves nothing, because fees and tax use the higher of the price and the tax assessment (Art. 96(3) ЗННД), and the buyer could recover only the stated price after an annulment (Art. 34 ЗЗД).",
       "refs": [
-        "znnd:25:9"
+        "znnd:25:9",
+        "znnd:96:3",
+        "zzd:34"
       ]
     },
     {
       "question": "A buyer of an apartment has not paid the price for a year. How can the seller terminate the sale?",
       "options": [
         "Only through a court",
-        "By a written notice to the buyer",
-        "By a notarial invitation alone",
+        "By a written notice to the buyer with a term",
+        "By a notarial invitation served on the buyer",
         "By a new deed signed only by the seller"
       ],
       "answer": 0,
-      "explanation": "Contracts that transfer real rights in real estate are terminated only by a court.",
+      "explanation": "Art. 87 ЗЗД: contracts that transfer, create, recognise or end real rights in real estate are terminated only by a court. A written warning with a term terminates other contracts; the claim is entered in the property register (Art. 11 ПВ).",
       "refs": [
-        "zzd:87"
+        "zzd:87",
+        "pv:11"
       ]
     },
     {
@@ -135,35 +139,37 @@
         "The party who chose the notary"
       ],
       "answer": 0,
-      "explanation": "For real estate, the costs of the contract are shared equally unless agreed otherwise.",
+      "explanation": "Art. 186 ЗЗД: the costs of the contract and of the transfer are for the buyer, except in a sale of real estate, where the parties pay them equally unless they agree otherwise. The local tax is a separate charge on the acquirer (Art. 45(1) ЗМДТ).",
       "refs": [
-        "zzd:186"
+        "zzd:186",
+        "zmdt:45:1"
       ]
     },
     {
       "question": "A grandmother promises in writing to give her flat to her grandson next year. What is the effect of the promise?",
       "options": [
         "None; a promise of a gift has no effect",
-        "It binds the grandmother",
-        "It binds after one year",
-        "It is a valid preliminary contract"
+        "It binds the grandmother from the signing",
+        "It binds the grandmother after one year",
+        "It works as a preliminary contract for a gift"
       ],
       "answer": 0,
-      "explanation": "A promise of a gift does not produce effect.",
+      "explanation": "Art. 226 ЗЗД: a promise of a gift has no effect, and a gift of future property is void. A preliminary contract exists for contracts with mutual obligations, not for a gift, which transfers at once and free of charge (Art. 225).",
       "refs": [
-        "zzd:226"
+        "zzd:226",
+        "zzd:225"
       ]
     },
     {
       "question": "Within what time must a donor sue to revoke a gift?",
       "options": [
-        "One year from learning the ground",
-        "Five years from the gift",
-        "Three years from the gift",
-        "Any time during the donor's life"
+        "One year from learning of the ground",
+        "Five years from the day of the gift",
+        "Three years from the day of the gift",
+        "At any time during the donor's life"
       ],
       "answer": 0,
-      "explanation": "The claim may be filed within one year after the donor learns of the ground.",
+      "explanation": "Art. 227 ЗЗД: the claim for revocation may be filed within one year after the donor learns of the ground; if the donor dies within that year, the heirs may file it. The grounds are an attempt on the life, a false accusation of a serious crime and a refusal of needed support.",
       "refs": [
         "zzd:227"
       ]
@@ -173,11 +179,11 @@
       "options": [
         "When the bank notifies the borrower",
         "When the collection company calls the borrower",
-        "When the contract between bank and company is signed",
-        "When the borrower agrees"
+        "When the bank and the company sign the contract",
+        "When the borrower agrees to the new creditor"
       ],
       "answer": 0,
-      "explanation": "The assignment binds the debtor from the notification by the old creditor.",
+      "explanation": "Art. 99 ЗЗД: the assignment is effective towards the debtor and third persons from the day the old creditor notifies the debtor; a call from the new creditor or the debtor's agreement is not required. A notarial invitation proves the notification.",
       "refs": [
         "zzd:99"
       ]
@@ -185,13 +191,13 @@
     {
       "question": "A mortgage was entered in 2016 and was not renewed. What is its status in 2026?",
       "options": [
-        "The effect of the entry ended after 10 years unless renewed",
-        "It is valid forever",
-        "It became a pledge",
-        "It was deleted automatically in 2021"
+        "The effect of the entry ended after 10 years",
+        "The mortgage stays valid for as long as the debt",
+        "The mortgage became a pledge after 10 years",
+        "The entry was deleted automatically in 2021"
       ],
       "answer": 0,
-      "explanation": "The entry is effective for 10 years and must be renewed before it expires.",
+      "explanation": "Art. 172 ЗЗД: the entry of a mortgage is effective for 10 years from the day it was made and can be renewed before that term ends; after it, a new entry has rank only from its date. The debt itself survives; the mortgage security does not, and nothing turns it into a pledge.",
       "refs": [
         "zzd:172"
       ]
@@ -200,12 +206,12 @@
       "question": "What does the creditor provide so that a mortgage can be deleted?",
       "options": [
         "Consent in notarially certified form",
-        "A simple letter",
+        "A simple letter on the bank's paper",
         "An e-mail to the registry office",
         "A receipt of payment from the borrower"
       ],
       "answer": 0,
-      "explanation": "Deletion needs the creditor's consent in notarially certified form or a final court decision.",
+      "explanation": "Art. 179 ЗЗД: the entry is deleted on the creditor's consent given in notarially certified form, or on a final court decision; a letter, an e-mail or a receipt does not meet the form. The deletion is made on a request with the consent attached.",
       "refs": [
         "zzd:179"
       ]
@@ -214,26 +220,27 @@
       "question": "A buyer finds hidden damp in a flat bought last month. Within what time must the buyer claim against the seller?",
       "options": [
         "One year from delivery",
-        "Six months",
-        "Five years",
-        "Three months"
+        "Six months from delivery",
+        "Five years from delivery",
+        "Three months from discovery"
       ],
       "answer": 0,
-      "explanation": "For real estate, the buyer's claims for defects lapse in one year from delivery (three years if the seller knowingly concealed the defect).",
+      "explanation": "Art. 197 ЗЗД: the buyer's claims for defects of real estate lapse one year after delivery, six months for movables; three years when the seller knowingly concealed the defect. The general five-year limitation (Art. 110) does not apply here.",
       "refs": [
-        "zzd:197"
+        "zzd:197",
+        "zzd:110"
       ]
     },
     {
       "question": "Which claim is entered in the property register?",
       "options": [
         "A claim to annul a sale deed for fraud",
-        "A claim for unpaid salary",
+        "A claim for unpaid salary against an employer",
         "A claim for damages from a car accident",
         "A claim for unpaid rent of a car"
       ],
       "answer": 0,
-      "explanation": "Claims to annul, terminate, revoke or declare null deeds subject to entry are entered.",
+      "explanation": "Art. 11 ПВ: claims for the termination, annulment, revocation or nullity of entered acts, and claims for a final contract under Art. 19(3) ЗЗД, are entered in the property register. Claims about salaries, accidents or movables concern no entered act.",
       "refs": [
         "pv:11"
       ]

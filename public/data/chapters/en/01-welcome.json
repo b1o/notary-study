@@ -12,16 +12,16 @@
       "back": "A person to whom **the state assigns** the notarial acts provided for by law, and who is entered in the **register of the Notary Chamber** (Art. 2 ЗННД)."
     },
     {
-      "front": "May a clerk certify a signature if the notary is busy?",
-      "back": "**No.** Only the notary, an assistant notary within Art. 40 ЗННД, or an authorised substitute may certify. A certification by an unauthorised person is null (Art. 576 ГПК)."
+      "front": "The notary is at lunch and a client needs a signature certified now. What may the clerk do?",
+      "back": "Prepare the endorsement and wait. Only the notary, an assistant notary within Art. 40 ЗННД or a registered substitute certifies; a certification by anyone else is null (Art. 576 ГПК)."
     },
     {
       "front": "Which acts may an assistant notary NOT perform?",
       "back": "Deeds that create, transfer, change or end real rights in real estate; acts that recognise ownership or limited real rights in real estate; notarial wills and their revocation; mortgages (Art. 40(1) ЗННД)."
     },
     {
-      "front": "When must the notary present a deed for entry?",
-      "back": "On the **day** on which the deed is made (Art. 25(5) ЗННД)."
+      "front": "A deed is signed at 11:00 on Tuesday. By when does it reach the registry office?",
+      "back": "**The same day** (Art. 25(5) ЗННД). Until the entry, the parties get no copy of the deed."
     },
     {
       "front": "Where and when are deeds that need entry issued?",
@@ -36,8 +36,8 @@
       "back": "The **same** as the notary (Art. 49 ЗННД)."
     },
     {
-      "front": "In which language is a notarial document made?",
-      "back": "In **Bulgarian**. A participant who does not know Bulgarian signs through an interpreter whom the notary appoints (Art. 582 ГПК)."
+      "front": "A buyer does not speak Bulgarian. What follows?",
+      "back": "The document stays in Bulgarian. When the notary does not know the language of the buyer, the notary appoints an interpreter (Art. 582 ГПК)."
     },
     {
       "front": "How long are the notarial books with deeds kept?",
@@ -58,21 +58,22 @@
         "The municipality"
       ],
       "answer": 0,
-      "explanation": "The notary is a person to whom the state assigns notarial acts. The Chamber keeps the register.",
+      "explanation": "Art. 2(1) ЗННД: the notary is a person to whom the state assigns the notarial acts. The Notary Chamber only keeps the register in which the notary is entered (Art. 2(2)).",
       "refs": [
-        "znnd:2:1"
+        "znnd:2:1",
+        "znnd:2:2"
       ]
     },
     {
       "question": "A client asks the secretary to certify a signature because the notary is at lunch. What is right?",
       "options": [
-        "The secretary refuses: only the notary, an assistant notary or a substitute may certify",
-        "The secretary certifies and the notary countersigns later",
-        "The secretary may certify signatures but not deeds",
-        "The secretary may certify if the client is known to the office"
+        "The secretary refuses; only the notary, an assistant or a substitute certifies",
+        "The secretary certifies, and the notary countersigns the endorsement in the afternoon",
+        "The secretary certifies signatures, but never deeds or wills",
+        "The secretary certifies, because the client is well known to the office"
       ],
       "answer": 0,
-      "explanation": "Employees never perform notarial acts. A certification by a person without the right is null.",
+      "explanation": "The notary performs the notarial acts personally (Art. 2(3) ЗННД); an assistant notary acts within Art. 40 and a substitute under Art. 46. A certification by a person without that right is null (Art. 576 ГПК), so a later countersignature cures nothing.",
       "refs": [
         "znnd:2:3",
         "gpk:576"
@@ -82,12 +83,12 @@
       "question": "Which act may an assistant notary perform on the instructions of the notary?",
       "options": [
         "Certification of the signature on a power of attorney",
-        "A notarial deed for the sale of an apartment",
-        "A notarial will",
-        "A mortgage deed"
+        "A notarial deed for the sale of an apartment in Sofia",
+        "A notarial will of an elderly client of the office",
+        "A mortgage deed in favour of the bank of the buyer"
       ],
       "answer": 0,
-      "explanation": "Art. 40(1) excludes real-estate deeds, acts recognising ownership, notarial wills and mortgages. Certifications of signatures are allowed.",
+      "explanation": "Art. 40(1) ЗННД excludes from the assistant's powers the deeds for real rights in real estate, the acts that recognise ownership, notarial wills and their revocation, and mortgages. A certification of a signature is none of these.",
       "refs": [
         "znnd:40:1"
       ]
@@ -101,7 +102,7 @@
         "When the buyer asks"
       ],
       "answer": 0,
-      "explanation": "The notary presents deeds for entry on the day they are made.",
+      "explanation": "Art. 25(5) ЗННД: the notary presents the deed for entry on the day it is made. The seven-day term belongs to the notice to the municipality (Art. 51(2) ЗМДТ), not to the entry.",
       "refs": [
         "znnd:25:5"
       ]
@@ -110,28 +111,30 @@
       "question": "Where can a notary issue a deed that must be entered in the property register?",
       "options": [
         "Only in the office, in working hours",
-        "Anywhere in the district",
-        "At the home of a party who is ill",
-        "At the bank of the buyer"
+        "In the office, also out of hours",
+        "At the home of a party who cannot come",
+        "Anywhere in the district of the notary"
       ],
       "answer": 0,
-      "explanation": "Deeds subject to entry are issued only in the office in working hours. Other acts may be done outside the office for good reasons.",
+      "explanation": "Art. 573(2) ГПК: deeds subject to entry are issued only in the office and only in working hours. The exception of Art. 573(3), outside the office or out of hours for good reasons, covers the other acts, such as a signature certification, not deeds.",
       "refs": [
-        "gpk:573:2"
+        "gpk:573:2",
+        "gpk:573:3"
       ]
     },
     {
-      "question": "What is the legal force of a signature certification by a notary?",
+      "question": "A notary certified Ivan's signature on a declaration. What does the certification prove in court?",
       "options": [
-        "It is an official document and proves the certified facts until the contrary is proved",
-        "It is a private document like any other",
-        "It is valid only for one year",
-        "It binds only the notary"
+        "That Ivan signed before the notary, until the contrary is proved",
+        "That the facts in the declaration are true, until the contrary is proved",
+        "That Ivan signed, but only for one year after the date",
+        "Nothing more than a private document proves"
       ],
       "answer": 0,
-      "explanation": "Official documents issued within the competence of the official are proof of the facts they certify.",
+      "explanation": "The endorsement is an official document (Art. 179(1) ГПК): it proves what the notary certified, here who signed and when. It does not prove that the declared facts are true; a private document proves only that its author made the statement (Art. 180 ГПК).",
       "refs": [
-        "gpk:179"
+        "gpk:179",
+        "gpk:180"
       ]
     },
     {
@@ -143,7 +146,7 @@
         "The Supreme Court of Cassation"
       ],
       "answer": 0,
-      "explanation": "The register is kept at the Notary Chamber.",
+      "explanation": "Art. 5 ЗННД: the register of notaries and assistant notaries is kept at the Notary Chamber. The Ministry of Justice orders the entries and controls notaries; the Registry Agency keeps the property and commercial registers.",
       "refs": [
         "znnd:5"
       ]
@@ -152,28 +155,32 @@
       "question": "Since 1 January 2026, how do you read an amount of 30 лв. in the notarial tariff?",
       "options": [
         "As 15.34 euro",
-        "As 30 euro",
-        "As 15 euro",
-        "As 60 euro"
+        "As 30.00 euro",
+        "As 15.00 euro",
+        "As 60.00 euro"
       ],
       "answer": 0,
-      "explanation": "30 ÷ 1.95583 = 15.338…, rounded to 15.34 euro.",
+      "explanation": "Art. 12 and 13 ЗВЕРБ: an amount in leva in a legal act applies as the amount divided by 1.95583 and rounded to the cent: 30 ÷ 1.95583 = 15.338… → 15.34 euro. \"15 euro\" drops the rounding rule; \"30 euro\" ignores the conversion.",
       "refs": [
         "zvevro:12",
         "zvevro:13"
       ]
     },
     {
-      "question": "Which statement about the 2026 draft law against property fraud is correct?",
+      "question": "The notary is on holiday. The assistant notary, who is not a registered substitute, is asked to issue a mortgage deed. What follows?",
       "options": [
-        "It is a draft for public consultation and is not law",
-        "It is in force since 1 January 2026",
-        "It abolished holographic wills",
-        "It abolished the Notary Chamber"
+        "The assistant refuses; a mortgage deed is outside the assistant's powers",
+        "The assistant issues it; the notary confirms the deed after the holiday",
+        "The assistant issues it, because the notary is absent from the office",
+        "The assistant issues it with the addition \"помощник\" to the signature"
       ],
       "answer": 0,
-      "explanation": "The Ministry of Justice published the draft for consultation in August 2026.",
-      "refs": []
+      "explanation": "Art. 40(1) ЗННД excludes mortgages, real-estate deeds, acts recognising ownership and wills from the assistant's powers; only a registered substitute (Art. 46(1)) acts alone in everything. A deed by an assistant without that power is null (Art. 576 ГПК).",
+      "refs": [
+        "znnd:40:1",
+        "znnd:46:1",
+        "gpk:576"
+      ]
     },
     {
       "question": "How long does the notary keep the book with the deeds that are subject to entry?",
@@ -184,9 +191,10 @@
         "Until the notary retires"
       ],
       "answer": 0,
-      "explanation": "Books with deeds and wills and the alphabetical index are kept for 100 years.",
+      "explanation": "Art. 28а(3) ЗННД: the alphabetical index, the register of wills and deposits, and the books of deeds and of notarial wills are kept for 100 years and then go to the State Archives. The general register and the book of invitations are kept for 10 years (Art. 28а(2)).",
       "refs": [
-        "znnd:28а:3"
+        "znnd:28а:3",
+        "znnd:28а:2"
       ]
     }
   ]

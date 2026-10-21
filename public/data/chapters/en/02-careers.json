@@ -20,12 +20,12 @@
       "back": "\"помощник\" (Art. 40(2) ЗННД). A substitute adds \"по заместване\" (Art. 46(1) ЗННД)."
     },
     {
-      "front": "Who is liable for damage caused by the assistant notary?",
-      "back": "The notary, **jointly** with the assistant (Art. 40(3) ЗННД)."
+      "front": "An assistant notary makes a mistake that costs a client money. Who pays?",
+      "back": "The notary, **jointly** with the assistant (Art. 40(3) ЗННД). The notary's insurance covers the faults of the assistant (Art. 30(1) ЗННД)."
     },
     {
-      "front": "What does a substitute assistant notary need?",
-      "back": "**Three years** of legal experience and an **exam** for the first term (Art. 46 ЗННД)."
+      "front": "An assistant with two years of legal experience asks to be entered as a substitute. What follows?",
+      "back": "Refusal: a substitute needs **three years** of legal experience under Art. 8(1) item 3 and an **exam** for the first term (Art. 46(1), (3) ЗННД)."
     },
     {
       "front": "Maximum term of a substitution by an assistant notary?",
@@ -33,11 +33,11 @@
     },
     {
       "front": "When is the exam for substitutes held, and what form does it have?",
-      "back": "Twice a year, in **April** and **October**. It is **oral**, with one theoretical and one practical ticket. Pass mark: good (4)."
+      "back": "Twice a year, in **April** and **October**. It is **oral**, with one theoretical and one practical ticket. Pass mark: good (4) (Ordinance No. 2 of 2003)."
     },
     {
-      "front": "Age limit for a new notary?",
-      "back": "**Up to 60 years** (Art. 8(1) ЗННД). Older persons may apply only when the term is extended for lack of candidates (Art. 11(5))."
+      "front": "A 62-year-old lawyer wants to apply for a notary place. When is that possible?",
+      "back": "Only when the term of the competition is extended for lack of candidates (Art. 11(5) ЗННД). The normal limit is **60 years** (Art. 8(1))."
     },
     {
       "front": "How many notary places does a district have?",
@@ -52,35 +52,36 @@
       "back": "**Two or more functionally connected rooms** with the chancery and the archive; only one office in the district (Art. 13 ЗННД)."
     },
     {
-      "front": "Name four activities incompatible with the notary profession.",
-      "back": "MP, minister, mayor or councillor; state or municipal post; employment contract; practising as a lawyer; trade or management of companies (Art. 9 ЗННД)."
+      "front": "A notary is elected municipal councillor. May the notary keep practising?",
+      "back": "**No.** The post of a councillor is incompatible with the profession (Art. 9(1) ЗННД), and an incompatibility is a ground for loss of capacity (Art. 35 ЗННД)."
     }
   ],
   "quiz": [
     {
       "question": "A law graduate with legal capacity and no work experience wants to become an assistant notary. Is that possible?",
       "options": [
-        "Yes, the requirements for a notary apply regardless of age and experience",
-        "No, three years of experience are always needed",
-        "No, an assistant notary must be over 30",
-        "Only after the competition for notaries"
+        "Yes; age and experience are not required for an assistant",
+        "No; three years of legal experience are always required",
+        "No; an assistant notary must be at least 30 years old",
+        "Only after the graduate passes the competition for notaries"
       ],
       "answer": 0,
-      "explanation": "Art. 41(1) waives age and experience for assistant notaries. Experience is needed only for substitution.",
+      "explanation": "Art. 41(1) ЗННД: the assistant must meet the requirements for a notary regardless of age and experience. Three years of experience and an exam are needed only to act as a substitute (Art. 46(1)).",
       "refs": [
-        "znnd:41:1"
+        "znnd:41:1",
+        "znnd:46:1"
       ]
     },
     {
       "question": "Which act may an assistant notary NOT perform, even on the instructions of the notary?",
       "options": [
-        "A deed for a mortgage",
+        "A deed for a mortgage on a flat",
         "Certification of a signature",
-        "Certification of a copy",
+        "Certification of a copy of a deed",
         "Service of a notarial invitation"
       ],
       "answer": 0,
-      "explanation": "Mortgages are excluded by Art. 40(1), item 4.",
+      "explanation": "Art. 40(1) item 4 ЗННД excludes the deeds that create or delete mortgages; items 1 to 3 exclude real-estate deeds, acts recognising ownership and wills. Signatures, copies and invitations stay within the assistant's powers.",
       "refs": [
         "znnd:40:1"
       ]
@@ -88,27 +89,28 @@
     {
       "question": "What makes an assistant notary able to act alone while the notary is on holiday?",
       "options": [
-        "Entry as a substitute after three years of experience and an exam",
-        "A written power of attorney from the notary",
-        "Permission from the district court",
-        "Nothing; the assistant can always act alone"
+        "Entry as a substitute, after three years of experience and an exam",
+        "A written authorisation from the notary, filed in the case book of the office",
+        "A permission of the president of the district court",
+        "Nothing; an assistant always acts alone when the notary is away"
       ],
       "answer": 0,
-      "explanation": "Substitution by an assistant notary requires the experience under Art. 8(1)(3) and an exam.",
+      "explanation": "Art. 46(1) ЗННД: an assistant replaces the notary only when entered as a substitute, which needs the experience of Art. 8(1) item 3 and an exam for the first term (Art. 46(3)). A letter from the notary gives no such power.",
       "refs": [
-        "znnd:46:1"
+        "znnd:46:1",
+        "znnd:46:3"
       ]
     },
     {
-      "question": "How long may one term of substitution by an assistant notary last?",
+      "question": "An assistant was entered as a substitute on 1 March 2025. On 15 June 2027 the notary is still abroad. May the assistant act as substitute?",
       "options": [
-        "Up to two years",
-        "Up to six months",
-        "Up to one year",
-        "Without limit"
+        "No; the term ended on 1 March 2027, two years from the entry",
+        "Yes; the term runs until the notary comes back to the office from abroad",
+        "Yes; a term of substitution lasts three years from the entry",
+        "Yes, if the notary extends the term with a written letter"
       ],
       "answer": 0,
-      "explanation": "The term may not exceed two years from the entry in the register.",
+      "explanation": "Art. 46(2) ЗННД: a term of substitution may not exceed two years from the entry in the register. After that the notary and the assistant file a new application; a letter cannot extend the term.",
       "refs": [
         "znnd:46:2"
       ]
@@ -118,11 +120,11 @@
       "options": [
         "Legal acts and case law on paper",
         "A laptop with a legal database",
-        "Their own notes",
-        "Nothing at all"
+        "Their own handwritten notes",
+        "No aids of any kind at all"
       ],
       "answer": 0,
-      "explanation": "Only normative acts and case law on paper are allowed.",
+      "explanation": "Art. 3(3) of Ordinance No. 2 of 2003 allows normative acts and case law on paper only; any other aid means removal from the exam.",
       "refs": [
         "n2pn:3:3"
       ]
@@ -136,9 +138,10 @@
         "Excellent (6)"
       ],
       "answer": 0,
-      "explanation": "Only candidates with at least good (4) go to the oral exam.",
+      "explanation": "Art. 9(1) of Ordinance No. 36: only candidates with at least good (4) in the written exam go to the oral exam. The ranking then uses the average of the two grades, each at least 4 (Art. 10(5)).",
       "refs": [
-        "n36:9:1"
+        "n36:9:1",
+        "n36:10:5"
       ]
     },
     {
@@ -150,49 +153,50 @@
         "Three"
       ],
       "answer": 0,
-      "explanation": "One place for every 10,000 inhabitants: 45,000 gives four places, and never fewer than two.",
+      "explanation": "Art. 10(1) ЗННД: one place for every 10,000 inhabitants, and at least two in every district. 45,000 inhabitants hold four full tens of thousands; the course reads the rule without rounding up. The Minister may open more places on a proposal of the Council of Notaries (Art. 10(4)).",
       "refs": [
         "znnd:10:1"
       ]
     },
     {
-      "question": "For how many districts may a candidate apply in one competition?",
+      "question": "A notary applies to appoint an assistant notary. Which documents for the entry does the Council of Notaries need from the assistant?",
       "options": [
-        "Up to three",
-        "Only one",
-        "Up to five",
-        "All districts"
+        "The order, the declaration, the insurance and the specimen signature",
+        "All the documents of Art. 14(2), including the document of ownership of the office",
+        "Only the order of the Minister and the signed oath sheet",
+        "The order and a certificate of three years of legal experience"
       ],
       "answer": 0,
-      "explanation": "The application lists up to three judicial districts in order of preference.",
+      "explanation": "Art. 14(3) ЗННД: for an assistant notary only items 1, 2, 5 and 7 of Art. 14(2) apply: the order, the declaration, the insurance and the specimen signature. The office documents concern the notary, and experience is not required (Art. 41(1)).",
       "refs": [
-        "znnd:11:1"
+        "znnd:14:3",
+        "znnd:14:2"
       ]
     },
     {
       "question": "Which activity is compatible with the work of a notary?",
       "options": [
-        "Teaching law as a freelance lecturer without an employment contract",
-        "Working as a lawyer",
-        "Being a municipal councillor",
-        "Managing a commercial company"
+        "Teaching law as a freelance lecturer, without an employment contract",
+        "Working as a lawyer in a law firm, without an employment contract with it",
+        "Sitting as a municipal councillor in the town of the office",
+        "Managing a small commercial company owned by the family"
       ],
       "answer": 0,
-      "explanation": "Art. 9 lists incompatible activities. Freelance teaching is not among them; an employment contract is.",
+      "explanation": "Art. 9(1) ЗННД lists the incompatible activities: a post in a state or municipal body, an employment contract, practising as a lawyer, trade and the management of companies. Freelance teaching is not in the list.",
       "refs": [
         "znnd:9:1"
       ]
     },
     {
-      "question": "What must a new notary have before entry in the register?",
+      "question": "Which of these is a condition for the entry of a new notary in the register?",
       "options": [
-        "An office with two or more functionally connected rooms, insurance, a seal specimen and a signature specimen",
-        "Five employees",
+        "Two or more connected rooms for the office",
         "A bank guarantee of 100,000 euro",
-        "A recommendation from the district court"
+        "At least two employees with legal training",
+        "A recommendation of the district court"
       ],
       "answer": 0,
-      "explanation": "Art. 13 and Art. 14(2) list the office, insurance, seal and signature requirements.",
+      "explanation": "Art. 13(2) ЗННД requires two or more functionally connected rooms for the chancery and the archive; Art. 14(2) adds the insurance, the seal and signature specimens and the document of the office. No guarantee, staff or recommendation is required.",
       "refs": [
         "znnd:13:2",
         "znnd:14:2"
@@ -207,7 +211,7 @@
         "Only towards the press"
       ],
       "answer": 0,
-      "explanation": "Employees keep official secrecy under the same conditions as the notary.",
+      "explanation": "Art. 49 ЗННД: employees keep the official secret under the conditions set for the notary, from the first day and towards everybody, not only the press.",
       "refs": [
         "znnd:49"
       ]
@@ -215,15 +219,16 @@
     {
       "question": "Who trains the employees of a notary office?",
       "options": [
-        "The notary is obliged to introduce, train and guide them",
-        "Only the Notary Chamber",
-        "The Ministry of Justice",
-        "Nobody; training is voluntary"
+        "The notary, who must introduce, train and guide them",
+        "The Notary Chamber alone, through its seminars",
+        "The Ministry of Justice, through its inspectors and inspections",
+        "Nobody; the training of staff is voluntary"
       ],
       "answer": 0,
-      "explanation": "Art. 34(2) puts this duty on the notary. The Council of Notaries also runs training.",
+      "explanation": "Art. 34(2) ЗННД puts the duty on the notary. The Council of Notaries also organises training (Art. 65(1)), but that does not replace the notary's duty.",
       "refs": [
-        "znnd:34:2"
+        "znnd:34:2",
+        "znnd:65:1"
       ]
     }
   ]
