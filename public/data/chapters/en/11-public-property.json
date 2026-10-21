@@ -1,0 +1,240 @@
+{
+  "id": "public-property",
+  "objectives": [
+    "Tell public from private state and municipal property, and say who changes one into the other.",
+    "Decide whether a state or municipal property can be acquired by prescription, and which years count.",
+    "Read an act of state or municipal property and a contract with the state or a municipality in a chain of title.",
+    "Recognise the titles of restitution: a decision of the agricultural office and restitution by law.",
+    "List what the office asks for when a property was once state or municipal."
+  ],
+  "cards": [
+    {
+      "front": "Which state property can be sold or acquired by prescription?",
+      "back": "Only **private** state property (Art. 7(3) ЗДС). Public state property can be neither (Art. 7(1) ЗДС)."
+    },
+    {
+      "front": "Can public municipal property be acquired by prescription?",
+      "back": "**No**, nor the land of the municipal land fund or municipal forests (Art. 7(1) ЗОС; Art. 86 ЗС)."
+    },
+    {
+      "front": "Who declares public municipal property private, and with what majority?",
+      "back": "The **municipal council**, with **two thirds** of all councillors (Art. 6(1), (3) ЗОС)."
+    },
+    {
+      "front": "Is the property of a municipal EAD municipal property?",
+      "back": "**No**: the property of companies is not municipal property, even if the municipality owned all of it (Art. 2(2) ЗОС)."
+    },
+    {
+      "front": "Possession of a private municipal plot began in 1998. Which years count for prescription?",
+      "back": "Until **31 May 2006** and from **8 March 2022**: the moratorium of § 1 ЗД ЗС (2006) and Constitutional Court Decision No. 3 of 2022; outside the library."
+    },
+    {
+      "front": "Does an act of municipal property create the municipality's ownership?",
+      "back": "**No**. It is an official document with **no constitutive effect** (Art. 5(2)–(3) ЗОС); the right comes from its ground."
+    },
+    {
+      "front": "In what form does a municipality sell a plot?",
+      "back": "A **written contract** signed by the **mayor**, after a council decision and an auction, entered in the property register (Art. 34(7), 35(1) ЗОС)."
+    },
+    {
+      "front": "What must be entered before a municipality signs a contract of disposal?",
+      "back": "The **act of municipal property** for the property (Art. 34(8) ЗОС)."
+    },
+    {
+      "front": "Who sells private state property with a tax assessment above 10,000 лв.?",
+      "back": "The **Agency for Public Enterprises and Control**, on the electronic platform; up to that amount, the **regional governor** (Art. 44(1)–(2) ЗДС)."
+    },
+    {
+      "front": "What is the value of a final decision of the agricultural office in old boundaries, with a sketch?",
+      "back": "It certifies ownership and has the **force of a declaratory notarial deed** (Art. 14(1), item 1 ЗСПЗЗ), except for land in settlements under Art. 10(7)."
+    },
+    {
+      "front": "A decision restores land to the heirs of a deceased owner. How are their shares set?",
+      "back": "By the **Inheritance Act**; the decision does not state them (Art. 14(1), item 1 ЗСПЗЗ)."
+    },
+    {
+      "front": "When is urban property not restored under ЗВСОНИ?",
+      "back": "When the owner received **compensation** in money or an equivalent property (Art. 4(1) ЗВСОНИ), or the property no longer exists in its real dimensions (Art. 2(3))."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Since 1995 a man has used a strip of a municipal park next to his yard as his garden. Can he get a declaratory deed by prescription?",
+      "options": [
+        "No; public municipal property is never acquired so",
+        "Yes; ten years of possession are enough for any land",
+        "Yes, if the municipal council gives its consent",
+        "Yes, but only for the years before the moratorium"
+      ],
+      "answer": 0,
+      "explanation": "Art. 86 ЗС and Art. 7(1) ЗОС: public municipal property cannot be acquired by prescription, whatever the length of the possession. The moratorium concerns only private state and municipal property, and the council cannot consent to a prescription.",
+      "refs": [
+        "zs:86",
+        "zos:7:1"
+      ]
+    },
+    {
+      "question": "A woman has possessed a plot of private municipal property since 1 January 2000. Which periods count toward the ten years of prescription?",
+      "options": [
+        "Until 31 May 2006 and again from 8 March 2022",
+        "All the years from 2000, without any gap at all",
+        "Only the years after 8 March 2022",
+        "None; municipal plots are never acquired"
+      ],
+      "answer": 0,
+      "explanation": "Private municipal property can be acquired by prescription (Art. 7(3) ЗОС), but the moratorium of § 1 of the 2006 amending act of ЗС stopped the term from 1 June 2006; it runs again from 8 March 2022 after Constitutional Court Decision No. 3 of 2022. A suspension keeps the years before it, so both periods count (Art. 79 ЗС).",
+      "refs": [
+        "zos:7:3",
+        "zs:79"
+      ]
+    },
+    {
+      "question": "A municipality sells a plot of private municipal property to the winner of an auction. Who signs the contract, and in what form?",
+      "options": [
+        "The mayor, in written form, and it is entered",
+        "Both parties, by a notarial deed of the district",
+        "The chair of the council, in written form only",
+        "The buyer alone, on the protocol of the auction"
+      ],
+      "answer": 0,
+      "explanation": "Art. 35(1) and (6) ЗОС: after the council decision and the auction, the mayor issues an order and signs the contract; Art. 34(7): the contract is in written form and is entered by the registration judge of the property's district. A notarial deed is not required.",
+      "refs": [
+        "zos:34:7",
+        "zos:35:1",
+        "zos:35:6"
+      ]
+    },
+    {
+      "question": "A municipal hospital EAD wants to sell an old warehouse. Do the auction rules of the Municipal Property Act apply?",
+      "options": [
+        "No; the company's property is not municipal",
+        "Yes; the municipality owns all of the shares",
+        "Yes, if the municipal council approves by 3/4",
+        "Only if the property is worth over 10,000 лв."
+      ],
+      "answer": 0,
+      "explanation": "Art. 2(2) ЗОС: the property of commercial companies is not municipal property, even if the municipality was the only owner of what it transferred to them. The sale follows the rules for companies (Art. 147(2) ТЗ; chapter 14), not the auction of Art. 35 ЗОС.",
+      "refs": [
+        "zos:2:2",
+        "tz:147:2"
+      ]
+    },
+    {
+      "question": "A municipality shows an act of municipal property for a plot that a family has used for decades. What does the act prove?",
+      "options": [
+        "A record of the right, not its source",
+        "That the municipality became owner on the date of the act",
+        "Ownership that nobody can dispute in a court case",
+        "A title with the force of a notarial deed for a sale"
+      ],
+      "answer": 0,
+      "explanation": "Art. 5(2)–(3) ЗОС: the act of municipal property is an official document, but it has no constitutive effect; the right comes from the ground stated in it. The family can dispute that ground in court.",
+      "refs": [
+        "zos:5:2",
+        "zos:5:3"
+      ]
+    },
+    {
+      "question": "Before a municipality signs a contract to sell a plot, which document must already be entered?",
+      "options": [
+        "The act of municipal property for the plot",
+        "The order of the mayor that opens the auction",
+        "The protocol of the auction commission",
+        "The declaration of the buyer on the funds"
+      ],
+      "answer": 0,
+      "explanation": "Art. 34(8) ЗОС: at the date of a contract of disposal, the act of municipal property must be entered in the registry office. The order of the mayor and the auction protocol come before the contract, but the law requires the entry of the act.",
+      "refs": [
+        "zos:34:8"
+      ]
+    },
+    {
+      "question": "Heirs present a final decision of the agricultural office that restores a field outside the village in its old boundaries, with a sketch. What is it worth as a title?",
+      "options": [
+        "It certifies ownership like a declaratory deed",
+        "It only proves a claim that a court must confirm",
+        "It needs a circumstantial verification as well",
+        "It is valid only together with a building permit"
+      ],
+      "answer": 0,
+      "explanation": "Art. 14(1), item 1 ЗСПЗЗ: the final decision with a sketch certifies the right of ownership and has the force of a declaratory notarial deed; the exception of Art. 10(7) concerns land inside settlements. No court decision and no circumstantial verification are needed.",
+      "refs": [
+        "zspzz:14:1",
+        "zspzz:10:7"
+      ]
+    },
+    {
+      "question": "The decision restores land to \"the heirs of Ivan Petrov\" without shares. How does the office find the share of each heir?",
+      "options": [
+        "Under the Inheritance Act, as for any estate",
+        "In equal shares among all persons who signed",
+        "From an annex that the agricultural office adds",
+        "From a declaration of the mayor of the village"
+      ],
+      "answer": 0,
+      "explanation": "Art. 14(1), item 1 ЗСПЗЗ: for a deceased owner the decision is issued jointly for the heirs, and their shares are set under the Inheritance Act, not in the decision. The office reads the certificate of heirs and applies the shares of the act (chapter 13).",
+      "refs": [
+        "zspzz:14:1",
+        "zn:5"
+      ]
+    },
+    {
+      "question": "A buyer wants a plot that is public state property. Can the state sell it to him?",
+      "options": [
+        "Not until it is declared private",
+        "Yes, through the Agency for Public Enterprises",
+        "Yes, if the regional governor signs the contract",
+        "Yes, if the price is at least the tax assessment"
+      ],
+      "answer": 0,
+      "explanation": "Art. 7(1) ЗДС: public state property cannot be the object of disposal. When it no longer has that quality, the Council of Ministers declares it private (Art. 6(1)); only then do the rules on sale apply (Art. 43–44).",
+      "refs": [
+        "zds:7:1",
+        "zds:6:1"
+      ]
+    },
+    {
+      "question": "A plot of private state property has a tax assessment of 8,000 лв. (4,090.34 €). Who sells it?",
+      "options": [
+        "The regional governor of its location",
+        "The Agency for Public Enterprises and Control",
+        "The mayor of the municipality where it is",
+        "The Council of Ministers, by a decision"
+      ],
+      "answer": 0,
+      "explanation": "Art. 44(2) ЗДС: private state property with a tax assessment up to 10,000 лв. is sold by the regional governor of its location, on the electronic platform. Above that amount, the Agency for Public Enterprises and Control sells it (Art. 44(1)).",
+      "refs": [
+        "zds:44:1",
+        "zds:44:2"
+      ]
+    },
+    {
+      "question": "Heirs claim restitution of a house expropriated in 1948. In 1950 the owner received another house as compensation. Is the first house restored?",
+      "options": [
+        "No; it was already paid for in kind",
+        "Yes; restitution under the act is automatic",
+        "Yes, if the heirs give back the other house",
+        "Yes, but only for the share of each heir"
+      ],
+      "answer": 0,
+      "explanation": "Art. 4(1) ЗВСОНИ: ownership is restored only if the owners were not compensated with the money value or with another equivalent property; bonds do not count as compensation. A later exchange is not a ground of the act.",
+      "refs": [
+        "zvsoni:4:1"
+      ]
+    },
+    {
+      "question": "A neighbour possessed a house from 1985; in 1997 it was restored to the heirs of its former owner under ЗВСОНИ. Do the years before the restitution count for the neighbour's prescription?",
+      "options": [
+        "No; those years are not counted",
+        "Yes; all the years of possession count",
+        "Yes, if the neighbour paid the local taxes",
+        "Only half of the years before the restitution"
+      ],
+      "answer": 0,
+      "explanation": "Art. 5(2) ЗВСОНИ: prescription that ran for property restored under this act or under the agricultural land act is not counted and starts again from the day this rule entered into force. Tax receipts are evidence of possession, not an exception to the rule.",
+      "refs": [
+        "zvsoni:5:2"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,20 @@
 {
+  "2": {
+    "paragraphs": [
+      "Art. 2. Ownership belongs to the state, the municipalities, cooperatives and other legal entities, and citizens.",
+      "All kinds of ownership have equal opportunities for development and protection."
+    ]
+  },
+  "6": {
+    "paragraphs": [
+      "Art. 6. The ownership of the state and of the municipalities is public and private."
+    ]
+  },
+  "7": {
+    "paragraphs": [
+      "Art. 7. The regime of the objects of state and municipal ownership is set by separate laws."
+    ]
+  },
   "30": {
     "title": "Co-ownership",
     "paragraphs": [
@@ -173,6 +189,11 @@
       "Art. 82. The possessor may add to his possession the possession of his transferor."
     ]
   },
+  "86": {
+    "paragraphs": [
+      "Art. 86. A thing that is public state or municipal property cannot be acquired by prescription."
+    ]
+  },
   "92": {
     "paragraphs": [
       "Art. 92. The owner of the land also owns the buildings and plantations on it, unless otherwise established."
@@ -192,6 +213,11 @@
   "109": {
     "paragraphs": [
       "Art. 109. The owner may ask for the cessation of any unfounded act that prevents him from exercising his right."
+    ]
+  },
+  "109а": {
+    "paragraphs": [
+      "Art. 109a. The owner of real estate may ask for the determination of the boundaries between his property and the neighbouring properties."
     ]
   },
   "110": {
@@ -238,11 +264,6 @@
       "In a decision granting the claim, the court gives the claimant six months to make this note. After that, the entry of the claim loses its effect.",
       "The court does not issue a copy of a decision under Art. 19(3) of the Obligations and Contracts Act until the claimant proves that the costs of the transfer and the transferor's taxes and other obligations to the state are paid.",
       "If the claim was not entered, the decision on it has effect towards third persons only from the day it is entered."
-    ]
-  },
-  "109а": {
-    "paragraphs": [
-      "Art. 109a. The owner of real estate may ask for the determination of the boundaries between his property and the neighbouring properties."
     ]
   }
 }

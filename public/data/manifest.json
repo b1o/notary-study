@@ -35,6 +35,7 @@
         "contracts",
         "property",
         "planning",
+        "public-property",
         "family",
         "inheritance",
         "commercial"
@@ -243,6 +244,21 @@
       "summary": {
         "en": "Territories, plots and plans; the minimum size of plots; partition of buildings; the building right by stages of construction; condominiums; rights of passage and networks.",
         "bg": "Територии, имоти и планове; минимални размери на имотите; делба на сгради; правото на строеж по етапи на строителството; етажна собственост; право на преминаване и мрежи."
+      }
+    },
+    {
+      "id": "public-property",
+      "number": 11,
+      "part": "civil",
+      "file": "11-public-property",
+      "minutes": 40,
+      "title": {
+        "en": "State and municipal property, restitution and titles",
+        "bg": "Държавна и общинска собственост, реституция и документи за собственост"
+      },
+      "summary": {
+        "en": "Public and private property of the state and the municipalities, prescription and the 2006–2022 moratorium, acts of property, deals with public bodies, and the titles of restitution.",
+        "bg": "Публична и частна собственост на държавата и общините, давността и мораториумът 2006 – 2022 г., актовете за собственост, сделките с публични органи и документите от реституцията."
       }
     },
     {
