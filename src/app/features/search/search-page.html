@@ -1,0 +1,99 @@
+@let text = ui().search;
+<nc-page-layout main="reading">
+  <nc-page-header pageHeader [heading]="heading()">
+    <div class="search-page__tools">
+      <nc-search-box class="search-page__box" [query]="query()" [label]="text.refine" />
+      @if (provision(); as reference) {
+        <a
+          class="button button--primary"
+          [href]="laws.url(reference)"
+          (click)="openProvision($event, reference)"
+          >{{ text.openProvision(laws.label(reference)) }}</a
+        >
+      }
+    </div>
+  </nc-page-header>
+
+  @if (query()) {
+    <nc-load-status [resource]="results" [loadingText]="text.searching" />
+  }
+
+  @if (results.hasValue()) {
+    @let found = results.value();
+    @if (nothingFound()) {
+      <p class="search-page__empty">{{ text.noResults }}</p>
+    }
+
+    @if (found.glossary.total) {
+      <nc-search-group
+        [heading]="text.inGlossary"
+        [shown]="found.glossary.matches.length"
+        [total]="found.glossary.total"
+      >
+        <nc-glossary-list [terms]="glossaryTerms()" />
+      </nc-search-group>
+    }
+
+    @if (found.course.total) {
+      <nc-search-group
+        [heading]="text.inCourse(found.course.total)"
+        [shown]="found.course.matches.length"
+        [total]="found.course.total"
+      >
+        <ol class="row-list">
+          @for (match of found.course.matches; track $index) {
+            @let chapter = content.chapter(match.item.chapterId);
+            <li>
+              <a
+                class="row-link"
+                [routerLink]="['/course', match.item.chapterId]"
+                [fragment]="match.item.fragment"
+              >
+                <span class="row-link__title">{{
+                  match.item.heading ?? chapter?.title?.[lang()]
+                }}</span>
+                @if (chapter) {
+                  <span class="row-link__detail"
+                    >{{ ui().chapter.number(chapter.number) }}: {{ chapter.title[lang()] }}</span
+                  >
+                }
+              </a>
+              <nc-search-snippet [snippet]="match.snippet" />
+            </li>
+          }
+        </ol>
+      </nc-search-group>
+    }
+
+    @if (found.laws.total) {
+      <nc-search-group
+        [heading]="text.inLaws(found.laws.total)"
+        [shown]="found.laws.matches.length"
+        [total]="found.laws.total"
+      >
+        <ol class="row-list">
+          @for (match of found.laws.matches; track $index) {
+            @let reference = match.item.reference;
+            @let current = panel.isShown(reference);
+            <li>
+              <a
+                class="row-link"
+                [class.row-link--current]="current"
+                [attr.aria-current]="current ? 'true' : null"
+                [href]="laws.url(reference)"
+                (click)="openProvision($event, reference)"
+              >
+                <span class="row-link__title">{{ laws.label(reference) }}</span>
+                @let language = match.snippet.language;
+                @if (match.item.title[language]; as title) {
+                  <span class="row-link__detail" [lang]="language">{{ title }}</span>
+                }
+              </a>
+              <nc-search-snippet [snippet]="match.snippet" />
+            </li>
+          }
+        </ol>
+      </nc-search-group>
+    }
+  }
+</nc-page-layout>

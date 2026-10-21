@@ -36,10 +36,13 @@ export class LawLibraryService {
     return this.entriesById().get(actId);
   }
 
-  /** Label of a reference in the current language, for example "чл. 25, ал. 9 ЗННД". */
-  label(reference: LawReference | string): string {
+  /**
+   * Label of a reference, for example "чл. 25, ал. 9 ЗННД". The language is the interface
+   * language, unless the caller names the language of a text.
+   */
+  label(reference: LawReference | string, language: Language = this.language.current()): string {
     const parsed = typeof reference === 'string' ? parseReference(reference) : reference;
-    return formatReference(parsed, this.entry(parsed.act), this.language.current());
+    return formatReference(parsed, this.entry(parsed.act), language);
   }
 
   /**

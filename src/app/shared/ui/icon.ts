@@ -27,6 +27,7 @@ const ICONS = {
   print:
     'M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a1 1 0 0 1-1 1h-2M7 14h10v6H7Z',
   clock: 'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18ZM12 7.5V12l3 2',
+  search: 'M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 1 0 0-13ZM15.5 15.5 20 20',
 } as const;
 
 export type IconName = keyof typeof ICONS;

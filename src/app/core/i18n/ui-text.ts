@@ -32,7 +32,6 @@ export interface UiText {
     readonly study: string;
     readonly reference: string;
     readonly contents: string;
-    readonly notAvailableYet: string;
     readonly openMenu: string;
     readonly closeMenu: string;
   };
@@ -40,6 +39,8 @@ export interface UiText {
     readonly placeholder: string;
     readonly label: string;
     readonly submit: string;
+    /** The name of the search field on the results page, beside the one in the navigation. */
+    readonly refine: string;
     readonly title: string;
     readonly resultsFor: (query: string) => string;
     readonly searching: string;

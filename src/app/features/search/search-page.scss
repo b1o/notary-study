@@ -1,0 +1,24 @@
+.search-page__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-block-start: var(--space-5);
+}
+
+.search-page__box {
+  flex: 1 1 18rem;
+  max-inline-size: 30rem;
+}
+
+.search-page__empty {
+  color: var(--color-ink-2);
+}
+
+nc-search-group + nc-search-group {
+  margin-block-start: var(--space-7);
+}
+
+.row-list > li + li {
+  margin-block-start: var(--space-1);
+}

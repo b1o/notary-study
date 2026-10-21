@@ -26,19 +26,11 @@
     <ul class="row-list tools">
       @for (section of sections; track section.label) {
         <li>
-          @if (section.path) {
-            <a class="row-link tool" [routerLink]="section.path">
-              <span class="tool__icon"><nc-icon [name]="section.icon" /></span>
-              <span class="tool__title">{{ text.nav[section.label] }}</span>
-              <span class="tool__hint">{{ text.home[section.hint] }}</span>
-            </a>
-          } @else {
-            <div class="row-link tool tool--unavailable">
-              <span class="tool__icon"><nc-icon [name]="section.icon" /></span>
-              <span class="tool__title">{{ text.nav[section.label] }}</span>
-              <span class="tool__hint">{{ text.nav.notAvailableYet }}</span>
-            </div>
-          }
+          <a class="row-link tool" [routerLink]="section.path">
+            <span class="tool__icon"><nc-icon [name]="section.icon" /></span>
+            <span class="tool__title">{{ text.nav[section.label] }}</span>
+            <span class="tool__hint">{{ text.home[section.hint] }}</span>
+          </a>
         </li>
       }
     </ul>

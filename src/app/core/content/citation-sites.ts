@@ -1,5 +1,5 @@
 import { articleKey, findCitations, parseReference } from '../laws/citation';
-import { plainHeading, SlugRegistry } from '../text/slug';
+import { splitSections } from './markdown-sections';
 
 /** A place in a chapter that cites a provision. */
 export interface CitationSite {
@@ -9,39 +9,22 @@ export interface CitationSite {
   readonly sectionId?: string;
 }
 
-const HEADING = /^(#{1,6})\s+(.*)$/;
-const FENCE = /^```/;
-
 /**
- * Find the citations of one chapter, grouped by article ("znnd:25").
- * Heading ids follow the same rules as renderMarkdown, so links to the sections work.
+ * Find the citations of one chapter, grouped by article ("znnd:25"). Code blocks show their
+ * text as it is, so they hold no citations.
  */
 export function citationSites(chapterId: string, markdown: string): Map<string, CitationSite[]> {
   const sites = new Map<string, CitationSite[]>();
-  const slugs = new SlugRegistry();
-  let section: Pick<CitationSite, 'sectionTitle' | 'sectionId'> = {};
-  let inFence = false;
-
-  for (const line of markdown.split('\n')) {
-    // Code blocks show their text as it is: no headings and no citation links.
-    if (FENCE.test(line)) {
-      inFence = !inFence;
-      continue;
-    }
-    if (inFence) {
-      continue;
-    }
-    const heading = HEADING.exec(line);
-    if (heading) {
-      section = { sectionTitle: plainHeading(heading[2]), sectionId: slugs.next(heading[2]) };
-      continue;
-    }
-    for (const { ref } of findCitations(line)) {
-      const key = articleKey(parseReference(ref));
-      const list = sites.get(key) ?? [];
-      // One entry per section is enough.
-      if (!list.some((site) => site.sectionId === section.sectionId)) {
-        sites.set(key, [...list, { chapterId, ...section }]);
+  for (const section of splitSections(markdown)) {
+    const site: CitationSite = { chapterId, sectionTitle: section.title, sectionId: section.id };
+    for (const line of section.lines) {
+      for (const { ref } of findCitations(line)) {
+        const key = articleKey(parseReference(ref));
+        const list = sites.get(key) ?? [];
+        // One entry per section is enough.
+        if (!list.includes(site)) {
+          sites.set(key, [...list, site]);
+        }
       }
     }
   }

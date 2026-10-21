@@ -30,5 +30,6 @@ export const routes: Routes = [
   { path: 'tests/:chapterId', loadComponent: () => import('./features/tests/chapter-test-page') },
   { path: 'exam', loadComponent: () => import('./features/tests/exam-page') },
   { path: 'fees', loadComponent: () => import('./features/fees/fees-page') },
+  { path: 'search', loadComponent: () => import('./features/search/search-page') },
   { path: '**', loadComponent: () => import('./features/not-found/not-found-page') },
 ];

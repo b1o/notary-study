@@ -3,12 +3,11 @@ import { form, FormField } from '@angular/forms/signals';
 import { RouterLink } from '@angular/router';
 
 import type { GlossaryTerm } from '../../core/content/content.models';
-import { ContentService } from '../../core/content/content.service';
 import { LanguageService } from '../../core/i18n/language.service';
 import { pageTitleEffect } from '../../core/page-title';
-import { GlossaryService, termAnchor } from '../../core/reference/glossary.service';
+import { GlossaryService } from '../../core/reference/glossary.service';
 import { foldText } from '../../core/text/fold';
-import { LawRefs } from '../../shared/law/law-refs';
+import { GlossaryList } from '../../shared/course/glossary-list';
 import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
@@ -16,17 +15,15 @@ import { LoadStatus } from '../../shared/ui/load-status';
 /** The glossary: all terms by initial letter, with a filter. */
 @Component({
   selector: 'nc-glossary-page',
-  imports: [RouterLink, FormField, PageLayout, PageHeader, LawRefs, LoadStatus],
+  imports: [RouterLink, FormField, PageLayout, PageHeader, GlossaryList, LoadStatus],
   templateUrl: './glossary-page.html',
   styleUrl: './glossary-page.scss',
 })
 export default class GlossaryPage {
   protected readonly glossary = inject(GlossaryService);
-  private readonly content = inject(ContentService);
   private readonly language = inject(LanguageService);
   protected readonly ui = this.language.text;
   protected readonly lang = this.language.current;
-  protected readonly anchor = termAnchor;
 
   protected readonly filter = form(signal(''));
 
@@ -48,9 +45,5 @@ export default class GlossaryPage {
 
   constructor() {
     pageTitleEffect(() => this.ui().nav.glossary);
-  }
-
-  protected chapterOf(term: GlossaryTerm) {
-    return term.chapter ? this.content.chapter(term.chapter) : undefined;
   }
 }

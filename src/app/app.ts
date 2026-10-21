@@ -1,4 +1,12 @@
-import { Component, inject, signal } from '@angular/core';
+import {
+  afterNextRender,
+  Component,
+  ElementRef,
+  inject,
+  Injector,
+  signal,
+  viewChild,
+} from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
@@ -20,6 +28,7 @@ import { Icon } from './shared/ui/icon';
     '[class.app--panel-open]': 'panel.isOpen()',
     '[style.--panel-width.px]': 'panel.customWidth()',
     '(document:keydown.escape)': 'menuOpen.set(false)',
+    '(document:keydown)': 'focusSearch($event)',
   },
 })
 export class App {
@@ -28,6 +37,10 @@ export class App {
 
   /** The navigation drawer on small screens. */
   protected readonly menuOpen = signal(false);
+
+  private readonly nav = viewChild.required(SideNav);
+  private readonly navElement = viewChild.required(SideNav, { read: ElementRef });
+  private readonly injector = inject(Injector);
 
   constructor() {
     // Created here, so that the saved reading settings apply to <html> before the first page shows.
@@ -39,5 +52,18 @@ export class App {
         takeUntilDestroyed(),
       )
       .subscribe(() => this.menuOpen.set(false));
+  }
+
+  /** "/" moves to the search field, as on many sites. On a small screen it opens the drawer first. */
+  protected focusSearch(event: KeyboardEvent): void {
+    const target = event.target as HTMLElement;
+    const typing = target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName);
+    if (event.key !== '/' || typing || event.ctrlKey || event.metaKey || event.altKey) return;
+    event.preventDefault();
+    // The drawer is hidden on a small screen; elsewhere the navigation is always visible.
+    if (getComputedStyle(this.navElement().nativeElement).visibility === 'hidden') {
+      this.menuOpen.set(true);
+    }
+    afterNextRender(() => this.nav().focusSearch(), { injector: this.injector });
   }
 }

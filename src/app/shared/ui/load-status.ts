@@ -15,7 +15,9 @@ import { LanguageService } from '../../core/i18n/language.service';
         </button>
       </div>
     } @else if (resource().isLoading()) {
-      <p class="load-status load-status--loading" role="status">{{ ui().common.loading }}</p>
+      <p class="load-status load-status--loading" role="status">
+        {{ loadingText() ?? ui().common.loading }}
+      </p>
     }
   `,
   styles: `
@@ -41,5 +43,7 @@ import { LanguageService } from '../../core/i18n/language.service';
 export class LoadStatus {
   readonly resource =
     input.required<Pick<WritableResource<unknown>, 'error' | 'isLoading' | 'reload'>>();
+  /** What the reader waits for, when "Loading…" says too little. */
+  readonly loadingText = input<string>();
   protected readonly ui = inject(LanguageService).text;
 }

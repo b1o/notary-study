@@ -11,8 +11,7 @@ export interface AppSection {
   readonly hint: keyof UiText['home'];
   readonly icon: IconName;
   readonly group: 'reference' | 'study';
-  /** Sections without a path are not in the Angular version yet. */
-  readonly path?: string;
+  readonly path: string;
 }
 
 export const APP_SECTIONS: readonly AppSection[] = [

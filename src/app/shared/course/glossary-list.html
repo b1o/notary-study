@@ -1,0 +1,23 @@
+<dl class="terms">
+  @for (term of terms(); track term.bg) {
+    <div class="term-entry" [id]="anchor(term)">
+      <dt>
+        <span class="term-entry__bg" lang="bg">{{ term.bg }}</span>
+        <span class="term-entry__en" lang="en">{{ term.en }}</span>
+      </dt>
+      <dd>
+        <p class="term-entry__definition">{{ term.definition[lang()] }}</p>
+        @if (term.refs.length || term.chapter) {
+          <p class="term-entry__links">
+            <nc-law-refs [refs]="term.refs" />
+            @if (chapterOf(term); as chapter) {
+              <a [routerLink]="['/course', chapter.id]">{{
+                ui().chapter.number(chapter.number)
+              }}</a>
+            }
+          </p>
+        }
+      </dd>
+    </div>
+  }
+</dl>

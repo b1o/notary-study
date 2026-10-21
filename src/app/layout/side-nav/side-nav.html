@@ -11,6 +11,8 @@
   </button>
 </div>
 
+<nc-search-box class="side-nav__search" />
+
 <nav class="side-nav__body" [attr.aria-label]="text.nav.label">
   <ul class="nav-list">
     <li>
@@ -32,22 +34,15 @@
     <ul class="nav-list">
       @for (item of group.items; track item.label) {
         <li>
-          @if (item.path) {
-            <a
-              class="nav-link"
-              [routerLink]="item.path"
-              routerLinkActive="nav-link--active"
-              ariaCurrentWhenActive="page"
-            >
-              <nc-icon [name]="item.icon" />
-              <span>{{ text.nav[item.label] }}</span>
-            </a>
-          } @else {
-            <span class="nav-link nav-link--unavailable" [title]="text.nav.notAvailableYet">
-              <nc-icon [name]="item.icon" />
-              <span>{{ text.nav[item.label] }}</span>
-            </span>
-          }
+          <a
+            class="nav-link"
+            [routerLink]="item.path"
+            routerLinkActive="nav-link--active"
+            ariaCurrentWhenActive="page"
+          >
+            <nc-icon [name]="item.icon" />
+            <span>{{ text.nav[item.label] }}</span>
+          </a>
         </li>
       }
     </ul>

@@ -20,6 +20,10 @@
   text-decoration: none;
 }
 
+.side-nav__search {
+  padding: 0 var(--space-3) var(--space-2);
+}
+
 /* The close button is for the drawer on small screens. */
 .side-nav__close {
   display: none;
@@ -62,7 +66,7 @@
   --icon-size: 1.125rem;
 }
 
-a.nav-link:hover {
+.nav-link:hover {
   background: var(--color-hover);
   color: var(--color-ink);
 }
@@ -72,12 +76,6 @@ a.nav-link--active:hover {
   background: var(--color-accent-soft);
   color: var(--color-accent-text);
   font-weight: 550;
-}
-
-.nav-link--unavailable {
-  color: var(--color-ink-3);
-  opacity: 0.7;
-  cursor: default;
 }
 
 .nav-part {
