@@ -1,0 +1,79 @@
+/*
+ * Each outline level has a title size, a size for titles in capitals (many titles are in
+ * capitals in the source; they look larger, so they get less size and more spacing), and the
+ * space above and below. Deeper levels get less of each.
+ */
+:host {
+  display: block;
+  font-family: var(--font-ui);
+  line-height: 1.25;
+  color: var(--color-ink-strong);
+  scroll-margin-block-start: calc(var(--sticky-offset) + 5rem);
+}
+
+:host(.act-heading--level-1) {
+  --title-size: 1.4em;
+  --caps-size: 1.22em;
+  margin-block: 2.6em 0.9em;
+}
+
+:host(.act-heading--level-2) {
+  --title-size: 1.15em;
+  --caps-size: 1em;
+  margin-block: 1.9em 0.7em;
+}
+
+:host(.act-heading--level-3) {
+  --title-size: 1.02em;
+  --caps-size: 0.9em;
+  margin-block: 1.6em 0.6em;
+}
+
+:host(.act-heading--level-4) {
+  --title-size: 0.95em;
+  --caps-size: 0.84em;
+  margin-block: 1.3em 0.5em;
+  color: var(--color-ink-2);
+}
+
+.act-heading {
+  margin: 0;
+  font-size: 1em;
+  color: inherit;
+}
+
+.act-heading__label,
+.act-heading__title,
+.act-heading__note {
+  display: block;
+}
+
+.act-heading__label {
+  margin-block-end: 0.35em;
+  font-size: 0.78em;
+  font-weight: 500;
+  color: var(--color-ink-3);
+}
+
+.act-heading__title {
+  font-size: var(--title-size);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+:host(.act-heading--level-3) .act-heading__title,
+:host(.act-heading--level-4) .act-heading__title {
+  font-weight: 600;
+}
+
+:host(.act-heading--caps) .act-heading__title {
+  font-size: var(--caps-size);
+  letter-spacing: 0.035em;
+}
+
+.act-heading__note {
+  margin-block-start: 0.35em;
+  font-size: 0.72em;
+  font-weight: 400;
+  color: var(--color-ink-3);
+}

@@ -1,4 +1,3 @@
-import { NgTemplateOutlet } from '@angular/common';
 import { Component, computed, inject, input, resource, signal } from '@angular/core';
 import { form, FormField } from '@angular/forms/signals';
 import { RouterLink } from '@angular/router';
@@ -14,8 +13,9 @@ import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
 import { Icon } from '../../shared/ui/icon';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { ActContents } from './act-contents';
-import { articleAnchor, matchesQuery, toEntry, type ActEntry } from './act-entries';
+import { articleAnchor, matchesQuery, toEntries, type ActEntry } from './act-entries';
 import { ActHeader } from './act-header';
+import { ActHeading } from './act-heading';
 
 /**
  * The whole text of an act. With an article in the URL (laws/znnd/25?paragraph=9),
@@ -26,12 +26,12 @@ import { ActHeader } from './act-header';
   imports: [
     RouterLink,
     FormField,
-    NgTemplateOutlet,
     Icon,
     ChoiceGroup,
     LawArticleText,
     LoadStatus,
     ActContents,
+    ActHeading,
     ActHeader,
   ],
   templateUrl: './act-page.html',
@@ -76,7 +76,7 @@ export default class ActPage {
   );
 
   private readonly entries = computed<ActEntry[]>(() =>
-    this.act.hasValue() ? this.act.value().act.items.map(toEntry) : [],
+    this.act.hasValue() ? toEntries(this.act.value().act.items) : [],
   );
   protected readonly headings = computed(() =>
     this.entries().filter((entry) => entry.kind === 'heading'),

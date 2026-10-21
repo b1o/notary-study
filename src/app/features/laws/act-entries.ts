@@ -3,6 +3,7 @@ import {
   isArticle,
   type ActTranslation,
   type LawArticle,
+  type LawHeading,
   type LawItem,
 } from '../../core/laws/law.models';
 
@@ -13,7 +14,7 @@ import {
 export interface ActHeadingEntry {
   readonly kind: 'heading';
   readonly id: string;
-  readonly level: 1 | 2;
+  readonly level: LawHeading['level'];
   readonly parts: HeadingParts;
 }
 
@@ -28,6 +29,8 @@ export interface ActArticleEntry {
   readonly kind: 'article';
   readonly id: string;
   readonly article: LawArticle;
+  /** HTML heading level of the article header: one below the act heading above it. */
+  readonly headingLevel: number;
 }
 
 export type ActEntry = ActHeadingEntry | ActNoteEntry | ActArticleEntry;
@@ -35,14 +38,32 @@ export type ActEntry = ActHeadingEntry | ActNoteEntry | ActArticleEntry;
 /** Fragment id of an article: "art-25а", "art-§1". */
 export const articleAnchor = (number: string) => `art-${number}`;
 
-export function toEntry(item: LawItem, index: number): ActEntry {
-  if (isArticle(item)) {
-    return { kind: 'article', id: articleAnchor(item.number), article: item };
-  }
-  if (item.kind === 'heading') {
-    return { kind: 'heading', id: `h-${index}`, level: item.level, parts: splitHeading(item.text) };
-  }
-  return { kind: 'note', id: `note-${index}`, title: item.title, paragraphs: item.paragraphs };
+/**
+ * The items of an act, ready for the act page. The page title is h1 and an act heading of
+ * outline level N is h(N + 1) (see ActHeading), so an article header below it is h(N + 2).
+ */
+export function toEntries(items: readonly LawItem[]): ActEntry[] {
+  let outlineLevel = 0;
+  return items.map((item, index): ActEntry => {
+    if (isArticle(item)) {
+      return {
+        kind: 'article',
+        id: articleAnchor(item.number),
+        article: item,
+        headingLevel: outlineLevel + 2,
+      };
+    }
+    if (item.kind === 'heading') {
+      outlineLevel = item.level;
+      return {
+        kind: 'heading',
+        id: `h-${index}`,
+        level: item.level,
+        parts: splitHeading(item.text),
+      };
+    }
+    return { kind: 'note', id: `note-${index}`, title: item.title, paragraphs: item.paragraphs };
+  });
 }
 
 /**

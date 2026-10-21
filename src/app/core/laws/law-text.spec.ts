@@ -20,6 +20,11 @@ describe('segmentText', () => {
     ]);
   });
 
+  it('reads notes about one paragraph or item', () => {
+    expect(segmentText('(Ал. 2 отм. - ДВ, бр. 12 от 1993 г.)')[0].kind).toBe('amendment');
+    expect(segmentText('(Т. 3 изм. - ДВ, бр. 59 от 2007 г.)')[0].kind).toBe('amendment');
+  });
+
   it('leaves other brackets in the text', () => {
     expect(segmentText('такси (в лв.)')).toEqual([{ kind: 'text', text: 'такси (в лв.)' }]);
   });

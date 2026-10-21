@@ -52,4 +52,22 @@ describe('indexAct', () => {
   it('returns undefined for an unknown article', () => {
     expect(index.context('99')).toBeUndefined();
   });
+
+  it('follows deeper outlines, as in ЗЗД (част, I., 1., А))', () => {
+    const deep = indexAct({
+      id: 'zzd',
+      items: [
+        { kind: 'heading', level: 1, text: 'ОБЩА ЧАСТ' },
+        { kind: 'heading', level: 2, text: 'II. ИЗТОЧНИЦИ' },
+        { kind: 'heading', level: 3, text: '2. ДОГОВОРИ' },
+        { kind: 'heading', level: 4, text: 'А) СКЛЮЧВАНЕ' },
+        article('8'),
+        { kind: 'heading', level: 3, text: '3. ЕДНОСТРАННИ' },
+        article('44'),
+      ],
+    } as unknown as LawAct);
+    const path = (number: string) => deep.context(number)?.path.map((heading) => heading.text);
+    expect(path('8')).toEqual(['ОБЩА ЧАСТ', 'II. ИЗТОЧНИЦИ', '2. ДОГОВОРИ', 'А) СКЛЮЧВАНЕ']);
+    expect(path('44')).toEqual(['ОБЩА ЧАСТ', 'II. ИЗТОЧНИЦИ', '3. ЕДНОСТРАННИ']);
+  });
 });

@@ -36,18 +36,6 @@
         <p class="act-missing" role="status">{{ text.notFound }}</p>
       }
 
-      <!-- The parts of a heading: "Глава първа", the title, and amendment notes. -->
-      <ng-template #headingParts let-parts>
-        @if (parts.label) {
-          <span class="act-heading__label">{{ parts.label }}</span
-          >&ngsp;
-        }
-        <span class="act-heading__title">{{ parts.title }}</span>
-        @for (note of parts.notes; track $index) {
-          &ngsp;<span class="act-heading__note">{{ note }}</span>
-        }
-      </ng-template>
-
       <div class="act-body">
         <div class="act-layout" [class.act-layout--no-contents]="!headings().length">
           @if (headings().length) {
@@ -64,31 +52,7 @@
           <div class="act-text">
             @for (entry of visibleEntries(); track entry.id) {
               @if (entry.kind === 'heading') {
-                @if (entry.level === 1) {
-                  <h2
-                    class="act-heading"
-                    [class.act-heading--caps]="entry.parts.caps"
-                    [id]="entry.id"
-                    lang="bg"
-                  >
-                    <ng-container
-                      [ngTemplateOutlet]="headingParts"
-                      [ngTemplateOutletContext]="{ $implicit: entry.parts }"
-                    />
-                  </h2>
-                } @else {
-                  <h3
-                    class="act-heading act-heading--section"
-                    [class.act-heading--caps]="entry.parts.caps"
-                    [id]="entry.id"
-                    lang="bg"
-                  >
-                    <ng-container
-                      [ngTemplateOutlet]="headingParts"
-                      [ngTemplateOutletContext]="{ $implicit: entry.parts }"
-                    />
-                  </h3>
-                }
+                <nc-act-heading [heading]="entry" />
               } @else if (entry.kind === 'note') {
                 <section class="act-note" [id]="entry.id" lang="bg">
                   <h3 class="act-note__title">{{ entry.title }}</h3>
@@ -103,7 +67,7 @@
                     [article]="entry.article"
                     [translation]="translationOf()[entry.article.number]"
                     [highlight]="entry.article.number === article() ? paragraph() : undefined"
-                    [headingLevel]="4"
+                    [headingLevel]="entry.headingLevel"
                   />
                 </section>
               }

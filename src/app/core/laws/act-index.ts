@@ -26,7 +26,8 @@ export function indexAct(act: LawAct): ActIndex {
 
   for (const item of act.items) {
     if (item.kind === 'heading') {
-      path = item.level === 1 ? [item] : [...path.filter((heading) => heading.level === 1), item];
+      // A heading closes every heading at its level or deeper.
+      path = [...path.filter((heading) => heading.level < item.level), item];
     } else if (isArticle(item)) {
       articles.push(item);
       pathOf.set(item, path);

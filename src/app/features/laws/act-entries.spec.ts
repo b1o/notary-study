@@ -1,5 +1,5 @@
 import type { LawArticle } from '../../core/laws/law.models';
-import { matchesQuery, toEntry } from './act-entries';
+import { matchesQuery, toEntries } from './act-entries';
 
 const ARTICLE: LawArticle = {
   kind: 'article',
@@ -8,14 +8,23 @@ const ARTICLE: LawArticle = {
   paragraphs: ['Чл. 25. (1) Нотариусът е длъжен да опазва правата на страните.'],
 };
 
-describe('toEntry', () => {
-  it('links an article by its number', () => {
-    expect(toEntry(ARTICLE, 7)).toMatchObject({ kind: 'article', id: 'art-25' });
-  });
+describe('toEntries', () => {
+  const entries = toEntries([
+    { kind: 'heading', level: 1, text: 'Глава втора. НОТАРИУС' },
+    { kind: 'heading', level: 2, text: 'Раздел I. Общи положения' },
+    ARTICLE,
+  ]);
 
   it('links a heading by its position and splits its text', () => {
-    const entry = toEntry({ kind: 'heading', level: 1, text: 'Глава втора. НОТАРИУС' }, 3);
-    expect(entry).toMatchObject({ kind: 'heading', id: 'h-3', parts: { label: 'Глава втора' } });
+    expect(entries[0]).toMatchObject({
+      kind: 'heading',
+      id: 'h-0',
+      parts: { label: 'Глава втора' },
+    });
+  });
+
+  it('links an article by its number, with a header one level below the heading above it', () => {
+    expect(entries[2]).toMatchObject({ kind: 'article', id: 'art-25', headingLevel: 4 });
   });
 });
 

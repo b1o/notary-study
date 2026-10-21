@@ -38,8 +38,12 @@ export interface LawCatalogEntry {
 
 export interface LawHeading {
   readonly kind: 'heading';
-  /** 1 for a chapter (глава), 2 for a section (раздел). */
-  readonly level: 1 | 2;
+  /**
+   * Depth in the outline of the act, 1 for the outermost headings: usually 1 for a chapter
+   * (глава) and 2 for a section (раздел). Older acts such as ЗЗД go down to 4
+   * (част, I., 1., А)). tools/import_laws.py sets the levels.
+   */
+  readonly level: 1 | 2 | 3 | 4;
   readonly text: string;
 }
 

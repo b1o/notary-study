@@ -5,11 +5,11 @@
  */
 
 /**
- * Amendment and publication notes such as "(Изм. - ДВ, бр. 18 от 2003 г.)" or "(НОВА - ДВ ...)".
- * They may contain nested brackets.
+ * Amendment and publication notes such as "(Изм. - ДВ, бр. 18 от 2003 г.)", "(НОВА - ДВ ...)"
+ * or "(Ал. 2 отм. - ДВ, бр. 12 от 1993 г.)". They may contain nested brackets.
  */
 const AMENDMENT_NOTE =
-  /\((?:Нов|Изм|Доп|Отм|Предиш|Попр|Загл|Обявен|Обн)[^()]*?(?:\([^()]*\)[^()]*?)*\)/gi;
+  /\((?:Нов|Изм|Доп|Отм|Предиш|Попр|Загл|Обявен|Обн|(?:Ал|Т)\.\s*\d+[а-я]?\s+(?:отм|изм|доп))[^()]*?(?:\([^()]*\)[^()]*?)*\)/gi;
 
 /** One amendment note at the start of a text, with the space around it. */
 const NOTE_AT_START = new RegExp(String.raw`^\s*` + AMENDMENT_NOTE.source + String.raw`\s*`, 'i');

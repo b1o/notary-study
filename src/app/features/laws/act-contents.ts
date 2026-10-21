@@ -10,7 +10,7 @@ import type { ActHeadingEntry } from './act-entries';
   template: `
     <ol class="act-contents" lang="bg">
       @for (heading of headings(); track heading.id) {
-        <li [class.act-contents__section]="heading.level === 2">
+        <li [style.--depth]="heading.level - 1">
           <a [routerLink]="[]" [fragment]="heading.id">
             @if (heading.parts.label) {
               <span class="act-contents__label">{{ heading.parts.label }}</span

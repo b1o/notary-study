@@ -1,0 +1,26 @@
+@let parts = heading().parts;
+<ng-template #content>
+  @if (parts.label) {
+    <span class="act-heading__label">{{ parts.label }}</span
+    >&ngsp;
+  }
+  <span class="act-heading__title">{{ parts.title }}</span>
+  @for (note of parts.notes; track $index) {
+    &ngsp;<span class="act-heading__note">{{ note }}</span>
+  }
+</ng-template>
+
+@switch (heading().level) {
+  @case (1) {
+    <h2 class="act-heading"><ng-container [ngTemplateOutlet]="content" /></h2>
+  }
+  @case (2) {
+    <h3 class="act-heading"><ng-container [ngTemplateOutlet]="content" /></h3>
+  }
+  @case (3) {
+    <h4 class="act-heading"><ng-container [ngTemplateOutlet]="content" /></h4>
+  }
+  @default {
+    <h5 class="act-heading"><ng-container [ngTemplateOutlet]="content" /></h5>
+  }
+}

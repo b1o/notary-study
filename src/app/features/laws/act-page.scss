@@ -139,59 +139,9 @@
   margin-block-start: 0;
 }
 
-/* Headings of the act: a muted label ("Глава първа"), the title, and amendment notes. */
-.act-heading {
-  margin: 2.6em 0 0.9em;
-  font-family: var(--font-ui);
-  font-size: 1em;
-  line-height: 1.25;
-  color: var(--color-ink-strong);
-  scroll-margin-block-start: calc(var(--sticky-offset) + 5rem);
-}
-
-.act-heading--section {
-  margin-block: 1.9em 0.7em;
-}
-
-.act-heading__label,
-.act-heading__title,
-.act-heading__note {
-  display: block;
-}
-
-.act-heading__label {
-  margin-block-end: 0.35em;
-  font-size: 0.78em;
-  font-weight: 500;
-  color: var(--color-ink-3);
-}
-
-.act-heading__title {
-  font-size: 1.4em;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-}
-
-.act-heading--section .act-heading__title {
-  font-size: 1.15em;
-  font-weight: 600;
-}
-
-/* Many titles are in capital letters in the source: set them smaller and with more spacing. */
-.act-heading--caps .act-heading__title {
-  font-size: 1.22em;
-  letter-spacing: 0.035em;
-}
-
-.act-heading--section.act-heading--caps .act-heading__title {
-  font-size: 0.98em;
-}
-
-.act-heading__note {
-  margin-block-start: 0.35em;
-  font-size: 0.72em;
-  font-weight: 400;
-  color: var(--color-ink-3);
+/* Headings that follow each other directly ("ОСОБЕНА ЧАСТ", "I. ПРОДАЖБА") stay together. */
+.act-text nc-act-heading + nc-act-heading {
+  margin-block-start: 0.6em;
 }
 
 .act-article {
