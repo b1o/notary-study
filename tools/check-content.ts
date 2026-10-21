@@ -7,8 +7,11 @@
  *   - a chapter link (chapter: '...') names a chapter that the manifest does not have;
  *   - a chapter is missing in one language, or the two languages have different numbers of cards or questions;
  *   - a quiz question has fewer than two options or an answer index outside the options;
+ *   - in a chapter, the right answer is the longest option in more than a third of the questions
+ *     (a reader can pass such a test without knowledge);
  *   - a translation key names an article that its act does not have.
- * Warnings: a cited article has no English translation.
+ * Warnings: a cited article has no English translation; a right answer is at least twice as long
+ * as the mean of the wrong options.
  *
  * Usage: bun run check:content   (or: node tools/check-content.ts)
  */
@@ -112,6 +115,35 @@ function checkReference(ref: string, where: string, english: boolean): void {
 const checkMarkdown = (markdown: string, where: string, english: boolean) =>
   findCitations(markdown).forEach(({ ref }) => checkReference(ref, where, english));
 
+// ---- Test quality ------------------------------------------------------------------------------
+
+/** The length of an option in characters, without the bold marks. */
+const optionLength = (option: string) => [...option.replace(/\*\*/g, '')].length;
+
+/**
+ * Report a quiz whose right answers stand out by their length. The chapter fails when the right
+ * answer is the unique longest option in more than a third of its questions. A question whose
+ * right answer is at least twice as long as the mean of the wrong options gets a warning.
+ */
+function checkLengthBias(quiz: ChapterData['quiz'], where: string): void {
+  let longest = 0;
+  quiz.forEach((question, index) => {
+    const lengths = question.options.map(optionLength);
+    const right = lengths[question.answer];
+    const others = lengths.filter((_, option) => option !== question.answer);
+    if (others.every((length) => length < right)) longest++;
+    const mean = others.reduce((sum, length) => sum + length, 0) / others.length;
+    if (right >= 2 * mean) {
+      warnings.push(`${where}: question ${index + 1}: the right answer is twice as long as the others`);
+    }
+  });
+  if (longest * 3 > quiz.length) {
+    problems.push(
+      `${where}: the right answer is the longest option in ${longest} of ${quiz.length} questions (limit: a third)`,
+    );
+  }
+}
+
 // ---- Course content ----------------------------------------------------------------------------
 
 const manifest = readJson<Manifest>('manifest.json');
@@ -154,6 +186,7 @@ for (const meta of manifest.chapters) {
       }
       question.refs.forEach((ref) => checkReference(ref, `${where}.json`, language === 'en'));
     });
+    checkLengthBias(data.quiz, `${where}.json`);
     counts.push(`${data.cards.length}/${data.quiz.length}`);
   }
   if (counts.length === 2 && counts[0] !== counts[1]) {
