@@ -2,17 +2,20 @@ import type { Localized } from '../i18n/language';
 
 /**
  * What the material interest of an action is, and so which fields the calculator asks for:
- *   property    the higher of the agreed price and the tax assessment (Art. 96(3) ЗННД)
- *   building    90% of that, for the land of a building right (Art. 96(2) ЗННД)
+ *   property    the agreed price (for a gift the market value), or the tax assessment if it is
+ *               higher (Art. 96(1) and (3) ЗННД)
+ *   building    90% of the market value of the land (Art. 96(2) ЗННД), or the agreed price or the
+ *               tax assessment of the right if it is higher (Art. 96(3) and 97(3) ЗННД)
  *   claim       the secured amount
  *   vehicle     the insured value, or the agreed price if it is higher (Art. 97 ЗННД)
- *   assessment  the market value of the property
+ *   ownership   ownership that the notary certifies: the market value of the property, or the tax
+ *               assessment if it is higher (Art. 96(1) and (3) ЗННД)
  *   price       a price or amount that the reader enters
  *   signatures  no interest: a number of signatures (item 5)
  *   copies      no interest: pages and copies (item 6)
  */
 export type InterestKind =
-  'property' | 'building' | 'claim' | 'vehicle' | 'assessment' | 'price' | 'signatures' | 'copies';
+  'property' | 'building' | 'claim' | 'vehicle' | 'ownership' | 'price' | 'signatures' | 'copies';
 
 export type TariffItem = '5' | '6' | '8' | '9' | '10' | '11' | '12';
 
@@ -97,7 +100,7 @@ export const FEE_ACTIONS: readonly FeeAction[] = [
   {
     id: 'circumstantial',
     item: '11',
-    interest: 'assessment',
+    interest: 'ownership',
     entry: true,
     localTax: true,
     label: {
@@ -180,10 +183,16 @@ export const PLACE_SURCHARGES = [
 
 export type PlaceSurcharge = (typeof PLACE_SURCHARGES)[number]['id'];
 
-/** The kinds of acquisition for the local tax (Art. 44–49 ЗМДТ), with the limits of the rate. */
+/**
+ * The kinds of acquisition for the local tax (Art. 44–49 ЗМДТ), with the limits of the rate.
+ * A gratuitous acquisition (a gift, prescription) has no agreed price, so its base is the tax
+ * assessment alone (Art. 46(2)(1) ЗМДТ). Prescription pays the gift tax (Art. 44(2) and (3)); with
+ * no donor, the rate is that of a gift between other persons (Art. 47(1)(2)).
+ */
 export const TAX_KINDS = [
   {
     id: 'sale',
+    gratuitous: false,
     min: 0.1,
     max: 3,
     defaultRate: 3,
@@ -195,6 +204,7 @@ export const TAX_KINDS = [
   },
   {
     id: 'giftFree',
+    gratuitous: true,
     min: 0,
     max: 0,
     defaultRate: 0,
@@ -206,6 +216,7 @@ export const TAX_KINDS = [
   },
   {
     id: 'giftSiblings',
+    gratuitous: true,
     min: 0.4,
     max: 0.8,
     defaultRate: 0.6,
@@ -217,6 +228,7 @@ export const TAX_KINDS = [
   },
   {
     id: 'giftOther',
+    gratuitous: true,
     min: 3.3,
     max: 6.6,
     defaultRate: 5,
@@ -228,17 +240,19 @@ export const TAX_KINDS = [
   },
   {
     id: 'prescription',
-    min: 0,
+    gratuitous: true,
+    min: 3.3,
     max: 6.6,
-    defaultRate: 3,
+    defaultRate: 5,
     ref: 'zmdt:44:3',
     label: {
-      en: 'Prescription: the rate in the ordinance of the municipality (Art. 44(3) ЗМДТ)',
-      bg: 'Давност: ставката по наредбата на общината (чл. 44, ал. 3 ЗМДТ)',
+      en: 'Prescription: as a gift to other persons, 3.3–6.6% (Art. 44(3) and 47(1) ЗМДТ)',
+      bg: 'Давност: като дарение на други лица, 3,3–6,6% (чл. 44, ал. 3 и чл. 47, ал. 1 ЗМДТ)',
     },
   },
   {
     id: 'none',
+    gratuitous: false,
     min: 0,
     max: 0,
     defaultRate: 0,
@@ -247,6 +261,7 @@ export const TAX_KINDS = [
   },
 ] as const satisfies readonly {
   id: string;
+  gratuitous: boolean;
   min: number;
   max: number;
   defaultRate: number;

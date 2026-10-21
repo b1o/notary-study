@@ -11,6 +11,7 @@ const INPUTS: FeeInputs = {
   price: 150_000,
   assessment: 60_000,
   agreed: 0,
+  land: 0,
   signatures: 1,
   pages: 1,
   copies: 1,
@@ -71,6 +72,51 @@ describe('computeBill', () => {
   it('keeps an empty tax rate at the lower limit of the law', () => {
     const empty = computeBill(action('deed'), { ...INPUTS, taxRate: null });
     expect(lineOf(empty, 'tax')?.rate).toBe(0.1);
+  });
+
+  it('taxes a gift of real estate on the tax assessment, not on the market value', () => {
+    // A gift has no agreed price, so Art. 46(2)(1) ЗМДТ leaves the tax assessment.
+    const gift = computeBill(action('deed'), { ...INPUTS, taxKind: 'giftSiblings', taxRate: 0.6 });
+    expect(lineOf(gift, 'tax')?.euro).toBe(360);
+    expect(gift.interest?.euro).toBe(150_000);
+  });
+
+  it('taxes ownership by prescription on the tax assessment, at the rate of a gift', () => {
+    const prescription = computeBill(action('circumstantial'), {
+      ...INPUTS,
+      price: 100_000,
+      assessment: 40_000,
+      taxKind: 'prescription',
+      taxRate: 5,
+    });
+    expect(prescription.interest?.euro).toBe(100_000);
+    expect(lineOf(prescription, 'tax')).toMatchObject({ euro: 2_000, rate: 5 });
+  });
+
+  it('keeps the rate of prescription inside the limits of a gift between other persons', () => {
+    const low = computeBill(action('circumstantial'), {
+      ...INPUTS,
+      taxKind: 'prescription',
+      taxRate: 3,
+    });
+    expect(lineOf(low, 'tax')?.rate).toBe(3.3);
+  });
+
+  it('takes the interest of a building right from the land, unless the right is worth more', () => {
+    const building = { ...INPUTS, land: 150_000, price: 100_000, assessment: 30_000 };
+    expect(computeBill(action('building'), building).interest?.euro).toBe(135_000);
+    const dearer = computeBill(action('building'), { ...building, price: 140_000 });
+    expect(dearer.interest?.euro).toBe(140_000);
+  });
+
+  it('taxes a building right on its price or its tax assessment, not on the land', () => {
+    const building = computeBill(action('building'), {
+      ...INPUTS,
+      land: 150_000,
+      price: 100_000,
+      assessment: 30_000,
+    });
+    expect(lineOf(building, 'tax')?.euro).toBe(3_000);
   });
 
   it('has no material interest, entry fee or tax for signatures without interest', () => {

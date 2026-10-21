@@ -10,13 +10,13 @@ not a tool for real case work), the content rules and the decisions so far.
 | Course                | 28 chapters in 7 parts. Every legal statement cites its provision.                        |
 | Law library           | 34 acts from lex.bg, with an unofficial English translation of 561 articles               |
 | Glossary              | 173 Bulgarian terms with the English term, a definition and the provisions                |
-| Templates, checklists | Document templates to copy or print; checklists with ticks that the browser keeps         |
+| Templates, checklists | Document templates set like the paper documents; checklists as examples of a typical flow |
 | Fee calculator        | Notarial fee, additional fee, VAT, entry fee and local tax, as a bill with its provisions |
 | Tests and exam        | A test per chapter (pass mark 80%) and a final exam of 40 questions (pass mark 75%)       |
 | Flashcards            | Leitner boxes per chapter and for the glossary                                            |
 | Search                | Chapters, laws and glossary; a query such as "чл. 25 ЗННД" also opens the provision       |
 
-Progress, ticks, cards and settings stay in the browser's local storage. There is no account and no
+Progress, cards and settings stay in the browser's local storage. There is no account and no
 server.
 
 ## Run it

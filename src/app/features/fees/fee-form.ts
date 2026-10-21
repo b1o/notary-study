@@ -8,7 +8,8 @@ type FeesText = UiText['fees'];
 type FeesLabel = { [K in keyof FeesText]: FeesText[K] extends string ? K : never }[keyof FeesText];
 
 /** The number fields of the form. */
-export type AmountKey = 'price' | 'assessment' | 'agreed' | 'signatures' | 'pages' | 'copies';
+export type AmountKey =
+  'price' | 'assessment' | 'agreed' | 'land' | 'signatures' | 'pages' | 'copies';
 type FlagKey = 'forProperty' | 'redelegation';
 
 const MONEY = { min: 0, step: 0.01 };
@@ -19,6 +20,7 @@ export const AMOUNT_LIMITS: Readonly<Record<AmountKey, { min: number; step: numb
   price: MONEY,
   assessment: MONEY,
   agreed: MONEY,
+  land: MONEY,
   signatures: COUNT,
   pages: COUNT,
   copies: COUNT,
@@ -50,9 +52,14 @@ export const INTEREST_FORMS: Readonly<Record<InterestKind, InterestForm>> = {
   property: {
     amounts: [field('price', 'price', 150_000), field('assessment', 'assessment', 60_000)],
     flags: [],
+    hint: 'propertyHint',
   },
   building: {
-    amounts: [field('price', 'price', 150_000), field('assessment', 'assessment', 60_000)],
+    amounts: [
+      field('land', 'landValue', 150_000),
+      field('price', 'rightPrice', 100_000),
+      field('assessment', 'rightAssessment', 30_000),
+    ],
     flags: [],
     hint: 'buildingHint',
   },
@@ -62,7 +69,11 @@ export const INTEREST_FORMS: Readonly<Record<InterestKind, InterestForm>> = {
     flags: [],
     hint: 'vehicleHint',
   },
-  assessment: { amounts: [field('price', 'marketValue', 20_000)], flags: [] },
+  ownership: {
+    amounts: [field('price', 'marketValue', 40_000), field('assessment', 'assessment', 15_000)],
+    flags: [],
+    hint: 'ownershipHint',
+  },
   price: { amounts: [field('price', 'materialInterestInput', 50_000)], flags: [] },
   signatures: {
     amounts: [field('signatures', 'signatures')],
@@ -89,6 +100,7 @@ export function startingValue(action: FeeAction, previous?: FeeFormValue): FeeFo
     price: 0,
     assessment: 0,
     agreed: 0,
+    land: 0,
     signatures: 1,
     pages: 1,
     copies: 1,

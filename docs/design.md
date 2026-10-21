@@ -18,8 +18,9 @@ you change content or design.
 - **Sources.** Every legal statement cites its provision (`[[act:article:paragraph]]`). Check a
   fact against the imported primary text in `public/data/laws` before you write it.
 - **Examples of a process.** A checklist, a workflow or a list of steps is an example of a typical
-  flow, unless a source states the whole process. The page says so. Only an item with a cited
-  provision is a requirement of the law; an item without one is common practice, and offices differ.
+  flow, unless a source states the whole process. The page says so. An item with a cited provision
+  is a requirement of the law. An item without one is marked "No source": it can be common practice
+  or a rule that is not cited yet, and offices differ.
 - **Templates.** A template shows what a real document looks like and what it contains. It is for
   viewing and study, not a form to use. It follows the standards for the real document (form,
   paper size, layout) as far as the sources state them.

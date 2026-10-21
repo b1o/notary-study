@@ -21,7 +21,8 @@ describe('startingValue', () => {
       surcharge: 'plus50',
       vat: false,
       taxKind: 'giftOther',
-      price: 150_000,
+      land: 150_000,
+      price: 100_000,
     });
   });
 

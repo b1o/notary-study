@@ -34,6 +34,8 @@ export interface FeeInputs {
   readonly assessment: Entered;
   /** The agreed price of a vehicle (the price field holds its insured value). */
   readonly agreed: Entered;
+  /** The market value of the land of a building right (the price field holds the price of the right). */
+  readonly land: Entered;
   readonly signatures: Entered;
   readonly pages: Entered;
   readonly copies: Entered;
@@ -75,13 +77,13 @@ function materialInterest(action: FeeAction, inputs: FeeInputs): number | undefi
   const price = amount(inputs.price);
   switch (action.interest) {
     case 'property':
+    case 'ownership':
       return Math.max(price, amount(inputs.assessment));
     case 'building':
-      return 0.9 * Math.max(price, amount(inputs.assessment));
+      return Math.max(0.9 * amount(inputs.land), price, amount(inputs.assessment));
     case 'vehicle':
       return Math.max(price, amount(inputs.agreed));
     case 'claim':
-    case 'assessment':
     case 'price':
       return price;
     default:
@@ -117,7 +119,7 @@ export function computeBill(action: FeeAction, inputs: FeeInputs): Bill {
   const tax = TAX_KINDS.find((kind) => kind.id === inputs.taxKind);
   if (action.localTax && tax && tax.id !== 'none') {
     const rate = Math.min(tax.max, Math.max(tax.min, amount(inputs.taxRate)));
-    const base = taxBase(action, inputs, interestEuro ?? 0);
+    const base = taxBase(action, inputs, tax.gratuitous, interestEuro ?? 0);
     lines.push({ kind: 'tax', euro: roundCents((base * rate) / 100), ref: tax.ref, rate });
   }
 
@@ -148,13 +150,27 @@ function notarialFee(action: FeeAction, inputs: FeeInputs, interestLeva: number)
 }
 
 /**
- * The base of the local tax in euro: for real estate the higher of the price and the tax
- * assessment (Art. 46(2) ЗМДТ); for a vehicle its insured value (Art. 46(2) and 33(1) ЗМДТ).
+ * The base of the local tax in euro (Art. 46(2) ЗМДТ). For real estate and rights over it: the
+ * agreed price, or the tax assessment if it is higher; a gratuitous acquisition has no agreed price,
+ * so only the tax assessment. The price field of a building right holds the price of the right, not
+ * the land. For a vehicle: its insured value (Art. 46(2)(2) and 33(1)(4) ЗМДТ).
  */
-function taxBase(action: FeeAction, inputs: FeeInputs, interestEuro: number): number {
-  if (action.interest === 'property' || action.interest === 'building') {
-    return Math.max(amount(inputs.price), amount(inputs.assessment));
+function taxBase(
+  action: FeeAction,
+  inputs: FeeInputs,
+  gratuitous: boolean,
+  interestEuro: number,
+): number {
+  switch (action.interest) {
+    case 'property':
+    case 'building':
+    case 'ownership': {
+      const assessment = amount(inputs.assessment);
+      return gratuitous ? assessment : Math.max(amount(inputs.price), assessment);
+    }
+    case 'vehicle':
+      return amount(inputs.price);
+    default:
+      return interestEuro;
   }
-  if (action.interest === 'vehicle') return amount(inputs.price);
-  return interestEuro;
 }

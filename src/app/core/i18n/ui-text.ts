@@ -168,8 +168,10 @@ export interface UiText {
   };
   readonly checklists: {
     readonly lead: string;
-    readonly clear: string;
-    readonly progress: (ticked: number, total: number) => string;
+    /** The lists are examples of a typical flow, not the exact procedure (docs/design.md). */
+    readonly exampleNote: string;
+    /** The mark of an item that cites no provision. */
+    readonly noSource: string;
   };
   readonly flashcards: {
     readonly lead: string;
@@ -241,7 +243,12 @@ export interface UiText {
     readonly rateOutside: (min: string, max: string) => string;
     readonly price: string;
     readonly assessment: string;
+    readonly propertyHint: string;
+    readonly landValue: string;
+    readonly rightPrice: string;
+    readonly rightAssessment: string;
     readonly buildingHint: string;
+    readonly ownershipHint: string;
     readonly securedAmount: string;
     readonly insuredValue: string;
     readonly agreedPrice: string;

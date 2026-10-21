@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 
 import { ContentService } from '../../core/content/content.service';
 import { LanguageService } from '../../core/i18n/language.service';
+import { findCitations } from '../../core/laws/citation';
 import { MarkdownService } from '../../core/markdown/markdown.service';
 import { pageTitleEffect } from '../../core/page-title';
 import { ChecklistsService } from '../../core/reference/checklists.service';
@@ -11,9 +12,13 @@ import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
+import { Notice } from '../../shared/ui/notice';
 import { PrintButton } from '../../shared/ui/print-button';
 
-/** One checklist: its sections with items to tick. The ticks stay in the browser. */
+/**
+ * One checklist: an example of what an office asks for and checks, by section. An item that cites
+ * no provision is marked, so the reader knows that no source backs it here.
+ */
 @Component({
   selector: 'nc-checklist-page',
   imports: [
@@ -22,6 +27,7 @@ import { PrintButton } from '../../shared/ui/print-button';
     PageHeader,
     MissingPage,
     MarkdownContent,
+    Notice,
     PrintButton,
     LoadStatus,
   ],
@@ -45,23 +51,16 @@ export default class ChecklistPage {
     return chapterId ? this.content.chapter(chapterId) : undefined;
   });
 
-  /** The sections with each item rendered, and the key under which its tick is kept. */
+  /** The sections with each item rendered, and whether a cited provision requires the item. */
   protected readonly sections = computed(() => {
     const language = this.lang();
-    return (this.checklist()?.sections ?? []).map((section, s) => ({
+    return (this.checklist()?.sections ?? []).map((section) => ({
       title: section.title[language],
-      items: section.items.map((item, i) => ({
-        key: `${s}.${i}`,
+      items: section.items.map((item) => ({
         html: this.markdown.renderInline(item[language]),
+        sourced: findCitations(item[language]).length > 0,
       })),
     }));
-  });
-
-  protected readonly progress = computed(() => {
-    const id = this.checklistId();
-    const keys = this.sections().flatMap((section) => section.items.map((item) => item.key));
-    const ticked = keys.filter((key) => this.checklists.isTicked(id, key)).length;
-    return this.ui().checklists.progress(ticked, keys.length);
   });
 
   /** The checklists are there, but none has this id. */
@@ -71,10 +70,5 @@ export default class ChecklistPage {
 
   constructor() {
     pageTitleEffect(() => this.checklist()?.title[this.lang()]);
-  }
-
-  protected toggle(key: string, event: Event): void {
-    const ticked = (event.target as HTMLInputElement).checked;
-    this.checklists.setTicked(this.checklistId(), key, ticked);
   }
 }
