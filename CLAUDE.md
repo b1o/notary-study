@@ -62,6 +62,7 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 
 - Read `README.md` for the folder structure and how the parts work.
 - Layers: `features/` and `layout/` may use `shared/` and `core/`; `shared/` may use `core/`; `core/` uses neither.
+- A page sits in `PageLayout` with a `PageHeader`. Before you write a component, a style or a helper for one page, look in `shared/`, `src/styles/_components.scss` and `core/` for one that exists. Put logic that a test can check (rules, calculations, search) in `core/` as pure functions.
 - Every interface text goes into `core/i18n/ui-text.ts` and both language files. Never hard-code a text in a template.
 - Course content and law data are files in `public/data`. Run `bun run check:content` after a content change.
 - Styles use the tokens of `src/styles/_tokens.scss`. Do not use coloured side borders as decoration.

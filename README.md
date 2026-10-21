@@ -4,9 +4,19 @@ A bilingual (Bulgarian and English) study hub for work in a Bulgarian notary off
 the law texts that the chapters cite, and study tools. It is an Angular 22 app without a server.
 All content is static data in `public/data`.
 
-The old version of the app (plain JavaScript) is in `legacy/`. It stays there until the Angular
-version has all its features: tests, flashcards, exam, glossary, templates, checklists, fee
-calculator and search.
+| Section               | What it does                                                                              |
+| --------------------- | ----------------------------------------------------------------------------------------- |
+| Course                | 28 chapters in 7 parts. Every legal statement cites its provision.                        |
+| Law library           | 34 acts from lex.bg, with an unofficial English translation of 561 articles               |
+| Glossary              | 173 Bulgarian terms with the English term, a definition and the provisions                |
+| Templates, checklists | Document templates to copy or print; checklists with ticks that the browser keeps         |
+| Fee calculator        | Notarial fee, additional fee, VAT, entry fee and local tax, as a bill with its provisions |
+| Tests and exam        | A test per chapter (pass mark 80%) and a final exam of 40 questions (pass mark 75%)       |
+| Flashcards            | Leitner boxes per chapter and for the glossary                                            |
+| Search                | Chapters, laws and glossary; a query such as "чл. 25 ЗННД" also opens the provision       |
+
+Progress, ticks, cards and settings stay in the browser's local storage. There is no account and no
+server.
 
 ## Run it
 
@@ -27,16 +37,28 @@ bun run check:content  # checks citations, links and translations in public/data
 src/
   app/
     core/          Services and pure logic. No components. Never imports from shared/ or features/.
-      content/     Manifest, chapter files, and the course index (which chapters cite an article)
+      content/     Manifest, chapter files, chapter sections, the course index (which chapters
+                   cite an article)
+      data/        PromiseCache: one request per file, shared by every caller
+      fees/        The notarial tariff, the fee actions and the bill (pure functions)
       i18n/        Language, and every interface text in ui-text.en.ts and ui-text.bg.ts
       laws/        Law catalog and acts, citations, law text helpers, law panel state
-      markdown/    Course Markdown to HTML (marked, plus citation, term, callout and doc blocks)
-      progress/    Reading progress, saved in localStorage
+      markdown/    Course Markdown to HTML (marked, plus citation, term, callout and doc blocks),
+                   and to plain text for search
+      progress/    Reading progress and test results, saved in localStorage
+      reference/   Glossary, templates and checklists
+      search/      Full-text search: the index, the ranking and the snippets
       settings/    Reading settings, saved in localStorage, applied as attributes on <html>
       storage/     storedSignal(): a signal that is kept in localStorage
-      text/        Small text helpers (HTML escaping, heading ids)
-    shared/        Reusable components and DOM helpers: icon, choice group, Markdown content,
-                   article text, load status
+      study/       Leitner boxes for flashcards, and the tests and the exam
+      text/        Small text helpers (folding for search, formats, HTML escaping, heading ids)
+    shared/        Reusable components. Pages build on these instead of their own copies.
+      layout/      PageLayout (the frame of every page), PageHeader, MissingPage
+      course/      Chapter list by part, glossary list
+      law/         Article text, citation pills (LawRefs), the click rule for citations
+      ui/          Icon, notice, choice group, select field, search box, outline list,
+                   Markdown content, load status, copy and print buttons
+      dom/         Element width (ResizeObserver), scroll to a fragment
     layout/        Parts of the app frame: side navigation, law panel, reading settings
     features/      Pages, one folder per route. Each page loads lazily.
   styles/          Global styles: tokens, reading settings, base, small components, prose
@@ -48,6 +70,9 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
 
 ## How the main parts work
 
+- **Pages.** Every page sits in `PageLayout` (`main`: full, reading or double width; an optional
+  side column at the start or the end) with a `PageHeader`. So all pages share one frame, one left
+  edge and one heading style. The side sections of the app are listed once in `app-sections.ts`.
 - **Content.** `ContentService` loads `manifest.json`. A chapter page loads its Markdown and its
   JSON (objectives, cards, quiz) for the current language with `httpResource`.
 - **Citations.** The chapter Markdown cites provisions as `[[znnd:25:9]]` (act, article,
@@ -57,6 +82,17 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
   The panel shows the article with the cited paragraph marked, the heading path, the neighbouring
   articles, the other articles of the section, the chapter sections that cite the article, and the
   glossary terms. Drag its left edge, or focus the edge and use the arrow keys, to resize it.
+- **Study tools.** Flashcards use Leitner boxes (`core/study/leitner.ts`): a known card moves one
+  box up and comes back after 1, 3, 7, 14 or 30 days; a missed card goes back to box 1. Tests and
+  the exam draw from the chapter questions (`core/study/quiz.ts`); `ProgressService` keeps the
+  scores.
+- **Fee calculator.** `core/fees` converts the material interest into leva, applies the tariff and
+  converts the result back into euro. The page describes its fields as data (`fee-form.ts`), and
+  the tax rate field gets its legal limits from the Signal Forms schema.
+- **Search.** `SearchService` loads all chapter texts of the language, all acts with their
+  translations, and the glossary on the first search, and keeps them in memory. A result needs every
+  word of the query; the whole query, and the whole query in a title, rank higher. Chapter results
+  link to the section, with the same fragment ids as the rendered chapter.
 - **Texts and languages.** Every interface text is in `core/i18n`. A missing translation is a
   compile error. `LanguageService.current` decides the language of the interface and the content.
 - **Reading settings.** `ReadingSettingsService` writes data attributes on `<html>`;
