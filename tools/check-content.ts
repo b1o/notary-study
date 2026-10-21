@@ -2,7 +2,8 @@
  * Check the course data in public/data.
  *
  * Problems (exit code 1):
- *   - a citation or a reference points to an act or an article that the library does not have;
+ *   - a citation or a reference points to an act, an article, a paragraph or an item that the
+ *     library does not have;
  *   - an article number uses a Latin letter instead of the Cyrillic one (25a instead of 25а);
  *   - a chapter link (chapter: '...') names a chapter that the manifest does not have;
  *   - a chapter is missing in one language, or the two languages have different numbers of cards or questions;
@@ -11,7 +12,8 @@
  *     (a reader can pass such a test without knowledge);
  *   - a translation key names an article that its act does not have.
  * Warnings: a cited article has no English translation; a right answer is at least twice as long
- * as the mean of the wrong options.
+ * as the mean of the wrong options; a lesson, card, explanation or template note names a library
+ * article in plain text instead of a citation.
  *
  * Usage: bun run check:content   (or: node tools/check-content.ts)
  */
@@ -27,6 +29,7 @@ import type {
 } from '../src/app/core/content/content.models.ts';
 import type { Language } from '../src/app/core/i18n/language.ts';
 import { findCitations, parseReference } from '../src/app/core/laws/citation.ts';
+import { groupParagraphs } from '../src/app/core/laws/law-text.ts';
 import type { ActTranslation, LawAct, LawCatalogEntry } from '../src/app/core/laws/law.models.ts';
 
 const DATA = join(import.meta.dirname, '..', 'public', 'data');
@@ -65,10 +68,22 @@ const HTML_REMNANT = /<\/?[a-z]+|\/span>/i;
 
 const catalog = readJson<LawCatalogEntry[]>('laws', 'catalog.json');
 const articlesByAct = new Map<string, Set<string>>();
+/** "znnd:25" → paragraph number → item numbers ("1", "2а", "а"), as the law views group them. */
+const paragraphsByArticle = new Map<string, Map<string | undefined, Set<string>>>();
 for (const entry of catalog) {
   const act = readJson<LawAct>('laws', 'acts', `${entry.id}.json`);
   const numbers = act.items.flatMap((item) => ('number' in item ? [item.number] : []));
   articlesByAct.set(entry.id, new Set(numbers));
+  for (const item of act.items) {
+    if (!('number' in item)) continue;
+    const paragraphs = new Map<string | undefined, Set<string>>();
+    for (const group of groupParagraphs(item.paragraphs)) {
+      const items = paragraphs.get(group.number) ?? new Set<string>();
+      group.lines.forEach((line) => line.marker && items.add(line.marker.replace(/[.)]$/, '')));
+      paragraphs.set(group.number, items);
+    }
+    paragraphsByArticle.set(`${entry.id}:${item.number}`, paragraphs);
+  }
   for (const item of act.items) {
     const texts = 'paragraphs' in item ? item.paragraphs : 'text' in item ? [item.text] : [];
     if (texts.some((text) => HTML_REMNANT.test(text))) {
@@ -94,7 +109,7 @@ const untranslated = new Set<string>();
 
 /** Check one reference ("znnd:25:9"). `where` names the file for the report. */
 function checkReference(ref: string, where: string, english: boolean): void {
-  const { act, article } = parseReference(ref);
+  const { act, article, paragraph, point } = parseReference(ref);
   const articles = articlesByAct.get(act);
   if (!articles) {
     problems.push(`${where}: unknown act "${act}" in "${ref}"`);
@@ -107,13 +122,70 @@ function checkReference(ref: string, where: string, english: boolean): void {
   }
   if (!articles.has(cyrillic)) {
     problems.push(`${where}: ${act} has no article "${article}"`);
-  } else if (english && !translations.get(act)?.has(cyrillic)) {
+    return;
+  }
+  if (english && !translations.get(act)?.has(cyrillic)) {
     untranslated.add(`${act}:${cyrillic}`);
+  }
+  const paragraphs = paragraphsByArticle.get(`${act}:${cyrillic}`);
+  if (!paragraphs) return;
+  if (paragraph && !paragraphs.has(paragraph)) {
+    problems.push(`${where}: ${act}:${article} has no paragraph "${paragraph}" in "${ref}"`);
+    return;
+  }
+  const items = paragraph
+    ? paragraphs.get(paragraph)
+    : new Set([...paragraphs.values()].flatMap((set) => [...set]));
+  if (point && !items?.has(point)) {
+    problems.push(`${where}: ${act}:${article} has no item "${point}" in "${ref}"`);
   }
 }
 
 const checkMarkdown = (markdown: string, where: string, english: boolean) =>
   findCitations(markdown).forEach(({ ref }) => checkReference(ref, where, english));
+
+// ---- Plain references --------------------------------------------------------------------------
+
+const actByAbbr = new Map(catalog.map((entry) => [entry.abbr, entry.id]));
+const abbrPattern = [...actByAbbr.keys()]
+  .sort((a, b) => b.length - a.length)
+  .map((abbr) => abbr.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+  .join('|');
+/** "Art. 25(9) ЗННД" or "чл. 25, ал. 9 ЗННД": an article and the abbreviation of a library act. */
+const PLAIN_REFERENCE: Readonly<Record<Language, RegExp>> = {
+  en: new RegExp(
+    String.raw`\bArts?\.\s*(\d+[а-я]?)(?:\(\d+[а-я]?\))*(?:,?\s+items?\s+\d+)?\s+(${abbrPattern})(?![А-Яа-я])`,
+    'g',
+  ),
+  bg: new RegExp(
+    String.raw`[Чч]л\.\s*(\d+[а-я]?)(?:,\s*ал\.\s*\d+)?(?:,\s*т\.\s*\d+)?\s+(${abbrPattern})(?![А-Яа-я])`,
+    'g',
+  ),
+};
+
+/**
+ * Warn about a reference in plain text to an article that the library has, so that the reader
+ * gets a link: write [[znnd:25:9]]. Each line is checked on its own. Citations, code blocks and
+ * quoted text („...“, a search example) are left out, and so is a line that cites the article.
+ */
+function checkPlainReferences(text: string, where: string, language: Language): void {
+  const visible = text.replace(/```[\s\S]*?```/g, '').replace(/„[^“]*“/g, '');
+  for (const line of visible.split('\n')) {
+    const cited = new Set(
+      findCitations(line).map(({ ref }) => {
+        const { act, article } = parseReference(ref);
+        return `${act}:${article}`;
+      }),
+    );
+    const plain = line.replace(/\[\[[^\]]*\]\]/g, '');
+    for (const [match, article, abbr] of plain.matchAll(PLAIN_REFERENCE[language])) {
+      const act = actByAbbr.get(abbr);
+      if (act && articlesByAct.get(act)?.has(article) && !cited.has(`${act}:${article}`)) {
+        warnings.push(`${where}: plain reference "${match}" (write [[${act}:${article}...]])`);
+      }
+    }
+  }
+}
 
 // ---- Test quality ------------------------------------------------------------------------------
 
@@ -134,7 +206,9 @@ function checkLengthBias(quiz: ChapterData['quiz'], where: string): void {
     if (others.every((length) => length < right)) longest++;
     const mean = others.reduce((sum, length) => sum + length, 0) / others.length;
     if (right >= 2 * mean) {
-      warnings.push(`${where}: question ${index + 1}: the right answer is twice as long as the others`);
+      warnings.push(
+        `${where}: question ${index + 1}: the right answer is twice as long as the others`,
+      );
     }
   });
   if (longest * 3 > quiz.length) {
@@ -164,16 +238,16 @@ for (const meta of manifest.chapters) {
       problems.push(`${where}.md: missing`);
       continue;
     }
-    checkMarkdown(
-      readText('chapters', language, `${meta.file}.md`),
-      `${where}.md`,
-      language === 'en',
-    );
+    const lesson = readText('chapters', language, `${meta.file}.md`);
+    checkMarkdown(lesson, `${where}.md`, language === 'en');
+    checkPlainReferences(lesson, `${where}.md`, language);
     const data = readJson<ChapterData>('chapters', language, `${meta.file}.json`);
     if (data.id !== meta.id) problems.push(`${where}.json: id "${data.id}" should be "${meta.id}"`);
-    data.cards.forEach((card) =>
-      checkMarkdown(`${card.front}\n${card.back}`, `${where}.json`, language === 'en'),
-    );
+    data.cards.forEach((card, index) => {
+      const text = `${card.front}\n${card.back}`;
+      checkMarkdown(text, `${where}.json`, language === 'en');
+      checkPlainReferences(text, `${where}.json card ${index + 1}`, language);
+    });
     data.quiz.forEach((question, index) => {
       if (
         question.options.length < 2 ||
@@ -185,6 +259,8 @@ for (const meta of manifest.chapters) {
         );
       }
       question.refs.forEach((ref) => checkReference(ref, `${where}.json`, language === 'en'));
+      checkMarkdown(question.explanation, `${where}.json`, language === 'en');
+      checkPlainReferences(question.explanation, `${where}.json question ${index + 1}`, language);
     });
     checkLengthBias(data.quiz, `${where}.json`);
     counts.push(`${data.cards.length}/${data.quiz.length}`);
@@ -214,6 +290,8 @@ for (const template of library.templates) {
   template.refs.forEach((ref) => checkReference(ref, where, true));
   checkMarkdown(template.notes.en, where, true);
   checkMarkdown(template.notes.bg, where, false);
+  checkPlainReferences(template.notes.en, where, 'en');
+  checkPlainReferences(template.notes.bg, where, 'bg');
 }
 
 for (const checklist of readJson<Checklist[]>('checklists.json')) {
