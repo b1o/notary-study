@@ -163,7 +163,8 @@ function calloutExtension(context: MarkdownContext): TokenizerAndRendererExtensi
       if (kind === 'solution') {
         return `<details class="callout callout--solution"><summary class="callout__title">${title}</summary><div class="callout__body">${body}</div></details>\n`;
       }
-      return `<aside class="callout callout--${kind}"><p class="callout__title">${title}</p><div class="callout__body">${body}</div></aside>\n`;
+      // A note and not an <aside>: an aside is a landmark, and a chapter has many callouts of a kind.
+      return `<div class="callout callout--${kind}" role="note"><p class="callout__title">${title}</p><div class="callout__body">${body}</div></div>\n`;
     },
   };
 }

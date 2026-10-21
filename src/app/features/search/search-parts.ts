@@ -41,7 +41,8 @@ export class SearchGroup {
   styles: `
     :host {
       display: block;
-      padding: 0 var(--space-3) var(--space-2);
+      /* The text lines up with the text of the row link above (see .row-link). */
+      padding-block-end: var(--space-2);
       font-size: var(--text-sm);
       line-height: 1.55;
       color: var(--color-ink-2);

@@ -19,6 +19,9 @@ import { ReadingSettingsPanel } from '../reading-settings/reading-settings-panel
   imports: [RouterLink, RouterLinkActive, Icon, ChoiceGroup, ReadingSettingsPanel, SearchBox],
   templateUrl: './side-nav.html',
   styleUrl: './side-nav.scss',
+  // One landmark for the whole column: the app name, the search, the links, the language and the
+  // settings. Content outside a landmark is hard to reach with a screen reader.
+  host: { role: 'navigation', '[attr.aria-label]': 'ui().nav.label' },
 })
 export class SideNav {
   /** On small screens the navigation covers the page; this asks the app to close it. */

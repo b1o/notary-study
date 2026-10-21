@@ -3,8 +3,10 @@
   margin: 0;
 }
 
+/* A term is reading text: it follows the text size of the reading settings, a little smaller in a list. */
 .term-entry {
   padding-block: var(--space-3);
+  font-size: calc(var(--reading-size) * 0.94);
 }
 
 .term-entry + .term-entry {

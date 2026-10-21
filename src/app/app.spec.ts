@@ -42,7 +42,7 @@ describe('App', () => {
   it('shows the navigation and the page area', async () => {
     const element: HTMLElement = (await render()).nativeElement;
 
-    expect(element.querySelector('nc-side-nav nav')).toBeTruthy();
+    expect(element.querySelector('nc-side-nav[role="navigation"]')).toBeTruthy();
     expect(element.querySelector('main#main')).toBeTruthy();
   });
 

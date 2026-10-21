@@ -28,7 +28,7 @@ describe('renderMarkdown', () => {
   it('renders a callout with its own title', () => {
     const { html } = render('> [!tip] Check twice\n> Read the deed **aloud**.');
     expect(html).toContain(
-      '<aside class="callout callout--tip"><p class="callout__title">Check twice</p>',
+      '<div class="callout callout--tip" role="note"><p class="callout__title">Check twice</p>',
     );
     expect(html).toContain('<strong>aloud</strong>');
   });

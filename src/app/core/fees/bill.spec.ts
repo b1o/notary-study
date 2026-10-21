@@ -1,8 +1,11 @@
-import { computeBill, type FeeInputs } from './bill';
+import { computeBill, type Bill, type BillLineKind, type FeeInputs } from './bill';
 import { FEE_ACTIONS } from './fee-actions';
 import { item8Fee, toEuro, toLeva } from './tariff';
 
 const action = (id: string) => FEE_ACTIONS.find((candidate) => candidate.id === id)!;
+
+/** The line of a kind, for example the VAT line, of a bill. */
+const lineOf = (bill: Bill, kind: BillLineKind) => bill.lines.find((line) => line.kind === kind);
 
 const INPUTS: FeeInputs = {
   price: 150_000,
@@ -22,7 +25,7 @@ const INPUTS: FeeInputs = {
 
 describe('computeBill', () => {
   const bill = computeBill(action('deed'), INPUTS);
-  const line = (kind: string) => bill.lines.find((candidate) => candidate.kind === kind);
+  const line = (kind: BillLineKind) => lineOf(bill, kind);
 
   it('uses the higher of price and tax assessment as the material interest', () => {
     expect(bill.interest?.euro).toBe(150_000);
@@ -49,25 +52,25 @@ describe('computeBill', () => {
 
   it('keeps the tax rate inside the limits of the law', () => {
     const gift = computeBill(action('deed'), { ...INPUTS, taxKind: 'giftSiblings', taxRate: 5 });
-    expect(gift.lines.find((current) => current.kind === 'tax')?.rate).toBe(0.8);
+    expect(lineOf(gift, 'tax')?.rate).toBe(0.8);
   });
 
   it('adds item 23 for work outside the office', () => {
     const outside = computeBill(action('deed'), { ...INPUTS, surcharge: 'plus50', vat: false });
-    const fee = outside.lines[0];
-    expect(outside.lines[1]).toMatchObject({ kind: 'surcharge', ref: 'tarifa:23' });
-    expect(outside.lines[1].leva).toBeCloseTo(fee.leva! * 0.5, 6);
+    const surcharge = lineOf(outside, 'surcharge');
+    expect(surcharge?.ref).toBe('tarifa:23');
+    expect(surcharge?.leva).toBeCloseTo(lineOf(outside, 'fee')!.leva! * 0.5, 6);
   });
 
   it('counts an empty field or a negative amount as zero', () => {
     const empty = computeBill(action('deed'), { ...INPUTS, price: null, assessment: -5 });
     expect(empty.interest?.euro).toBe(0);
-    expect(empty.lines.find((current) => current.kind === 'tax')?.euro).toBe(0);
+    expect(lineOf(empty, 'tax')?.euro).toBe(0);
   });
 
   it('keeps an empty tax rate at the lower limit of the law', () => {
     const empty = computeBill(action('deed'), { ...INPUTS, taxRate: null });
-    expect(empty.lines.find((current) => current.kind === 'tax')?.rate).toBe(0.1);
+    expect(lineOf(empty, 'tax')?.rate).toBe(0.1);
   });
 
   it('has no material interest, entry fee or tax for signatures without interest', () => {

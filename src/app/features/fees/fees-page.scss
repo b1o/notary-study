@@ -35,10 +35,11 @@
   color: var(--color-ink-strong);
 }
 
-/* The bill is a sheet of paper (see .document) that stays in view next to the form. */
+/*
+ * The bill is a sheet of paper (see .document) in the reading size. It does not stick to the
+ * top: with large text it is taller than the window, and its total would stay out of view.
+ */
 .bill.document {
-  position: sticky;
-  inset-block-start: calc(var(--sticky-offset) + var(--space-5));
   margin: 0;
 }
 
@@ -69,6 +70,7 @@
 
 .bill__interest .bill__leva {
   display: inline;
+  margin-inline-start: 0.35em;
 }
 
 .bill__lines {
