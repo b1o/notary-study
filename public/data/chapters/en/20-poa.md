@@ -34,7 +34,7 @@ The scope of the agent's power towards third parties is **what the principal sta
 A power that says "to manage" does not cover a sale. A general power does not cover gifts unless it says so.
 
 > [!reform] Draft law 2026
-> The Ministry of Justice draft of August 2026 would require every power of attorney to dispose of real estate to describe the property and the type of deal, and would require the notary to read it aloud, explain its content and legal effect, and note this in the endorsement. The draft would also oblige the notary to check in the information system whether a power has been revoked before relying on it.
+> The Ministry of Justice draft of August 2026 would let a person name a "trusted person" whose consent is needed for dispositions of that person's real estate, with the restriction entered in a register, and would oblige the notary to check the registry office before a disposal. Check the State Gazette before you rely on these rules.
 
 ## Self-contracting and conflicts
 
@@ -71,7 +71,7 @@ The notary enters **at once** in the information system of the Notary Chamber ([
 
 - extracts of powers with signature and content certified at the same time, and of their revocations;
 - extracts of powers for acts before **banks**, and their revocations;
-- extracts of powers for **vehicles**, for the **tax agency**, for **investment firms**, for **insurers**, and for **electronic administrative services**.
+- extracts of powers for **vehicles**, for the **tax agency**, for **investment firms**, for **insurers**, and, from 3 September 2027, for **electronic administrative services**.
 
 The extract contains the data of the principal and the agent, a full description of the rights, conditions and term, and a short description of the property if any ([[n32:9а]]). Before relying on a power, the notary checks the system for a revocation. Banks check it too ([[n32:2в]]).
 

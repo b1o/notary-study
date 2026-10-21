@@ -1,6 +1,6 @@
 ## Why companies come to the notary
 
-The Commercial Register accepts many documents only when signatures, and sometimes content, are notarially certified. The registration officer at the Registry Agency checks the form of every document ([[ztr:21]]). A protocol or contract in the wrong form is refused, and some decisions in the wrong form are **null** ([[tz:137:5]]). Companies also act in real estate deals as buyers and sellers (chapter 17). This chapter covers the typical company files.
+The Commercial Register accepts many documents only when signatures, and sometimes content, are notarially certified. The registration officer at the Registry Agency checks the form of every document, and checks that a document with a certified signature was entered in the information system of the Notary Chamber and matches the entered data ([[ztr:21]]). A protocol or contract in the wrong form is refused, and some decisions in the wrong form are **null** ([[tz:137:5]]). Companies also act in real estate deals as buyers and sellers (chapter 17). This chapter covers the typical company files.
 
 ## Before any company act
 
@@ -11,7 +11,7 @@ The Commercial Register accepts many documents only when signatures, and sometim
 | Beneficial owners | Commercial Register; declarations | Anti-money laundering ([[zmip:59]], [[zmip:63]]) |
 | Identity and powers of the persons who sign | Identity documents; powers of attorney | [[gpk:578:4]] |
 
-Facts entered in the register are deemed known to third persons in good faith from the entry; facts not entered do not exist for them ([[ztr:7]], [[ztr:10]]).
+Facts entered in the register are deemed known to third persons from the entry, but for 15 days they cannot be opposed to a third person who proves that it was impossible to know them; facts not entered do not exist for third persons in good faith ([[ztr:7]], [[ztr:10]]).
 
 ## Transfer of shares in an OOD
 
@@ -23,7 +23,7 @@ Facts entered in the register are deemed known to third persons in good faith fr
 
 ### Step 2: no unpaid wages or contributions
 
-A transfer to a third person is possible only if the company has **no unpaid wages, compensations or mandatory social contributions** of its workers, including those whose employment ended in the last three years ([[tz:129:1]]). The manager and the transferor sign a **declaration on the approved form** that there are no other unpaid debts to workers. The registration officer checks the contributions electronically at the National Revenue Agency ([[tz:129:2]]).
+A transfer to a third person is possible only if the company has **no unpaid wages, compensations or mandatory social contributions** of its workers, including those whose employment ended in the last three years ([[tz:129:1]]). The manager and the transferor sign a **declaration on the approved form** that there are no unpaid debts to workers ([[tz:129:2]]). From 2 April 2027 the registration officer also checks the contributions electronically at the National Revenue Agency.
 
 ### Step 3: the contract
 
@@ -58,11 +58,11 @@ The same applies by analogy to members of the boards of joint-stock companies an
 
 The articles may provide simple written form for the decisions in the first four rows ([[tz:137:4]]). Read the articles before you advise. The notary certifies the signatures of the partners present and the content of the protocol in two or more copies.
 
-Partners may vote through an agent with an express written power ([[tz:137]]); check the articles for further requirements.
+Partners may vote through an agent only with an express written power; this does not apply to partners that are legal entities and to legal representatives ([[tz:137:6]]). Check the articles for further requirements.
 
 ## Transfer of an enterprise
 
-The transfer of a commercial enterprise as a whole, for example the business of a sole trader to a new EOOD, needs a written contract with **signatures and content certified at the same time** ([[tz:15:1]]). The transferor notifies creditors and debtors; the transfer is entered in the register for both sides after the checks on social contributions and wages ([[tz:16]]). The material interest for the fee is the book value of the fixed assets for the last quarter ([[znnd:97:1]]). If the enterprise includes real estate, it passes with the enterprise.
+The transfer of a commercial enterprise as a whole, for example the business of a sole trader to a new EOOD, needs a written contract with **signatures and content certified at the same time** ([[tz:15:1]]). The transferor notifies creditors and debtors; the transfer is entered in the register for both sides after the declaration on wages and, from 2 April 2027, the check on social contributions ([[tz:16]]). The material interest for the fee is the book value of the fixed assets for the last quarter ([[znnd:97:1]]). If the enterprise includes real estate, it passes with the enterprise.
 
 ## Pledges over shares and enterprises
 

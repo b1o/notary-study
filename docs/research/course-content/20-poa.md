@@ -32,4 +32,4 @@ Facts verified. Rework 3 cards into case form (an "irrevocable" power; a sub-age
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: finding 2 fixed (the callout now states the trusted-person mechanism and the registry check); item 11 of Art. 9а marked "from 3 September 2027"; the others kept.

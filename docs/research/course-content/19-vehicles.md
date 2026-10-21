@@ -36,4 +36,4 @@ Facts verified. Add two cards (the mayor's power; the Art. 37 form of a vehicle 
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 4 and 6 fixed (Art. 44(4) items 1–3 named); the others kept.

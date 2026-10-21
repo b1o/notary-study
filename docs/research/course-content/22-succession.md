@@ -34,4 +34,4 @@ Facts verified. Rework 3 cards into case form (a daughter-beneficiary as witness
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 1 and 2 fixed (items 1, 2, 9 and 13 with amounts in euro; the announcement fee added as step 6); the others kept.

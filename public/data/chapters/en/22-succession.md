@@ -1,6 +1,6 @@
 ## The notary and wills
 
-The notary is the only official who **makes notarial wills** and **announces holographic wills** in Bulgaria. Wills are the most confidential work of the office: a will is secret during the testator's life, and the data in the information system of the Notary Chamber is searchable only for official purposes ([[n32:2б]]). Only the **notary personally** makes a notarial will; an assistant notary may not ([[znnd:40:1]]). Any notary may make a will, regardless of where the testator lives or where the property is ([[gpk:570:2]]).
+The notary is the only official who **makes notarial wills** and **announces holographic wills** in Bulgaria. Wills are the most confidential work of the office: a will is secret during the testator's life, and the data in the information system of the Notary Chamber is open only to state bodies for official purposes and to banks and the other listed entities for their activity ([[n32:2б]], [[n32:2в]]). Only the **notary personally** makes a notarial will; an assistant notary may not ([[znnd:40:1]]). Any notary may make a will, regardless of where the testator lives or where the property is ([[gpk:570:2]]).
 
 ## The notarial will
 
@@ -26,11 +26,11 @@ A will made without these formalities is **void** ([[zn:42]]).
 - The will is filed in the **book of notarial wills** ([[znnd:28а:1]]) and a case file is opened ([[n32:10:1]]).
 - The notary sends one copy to the **registration judge** within **3 days** ([[n32:21:2]]).
 - The notary enters the **name and identity number of the testator** in the information system of the Notary Chamber ([[n32:9а]]).
-- The fee is 50% of the item 8 fee on the value of the property, at least 30 leva ([[tarifa:9]]).
+- The fee is 50% of the item 8 fee on the value of the property, at least 30 leva (15.34 €) ([[tarifa:9]]).
 
 ## Revoking a will
 
-A will is revoked by a **new will** or by a **notarial deed** in which the testator expressly revokes earlier dispositions ([[zn:38]]). The revocation deed follows the same steps: personal appearance, reading, signing, a copy to the registration judge within 3 days, and the data in the information system ([[n32:21:2]], [[n32:9а]]). If the revoked will is with another notary, the notary sends that notary a copy of the revocation within the same 3 days ([[n32:21:2]]). The fee for a revocation is fixed ([[tarifa:1]]).
+A will is revoked by a **new will** or by a **notarial deed** in which the testator expressly revokes earlier dispositions ([[zn:38]]). The revocation deed follows the same steps: personal appearance, reading, signing, a copy to the registration judge within 3 days, and the data in the information system ([[n32:21:2]], [[n32:9а]]). If the revoked will is with another notary, the notary sends that notary a copy of the revocation within the same 3 days ([[n32:21:2]]). The fee for a revocation is 30 leva (15.34 €) ([[tarifa:1]]).
 
 ## Holographic wills in the office
 
@@ -42,13 +42,13 @@ A holographic will may be handed to a notary in a **closed envelope** ([[zn:25:2
 2. The deposit is entered in the **register of holographic wills and deposits** ([[zn:25:2]], [[n32:9:1]]) and a case file is opened ([[n32:10:1]]).
 3. Within **3 days**, the notary informs the registration judge in writing of the **name of the testator** ([[n32:21:3]]).
 4. The notary enters the testator's name and identity number in the information system ([[n32:9а]]).
-5. The fee for accepting a holographic will for safekeeping is fixed ([[tarifa:1]]).
+5. The fee for accepting a holographic will for safekeeping is 30 leva (15.34 €) ([[tarifa:1]]).
 
 The notary does **not** read the will and does not check its validity at the deposit. Staff should still tell the testator what the law requires: written entirely by hand, dated, signed after the dispositions ([[zn:25:1]]).
 
 ### Return to the testator
 
-A deposited holographic will may be taken back **only by the testator personally**. A note is made in the register, signed by the testator, **two witnesses** and the notary ([[zn:26]]). The fee is fixed ([[tarifa:2]]).
+A deposited holographic will may be taken back **only by the testator personally**. A note is made in the register, signed by the testator, **two witnesses** and the notary ([[zn:26]]). The fee is 10 leva (5.11 €) ([[tarifa:2]]).
 
 ### Announcement after death
 
@@ -59,12 +59,13 @@ The person who holds a holographic will must ask a notary to **announce** it **a
 3. The will itself is attached to the protocol and **countersigned on every page** by the same persons ([[zn:27:3]]).
 4. If the will was deposited with a notary, **that notary** announces it ([[zn:27:4]]).
 5. The register records the date of the announcement and the dates on which copies were issued ([[n32:9:1]]).
+6. The fee for the announcement is 10 leva (5.11 €) ([[tarifa:2]]).
 
 ### Copies and entry
 
 The heirs and legatees receive **copies** of the announced will. A copy of an announced will that concerns **real estate** is **entered** in the property register ([[pv:4]]). For a **universal will** (the whole estate or a fraction), the beneficiary presents a declaration with a notarially certified signature listing the known real estate in the district; the declaration goes with the will to the registration judge of that district ([[pv:4]]).
 
-The fee for the first copy of an announced will is 50% of item 8, at least 30 leva, plus the copy fee; each further copy costs only the copy fee ([[tarifa:9]], [[tarifa:10]]). Announcing a will that was not kept by the notary also costs the item 1 fee ([[tarifa:2]]).
+The fee for the first copy of an announced will is 50% of item 8, at least 30 leva (15.34 €), plus the copy fee; each further copy costs only the copy fee ([[tarifa:9]], [[tarifa:10]]). Announcing a will that was not kept by the notary also costs the item 1 fee ([[tarifa:2]]).
 
 > [!reform] Draft law 2026
 > Under the August 2026 draft, when a holographic will is presented by someone other than the testator, the notary would publish a notice on the Notary Chamber's website, and interested persons could object within one month. Copies would be issued only after the objection period, or after a court decision. Check the State Gazette before you apply this.
@@ -94,7 +95,7 @@ See chapter 18. All co-heirs must take part ([[zn:75:2]]). Minors need court per
 
 ### Executor and manager
 
-A testator may appoint an **executor** of the will ([[zn:45]]). The notary may act as executor or as manager of property when the parties ask ([[znnd:22]]); the fees are in [[tarifa:9]] and [[tarifa:13]].
+A testator may appoint an **executor** of the will ([[zn:45]]). The notary may act as executor or as manager of property when the parties ask ([[znnd:22]]); the fee for executing a will is 50% of item 8 ([[tarifa:9]]), and the fee for managing property is 20% of the gross monthly income, at least 50 leva (25.56 €) ([[tarifa:13]]).
 
 ### Foreign elements
 

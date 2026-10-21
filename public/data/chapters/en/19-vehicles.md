@@ -54,7 +54,7 @@ The signatures are certified on all copies; the parties sign before the notary (
 ## Fee and tax
 
 - **Notarial fee.** For the certification of signatures on contracts for the transfer of motor vehicles, the full fee of item 8 applies ([[tarifa:11]]). The material interest is the **value for which the vehicle is insured** ([[znnd:97:1]]), or the agreed price if it is higher ([[znnd:97:3]]).
-- **Local tax** on the acquisition of a vehicle for value: 0.1–3% set by the municipality ([[zmdt:44:1]], [[zmdt:47:2]]), on the insurance value ([[zmdt:33:1]], [[zmdt:46:2]]). The buyer pays it unless agreed otherwise ([[zmdt:45:1]]). It is not due for some vehicles, for example vehicles bought abroad by a buyer abroad that will not be registered in Bulgaria ([[zmdt:44:4]]).
+- **Local tax** on the acquisition of a vehicle for value: 0.1–3% set by the municipality ([[zmdt:44:1]], [[zmdt:47:2]]), on the insurance value ([[zmdt:33:1]], [[zmdt:46:2]]). The buyer pays it unless agreed otherwise ([[zmdt:45:1]]). It is not due for vehicles acquired before their first registration in Bulgaria, for vehicles whose acquirer is abroad and that will not be registered in Bulgaria, and for vehicles deregistered after a total loss and not registered again ([[zmdt:44:4]]).
 - **Annual vehicle tax.** The new owner does not pay the annual tax for the current year if the previous owner paid it until the end of the year ([[zmdt:58:3]]).
 
 > [!example] A used car
@@ -69,4 +69,4 @@ The signatures are certified on all copies; the parties sign before the notary (
 
 ## Powers of attorney for vehicles
 
-A power of attorney to sell a vehicle or to register it needs a notarially certified signature in practice, and its extract is entered in the information system ([[n32:9а]]). Powers certified by mayors are valid even though mayors cannot enter them in the system (chapter 5).
+A power of attorney to sell a vehicle needs a notarially certified signature by law, because the power follows the form of the deal ([[zzd:37]]); a power to register a vehicle needs one in practice. The extract of both goes into the information system ([[n32:9а]]). Powers certified by mayors are valid even though mayors cannot enter them in the system (chapter 5).
