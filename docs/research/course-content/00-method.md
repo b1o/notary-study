@@ -6,7 +6,7 @@ Date of the review: October 2026. Branch `claude/course-review-60eafa`, from `po
 
 - 28 chapters in `public/data/chapters/{bg,en}`: the lesson (`.md`) and the objectives, cards and quiz (`.json`).
 - 324 questions and 359 cards per language at the start; 336 questions and 364 cards after pass 3. The glossary (`public/data/glossary.json`) only where a chapter depends on it.
-- Not covered: `templates.json` and `checklists.json` (other sessions work there). A wrong checklist item goes into the notes of its chapter under "Report to the user".
+- Not covered: `templates.json` (another session works there). `checklists.json` only for the 36 items without a citation, on a later request of the polish-pass session (see `checklists.md`, commit b638f7e).
 
 ## Sources, in this order
 
