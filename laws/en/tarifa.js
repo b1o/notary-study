@@ -1,0 +1,82 @@
+/* Tariff of notarial fees under the Notaries Act (ТНТ): unofficial English working translation.
+ * Amounts are in leva as in the official text; since 1 January 2026 they count in euro at 1.95583. */
+NotaryLaws.registerTranslation('tarifa', {
+  '1': { t: 'Notarial acts and protocols without a set material interest', p: [
+    '1. For:',
+    'a) notarial deeds correcting notarial deeds, acts revoking wills, declaratory protocols, acceptance for safekeeping of holographic wills and of documents and papers without a set material interest – 30',
+    'b) declaratory notarial deeds of ownership of agricultural land, forests and forest land – 20',
+    'c) declaratory deeds correcting declaratory deeds under letter "b" – 20',
+    'd) contracts for voluntary partition of agricultural land, forests and forest land – 20',
+    'e) declaratory protocols under the Commerce Act – 50',
+    'Note. When the notarial acts under Art. 5 of the Agricultural Land Ownership and Use Act are performed by a registration judge, the fees under letters "b", "c" and "d" are not collected.'] },
+  '2': { t: 'Holographic wills and documents deposited for safekeeping', p: [
+    '2. For the announcement and return of holographic wills and for the return of documents and papers deposited for safekeeping – 10',
+    'Note. For the announcement of a holographic will that was not kept by the notary, the fee under item 2 is collected together with the fee under item 1.'] },
+  '3': { t: 'Notarial invitation', p: [
+    '3. For a notarial invitation, on the copies for service; the other copies are charged as copies – 20',
+    'Note. The fee under item 3 is also collected for the service, at the applicant\'s request, of other notices and papers under Art. 37–58 of the Civil Procedure Code. When service is made of the notary\'s own motion by law, half of the fee under item 3 is collected.'] },
+  '4': { t: 'Certification of content without a material interest', p: [
+    '4. For the certification of the content of private documents without a set material interest – on the first copy:',
+    'a) for the first page – 10',
+    'b) for each further page – 2; the other copies are charged as copies.'] },
+  '5': { t: 'Certification of date and signatures without a material interest', p: [
+    '5. For the certification of the date and signatures of private documents without a set material interest:',
+    'a) for the first signature – 5',
+    'b) for a re-delegation, the fee for a signature is double the fee under letter "a"',
+    'c) for each further signature – 2',
+    'd) on a document that will be used to create, change or end rights in real estate, for each signature – 10',
+    'e) for a re-delegation, the fee for a signature on a document for rights in real estate is double the fee under letter "d"',
+    'Note. The fee under item 5 is collected once when the date and the signatures are certified together; otherwise it is collected separately.'] },
+  '6': { t: 'Certification of copies and extracts', p: [
+    '6. For the certification of copies and extracts of documents and papers:',
+    'a) for the first page – 3',
+    'b) for each further page – 2'] },
+  '7': { t: 'Information from the notarial books and registers', p: [
+    '7. For information from the notarial books and registers:',
+    'a) oral information on an act or a certification by the name of one person – 2',
+    'b) a certificate of an act or a certification by the name of one person – 10'] },
+  '8': { t: 'Notarial deed and partition contract – proportional fee', p: [
+    '8. For a notarial deed or a partition contract other than those under item 1, the fee follows this table:',
+    'up to 100 leva inclusive – 30 leva',
+    '101 – 1,000 leva – 30 leva + 1.5 per cent of the amount over 100 leva',
+    '1,001 – 10,000 leva – 43.50 leva + 1.3 per cent of the amount over 1,000 leva',
+    '10,001 – 50,000 leva – 160.50 leva + 0.8 per cent of the amount over 10,000 leva',
+    '50,001 – 100,000 leva – 480.50 leva + 0.5 per cent of the amount over 50,000 leva',
+    '100,001 – 500,000 leva – 730.50 leva + 0.2 per cent of the amount over 100,000 leva',
+    'over 500,000 leva – 1,530.50 leva + 0.1 per cent of the amount over 500,000 leva, but not more than 6,000 leva'] },
+  '9': { t: '50 per cent of the fee under item 8', p: ['9. For the certification of the date and signatures of contracts and unilateral statements with a set material interest that are subject to entry, for a notarial will, for a copy of an announced holographic will, for the execution of a will, for a protest, for the acceptance for safekeeping of documents and papers with a set material interest, and for the certification of the content of private documents with a set material interest, 50 per cent of the fee under item 8 is collected, but not less than 30 leva.'] },
+  '10': { t: '30 per cent of the fee under item 8', p: [
+    '10. For the certification of the date and signatures of contracts with a set material interest, 30 per cent of the fee under item 8 is collected, but not less than 30 leva.',
+    'Note. The fee under item 9 for a copy of an announced holographic will is collected together with the fee under item 6; for each further copy of the same will only the fee under item 6 is collected.'] },
+  '11': { t: 'Circumstantial verification and vehicle contracts', p: [
+    '11. For a circumstantial verification, and for the certification of the date and signatures of contracts transferring the ownership of motor vehicles, the fee under item 8 is collected.',
+    'Note. The fee under item 8 for a circumstantial verification is due when the request is filed and is not returned if ownership is not recognised.'] },
+  '12': { t: 'Unilateral statements with a material interest', p: ['12. For the certification of the date and signatures of unilateral statements with a set material interest (such as receipts for sums owed or paid, requests and consents to delete mortgages, guarantees and others), half of the fee under item 10 is collected, but not less than 25 leva.'] },
+  '13': { t: 'Management of property', p: ['13. For the management of property – on the gross monthly income from the property for the period of the assignment: for each month 20 per cent, but not less than 50 leva.'] },
+  '14': { t: 'Oral legal advice', p: ['14. For oral legal advice or a consultation – 8'] },
+  '15': { t: 'Written legal advice and mediation', p: ['15. For written legal advice or a consultation, and for mediation to clarify the will of the parties – 15'] },
+  '16': { t: 'Inquiries and obtaining documents', p: [
+    '16. For inquiries, obtaining documents, papers and others – 5',
+    'Note. The fees under items 14, 15 and 16 for an incomplete hour are collected as for a full hour; before the act the notary must state the approximate time needed.'] },
+  '17': { t: 'Drafts under item 1', p: [
+    '17. For drafting a correction deed, an act revoking a will, a declaratory protocol, a holographic will or a request-declaration for a circumstantial verification, the fee under item 1 is collected.',
+    'Note. The fee under item 17 for drafting an act revoking a will and a declaratory protocol is collected only when the act or protocol is not issued on the same day. If the same notary issues it within one month, the fee under item 1 is not collected.'] },
+  '18': { t: 'Draft notarial invitation', p: ['18. For drafting a notarial invitation, the fee under item 3 is collected.'] },
+  '19': { t: 'Draft document without a material interest', p: ['19. For drafting a document without a set material interest, the fee under item 4 is collected.'] },
+  '20': { t: 'Draft notarial deed, will and contract', p: [
+    '20. For drafting:',
+    'a) a notarial deed other than those under item 1, the fee under item 8 is collected;',
+    'b) a notarial will and a contract with a set material interest, the fee under item 11 is collected.',
+    'Note. The fee under item 20 is not collected for drafting a notarial deed in a circumstantial verification case opened by the same notary. The fee for drafting a notarial will is collected only when the will is not made on the same day. If the same notary makes the will within one month, the fee under item 9 is not collected.'] },
+  '21': { t: 'Draft document under item 12', p: ['21. For drafting a document under item 12, the fee under item 12 is collected.'] },
+  '22': { t: 'Check of a draft without certification', p: [
+    '22. For checking a draft document prepared by the parties without notarial certification, half of the respective fee under items 17–21 is collected. If the same notary certifies the same document within one month, only the other half, or the difference, is collected.',
+    'Note. The fees under items 17–21 are not collected for drafting and checking documents in a property management assigned to the same notary.'] },
+  '23': { t: 'Acts outside the office and out of working hours', p: [
+    '23. For an act performed at the applicant\'s request outside the notary office, out of working hours, or on rest days and holidays, an addition to the respective fee is paid as follows:',
+    'a) outside the notary office in working hours – 25 per cent;',
+    'b) in the notary office out of working hours – 25 per cent;',
+    'c) outside the notary office out of working hours – 50 per cent;',
+    'd) outside the notary office and outside the settlement where it is located – 50 per cent;',
+    'e) outside the notary office, out of working hours and outside the settlement where it is located – double.'] }
+});

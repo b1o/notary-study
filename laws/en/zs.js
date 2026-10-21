@@ -1,0 +1,110 @@
+/* Property Act (ЗС), articles cited in the course: unofficial English working translation. */
+NotaryLaws.registerTranslation('zs', {
+  '30': { t: 'Co-ownership', p: [
+    'Art. 30. Ownership may belong jointly to two or more persons – the state, municipalities and other legal or natural persons.',
+    'The shares of the co-owners are deemed equal until proven otherwise.',
+    'Each co-owner shares in the benefits and burdens of the common thing in proportion to his share.'] },
+  '31': { t: '', p: [
+    'Art. 31. Each co-owner may use the common thing according to its purpose and in a way that does not prevent the other co-owners from using it according to their rights.',
+    'When the common thing is used personally by only some co-owners, they owe the others compensation for the benefit they are deprived of, from the day of a written request.'] },
+  '32': { t: '', p: [
+    'Art. 32. The common thing is used and managed according to the decision of the co-owners holding more than half of it.',
+    'If no majority can be formed, or the majority\'s decision is harmful to the common thing, the district court, at the request of any co-owner, decides the matter, takes the necessary measures and, if needed, appoints a manager.'] },
+  '33': { t: 'Pre-emption of co-owners', p: [
+    'Art. 33. A co-owner may sell his share of real estate to a third person only after presenting to the notary written evidence that he offered the other co-owners to buy it on the same terms, and declaring in writing before the notary that none of them accepted the offer.',
+    'If the declaration is false, or if the third person bought the share on terms agreed for show to the detriment of the other co-owners, an interested co-owner may buy the share out on the terms actually agreed. The claim must be brought within two months of the sale.',
+    'If the co-owner does not pay the sum due for the buy-out within one month of the decision becoming final, the decision is deemed annulled by law.'] },
+  '34': { t: 'Partition', p: [
+    'Art. 34. Each co-owner may, despite an agreement to the contrary, ask for partition of the common thing, unless the law provides otherwise or partition is incompatible with the nature and purpose of the thing.',
+    'The rules on partition of an inheritance apply accordingly to partition of co-owned property.',
+    'The claim for partition does not expire.'] },
+  '35': { t: '', p: [
+    'Art. 35. A voluntary partition of movables worth more than 50 leva, and of real estate, must be made in writing with notarially certified signatures.',
+    'When persons without capacity or absent persons take part in the partition, prior permission of the district court is needed.'] },
+  '37': { t: 'Ownership of floors', p: ['Art. 37. Floors or parts of floors, with the attic or cellar rooms attached to them, may belong to separate owners – the state, municipalities and other legal or natural persons.'] },
+  '38': { t: 'Common parts', p: [
+    'Art. 38. In buildings where floors or parts of floors belong to different owners, the following are common to all owners: the land on which the building stands, the yard, the foundations, the outer walls, the internal dividing walls between the separate parts, the internal load-bearing walls, columns, beams, slabs, joists, stairs, landings, roofs, the walls between the attic and cellar rooms of the separate owners, chimneys, outer entrance doors and doors to common attics and cellars, the main lines of all installations and their central units, lifts, gutters, the caretaker\'s dwelling and everything else that by nature or purpose serves common use.',
+    'It may be agreed that parts serving only some separately owned floors or parts are common only to the persons whose premises they serve.',
+    'The common parts cannot be divided.'] },
+  '40': { t: '', p: [
+    'Art. 40. The shares of the separate owners in the common parts are in proportion to the values of the separate premises they own, calculated when the condominium was created. Later changes in the separate premises do not affect the shares.',
+    'When floors are added to a condominium building, the owners of the added floors acquire, against payment, ownership also of all common parts of the building, including the land. The shares of all co-owners in the common parts are set according to the values of the separate premises at the completion of the construction.',
+    'When the owner of a floor or part of a floor transfers a separate part of his property to another person, the shares of the acquirer and the transferor in the common parts are set according to the values of the transferred and the retained part at the time of the transfer. The same rule applies to partition.'] },
+  '56': { t: 'Right of use', p: [
+    'Art. 56. The right of use includes the right to use the thing according to its purpose and the right to receive its fruits without changing it substantially.',
+    'The holder of the right of use may not transfer his right.'] },
+  '57': { t: '', p: [
+    'Art. 57. The holder of the right of use must pay the costs of the use, including taxes and other fees, maintain the thing in the condition in which he received it and return it to the owner when the right ends.',
+    'An inventory is made when the property is handed over. Without an inventory, it is presumed until proven otherwise that the property was handed over in good condition.',
+    'The holder is not liable for wear and tear from ordinary use.',
+    'He must insure the thing in favour of the owner and pay the premiums, unless otherwise provided or agreed.'] },
+  '59': { t: '', p: [
+    'Art. 59. The right of use ends with the death of its holder, unless it was created for a shorter term.',
+    'A right of use created for a legal entity ends with the entity\'s termination, unless a shorter term was set.',
+    'The right of use also ends when the thing perishes, and if it is not exercised for 5 years.'] },
+  '61': { t: '', p: ['Art. 61. The owner may ask the court to end the right of use if the holder, despite a warning, keeps using the thing in a way that threatens it with destruction or significant damage, breaches his essential duties or changes the thing substantially.'] },
+  '63': { t: 'Building right', p: [
+    'Art. 63. The owner may grant another person the right to build a building on his land, and that person becomes the owner of the building.',
+    'The landowner may also transfer the ownership of an existing building separately from the land.',
+    'Ownership of a building separate from the land under it may also be created by voluntary partition.'] },
+  '64': { t: '', p: ['Art. 64. The owner of the building may use the land only as far as necessary for using the building according to its purpose, unless the act granting the right provides otherwise.'] },
+  '65': { t: '', p: ['Art. 65. When ownership of the building was created for a term, after the term the ownership of the building passes free of charge to the owner of the land.'] },
+  '66': { t: '', p: [
+    'Art. 66. The owner of the building may sell it to a third person, applying Art. 33 accordingly.',
+    'The building right does not end if the building or part of it perishes, unless the act creating it provides otherwise.',
+    'The building right may also concern construction under the surface of the land.',
+    'A right to add floors and a right to add an extension are created to add floors to, or extend, an existing building.'] },
+  '67': { t: '', p: ['Art. 67. The right to build a building on another person\'s land (Art. 63(1)) expires in favour of the landowner if it is not exercised for 5 years.'] },
+  '68': { t: 'Possession', p: [
+    'Art. 68. Possession is the exercise of actual control over a thing that the possessor holds, personally or through another person, as his own.',
+    'Detention is the exercise of actual control over a thing that the person does not hold as his own.'] },
+  '69': { t: '', p: ['Art. 69. The possessor is presumed to hold the thing as his own until it is proven that he holds it for another.'] },
+  '70': { t: '', p: [
+    'Art. 70. A possessor is in good faith when he possesses the thing on a legal ground fit to make him owner, without knowing that his transferor is not the owner or that the form prescribed by law was defective. It is sufficient that good faith existed when the legal ground arose.',
+    'Good faith is presumed until proven otherwise.',
+    'When possession was handed over under a preliminary contract with the owner of the property, the possessor has the rights under Art. 71 and 72.'] },
+  '77': { t: '', p: ['Art. 77. Ownership is acquired by a legal transaction, by prescription or in other ways set by law.'] },
+  '78': { t: '', p: [
+    'Art. 78. A person who acquires for value, on a legal ground, possession of a movable thing or a bearer security, even from a non-owner, without knowing this, acquires ownership, except when the transfer of the movable requires a notarial deed or notarial certification of signatures. This rule also applies to other real rights in movables.',
+    'The owner of a stolen or lost thing may claim it from the possessor in good faith within three years of the theft or loss. This rule does not apply when the possessor acquired the thing from a state or municipal enterprise.'] },
+  '79': { t: 'Acquisitive prescription', p: [
+    'Art. 79. Ownership of real estate is acquired by prescription through uninterrupted possession for 10 years.',
+    'If the possession is in good faith, ownership is acquired through uninterrupted possession for 5 years.'] },
+  '80': { t: '', p: ['Art. 80. A movable thing is acquired by prescription through uninterrupted possession for 5 years.', 'A person who acquired possession of a movable through a crime cannot acquire ownership by prescription.'] },
+  '81': { t: '', p: ['Art. 81. Prescription is interrupted when possession is lost for more than six months.'] },
+  '82': { t: '', p: ['Art. 82. The possessor may add to his possession the possession of his transferor.'] },
+  '92': { t: '', p: ['Art. 92. The owner of the land also owns the buildings and plantations on it, unless otherwise established.'] },
+  '100': { t: '', p: [
+    'Art. 100. A waiver of ownership of real estate has effect only if made in writing with a notarially certified signature and entered in the property register.',
+    'The statement of waiver may be withdrawn until it is entered.'] },
+  '108': { t: '', p: ['Art. 108. The owner may claim his thing from any person who possesses or holds it without a ground.'] },
+  '109': { t: '', p: ['Art. 109. The owner may ask for the cessation of any unfounded act that prevents him from exercising his right.'] },
+  '109а': { t: '', p: ['Art. 109a. The owner of real estate may ask for the determination of the boundaries between his property and the neighbouring properties.'] },
+  '110': { t: 'Real estate', p: [
+    'Art. 110. Real estate is: land, plants, buildings and other structures, and in general everything permanently attached to the land or a structure, naturally or by human action.',
+    'All other things, including energy, are movables.'] },
+  '112': { t: 'Acts subject to entry', p: [
+    'Art. 112. The following are entered:',
+    'a) all acts that transfer ownership or create, transfer, change or end another real right in real estate, and acts that recognise such rights;',
+    'b) contracts that transfer an inheritance that includes real estate;',
+    'c) acts waiving real rights in real estate;',
+    'd) contracts for partition of real estate, and court partition protocols concerning such property;',
+    'e) requests of the deceased\'s creditors or legatees for separation of the deceased\'s real estate;',
+    'f) leases of real estate for more than one year;',
+    'g) settlements of disputes about acts subject to entry; and',
+    'h) final court decisions that replace the acts under letter "a", and decisions establishing the existence of acts subject to entry under the preceding letters;',
+    'i) copies of announced wills concerning real estate and rights in real estate;',
+    'j) requests to set aside court decisions subject to entry.'] },
+  '113': { t: '', p: ['Art. 113. Until entered, the acts under the preceding article cannot be relied upon against third persons who earlier acquired and entered real rights in the property from the same owner.'] },
+  '114': { t: 'Entry of claims', p: [
+    'Art. 114. The following must be entered:',
+    'a) claims for the termination, annulment, revocation or declaration of nullity of acts subject to entry under Art. 112. When the entry of the claim is expressly provided by law, it has the effect towards third persons set in that provision; otherwise the entry only gives publicity to the dispute;',
+    'b) claims for a decision on the conclusion of a final contract that transfers or creates a real right in real estate. Real rights acquired and distraints imposed after the entry cannot be relied upon against the claimant. The state or municipality may enforce their claims against the transferor, due by the day of the transfer, against the property in whoever\'s hands it is; and',
+    'c) claims for other decisions under Art. 112, letter "h". Real rights acquired by third persons after the entry cannot be relied upon against the claimant.',
+    'The claims under the preceding letters are not processed by the courts until they are entered.'] },
+  '115': { t: '', p: [
+    'Art. 115. Final decisions on the claims under the preceding article are noted on presentation of a copy of the decision.',
+    'In a decision granting the claim, the court gives the claimant six months to make this note. After that, the entry of the claim loses its effect.',
+    'The court does not issue a copy of a decision under Art. 19(3) of the Obligations and Contracts Act until the claimant proves that the costs of the transfer and the transferor\'s taxes and other obligations to the state are paid.',
+    'If the claim was not entered, the decision on it has effect towards third persons only from the day it is entered.'] }
+});

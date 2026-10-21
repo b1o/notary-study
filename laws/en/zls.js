@@ -1,0 +1,13 @@
+/* Persons and Family Act (ЗЛС), articles cited in the course: unofficial English working translation. */
+NotaryLaws.registerTranslation('zls', {
+  '1': { t: '', p: ['Art. 1. Every person, from birth, acquires the capacity to hold rights and obligations.'] },
+  '2': { t: '', p: ['Art. 2. At 18 years persons come of age and become fully capable of acquiring rights and taking on obligations by their own acts.'] },
+  '3': { t: '', p: ['Art. 3. Persons under 14 are minors (малолетни).', 'Their legal representatives – parents or guardians – perform legal acts for them and in their name.'] },
+  '4': { t: '', p: [
+    'Art. 4. Persons from 14 to 18 are minors (непълнолетни).',
+    'They perform legal acts with the consent of their parents or curators, but they may alone conclude ordinary small transactions for their current needs and dispose of what they earned by their work.'] },
+  '5': { t: '', p: [
+    'Art. 5. Minors aged 14–18 and adults who, because of mental deficiency or mental illness, cannot take care of their affairs are placed under full judicial disability and lose capacity.',
+    'Adults with such conditions that are not so severe as to require full disability are placed under limited judicial disability.',
+    'For the legal acts of persons under para. 1, Art. 3(2) applies, and for persons under para. 2, Art. 4(2) applies.'] }
+});

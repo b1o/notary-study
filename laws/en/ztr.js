@@ -1,0 +1,64 @@
+/* Commercial Register and Register of Non-Profit Legal Entities Act (ЗТРРЮЛНЦ), articles cited in the course:
+ * unofficial English working translation. */
+NotaryLaws.registerTranslation('ztr', {
+  '2': { t: 'Definition', p: [
+    'Art. 2. (1) The Commercial Register and the Register of Non-Profit Legal Entities is a common electronic database containing the circumstances entered and the acts announced by law for merchants and branches of foreign merchants, non-profit legal entities and branches of foreign non-profit legal entities.',
+    '(2) The circumstances and acts are announced without personal data within the meaning of Art. 4(1) of Regulation (EU) 2016/679 (General Data Protection Regulation), except information that the law requires to be announced.',
+    '(3) An electronic file is kept for each merchant, branch, non-profit legal entity and branch of a foreign non-profit entity. It contains the applications, the documents for the entered circumstances, the announced acts and other documents, which may also contain personal data identifying the persons who represent or manage the entity.'] },
+  '6': { t: 'Duty to apply', p: [
+    'Art. 6. (1) Every merchant and every non-profit legal entity must apply for entry in the respective register by declaring the circumstances subject to entry and presenting the acts subject to announcement.',
+    '(2) Every person obliged to apply for entry of circumstances or to present acts must do so within 7 days of the occurrence of the circumstance or the adoption of the act, unless the law sets another term.',
+    '(3) The acts under the Accountancy Act (annual reports and others) are filed for announcement under the procedure and terms of that Act.',
+    '(4) Unless the law provides otherwise, merchants, branches and non-profit entities must keep at their registered management address, throughout their existence, all documents on their founding and on changes of the entered circumstances. Electronic documents are kept so that a legal representative can provide immediate access.',
+    '(5) The managers, liquidators, trustees or members of collective management bodies entered at the time of deletion must keep an archive of these documents for at least 5 years after the deletion.'] },
+  '7': { t: 'Effect of entry', p: [
+    'Art. 7. (1) An entered circumstance is deemed known to third persons in good faith from the moment of entry. For 15 days after the entry it cannot be relied upon against third persons who prove that they could not have learned of it.',
+    '(2) Third persons may rely on a circumstance subject to entry even before it is entered, unless the law expressly provides that it takes effect after entry.'] },
+  '10': { t: 'Reliance on the register', p: [
+    'Art. 10. (1) Third persons in good faith may rely on the entry and the announcement even if the entered circumstance or the announced act does not exist.',
+    '(2) Circumstances not entered are deemed non-existent for third persons in good faith.'] },
+  '11': { t: 'Publicity', p: [
+    'Art. 11. (1) The registers are public, except information for which the law provides otherwise. Everyone has free access, without charge, to the database, except information whose access the law limits to certain persons.',
+    '(2) The Registry Agency provides registered access to the file of the merchant or non-profit entity.',
+    '(3) This access may be given at the Agency\'s local offices on a request and an identity document. A person asking for electronic access identifies himself with an electronic signature or a certificate issued by the Agency, and for official access under the ordinance under Art. 12(5).',
+    '(4) The Agency also provides free access to the entered circumstances and announced acts through the business registers interconnection system.',
+    '(5) Information on beneficial owners under Art. 63(1) and (4) of the Measures against Money Laundering Act remains accessible for 10 years after the deletion of the entity.'] },
+  '13': { t: 'Application', p: [
+    'Art. 13. (1) Entry, deletion and announcement are made on an application on the approved form.',
+    '(2) The application contains: 1. data on the applicant; 2. data on the merchant, branch, European economic interest grouping, non-profit entity or branch concerned; 3. the circumstance to be entered, the entry to be deleted or the act to be announced; 4. the applicant\'s signature.',
+    '(3) When the application is filed by a person under Art. 15(2), item 2, an Agency employee records the filer\'s data in the system; these data are not public and may be given only at the applicant\'s request or in a court dispute.',
+    '(4) The application is accompanied by a declaration signed by the applicant under Art. 15(1), items 1, 2 and 3 or para. 3, on the truth of the declared circumstances or the adoption of the acts.',
+    '(5) A filer under Art. 15(2), item 2 presents a declaration that the application and its documents were provided by the applicant.',
+    '(6) The documents or the act to be announced are attached as required by law, in original, as a copy certified by the applicant or as a notarially certified copy. The applicant also presents certified copies of the acts for announcement with personal data, other than those required by law, removed.',
+    '(7) Paper applications and acts of the court and of the bodies under Art. 14 are filed at any local office of the Agency at the seats of the regional courts.',
+    '(8) When the application is received, the identity of the applicant or filer is checked.',
+    '(9) (Repealed.)',
+    '(10) Signing an annual financial statement filed through the system under the Statistics Act automatically signs the declaration under para. 4 and the declaration under Art. 62a(2), item 2 of the ordinance under Art. 31.'] },
+  '15': { t: 'Applicant', p: [
+    'Art. 15. (1) Entry, deletion and announcement may be requested by:',
+    '1. the merchant or the non-profit legal entity;',
+    '2. the procurator;',
+    '3. another person in the cases provided by law;',
+    '4. a lawyer with an express power drawn up under the Bar Act for representation before the Agency.',
+    '(2) An application may be filed by:',
+    '1. an applicant under para. 1;',
+    '2. an agent with an express written power.',
+    '(3) The announcement of the acts under Art. 6(3) may also be requested by the preparer of the financial statements under the Accountancy Act with a notarially certified power of attorney.',
+    '(4) The announcement of the acts under Art. 6(3) is requested through the system under the Statistics Act.',
+    '(5) When the application is not filed by an applicant under para. 1, items 1 and 2, the power of attorney is attached; in an electronic application an electronic image of the power is presented.',
+    '(6) When the application is not filed personally by an applicant under paras. 1 and 3, the applicant\'s signature must be notarially certified.',
+    '(7) On a change in the bodies or the representation, the newly elected body or representative applies under paras. 1 and 6.'] },
+  '21': { t: 'Scope of the check', p: [
+    'Art. 21. The registration officer checks whether:',
+    '1. an application was filed in the required form and procedure;',
+    '2. the circumstance is subject to entry and is not entered, or the act is subject to announcement and is not announced;',
+    '3. the application comes from an authorised person;',
+    '4. all documents required by law, or the act to be announced, are attached;',
+    '5. the existence of the circumstance and its compliance with the law are established by the documents, or the act meets the legal requirements on its face;',
+    '6. the declaration under Art. 13(4) is presented;',
+    '7. no other person has rights to the firm or name and they meet the requirements of the Commerce Act or the Non-Profit Legal Entities Act on a first entry or change;',
+    '8. the natural persons to be entered as managers or members of boards are not deprived of management rights;',
+    '9. the documents that by law are drawn up with a notarially certified signature, or with a notarially certified signature and content, are entered in the database of the information system under Art. 28b of the Notaries Act, and whether the documents presented match the data entered there;',
+    '10. the conditions under Art. 274a(1), items 1–5 of the Commerce Act are established from the information under Art. 77b(2) of the Tax and Social Security Procedure Code;',
+    '11. the state fee due is paid.'] }
+});

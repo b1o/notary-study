@@ -1,0 +1,25 @@
+/* Ordinance on the exam for substitute assistant notaries: unofficial English working translation. */
+NotaryLaws.registerTranslation('n2pn', {
+  '1': { t: '', p: ['Art. 1. This ordinance sets the conditions and procedure for the exam for substitute assistant notaries under Art. 46(1) of the Notaries Act.'] },
+  '2': { t: '', p: [
+    'Art. 2. (1) The exam is held twice a year, in April and in October.',
+    '(2) The Minister of Justice schedules the exam by order. The order states the time and place, the term for applications, the fee and the bank account for it.',
+    '(3) A copy of the order is sent to the Notary Chamber.',
+    '(4) The order is posted in the buildings of the Ministry of Justice and the Notary Chamber and published on their websites.'] },
+  '3': { t: '', p: [
+    'Art. 3. (1) The exam is oral.',
+    '(2) The questions are listed indicatively in the annex. One question is a case from notarial practice.',
+    '(3) Candidates may use legal acts and case law on paper. A candidate who uses other aids is removed from the exam.'] },
+  '6': { t: '', p: [
+    'Art. 6. (1) The exam commission consists of a representative of the Ministry of Justice named by the Minister, one notary and one inspector-notary named by the Council of Notaries, with substitute members named in the same way.',
+    '(2) An absent member is replaced by the substitute member.',
+    '(3) The representative of the Ministry of Justice chairs the commission.',
+    '(4) The chair: 1. directs the commission, ensures compliance with the rules and announces the start and end of the exam day; 2. draws up the protocol with the result and sends it to the Minister of Justice.'] },
+  '9': { t: '', p: [
+    'Art. 9. (1) The candidate is examined in the presence of the commission and up to 5 following candidates.',
+    '(2) Each candidate draws 2 tickets – one theoretical and one practical question. The numbers are recorded in the protocol.'] },
+  '10': { t: '', p: [
+    'Art. 10. (1) The exam is graded poor (2), satisfactory (3), good (4), very good (5) or excellent (6).',
+    '(2) Each member records his grade in the protocol. The result is the arithmetic mean of all members\' grades, announced immediately and recorded by the chair.',
+    '(3) Only candidates with at least good (4) acquire capacity as substitute assistant notary.'] }
+});

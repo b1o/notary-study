@@ -1,0 +1,244 @@
+[
+  {
+    "id": "znnd",
+    "lex": "2133897733",
+    "abbr": "ЗННД",
+    "title": { "bg": "Закон за нотариусите и нотариалната дейност", "en": "Notaries and Notarial Activity Act" },
+    "group": "notary"
+  },
+  {
+    "id": "gpk",
+    "lex": "2135558368",
+    "abbr": "ГПК",
+    "title": { "bg": "Граждански процесуален кодекс (извадка)", "en": "Civil Procedure Code (extract)" },
+    "group": "notary",
+    "include": ["37-58", "60-63", "143-144", "164", "170", "179-180", "189", "275", "417-418", "569-594"]
+  },
+  {
+    "id": "n32",
+    "lex": "-550233600",
+    "abbr": "Наредба № 32",
+    "title": { "bg": "Наредба № 32 от 29 януари 1997 г. за служебните архиви на нотариусите и нотариалните кантори", "en": "Ordinance No. 32 on the Official Archives of Notaries and Notary Offices" },
+    "group": "notary"
+  },
+  {
+    "id": "n36",
+    "lex": "-549976064",
+    "abbr": "Наредба № 36",
+    "title": { "bg": "Наредба № 36 от 7 януари 1998 г. за условията и реда за провеждане на конкурсите за нотариуси", "en": "Ordinance No. 36 on the Competitions for Notaries" },
+    "group": "notary"
+  },
+  {
+    "id": "n2pn",
+    "lex": "2135468688",
+    "abbr": "Наредба № 2/2003",
+    "title": { "bg": "Наредба № 2 от 18 юни 2003 г. за условията и реда за провеждане на изпита за помощник-нотариуси по заместване", "en": "Ordinance No. 2 of 2003 on the Exam for Substitute Assistant Notaries" },
+    "group": "notary"
+  },
+  {
+    "id": "nnbd",
+    "lex": "2135696082",
+    "abbr": "Наредба НБД \"Население\"",
+    "title": { "bg": "Наредба за достъпа на нотариусите до Националната база данни \"Население\"", "en": "Ordinance on Notaries' Access to the National Population Database" },
+    "group": "notary"
+  },
+  {
+    "id": "nnrbld",
+    "lex": "2135655311",
+    "abbr": "Наредба НРБЛД",
+    "title": { "bg": "Наредба за достъпа на нотариусите до Националния регистър на българските лични документи", "en": "Ordinance on Notaries' Access to the National Register of Bulgarian Identity Documents" },
+    "group": "notary"
+  },
+  {
+    "id": "zzd",
+    "lex": "2121934337",
+    "abbr": "ЗЗД",
+    "title": { "bg": "Закон за задълженията и договорите", "en": "Obligations and Contracts Act" },
+    "group": "civil"
+  },
+  {
+    "id": "zls",
+    "lex": "2121624577",
+    "abbr": "ЗЛС",
+    "title": { "bg": "Закон за лицата и семейството", "en": "Persons and Family Act" },
+    "group": "civil",
+    "bareNumbers": true
+  },
+  {
+    "id": "kmchp",
+    "lex": "2135503651",
+    "abbr": "КМЧП",
+    "title": { "bg": "Кодекс на международното частно право", "en": "Private International Law Code" },
+    "group": "civil"
+  },
+  {
+    "id": "zs",
+    "lex": "2122102787",
+    "abbr": "ЗС",
+    "title": { "bg": "Закон за собствеността", "en": "Property Act" },
+    "group": "civil"
+  },
+  {
+    "id": "sk",
+    "lex": "2135637484",
+    "abbr": "СК",
+    "title": { "bg": "Семеен кодекс", "en": "Family Code" },
+    "group": "civil"
+  },
+  {
+    "id": "zn",
+    "lex": "2121542657",
+    "abbr": "ЗН",
+    "title": { "bg": "Закон за наследството", "en": "Inheritance Act" },
+    "group": "civil"
+  },
+  {
+    "id": "konst",
+    "lex": "521957377",
+    "abbr": "Конституция",
+    "title": { "bg": "Конституция на Република България (извадка)", "en": "Constitution of the Republic of Bulgaria (extract)" },
+    "group": "civil",
+    "include": ["4-5", "17-22", "117-122", "134"]
+  },
+  {
+    "id": "tz",
+    "lex": "-14917630",
+    "abbr": "ТЗ",
+    "title": { "bg": "Търговски закон (извадка)", "en": "Commerce Act (extract)" },
+    "group": "commercial",
+    "include": ["1-17", "21-28", "56-64", "113-156", "221-235", "455-535"]
+  },
+  {
+    "id": "ztr",
+    "lex": "2135522741",
+    "abbr": "ЗТРРЮЛНЦ",
+    "title": { "bg": "Закон за търговския регистър и регистъра на юридическите лица с нестопанска цел", "en": "Commercial Register and Register of Non-Profit Legal Entities Act" },
+    "group": "commercial"
+  },
+  {
+    "id": "zoz",
+    "lex": "2133897734",
+    "abbr": "ЗОЗ",
+    "title": { "bg": "Закон за особените залози", "en": "Special Pledges Act" },
+    "group": "commercial"
+  },
+  {
+    "id": "zkir",
+    "lex": "2134918656",
+    "abbr": "ЗКИР",
+    "title": { "bg": "Закон за кадастъра и имотния регистър", "en": "Cadastre and Property Register Act" },
+    "group": "registers"
+  },
+  {
+    "id": "pv",
+    "lex": "-25375744",
+    "abbr": "ПВ",
+    "title": { "bg": "Правилник за вписванията", "en": "Regulations on Entries" },
+    "group": "registers"
+  },
+  {
+    "id": "zspzz",
+    "lex": "2132550145",
+    "abbr": "ЗСПЗЗ",
+    "title": { "bg": "Закон за собствеността и ползването на земеделските земи (извадка)", "en": "Ownership and Use of Agricultural Land Act (extract)" },
+    "group": "registers",
+    "include": ["1-5", "24а-24б"]
+  },
+  {
+    "id": "zaz",
+    "lex": "2133894145",
+    "abbr": "ЗАЗ",
+    "title": { "bg": "Закон за арендата в земеделието", "en": "Agricultural Lease Act" },
+    "group": "registers"
+  },
+  {
+    "id": "zmdt",
+    "lex": "2134174720",
+    "abbr": "ЗМДТ",
+    "title": { "bg": "Закон за местните данъци и такси (извадка)", "en": "Local Taxes and Fees Act (extract)" },
+    "group": "tax",
+    "include": ["1-61"]
+  },
+  {
+    "id": "dopk",
+    "lex": "2135514513",
+    "abbr": "ДОПК",
+    "title": { "bg": "Данъчно-осигурителен процесуален кодекс (извадка)", "en": "Tax and Social Insurance Procedure Code (extract)" },
+    "group": "tax",
+    "include": ["263-264"]
+  },
+  {
+    "id": "zopvb",
+    "lex": "2135718725",
+    "abbr": "ЗОПБ",
+    "title": { "bg": "Закон за ограничаване на плащанията в брой", "en": "Limitation of Cash Payments Act" },
+    "group": "tax"
+  },
+  {
+    "id": "zvevro",
+    "lex": "2137244903",
+    "abbr": "ЗВЕРБ",
+    "title": { "bg": "Закон за въвеждане на еврото в Република България (извадка)", "en": "Act on the Introduction of the Euro in the Republic of Bulgaria (extract)" },
+    "group": "tax",
+    "include": ["1-14"]
+  },
+  {
+    "id": "zmip",
+    "lex": "2137182924",
+    "abbr": "ЗМИП",
+    "title": { "bg": "Закон за мерките срещу изпирането на пари", "en": "Measures Against Money Laundering Act" },
+    "group": "aml"
+  },
+  {
+    "id": "ppzmip",
+    "lex": "2137189981",
+    "abbr": "ППЗМИП",
+    "title": { "bg": "Правилник за прилагане на Закона за мерките срещу изпирането на пари", "en": "Regulations for the Implementation of the Measures Against Money Laundering Act" },
+    "group": "aml"
+  },
+  {
+    "id": "zdvp",
+    "lex": "2134649345",
+    "abbr": "ЗДвП",
+    "title": { "bg": "Закон за движението по пътищата (извадка)", "en": "Road Traffic Act (extract)" },
+    "group": "other",
+    "include": ["140-145"]
+  },
+  {
+    "id": "zbld",
+    "lex": "2134424576",
+    "abbr": "ЗБЛД",
+    "title": { "bg": "Закон за българските лични документи (извадка)", "en": "Bulgarian Identity Documents Act (extract)" },
+    "group": "other",
+    "include": ["1-3", "13", "75-77"]
+  },
+  {
+    "id": "zzld",
+    "lex": "2135426048",
+    "abbr": "ЗЗЛД",
+    "title": { "bg": "Закон за защита на личните данни", "en": "Personal Data Protection Act" },
+    "group": "other"
+  },
+  {
+    "id": "zna",
+    "lex": "2127837184",
+    "abbr": "ЗНА",
+    "title": { "bg": "Закон за нормативните актове", "en": "Normative Acts Act" },
+    "group": "other"
+  },
+  {
+    "id": "zsv",
+    "lex": "2135560660",
+    "abbr": "ЗСВ",
+    "title": { "bg": "Закон за съдебната власт (извадка)", "en": "Judiciary Act (extract)" },
+    "group": "other",
+    "include": ["279-284", "294-302"]
+  },
+  {
+    "id": "plzp",
+    "lex": "-23555583",
+    "abbr": "ПЛЗП",
+    "title": { "bg": "Правилник за легализациите, заверките и преводите на документи и други книжа", "en": "Regulations on Legalisations, Certifications and Translations of Documents" },
+    "group": "other"
+  }
+]

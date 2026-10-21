@@ -1,0 +1,13 @@
+/* Constitution of the Republic of Bulgaria, articles cited in the course: unofficial English working translation. */
+NotaryLaws.registerTranslation('konst', {
+  '5': { t: '', p: [
+    'Art. 5. (1) The Constitution is the supreme law, and other laws may not contradict it.',
+    '(2) The provisions of the Constitution apply directly.',
+    '(3) No one may be convicted for an act or omission that was not a crime under the law when it was committed.',
+    '(4) International treaties ratified under the Constitution, promulgated and in force for Bulgaria, are part of domestic law. They prevail over conflicting domestic rules.',
+    '(5) All normative acts are published. They enter into force three days after promulgation, unless they set another term.'] },
+  '22': { t: '', p: [
+    'Art. 22. (1) Foreigners and foreign legal entities may acquire ownership of land under the conditions arising from Bulgaria\'s accession to the European Union or under an international treaty ratified, promulgated and in force for Bulgaria, and by legal inheritance.',
+    '(2) The law ratifying an international treaty under para. 1 is adopted by a two-thirds majority of all members of Parliament.',
+    '(3) The regime of land is set by law.'] }
+});

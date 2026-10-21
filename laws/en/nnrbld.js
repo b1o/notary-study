@@ -1,0 +1,10 @@
+/* Ordinance on notaries' access to the National Register of Bulgarian Identity Documents: unofficial English working translation. */
+NotaryLaws.registerTranslation('nnrbld', {
+  '1': { t: '', p: [
+    'Art. 1. (1) This ordinance sets the conditions and procedure for notaries\' access to the National Automated Information Fund for Bulgarian Identity Documents – "National Register of Bulgarian Identity Documents" (NRBID).',
+    '(2) Access is only electronic, through a Connection System.',
+    '(3) Electronic access covers only identity documents that have a photo in the NRBID.',
+    '(4) The Connection System is built and maintained by the Notary Chamber at its expense.'] },
+  '2': { t: '', p: ['Art. 2. Only notaries and assistant notaries entered in the register of the Notary Chamber, and registration judges when substituting under Art. 48(1) of the Notaries Act, have individual access to the data of the NRBID.'] },
+  '3': { t: '', p: ['Art. 3. Information obtained from an inquiry is used only for the notary\'s duties under Art. 25(3) of the Notaries Act and is not stored in any register other than the NRBID.'] }
+});

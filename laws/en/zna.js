@@ -1,0 +1,22 @@
+/* Normative Acts Act (ЗНА), articles cited in the course: unofficial English working translation. */
+NotaryLaws.registerTranslation('zna', {
+  '3': { t: 'Law', p: [
+    'Art. 3. (1) A law is a normative act that regulates, primarily or on the basis of the Constitution, social relations capable of lasting regulation, according to their subject or subjects, in one or several institutions of law or their subdivisions.',
+    '(2) To regulate other relations on this subject, the law may provide for a secondary act.'] },
+  '4': { t: 'Code', p: ['Art. 4. (1) A code is a normative act that regulates the social relations of a whole branch of the legal system or of a separate part of it.', '(2) The rules of this Act on laws also apply to codes.'] },
+  '6': { t: 'Decrees of the Council of Ministers', p: ['Art. 6. The Council of Ministers issues decrees:', '1) when it adopts regulations, ordinances or instructions;', '2) when, in line with the laws, it regulates social relations they do not cover in the field of its executive activity.'] },
+  '7': { t: 'Regulation, ordinance, instruction', p: [
+    'Art. 7. (1) A regulation (правилник) is a normative act issued to apply a law as a whole, for the organisation of state and local bodies or for the internal order of their activity.',
+    '(2) An ordinance (наредба) is a normative act issued to apply separate provisions or subdivisions of a higher act.',
+    '(3) An instruction is a normative act by which a higher body gives directions to subordinate bodies on applying an act it issued or must implement.'] },
+  '8': { t: 'Municipal ordinances', p: ['Art. 8. Each municipal council may issue ordinances that regulate, in line with higher acts, social relations of local importance that they do not cover.'] },
+  '12': { t: '', p: ['Art. 12. An act implementing a law may regulate only the matter for which it is to be issued.'] },
+  '14': { t: 'Retroactive effect', p: [
+    'Art. 14. (1) Retroactive effect may be given to a normative act only exceptionally and by an express provision.',
+    '(2) Retroactive effect may be given to an act issued on the basis of another act only if the latter has such effect.',
+    '(3) No retroactive effect may be given to provisions that impose sanctions, unless they are milder than the repealed ones.'] },
+  '15': { t: 'Hierarchy', p: [
+    'Art. 15. (1) A normative act must comply with the Constitution and with the other higher normative acts.',
+    '(2) If a normative act contradicts a regulation of the European Union, the regulation applies.',
+    '(3) If a decree, regulation, ordinance or instruction contradicts a higher act, the courts apply the higher act.'] }
+});
