@@ -4,6 +4,11 @@
       "Art. 1. Entry consists in giving publicity to the acts subject to entry in the manner provided in these Regulations."
     ]
   },
+  "2": {
+    "paragraphs": [
+      "Art. 2. An entry, a note and a deletion are allowed only in the cases expressly provided for in the laws."
+    ]
+  },
   "3": {
     "paragraphs": [
       "Art. 3. (1) Only acts made by notarial procedure or with a notarially certified signature are subject to entry.",
@@ -42,6 +47,20 @@
       "(4) Para. 3 does not apply to entries, notes and deletions under Art. 11, 17, 18, 19, 22, 22a(1) and (3), 23, 24, 25, 26 and 31."
     ]
   },
+  "7": {
+    "paragraphs": [
+      "Art. 7. The entry is made on the order of the registration judge of the registry office where the real estate is, by filing the acts subject to entry in books that are open to the public under section VII and that consist of:",
+      "a) the notarial deeds under Art. 4, letter \"a\", filed in order, and",
+      "b) all other acts under Art. 4, filed in order."
+    ]
+  },
+  "8": {
+    "paragraphs": [
+      "Art. 8. (1) The notarial deeds under Art. 4, letter \"a\" are entered on the written request of the notary who made them; all other acts under Art. 4, or copies of them, on the written request of the parties, of a notary or of anybody with an interest in the entry. Notarial deeds made by the registration judge and copies of wills announced by the judge are entered of the judge's own motion.",
+      "(2) For the entry of the notarial deeds under Art. 4, letter \"a\", two identical originals are presented. For the entry of all other acts under Art. 4, the original and an officially certified copy of it are presented, or two such copies if the original cannot be presented; for announced wills concerning real estate and rights in real estate, two notarially certified copies. When the entry is made on the request of a notary, three identical copies, or three copies, are presented.",
+      "(3) An entry of officially certified extracts is also allowed; they must contain the essential terms of the act entered."
+    ]
+  },
   "9": {
     "title": "Procedure of entry",
     "paragraphs": [
@@ -58,6 +77,61 @@
       "a) claims for termination (Art. 87(3) of the Obligations and Contracts Act), annulment (Art. 32), revocation (Art. 227 of that Act and Art. 37 of the Inheritance Act) or declaration of nullity (Art. 26) of acts subject to entry under Art. 4;",
       "b) claims for a decision on the conclusion of a final contract (Art. 19(3) of the Obligations and Contracts Act) that transfers or creates a real right in real estate; and",
       "c) claims for other decisions under Art. 4, letters \"h\", \"j\" and \"k\"."
+    ]
+  },
+  "12": {
+    "paragraphs": [
+      "Art. 12. (1) For the entry or the note under Art. 11, the statement of claim filed with the court, on which the state fee for opening the case was paid, is presented together with a copy or an extract of it. The statement of claim must meet the requirements of Art. 6.",
+      "(2) The entry is made on the order of the registration judge by writing briefly the relief sought in the claim in the personal partida concerned. The copy of the claim is filed in a special office file, and the original is returned to the court where the case was opened. If the claim concerns several acts, the record in the partida book is made against the record of each of them.",
+      "(3) If the act to which the claim refers is not entered, the claim is entered under the procedure of Art. 9."
+    ]
+  },
+  "13": {
+    "paragraphs": [
+      "Art. 13. The entry under the preceding article is deleted by noting in the partida book the court act that orders the deletion or that terminates the proceedings in the case."
+    ]
+  },
+  "14": {
+    "paragraphs": [
+      "Art. 14. The final decisions on the claims under Art. 11 are noted in the manner set out in Art. 12, on a copy of the decision presented. In that case the decision must also meet the requirements of Art. 6."
+    ]
+  },
+  "19": {
+    "paragraphs": [
+      "Art. 19. (1) The entry of a mortgage (Art. 179 of the Obligations and Contracts Act) is deleted on the written consent of the creditor, given in notarially certified form, or on a final court act that orders the deletion. When the creditor is a state body, no certification of the signature is required.",
+      "(2) A mortgage on real estate sold at a public sale is deleted on the request of the buyer. With the request, the buyer presents the final order of award of the property, entered in the books of entries, and a certificate of the bailiff that the buyer did not take over the mortgage by agreement with the mortgage creditor under Art. 175(2) of the Obligations and Contracts Act.",
+      "(3) Anybody with an interest may request the deletion. It is made by a note on the side of the entered act that states the document on which it is based and the time when it is made. The note is signed by the registration judge. When there is no free space left on the mortgage deed, an official of the registry office, on the order of the registration judge, attaches an extension sheet fixed with the official's signature and the seal of the office in at least two places. The registration judge makes a special remark about the extension after the certification under Art. 35(3)."
+    ]
+  },
+  "22": {
+    "paragraphs": [
+      "Art. 22. When 10 years have passed from the date of the entry and it was not renewed, the deletion is made on the request of the person concerned, without other evidence."
+    ]
+  },
+  "32а": {
+    "paragraphs": [
+      "Art. 32a. (1) When the act recorded in the incoming register does not meet the requirements of the law or is not subject to entry, the registration judge rules a refusal. The act is recorded in the register of refusals under Art. 33, letter \"n\", with the refusal and its date.",
+      "(2) The acts for which a refusal was ruled are filed in the book of refusals under Art. 33, letter \"o\". Every two hundred filed copies form one volume. Each volume starts a new numbering of its sheets. The numbering of the acts and the volumes starts again each year.",
+      "(3) (Repealed.)",
+      "(4) The ruling of refusal is served on the person concerned against signature. The appeal against the refusal and the final ruling of the regional court are recorded in the register of refusals under Art. 33, letter \"n\", at the number of the refusal itself, and are filed in the book under Art. 33, letter \"o\".",
+      "(5) (Repealed.)"
+    ]
+  },
+  "32б": {
+    "paragraphs": [
+      "Art. 32b. The rules of Art. 32a also apply accordingly to a refusal of a note and a refusal of a deletion."
+    ]
+  },
+  "32в": {
+    "paragraphs": [
+      "Art. 32c. When the appeal against a refusal of an entry, a note or a deletion is granted, the entry, the note or the deletion is deemed made from the moment the act was recorded in the incoming register."
+    ]
+  },
+  "33в": {
+    "paragraphs": [
+      "Art. 33c. (1) A technical error is any mismatch between the content of the entered act and the data from it recorded in the respective partidas.",
+      "(2) Technical errors are established on the request of the person concerned or of a notary, or of the office's own motion by an official of the registry office. For the error found, the official draws up a declaratory protocol, signs it and presents it to the head of the Registry Agency or to a person designated by the head.",
+      "(3) A technical error is corrected on the order of the head of the Registry Agency or of a person designated by the head."
     ]
   },
   "46": {

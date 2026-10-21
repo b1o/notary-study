@@ -34,6 +34,7 @@
         "persons",
         "contracts",
         "property",
+        "planning",
         "family",
         "inheritance",
         "commercial"
@@ -49,7 +50,8 @@
         "procedure",
         "deeds",
         "certifications",
-        "other-acts"
+        "other-acts",
+        "defects-entries"
       ]
     },
     {
@@ -229,10 +231,25 @@
       }
     },
     {
-      "id": "family",
+      "id": "planning",
       "number": 10,
       "part": "civil",
-      "file": "10-family",
+      "file": "10-planning",
+      "minutes": 45,
+      "title": {
+        "en": "Planning and building rules in deeds",
+        "bg": "Устройство на територията в нотариалните сделки"
+      },
+      "summary": {
+        "en": "Territories, plots and plans; the minimum size of plots; partition of buildings; the building right by stages of construction; condominiums; rights of passage and networks.",
+        "bg": "Територии, имоти и планове; минимални размери на имотите; делба на сгради; правото на строеж по етапи на строителството; етажна собственост; право на преминаване и мрежи."
+      }
+    },
+    {
+      "id": "family",
+      "number": 12,
+      "part": "civil",
+      "file": "12-family",
       "minutes": 40,
       "title": {
         "en": "Family property and children",
@@ -245,9 +262,9 @@
     },
     {
       "id": "inheritance",
-      "number": 11,
+      "number": 13,
       "part": "civil",
-      "file": "11-inheritance",
+      "file": "13-inheritance",
       "minutes": 45,
       "title": {
         "en": "Inheritance law",
@@ -260,9 +277,9 @@
     },
     {
       "id": "commercial",
-      "number": 12,
+      "number": 14,
       "part": "civil",
-      "file": "12-commercial",
+      "file": "14-commercial",
       "minutes": 35,
       "title": {
         "en": "Commercial law for the notary office",
@@ -275,9 +292,9 @@
     },
     {
       "id": "procedure",
-      "number": 13,
+      "number": 16,
       "part": "procedure",
-      "file": "13-procedure",
+      "file": "16-procedure",
       "minutes": 35,
       "title": {
         "en": "General rules of notarial proceedings",
@@ -290,9 +307,9 @@
     },
     {
       "id": "deeds",
-      "number": 14,
+      "number": 17,
       "part": "procedure",
-      "file": "14-deeds",
+      "file": "17-deeds",
       "minutes": 50,
       "title": {
         "en": "Notarial deeds step by step",
@@ -305,9 +322,9 @@
     },
     {
       "id": "certifications",
-      "number": 15,
+      "number": 18,
       "part": "procedure",
-      "file": "15-certifications",
+      "file": "18-certifications",
       "minutes": 40,
       "title": {
         "en": "Certifying signatures, content, dates and copies",
@@ -320,9 +337,9 @@
     },
     {
       "id": "other-acts",
-      "number": 16,
+      "number": 19,
       "part": "procedure",
-      "file": "16-other-acts",
+      "file": "19-other-acts",
       "minutes": 35,
       "title": {
         "en": "Invitations, service at addresses, protocols and safekeeping",
@@ -334,10 +351,25 @@
       }
     },
     {
+      "id": "defects-entries",
+      "number": 20,
+      "part": "procedure",
+      "file": "20-defects-entries",
+      "minutes": 45,
+      "title": {
+        "en": "Non-contentious rules, defects of acts and entries",
+        "bg": "Охранителни правила, пороци на актовете и вписвания"
+      },
+      "summary": {
+        "en": "The general rules behind every notarial proceeding, what a notarial act proves, how a court cancels a declaratory deed, and how the registration judge enters, refuses and deletes.",
+        "bg": "Общите правила зад всяко нотариално производство, какво доказва нотариалният акт, как съдът отменя констативен акт и как съдията по вписванията вписва, отказва и заличава."
+      }
+    },
+    {
       "id": "sale",
-      "number": 17,
+      "number": 21,
       "part": "deals",
-      "file": "17-sale",
+      "file": "21-sale",
       "minutes": 55,
       "title": {
         "en": "Sale of real estate from the first call to entry",
@@ -350,9 +382,9 @@
     },
     {
       "id": "property-deals",
-      "number": 18,
+      "number": 22,
       "part": "deals",
-      "file": "18-property-deals",
+      "file": "22-property-deals",
       "minutes": 45,
       "title": {
         "en": "Gifts, exchange, care contracts, building rights, partition and mortgages",
@@ -365,9 +397,9 @@
     },
     {
       "id": "vehicles",
-      "number": 19,
+      "number": 23,
       "part": "deals",
-      "file": "19-vehicles",
+      "file": "23-vehicles",
       "minutes": 30,
       "title": {
         "en": "Sale of motor vehicles",
@@ -380,9 +412,9 @@
     },
     {
       "id": "poa",
-      "number": 20,
+      "number": 24,
       "part": "deals",
-      "file": "20-poa",
+      "file": "24-poa",
       "minutes": 40,
       "title": {
         "en": "Powers of attorney and declarations",
@@ -395,9 +427,9 @@
     },
     {
       "id": "company",
-      "number": 21,
+      "number": 25,
       "part": "deals",
-      "file": "21-company",
+      "file": "25-company",
       "minutes": 35,
       "title": {
         "en": "Company transactions at the notary",
@@ -410,9 +442,9 @@
     },
     {
       "id": "succession",
-      "number": 22,
+      "number": 26,
       "part": "deals",
-      "file": "22-succession",
+      "file": "26-succession",
       "minutes": 40,
       "title": {
         "en": "Wills and inheritance work in the office",
@@ -425,9 +457,9 @@
     },
     {
       "id": "aml",
-      "number": 23,
+      "number": 27,
       "part": "compliance",
-      "file": "23-aml",
+      "file": "27-aml",
       "minutes": 40,
       "title": {
         "en": "Money laundering prevention",
@@ -440,9 +472,9 @@
     },
     {
       "id": "fees",
-      "number": 24,
+      "number": 28,
       "part": "compliance",
-      "file": "24-fees",
+      "file": "28-fees",
       "minutes": 40,
       "title": {
         "en": "Fees, taxes and payments",
@@ -455,9 +487,9 @@
     },
     {
       "id": "institutions",
-      "number": 25,
+      "number": 29,
       "part": "compliance",
-      "file": "25-institutions",
+      "file": "29-institutions",
       "minutes": 45,
       "title": {
         "en": "Working with institutions and registers",
@@ -470,9 +502,9 @@
     },
     {
       "id": "records",
-      "number": 26,
+      "number": 30,
       "part": "compliance",
-      "file": "26-records",
+      "file": "30-records",
       "minutes": 30,
       "title": {
         "en": "Registers, archive and data protection",
@@ -485,9 +517,9 @@
     },
     {
       "id": "ethics",
-      "number": 27,
+      "number": 31,
       "part": "practice",
-      "file": "27-ethics",
+      "file": "31-ethics",
       "minutes": 35,
       "title": {
         "en": "Ethics, client service and fraud prevention",
@@ -500,9 +532,9 @@
     },
     {
       "id": "cases",
-      "number": 28,
+      "number": 32,
       "part": "practice",
-      "file": "28-cases",
+      "file": "32-cases",
       "minutes": 60,
       "title": {
         "en": "Case studies: full simulations",

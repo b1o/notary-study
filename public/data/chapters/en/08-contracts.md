@@ -18,11 +18,11 @@ A contract is concluded when the acceptance reaches the person who made the offe
 | Consent to delete a mortgage | Notarially certified form | [[zzd:179]] |
 | Lease of real estate for more than one year | Signatures certified so that it can be entered ([[pv:3]], [[pv:4]]). An entered lease binds a new owner for the whole term; a lease with a certain date but not entered binds the new owner for at most one year after the transfer | [[zzd:237]] |
 
-A contract without the form that the law requires is void ([[zzd:26:1]]).
+A contract without the form that the law requires is void ([[zzd:26:2]]).
 
 ## Sham deals and the price declaration
 
-Parties sometimes write a different deal from the real one: a "sale" that is really a gift, or a sale at a low price to pay less tax and fees. The law calls this a **sham** contract ({{привидна сделка}}). The sham contract is void ([[zzd:26:1]]). The hidden contract applies if it meets its own conditions of validity ([[zzd:17]]).
+Parties sometimes write a different deal from the real one: a "sale" that is really a gift, or a sale at a low price to pay less tax and fees. The law calls this a **sham** contract ({{привидна сделка}}). The sham contract is void ([[zzd:26:2]]). The hidden contract applies if it meets its own conditions of validity ([[zzd:17]]).
 
 To limit this practice, the parties to every onerous deal with real estate **declare in the deed that the price is the payment actually agreed** ([[znnd:25:9]]). A false declaration before the notary is a crime under Art. 313 of the Criminal Code. The notary must explain this to the parties.
 
@@ -51,7 +51,7 @@ If one party to a bilateral contract does not perform, the other may terminate i
 
 ## Limitation periods
 
-As a general rule, claims lapse after **five years** ([[zzd:110]]). Claims for damages and penalties for breach of contract, rent, interest and other periodic payments lapse after **three years** ([[zzd:111]]). This explains why banks and landlords serve notarial invitations in time (chapter 16).
+As a general rule, claims lapse after **five years** ([[zzd:110]]). Claims for damages and penalties for breach of contract, rent, interest and other periodic payments lapse after **three years** ([[zzd:111]]). This explains why banks and landlords serve notarial invitations in time (chapter 19).
 
 ## The main contracts in the office
 
@@ -92,7 +92,7 @@ A creditor may transfer a claim with its securities ([[zzd:99]]). The assignment
 
 ### Transfer of property against maintenance and care
 
-This contract ({{договор за прехвърляне на имот срещу задължение за издръжка и гледане}}) is not named in ЗЗД. It is valid under the freedom of contract ([[zzd:9]]) and is entered like a sale ([[pv:4]]). An older person transfers a home to a younger person who must support and care for the transferor for life. Because the obligation is personal and long, the contract fails in practice when the relationship fails. The transferor can terminate it only through a court ([[zzd:87]]). Chapter 18 explains the deed.
+This contract ({{договор за прехвърляне на имот срещу задължение за издръжка и гледане}}) is not named in ЗЗД. It is valid under the freedom of contract ([[zzd:9]]) and is entered like a sale ([[pv:4]]). An older person transfers a home to a younger person who must support and care for the transferor for life. Because the obligation is personal and long, the contract fails in practice when the relationship fails. The transferor can terminate it only through a court ([[zzd:87]]). Chapter 22 explains the deed.
 
 ## Court claims that the registry office records
 
@@ -104,4 +104,4 @@ The following claims about deeds that are entered must themselves be entered or 
 - a declaration of nullity under [[zzd:26]];
 - a claim for the conclusion of a final contract under [[zzd:19]].
 
-The entry warns every later buyer. When the office checks a property, a recorded claim is one of the most important findings (chapter 17).
+The entry warns every later buyer. When the office checks a property, a recorded claim is one of the most important findings (chapter 21).

@@ -1,6 +1,6 @@
 ## Why companies come to the notary
 
-The Commercial Register accepts many documents only when signatures, and sometimes content, are notarially certified. The registration officer at the Registry Agency checks the form of every document, and checks that a document with a certified signature was entered in the information system of the Notary Chamber and matches the entered data ([[ztr:21]]). A protocol or contract in the wrong form is refused, and some decisions in the wrong form are **null** ([[tz:137:5]]). Companies also act in real estate deals as buyers and sellers (chapter 17). This chapter covers the typical company files.
+The Commercial Register accepts many documents only when signatures, and sometimes content, are notarially certified. The registration officer at the Registry Agency checks the form of every document, and checks that a document with a certified signature was entered in the information system of the Notary Chamber and matches the entered data ([[ztr:21]]). A protocol or contract in the wrong form is refused, and some decisions in the wrong form are **null** ([[tz:137:5]]). Companies also act in real estate deals as buyers and sellers (chapter 21). This chapter covers the typical company files.
 
 ## Before any company act
 
@@ -42,7 +42,7 @@ The company files an application to the Commercial Register **within 7 days** of
 
 ## Specimen signature and consent of a manager
 
-A newly elected manager is entered in the Commercial Register after presenting a **notarially certified consent** with a **specimen of the signature** ([[tz:141:3]]). The manager signs a short declaration: "I agree to be the manager of ... and my signature is: ....". The notary certifies the signature (chapter 15); the original goes to the register.
+A newly elected manager is entered in the Commercial Register after presenting a **notarially certified consent** with a **specimen of the signature** ([[tz:141:3]]). The manager signs a short declaration: "I agree to be the manager of ... and my signature is: ....". The notary certifies the signature (chapter 18); the original goes to the register.
 
 The same applies by analogy to members of the boards of joint-stock companies and to procurators, whose entry needs a specimen signature.
 
@@ -70,4 +70,4 @@ Company shares and a whole enterprise can be pledged without handing them over, 
 
 ## Anti-money laundering for companies
 
-For every company client, the notary identifies the **beneficial owner**: the natural person who ultimately owns or controls the company ([[zmip:59]]). Sources: the beneficial owner data in the Commercial Register ([[zmip:63]]) and, if this is not enough or contradictory, a **declaration** by the legal representative ([[zmip:59:1]]). The notary also checks whether the client acts for itself or for somebody else ([[zmip:65]]). Chapter 23 explains the full procedure.
+For every company client, the notary identifies the **beneficial owner**: the natural person who ultimately owns or controls the company ([[zmip:59]]). Sources: the beneficial owner data in the Commercial Register ([[zmip:63]]) and, if this is not enough or contradictory, a **declaration** by the legal representative ([[zmip:59:1]]). The notary also checks whether the client acts for itself or for somebody else ([[zmip:65]]). Chapter 27 explains the full procedure.

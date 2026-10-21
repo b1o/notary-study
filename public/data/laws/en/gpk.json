@@ -20,6 +20,15 @@
       "(7) When the party is an executive body, service through the system under para. 2, item 3 is not possible."
     ]
   },
+  "38а": {
+    "title": "Duty to state an electronic address",
+    "paragraphs": [
+      "Art. 38a. (1) A person who performs a procedural act in electronic form must state an electronic address for notice of receipt of the electronic statement and of the result of the technical check.",
+      "(2) When performing a procedural act in electronic form, the person may agree to receive electronic statements and documents from the court in the proceedings before that instance or all instances.",
+      "(3) A person who performs a procedural act in the single portal for e-justice agrees to receive electronic statements, documents, notices, summonses and papers before that instance and all instances.",
+      "(4) The consent under paras. 2 and 3 may be withdrawn at any time without affecting acts already performed."
+    ]
+  },
   "39": {
     "title": "Service on a representative",
     "paragraphs": [
@@ -41,6 +50,13 @@
     "paragraphs": [
       "Art. 41. (1) A party who is absent for more than one month from the address given in the case, or at which a notice was once served, must notify the court of the new address. The same applies when the party gave an electronic address for service, and to the legal representative, the curator and the agent.",
       "(2) If this duty is not met, or the party changed the electronic address without notice or gave a false or non-existent address, all notices are attached to the case and deemed served. The court warns the party of this on serving the first notice."
+    ]
+  },
+  "41а": {
+    "title": "Service by electronic message",
+    "paragraphs": [
+      "Art. 41a. (1) In service under Art. 38(2), the message with the information for download is deemed served on the day the addressee downloads it. If it is not downloaded within 7 days of dispatch, it is deemed served on the first day after that term.",
+      "(2) In service under Art. 38(3) and (6), the message is deemed served on the day the addressee confirms receipt. If receipt is not confirmed within 7 days, the notice is served in the ordinary way."
     ]
   },
   "42": {
@@ -269,6 +285,22 @@
       "(2) A private document of a blind but literate person must be countersigned by two witnesses."
     ]
   },
+  "193": {
+    "title": "Contesting the authenticity of a document",
+    "paragraphs": [
+      "Art. 193. (1) The interested party may contest the authenticity of a document at the latest in the reply to the procedural act with which the document was presented. When the document is presented at a court hearing, it may be contested at the latest by the end of that hearing.",
+      "(2) The court orders a check of the authenticity of the document if the other party states that it wishes to rely on it.",
+      "(3) The burden of proving that the document is not authentic lies on the party that contests it. When the authenticity of a private document that does not bear the signature of the contesting party is contested, the burden of proving its authenticity lies on the party that presented it."
+    ]
+  },
+  "194": {
+    "title": "Check of a document",
+    "paragraphs": [
+      "Art. 194. (1) The court makes the check by comparison with other undisputed documents, by questioning witnesses or by experts.",
+      "(2) After the check, the court rules either that the contest is not proved or that the document is not authentic. In the latter case, it excludes the document from the evidence and sends it to the prosecutor together with its ruling.",
+      "(3) The court may also rule on the contest of the document in its decision on the case. In that case, the document is sent to the prosecutor together with a copy of the decision."
+    ]
+  },
   "275": {
     "title": "Term and content of a private appeal",
     "paragraphs": [
@@ -303,6 +335,90 @@
       "(4) After the writ is issued, bailiffs get access to the electronic order and the document through the single portal for e-justice.",
       "(5) A refusal to issue a writ may be appealed by the applicant within one week by a private appeal, without a copy for service.",
       "(6) The bailiff serves on the debtor a copy of the order and of the document with the note of the writ, and sends the court an electronic copy of the service."
+    ]
+  },
+  "530": {
+    "title": "Applicable rules",
+    "paragraphs": [
+      "Art. 530. The non-contentious proceedings provided for in this and in other laws are governed by the rules of this chapter, as far as no special rules are laid down."
+    ]
+  },
+  "531": {
+    "title": "Jurisdiction over the request",
+    "paragraphs": [
+      "Art. 531. (1) A non-contentious proceeding starts with a written request of the interested person.",
+      "(2) The request is filed with the district court in whose district the applicant has a permanent address. If the applicants have different permanent addresses, it is filed with the court of the permanent address of one of them."
+    ]
+  },
+  "532": {
+    "title": "Consideration of the request in a closed session",
+    "paragraphs": [
+      "Art. 532. The request is considered in a closed session, unless the court finds that an open hearing is necessary for the correct decision of the case."
+    ]
+  },
+  "533": {
+    "title": "Check of the court's own motion",
+    "paragraphs": [
+      "Art. 533. The court must check of its own motion whether the conditions for issuing the requested act exist. It may collect evidence on its own initiative and take into account facts that the applicant did not state."
+    ]
+  },
+  "534": {
+    "title": "Personal appearance and declaration of facts",
+    "paragraphs": [
+      "Art. 534. The court may order the personal appearance of the applicant. It may require the applicant to confirm with a declaration the truth of the facts that the applicant stated."
+    ]
+  },
+  "535": {
+    "title": "Use of evidence",
+    "paragraphs": [
+      "Art. 535. The court may also rely on witness statements given before other bodies, and may instruct another court, the police or the municipalities to collect the necessary evidence."
+    ]
+  },
+  "536": {
+    "title": "Suspension of the proceeding",
+    "paragraphs": [
+      "Art. 536. (1) The non-contentious proceeding is suspended when:",
+      "1. there is a case about a legal relationship that is a condition for issuing the requested act or that the act would establish;",
+      "2. a civil law dispute arises on the request between the applicant and another person who opposes the request; in that case, the court gives the applicant one month to bring a claim; the proceeding is terminated if the claim is not brought within that time.",
+      "(2) The final decision on the dispute binds the court in the non-contentious proceeding under the conditions and within the limits of Art. 298.",
+      "(3) The non-contentious proceeding under para. 1 is suspended, if the conditions for issuing the requested act exist, in the cases of Art. 19(6) of the Commercial Register and Register of Non-Profit Legal Entities Act. The ruling on the suspension may be appealed under chapter twenty-one."
+    ]
+  },
+  "537": {
+    "title": "Challenge of the non-contentious act",
+    "paragraphs": [
+      "Art. 537. (1) A decision that grants the request for the act is not subject to appeal.",
+      "(2) When the act under para. 1 affects the rights of third persons, the dispute that arises from it, if it concerns a civil right, is settled by a claim. The claim is brought against the persons who benefit from the act. When the claim is granted, the act issued is cancelled or changed.",
+      "(3) The prosecutor may bring a claim to cancel the act issued, when it was made in breach of the law. The claim is brought against the persons who benefit from the act."
+    ]
+  },
+  "538": {
+    "title": "Appeal against a refusal",
+    "paragraphs": [
+      "Art. 538. (1) A refusal to issue the act may be appealed within one week from the service of the decision on the party.",
+      "(2) The appeal is filed through the district court. It may also rest on new facts and evidence. The appeal is considered under Art. 278.",
+      "(3) A decision that rejects the request does not prevent a new request to the same court for the same act."
+    ]
+  },
+  "539": {
+    "title": "Termination of the proceeding",
+    "paragraphs": [
+      "Art. 539. (1) The non-contentious proceeding is terminated when:",
+      "1. the request for the act is withdrawn;",
+      "2. the applicant is not found at the address that the applicant stated.",
+      "(2) The ruling that terminates the proceeding may be appealed with a private appeal."
+    ]
+  },
+  "540": {
+    "title": "Application of the rules of claim proceedings",
+    "paragraphs": [
+      "Art. 540. Besides the general rules of this code, the rules of claim proceedings apply accordingly to non-contentious proceedings, except Art. 207–266 and Art. 303–388."
+    ]
+  },
+  "541": {
+    "title": "Costs",
+    "paragraphs": [
+      "Art. 541. The costs of non-contentious proceedings are borne by the applicant."
     ]
   },
   "569": {
@@ -511,22 +627,6 @@
     "paragraphs": [
       "Art. 594. (1) When the notary accepts documents and papers for safekeeping, an acceptance protocol is made in two identical copies signed by the applicant and the notary. One copy is filed in a special register and the other is given to the applicant, charged as a copy.",
       "(2) For the return of the documents, a handover protocol is signed by the applicant, his heirs or a special agent. The protocol is filed in the register."
-    ]
-  },
-  "38а": {
-    "title": "Duty to state an electronic address",
-    "paragraphs": [
-      "Art. 38a. (1) A person who performs a procedural act in electronic form must state an electronic address for notice of receipt of the electronic statement and of the result of the technical check.",
-      "(2) When performing a procedural act in electronic form, the person may agree to receive electronic statements and documents from the court in the proceedings before that instance or all instances.",
-      "(3) A person who performs a procedural act in the single portal for e-justice agrees to receive electronic statements, documents, notices, summonses and papers before that instance and all instances.",
-      "(4) The consent under paras. 2 and 3 may be withdrawn at any time without affecting acts already performed."
-    ]
-  },
-  "41а": {
-    "title": "Service by electronic message",
-    "paragraphs": [
-      "Art. 41a. (1) In service under Art. 38(2), the message with the information for download is deemed served on the day the addressee downloads it. If it is not downloaded within 7 days of dispatch, it is deemed served on the first day after that term.",
-      "(2) In service under Art. 38(3) and (6), the message is deemed served on the day the addressee confirms receipt. If receipt is not confirmed within 7 days, the notice is served in the ordinary way."
     ]
   }
 }

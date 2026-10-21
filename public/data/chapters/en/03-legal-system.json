@@ -46,7 +46,7 @@
     },
     {
       "front": "What happens to a contract without the form required by law?",
-      "back": "It is **void** (Art. 26(1) ЗЗД)."
+      "back": "It is **void** (Art. 26(2) ЗЗД)."
     },
     {
       "front": "Name three grounds that make a contract voidable.",
@@ -144,7 +144,7 @@
         "Nobody; the apartment waits until the child turns 18"
       ],
       "answer": 0,
-      "explanation": "Art. 3 ЗЛС: a child under 14 cannot act; the parents act in the child's name. Consent of the parents is the regime of a minor from 14 to 18 (Art. 4). A disposal of the child's real estate also needs the permission of the district court (Art. 130(3) СК; chapter 10).",
+      "explanation": "Art. 3 ЗЛС: a child under 14 cannot act; the parents act in the child's name. Consent of the parents is the regime of a minor from 14 to 18 (Art. 4). A disposal of the child's real estate also needs the permission of the district court (Art. 130(3) СК; chapter 12).",
       "refs": [
         "zls:3",
         "zls:4",
@@ -160,10 +160,10 @@
         "Valid once entered"
       ],
       "answer": 0,
-      "explanation": "Art. 18 ЗЗД requires a notarial deed for a transfer of real estate; Art. 26(1) makes a contract without the required form void. A void contract has no effect even between the parties, and an entry cannot cure it; only a preliminary contract in writing gives a claim for a final contract (Art. 19).",
+      "explanation": "Art. 18 ЗЗД requires a notarial deed for a transfer of real estate; Art. 26(2) makes a contract without the required form void. A void contract has no effect even between the parties, and an entry cannot cure it; only a preliminary contract in writing gives a claim for a final contract (Art. 19).",
       "refs": [
         "zzd:18",
-        "zzd:26:1",
+        "zzd:26:2",
         "zzd:19"
       ]
     },

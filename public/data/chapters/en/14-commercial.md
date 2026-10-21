@@ -86,4 +86,4 @@ A bill of exchange ({{менителница}}) and a promissory note ({{зап�
 - The notary enters the content of the protest in the register and issues copies; the original goes to the holder ([[tz:504]]).
 - A holder who misses the protest deadlines loses the claims against the endorsers and the drawer ([[tz:514]]). The drawer or an endorser may waive the protest by the clause "без разноски" (without costs) ([[tz:500]]).
 
-The fee for a protest is 50% of the item 8 fee, at least 30 leva (15.34 euro) ([[tarifa:9]]). Chapter 16 explains how the notary visits the debtor.
+The fee for a protest is 50% of the item 8 fee, at least 30 leva (15.34 euro) ([[tarifa:9]]). Chapter 19 explains how the notary visits the debtor.

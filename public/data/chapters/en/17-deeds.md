@@ -84,7 +84,7 @@ The notary checks that the transferor is the owner ([[gpk:586:1]]):
 - **Statement in the deed.** The notary certifies the check in the deed and lists the documents of ownership and the other requirements ([[gpk:586:3]]).
 - **Unentered title.** If the transferor's document of ownership is **not entered**, the deed is **not issued** until that document is entered ([[gpk:586:4]]).
 
-"Special requirements" are the conditions that specific laws add: the declarations under [[znnd:25:8]] and [[znnd:25:9]], the tax assessment and the check for public debts ([[dopk:264:1]]), the offer to co-owners ([[zs:33]]), the consent of the spouse, the court permission for children's property ([[sk:130:3]]), the anti-money laundering declarations, and others. Chapter 17 lists them for a sale.
+"Special requirements" are the conditions that specific laws add: the declarations under [[znnd:25:8]] and [[znnd:25:9]], the tax assessment and the check for public debts ([[dopk:264:1]]), the offer to co-owners ([[zs:33]]), the consent of the spouse, the court permission for children's property ([[sk:130:3]]), the anti-money laundering declarations, and others. Chapter 21 lists them for a sale.
 
 ## Declaratory deeds of ownership
 

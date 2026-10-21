@@ -64,7 +64,7 @@ Every notarial document in Bulgaria is in Bulgarian. When a person does not know
 - **Law library.** Open it from the menu. You can type a citation, for example "чл. 586 ГПК", and go straight to the article.
 - **Tests.** Each chapter test shows the answers and the explanations at the end, not after each question. A chapter counts as done when you mark it as read and score at least 80% in its test. The final exam has 40 random questions from all chapters.
 - **Flashcards.** The cards use Leitner boxes. A card that you know moves to a higher box and comes back later. A card that you miss goes back to box 1.
-- **Templates, checklists and the fee calculator.** The templates and the checklists are study material: read them next to the chapter that uses them. The fee calculator applies the tariff of chapter 24 to an amount.
+- **Templates, checklists and the fee calculator.** The templates and the checklists are study material: read them next to the chapter that uses them. The fee calculator applies the tariff of chapter 28 to an amount.
 
 > [!law] The law changes
 > The law texts in the library come from lex.bg and show the date of retrieval and the last amendment in the source. Before you rely on a provision in a real case, check the official text in the State Gazette ({{Държавен вестник}}). Since 1 January 2026 the currency of Bulgaria is the euro. Amounts in leva in older acts count as euro at 1.95583 leva per euro ([[zvevro:11:2]], [[zvevro:12]]).

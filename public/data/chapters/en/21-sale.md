@@ -29,7 +29,7 @@ The answers decide which documents you need. Ask:
 |---|---|---|
 | Identity document | Identity, capacity ([[gpk:578:5]]) | Ministry of Interior |
 | Document of ownership, **entered** | Ownership check ([[gpk:586]]); unentered title stops the deed ([[gpk:586:4]]) | Earlier notary / court / municipality |
-| For inherited property: certificate of heirs, the deceased's document of ownership, any will | Ownership by inheritance (chapter 11) | Municipality; earlier notary |
+| For inherited property: certificate of heirs, the deceased's document of ownership, any will | Ownership by inheritance (chapter 13) | Municipality; earlier notary |
 | Certificate of **tax assessment** under Art. 264(1) ДОПК ({{удостоверение за данъчна оценка}}) | Base for fees and tax; shows unpaid property taxes ([[dopk:264:1]], [[zmdt:46:2]]) | Municipality, local taxes department |
 | **Sketch** of the plot or **scheme** of the separate object, from the cadastral map | Required for the entry; a sketch-project or scheme-project when the deal forms new or changed properties ([[zkir:77]]) | Cadastre office (АГКК, online) |
 | Declaration on citizenship and marital status | [[znnd:25:8]] | Signed at the office |
@@ -44,10 +44,10 @@ The answers decide which documents you need. Ask:
 |---|---|
 | Identity document | Identity and capacity |
 | Declaration on citizenship and marital status | [[znnd:25:8]] |
-| Information or declaration on the **origin of funds**; declaration on political exposure | Anti-money laundering (chapter 23; [[zmip:11:1]], [[zmip:66]]) |
+| Information or declaration on the **origin of funds**; declaration on political exposure | Anti-money laundering (chapter 27; [[zmip:11:1]], [[zmip:66]]) |
 | For farmland: proof of residence in Bulgaria for more than five years, and a declaration of origin of funds | [[zspzz:3в]] |
 | Proof of payment of the **local tax** on acquisition | The notary must establish that the tax is paid ([[zmdt:50:1]]) |
-| For a bank loan: the bank's documents and the mortgage deed draft | Chapter 18 |
+| For a bank loan: the bank's documents and the mortgage deed draft | Chapter 22 |
 
 ### What the office checks itself
 
@@ -66,7 +66,7 @@ The answers decide which documents you need. Ask:
 
 Read the seller's document and follow the chain back. A buyer's lawyer usually checks at least **10 years**, because ownership by prescription can be acquired in 10 years ([[zs:79]]). Look for:
 
-- gifts from parents who died recently (reduction risk, chapter 11);
+- gifts from parents who died recently (reduction risk, chapter 13);
 - sales by an agent under an old power of attorney;
 - partitions where an heir may be missing ([[zn:75:2]]);
 - declaratory deeds by circumstantial verification (they can be disputed).
@@ -87,7 +87,7 @@ The notary checks electronically at the National Revenue Agency that the seller 
 
 ### Marital status
 
-Check whether the property is **common** (chapter 10). If yes, both spouses sign, or one signs with a proper power of attorney from the other ([[sk:24:3]]). If it is the **personal family home** and the spouses have no other home, the other spouse consents ([[sk:26]]).
+Check whether the property is **common** (chapter 12). If yes, both spouses sign, or one signs with a proper power of attorney from the other ([[sk:24:3]]). If it is the **personal family home** and the spouses have no other home, the other spouse consents ([[sk:26]]).
 
 ## 4. The declarations
 
@@ -137,7 +137,7 @@ The description of the property follows the cadastral data and the sketch or sch
 - the accessories: basement, attic, parking place;
 - the ideal parts of the common parts of the building and of the right of construction or of the land ([[zs:40]]).
 
-Other usual clauses: the price and the way of payment; the declaration of actual price; the handover of possession; the seller's statement about encumbrances, leases and debts; the costs. Send the draft to the parties, their lawyers and the bank in advance. Changes after the deed is signed need a correction deed (chapter 14).
+Other usual clauses: the price and the way of payment; the declaration of actual price; the handover of possession; the seller's statement about encumbrances, leases and debts; the costs. Send the draft to the parties, their lawyers and the bank in advance. Changes after the deed is signed need a correction deed (chapter 17).
 
 ## 7. The signing day
 

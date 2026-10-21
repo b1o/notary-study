@@ -56,7 +56,7 @@ Property fraud in Bulgaria often uses the notary office to give a false deal the
 | **False witnesses** in a circumstantial verification | Witnesses who are not neighbours; vague or identical statements; a property known to belong to others ([[gpk:587:2]]) |
 | **Forged holographic will** | A will presented by a beneficiary right after the death; handwriting doubts; heirs excluded without explanation |
 | **Sham price** | Price far from market; cash; parties ask to write a lower price ([[znnd:25:9]]) |
-| **Money laundering** | Third-party payments; complex company structures; quick resales (chapter 23) |
+| **Money laundering** | Third-party payments; complex company structures; quick resales (chapter 27) |
 
 ## What to do when something is wrong
 

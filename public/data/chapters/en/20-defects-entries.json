@@ -1,0 +1,241 @@
+{
+  "id": "defects-entries",
+  "objectives": [
+    "Explain how the general rules of non-contentious proceedings apply to notarial proceedings.",
+    "Tell what a notarial act proves, and how a third person or the prosecutor challenges it.",
+    "Tell a null notarial act from a void or voidable deal, a clerical error and a technical error, and name the remedy for each.",
+    "Describe how an entry, a note and a deletion are made, and what the registration judge checks.",
+    "Act correctly after a refusal of entry: a new request or an appeal, and the effect on the rank."
+  ],
+  "cards": [
+    {
+      "front": "Which rules apply to a notarial proceeding where the special rules say nothing?",
+      "back": "The **general rules of non-contentious proceedings** (Art. 530 ГПК); the rules of claim proceedings apply accordingly, with exceptions (Art. 540 ГПК)."
+    },
+    {
+      "front": "Is a notarial act that grants a request appealed?",
+      "back": "**No** (Art. 537(1) ГПК). A third person whose rights it affects sues; if the claim succeeds, the court cancels or changes the act (Art. 537(2))."
+    },
+    {
+      "front": "Which notarial acts does a court cancel under Art. 537(2) ГПК?",
+      "back": "Only **declaratory deeds** of ownership, not deeds of transactions (Interpretative Decision No. 3/2012, General Assembly of the Civil College)."
+    },
+    {
+      "front": "A neighbour without any document disputes a declaratory deed in court. Who bears the burden of proof?",
+      "back": "The **neighbour**: the deed legitimises its holder as the owner (Interpretative Decision No. 11/2012, General Assembly of the Civil College)."
+    },
+    {
+      "front": "What does a declaratory deed prove with binding force?",
+      "back": "The **acts of the notary**: who issued it, when, where and on which documents (Art. 179(1) ГПК). It does not prove who owns the property."
+    },
+    {
+      "front": "A party says that the date of a certification was changed afterwards. How is that disputed?",
+      "back": "By contesting the **authenticity** of the document; the contesting party bears the burden of proof (Art. 193(1), (3) ГПК)."
+    },
+    {
+      "front": "Who orders an entry in the property register?",
+      "back": "The **registration judge** of the registry office where the property is (Art. 570(1) ГПК; Art. 7 ПВ)."
+    },
+    {
+      "front": "On whose request is a sale deed entered?",
+      "back": "On the **written request of the notary** who made it (Art. 8(1) ПВ)."
+    },
+    {
+      "front": "What does the registration judge check before an entry?",
+      "back": "That the act is **subject to entry** and has the **form** and the **content** of ПВ; not the substantive conditions, unless a law requires it (Interpretative Decision No. 7/2012, General Assembly of the Civil and Commercial Colleges)."
+    },
+    {
+      "front": "The regional court sets aside a refusal of entry. From when does the entry count?",
+      "back": "From the record of the act in the **incoming register**, so the rank is kept (Art. 32в ПВ; Art. 577(3) ГПК)."
+    },
+    {
+      "front": "A mortgage entry is eleven years old and was never renewed. How is it deleted?",
+      "back": "On the **request** of anybody interested, without other evidence (Art. 22 ПВ)."
+    },
+    {
+      "front": "The partida shows other data than the entered act. What is it, and who fixes it?",
+      "back": "A **technical error** (Art. 33в(1) ПВ). The person concerned or the notary asks, and the Registry Agency corrects it (Art. 33в(2)–(3) ПВ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A notary refuses to certify a power of attorney, and the client wants to appeal. Before which court, and within what time?",
+      "options": [
+        "The regional court, within one week of the notice",
+        "The district court, within one week of the notice",
+        "The regional court, within two weeks of the notice",
+        "The administrative court, within fourteen days"
+      ],
+      "answer": 0,
+      "explanation": "Art. 577(1) ГПК: a refusal of a notarial certification is appealed with a private appeal before the regional court (окръжен съд), and Art. 275(1) sets one week. The general rule sends an appeal through the district court (Art. 538(2)), but the special rule of Art. 577 applies to notaries (Art. 530).",
+      "refs": [
+        "gpk:577:1",
+        "gpk:275:1",
+        "gpk:530"
+      ]
+    },
+    {
+      "question": "In 2015 Ivan got a declaratory deed for a house after a circumstantial verification. In 2026 a court finds, on his cousin's claim, that the cousin owns the house. What happens to Ivan's deed?",
+      "options": [
+        "It is cancelled as a result of the judgment",
+        "It stays in force until Ivan signs a correction deed",
+        "The notary who issued it declares it null on request",
+        "It becomes voidable and lapses after three years"
+      ],
+      "answer": 0,
+      "explanation": "Art. 537(2) ГПК: when an act affects the rights of a third person, the dispute goes to court by a claim, and when the claim succeeds the act is cancelled. A correction deed fixes errors, not ownership, and a notary cannot annul an act already issued.",
+      "refs": [
+        "gpk:537:2"
+      ]
+    },
+    {
+      "question": "A sale deed was issued, but the seller was not the owner. Can the true owner have the deed itself cancelled under Art. 537(2) ГПК?",
+      "options": [
+        "No; that cancellation covers only declaratory deeds",
+        "Yes; any deed that affects a third person is cancelled",
+        "Yes, but only within one year after the entry of the deed",
+        "No; a sale deed cannot be challenged in any court"
+      ],
+      "answer": 0,
+      "explanation": "Interpretative Decision No. 3/2012 (General Assembly of the Civil College): only declaratory deeds of ownership are cancelled under Art. 537(2). The true owner sues for the property and enters the claim, which binds later buyers (Art. 114 ЗС). So a court does decide the dispute; only the deed is not cancelled.",
+      "refs": [
+        "gpk:537:2",
+        "zs:114"
+      ]
+    },
+    {
+      "question": "A neighbour disputes Maria's declaratory deed of 2018 in court. He has no document of ownership. Who must prove what?",
+      "options": [
+        "The neighbour proves that Maria is not the owner",
+        "Maria proves again every fact of her prescription",
+        "The notary proves that the deed was issued correctly",
+        "The neighbour and Maria each prove their own right"
+      ],
+      "answer": 0,
+      "explanation": "Interpretative Decision No. 11/2012 (General Assembly of the Civil College): the declaratory deed legitimises its holder, so a challenger without a document must prove that the holder is not the owner. Each side proves its own right only when both hold notarial deeds. The notary is not a party to the case.",
+      "refs": [
+        "gpk:179:1",
+        "gpk:587:3"
+      ]
+    },
+    {
+      "question": "What does a declaratory deed of ownership prove with binding force?",
+      "options": [
+        "What the notary did and which documents were shown",
+        "That the person named in the deed owns the property",
+        "That the witnesses told the truth about the possession",
+        "That nobody else claimed the property at that date"
+      ],
+      "answer": 0,
+      "explanation": "Art. 179(1) ГПК and Interpretative Decision No. 11/2012: the deed proves the acts of the notary (who, when, where, on which documents, with which decision). The finding about the owner is a conclusion of the notary, which a challenger can rebut in court.",
+      "refs": [
+        "gpk:179:1"
+      ]
+    },
+    {
+      "question": "A party claims that the date of a notarial certification was changed after the signing. How does the party challenge this in court?",
+      "options": [
+        "By contesting the authenticity of the document",
+        "By a claim to cancel the act under Art. 537(2)",
+        "By a private appeal before the regional court",
+        "By a complaint filed with the registration judge"
+      ],
+      "answer": 0,
+      "explanation": "Art. 193(1) ГПК: a party may contest the authenticity of a document; the contesting party bears the burden of proof (Art. 193(3)), and the court checks it by comparison, witnesses or experts (Art. 194(1)). Art. 537(2) protects rights that an act affects, and a private appeal concerns a refusal.",
+      "refs": [
+        "gpk:193:1",
+        "gpk:193:3",
+        "gpk:194:1"
+      ]
+    },
+    {
+      "question": "The registration judge refused to enter a sale deed. The notary appeals, and the regional court sets the refusal aside. From when does the entry count?",
+      "options": [
+        "From the record of the deed in the incoming register",
+        "From the day the decision of the court becomes final",
+        "From the day the notary presents the deed once more",
+        "From the day the parties receive the entered copies"
+      ],
+      "answer": 0,
+      "explanation": "Art. 577(3) ГПК and Art. 32в ПВ: when the appeal succeeds, the entry is deemed made from the moment of the record in the incoming register, so the deed keeps its rank. A new request after a refusal would get a new rank.",
+      "refs": [
+        "gpk:577:3",
+        "pv:32в"
+      ]
+    },
+    {
+      "question": "A sale deed is presented for entry. What does the registration judge check?",
+      "options": [
+        "Whether the act may be entered, its form and content",
+        "That the price in the deed matches the market value",
+        "That the seller acquired the flat lawfully and paid taxes",
+        "That the money of the buyer has a lawful origin"
+      ],
+      "answer": 0,
+      "explanation": "Art. 32а(1) ПВ and Interpretative Decision No. 7/2012: the judge checks whether the act is subject to entry, has the required form and the content of ПВ (Art. 6), not the substantive conditions of the deal. The title, the price and the money are the notary's checks (Art. 586 ГПК; chapter 27).",
+      "refs": [
+        "pv:32а:1",
+        "pv:6:1"
+      ]
+    },
+    {
+      "question": "The request for entry of a mortgage arrives without proof of the fee. What does the registration judge do?",
+      "options": [
+        "Refuses it by a ruling",
+        "Gives the notary three days to fix it",
+        "Enters it and asks for the fee later",
+        "Returns the request with no decision"
+      ],
+      "answer": 0,
+      "explanation": "Interpretative Decision No. 7/2012: the judge may not give instructions to remedy a defective request; the judge refuses under Art. 32а(1) ПВ. The notary then files a new request with the proof, which gets a new rank, or appeals the refusal.",
+      "refs": [
+        "pv:32а:1"
+      ]
+    },
+    {
+      "question": "A mortgage was entered in 2014 and never renewed. In 2026 the owner wants the entry deleted, but the bank does not answer. What is needed?",
+      "options": [
+        "A request of the owner, without other evidence",
+        "The consent of the bank in certified form",
+        "A final court decision that the debt was paid",
+        "A new declaratory deed of the owner for the flat"
+      ],
+      "answer": 0,
+      "explanation": "Art. 22 ПВ: when 10 years have passed from the entry without a renewal, the deletion is made on the request of anybody interested, without other evidence; the effect of the entry ends after 10 years (Art. 172 ЗЗД). The creditor's certified consent (Art. 19(1) ПВ) is the rule while the entry is in force.",
+      "refs": [
+        "pv:22",
+        "zzd:172",
+        "pv:19:1"
+      ]
+    },
+    {
+      "question": "The partida of a flat shows 65 m², but the entered deed says 56 m². What is this, and how is it corrected?",
+      "options": [
+        "A technical error; the registry office corrects it",
+        "A defect of the deed; the parties sign a correction",
+        "A null entry; the deed is entered again in full",
+        "A dispute; the owner sues the Agency in court"
+      ],
+      "answer": 0,
+      "explanation": "Art. 33в(1) ПВ: a mismatch between the entered act and the data in the partida is a technical error. The person concerned or the notary asks (Art. 33в(2)), and the Registry Agency corrects it (Art. 33в(3)). The deed itself is right, so the parties sign nothing.",
+      "refs": [
+        "pv:33в"
+      ]
+    },
+    {
+      "question": "The part of the Civil Procedure Code on notarial acts says nothing on a question. What applies?",
+      "options": [
+        "The general rules of non-contentious proceedings",
+        "The rules of the Notaries Act on the Notary Chamber",
+        "The rules of the Administrative Procedure Code",
+        "Only the instructions of the Council of Notaries"
+      ],
+      "answer": 0,
+      "explanation": "Art. 530 ГПК: the general rules of non-contentious proceedings apply as far as no special rules exist, and Art. 540 adds the rules of claim proceedings, with exceptions. A notarial act is not an administrative act, and guidance of the Council of Notaries is not law.",
+      "refs": [
+        "gpk:530",
+        "gpk:540"
+      ]
+    }
+  ]
+}

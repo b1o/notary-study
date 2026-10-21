@@ -12,7 +12,7 @@ The certification is **not** required for end-of-life vehicles, for vehicles who
 
 A sale to a person **without a permanent address or address registration** in Bulgaria is made only after the registration is terminated and the plates are returned ([[zdvp:144:3]]).
 
-The certification is a certification of signatures (chapter 15). Any notary may perform it ([[gpk:570:2]]). An assistant notary may perform it on the notary's instructions.
+The certification is a certification of signatures (chapter 18). Any notary may perform it ([[gpk:570:2]]). An assistant notary may perform it on the notary's instructions.
 
 > [!warn] Why the form matters
 > Good faith does not protect the buyer of a car from a non-owner, because the transfer needs certified signatures ([[zs:78]]). If a seller of common property is married, the other spouse can challenge the sale like a sale of real estate ([[sk:24:5]]). Check the registration certificate, the identity and the marital status.
@@ -36,7 +36,7 @@ The certification is a certification of signatures (chapter 15). Any notary may 
 | The vehicle data and the owner | Registration certificate; data exchanged between the Ministry of Interior and the Notary Chamber | [[zdvp:144:4]] |
 | Local tax on acquisition paid by the buyer | Payment document | [[zmdt:50:1]] |
 
-If the check finds unpaid public debts, the rule of [[dopk:264:4]] applies, as for real estate (chapter 17).
+If the check finds unpaid public debts, the rule of [[dopk:264:4]] applies, as for real estate (chapter 21).
 
 ## The contract
 

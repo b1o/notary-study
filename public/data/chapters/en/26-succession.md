@@ -74,11 +74,11 @@ The fee for the first copy of an announced will is 50% of item 8, at least 30 le
 
 ### Renunciation and acceptance
 
-Statements of acceptance, acceptance by inventory and renunciation go to the **district judge** ([[zn:49]], [[zn:52]], [[zn:61]]). The notary often **certifies the signature** on them for heirs who send them by post or through an agent (chapter 15).
+Statements of acceptance, acceptance by inventory and renunciation go to the **district judge** ([[zn:49]], [[zn:52]], [[zn:61]]). The notary often **certifies the signature** on them for heirs who send them by post or through an agent (chapter 18).
 
 ### Sale of inherited property
 
-The sale follows chapter 17. Additional documents:
+The sale follows chapter 21. Additional documents:
 
 - the **certificate of heirs** from the municipality of the deceased's last address;
 - the **death certificate** if needed;
@@ -87,11 +87,11 @@ The sale follows chapter 17. Additional documents:
 - if an heir renounced: a certificate from the district court;
 - all heirs sign, or the heirs partition first. One co-heir's sale of a specific item that does not fall to that heir in the partition is ineffective ([[zn:76]]).
 
-Check also whether the deceased was married: half of the common property belongs to the survivor already (chapter 10).
+Check also whether the deceased was married: half of the common property belongs to the survivor already (chapter 12).
 
 ### Partition among heirs
 
-See chapter 18. All co-heirs must take part ([[zn:75:2]]). Minors need court permission and, when their interests conflict with a parent's, a special representative ([[zs:35]], [[sk:129:2]]).
+See chapter 22. All co-heirs must take part ([[zn:75:2]]). Minors need court permission and, when their interests conflict with a parent's, a special representative ([[zs:35]], [[sk:129:2]]).
 
 ### Executor and manager
 
@@ -99,4 +99,4 @@ A testator may appoint an **executor** of the will ([[zn:45]]). The notary may a
 
 ### Foreign elements
 
-A will is valid in form if it meets the law of the place where it was made, the law of the testator's citizenship, or the law of the testator's habitual residence, among others ([[kmchp:90:2]]). For deaths since 17 August 2015, the EU Succession Regulation governs which law applies to the succession (chapter 11).
+A will is valid in form if it meets the law of the place where it was made, the law of the testator's citizenship, or the law of the testator's habitual residence, among others ([[kmchp:90:2]]). For deaths since 17 August 2015, the EU Succession Regulation governs which law applies to the succession (chapter 13).

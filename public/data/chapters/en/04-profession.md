@@ -35,9 +35,9 @@ The law adds specific checks to the general duty of care:
 
 - **Measures against illegally acquired assets.** Before each act, the notary checks whether a court has imposed a security measure under the law on the forfeiture of illegally acquired assets ([[znnd:25:2]]).
 - **National registers.** For every certification about rights in real estate, the notary checks the National Population Database and the National Register of Bulgarian Identity Documents ([[znnd:25:3]], [[znnd:19:2]]).
-- **Public debts.** Before a transfer of real rights in real estate, a mortgage or a pledge, the notary checks electronically at the National Revenue Agency that the transferor has no unpaid public debts subject to enforcement ([[dopk:264:1]]). For vehicles, the check covers also the paid local tax on the vehicle ([[dopk:264:2]]). Chapter 17 shows what to do when the check finds a debt.
+- **Public debts.** Before a transfer of real rights in real estate, a mortgage or a pledge, the notary checks electronically at the National Revenue Agency that the transferor has no unpaid public debts subject to enforcement ([[dopk:264:1]]). For vehicles, the check covers also the paid local tax on the vehicle ([[dopk:264:2]]). Chapter 21 shows what to do when the check finds a debt.
 - **Ownership.** For deeds about real estate, the notary checks that the transferor is the owner and that the special requirements for the deal are met ([[gpk:586:1]]).
-- **Money laundering.** The notary is an obliged person under the anti-money laundering law. Chapter 23 explains the checks.
+- **Money laundering.** The notary is an obliged person under the anti-money laundering law. Chapter 27 explains the checks.
 
 ### Declarations that the parties make
 

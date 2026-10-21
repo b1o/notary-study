@@ -100,7 +100,7 @@ The law sometimes requires a special form. The three forms you will meet most ar
 2. **written form with notarial certification of the signatures**, for example the sale of a car;
 3. **a notarial deed** ({{нотариален акт}}), for every contract that transfers ownership of real estate or creates other real rights in real estate ([[zzd:18]]).
 
-A contract without the form that the law requires is **void** ([[zzd:26:1]]). This is why the notary is not a formality: without the notary, the deal does not exist.
+A contract without the form that the law requires is **void** ([[zzd:26:2]]). This is why the notary is not a formality: without the notary, the deal does not exist.
 
 ### Void and voidable
 

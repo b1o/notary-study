@@ -127,4 +127,4 @@ The registry office charges state fees under the tariff of the Registry Agency, 
 - Amounts in leva in any legal act are converted at **1.95583** and rounded to the cent ([[zvevro:12]], [[zvevro:13]]).
 
 > [!task] Use the calculator
-> Open "Fee calculator" from the menu. Enter a sale at 150,000 € with a tax assessment of 60,000 € and a municipal rate of 3%. Then switch to "Notarial deed for a contractual mortgage" with 100,000 €. Compare the results with the examples in this chapter and in chapter 17.
+> Open "Fee calculator" from the menu. Enter a sale at 150,000 € with a tax assessment of 60,000 € and a municipal rate of 3%. Then switch to "Notarial deed for a contractual mortgage" with 100,000 €. Compare the results with the examples in this chapter and in chapter 21.

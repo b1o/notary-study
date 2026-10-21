@@ -1,0 +1,243 @@
+{
+  "id": "planning",
+  "objectives": [
+    "Tell a land plot from a regulated plot, and say where the purpose of a plot is set.",
+    "Check whether a real part of a plot can be sold or divided, from the minimum sizes of the act.",
+    "Name the documents for a partition of a building and for the sale of a flat before and after the rough construction.",
+    "Choose the right form for building in a co-owned plot, adding floors and taking over common parts.",
+    "Prepare the contracts for a right of passage, a network branch and a change of plot boundaries."
+  ],
+  "cards": [
+    {
+      "front": "Name the kinds of territory by their basic purpose.",
+      "back": "Urbanised, agricultural, forest, protected, damaged, covered by water, and territories of transport (Art. 7(1) ЗУТ)."
+    },
+    {
+      "front": "Where is the specific purpose of a plot set?",
+      "back": "In the **detailed development plan** (Art. 8 ЗУТ)."
+    },
+    {
+      "front": "What is a regulated land plot?",
+      "back": "A plot for which a **detailed development plan** set boundaries, access, a specific purpose and building rules (§ 5, item 11 of the Additional Provisions of ЗУТ)."
+    },
+    {
+      "front": "May anybody build on a plot without a detailed development plan?",
+      "back": "**No**: building is allowed only if an effective detailed development plan provides for it (Art. 12(2) ЗУТ)."
+    },
+    {
+      "front": "Minimum regulated plot for low residential building in a town?",
+      "back": "**14 m** frontage and **300 m²** (Art. 19(1), item 1 ЗУТ)."
+    },
+    {
+      "front": "A buyer wants a real part of a town plot below the minimum size. What follows?",
+      "back": "The deal is **not possible** (Art. 200(1) ЗУТ), unless the part joins a neighbouring plot and the rest still meets the minimum (Art. 200(2))."
+    },
+    {
+      "front": "Co-owners want to divide a house into two flats by a deed. What does the office ask for?",
+      "back": "A certificate of the **municipality** that the parts match **approved investment projects** (Art. 202 ЗУТ)."
+    },
+    {
+      "front": "From which stage is a flat in a new building sold as a flat?",
+      "back": "After the **rough construction**, stated by a protocol (Art. 181(2)–(3) ЗУТ). Before it, the building right is transferred (Art. 181(1))."
+    },
+    {
+      "front": "A co-owner of a regulated plot wants to build a house. What form does the agreement with the other co-owners need?",
+      "back": "A contract **in notarial form** (Art. 183(1) ЗУТ)."
+    },
+    {
+      "front": "A developer adds a floor to a condominium building. What is signed?",
+      "back": "A contract with the owner of the plot **in notarial form**, and a declaration of consent of **all owners** in the condominium with certified signatures (Art. 183(2) ЗУТ)."
+    },
+    {
+      "front": "An owner wants to join part of the common corridor to the flat. What form?",
+      "back": "A contract for the transfer of ownership **in notarial form** with the other owners; it is entered (Art. 185(3), (7) ЗУТ)."
+    },
+    {
+      "front": "What form does a right of passage through a neighbour's plot need?",
+      "back": "A **written contract with notarially certified signatures**, entered in the partidas of both plots (Art. 192(1), (7) ЗУТ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ana owns a regulated plot of 500 m² in a town. She wants to sell a real part of 200 m² to a neighbour, who will not join it to his plot. Is the sale possible?",
+      "options": [
+        "No; the part is below the minimum size of the act",
+        "Yes, with a sketch-project from the cadastre office",
+        "Yes, if the deed states the boundaries of the part",
+        "Yes, if the price is paid by a bank transfer"
+      ],
+      "answer": 0,
+      "explanation": "Art. 200(1) ЗУТ: real parts of plots in settlements are acquired only if they meet the minimum sizes of Art. 19; in a town that is 14 m and 300 m² (Art. 19(1), item 1). A sketch-project describes a lawful part; it does not make a small part lawful.",
+      "refs": [
+        "zut:200:1",
+        "zut:19:1"
+      ]
+    },
+    {
+      "question": "The same owner offers the neighbour an ideal share of 2/5 of the plot instead. Is that possible?",
+      "options": [
+        "Yes; the minimum sizes apply to real parts",
+        "No; the same minimum applies to every share",
+        "Only after a new detailed development plan",
+        "Only if the buyer already owns a house there"
+      ],
+      "answer": 0,
+      "explanation": "Art. 200(1) ЗУТ speaks of real parts. A share makes the two co-owners of the whole plot (Art. 30 ЗС). Before either co-owner builds, they need a contract in notarial form with each other (Art. 183(1) ЗУТ).",
+      "refs": [
+        "zut:200:1",
+        "zs:30",
+        "zut:183:1"
+      ]
+    },
+    {
+      "question": "A building has its outer walls and its roof, and the protocol of the rough construction is signed. What does a deed for flat 12 transfer now?",
+      "options": [
+        "The flat itself, as a separate object",
+        "Only a share of the building right for the flat",
+        "Nothing yet; the flat must be put into service",
+        "Only a preliminary contract for the future flat"
+      ],
+      "answer": 0,
+      "explanation": "Art. 181(2) ЗУТ: after the rough construction, the deal transfers the building or its separate parts; before it, the building right is transferred (Art. 181(1)). Art. 181(3) names the protocol that states the rough construction. The commissioning is not a condition of the sale.",
+      "refs": [
+        "zut:181:1",
+        "zut:181:2",
+        "zut:181:3"
+      ]
+    },
+    {
+      "question": "A finished house has no permit for use yet. The owner wants to sell it today. What is the legal position?",
+      "options": [
+        "Possible; only its use waits for the permit",
+        "The sale is void until the permit for use exists",
+        "The sale is possible only to the original builder",
+        "The sale needs the consent of the building control"
+      ],
+      "answer": 0,
+      "explanation": "Art. 178(1) ЗУТ forbids the use of a building before it is put into service (Art. 177); ЗУТ does not make that a condition of the sale, which follows Art. 181(2). The office tells the buyer about the missing permit.",
+      "refs": [
+        "zut:178:1",
+        "zut:177:2",
+        "zut:181:2"
+      ]
+    },
+    {
+      "question": "Two brothers co-own a regulated plot. One of them wants to build a house on it. What does he need from his brother?",
+      "options": [
+        "A contract with him in notarial form",
+        "A declaration with a certified signature",
+        "A decision of the general meeting of owners",
+        "Nothing; each co-owner builds freely"
+      ],
+      "answer": 0,
+      "explanation": "Art. 183(1) ЗУТ: a new building in a co-owned regulated plot by one or more co-owners needs a contract in notarial form with the other owners. Art. 183(4) dispenses with consent only in a low-rise plot where the others built, started or hold rights.",
+      "refs": [
+        "zut:183:1",
+        "zut:183:4"
+      ]
+    },
+    {
+      "question": "A developer wants to add two floors to a condominium building. Which documents does the office prepare?",
+      "options": [
+        "A deed with the plot owner and certified consents of all owners",
+        "A decision of the general meeting taken by more than half of the owners",
+        "The written consent of the owners on the top floor of the building only",
+        "A building permit and a contract with the house manager of the building"
+      ],
+      "answer": 0,
+      "explanation": "Art. 183(2) ЗУТ: adding floors to a condominium building needs a contract for the right to add floors with the owner of the plot in notarial form and a declaration of consent with notarially certified signatures of all owners in the condominium. A majority decision or the consent of a few owners is not enough.",
+      "refs": [
+        "zut:183:2"
+      ]
+    },
+    {
+      "question": "An owner wants to join a part of the common corridor to his flat. What is needed besides the building permit?",
+      "options": [
+        "A contract in notarial form with the other owners",
+        "A decision of the general meeting of the owners",
+        "The written consent of the two direct neighbours",
+        "A certificate of the municipality about the project"
+      ],
+      "answer": 0,
+      "explanation": "Art. 185(3) ЗУТ: when a common part joins a separate object, the owner signs a contract for the transfer of ownership in notarial form with the other owners in the condominium, and the contract is entered (Art. 185(7)). The consent of neighbours is the rule for other alterations (Art. 185(2)).",
+      "refs": [
+        "zut:185:3",
+        "zut:185:7",
+        "zut:185:2"
+      ]
+    },
+    {
+      "question": "Two neighbours agree on a right of passage through one yard to the other plot. In what form, and where is it recorded?",
+      "options": [
+        "Written with certified signatures; entered for both plots",
+        "A notarial deed; entered only in the partida of the yard",
+        "Simple written form; filed with the municipality",
+        "An order of the mayor; noted in the cadastre only"
+      ],
+      "answer": 0,
+      "explanation": "Art. 192(1) ЗУТ: a right of passage is created by a written contract with notarially certified signatures; Art. 192(7): it is entered in the partidas of both plots. An order of the mayor is the way only when the owners do not agree (Art. 192(2)).",
+      "refs": [
+        "zut:192:1",
+        "zut:192:7",
+        "zut:192:2"
+      ]
+    },
+    {
+      "question": "Two owners agree to move the boundary between their regulated plots by a change of the plan. What do they sign at the notary first?",
+      "options": [
+        "A preliminary contract with certified signatures",
+        "A final deed of transfer for the part that changes owner",
+        "A declaration of consent for the municipality",
+        "A contract for a building right on the part"
+      ],
+      "answer": 0,
+      "explanation": "Art. 15(3) ЗУТ: the boundaries of regulated plots change by a plan only with the consent of the owners, given by an application and a preliminary contract for the transfer of ownership with notarially certified signatures. Building is allowed after the final contract (Art. 15(7)).",
+      "refs": [
+        "zut:15:3",
+        "zut:15:7"
+      ]
+    },
+    {
+      "question": "When do the regulation lines of a detailed development plan become the boundaries of the plots?",
+      "options": [
+        "When the plan is implemented for the plots",
+        "When the plan is approved by the municipal council",
+        "When the plots are entered in the cadastral map",
+        "Ten years after the plan enters into force"
+      ],
+      "answer": 0,
+      "explanation": "Art. 14(5) ЗУТ: in plots regulated by a detailed development plan, the regulation lines become the boundaries when the plan is implemented as to the regulation. Until then, the boundaries of ownership stay as they are.",
+      "refs": [
+        "zut:14:5"
+      ]
+    },
+    {
+      "question": "Co-owners want a deed that divides their house into two separate flats. Which document does the office ask for?",
+      "options": [
+        "The municipality's certificate on approved projects",
+        "A decision of the general meeting of the condominium",
+        "A permit for use of the whole house from the control",
+        "A declaration of both co-owners before the notary"
+      ],
+      "answer": 0,
+      "explanation": "Art. 202 ЗУТ: a voluntary partition of a co-owned building and deals with real parts of it are possible only if the parts match approved investment projects, which the municipality certifies. A permit for use concerns the use of the building, not its partition.",
+      "refs": [
+        "zut:202"
+      ]
+    },
+    {
+      "question": "What is the minimum regulated plot for low residential building in a village on mainly steep ground?",
+      "options": [
+        "12 m of frontage and 250 m²",
+        "14 m of frontage and 300 m²",
+        "16 m of frontage and 500 m²",
+        "18 m of frontage and 600 m²"
+      ],
+      "answer": 0,
+      "explanation": "Art. 19(1), item 5 ЗУТ: in villages on mainly steep ground, at least 12 m and 250 m². 14 m and 300 m² is the rule for towns (item 1), 16 m and 500 m² for resorts and flat villages, 18 m and 600 m² for villa zones.",
+      "refs": [
+        "zut:19:1"
+      ]
+    }
+  ]
+}

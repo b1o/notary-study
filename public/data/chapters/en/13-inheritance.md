@@ -48,7 +48,7 @@ Only the notary personally makes a notarial will; an assistant notary may not ([
 
 ### Announcing a holographic will
 
-The person who holds a holographic will must ask a notary to announce it **as soon as** they learn of the testator's death ([[zn:27:1]]). Any interested person may ask the district judge to set a deadline for presenting the will to the notary ([[zn:27:2]]). The notary announces it by a protocol that describes the condition of the will and its opening, signed by the person who presented it and by the notary; the will is attached to the protocol, countersigned on every page ([[zn:27:3]]). If the will was deposited with a notary, that notary announces it ([[zn:27:4]]). Chapter 22 shows the procedure in the office.
+The person who holds a holographic will must ask a notary to announce it **as soon as** they learn of the testator's death ([[zn:27:1]]). Any interested person may ask the district judge to set a deadline for presenting the will to the notary ([[zn:27:2]]). The notary announces it by a protocol that describes the condition of the will and its opening, signed by the person who presented it and by the notary; the will is attached to the protocol, countersigned on every page ([[zn:27:3]]). If the will was deposited with a notary, that notary announces it ([[zn:27:4]]). Chapter 26 shows the procedure in the office.
 
 ### Revocation
 

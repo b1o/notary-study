@@ -12,11 +12,11 @@ What the office checks:
 
 1. **The face against the photo**, in good light, without hurry.
 2. **The document itself**: validity date, damage, signs of manipulation.
-3. **The data in the draft**: names exactly as in the document, the identity number ({{ЕГН}}) or the personal number of a foreigner ({{ЛНЧ}}), the number, date, place and issuing authority of the document. A notarial deed must contain all of them ([[gpk:580:3]]).
+3. **The data in the draft**: names exactly as in the document, the identity number ({{ЕГН}}) or the personal number of a foreigner ({{ЛНЧ}}), the number, date, place and issuing authority of the document. A notarial deed must contain all of them ([[gpk:580::3]]).
 4. **The national registers.** For certifications about real estate, the notary checks the National Population Database and the National Register of Bulgarian Identity Documents ([[znnd:25:3]]). Only notaries and assistant notaries have individual access ([[nnbd:2:1]], [[nnrbld:2]]). The population database shows, among other things, the address history, **legal restrictions**, the **marital status**, the marriage and divorce, and **data about death** ([[nnbd:3:2]]).
 
 > [!tip] What the registers tell you that the card does not
-> A seller presents a valid card and says "I am divorced". The population database shows a marriage with no divorce. The seller's statement about the marital status matters for the community property of spouses (chapter 10). Ask, check the documents, and let the notary decide.
+> A seller presents a valid card and says "I am divorced". The population database shows a marriage with no divorce. The seller's statement about the marital status matters for the community property of spouses (chapter 12). Ask, check the documents, and let the notary decide.
 
 ### Without an identity document
 
@@ -32,7 +32,7 @@ If the person has no identity document, the person proves identity with **two wi
 | Adult under full judicial disability ({{пълно запрещение}}) | None ([[zls:5]]) | The guardian ({{настойник}}) | Court permission for dispositions; opinion of the guardianship council ([[sk:165:4]]) |
 | Adult under limited judicial disability ({{ограничено запрещение}}) | Limited ([[zls:5]]) | The person | Consent of the curator ({{попечител}}); court permission for dispositions ([[sk:168:2]]) |
 
-Two rules protect children absolutely: a **gift**, a **waiver of rights**, a **loan** and **security for somebody else's debt** made by a minor are **void**. Only security through a pledge or a mortgage may be allowed by the court as an exception, for a clear benefit of the child or an extraordinary need of the family ([[sk:130:4]]). Chapter 10 explains the permission of the district court.
+Two rules protect children absolutely: a **gift**, a **waiver of rights**, a **loan** and **security for somebody else's debt** made by a minor are **void**. Only security through a pledge or a mortgage may be allowed by the court as an exception, for a clear benefit of the child or an extraordinary need of the family ([[sk:130:4]]). Chapter 12 explains the permission of the district court.
 
 ### Doubts about the capacity of an adult
 
@@ -43,7 +43,7 @@ An adult who signs without being able to understand or control their acts makes 
 - some notaries ask for a recent psychiatric certificate for very old or ill clients. The law does not require it, but it is evidence that the notary acted with care.
 
 > [!warn] Pressure from relatives
-> A relative who answers for the client, holds the client's documents and insists on speed is a red flag. Chapter 27 describes the warning signs of property fraud against elderly people.
+> A relative who answers for the client, holds the client's documents and insists on speed is a red flag. Chapter 31 describes the warning signs of property fraud against elderly people.
 
 ## Participants with special needs
 
@@ -73,7 +73,7 @@ The persons who **cannot** be witnesses or interpreters are listed in [[gpk:584]
    - In a single-owner company, the owner decides the matters of the general meeting, with a written protocol ([[tz:147]]).
    - A procurator ({{прокурист}}) may represent the merchant, but may **not** sell or encumber real estate without a special authorisation ([[tz:22:2]]).
 3. **Internal decisions** required by law. In an OOD, the general meeting decides on the acquisition and disposal of real estate and real rights ([[tz:137:1]]). The office asks for the protocol of the decision with the signatures certified, as the notary requires.
-4. **Beneficial owners** under the anti-money laundering law (chapter 23).
+4. **Beneficial owners** under the anti-money laundering law (chapter 27).
 
 ## Representation
 

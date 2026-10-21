@@ -62,7 +62,7 @@ The end of the power cannot be relied upon against third persons who dealt with 
 
 1. The principal signs a **revocation** with a notarially certified signature.
 2. The notary enters an extract of the revocation in the **information system** of the Notary Chamber at once, with the number and date of the revoked power and the notary who certified it ([[n32:9а]]).
-3. The principal informs the agent, best by a **notarial invitation** (chapter 16), and informs the bank or the other side.
+3. The principal informs the agent, best by a **notarial invitation** (chapter 19), and informs the bank or the other side.
 4. The principal asks the agent to return the original.
 
 ## The register of powers (information system)
@@ -90,7 +90,7 @@ Check that the foreign certification covers the identity of the signatory and th
 | Declaration | Typical use | Form |
 |---|---|---|
 | Citizenship and marital status | Every disposition | On the approved form ([[znnd:25:8]]) |
-| Consent for a child to travel | Border control | Certified signature (chapter 10) |
+| Consent for a child to travel | Border control | Certified signature (chapter 12) |
 | Origin of funds; political exposure; beneficial owner | Deals under the AML law | Forms under the implementing regulations ([[zmip:66]], [[zmip:59]]) |
 | Specimen signature and consent of a manager | Commercial Register | Notarially certified ([[tz:141:3]]) |
 | Pre-emption declaration of a co-owner | Sale of a share | Before the notary ([[zs:33]]) |

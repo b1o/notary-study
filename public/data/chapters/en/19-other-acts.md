@@ -108,7 +108,7 @@ The notary may accept documents and papers for **safekeeping** ({{съхране
 
 The fee is 30 leva (15.34 €) for documents without a material interest ([[tarifa:1]]) and 50% of item 8, at least 30 leva, for documents with a material interest ([[tarifa:9]]); the return costs 10 leva (5.11 €) ([[tarifa:2]]).
 
-Holographic wills follow the special rules of the Inheritance Act (chapter 22).
+Holographic wills follow the special rules of the Inheritance Act (chapter 26).
 
 ## Inquiries and certificates
 
@@ -116,4 +116,4 @@ The notary gives **inquiries** from the notarial books, and certificates about a
 
 ## Protests
 
-The protest of a bill of exchange is also a notarial act served on the debtor. Chapter 12 explains the deadlines and the content ([[tz:501]], [[tz:502]]).
+The protest of a bill of exchange is also a notarial act served on the debtor. Chapter 14 explains the deadlines and the content ([[tz:501]], [[tz:502]]).

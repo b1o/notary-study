@@ -54,7 +54,7 @@ In a settlement that has **neither a notary nor a district court**, the followin
 They may **not** certify signatures for the transfer of a commercial enterprise, the transfer of shares in a limited liability company and similar acts of the Commerce Act ([[znnd:83:2]]). Fees go to the municipal budget ([[znnd:86]]).
 
 > [!tip] Powers of attorney from a mayor
-> Notaries must enter certain powers of attorney in the information system of the Notary Chamber (chapter 20). Municipal officials have limited access to enter powers of attorney for real estate ([[n32:9б]]). In January 2024 the Council of Notaries confirmed, in a position published by the National Association of Municipalities, that powers of attorney for vehicles certified by mayors are valid official documents, even though mayors cannot enter them in the system. Accept them after you check the person and the power.
+> Notaries must enter certain powers of attorney in the information system of the Notary Chamber (chapter 24). Municipal officials have limited access to enter powers of attorney for real estate ([[n32:9б]]). In January 2024 the Council of Notaries confirmed, in a position published by the National Association of Municipalities, that powers of attorney for vehicles certified by mayors are valid official documents, even though mayors cannot enter them in the system. Accept them after you check the person and the power.
 
 ## Bulgarian consuls abroad
 

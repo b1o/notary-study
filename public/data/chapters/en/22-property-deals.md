@@ -1,6 +1,6 @@
 ## What all real estate deeds share
 
-Every deed in this chapter transfers, creates, changes or ends a real right in real estate. So the rules of chapters 13, 14 and 17 apply: the notary of the property's district ([[gpk:570:1]]), a written request ([[gpk:571]]), the ownership check ([[gpk:586]]), the public-debt check ([[dopk:264:1]]), the declarations ([[znnd:25:8]]), entry on the same day ([[znnd:25:5]]) and the notice to the municipality ([[zmdt:51:2]]). Only the notary personally issues these deeds; an assistant notary may not ([[znnd:40:1]]). This chapter covers what is **different**.
+Every deed in this chapter transfers, creates, changes or ends a real right in real estate. So the rules of chapters 16, 17 and 21 apply: the notary of the property's district ([[gpk:570:1]]), a written request ([[gpk:571]]), the ownership check ([[gpk:586]]), the public-debt check ([[dopk:264:1]]), the declarations ([[znnd:25:8]]), entry on the same day ([[znnd:25:5]]) and the notice to the municipality ([[zmdt:51:2]]). Only the notary personally issues these deeds; an assistant notary may not ([[znnd:40:1]]). This chapter covers what is **different**.
 
 ## Gift (дарение)
 
@@ -47,7 +47,7 @@ Key points for the deed:
 - The material interest is the market price of the property ([[znnd:96:1]]). The local tax is the tax for onerous acquisition ([[zmdt:47:2]]).
 
 > [!tip] Meet the transferor alone
-> These contracts are a common tool of pressure on elderly people. The notary meets the transferor **alone** ([[znnd:20]]), checks that the transferor understands that ownership passes **now**, and explains how the contract can be ended. Chapter 27 lists the warning signs.
+> These contracts are a common tool of pressure on elderly people. The notary meets the transferor **alone** ([[znnd:20]]), checks that the transferor understands that ownership passes **now**, and explains how the contract can be ended. Chapter 31 lists the warning signs.
 
 ## Building right (право на строеж)
 

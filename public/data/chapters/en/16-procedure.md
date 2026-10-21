@@ -106,4 +106,4 @@ The notary refuses to perform an act when the conditions are not met: a missing 
 
 ## Fees
 
-Notarial fees are due **when the act is performed**; the fee for a circumstantial verification is due when the request is made ([[znnd:88:1]]). The notary may ask for an advance ([[znnd:88:2]]). The office issues a bill ([[znnd:89]]). Chapter 24 explains the calculation.
+Notarial fees are due **when the act is performed**; the fee for a circumstantial verification is due when the request is made ([[znnd:88:1]]). The notary may ask for an advance ([[znnd:88:2]]). The office issues a bill ([[znnd:89]]). Chapter 28 explains the calculation.

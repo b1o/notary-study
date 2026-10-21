@@ -28,7 +28,7 @@ What a clerk does every day:
 > - **Perfect written Bulgarian.** A spelling mistake in a name or an identity number can make a document useless or force a correction deed.
 > - **Calm accuracy.** You compare numbers, names and dates all day. Read each number twice.
 > - **Discretion.** You see the property, the debts and the family secrets of your neighbours. Nothing leaves the office.
-> - **Firmness.** You will say "no" to clients who want a shortcut. Chapter 27 explains how.
+> - **Firmness.** You will say "no" to clients who want a shortcut. Chapter 31 explains how.
 > - **Computer skills.** Word processing with exact formatting, scanning, web portals of institutions, electronic signatures.
 
 ## Legal assistant
