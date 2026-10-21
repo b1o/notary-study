@@ -13,6 +13,7 @@ import { LoadStatus } from '../../shared/ui/load-status';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
 import { Notice } from '../../shared/ui/notice';
 import { PrintButton } from '../../shared/ui/print-button';
+import { DocumentSheet } from './document-sheet';
 
 /** One document template: the Bulgarian text as a sheet, the notes and the English translation. */
 @Component({
@@ -27,6 +28,7 @@ import { PrintButton } from '../../shared/ui/print-button';
     MarkdownContent,
     Notice,
     LoadStatus,
+    DocumentSheet,
   ],
   templateUrl: './template-page.html',
   styleUrl: './template-page.scss',

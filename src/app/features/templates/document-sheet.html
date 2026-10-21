@@ -1,0 +1,156 @@
+<!--
+  The parts of a line. A blank keeps its brackets for screen readers and for a copy.
+  Angular drops the white space between the elements, so the parts join without spaces.
+-->
+<ng-template #parts let-line>
+  @for (part of line; track $index) {
+    @if (part.kind === 'text') {
+      <span>{{ part.text }}</span>
+    } @else if (part.kind === 'blank' && isEmpty(part.parts)) {
+      <span class="sheet__blank sheet__blank--empty"
+        ><span class="visually-hidden">[...]</span></span
+      >
+    } @else if (part.kind === 'blank') {
+      <span class="sheet__blank">
+        <span class="visually-hidden">[</span>
+        <ng-container
+          [ngTemplateOutlet]="parts"
+          [ngTemplateOutletContext]="{ $implicit: part.parts }"
+        />
+        <span class="visually-hidden">]</span>
+      </span>
+    } @else {
+      <span class="sheet__tick"><span class="visually-hidden">[ ]</span></span>
+    }
+  }
+</ng-template>
+
+<ng-template #blocks let-list>
+  @for (block of list; track $index) {
+    @switch (block.kind) {
+      @case ('title') {
+        <p class="sheet__title">
+          <ng-container
+            [ngTemplateOutlet]="parts"
+            [ngTemplateOutletContext]="{ $implicit: block.title }"
+          />
+        </p>
+        @for (line of block.subtitle; track $index) {
+          <p class="sheet__subtitle">
+            <ng-container
+              [ngTemplateOutlet]="parts"
+              [ngTemplateOutletContext]="{ $implicit: line }"
+            />
+          </p>
+        }
+      }
+      @case ('register') {
+        <p class="sheet__register">
+          <ng-container
+            [ngTemplateOutlet]="parts"
+            [ngTemplateOutletContext]="{ $implicit: block.line }"
+          />
+        </p>
+      }
+      @case ('heading') {
+        <p class="sheet__heading">
+          <ng-container
+            [ngTemplateOutlet]="parts"
+            [ngTemplateOutletContext]="{ $implicit: block.line }"
+          />
+        </p>
+      }
+      @case ('text') {
+        <div class="sheet__text">
+          @for (line of block.lines; track $index) {
+            <p>
+              <ng-container
+                [ngTemplateOutlet]="parts"
+                [ngTemplateOutletContext]="{ $implicit: line }"
+              />
+            </p>
+          }
+        </div>
+      }
+      @case ('signatures') {
+        <div class="sheet__signatures">
+          @for (row of block.rows; track $index) {
+            <div class="sheet__row" [class.sheet__row--placed]="row.place">
+              @if (row.place) {
+                <p class="sheet__place">
+                  <ng-container
+                    [ngTemplateOutlet]="parts"
+                    [ngTemplateOutletContext]="{ $implicit: row.place }"
+                  />
+                </p>
+              }
+              @for (signer of row.signers; track $index) {
+                <div class="sheet__signer">
+                  @if (signer.role) {
+                    <span class="sheet__role">
+                      <ng-container
+                        [ngTemplateOutlet]="parts"
+                        [ngTemplateOutletContext]="{ $implicit: signer.role }"
+                      />
+                    </span>
+                  }
+                  <span class="sheet__lines" aria-hidden="true">
+                    @for (slot of slots(signer.lines); track slot) {
+                      <span class="sheet__line"></span>
+                    }
+                  </span>
+                  @if (signer.note) {
+                    <span class="sheet__note">
+                      <ng-container
+                        [ngTemplateOutlet]="parts"
+                        [ngTemplateOutletContext]="{ $implicit: signer.note }"
+                      />
+                    </span>
+                  }
+                  @if (signer.seal) {
+                    <span class="sheet__seal">печат</span>
+                  }
+                </div>
+              }
+            </div>
+          }
+        </div>
+      }
+    }
+  }
+</ng-template>
+
+@let page = layout();
+<div class="sheet" [class.sheet--form]="form()">
+  @if (boxes().length) {
+    <div class="sheet__boxes">
+      @for (box of boxes(); track $index) {
+        <div class="sheet__box">
+          <p class="sheet__box-title">{{ box.title }}</p>
+          @for (line of box.lines; track $index) {
+            <p>
+              <ng-container
+                [ngTemplateOutlet]="parts"
+                [ngTemplateOutletContext]="{ $implicit: line }"
+              />
+            </p>
+          }
+        </div>
+      }
+    </div>
+  }
+  <div class="sheet__body">
+    <ng-container
+      [ngTemplateOutlet]="blocks"
+      [ngTemplateOutletContext]="{ $implicit: page.body }"
+    />
+  </div>
+  @if (page.stamp.length) {
+    <div class="sheet__stamp">
+      <ng-container
+        [ngTemplateOutlet]="blocks"
+        [ngTemplateOutletContext]="{ $implicit: page.stamp }"
+      />
+    </div>
+  }
+</div>

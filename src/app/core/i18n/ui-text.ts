@@ -223,6 +223,9 @@ export interface UiText {
   };
   readonly fees: {
     readonly lead: string;
+    /** Titles of the parts of the form. The title of the last part, the local tax, is `tax`. */
+    readonly actionSection: string;
+    readonly costsSection: string;
     readonly action: string;
     readonly placeAndTime: string;
     readonly vat: string;

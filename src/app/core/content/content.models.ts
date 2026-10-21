@@ -66,9 +66,24 @@ export interface TemplateGroup {
   readonly title: Localized;
 }
 
+/** A box at the top of a printed form, such as the fee box and the entry box of a deed. */
+export interface FormBox {
+  readonly title: string;
+  /** Lines with blanks "[...]" (see core/reference/document-layout.ts). */
+  readonly lines: readonly string[];
+}
+
+/** The fixed parts of a printed form, the same for each document on it. */
+export interface DocumentForm {
+  readonly id: string;
+  readonly boxes: readonly FormBox[];
+}
+
 export interface DocumentTemplate {
   readonly id: string;
   readonly group: string;
+  /** The form that the document is printed on, if it has one. */
+  readonly form?: string;
   readonly title: Localized;
   readonly use: Localized;
   readonly refs: readonly string[];
@@ -83,6 +98,7 @@ export interface DocumentTemplate {
 /** public/data/templates.json */
 export interface TemplateLibrary {
   readonly groups: readonly TemplateGroup[];
+  readonly forms: readonly DocumentForm[];
   readonly templates: readonly DocumentTemplate[];
 }
 

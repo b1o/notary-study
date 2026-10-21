@@ -1,7 +1,12 @@
 import { httpResource } from '@angular/common/http';
 import { computed, Service } from '@angular/core';
 
-import type { DocumentTemplate, TemplateGroup, TemplateLibrary } from '../content/content.models';
+import type {
+  DocumentForm,
+  DocumentTemplate,
+  TemplateGroup,
+  TemplateLibrary,
+} from '../content/content.models';
 
 /** The document templates (deeds, powers of attorney, declarations), by group. */
 @Service()
@@ -21,5 +26,11 @@ export class TemplatesService {
     return this.resource.hasValue()
       ? this.resource.value().templates.find((template) => template.id === id)
       : undefined;
+  }
+
+  /** The printed form of a template, if it has one. */
+  form(template: DocumentTemplate): DocumentForm | undefined {
+    if (!template.form || !this.resource.hasValue()) return undefined;
+    return this.resource.value().forms.find((form) => form.id === template.form);
   }
 }

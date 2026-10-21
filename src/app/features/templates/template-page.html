@@ -17,9 +17,7 @@
       <nc-print-button />
     </div>
 
-    <figure class="document">
-      <pre class="document__text" lang="bg">{{ template.text }}</pre>
-    </figure>
+    <nc-document-sheet [text]="template.text" [form]="templates.form(template)" />
 
     @if (notes(); as notes) {
       <section class="no-print">

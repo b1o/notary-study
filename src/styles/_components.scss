@@ -129,9 +129,51 @@
   outline-offset: 0;
 }
 
+/*
+ * A drop-down without the browser's arrow, which sits at a different place in each browser.
+ * SelectField (shared/ui/select-field.ts) draws the arrow in the space at the end.
+ */
+select.text-field {
+  appearance: none;
+  padding-inline-end: calc(2 * var(--space-3) + 1.125rem);
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+/*
+ * Form fields that belong together, under a title:
+ * <fieldset class="form-section"><legend class="form-section__title">.
+ */
+.form-section {
+  display: grid;
+  gap: var(--space-4);
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-4) var(--space-5) var(--space-5);
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-2);
+}
+
+.form-section__title {
+  /* A legend sits on the edge of its fieldset. A floated legend is a grid item like the fields. */
+  float: inline-start;
+  inline-size: 100%;
+  padding: 0;
+  font-weight: 650;
+  color: var(--color-ink-strong);
+}
+
+@media (width < 40rem) {
+  .form-section {
+    padding: var(--space-4);
+  }
+}
+
+/* The box stays on the first line when the label wraps. */
 .checkbox {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-2);
   font-size: var(--text-sm);
   color: var(--color-ink-2);
@@ -139,9 +181,10 @@
 }
 
 .checkbox input {
+  flex: none;
   inline-size: 1rem;
   block-size: 1rem;
-  margin: 0;
+  margin: calc((1lh - 1rem) / 2) 0 0;
   accent-color: var(--color-accent);
 }
 

@@ -234,6 +234,8 @@ export const UI_TEXT_EN: UiText = {
   },
   fees: {
     lead: 'Estimate the notarial fee, the entry fee of the Registry Agency and the local acquisition tax. The result is a bill with the provision behind each line.',
+    actionSection: 'Action and amounts',
+    costsSection: 'Place and costs',
     action: 'Notarial action',
     placeAndTime: 'Place and time',
     vat: 'The notary is registered for VAT (20% on the notarial fee)',

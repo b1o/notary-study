@@ -160,9 +160,13 @@ for (const term of readJson<GlossaryTerm[]>('glossary.json')) {
 
 const library = readJson<TemplateLibrary>('templates.json');
 const groupIds = new Set(library.groups.map((group) => group.id));
+const formIds = new Set(library.forms.map((form) => form.id));
 for (const template of library.templates) {
   const where = `templates.json "${template.id}"`;
   if (!groupIds.has(template.group)) problems.push(`${where}: unknown group "${template.group}"`);
+  if (template.form && !formIds.has(template.form)) {
+    problems.push(`${where}: unknown form "${template.form}"`);
+  }
   template.refs.forEach((ref) => checkReference(ref, where, true));
   checkMarkdown(template.notes.en, where, true);
   checkMarkdown(template.notes.bg, where, false);

@@ -16,54 +16,61 @@
   gap: var(--space-4);
 }
 
-.fees-tax {
-  display: grid;
-  gap: var(--space-3);
-  margin: 0;
-  padding: var(--space-4);
-  border: 0;
-  border-radius: var(--radius-md);
-  background: var(--color-surface-2);
-}
-
-.fees-tax legend {
-  /* A legend sits on the edge of its fieldset; float puts it inside, like a heading. */
-  float: inline-start;
-  inline-size: 100%;
-  padding: 0;
-  font-weight: 650;
-  color: var(--color-ink-strong);
-}
-
 /*
- * The bill is a sheet of paper (see .document) in the reading size. It does not stick to the
- * top: with large text it is taller than the window, and its total would stay out of view.
+ * The bill is a till receipt in the reading size: a strip of paper with a torn edge at the top
+ * and the bottom, dashed rules between the lines and a double rule above the total.
+ * It does not stick to the top: with large text it is taller than the window, and its total
+ * would stay out of view. The shadow is a filter on the outer box, because the mask of the
+ * inner box would cut a box-shadow.
  */
-.bill.document {
-  margin: 0;
+.bill-paper {
+  max-inline-size: 30em;
+  font-size: var(--reading-size);
+  filter: var(--filter-paper);
+}
+
+.bill {
+  --tooth: 0.875em;
+  padding: calc(var(--tooth) + 1.25em) clamp(1.25em, 6%, 2em);
+  background: var(--color-paper);
+  mask:
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--tooth) 51%
+      repeat-x,
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--tooth)
+      51% repeat-x;
 }
 
 .bill__title {
   margin: 0;
-  font-family: var(--font-serif);
-  font-size: 1.15em;
-  font-weight: 650;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .bill__action {
-  margin: var(--space-1) 0 var(--space-5);
-  font-size: 0.9em;
+  margin: var(--space-1) 0 0;
+  font-size: 0.85em;
   text-align: center;
   color: var(--color-ink-2);
 }
 
 .bill__interest {
-  margin: 0 0 var(--space-3);
+  margin: var(--space-4) 0 0;
+  padding-block: var(--space-3);
+  border-block: 1px dashed var(--color-line-strong);
+  font-size: 0.9em;
+}
+
+.bill__amount {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
 
 .bill__leva {
   display: block;
+  font-family: var(--font-mono);
   font-size: 0.85em;
   color: var(--color-ink-3);
 }
@@ -80,9 +87,9 @@
 
 .bill__lines th,
 .bill__lines td {
-  padding: var(--space-2) 0;
+  padding: var(--space-3) 0;
   vertical-align: top;
-  border-block-end: 1px solid var(--color-line);
+  border-block-end: 1px dashed var(--color-line-strong);
 }
 
 .bill__lines th {
@@ -94,7 +101,6 @@
   padding-inline-start: var(--space-4);
   text-align: end;
   white-space: nowrap;
-  font-variant-numeric: tabular-nums;
 }
 
 .bill__ref {
@@ -105,19 +111,24 @@
   color: var(--color-ink-3);
 }
 
+/* The double rule of a sum, a little apart from the last dashed rule. */
 .bill__total {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: var(--space-4);
-  margin: 0;
+  gap: var(--space-1) var(--space-4);
+  margin: 3px 0 0;
   padding-block: var(--space-3);
+  border-block-start: 3px double var(--color-ink-3);
+  font-size: 1.1em;
   font-weight: 700;
-  font-variant-numeric: tabular-nums;
   color: var(--color-ink-strong);
 }
 
 .bill__who {
   margin: var(--space-2) 0 0;
+  padding-block-start: var(--space-3);
+  border-block-start: 1px dashed var(--color-line-strong);
   font-size: 0.85em;
   color: var(--color-ink-2);
 }

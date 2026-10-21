@@ -6,49 +6,54 @@
 
   <div class="fees">
     <div class="fees-form">
-      <nc-select-field [(value)]="actionId" [label]="text.action" [choices]="choices().actions" />
+      <fieldset class="form-section">
+        <legend class="form-section__title">{{ text.actionSection }}</legend>
+        <nc-select-field [(value)]="actionId" [label]="text.action" [choices]="choices().actions" />
+        @for (amount of actionForm().amounts; track amount.key) {
+          <label class="field">
+            <span class="field__label">{{ text[amount.label] }}</span>
+            <input
+              class="text-field"
+              type="number"
+              inputmode="decimal"
+              [step]="limits[amount.key].step"
+              [formField]="fields[amount.key]"
+            />
+          </label>
+        }
+        @for (flag of actionForm().flags; track flag.key) {
+          <label class="checkbox">
+            <input type="checkbox" [formField]="fields[flag.key]" />
+            {{ text[flag.label] }}
+          </label>
+        }
+        @if (actionForm().hint; as hint) {
+          <p class="field__hint">{{ text[hint] }}</p>
+        }
+      </fieldset>
 
-      @for (amount of actionForm().amounts; track amount.key) {
-        <label class="field">
-          <span class="field__label">{{ text[amount.label] }}</span>
-          <input
-            class="text-field"
-            type="number"
-            inputmode="decimal"
-            [step]="limits[amount.key].step"
-            [formField]="fields[amount.key]"
-          />
-        </label>
-      }
-      @for (flag of actionForm().flags; track flag.key) {
+      <fieldset class="form-section">
+        <legend class="form-section__title">{{ text.costsSection }}</legend>
+        <nc-select-field
+          [formField]="fields.surcharge"
+          [label]="text.placeAndTime"
+          [choices]="choices().surcharges"
+        />
         <label class="checkbox">
-          <input type="checkbox" [formField]="fields[flag.key]" />
-          {{ text[flag.label] }}
+          <input type="checkbox" [formField]="fields.vat" />
+          {{ text.vat }}
         </label>
-      }
-      @if (actionForm().hint; as hint) {
-        <p class="field__hint">{{ text[hint] }}</p>
-      }
-
-      <nc-select-field
-        [formField]="fields.surcharge"
-        [label]="text.placeAndTime"
-        [choices]="choices().surcharges"
-      />
-      <label class="checkbox">
-        <input type="checkbox" [formField]="fields.vat" />
-        {{ text.vat }}
-      </label>
-      @if (action().entry) {
-        <label class="checkbox">
-          <input type="checkbox" [formField]="fields.entry" />
-          {{ text.entryFee }}
-        </label>
-      }
+        @if (action().entry) {
+          <label class="checkbox">
+            <input type="checkbox" [formField]="fields.entry" />
+            {{ text.entryFee }}
+          </label>
+        }
+      </fieldset>
 
       @if (action().localTax) {
-        <fieldset class="fees-tax">
-          <legend>{{ text.tax }}</legend>
+        <fieldset class="form-section">
+          <legend class="form-section__title">{{ text.tax }}</legend>
           <nc-select-field
             [formField]="fields.taxKind"
             [label]="text.taxKind"
@@ -73,46 +78,49 @@
       }
     </div>
 
-    <section class="bill document" aria-labelledby="bill-title">
-      <h2 class="bill__title" id="bill-title">{{ text.bill }}</h2>
-      <p class="bill__action">{{ action().label[lang()] }}</p>
-      @if (bill().interest; as interest) {
-        <p class="bill__interest">
-          {{ text.materialInterest }}: <strong>{{ money(interest.euro) }}</strong>
-          <span class="bill__leva">({{ money(interest.leva, 'BGN') }})</span>
+    <div class="bill-paper">
+      <section class="bill" aria-labelledby="bill-title">
+        <h2 class="bill__title" id="bill-title">{{ text.bill }}</h2>
+        <p class="bill__action">{{ action().label[lang()] }}</p>
+        @if (bill().interest; as interest) {
+          <p class="bill__interest">
+            {{ text.materialInterest }}:
+            <strong class="bill__amount">{{ money(interest.euro) }}</strong>
+            <span class="bill__leva">({{ money(interest.leva, 'BGN') }})</span>
+          </p>
+        }
+        <table class="bill__lines">
+          <tbody>
+            @for (line of lines(); track $index) {
+              <tr>
+                <th scope="row">
+                  {{ line.label }}
+                  @if (line.source) {
+                    <span class="bill__ref">{{ line.source }}</span>
+                  } @else if (line.refs.length) {
+                    <nc-law-refs class="bill__ref" [refs]="line.refs" />
+                  }
+                </th>
+                <td>
+                  <span class="bill__amount">{{ line.euro }}</span>
+                  @if (line.leva) {
+                    <span class="bill__leva">{{ line.leva }}</span>
+                  }
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+        <!-- The total is announced when it changes, so a screen reader hears the result of each entry. -->
+        <p class="bill__total" aria-live="polite">
+          <span>{{ text.total }}</span>
+          <span class="bill__amount">{{ money(bill().total) }}</span>
         </p>
-      }
-      <table class="bill__lines">
-        <tbody>
-          @for (line of lines(); track $index) {
-            <tr>
-              <th scope="row">
-                {{ line.label }}
-                @if (line.source) {
-                  <span class="bill__ref">{{ line.source }}</span>
-                } @else if (line.refs.length) {
-                  <nc-law-refs class="bill__ref" [refs]="line.refs" />
-                }
-              </th>
-              <td>
-                {{ line.euro }}
-                @if (line.leva) {
-                  <span class="bill__leva">{{ line.leva }}</span>
-                }
-              </td>
-            </tr>
-          }
-        </tbody>
-      </table>
-      <!-- The total is announced when it changes, so a screen reader hears the result of each entry. -->
-      <p class="bill__total" aria-live="polite">
-        <span>{{ text.total }}</span>
-        <span>{{ money(bill().total) }}</span>
-      </p>
-      <p class="bill__who">
-        <nc-markdown-content inline [content]="whoPays()" />
-      </p>
-    </section>
+        <p class="bill__who">
+          <nc-markdown-content inline [content]="whoPays()" />
+        </p>
+      </section>
+    </div>
   </div>
 
   <nc-markdown-content class="fees-notes" [content]="howItWorks()" />

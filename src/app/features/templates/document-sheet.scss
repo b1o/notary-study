@@ -1,0 +1,240 @@
+/*
+ * A sheet of paper in the reading size, set after the forms of Ordinance No. 32: a deed has the
+ * fee box and the entry box at the top (Appendix 7) and its text in a frame (Art. 18(2)); a
+ * certification is a stamp (Appendix 6). The seal and the stamp have the colour of stamp ink.
+ */
+:host {
+  display: block;
+  margin-block: var(--space-6);
+  font-size: var(--reading-size);
+}
+
+.sheet {
+  padding: clamp(1.25em, 6%, 3em);
+  border-radius: 2px;
+  background: var(--color-paper);
+  box-shadow: var(--shadow-2);
+  font-family: var(--font-serif);
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+p {
+  margin: 0;
+}
+
+/* The boxes of the form, side by side when they fit. */
+.sheet__boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16em), 1fr));
+  gap: 1em 2em;
+  margin-block-end: 2em;
+  font-family: var(--font-ui);
+  font-size: 0.78em;
+  line-height: 1.5;
+  color: var(--color-ink-2);
+}
+
+.sheet__box {
+  padding: 0.75em 1em;
+  border: 1px solid var(--color-line-strong);
+}
+
+.sheet__box-title {
+  margin-block-end: 0.35em;
+  font-weight: 650;
+  color: var(--color-ink-strong);
+}
+
+.sheet--form .sheet__body {
+  padding: 1.5em clamp(1em, 5%, 2em) 2em;
+  border: 1px solid var(--color-line-strong);
+}
+
+.sheet__title {
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: var(--color-ink-strong);
+}
+
+.sheet__subtitle {
+  margin-block-start: 0.15em;
+  text-align: center;
+}
+
+.sheet__register {
+  margin-block-start: 1.5em;
+}
+
+.sheet__heading {
+  margin-block: 1.25em;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-align: center;
+  color: var(--color-ink-strong);
+}
+
+.sheet__text {
+  margin-block-start: 0.9em;
+}
+
+.sheet__text p {
+  text-indent: 2em;
+}
+
+.sheet__text p + p {
+  margin-block-start: 0.2em;
+}
+
+/* Justified like the paper, where a line is long enough not to leave wide gaps. */
+@media (width >= 48rem) {
+  .sheet__body .sheet__text p {
+    text-align: justify;
+  }
+}
+
+/* A blank to fill in: quiet italic on a dotted line. */
+.sheet__blank {
+  font-style: italic;
+  color: var(--color-ink-2);
+  text-decoration: underline dotted var(--color-ink-3);
+  text-underline-offset: 0.25em;
+}
+
+.sheet__blank .sheet__blank {
+  text-decoration: none;
+}
+
+/* "[...]" is a dotted line to write on. */
+.sheet__blank--empty {
+  display: inline-block;
+  inline-size: 2.5em;
+  block-size: 1em;
+  border-block-end: 1px dotted var(--color-ink-2);
+  text-decoration: none;
+}
+
+/* A box to tick. */
+.sheet__tick {
+  display: inline-block;
+  inline-size: 0.8em;
+  block-size: 0.8em;
+  margin-inline-end: 0.15em;
+  border: 1px solid currentColor;
+  vertical-align: -0.05em;
+}
+
+.sheet__signatures {
+  display: grid;
+  gap: 1.25em;
+  margin-block-start: 2em;
+}
+
+.sheet__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1em 3em;
+}
+
+/* The place and the date at the start, the signature at the end. */
+.sheet__row--placed {
+  justify-content: space-between;
+}
+
+.sheet__signer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    'role lines seal'
+    '. note seal';
+  align-items: end;
+  column-gap: 0.5em;
+}
+
+.sheet__role {
+  grid-area: role;
+  font-weight: 650;
+}
+
+.sheet__lines {
+  grid-area: lines;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+}
+
+.sheet__line {
+  inline-size: 9em;
+  block-size: 1.4em;
+  border-block-end: 1px solid var(--color-ink-3);
+}
+
+.sheet__note {
+  grid-area: note;
+  font-size: 0.8em;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--color-ink-2);
+}
+
+/* The place of the seal: a ring of stamp ink, a little turned, as a hand stamps it. */
+.sheet__seal {
+  grid-area: seal;
+  display: grid;
+  place-items: center;
+  inline-size: 4.5em;
+  block-size: 4.5em;
+  margin-inline-start: 0.75em;
+  border: 3px double var(--color-accent-text);
+  border-radius: 50%;
+  font-family: var(--font-ui);
+  font-size: 0.8em;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-text);
+  rotate: -12deg;
+}
+
+/* The certification of the notary: a stamp under the document. */
+.sheet__stamp {
+  max-inline-size: 34em;
+  margin-block-start: 2.5em;
+  padding: 1em 1.25em;
+  border: 2px solid var(--color-accent-text);
+  border-radius: 4px;
+  font-family: var(--font-ui);
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: var(--color-accent-text);
+}
+
+.sheet__stamp .sheet__text:first-child {
+  margin-block-start: 0;
+}
+
+.sheet__stamp .sheet__text p {
+  text-indent: 0;
+}
+
+.sheet__stamp .sheet__blank,
+.sheet__stamp .sheet__note {
+  color: inherit;
+}
+
+.sheet__stamp .sheet__line {
+  border-color: currentColor;
+}
+
+.sheet__stamp .sheet__signatures {
+  margin-block-start: 1em;
+}
+
+@media print {
+  .sheet {
+    padding: 0;
+    box-shadow: none;
+  }
+}

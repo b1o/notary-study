@@ -46,7 +46,7 @@ src/
       markdown/    Course Markdown to HTML (marked, plus citation, term, callout and doc blocks),
                    and to plain text for search
       progress/    Reading progress and test results, saved in localStorage
-      reference/   Glossary, templates and checklists
+      reference/   Glossary, templates and checklists, and the layout of a template text
       search/      Full-text search: the index, the ranking and the snippets
       settings/    Reading settings, saved in localStorage, applied as attributes on <html>
       storage/     storedSignal(): a signal that is kept in localStorage
@@ -82,6 +82,11 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
   The panel shows the article with the cited paragraph marked, the heading path, the neighbouring
   articles, the other articles of the section, the chapter sections that cite the article, and the
   glossary terms. Drag its left edge, or focus the edge and use the arrow keys, to resize it.
+- **Templates.** A template is plain text, so that the copy button gives it as it is.
+  `core/reference/document-layout.ts` finds its title, register line, headings, signatures and the
+  certification of the notary; `DocumentSheet` sets them like the paper document, with the seal and
+  the stamp. A notarial deed also gets the fee box, the entry box and the frame of the official form
+  (Appendix 7 to Ordinance No. 32), from `forms` in `templates.json`.
 - **Study tools.** Flashcards use Leitner boxes (`core/study/leitner.ts`): a known card moves one
   box up and comes back after 1, 3, 7, 14 or 30 days; a missed card goes back to box 1. Tests and
   the exam draw from the chapter questions (`core/study/quiz.ts`); `ProgressService` keeps the
