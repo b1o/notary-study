@@ -80,6 +80,7 @@ export interface UiText {
     readonly checklistsHint: string;
     readonly feesHint: string;
     readonly testsHint: string;
+    readonly flashcardsHint: string;
     readonly contents: string;
   };
   readonly chapter: {

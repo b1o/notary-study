@@ -70,6 +70,7 @@ export const UI_TEXT_EN: UiText = {
     checklistsHint: 'Documents and checks per file type',
     feesHint: 'Notarial fees, entry fee and local tax',
     testsHint: 'Chapter tests and the final exam',
+    flashcardsHint: 'Questions and answers to review every day',
     contents: 'Chapters',
   },
   chapter: {

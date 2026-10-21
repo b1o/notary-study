@@ -2,10 +2,13 @@ import { Component, inject, input } from '@angular/core';
 
 import { LanguageService } from '../../core/i18n/language.service';
 import type { LawCatalogEntry } from '../../core/laws/law.models';
+import { PageHeader } from '../../shared/layout/page-header';
+import { Notice } from '../../shared/ui/notice';
 
-/** The top of an act page: abbreviation, title, dates, source and notes about the text. */
+/** The top of an act page: title, abbreviation, dates, source and notes about the text. */
 @Component({
   selector: 'nc-act-header',
+  imports: [PageHeader, Notice],
   templateUrl: './act-header.html',
   styleUrl: './act-header.scss',
 })

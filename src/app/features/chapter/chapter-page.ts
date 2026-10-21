@@ -10,14 +10,27 @@ import { MarkdownService } from '../../core/markdown/markdown.service';
 import { pageTitleEffect } from '../../core/page-title';
 import { ProgressService } from '../../core/progress/progress.service';
 import { scrollToTarget } from '../../shared/dom/scroll-to-target';
+import { MissingPage } from '../../shared/layout/missing-page';
+import { PageHeader, type BackLink } from '../../shared/layout/page-header';
+import { PageLayout } from '../../shared/layout/page-layout';
 import { Icon } from '../../shared/ui/icon';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
+import { OutlineList, type OutlineItem } from '../../shared/ui/outline-list';
 
 /** One chapter of the course: objectives, the text with its contents, and the way to the next chapter. */
 @Component({
   selector: 'nc-chapter-page',
-  imports: [RouterLink, Icon, LoadStatus, MarkdownContent],
+  imports: [
+    RouterLink,
+    PageLayout,
+    PageHeader,
+    MissingPage,
+    OutlineList,
+    Icon,
+    LoadStatus,
+    MarkdownContent,
+  ],
   templateUrl: './chapter-page.html',
   styleUrl: './chapter-page.scss',
 })
@@ -33,9 +46,13 @@ export default class ChapterPage {
   protected readonly lang = this.language.current;
 
   protected readonly chapter = computed(() => this.content.chapter(this.chapterId()));
-  protected readonly part = computed(() => {
+  /** Back to the course contents, labelled with the part: "Part 4: Notarial procedure". */
+  protected readonly partLink = computed<BackLink | undefined>(() => {
     const chapter = this.chapter();
-    return chapter && this.content.parts().find((part) => part.id === chapter.part);
+    const part = chapter && this.content.parts().find((candidate) => candidate.id === chapter.part);
+    if (!part) return undefined;
+    const label = `${this.ui().chapter.part(this.content.partNumber(part.id))}: ${part.title[this.lang()]}`;
+    return { label, link: '/' };
   });
   protected readonly neighbours = computed(() => this.content.neighbours(this.chapterId()));
   protected readonly isRead = computed(() => this.progress.isRead(this.chapterId()));
@@ -52,6 +69,16 @@ export default class ChapterPage {
   /** Renders again when the text arrives, and when the language or the law catalog changes. */
   protected readonly rendered = computed(() =>
     this.source.hasValue() ? this.markdown.render(this.source.value()) : undefined,
+  );
+
+  /** The headings of the text, for the contents column. */
+  protected readonly outline = computed<OutlineItem[]>(
+    () =>
+      this.rendered()?.toc.map((entry) => ({
+        id: entry.id,
+        title: entry.text,
+        depth: entry.level - 2,
+      })) ?? [],
   );
 
   /** The manifest is there, but it has no chapter with this id. */

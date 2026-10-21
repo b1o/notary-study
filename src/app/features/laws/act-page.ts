@@ -1,6 +1,5 @@
 import { Component, computed, inject, input, resource, signal } from '@angular/core';
 import { form, FormField } from '@angular/forms/signals';
-import { RouterLink } from '@angular/router';
 
 import { LanguageService } from '../../core/i18n/language.service';
 import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
@@ -9,10 +8,12 @@ import type { ActTranslation } from '../../core/laws/law.models';
 import { pageTitleEffect } from '../../core/page-title';
 import { scrollToTarget } from '../../shared/dom/scroll-to-target';
 import { LawArticleText } from '../../shared/law/law-article-text';
+import { MissingPage } from '../../shared/layout/missing-page';
+import { PageLayout } from '../../shared/layout/page-layout';
 import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
-import { Icon } from '../../shared/ui/icon';
 import { LoadStatus } from '../../shared/ui/load-status';
-import { ActContents } from './act-contents';
+import { Notice } from '../../shared/ui/notice';
+import { OutlineList, type OutlineItem } from '../../shared/ui/outline-list';
 import { articleAnchor, matchesQuery, toEntries, type ActEntry } from './act-entries';
 import { ActHeader } from './act-header';
 import { ActHeading } from './act-heading';
@@ -24,21 +25,19 @@ import { ActHeading } from './act-heading';
 @Component({
   selector: 'nc-act-page',
   imports: [
-    RouterLink,
     FormField,
-    Icon,
+    PageLayout,
+    MissingPage,
+    OutlineList,
+    Notice,
     ChoiceGroup,
     LawArticleText,
     LoadStatus,
-    ActContents,
     ActHeading,
     ActHeader,
   ],
   templateUrl: './act-page.html',
   styleUrl: './act-page.scss',
-  host: {
-    '[class.act-page--side-by-side]': 'sideBySide()',
-  },
 })
 export default class ActPage {
   /** From the route: laws/:actId and laws/:actId/:article */
@@ -64,7 +63,7 @@ export default class ActPage {
     this.translations.hasValue() ? this.translations.value() : {},
   );
 
-  /** "Both" languages and an act with translations: the page widens for two text columns. */
+  /** "Both" languages and an act with translations: the text gets two columns when they fit. */
   protected readonly sideBySide = computed(
     () => this.display.textLanguage() === 'both' && Object.keys(this.translationOf()).length > 0,
   );
@@ -80,6 +79,17 @@ export default class ActPage {
   );
   protected readonly headings = computed(() =>
     this.entries().filter((entry) => entry.kind === 'heading'),
+  );
+
+  /** The headings for the contents column. */
+  protected readonly outline = computed<OutlineItem[]>(() =>
+    this.headings().map(({ id, level, parts }) => ({
+      id,
+      title: parts.title,
+      label: parts.label,
+      depth: level - 1,
+      caps: parts.caps,
+    })),
   );
 
   /** All items; with a filter, only the matching articles. */

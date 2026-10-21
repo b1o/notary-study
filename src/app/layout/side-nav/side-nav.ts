@@ -3,34 +3,14 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { filter, map } from 'rxjs';
 
+import { APP_SECTIONS } from '../../app-sections';
 import { ContentService } from '../../core/content/content.service';
 import { LANGUAGES, type Language } from '../../core/i18n/language';
 import { LanguageService } from '../../core/i18n/language.service';
-import type { UiText } from '../../core/i18n/ui-text';
 import { ProgressService } from '../../core/progress/progress.service';
 import { ChoiceGroup, type Choice } from '../../shared/ui/choice-group';
-import { Icon, type IconName } from '../../shared/ui/icon';
+import { Icon } from '../../shared/ui/icon';
 import { ReadingSettingsPanel } from '../reading-settings/reading-settings-panel';
-
-interface NavItem {
-  readonly label: keyof UiText['nav'];
-  readonly icon: IconName;
-  /** Items without a path are features that the Angular version does not have yet. */
-  readonly path?: string;
-}
-
-const REFERENCE: readonly NavItem[] = [
-  { label: 'laws', icon: 'law', path: '/laws' },
-  { label: 'glossary', icon: 'glossary' },
-  { label: 'templates', icon: 'template' },
-  { label: 'checklists', icon: 'checklist' },
-  { label: 'fees', icon: 'calculator' },
-];
-
-const STUDY: readonly NavItem[] = [
-  { label: 'tests', icon: 'test' },
-  { label: 'flashcards', icon: 'cards' },
-];
 
 /** The main navigation: tools, the chapters by part, the language and the reading settings. */
 @Component({
@@ -50,10 +30,10 @@ export class SideNav {
   protected readonly ui = this.language.text;
   protected readonly lang = this.language.current;
 
-  protected readonly groups = [
-    { label: 'reference', items: REFERENCE },
-    { label: 'study', items: STUDY },
-  ] as const;
+  protected readonly groups = (['reference', 'study'] as const).map((label) => ({
+    label,
+    items: APP_SECTIONS.filter((section) => section.group === label),
+  }));
 
   protected readonly languageChoices = computed<Choice<Language>[]>(() =>
     LANGUAGES.map((language) => ({ value: language, label: this.ui().language[language] })),

@@ -1,0 +1,25 @@
+<!-- The side column is projected once and shown in one of two places. -->
+<ng-template #asideContent><ng-content select="[pageAside]" /></ng-template>
+
+<div class="page-layout__frame">
+  <div class="page-layout__header">
+    <ng-content select="[pageHeader]" />
+  </div>
+
+  <div class="page-layout__body">
+    @if (asideBeside()) {
+      <div class="page-layout__aside">
+        <h2 class="page-layout__aside-title">{{ asideLabel() }}</h2>
+        <ng-container [ngTemplateOutlet]="asideContent" />
+      </div>
+    } @else if (aside() !== 'none') {
+      <details class="page-layout__folded">
+        <summary>{{ asideLabel() }}</summary>
+        <ng-container [ngTemplateOutlet]="asideContent" />
+      </details>
+    }
+    <div class="page-layout__main">
+      <ng-content />
+    </div>
+  </div>
+</div>

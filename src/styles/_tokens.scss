@@ -140,6 +140,8 @@
   /* Height of the bar that stays at the top of the window: none on wide screens. */
   --sticky-offset: 0px;
   --page-padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1rem, 5vw, 4rem) var(--space-9);
+  /* Width of the page frame (see shared/layout/page-layout): the same on every page. */
+  --page-frame: 72rem;
 
   --duration-fast: 120ms;
   --duration-medium: 220ms;

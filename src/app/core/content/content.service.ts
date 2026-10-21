@@ -4,6 +4,13 @@ import { computed, Service } from '@angular/core';
 import type { Language } from '../i18n/language';
 import type { ChapterMeta, Manifest, Part } from './content.models';
 
+/** A part of the course with its number ("Part 3") and its chapters in reading order. */
+export interface PartOutline {
+  readonly part: Part;
+  readonly number: number;
+  readonly chapters: readonly ChapterMeta[];
+}
+
 const DATA = 'data';
 
 /** The course structure (parts and chapters) and the locations of the chapter files. */
@@ -16,6 +23,15 @@ export class ContentService {
   );
   readonly chapters = computed<readonly ChapterMeta[]>(() =>
     this.manifest.hasValue() ? this.manifest.value().chapters : [],
+  );
+
+  /** All parts with their chapters, for the chapter lists of the course, the tests and the cards. */
+  readonly outline = computed<readonly PartOutline[]>(() =>
+    this.parts().map((part, index) => ({
+      part,
+      number: index + 1,
+      chapters: this.chaptersOf(part),
+    })),
   );
 
   private readonly chaptersById = computed(

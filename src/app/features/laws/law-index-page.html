@@ -1,9 +1,6 @@
 @let text = ui().law;
-<div class="page page--wide">
-  <header class="library-head">
-    <h1 class="page-title">{{ text.library }}</h1>
-    <p class="page-lead">{{ text.libraryIntro }}</p>
-  </header>
+<nc-page-layout>
+  <nc-page-header pageHeader [heading]="text.library" [lead]="text.libraryIntro" />
 
   <form class="jump" (submit)="openCitation($event)">
     <label class="jump__label" for="law-jump">{{ text.jumpLabel }}</label>
@@ -27,14 +24,14 @@
 
   <nc-load-status [resource]="laws.catalog" />
 
-  <div class="law-groups">
+  <div class="section-columns">
     @for (entry of groups(); track entry.group) {
       <section class="law-group">
         <h2 class="section-title">{{ text.groups[entry.group] }}</h2>
-        <ul class="act-list">
+        <ul class="row-list">
           @for (act of entry.acts; track act.id) {
             <li>
-              <a class="act-row" [routerLink]="['/laws', act.id]">
+              <a class="row-link act-row" [routerLink]="['/laws', act.id]">
                 <span class="act-row__abbr" lang="bg">{{ act.abbr }}</span>
                 <span class="act-row__title">{{ act.title[lang()] }}</span>
                 <span class="act-row__meta">
@@ -50,4 +47,4 @@
       </section>
     }
   </div>
-</div>
+</nc-page-layout>

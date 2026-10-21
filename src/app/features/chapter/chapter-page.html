@@ -1,97 +1,83 @@
 @let text = ui();
 @if (chapter(); as chapter) {
-  <div class="chapter">
-    <article class="chapter__article">
-      <header class="chapter__head">
-        @if (part(); as part) {
-          <p class="chapter__part">
-            {{ text.chapter.part(content.partNumber(part.id)) }}: {{ part.title[lang()] }}
-          </p>
+  <nc-page-layout
+    main="reading"
+    [aside]="outline().length ? 'end' : 'none'"
+    [asideLabel]="text.chapter.onThisPage"
+  >
+    <nc-page-header
+      pageHeader
+      [heading]="chapter.title[lang()]"
+      [lead]="chapter.summary[lang()]"
+      [back]="partLink()"
+    >
+      <ul class="meta-list">
+        <li>{{ text.chapter.number(chapter.number) }}</li>
+        <li><nc-icon name="clock" />{{ text.chapter.minutes(chapter.minutes) }}</li>
+        @if (isRead()) {
+          <li class="done-mark"><nc-icon name="check" />{{ text.chapter.read }}</li>
         }
-        <h1 class="page-title">{{ chapter.title[lang()] }}</h1>
-        <ul class="chapter__meta">
-          <li>{{ text.chapter.number(chapter.number) }}</li>
-          <li><nc-icon name="clock" />{{ text.chapter.minutes(chapter.minutes) }}</li>
-          @if (isRead()) {
-            <li class="chapter__read"><nc-icon name="check" />{{ text.chapter.read }}</li>
+      </ul>
+    </nc-page-header>
+
+    <nav pageAside [attr.aria-label]="text.chapter.onThisPage">
+      <nc-outline-list [items]="outline()" />
+    </nav>
+
+    @if (data.hasValue() && data.value().objectives.length) {
+      <section class="objectives">
+        <h2 class="objectives__title">{{ text.chapter.objectives }}</h2>
+        <ul>
+          @for (objective of data.value().objectives; track $index) {
+            <li>{{ objective }}</li>
           }
         </ul>
-        <p class="page-lead">{{ chapter.summary[lang()] }}</p>
-      </header>
-
-      @if (data.hasValue() && data.value().objectives.length) {
-        <section class="objectives">
-          <h2 class="objectives__title">{{ text.chapter.objectives }}</h2>
-          <ul>
-            @for (objective of data.value().objectives; track $index) {
-              <li>{{ objective }}</li>
-            }
-          </ul>
-        </section>
-      }
-
-      <nc-load-status [resource]="source" />
-      @if (rendered(); as rendered) {
-        <nc-markdown-content [content]="rendered.html" />
-      }
-
-      <footer class="chapter__foot">
-        <button
-          type="button"
-          class="button"
-          [class.button--success]="isRead()"
-          [attr.aria-pressed]="isRead()"
-          (click)="toggleRead()"
-        >
-          <nc-icon name="check" />
-          {{ isRead() ? text.chapter.read : text.chapter.markRead }}
-        </button>
-
-        <nav class="chapter__steps" [attr.aria-label]="text.nav.contents">
-          @if (neighbours().previous; as previous) {
-            <a class="chapter-step" [routerLink]="['/course', previous.id]">
-              <span class="chapter-step__hint"
-                ><nc-icon name="arrowLeft" />{{ text.chapter.previous }}</span
-              >
-              <span class="chapter-step__title"
-                >{{ previous.number }}. {{ previous.title[lang()] }}</span
-              >
-            </a>
-          }
-          @if (neighbours().next; as next) {
-            <a class="chapter-step chapter-step--next" [routerLink]="['/course', next.id]">
-              <span class="chapter-step__hint"
-                >{{ text.chapter.next }}<nc-icon name="arrowRight"
-              /></span>
-              <span class="chapter-step__title">{{ next.number }}. {{ next.title[lang()] }}</span>
-            </a>
-          }
-        </nav>
-      </footer>
-    </article>
-
-    @if (rendered()?.toc?.length) {
-      <nav class="chapter__toc" [attr.aria-label]="text.chapter.onThisPage">
-        <h2 class="chapter__toc-title">{{ text.chapter.onThisPage }}</h2>
-        <ol>
-          @for (entry of rendered()!.toc; track entry.id) {
-            <li [class.toc-sub]="entry.level === 3">
-              <a [routerLink]="[]" [fragment]="entry.id">{{ entry.text }}</a>
-            </li>
-          }
-        </ol>
-      </nav>
+      </section>
     }
-  </div>
+
+    <nc-load-status [resource]="source" />
+    @if (rendered(); as rendered) {
+      <nc-markdown-content [content]="rendered.html" />
+    }
+
+    <footer class="chapter-foot">
+      <button
+        type="button"
+        class="button"
+        [class.button--success]="isRead()"
+        [attr.aria-pressed]="isRead()"
+        (click)="toggleRead()"
+      >
+        <nc-icon name="check" />
+        {{ isRead() ? text.chapter.read : text.chapter.markRead }}
+      </button>
+
+      <nav class="step-links" [attr.aria-label]="text.nav.contents">
+        @if (neighbours().previous; as previous) {
+          <a class="step-link" [routerLink]="['/course', previous.id]">
+            <span class="step-link__hint"
+              ><nc-icon name="arrowLeft" />{{ text.chapter.previous }}</span
+            >
+            <span class="step-link__title"
+              >{{ previous.number }}. {{ previous.title[lang()] }}</span
+            >
+          </a>
+        }
+        @if (neighbours().next; as next) {
+          <a class="step-link step-link--next" [routerLink]="['/course', next.id]">
+            <span class="step-link__hint"
+              >{{ text.chapter.next }}<nc-icon name="arrowRight"
+            /></span>
+            <span class="step-link__title">{{ next.number }}. {{ next.title[lang()] }}</span>
+          </a>
+        }
+      </nav>
+    </footer>
+  </nc-page-layout>
 } @else if (notFound()) {
-  <div class="page">
-    <h1 class="page-title">{{ text.common.notFound }}</h1>
-    <p>
-      <a routerLink="/">{{ text.common.goHome }}</a>
-    </p>
-  </div>
+  <nc-missing-page />
 } @else {
-  <div class="page">
+  <nc-page-layout>
     <nc-load-status [resource]="content.manifest" />
-  </div>
+  </nc-page-layout>
 }

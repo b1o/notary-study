@@ -1,13 +1,19 @@
 @let text = ui().law;
-<div class="act-page">
-  <div class="act-frame">
-    <a class="back-link" routerLink="/laws"><nc-icon name="arrowLeft" />{{ text.library }}</a>
-
+@if (actMissing()) {
+  <nc-missing-page />
+} @else {
+  <nc-page-layout
+    [main]="sideBySide() ? 'double' : 'reading'"
+    [aside]="headings().length ? 'start' : 'none'"
+    [asideLabel]="text.contents"
+  >
     @if (entry(); as entry) {
-      <nc-act-header [entry]="entry" />
-    } @else if (actMissing()) {
-      <h1 class="page-title">{{ ui().common.notFound }}</h1>
+      <nc-act-header pageHeader [entry]="entry" />
     }
+
+    <nav pageAside [attr.aria-label]="text.contents">
+      <nc-outline-list [items]="outline()" />
+    </nav>
 
     <nc-load-status [resource]="act" />
 
@@ -33,48 +39,33 @@
       </div>
 
       @if (articleMissing()) {
-        <p class="act-missing" role="status">{{ text.notFound }}</p>
+        <nc-notice tone="warn">{{ text.notFound }}</nc-notice>
       }
 
-      <div class="act-body">
-        <div class="act-layout" [class.act-layout--no-contents]="!headings().length">
-          @if (headings().length) {
-            <nav class="act-rail" [attr.aria-label]="text.contents">
-              <h2 class="act-rail__title">{{ text.contents }}</h2>
-              <nc-act-contents [headings]="headings()" />
-            </nav>
-            <details class="act-inline-contents">
-              <summary>{{ text.contents }}</summary>
-              <nc-act-contents [headings]="headings()" />
-            </details>
-          }
-
-          <div class="act-text">
-            @for (entry of visibleEntries(); track entry.id) {
-              @if (entry.kind === 'heading') {
-                <nc-act-heading [heading]="entry" />
-              } @else if (entry.kind === 'note') {
-                <section class="act-note" [id]="entry.id" lang="bg">
-                  <h3 class="act-note__title">{{ entry.title }}</h3>
-                  @for (paragraph of entry.paragraphs; track $index) {
-                    <p>{{ paragraph }}</p>
-                  }
-                </section>
-              } @else {
-                <section class="act-article" [id]="entry.id">
-                  <nc-law-article-text
-                    [act]="actId()"
-                    [article]="entry.article"
-                    [translation]="translationOf()[entry.article.number]"
-                    [highlight]="entry.article.number === article() ? paragraph() : undefined"
-                    [headingLevel]="entry.headingLevel"
-                  />
-                </section>
+      <div class="act-text">
+        @for (entry of visibleEntries(); track entry.id) {
+          @if (entry.kind === 'heading') {
+            <nc-act-heading [heading]="entry" />
+          } @else if (entry.kind === 'note') {
+            <section class="act-note" [id]="entry.id" lang="bg">
+              <h3 class="act-note__title">{{ entry.title }}</h3>
+              @for (paragraph of entry.paragraphs; track $index) {
+                <p>{{ paragraph }}</p>
               }
-            }
-          </div>
-        </div>
+            </section>
+          } @else {
+            <section class="act-article" [id]="entry.id">
+              <nc-law-article-text
+                [act]="actId()"
+                [article]="entry.article"
+                [translation]="translationOf()[entry.article.number]"
+                [highlight]="entry.article.number === article() ? paragraph() : undefined"
+                [headingLevel]="entry.headingLevel"
+              />
+            </section>
+          }
+        }
       </div>
     }
-  </div>
-</div>
+  </nc-page-layout>
+}

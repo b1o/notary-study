@@ -30,16 +30,19 @@ export class LawPanelService {
     (stored, fallback) => (typeof stored === 'number' ? clampWidth(stored) : fallback),
   );
 
-  /** Show a provision. Opening the provision that is already shown does nothing. */
-  open(reference: LawReference): void {
+  /** True when the panel shows this provision (the same article and paragraph). */
+  isShown(reference: LawReference): boolean {
     const current = this.current();
-    if (
-      current &&
+    return (
+      !!current &&
       articleKey(current) === articleKey(reference) &&
       current.paragraph === reference.paragraph
-    ) {
-      return;
-    }
+    );
+  }
+
+  /** Show a provision. Opening the provision that is already shown does nothing. */
+  open(reference: LawReference): void {
+    if (this.isShown(reference)) return;
     // Like a browser: opening from the middle of the history drops the "forward" entries.
     this.history.update((history) => [...history.slice(0, this.position() + 1), reference]);
     this.position.update((position) => position + 1);

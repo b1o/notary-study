@@ -7,12 +7,14 @@ import { parseCitationText } from '../../core/laws/citation';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import { LAW_GROUPS } from '../../core/laws/law.models';
 import { pageTitleEffect } from '../../core/page-title';
+import { PageHeader } from '../../shared/layout/page-header';
+import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
 
 /** The law library: a field to open a provision by its citation, and all acts by group. */
 @Component({
   selector: 'nc-law-index-page',
-  imports: [RouterLink, FormField, LoadStatus],
+  imports: [RouterLink, FormField, PageLayout, PageHeader, LoadStatus],
   templateUrl: './law-index-page.html',
   styleUrl: './law-index-page.scss',
 })

@@ -50,9 +50,19 @@ const CALLOUT_AT_START = /^> \[!(\w+)\][ \t]*([^\n]*)\n?((?:>[^\n]*(?:\n|$))*)/;
 
 export function renderMarkdown(source: string, context: MarkdownContext): RenderedMarkdown {
   const toc: TocEntry[] = [];
-  const slugs = new SlugRegistry();
+  const html = createMarked(context, toc).parse(source, { async: false });
+  return { html, toc };
+}
 
-  const marked = new Marked({
+/** Markdown inside one line, for example a test question: emphasis, citations and terms. */
+export function renderInlineMarkdown(source: string, context: MarkdownContext): string {
+  return createMarked(context, []).parseInline(source, { async: false });
+}
+
+/** A marked instance with the course extensions. Level 2 and 3 headings are added to `toc`. */
+function createMarked(context: MarkdownContext, toc: TocEntry[]): Marked {
+  const slugs = new SlugRegistry();
+  return new Marked({
     gfm: true,
     extensions: [citationExtension(context), termExtension, calloutExtension(context)],
     renderer: {
@@ -81,8 +91,6 @@ export function renderMarkdown(source: string, context: MarkdownContext): Render
       },
     },
   });
-
-  return { html: marked.parse(source, { async: false }), toc };
 }
 
 function citationExtension(context: MarkdownContext): TokenizerAndRendererExtension {

@@ -1,0 +1,31 @@
+@for (group of parts(); track group.part.id) {
+  <section class="part">
+    <h3 class="part__title">
+      <span class="part__number">{{ group.number }}</span>
+      <span>{{ group.part.title[lang()] }}</span>
+    </h3>
+    <ol class="row-list">
+      @for (chapter of group.chapters; track chapter.id) {
+        <li>
+          <a class="row-link chapter-row" [routerLink]="link()(chapter)">
+            <span class="chapter-row__number">{{ chapter.number }}</span>
+            <span class="chapter-row__main">
+              <span class="chapter-row__title">{{ chapter.title[lang()] }}</span>
+              @if (summaries()) {
+                <span class="chapter-row__summary">{{ chapter.summary[lang()] }}</span>
+              }
+            </span>
+            @if (rowEnd(); as rowEnd) {
+              <span class="chapter-row__end">
+                <ng-container
+                  [ngTemplateOutlet]="rowEnd"
+                  [ngTemplateOutletContext]="{ $implicit: chapter }"
+                />
+              </span>
+            }
+          </a>
+        </li>
+      }
+    </ol>
+  </section>
+}

@@ -1,0 +1,97 @@
+/*
+ * Every page has the same frame: centred in the sheet, at most --page-frame wide, so titles
+ * start at the same place on every page. Inside the frame, the columns start at the left edge.
+ */
+:host {
+  display: block;
+  padding: var(--page-padding);
+  --main-width: 1fr;
+  --aside-width: 15rem;
+  --aside-gap: clamp(2rem, 4vw, 4rem);
+}
+
+:host(.page-layout--main-reading) {
+  --main-width: var(--measure);
+}
+
+:host(.page-layout--main-double) {
+  --main-width: calc(2 * var(--measure) + 2.5 * var(--reading-size));
+}
+
+.page-layout__frame {
+  max-inline-size: var(--page-frame);
+  margin-inline: auto;
+}
+
+:host(.page-layout--main-double) .page-layout__frame {
+  max-inline-size: max(
+    var(--page-frame),
+    var(--aside-width) + var(--aside-gap) + var(--main-width)
+  );
+}
+
+.page-layout__header:not(:empty) {
+  margin-block-end: var(--space-6);
+}
+
+.page-layout__body {
+  display: grid;
+  grid-template-columns: minmax(0, var(--main-width));
+}
+
+/* The side column next to the main column: before it ("start") or after it ("end"). */
+:host(.page-layout--beside) .page-layout__body {
+  grid-template-columns: minmax(0, var(--main-width)) var(--aside-width);
+  column-gap: var(--aside-gap);
+}
+
+:host(.page-layout--beside.page-layout--aside-start) .page-layout__body {
+  grid-template-columns: var(--aside-width) minmax(0, var(--main-width));
+}
+
+:host(.page-layout--beside.page-layout--aside-start) .page-layout__aside {
+  order: -1;
+}
+
+/* It stays in view while the page scrolls. The padding gives hover backgrounds room. */
+.page-layout__aside {
+  position: sticky;
+  inset-block-start: calc(var(--sticky-offset) + var(--space-5));
+  align-self: start;
+  max-block-size: calc(100dvh - var(--sticky-offset) - 2 * var(--space-5));
+  margin-inline: calc(-1 * var(--space-2));
+  padding-inline: var(--space-2);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.page-layout__aside {
+  order: 1;
+}
+
+.page-layout__aside-title {
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 650;
+}
+
+/* Narrow page: the side column folds into a disclosure above the main column. */
+.page-layout__folded {
+  margin-block-end: var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-2);
+}
+
+.page-layout__folded summary {
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.page-layout__folded[open] summary {
+  margin-block-end: var(--space-2);
+}
+
+.page-layout__main {
+  min-inline-size: 0;
+}

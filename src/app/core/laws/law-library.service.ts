@@ -1,5 +1,6 @@
 import { HttpClient, httpResource } from '@angular/common/http';
 import { computed, inject, Service } from '@angular/core';
+import { Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 
 import type { Language } from '../i18n/language';
@@ -15,6 +16,7 @@ const LAWS = 'data/laws';
 export class LawLibraryService {
   private readonly http = inject(HttpClient);
   private readonly language = inject(LanguageService);
+  private readonly router = inject(Router);
 
   readonly catalog = httpResource<readonly LawCatalogEntry[]>(() => `${LAWS}/catalog.json`);
 
@@ -54,6 +56,13 @@ export class LawLibraryService {
       ? ['/laws', reference.act, reference.article]
       : ['/laws', reference.act];
     return { commands, queryParams: reference.paragraph ? { paragraph: reference.paragraph } : {} };
+  }
+
+  /** The same link as an address, for an href: "/laws/znnd/25?paragraph=9". */
+  url(reference: LawReference | string): string {
+    const parsed = typeof reference === 'string' ? parseReference(reference) : reference;
+    const { commands, queryParams } = this.link(parsed);
+    return this.router.serializeUrl(this.router.createUrlTree(commands, { queryParams }));
   }
 
   loadAct(actId: string): Promise<ActIndex> {

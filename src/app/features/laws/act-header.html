@@ -1,11 +1,12 @@
 @let text = ui().law;
 @let act = entry();
-<header class="act-head">
-  <p class="act-head__abbr" lang="bg">{{ act.abbr }}</p>
-  <h1 class="page-title">{{ act.title[lang()] }}</h1>
-  @if (lang() === 'en') {
-    <p class="act-head__original" lang="bg">{{ act.title.bg }}</p>
-  }
+<nc-page-header [heading]="act.title[lang()]" [back]="{ label: text.library, link: '/laws' }">
+  <p class="act-head__names" lang="bg">
+    <span class="act-head__abbr">{{ act.abbr }}</span>
+    @if (lang() === 'en') {
+      &ngsp;<span>{{ act.title.bg }}</span>
+    }
+  </p>
   <dl class="act-facts">
     @if (act.inForce) {
       <div>
@@ -28,7 +29,7 @@
       <dd><a [href]="act.source" target="_blank" rel="noopener">lex.bg</a></dd>
     </div>
   </dl>
-  <div class="act-notes">
+  <nc-notice class="act-head__notes">
     @if (act.note) {
       <p>{{ act.note[lang()] }}</p>
     }
@@ -36,5 +37,5 @@
     @if (act.group === 'tax') {
       <p>{{ text.euroNote }}</p>
     }
-  </div>
-</header>
+  </nc-notice>
+</nc-page-header>

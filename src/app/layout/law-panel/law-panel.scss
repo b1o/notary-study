@@ -109,49 +109,7 @@
 }
 
 .law-panel__steps {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-2);
   margin-block: var(--space-6) var(--space-2);
-}
-
-.step-button {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-3);
-  border: 0;
-  border-radius: var(--radius-md);
-  background: var(--color-surface-2);
-  color: var(--color-ink);
-  font: inherit;
-  text-align: start;
-  cursor: pointer;
-}
-
-.step-button:hover {
-  background: var(--color-hover-strong);
-}
-
-.step-button--next {
-  grid-column: 2;
-  justify-content: flex-end;
-  text-align: end;
-}
-
-.step-button__hint,
-.step-button__label {
-  display: block;
-}
-
-.step-button__hint {
-  font-size: var(--text-xs);
-  color: var(--color-ink-3);
-}
-
-.step-button__label {
-  font-size: var(--text-sm);
-  font-weight: 550;
 }
 
 .law-panel__section {
@@ -171,54 +129,23 @@
   color: var(--color-ink-3);
 }
 
-.article-list,
-.site-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.article-list__item,
-.site-list__link {
-  display: flex;
-  flex-direction: column;
-  inline-size: 100%;
-  padding: var(--space-2) var(--space-3);
-  margin-inline: calc(-1 * var(--space-3));
-  border: 0;
-  border-radius: var(--radius-sm);
-  background: none;
-  color: var(--color-ink);
-  font: inherit;
+/* Rows of the "same section" and "cited in the course" lists: a title and a muted detail. */
+.panel-row {
+  display: grid;
+  padding-block: var(--space-2);
   font-size: var(--text-sm);
-  text-align: start;
-  text-decoration: none;
-  cursor: pointer;
-  box-sizing: content-box;
 }
 
-.article-list__item:hover,
-.site-list__link:hover {
-  background: var(--color-hover);
-}
-
-.article-list__item--current,
-.article-list__item--current:hover {
-  background: var(--color-accent-soft);
-  color: var(--color-accent-text);
-}
-
-.article-list__number {
+.panel-row__title {
   font-weight: 550;
 }
 
-.article-list__title,
-.site-list__section {
+.panel-row__detail {
   color: var(--color-ink-2);
 }
 
-.site-list__chapter {
-  font-weight: 550;
+.row-link--current .panel-row__detail {
+  color: inherit;
 }
 
 .term-list {

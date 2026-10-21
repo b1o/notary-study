@@ -1,42 +1,4 @@
-:host {
-  display: block;
-}
-
-.act-page {
-  padding: var(--page-padding);
-}
-
-/*
- * The page is as wide as the contents column, the gap and the text, and stays centred in the sheet.
- * Side by side, the text has two columns: the original and the translation.
- */
-.act-frame {
-  --act-rail-width: 16rem;
-  --act-gap: clamp(2rem, 4vw, 4.5rem);
-  --act-text-width: var(--measure);
-  max-inline-size: calc(var(--act-rail-width) + var(--act-gap) + var(--act-text-width));
-  margin-inline: auto;
-}
-
-:host(.act-page--side-by-side) .act-frame {
-  --act-text-width: calc(2 * var(--measure) + 2.5 * var(--reading-size));
-}
-
-.back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  margin-block-end: var(--space-5);
-  font-size: var(--text-sm);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  --icon-size: 1rem;
-}
-
-.back-link:hover {
-  color: var(--color-ink);
-}
-
+/* The tools stay at the top of the text column while the act scrolls. */
 .act-tools {
   position: sticky;
   inset-block-start: var(--sticky-offset);
@@ -56,83 +18,13 @@
   max-inline-size: 22rem;
 }
 
-.act-missing {
-  padding: var(--space-3) var(--space-4);
-  border-radius: var(--radius-md);
-  background: var(--color-warn-soft);
-  color: var(--color-warn);
-}
-
 /*
- * The text part works in em of the reading size, so headings, gaps and the point where the
- * contents column appears all follow the "Text size" setting.
+ * The text works in em of the reading size, so headings, gaps and articles all follow the
+ * "Text size" setting (see act-heading.scss and shared/law/law-article-text.scss).
  */
-.act-body {
-  margin-block-start: var(--space-5);
+.act-text {
+  margin-block-start: var(--space-4);
   font-size: var(--reading-size);
-  container-type: inline-size;
-}
-
-.act-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5em;
-}
-
-/* Below the width for a contents column, the contents fold into a disclosure above the text. */
-.act-rail {
-  display: none;
-}
-
-.act-rail__title {
-  margin: 0 0 var(--space-2);
-  font-size: var(--text-sm);
-  font-weight: 650;
-}
-
-.act-inline-contents {
-  padding: var(--space-3) var(--space-4);
-  border-radius: var(--radius-md);
-  background: var(--color-surface-2);
-  font-size: var(--text-sm);
-}
-
-.act-inline-contents summary {
-  font-weight: 650;
-  cursor: pointer;
-}
-
-.act-inline-contents[open] summary {
-  margin-block-end: var(--space-2);
-}
-
-/* The contents column appears only when the text keeps about 30 em next to it. */
-@container (min-width: 50em) {
-  .act-layout {
-    grid-template-columns: var(--act-rail-width) minmax(0, 1fr);
-    column-gap: var(--act-gap);
-  }
-
-  .act-layout--no-contents {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  /* The padding gives the hover background of the links room inside the scroll box. */
-  .act-rail {
-    position: sticky;
-    inset-block-start: calc(var(--sticky-offset) + 4.5rem);
-    display: block;
-    align-self: start;
-    max-block-size: calc(100dvh - var(--sticky-offset) - 6rem);
-    margin-inline: calc(-1 * var(--space-2));
-    padding-inline: var(--space-2);
-    overflow-y: auto;
-    scrollbar-width: thin;
-  }
-
-  .act-inline-contents {
-    display: none;
-  }
 }
 
 .act-text > :first-child {

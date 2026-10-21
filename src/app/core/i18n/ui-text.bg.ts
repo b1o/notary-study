@@ -70,6 +70,7 @@ export const UI_TEXT_BG: UiText = {
     checklistsHint: 'Документи и проверки по вид преписка',
     feesHint: 'Нотариални такси, такса за вписване и местен данък',
     testsHint: 'Тестове по глави и финален изпит',
+    flashcardsHint: 'Въпроси и отговори за ежедневен преговор',
     contents: 'Глави',
   },
   chapter: {

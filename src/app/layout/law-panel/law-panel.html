@@ -98,31 +98,29 @@
           [highlight]="ref.paragraph"
         />
 
-        <div class="law-panel__steps">
+        <div class="step-links law-panel__steps">
           @if (ctx.previous; as previous) {
-            <button type="button" class="step-button" (click)="openArticle(previous.number)">
-              <nc-icon name="chevronLeft" />
-              <span>
-                <span class="step-button__hint">{{ text.panel.previousArticle }}</span>
-                <span class="step-button__label">{{
-                  laws.shortLabel({ act: ref.act, article: previous.number })
-                }}</span>
-              </span>
+            <button type="button" class="step-link" (click)="openArticle(previous.number)">
+              <span class="step-link__hint"
+                ><nc-icon name="arrowLeft" />{{ text.panel.previousArticle }}</span
+              >
+              <span class="step-link__title">{{
+                laws.shortLabel({ act: ref.act, article: previous.number })
+              }}</span>
             </button>
           }
           @if (ctx.next; as next) {
             <button
               type="button"
-              class="step-button step-button--next"
+              class="step-link step-link--next"
               (click)="openArticle(next.number)"
             >
-              <span>
-                <span class="step-button__hint">{{ text.panel.nextArticle }}</span>
-                <span class="step-button__label">{{
-                  laws.shortLabel({ act: ref.act, article: next.number })
-                }}</span>
-              </span>
-              <nc-icon name="chevronRight" />
+              <span class="step-link__hint"
+                >{{ text.panel.nextArticle }}<nc-icon name="arrowRight"
+              /></span>
+              <span class="step-link__title">{{
+                laws.shortLabel({ act: ref.act, article: next.number })
+              }}</span>
             </button>
           }
         </div>
@@ -130,21 +128,21 @@
         @if (ctx.section.length > 1) {
           <section class="law-panel__section">
             <h3 class="law-panel__heading">{{ text.panel.sameSection }}</h3>
-            <ul class="article-list">
+            <ul class="row-list">
               @for (article of ctx.section; track article.number) {
                 <li>
                   <button
                     type="button"
-                    class="article-list__item"
-                    [class.article-list__item--current]="article.number === ref.article"
+                    class="row-link row-link--compact panel-row"
+                    [class.row-link--current]="article.number === ref.article"
                     [attr.aria-current]="article.number === ref.article ? 'true' : null"
                     (click)="openArticle(article.number)"
                   >
-                    <span class="article-list__number">{{
+                    <span class="panel-row__title">{{
                       laws.shortLabel({ act: ref.act, article: article.number })
                     }}</span>
                     @if (article.title) {
-                      <span class="article-list__title" lang="bg">{{ article.title }}</span>
+                      <span class="panel-row__detail" lang="bg">{{ article.title }}</span>
                     }
                   </button>
                 </li>
@@ -156,19 +154,19 @@
         <section class="law-panel__section">
           <h3 class="law-panel__heading">{{ text.panel.citedInCourse }}</h3>
           @if (sites().length) {
-            <ul class="site-list">
+            <ul class="row-list">
               @for (site of sites(); track $index) {
                 <li>
                   <a
-                    class="site-list__link"
+                    class="row-link row-link--compact panel-row"
                     [routerLink]="['/course', site.chapterId]"
                     [fragment]="site.sectionId"
                   >
-                    <span class="site-list__chapter"
+                    <span class="panel-row__title"
                       >{{ site.chapter.number }}. {{ site.chapter.title[lang()] }}</span
                     >
                     @if (site.sectionTitle) {
-                      <span class="site-list__section">{{ site.sectionTitle }}</span>
+                      <span class="panel-row__detail">{{ site.sectionTitle }}</span>
                     }
                   </a>
                 </li>
