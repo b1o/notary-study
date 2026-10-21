@@ -89,9 +89,13 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
   (`shared/dom/swipe.ts`, handled in `app.ts`). Vertical scrolling stays with the browser.
 - **Templates.** A template is plain text, so that the copy button gives it as it is.
   `core/reference/document-layout.ts` finds its title, register line, headings, signatures and the
-  certification of the notary; `DocumentSheet` sets them like the paper document, with the seal and
-  the stamp. A notarial deed also gets the fee box, the entry box and the frame of the official form
-  (Appendix 7 to Ordinance No. 32), from `forms` in `templates.json`.
+  certifications of the notary (one stamp after each `---`). `sheet-line.ts` sizes each blank by
+  what goes in it (`blank-size.ts`), and `sheet-flow.ts` gives the rules for page breaks.
+  `DocumentSheet` lays the text out in a hidden A4 page at the real size, measures it, and
+  `sheet-pages.ts` breaks it into pages; the screen and the print show the same pages. A notarial
+  deed also gets the fee box, the entry box and the frame of the official form (Appendix 7 to
+  Ordinance No. 32), from `forms` in `templates.json`. The standards and the decisions are in
+  `docs/research/templates`.
 - **Study tools.** Flashcards use Leitner boxes (`core/study/leitner.ts`): a known card moves one
   box up and comes back after 1, 3, 7, 14 or 30 days; a missed card goes back to box 1. Tests and
   the exam draw from the chapter questions (`core/study/quiz.ts`); `ProgressService` keeps the
