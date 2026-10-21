@@ -7,6 +7,7 @@ import { LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import type { ActTranslation } from '../../core/laws/law.models';
 import { pageTitleEffect } from '../../core/page-title';
+import { lawDocuments } from '../../core/search/search-index';
 import { scrollToTarget } from '../../shared/dom/scroll-to-target';
 import { LawArticleText } from '../../shared/law/law-article-text';
 import { MissingPage } from '../../shared/layout/missing-page';
@@ -15,7 +16,7 @@ import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { Notice } from '../../shared/ui/notice';
 import { OutlineList, type OutlineItem } from '../../shared/ui/outline-list';
-import { articleAnchor, matchesQuery, toEntries, type ActEntry } from './act-entries';
+import { articleAnchor, filterArticles, toEntries, type ActEntry } from './act-entries';
 import { ActHeader } from './act-header';
 import { ActHeading } from './act-heading';
 
@@ -88,13 +89,18 @@ export default class ActPage {
     })),
   );
 
+  /** The articles with their translations, as the search compares them. */
+  private readonly documents = computed(() =>
+    this.act.hasValue() ? lawDocuments(this.act.value().act, this.translationOf()) : [],
+  );
+
   /** All items; with a filter, only the matching articles. */
   protected readonly visibleEntries = computed(() => {
-    const query = this.filter().value().trim().toLowerCase();
+    const query = this.filter().value().trim();
     if (!query) return this.entries();
-    const translations = this.translationOf();
+    const kept = filterArticles(this.documents(), query);
     return this.entries().filter(
-      (entry) => entry.kind === 'article' && matchesQuery(entry.article, translations, query),
+      (entry) => entry.kind === 'article' && kept.has(entry.article.number),
     );
   });
 

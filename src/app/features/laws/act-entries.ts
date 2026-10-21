@@ -1,11 +1,13 @@
+import { typedArticle } from '../../core/laws/citation';
 import { splitHeading, type HeadingParts } from '../../core/laws/law-text';
 import {
   isArticle,
-  type ActTranslation,
   type LawArticle,
   type LawHeading,
   type LawItem,
 } from '../../core/laws/law.models';
+import { filterItems } from '../../core/search/search';
+import type { LawDocument } from '../../core/search/search-index';
 
 /*
  * The items of an act as the act page shows them. Each item has the fragment id that links to it.
@@ -67,20 +69,15 @@ export function toEntries(items: readonly LawItem[]): ActEntry[] {
 }
 
 /**
- * True when an article matches a filter: its number ("25", "чл. 25") or a word of its
- * Bulgarian or English text. The query must be in lower case.
+ * The numbers of the articles that the filter of an act keeps: the article that the query names
+ * by its number ("25", "чл. 25", "28a", "§ 1"), and the articles with every word of the query in
+ * their Bulgarian or English text, in any form ("нотариален" also finds "нотариалния").
  */
-export function matchesQuery(
-  article: LawArticle,
-  translations: ActTranslation,
-  query: string,
-): boolean {
-  const number = query.replace(/^(?:чл|art)\.?\s*/, '');
-  if (article.number.toLowerCase() === number) return true;
-  const texts = [
-    article.title,
-    ...article.paragraphs,
-    ...(translations[article.number]?.paragraphs ?? []),
-  ];
-  return texts.some((text) => text?.toLowerCase().includes(query));
+export function filterArticles(documents: readonly LawDocument[], query: string): Set<string> {
+  const number = typedArticle(query);
+  const kept = new Set(filterItems(documents, query).map((document) => document.reference.article));
+  if (number && documents.some((document) => document.reference.article === number)) {
+    kept.add(number);
+  }
+  return kept;
 }

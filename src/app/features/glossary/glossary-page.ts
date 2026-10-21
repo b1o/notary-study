@@ -6,7 +6,8 @@ import type { GlossaryTerm } from '../../core/content/content.models';
 import { LanguageService } from '../../core/i18n/language.service';
 import { pageTitleEffect } from '../../core/page-title';
 import { GlossaryService } from '../../core/reference/glossary.service';
-import { foldText } from '../../core/text/fold';
+import { filterItems } from '../../core/search/search';
+import { glossaryDocuments } from '../../core/search/search-index';
 import { GlossaryList } from '../../shared/course/glossary-list';
 import { StickyBar } from '../../shared/dom/sticky-bar';
 import { PageHeader } from '../../shared/layout/page-header';
@@ -28,14 +29,18 @@ export default class GlossaryPage {
 
   protected readonly filter = form(signal(''));
 
-  /** The terms that match the filter, grouped by their initial letter. */
+  /** The terms as the search compares them: the term in both languages, and the definition. */
+  private readonly documents = computed(() =>
+    glossaryDocuments(this.glossary.terms(), this.lang()),
+  );
+
+  /**
+   * The terms with every word of the filter in any form ("съпрузи" also finds "съпруг"),
+   * grouped by their initial letter.
+   */
   protected readonly groups = computed(() => {
-    const query = foldText(this.filter().value().trim());
-    const language = this.lang();
     const groups: { letter: string; terms: GlossaryTerm[] }[] = [];
-    for (const term of this.glossary.terms()) {
-      const text = foldText(`${term.bg} ${term.en} ${term.definition[language]}`);
-      if (query && !text.includes(query)) continue;
+    for (const { term } of filterItems(this.documents(), this.filter().value())) {
       const letter = term.bg.charAt(0).toUpperCase();
       const last = groups.at(-1);
       if (last?.letter === letter) last.terms.push(term);

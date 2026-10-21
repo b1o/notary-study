@@ -5,6 +5,7 @@ import {
   parseCitationText,
   parseReference,
   toReferenceString,
+  typedArticle,
 } from './citation';
 
 const CATALOG = [
@@ -103,5 +104,50 @@ describe('parseCitationText', () => {
 
   it('returns undefined when no act is named', () => {
     expect(parseCitationText('чл. 25', CATALOG)).toBeUndefined();
+  });
+
+  it('reads a Latin letter after the number as the Cyrillic one', () => {
+    expect(parseCitationText('Art. 28a(1) znnd', CATALOG)).toEqual({
+      act: 'znnd',
+      article: '28а',
+      paragraph: '1',
+    });
+  });
+
+  it('reads "пар." as a provision', () => {
+    expect(parseCitationText('пар. 1 ЗННД', CATALOG)).toEqual({ act: 'znnd', article: '§1' });
+  });
+
+  it('reads the article when the paragraph comes first', () => {
+    expect(parseCitationText('ал. 9 чл. 25 ЗННД', CATALOG)).toMatchObject({
+      article: '25',
+      paragraph: '9',
+    });
+  });
+
+  it('reads "para." as the paragraph', () => {
+    expect(parseCitationText('Art. 25 para. 9 ЗННД', CATALOG)?.paragraph).toBe('9');
+  });
+
+  it('finds an act whose abbreviation has "№" without it', () => {
+    const catalog = [...CATALOG, { id: 'n32', abbr: 'Наредба № 32' }];
+    expect(parseCitationText('Наредба 32, чл. 9а', catalog)).toMatchObject({
+      act: 'n32',
+      article: '9а',
+    });
+  });
+});
+
+describe('typedArticle', () => {
+  it('reads a number with or without its mark', () => {
+    expect(typedArticle('25')).toBe('25');
+    expect(typedArticle('чл. 28а')).toBe('28а');
+    expect(typedArticle('Art. 28a')).toBe('28а');
+    expect(typedArticle('§ 1')).toBe('§1');
+  });
+
+  it('gives nothing for a word', () => {
+    expect(typedArticle('нотариус')).toBeUndefined();
+    expect(typedArticle('25 дни')).toBeUndefined();
   });
 });

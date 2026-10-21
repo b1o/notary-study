@@ -95,9 +95,14 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
   converts the result back into euro. The page describes its fields as data (`fee-form.ts`), and
   the tax rate field gets its legal limits from the Signal Forms schema.
 - **Search.** `SearchService` loads all chapter texts of the language, all acts with their
-  translations, and the glossary on the first search, and keeps them in memory. A result needs every
-  word of the query; the whole query, and the whole query in a title, rank higher. Chapter results
-  link to the section, with the same fragment ids as the rendered chapter.
+  translations, and the glossary on the first search, and keeps them in memory. A result needs
+  every word of the query in some form: `core/search/word-forms.ts` gives the forms of a word one
+  stem (a light stemmer for Bulgarian after J. Savoy, and one for English), so "нотариален" also
+  finds "нотариалния". The word as typed ranks above another form of it, and that above its letters
+  inside a longer word; a number counts only as a whole word. The whole query, and the whole query
+  in a title, rank higher. The glossary filter and the filter of an act use the same matching
+  (`filterItems`). Chapter results link to the section, with the same fragment ids as the rendered
+  chapter.
 - **Texts and languages.** Every interface text is in `core/i18n`. A missing translation is a
   compile error. `LanguageService.current` decides the language of the interface and the content.
 - **Reading settings.** `ReadingSettingsService` writes data attributes on `<html>`;

@@ -1,5 +1,6 @@
-import type { LawArticle } from '../../core/laws/law.models';
-import { matchesQuery, toEntries } from './act-entries';
+import type { LawAct, LawArticle } from '../../core/laws/law.models';
+import { lawDocuments } from '../../core/search/search-index';
+import { filterArticles, toEntries } from './act-entries';
 
 const ARTICLE: LawArticle = {
   kind: 'article',
@@ -28,18 +29,33 @@ describe('toEntries', () => {
   });
 });
 
-describe('matchesQuery', () => {
-  it('matches the article number, with or without "чл."', () => {
-    expect(matchesQuery(ARTICLE, {}, '25')).toBe(true);
-    expect(matchesQuery(ARTICLE, {}, 'чл. 25')).toBe(true);
-    expect(matchesQuery(ARTICLE, {}, '26')).toBe(false);
+describe('filterArticles', () => {
+  const act: LawAct = {
+    id: 'znnd',
+    abbr: 'ЗННД',
+    title: { bg: 'Закон за нотариусите и нотариалната дейност', en: 'Notaries Act' },
+    group: 'notary',
+    source: 'https://lex.bg',
+    retrieved: '2026-10-01',
+    partial: false,
+    articles: 2,
+    items: [ARTICLE, { kind: 'article', number: '28а', paragraphs: ['Чл. 28а. Срокът е 7 дни.'] }],
+  };
+  const translation = {
+    '25': { paragraphs: ['Art. 25. (1) The notary must protect the parties.'] },
+  };
+  const documents = lawDocuments(act, translation);
+
+  it('keeps the article that the query names by its number', () => {
+    expect([...filterArticles(documents, '25')]).toEqual(['25']);
+    expect([...filterArticles(documents, 'чл. 25')]).toEqual(['25']);
+    expect([...filterArticles(documents, '28a')]).toEqual(['28а']);
+    expect([...filterArticles(documents, '26')]).toEqual([]);
   });
 
-  it('matches a word of the title, the text or the translation', () => {
-    expect(matchesQuery(ARTICLE, {}, 'интересите')).toBe(true);
-    const translation = {
-      '25': { paragraphs: ['Art. 25. (1) The notary must protect the parties.'] },
-    };
-    expect(matchesQuery(ARTICLE, translation, 'protect')).toBe(true);
+  it('keeps the articles with a word of the title, the text or the translation, in any form', () => {
+    expect(filterArticles(documents, 'интересите').has('25')).toBe(true);
+    expect(filterArticles(documents, 'нотариуса').has('25')).toBe(true);
+    expect(filterArticles(documents, 'protects').has('25')).toBe(true);
   });
 });

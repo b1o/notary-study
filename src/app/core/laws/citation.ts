@@ -89,40 +89,101 @@ export function formatReference(
 const escapeForRegExp = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 /**
- * Parse a citation typed by a person, for example "чл. 25, ал. 9 ЗННД", "ЗННД 25" or "Art. 586 ГПК".
- * Returns undefined when no act of the catalog is named.
+ * Latin letters for the Cyrillic letter after an article number ("28a" for "28а"), as the
+ * official transliteration writes them, for a reader with a Latin keyboard.
+ */
+const LATIN_LETTERS: Readonly<Record<string, string>> = {
+  a: 'а',
+  b: 'б',
+  v: 'в',
+  g: 'г',
+  d: 'д',
+  e: 'е',
+  z: 'з',
+  i: 'и',
+  k: 'к',
+  l: 'л',
+  m: 'м',
+  n: 'н',
+  o: 'о',
+  p: 'п',
+  r: 'р',
+  s: 'с',
+  t: 'т',
+  u: 'у',
+  f: 'ф',
+  h: 'х',
+};
+
+/** A number, and a letter right after it that does not start a word: "25", "28а", "28a". */
+const NUMBER = /(\d+)([a-zа-я](?![a-zа-я]))?/.source;
+const ARTICLE_MARK = /(?:чл\.?|член|art\.?|article|т\.|item)\s*/.source;
+const PROVISION_MARK = /(?:§|пар\.|параграф)\s*/.source;
+const PARAGRAPH = /(?:ал\.?|алинея|para\.?|paragraph|\()\s*(\d+)/;
+
+/** An article number as the act writes it: the digits and a Cyrillic letter. */
+function articleNumber(digits: string, letter = ''): string {
+  return digits + (LATIN_LETTERS[letter] ?? letter);
+}
+
+/**
+ * The article or provision that a text names when it is only a number: "25", "чл. 25", "28a"
+ * (article "28а"), "§ 1" or "пар. 1" (provision "§1"). Undefined for any other text.
+ */
+export function typedArticle(text: string): string | undefined {
+  const lower = text.trim().toLowerCase();
+  const provision = lower.match(new RegExp(`^${PROVISION_MARK}${NUMBER}$`));
+  if (provision) return `§${articleNumber(provision[1], provision[2])}`;
+  const article = lower.match(new RegExp(`^(?:${ARTICLE_MARK})?${NUMBER}$`));
+  return article ? articleNumber(article[1], article[2]) : undefined;
+}
+
+/** An act name as a person types it: lower case, without "№", with single spaces. */
+const simplifyName = (text: string) => text.toLowerCase().replace(/№/g, ' ').replace(/\s+/g, ' ');
+
+/**
+ * Parse a citation typed by a person, for example "чл. 25, ал. 9 ЗННД", "ЗННД 25",
+ * "Art. 28a(1) ZNND" or "§ 1 ЗННД". The act is its abbreviation or its id; the article can come
+ * before or after the paragraph. Returns undefined when no act of the catalog is named.
  */
 export function parseCitationText(
   text: string,
   catalog: readonly { readonly id: string; readonly abbr: string }[],
 ): LawReference | undefined {
-  const lower = text.trim().toLowerCase();
+  const lower = simplifyName(text).trim();
   if (!lower) {
     return undefined;
   }
-  let match: { readonly id: string; readonly abbr: string } | undefined;
+  let match:
+    { readonly entry: { readonly id: string; readonly abbr: string }; name: string } | undefined;
   for (const entry of catalog) {
-    const names = [entry.abbr.toLowerCase(), entry.id];
-    const named = names.some((name) =>
-      new RegExp(`(^|[^а-яa-z])${escapeForRegExp(name)}([^а-яa-z]|$)`, 'i').test(lower),
-    );
-    // Prefer the longest abbreviation, so that "ЗЗДет" is not read as "ЗЗД".
-    if (named && (!match || entry.abbr.length > match.abbr.length)) {
-      match = entry;
+    for (const name of [simplifyName(entry.abbr).trim(), entry.id]) {
+      const named = new RegExp(`(^|[^а-яa-z])${escapeForRegExp(name)}([^а-яa-z]|$)`).test(lower);
+      // Prefer the longest abbreviation, so that "ЗЗДет" is not read as "ЗЗД".
+      if (named && (!match || name.length > match.name.length)) {
+        match = { entry, name };
+      }
     }
   }
   if (!match) {
     return undefined;
   }
-  const rest = lower.replace(match.abbr.toLowerCase(), ' ');
-  const provision = rest.match(/§\s*(\d+[а-я]?)/);
+  const act = match.entry.id;
+  const rest = ` ${lower.replace(match.name, ' ')} `;
+  const provision = rest.match(new RegExp(PROVISION_MARK + NUMBER));
   if (provision) {
-    return { act: match.id, article: `§${provision[1]}` };
+    return { act, article: `§${articleNumber(provision[1], provision[2])}` };
   }
-  const article = rest.match(/(?:чл\.?|art\.?|т\.|item|^|\s)\s*(\d+[а-я]?)/i);
+  // A marked number first ("чл. 25"), so that "ал. 9 чл. 25" reads article 25; else a bare number.
+  const article =
+    rest.match(new RegExp(ARTICLE_MARK + NUMBER)) ?? rest.match(new RegExp(`\\s${NUMBER}`));
   if (!article) {
-    return { act: match.id, article: '' };
+    return { act, article: '' };
   }
-  const paragraph = rest.match(/(?:ал\.?\s*|\()(\d+)/i);
-  return { act: match.id, article: article[1], paragraph: paragraph?.[1] };
+  const withoutArticle = rest.replace(article[0], ' ');
+  return {
+    act,
+    article: articleNumber(article[1], article[2]),
+    paragraph: withoutArticle.match(PARAGRAPH)?.[1],
+  };
 }
