@@ -163,10 +163,11 @@
         "The market value of the brand, the stock and the goodwill"
       ],
       "answer": 0,
-      "explanation": "Art. 97(1) item 2 ЗННД: for the transfer of a commercial enterprise the certified material interest is the book value of the fixed assets for the last quarter; turnover, capital and brand are not the base. The fee is item 9 of the tariff, 50% of item 8.",
+      "explanation": "Art. 97(1) item 2 ЗННД: for the transfer of a commercial enterprise the certified material interest is the book value of the fixed assets for the last quarter; turnover, capital and brand are not the base. Since 2016 the content of the contract, which Art. 15(1) ТЗ requires to be certified together with the signatures, costs an ordinary fee (Art. 90(2) ЗННД).",
       "refs": [
         "znnd:97:1",
-        "tarifa:9"
+        "znnd:90:2",
+        "tz:15:1"
       ]
     },
     {

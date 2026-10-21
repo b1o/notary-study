@@ -133,10 +133,11 @@
         "Allowed in euro; the limit of the law applies only to payments in leva"
       ],
       "answer": 0,
-      "explanation": "Art. 3(1) ЗОПБ: payments of 10,000 лв. or more are made only by transfer or deposit to a payment account; Art. 3(2) applies the limit to foreign currency, including the euro. Art. 25(10) ЗННД: such payments in real estate deals go through the notary's special account or a bank chosen by the parties.",
+      "explanation": "Art. 3(1) ЗОПБ: payments of 10,000 лв. or more are made only by transfer or deposit to a payment account; since 1 January 2026 the limit reads as 5,112.92 € (Art. 11(2), 12 and 13 ЗВЕРБ), and Art. 3(2) applies it also to payments in foreign currency. Art. 25(10) ЗННД: such payments in real estate deals go through the notary's special account or a bank chosen by the parties.",
       "refs": [
         "zopvb:3:1",
-        "znnd:25:10"
+        "znnd:25:10",
+        "zvevro:11:2"
       ]
     },
     {

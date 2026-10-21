@@ -1,6 +1,6 @@
 ## The ethical frame
 
-The notary must observe **professional ethics** and protect the **prestige** of the profession under the statute of the Notary Chamber ([[znnd:34:1]]). The notary must also introduce, train and guide the assistant notary and the employees ([[znnd:34:2]]). The statute of the Notary Chamber gives the detailed rules. On taking office, every notary swears to perform the duties honestly, conscientiously and impartially and to keep professional secrecy ([[znnd:15:1]]).
+The notary must observe **professional ethics** and protect the **prestige** of the profession under the statute of the Notary Chamber ([[znnd:34:1]]). The notary must also introduce, train and guide the assistant notary and the employees ([[znnd:34:2]]). The detailed rules are in the Ethics Code of the Notaries ("Етичен кодекс на нотариусите в Република България"), which the General Assembly adopted on 29–30 January 2000 as an integral part of the statute of the Chamber. Among other things, it forbids advertising and cooperation with persons who steer clients to a notary for a material benefit. On taking office, every notary swears to perform the duties honestly, conscientiously and impartially and to keep professional secrecy ([[znnd:15:1]]).
 
 For the whole office this means:
 

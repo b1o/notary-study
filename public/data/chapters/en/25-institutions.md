@@ -45,7 +45,7 @@ The partida **announces**; it is **not evidence** of the facts and rights entere
 
 ### Inquiries and certificates
 
-- Anyone can ask for an inquiry about entries, and for a **certificate of encumbrances** (existence or absence of entries) ([[gpk:569]]). For a sale, the certificate usually covers the property and the owners for the last **10 years**; a longer period costs more.
+- Anyone can ask for an inquiry about entries, and for a **certificate of encumbrances** (existence or absence of entries) ([[gpk:569]]). For a sale, the certificate usually covers the property and the owners for the last **10 years**. The fee does not depend on the period: it depends on whether the certificate is for a person or for a property, and on the term of issue (chapter 24).
 - Inquiries can be made online through the Registry Agency's portal with an electronic signature.
 
 ## The cadastre

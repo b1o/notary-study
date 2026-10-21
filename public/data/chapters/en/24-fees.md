@@ -101,7 +101,7 @@ The registry office charges state fees under the tariff of the Registry Agency, 
 
 - **entry** of an act: **0.1%** of the price on which the act was charged, at least **10 лв. (5.11 €)**;
 - **notes and deletions**, for example the deletion of a mortgage: **half** of the entry fee;
-- **certificates** of encumbrances: 10 лв. in 7 working days, 20 лв. in 3 days, 50 лв. in 8 working hours (5.11 €, 10.23 €, 25.56 €);
+- **certificates** of encumbrances for a person: 5 лв. in 7 working days, 10 лв. in 3 working days, 25 лв. in 8 working hours (2.56 €, 5.11 €, 12.78 €); for one property: 10 лв. in 7 working days, 30 лв. in 3 working days (5.11 €, 15.34 €) ([[pv:46]], [[pv:47]]);
 - remote **inquiries**: 1 лв. (0.51 €).
 
 ## The local tax on acquisition
