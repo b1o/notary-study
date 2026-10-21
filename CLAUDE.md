@@ -66,7 +66,7 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Layers: `features/` and `layout/` may use `shared/` and `core/`; `shared/` may use `core/`; `core/` uses neither.
 - A page sits in `PageLayout` with a `PageHeader`. Before you write a component, a style or a helper for one page, look in `shared/`, `src/styles/_components.scss` and `core/` for one that exists. Put logic that a test can check (rules, calculations, search) in `core/` as pure functions.
 - Every interface text goes into `core/i18n/ui-text.ts` and both language files. Never hard-code a text in a template.
-- Course content and law data are files in `public/data`. Run `bun run check:content` after a content change.
+- Course content and law data are files in `public/data`. Read `docs/content-workflow.md` before you change them, and add to it what the next session must know. Run `bun run check:content` after a content change.
 - Styles use the tokens of `src/styles/_tokens.scss`. Do not use coloured side borders as decoration.
 - A value that the reader sets and that must survive a reload uses `storedSignal()` from `core/storage`.
 - Before a commit: `bun run lint`, `bun run test`, `bun run build`, and `bunx prettier --check "src/**/*.{ts,html,scss}"`.

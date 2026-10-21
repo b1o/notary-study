@@ -30,10 +30,13 @@ bun run build          # production build in dist/
 bun run test           # unit tests (Vitest)
 bun run lint           # ESLint, including template accessibility rules
 bun run check:content  # checks citations, links and translations in public/data
+bun run law zzd:26:2   # prints an article, a paragraph or an item from the law library
 ```
 
 A push to `main` runs these checks, builds the app and publishes it on GitHub Pages at
 https://b1o.github.io/notary-study/ (`.github/workflows/pages.yml`).
+
+`docs/content-workflow.md` tells how to write and change the course content and the law data.
 
 ## Structure
 

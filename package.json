@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "check:content": "node tools/check-content.ts",
     "check:tools": "tsc -p tools/tsconfig.json",
-    "import:laws": "python tools/import_laws.py"
+    "import:laws": "python tools/import_laws.py",
+    "law": "python tools/law_text.py"
   },
   "private": true,
   "type": "module",
