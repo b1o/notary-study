@@ -22,20 +22,20 @@
             "bg": "Апартаментът е в района на този нотариус ([[gpk:570:1]])."
           },
           {
-            "en": "How and when the seller acquired it; during a marriage?",
-            "bg": "Как и кога продавачът го е придобил; по време на брак?"
+            "en": "How and when the seller acquired it; during a marriage ([[gpk:586:1]], [[sk:21:1]])?",
+            "bg": "Как и кога продавачът го е придобил; по време на брак ([[gpk:586:1]], [[sk:21:1]])?"
           },
           {
-            "en": "All sellers and buyers: married, minors, companies, foreigners, agents?",
-            "bg": "Всички продавачи и купувачи: в брак, непълнолетни, дружества, чужденци, пълномощници?"
+            "en": "All sellers and buyers: married, minors, companies, foreigners, agents ([[gpk:578:4]])?",
+            "bg": "Всички продавачи и купувачи: в брак, непълнолетни, дружества, чужденци, пълномощници ([[gpk:578:4]])?"
           },
           {
-            "en": "Mortgage on the flat? Will the buyer use a bank loan?",
-            "bg": "Има ли ипотека? Ще ползва ли купувачът банков кредит?"
+            "en": "Mortgage on the flat? Will the buyer use a bank loan ([[zzd:173]], [[zzd:179]])?",
+            "bg": "Има ли ипотека? Ще ползва ли купувачът банков кредит ([[zzd:173]], [[zzd:179]])?"
           },
           {
-            "en": "Price and payment method agreed; preliminary contract?",
-            "bg": "Уговорени цена и начин на плащане; има ли предварителен договор?"
+            "en": "Price and payment method agreed; preliminary contract ([[znnd:25:9]], [[znnd:25:10]], [[zzd:19]])?",
+            "bg": "Уговорени цена и начин на плащане; има ли предварителен договор ([[znnd:25:9]], [[znnd:25:10]], [[zzd:19]])?"
           }
         ]
       },
@@ -46,8 +46,8 @@
         },
         "items": [
           {
-            "en": "Identity document of each seller.",
-            "bg": "Документ за самоличност на всеки продавач."
+            "en": "Identity document of each seller ([[gpk:578:5]]).",
+            "bg": "Документ за самоличност на всеки продавач ([[gpk:578:5]])."
           },
           {
             "en": "Document of ownership, **entered** in the property register ([[gpk:586:4]]).",
@@ -62,8 +62,8 @@
             "bg": "Схема на самостоятелния обект от кадастъра ([[zkir:77]])."
           },
           {
-            "en": "For inherited property: certificate of heirs, deed of the deceased, any will.",
-            "bg": "За наследен имот: удостоверение за наследници, акт на наследодателя, завещание."
+            "en": "For inherited property: certificate of heirs, deed of the deceased, any will ([[gpk:586:2]], [[zn:1]]).",
+            "bg": "За наследен имот: удостоверение за наследници, акт на наследодателя, завещание ([[gpk:586:2]], [[zn:1]])."
           },
           {
             "en": "For a share sold to a third person: proof of the offer to the co-owners ([[zs:33]]).",
@@ -78,8 +78,8 @@
             "bg": "За пълномощник: пълномощно с едновременно удостоверяване на подписа и съдържанието ([[zzd:37]])."
           },
           {
-            "en": "For a company: current status and decision of the general meeting or the owner.",
-            "bg": "За дружество: актуално състояние и решение на общото събрание или собственика."
+            "en": "For a company: current status and decision of the general meeting or the owner ([[ztr:10]], [[tz:137:4]], [[tz:147:2]]).",
+            "bg": "За дружество: актуално състояние и решение на общото събрание или собственика ([[ztr:10]], [[tz:137:4]], [[tz:147:2]])."
           }
         ]
       },
@@ -90,16 +90,16 @@
         },
         "items": [
           {
-            "en": "Identity document.",
-            "bg": "Документ за самоличност."
+            "en": "Identity document ([[gpk:578:5]]).",
+            "bg": "Документ за самоличност ([[gpk:578:5]])."
           },
           {
             "en": "Anti-money laundering declarations: origin of funds, political exposure ([[zmip:66]]).",
             "bg": "Декларации по ЗМИП: произход на средствата, видна политическа личност ([[zmip:66]])."
           },
           {
-            "en": "Bank documents and the mortgage draft, if there is a loan.",
-            "bg": "Документите на банката и проектът за ипотека, ако има кредит."
+            "en": "Bank documents and the mortgage draft, if there is a loan ([[zzd:167]]).",
+            "bg": "Документите на банката и проектът за ипотека, ако има кредит ([[zzd:167]])."
           },
           {
             "en": "Proof that the local tax is paid ([[zmdt:50:1]]).",
@@ -126,8 +126,8 @@
             "bg": "Публичните задължения на всеки продавач в НАП ([[dopk:264:1]])."
           },
           {
-            "en": "Property register: mortgages, distraints, claims, the chain of ownership.",
-            "bg": "Имотния регистър: ипотеки, възбрани, искови молби, веригата на собствеността."
+            "en": "Property register: mortgages, distraints, claims, the chain of ownership ([[zs:113]], [[zs:114]]).",
+            "bg": "Имотния регистър: ипотеки, възбрани, искови молби, веригата на собствеността ([[zs:113]], [[zs:114]])."
           },
           {
             "en": "Information system: powers of attorney and revocations ([[n32:9а]]).",
@@ -178,16 +178,16 @@
             "bg": "Актът е представен за вписване в същия ден: четири екземпляра, молба в два екземпляра, такса ([[znnd:25:5]], [[n32:21:1]])."
           },
           {
-            "en": "Copies to the parties only after the entry.",
-            "bg": "Преписи на страните само след вписването."
+            "en": "Copies to the parties only after the entry ([[znnd:25:5]]).",
+            "bg": "Преписи на страните само след вписването ([[znnd:25:5]])."
           },
           {
             "en": "Notice to the municipality within 7 days ([[zmdt:51:2]]).",
             "bg": "Уведомление до общината в 7-дневен срок ([[zmdt:51:2]])."
           },
           {
-            "en": "Payment from the special account under the agreement.",
-            "bg": "Плащане от специалната сметка според споразумението."
+            "en": "Payment from the special account under the agreement ([[znnd:25а:2]]).",
+            "bg": "Плащане от специалната сметка според споразумението ([[znnd:25а:2]])."
           },
           {
             "en": "Case file complete: request, declarations, proof of representation, bill ([[n32:11]]).",
@@ -228,8 +228,8 @@
             "bg": "Непълнолетен ли е надареният? Кой приема ([[zzd:38]], [[sk:129:2]])?"
           },
           {
-            "en": "Reserved right of use: for whom, and after the first death?",
-            "bg": "Запазено право на ползване: за кого и какво след първата смърт?"
+            "en": "Reserved right of use: for whom, and after the first death ([[zs:56]], [[zs:59]])?",
+            "bg": "Запазено право на ползване: за кого и какво след първата смърт ([[zs:56]], [[zs:59]])?"
           }
         ]
       },
@@ -240,20 +240,20 @@
         },
         "items": [
           {
-            "en": "Identity documents of all parties.",
-            "bg": "Документи за самоличност на всички страни."
+            "en": "Identity documents of all parties ([[gpk:578:5]]).",
+            "bg": "Документи за самоличност на всички страни ([[gpk:578:5]])."
           },
           {
-            "en": "Entered document of ownership.",
-            "bg": "Вписан документ за собственост."
+            "en": "Entered document of ownership ([[gpk:586:4]]).",
+            "bg": "Вписан документ за собственост ([[gpk:586:4]])."
           },
           {
             "en": "Tax assessment ([[dopk:264:1]]) and sketch or scheme ([[zkir:77]]).",
             "bg": "Данъчна оценка ([[dopk:264:1]]) и скица или схема ([[zkir:77]])."
           },
           {
-            "en": "Proof of kinship if the tax exemption applies (for example birth certificate).",
-            "bg": "Доказателство за родство, ако се прилага освобождаване от данък (например удостоверение за раждане)."
+            "en": "Proof of kinship if the tax exemption applies (for example birth certificate) ([[zmdt:44:6]]).",
+            "bg": "Доказателство за родство, ако се прилага освобождаване от данък (например удостоверение за раждане) ([[zmdt:44:6]])."
           },
           {
             "en": "Declarations under [[znnd:25:8]].",
@@ -280,8 +280,8 @@
             "bg": "Проверка за публични задължения на дарителите ([[dopk:264:1]])."
           },
           {
-            "en": "Entry the same day; notice to the municipality within 7 days.",
-            "bg": "Вписване в същия ден; уведомление до общината в 7-дневен срок."
+            "en": "Entry the same day; notice to the municipality within 7 days ([[znnd:25:5]], [[zmdt:51:2]]).",
+            "bg": "Вписване в същия ден; уведомление до общината в 7-дневен срок ([[znnd:25:5]], [[zmdt:51:2]])."
           }
         ]
       }
@@ -306,8 +306,8 @@
         },
         "items": [
           {
-            "en": "Draft deed and the loan agreement number and terms.",
-            "bg": "Проект на акта и номер и условия на договора за кредит."
+            "en": "Draft deed and the loan agreement number and terms ([[zzd:167]]).",
+            "bg": "Проект на акта и номер и условия на договора за кредит ([[zzd:167]])."
           },
           {
             "en": "Power of attorney of the bank's representative; check it in the information system ([[n32:9а]]).",
@@ -380,12 +380,12 @@
         },
         "items": [
           {
-            "en": "Identity documents of seller and buyer.",
-            "bg": "Документи за самоличност на продавача и купувача."
+            "en": "Identity documents of seller and buyer ([[gpk:589:2]], [[gpk:578:5]]).",
+            "bg": "Документи за самоличност на продавача и купувача ([[gpk:589:2]], [[gpk:578:5]])."
           },
           {
-            "en": "Registration certificate, parts I and II.",
-            "bg": "Свидетелство за регистрация, части I и II."
+            "en": "Registration certificate, parts I and II: the owner, the VIN and the vehicle data match the contract and the data exchanged with the Ministry of Interior ([[zdvp:144:4]]).",
+            "bg": "Свидетелство за регистрация, части I и II: собственикът, номерът на рамата и данните за превозното средство съвпадат с договора и с данните, обменяни с МВР ([[zdvp:144:4]])."
           },
           {
             "en": "The other spouse's participation or power for a common car ([[sk:24:5]]).",
@@ -396,8 +396,8 @@
             "bg": "Застрахователна стойност на автомобила ([[znnd:97:1]])."
           },
           {
-            "en": "Contract in three identical copies.",
-            "bg": "Договор в три еднообразни екземпляра."
+            "en": "Contract in three identical copies: one for each party and one for the notary's two-year file ([[zdvp:144:2]], [[n32:9а]]).",
+            "bg": "Договор в три еднообразни екземпляра: по един за страните и един за двугодишното дело на нотариуса ([[zdvp:144:2]], [[n32:9а]])."
           }
         ]
       },
@@ -410,10 +410,6 @@
           {
             "en": "Vehicle tax paid and no public debts of the seller ([[dopk:264:2]]).",
             "bg": "Платен данък върху МПС и липса на публични задължения на продавача ([[dopk:264:2]])."
-          },
-          {
-            "en": "VIN and data match the registration certificate.",
-            "bg": "Номерът на рамата и данните съвпадат със свидетелството за регистрация."
           },
           {
             "en": "Buyer without a Bulgarian address: registration terminated first ([[zdvp:144:3]]).",
@@ -486,20 +482,20 @@
         },
         "items": [
           {
-            "en": "Full identity data of principal and agent.",
-            "bg": "Пълни данни на упълномощителя и пълномощника."
+            "en": "Full identity data of principal and agent ([[n32:9а]]).",
+            "bg": "Пълни данни на упълномощителя и пълномощника ([[n32:9а]])."
           },
           {
-            "en": "Property by identifier; type of deal; minimum price; account for the price.",
-            "bg": "Имот с идентификатор; вид сделка; минимална цена; сметка за цената."
+            "en": "Property by identifier; type of deal; minimum price; account for the price ([[zzd:39]], [[n32:9а]]).",
+            "bg": "Имот с идентификатор; вид сделка; минимална цена; сметка за цената ([[zzd:39]], [[n32:9а]])."
           },
           {
             "en": "Self-contracting and re-delegation only if intended ([[zzd:38]], [[zzd:43]]).",
             "bg": "Договаряне със себе си и преупълномощаване само ако са желани ([[zzd:38]], [[zzd:43]])."
           },
           {
-            "en": "Term, if any.",
-            "bg": "Срок, ако има."
+            "en": "Term, if any ([[n32:9а]]).",
+            "bg": "Срок, ако има ([[n32:9а]])."
           }
         ]
       },
@@ -630,8 +626,8 @@
         },
         "items": [
           {
-            "en": "Certificate of heirs from the municipality of the last address.",
-            "bg": "Удостоверение за наследници от общината по последния адрес."
+            "en": "Certificate of heirs from the municipality of the last address, as proof of who inherits ([[gpk:586:2]]).",
+            "bg": "Удостоверение за наследници от общината по последния адрес, като доказателство кой наследява ([[gpk:586:2]])."
           },
           {
             "en": "Was the property common with a surviving spouse? Half is the spouse's already ([[sk:21]]).",
@@ -646,8 +642,8 @@
             "bg": "Завещание: обявено и вписано, ако се отнася до имот ([[pv:4]])."
           },
           {
-            "en": "Renunciations: certificate from the district court.",
-            "bg": "Откази: удостоверение от районния съд."
+            "en": "Renunciations: certificate from the district court ([[zn:52]]).",
+            "bg": "Откази: удостоверение от районния съд ([[zn:52]])."
           }
         ]
       },
@@ -678,16 +674,16 @@
         },
         "items": [
           {
-            "en": "Deed of the deceased and death certificate.",
-            "bg": "Акт за собственост на наследодателя и смъртен акт."
+            "en": "Deed of the deceased and death certificate ([[gpk:586:2]], [[zn:1]]).",
+            "bg": "Акт за собственост на наследодателя и смъртен акт ([[gpk:586:2]], [[zn:1]])."
           },
           {
             "en": "Inheritance declaration filed in 6 months ([[zmdt:32:1]]).",
             "bg": "Подадена декларация за наследството в 6-месечен срок ([[zmdt:32:1]])."
           },
           {
-            "en": "Tax assessment, sketch or scheme, declarations of every seller.",
-            "bg": "Данъчна оценка, скица или схема, декларации на всеки продавач."
+            "en": "Tax assessment, sketch or scheme, declarations of every seller ([[dopk:264:1]], [[zkir:77]], [[znnd:25:8]]).",
+            "bg": "Данъчна оценка, скица или схема, декларации на всеки продавач ([[dopk:264:1]], [[zkir:77]], [[znnd:25:8]])."
           },
           {
             "en": "Public debts of every seller ([[dopk:264:1]]).",
@@ -716,8 +712,8 @@
         },
         "items": [
           {
-            "en": "Testator identified; envelope closed; nobody opens it.",
-            "bg": "Завещателят е идентифициран; пликът е затворен; никой не го отваря."
+            "en": "Testator identified; envelope closed; nobody opens it ([[zn:25:2]]).",
+            "bg": "Завещателят е идентифициран; пликът е затворен; никой не го отваря ([[zn:25:2]])."
           },
           {
             "en": "Protocol on the envelope signed by the testator and the notary ([[zn:25:2]]).",
@@ -744,8 +740,8 @@
         },
         "items": [
           {
-            "en": "Proof of death presented.",
-            "bg": "Представено доказателство за смъртта."
+            "en": "Proof of death presented ([[zn:27:1]]).",
+            "bg": "Представено доказателство за смъртта ([[zn:27:1]])."
           },
           {
             "en": "Protocol describing the condition and the opening, signed by the applicant and the notary ([[zn:27:3]]).",
@@ -794,8 +790,8 @@
             "bg": "Молба-декларация ([[gpk:571]]), скица, данъчна оценка."
           },
           {
-            "en": "Evidence of possession: tax declarations and receipts, contracts, photos.",
-            "bg": "Доказателства за владението: данъчни декларации и квитанции, договори, снимки."
+            "en": "Evidence of possession: tax declarations and receipts, contracts, photos ([[gpk:587:1]], [[zs:79]]).",
+            "bg": "Доказателства за владението: данъчни декларации и квитанции, договори, снимки ([[gpk:587:1]], [[zs:79]])."
           },
           {
             "en": "Fee paid on filing; not returned on refusal ([[tarifa:11]]).",
@@ -822,8 +818,8 @@
             "bg": "Протокол от разпита в делото ([[n32:11:3]])."
           },
           {
-            "en": "Warning signs reported to the notary (chapter 27).",
-            "bg": "Предупредителните знаци са докладвани на нотариуса (глава 27)."
+            "en": "Doubts reported to the notary, who decides by a reasoned decision ([[gpk:587:3]]; chapter 27).",
+            "bg": "Съмненията са докладвани на нотариуса, който се произнася с мотивирано постановление ([[gpk:587:3]]; глава 27)."
           }
         ]
       },
@@ -876,12 +872,12 @@
             "bg": "Кантората работи в работното време на районния съд ([[n32:27:1]])."
           },
           {
-            "en": "Appointments of the day; drafts and documents ready.",
-            "bg": "Срещите за деня; готови проекти и документи."
+            "en": "Appointments of the day; the drafts of today's deeds ready in the required copies ([[gpk:578:1]], [[n32:18:1]]).",
+            "bg": "Срещите за деня; проектите на днешните актове са готови в изискуемите екземпляри ([[gpk:578:1]], [[n32:18:1]])."
           },
           {
-            "en": "Information systems and registers accessible; personal accounts only.",
-            "bg": "Достъп до информационните системи и регистрите; само лични профили."
+            "en": "Information systems and registers accessible; personal accounts only ([[nnbd:2:1]], [[nnbd:10]]).",
+            "bg": "Достъп до информационните системи и регистрите; само лични профили ([[nnbd:2:1]], [[nnbd:10]])."
           }
         ]
       },
@@ -908,8 +904,8 @@
             "bg": "Сметка за всяко таксувано действие ([[znnd:89]])."
           },
           {
-            "en": "Clean desk; no documents left at reception.",
-            "bg": "Чисто бюро; няма оставени документи на рецепцията."
+            "en": "Clean desk; no documents left at reception ([[znnd:49]]).",
+            "bg": "Чисто бюро; няма оставени документи на рецепцията ([[znnd:49]])."
           }
         ]
       },
