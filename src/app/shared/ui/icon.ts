@@ -23,6 +23,9 @@ const ICONS = {
   calculator:
     'M6.5 3h11a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1ZM8.5 7h7M9 12h.01M12 12h.01M15 12h.01M9 16h.01M12 16h.01M15 16h.01',
   check: 'M5 12.5l4.5 4.5L19 7.5',
+  copy: 'M9 9h10v10H9ZM5 15V5h10',
+  print:
+    'M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a1 1 0 0 1-1 1h-2M7 14h10v6H7Z',
   clock: 'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18ZM12 7.5V12l3 2',
 } as const;
 

@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 
 import type { Language } from '../i18n/language';
+import { PromiseCache } from '../data/promise-cache';
 import { LanguageService } from '../i18n/language.service';
 import { indexAct, type ActIndex } from './act-index';
 import { formatReference, parseReference, type LawReference } from './citation';
@@ -28,8 +29,8 @@ export class LawLibraryService {
   );
 
   /** Acts and translations are loaded once and then shared by every view. */
-  private readonly acts = new Map<string, Promise<ActIndex>>();
-  private readonly translations = new Map<string, Promise<ActTranslation>>();
+  private readonly acts = new PromiseCache<ActIndex>();
+  private readonly translations = new PromiseCache<ActTranslation>();
 
   entry(actId: string): LawCatalogEntry | undefined {
     return this.entriesById().get(actId);
@@ -66,30 +67,15 @@ export class LawLibraryService {
   }
 
   loadAct(actId: string): Promise<ActIndex> {
-    return this.cached(this.acts, actId, async () =>
+    return this.acts.get(actId, async () =>
       indexAct(await firstValueFrom(this.http.get<LawAct>(`${LAWS}/acts/${actId}.json`))),
     );
   }
 
   /** English translations of the act's articles. Acts without a translation file give an empty map. */
   loadTranslation(actId: string): Promise<ActTranslation> {
-    return this.cached(this.translations, actId, () =>
+    return this.translations.get(actId, () =>
       firstValueFrom(this.http.get<ActTranslation>(`${LAWS}/en/${actId}.json`)).catch(() => ({})),
     );
-  }
-
-  /** Share one request per key. A failed request is forgotten, so the next call tries again. */
-  private cached<T>(
-    cache: Map<string, Promise<T>>,
-    key: string,
-    load: () => Promise<T>,
-  ): Promise<T> {
-    let promise = cache.get(key);
-    if (!promise) {
-      promise = load();
-      cache.set(key, promise);
-      promise.catch(() => cache.delete(key));
-    }
-    return promise;
   }
 }

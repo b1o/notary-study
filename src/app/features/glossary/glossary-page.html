@@ -1,0 +1,54 @@
+@let text = ui();
+<nc-page-layout main="reading">
+  <nc-page-header
+    pageHeader
+    [heading]="text.nav.glossary"
+    [lead]="text.glossary.lead(glossary.terms().length)"
+  >
+    <input
+      class="text-field glossary-filter"
+      type="search"
+      [attr.aria-label]="text.glossary.filterLabel"
+      [placeholder]="text.glossary.filterPlaceholder"
+      [formField]="filter"
+    />
+    <nav class="glossary-letters" [attr.aria-label]="text.glossary.letters">
+      @for (group of groups(); track group.letter) {
+        <a [routerLink]="[]" [fragment]="'letter-' + group.letter">{{ group.letter }}</a>
+      }
+    </nav>
+  </nc-page-header>
+
+  <nc-load-status [resource]="glossary.resource" />
+
+  @for (group of groups(); track group.letter) {
+    <section class="glossary-group" [id]="'letter-' + group.letter">
+      <h2 class="glossary-group__letter" lang="bg">{{ group.letter }}</h2>
+      <dl class="terms">
+        @for (term of group.terms; track term.bg) {
+          <div class="term-entry" [id]="anchor(term)">
+            <dt>
+              <span class="term-entry__bg" lang="bg">{{ term.bg }}</span>
+              <span class="term-entry__en" lang="en">{{ term.en }}</span>
+            </dt>
+            <dd>
+              <p class="term-entry__definition">{{ term.definition[lang()] }}</p>
+              <p class="term-entry__links">
+                <nc-law-refs [refs]="term.refs" />
+                @if (chapterOf(term); as chapter) {
+                  <a [routerLink]="['/course', chapter.id]">{{
+                    text.chapter.number(chapter.number)
+                  }}</a>
+                }
+              </p>
+            </dd>
+          </div>
+        }
+      </dl>
+    </section>
+  } @empty {
+    @if (glossary.resource.hasValue()) {
+      <p class="glossary-empty">{{ text.glossary.noMatch }}</p>
+    }
+  }
+</nc-page-layout>

@@ -1,0 +1,56 @@
+@let text = ui();
+@if (checklist(); as checklist) {
+  <nc-page-layout main="reading">
+    <nc-page-header
+      pageHeader
+      [heading]="checklist.title[lang()]"
+      [lead]="checklist.when[lang()]"
+      [back]="{ label: text.nav.checklists, link: '/checklists' }"
+    >
+      <div class="checklist-tools no-print">
+        <span class="checklist-tools__progress" aria-live="polite">{{ progress() }}</span>
+        <button
+          type="button"
+          class="button button--quiet"
+          (click)="checklists.clear(checklistId())"
+        >
+          {{ text.checklists.clear }}
+        </button>
+        <nc-print-button />
+      </div>
+    </nc-page-header>
+
+    @for (section of sections(); track $index) {
+      <section class="checklist-section">
+        <h2 class="section-title">{{ section.title }}</h2>
+        <ul class="row-list">
+          @for (item of section.items; track item.key) {
+            <li>
+              <label class="checklist-item">
+                <input
+                  type="checkbox"
+                  [checked]="checklists.isTicked(checklistId(), item.key)"
+                  (change)="toggle(item.key, $event)"
+                />
+                <nc-markdown-content inline [content]="item.html" />
+              </label>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+
+    @if (chapter(); as chapter) {
+      <a class="step-link chapter-link no-print" [routerLink]="['/course', chapter.id]">
+        <span class="step-link__hint">{{ text.chapter.number(chapter.number) }}</span>
+        <span class="step-link__title">{{ chapter.title[lang()] }}</span>
+      </a>
+    }
+  </nc-page-layout>
+} @else if (missing()) {
+  <nc-missing-page />
+} @else {
+  <nc-page-layout>
+    <nc-load-status [resource]="checklists.resource" />
+  </nc-page-layout>
+}

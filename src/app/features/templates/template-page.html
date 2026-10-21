@@ -1,0 +1,46 @@
+@let text = ui();
+@if (template(); as template) {
+  <nc-page-layout main="reading">
+    <nc-page-header
+      pageHeader
+      [heading]="template.title.bg"
+      headingLang="bg"
+      [lead]="lang() === 'en' ? template.title.en : undefined"
+      [back]="{ label: text.nav.templates, link: '/templates' }"
+    >
+      <p class="template-use">{{ template.use[lang()] }}</p>
+      <nc-law-refs [refs]="template.refs" />
+    </nc-page-header>
+
+    <div class="template-actions no-print">
+      <nc-copy-button [text]="template.text" />
+      <nc-print-button />
+    </div>
+
+    <figure class="document">
+      <pre class="document__text" lang="bg">{{ template.text }}</pre>
+    </figure>
+
+    @if (notes(); as notes) {
+      <section class="no-print">
+        <h2 class="section-title">{{ text.templates.notes }}</h2>
+        <nc-markdown-content [content]="notes" />
+      </section>
+    }
+
+    @if (lang() === 'en' && template.translation) {
+      <details class="template-translation no-print">
+        <summary>{{ text.templates.translation }}</summary>
+        <pre class="document__text" lang="en">{{ template.translation }}</pre>
+      </details>
+    }
+
+    <nc-notice class="no-print">{{ text.templates.note }}</nc-notice>
+  </nc-page-layout>
+} @else if (missing()) {
+  <nc-missing-page />
+} @else {
+  <nc-page-layout>
+    <nc-load-status [resource]="templates.resource" />
+  </nc-page-layout>
+}

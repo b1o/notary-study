@@ -269,6 +269,47 @@
   color: var(--color-ink-strong);
 }
 
+/*
+ * The text of a document, set like a sheet of paper: a ```doc block in the course text,
+ * or a document template.
+ */
+.document {
+  margin: 1.75em 0;
+  padding: 2em clamp(1.25em, 5%, 2.75em);
+  border-radius: 4px;
+  background: var(--color-paper);
+  box-shadow: var(--shadow-2);
+  font-size: var(--reading-size);
+}
+
+.document__title {
+  margin-block-end: 1.25em;
+  font-family: var(--font-serif);
+  font-weight: 650;
+  text-align: center;
+}
+
+.document__text {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 0.88em;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+/* A row with a title and a muted line under it. */
+.row-link__title {
+  display: block;
+  font-weight: 600;
+  color: var(--color-ink-strong);
+}
+
+.row-link__detail {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
+}
+
 /* A list without bullets, for rows of links. */
 .row-list {
   margin: 0;

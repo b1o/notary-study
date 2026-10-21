@@ -11,7 +11,7 @@
       [lead]="chapter.summary[lang()]"
       [back]="partLink()"
     >
-      <ul class="meta-list">
+      <ul class="meta-list" headerMeta>
         <li>{{ text.chapter.number(chapter.number) }}</li>
         <li><nc-icon name="clock" />{{ text.chapter.minutes(chapter.minutes) }}</li>
         @if (isRead()) {

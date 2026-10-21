@@ -2,11 +2,9 @@ import {
   afterRenderEffect,
   Component,
   computed,
-  DestroyRef,
   ElementRef,
   inject,
   resource,
-  signal,
   viewChild,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -18,6 +16,7 @@ import { toReferenceString } from '../../core/laws/citation';
 import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import { LAW_PANEL_WIDTH, LawPanelService } from '../../core/laws/law-panel.service';
+import { elementWidth } from '../../shared/dom/element-width';
 import { LawArticleText } from '../../shared/law/law-article-text';
 import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
 import { Icon } from '../../shared/ui/icon';
@@ -61,7 +60,7 @@ export class LawPanel {
    * The width on screen. It differs from the chosen width when the reader chose none
    * (the width then follows the window) or when the window is too narrow for it.
    */
-  protected readonly renderedWidth = signal(0);
+  protected readonly renderedWidth = elementWidth(this.host.nativeElement);
 
   protected readonly reference = computed(() => this.panel.current());
   protected readonly libraryLink = computed(() => {
@@ -120,12 +119,6 @@ export class LawPanel {
 
   constructor() {
     this.courseIndex.load();
-
-    const observer = new ResizeObserver(([entry]) =>
-      this.renderedWidth.set(Math.round(entry.borderBoxSize[0].inlineSize)),
-    );
-    observer.observe(this.host.nativeElement);
-    inject(DestroyRef).onDestroy(() => observer.disconnect());
 
     // Each new provision starts at the top. When the cited paragraph is not fully in view there,
     // the panel scrolls down to it instead.

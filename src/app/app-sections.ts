@@ -17,9 +17,27 @@ export interface AppSection {
 
 export const APP_SECTIONS: readonly AppSection[] = [
   { label: 'laws', hint: 'lawsHint', icon: 'law', group: 'reference', path: '/laws' },
-  { label: 'glossary', hint: 'glossaryHint', icon: 'glossary', group: 'reference' },
-  { label: 'templates', hint: 'templatesHint', icon: 'template', group: 'reference' },
-  { label: 'checklists', hint: 'checklistsHint', icon: 'checklist', group: 'reference' },
+  {
+    label: 'glossary',
+    hint: 'glossaryHint',
+    icon: 'glossary',
+    group: 'reference',
+    path: '/glossary',
+  },
+  {
+    label: 'templates',
+    hint: 'templatesHint',
+    icon: 'template',
+    group: 'reference',
+    path: '/templates',
+  },
+  {
+    label: 'checklists',
+    hint: 'checklistsHint',
+    icon: 'checklist',
+    group: 'reference',
+    path: '/checklists',
+  },
   { label: 'fees', hint: 'feesHint', icon: 'calculator', group: 'reference' },
   { label: 'tests', hint: 'testsHint', icon: 'test', group: 'study' },
   { label: 'flashcards', hint: 'flashcardsHint', icon: 'cards', group: 'study' },

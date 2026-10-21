@@ -1,0 +1,20 @@
+/* Printing a page (a template, a checklist): only the page itself, on white paper. */
+@media print {
+  .app-bar,
+  .app-nav,
+  .app-panel,
+  .skip-link,
+  .no-print {
+    display: none !important;
+  }
+
+  body,
+  .app-sheet {
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .app-main {
+    padding: 0;
+  }
+}

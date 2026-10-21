@@ -1,8 +1,10 @@
-import { httpResource } from '@angular/common/http';
-import { computed, Service } from '@angular/core';
+import { HttpClient, httpResource } from '@angular/common/http';
+import { computed, inject, Service } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
 
+import { PromiseCache } from '../data/promise-cache';
 import type { Language } from '../i18n/language';
-import type { ChapterMeta, Manifest, Part } from './content.models';
+import type { ChapterData, ChapterMeta, Manifest, Part } from './content.models';
 
 /** A part of the course with its number ("Part 3") and its chapters in reading order. */
 export interface PartOutline {
@@ -13,9 +15,14 @@ export interface PartOutline {
 
 const DATA = 'data';
 
-/** The course structure (parts and chapters) and the locations of the chapter files. */
+/** The course structure (parts and chapters) and the chapter files. */
 @Service()
 export class ContentService {
+  private readonly http = inject(HttpClient);
+  /** Chapter files are loaded once per language and then shared by every view. */
+  private readonly texts = new PromiseCache<string>();
+  private readonly data = new PromiseCache<ChapterData>();
+
   readonly manifest = httpResource<Manifest>(() => `${DATA}/manifest.json`);
 
   readonly parts = computed<readonly Part[]>(() =>
@@ -59,12 +66,29 @@ export class ContentService {
   }
 
   /** URL of the chapter text (Markdown). */
-  chapterTextUrl(chapter: ChapterMeta, language: Language): string {
+  private chapterTextUrl(chapter: ChapterMeta, language: Language): string {
     return `${DATA}/chapters/${language}/${chapter.file}.md`;
   }
 
   /** URL of the chapter's objectives, flashcards and test questions (JSON). */
-  chapterDataUrl(chapter: ChapterMeta, language: Language): string {
+  private chapterDataUrl(chapter: ChapterMeta, language: Language): string {
     return `${DATA}/chapters/${language}/${chapter.file}.json`;
+  }
+
+  /** The chapter text (Markdown). */
+  loadText(chapter: ChapterMeta, language: Language): Promise<string> {
+    const url = this.chapterTextUrl(chapter, language);
+    return this.texts.get(url, () => firstValueFrom(this.http.get(url, { responseType: 'text' })));
+  }
+
+  /** The chapter's objectives, flashcards and test questions. */
+  loadData(chapter: ChapterMeta, language: Language): Promise<ChapterData> {
+    const url = this.chapterDataUrl(chapter, language);
+    return this.data.get(url, () => firstValueFrom(this.http.get<ChapterData>(url)));
+  }
+
+  /** The data of every chapter, in reading order: for the final exam and the flashcard decks. */
+  loadAllData(language: Language): Promise<ChapterData[]> {
+    return Promise.all(this.chapters().map((chapter) => this.loadData(chapter, language)));
   }
 }

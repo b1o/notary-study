@@ -1,9 +1,7 @@
-import { httpResource } from '@angular/common/http';
-import { Component, computed, effect, inject, input, untracked } from '@angular/core';
+import { Component, computed, effect, inject, input, resource, untracked } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 
-import type { ChapterData } from '../../core/content/content.models';
 import { ContentService } from '../../core/content/content.service';
 import { LanguageService } from '../../core/i18n/language.service';
 import { MarkdownService } from '../../core/markdown/markdown.service';
@@ -57,13 +55,18 @@ export default class ChapterPage {
   protected readonly neighbours = computed(() => this.content.neighbours(this.chapterId()));
   protected readonly isRead = computed(() => this.progress.isRead(this.chapterId()));
 
-  protected readonly source = httpResource.text(() => {
+  /** The chapter and the language whose files to load. */
+  private readonly files = computed(() => {
     const chapter = this.chapter();
-    return chapter && this.content.chapterTextUrl(chapter, this.lang());
+    return chapter && { chapter, language: this.lang() };
   });
-  protected readonly data = httpResource<ChapterData>(() => {
-    const chapter = this.chapter();
-    return chapter && this.content.chapterDataUrl(chapter, this.lang());
+  protected readonly source = resource({
+    params: this.files,
+    loader: ({ params }) => this.content.loadText(params.chapter, params.language),
+  });
+  protected readonly data = resource({
+    params: this.files,
+    loader: ({ params }) => this.content.loadData(params.chapter, params.language),
   });
 
   /** Renders again when the text arrives, and when the language or the law catalog changes. */

@@ -10,8 +10,9 @@ export interface BackLink {
 }
 
 /**
- * The top of a page: an optional link back, the title (the page's h1), any extra lines
- * (projected content, for example dates or the chapter number) and an optional lead paragraph.
+ * The top of a page: an optional link back, the title (the page's h1), an optional lead paragraph,
+ * and two places for more content: elements marked `headerMeta` go right under the title (the
+ * chapter number, the dates of an act); other content goes after the lead (a filter field).
  * Put it in the pageHeader slot of nc-page-layout.
  */
 @Component({
@@ -24,10 +25,11 @@ export interface BackLink {
       </a>
     }
     <h1 class="page-header__title" [attr.lang]="headingLang() ?? null">{{ heading() }}</h1>
-    <ng-content />
+    <ng-content select="[headerMeta]" />
     @if (lead()) {
       <p class="page-header__lead">{{ lead() }}</p>
     }
+    <ng-content />
   `,
   styleUrl: './page-header.scss',
 })

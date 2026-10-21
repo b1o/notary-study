@@ -177,30 +177,6 @@ $callouts: (
     border-block-start: 1px solid var(--color-line);
   }
 
-  /* The text of a document (```doc), set like a sheet of paper. */
-  .document {
-    margin: 1.75em 0;
-    padding: 2em clamp(1.25em, 5%, 2.75em);
-    border-radius: 4px;
-    background: var(--color-paper);
-    box-shadow: var(--shadow-2);
-  }
-
-  .document__title {
-    margin-block-end: 1.25em;
-    font-family: var(--font-serif);
-    font-weight: 650;
-    text-align: center;
-  }
-
-  .document__text {
-    margin: 0;
-    font-family: var(--font-serif);
-    font-size: 0.88em;
-    line-height: 1.6;
-    white-space: pre-wrap;
-  }
-
   /* Callouts: a tinted panel with an icon in the title. */
   .callout {
     margin: 1.5em 0;

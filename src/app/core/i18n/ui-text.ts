@@ -39,6 +39,16 @@ export interface UiText {
   readonly search: {
     readonly placeholder: string;
     readonly label: string;
+    readonly submit: string;
+    readonly title: string;
+    readonly resultsFor: (query: string) => string;
+    readonly searching: string;
+    readonly noResults: string;
+    readonly openProvision: (label: string) => string;
+    readonly inGlossary: string;
+    readonly inCourse: (count: number) => string;
+    readonly inLaws: (count: number) => string;
+    readonly moreResults: (count: number) => string;
   };
   readonly language: {
     readonly label: string;
@@ -144,6 +154,107 @@ export interface UiText {
     readonly resize: string;
     readonly resizeHint: string;
   };
+  readonly glossary: {
+    readonly lead: (count: number) => string;
+    readonly filterLabel: string;
+    readonly filterPlaceholder: string;
+    readonly letters: string;
+    readonly noMatch: string;
+  };
+  readonly templates: {
+    readonly lead: string;
+    readonly note: string;
+    readonly translation: string;
+    readonly notes: string;
+  };
+  readonly checklists: {
+    readonly lead: string;
+    readonly clear: string;
+    readonly progress: (ticked: number, total: number) => string;
+  };
+  readonly flashcards: {
+    readonly lead: string;
+    readonly due: string;
+    readonly all: string;
+    readonly glossaryDeck: string;
+    readonly byChapter: string;
+    readonly dueCount: (count: number) => string;
+    readonly learned: (count: number) => string;
+    readonly hint: string;
+    readonly showAnswer: string;
+    readonly again: string;
+    readonly knewIt: string;
+    readonly position: (index: number, total: number) => string;
+    readonly newCard: string;
+    readonly box: (box: number) => string;
+    readonly boxes: string;
+    readonly deckDone: string;
+    readonly deckEmpty: string;
+    readonly restart: string;
+  };
+  readonly tests: {
+    readonly lead: string;
+    readonly finalExam: string;
+    readonly examIntro: (size: number, passMark: number) => string;
+    readonly startExam: string;
+    readonly history: string;
+    readonly chapterTests: string;
+    readonly chapterTest: string;
+    readonly chapterTestIntro: (count: number, passMark: number) => string;
+    readonly question: (index: number, total: number) => string;
+    readonly check: string;
+    readonly next: string;
+    readonly finish: string;
+    readonly correct: string;
+    readonly wrong: string;
+    readonly score: (right: number, total: number) => string;
+    readonly passed: string;
+    readonly failed: string;
+    readonly examPassed: string;
+    readonly examFailed: string;
+    readonly retry: string;
+    readonly backToChapter: string;
+    readonly mistakes: string;
+    readonly yourAnswer: string;
+    readonly rightAnswer: string;
+    readonly bestScore: (score: number) => string;
+    readonly notTaken: string;
+  };
+  readonly fees: {
+    readonly lead: string;
+    readonly action: string;
+    readonly placeAndTime: string;
+    readonly vat: string;
+    readonly entryFee: string;
+    readonly tax: string;
+    readonly taxKind: string;
+    readonly taxRate: string;
+    readonly price: string;
+    readonly assessment: string;
+    readonly buildingHint: string;
+    readonly securedAmount: string;
+    readonly insuredValue: string;
+    readonly agreedPrice: string;
+    readonly vehicleHint: string;
+    readonly marketValue: string;
+    readonly materialInterestInput: string;
+    readonly signatures: string;
+    readonly propertySignatures: string;
+    readonly redelegation: string;
+    readonly pages: string;
+    readonly copies: string;
+    readonly bill: string;
+    readonly materialInterest: string;
+    readonly notarialFee: string;
+    readonly additionalFee: string;
+    readonly vatLine: string;
+    readonly entryFeeLine: string;
+    readonly entryFeeSource: string;
+    readonly localTax: (rate: string) => string;
+    readonly total: string;
+    readonly whoPays: string;
+    readonly howItWorks: string;
+  };
   readonly common: {
     readonly loading: string;
     readonly loadError: string;
@@ -151,5 +262,8 @@ export interface UiText {
     readonly close: string;
     readonly notFound: string;
     readonly goHome: string;
+    readonly print: string;
+    readonly copy: string;
+    readonly copied: string;
   };
 }

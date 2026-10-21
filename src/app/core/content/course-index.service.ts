@@ -1,9 +1,8 @@
-import { HttpClient } from '@angular/common/http';
 import { computed, inject, resource, Service, signal } from '@angular/core';
-import { firstValueFrom } from 'rxjs';
 
 import { LanguageService } from '../i18n/language.service';
 import { articleKey, parseReference, type LawReference } from '../laws/citation';
+import { GlossaryService } from '../reference/glossary.service';
 import { citationSites, mergeSites, type CitationSite } from './citation-sites';
 import type { GlossaryTerm } from './content.models';
 import { ContentService } from './content.service';
@@ -14,12 +13,12 @@ import { ContentService } from './content.service';
  */
 @Service()
 export class CourseIndexService {
-  private readonly http = inject(HttpClient);
   private readonly content = inject(ContentService);
   private readonly language = inject(LanguageService);
+  private readonly glossary = inject(GlossaryService);
   private readonly requested = signal(false);
 
-  private readonly index = resource({
+  private readonly sites = resource({
     params: () => {
       const chapters = this.content.chapters();
       return this.requested() && chapters.length
@@ -27,26 +26,14 @@ export class CourseIndexService {
         : undefined;
     },
     loader: async ({ params: { chapters, language } }) => {
-      const [texts, glossary] = await Promise.all([
-        Promise.all(
-          chapters.map((chapter) =>
-            firstValueFrom(
-              this.http.get(this.content.chapterTextUrl(chapter, language), {
-                responseType: 'text',
-              }),
-            ),
-          ),
-        ),
-        firstValueFrom(this.http.get<GlossaryTerm[]>('data/glossary.json')),
-      ]);
-      return {
-        sites: mergeSites(chapters.map((chapter, i) => citationSites(chapter.id, texts[i]))),
-        glossary,
-      };
+      const texts = await Promise.all(
+        chapters.map((chapter) => this.content.loadText(chapter, language)),
+      );
+      return mergeSites(chapters.map((chapter, i) => citationSites(chapter.id, texts[i])));
     },
   });
 
-  readonly isLoading = computed(() => this.index.isLoading());
+  readonly isLoading = computed(() => this.sites.isLoading());
 
   /** Start loading the chapter texts. Safe to call many times. */
   load(): void {
@@ -55,17 +42,14 @@ export class CourseIndexService {
 
   /** Chapter sections that cite the article of the reference (any paragraph). */
   sitesFor(reference: LawReference): readonly CitationSite[] {
-    return this.index.hasValue() ? (this.index.value().sites.get(articleKey(reference)) ?? []) : [];
+    return this.sites.hasValue() ? (this.sites.value().get(articleKey(reference)) ?? []) : [];
   }
 
   /** Glossary terms whose references include the article. */
   termsFor(reference: LawReference): readonly GlossaryTerm[] {
-    if (!this.index.hasValue()) {
-      return [];
-    }
     const key = articleKey(reference);
-    return this.index
-      .value()
-      .glossary.filter((term) => term.refs.some((ref) => articleKey(parseReference(ref)) === key));
+    return this.glossary
+      .terms()
+      .filter((term) => term.refs.some((ref) => articleKey(parseReference(ref)) === key));
   }
 }

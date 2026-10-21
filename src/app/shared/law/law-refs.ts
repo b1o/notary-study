@@ -24,6 +24,8 @@ import { isPlainClick } from './citation-click';
     }
   `,
   host: { class: 'law-refs' },
+  // Without references the element would still take a gap in a flex row.
+  styles: ':host(:empty) { display: none; }',
 })
 export class LawRefs {
   /** References such as "znnd:25:9". */
