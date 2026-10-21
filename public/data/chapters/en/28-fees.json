@@ -54,7 +54,7 @@
     },
     {
       "front": "What is the entry fee at the Registry Agency?",
-      "back": "**0.1%**, at least **10 лв. (5.11 €)**; deletions and notes: half (tariff of the Registry Agency, outside the library)."
+      "back": "**0.1%**, at least **10 лв. (5.11 €)**; deletions and notes: half ([[tdtav:2:1]], [[tdtav:3:1]])."
     },
     {
       "front": "What is the range of the local tax on a purchase?",
@@ -222,8 +222,10 @@
         "No minimum; 0.1% only"
       ],
       "answer": 0,
-      "explanation": "The tariff of the state fees collected by the Registry Agency (outside the library) sets the entry fee at 0.1% of the material interest, at least 10 лв. The office checks the current tariff; 30 лв. is a notarial minimum of [[tarifa:9|items 9]] and [[tarifa:10|10]].",
-      "refs": []
+      "explanation": "[[tdtav:2:1]]: the tariff of the state fees collected by the Registry Agency sets the entry fee at 0.1% of the material interest, at least 10 лв. The office checks the current tariff; 30 лв. is a notarial minimum of [[tarifa:9|items 9]] and [[tarifa:10|10]].",
+      "refs": [
+        "tdtav:2:1"
+      ]
     },
     {
       "question": "How are amounts in leva in the tariff read since 2026?",

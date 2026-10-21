@@ -71,7 +71,7 @@ The most common case: parents sell or donate their home to a child and **reserve
 
 ### Servitudes
 
-A servitude ({{сервитут}}) is a burden on one property for the benefit of another, for example a right of way through a neighbour's yard, or a right to lay pipes. Many servitudes arise from the Spatial Development Act; others are created by notarial deed. They are entered in the property register.
+A servitude ({{сервитут}}) is a burden on one property for the benefit of another, for example a right of way through a neighbour's yard, or a right to lay pipes. As a real right over another's thing, a servitude is created by a legal transaction, by prescription or in another way that a law provides ([[zs:55]]). A contract that creates it over real estate needs a notarial deed ([[zzd:18]]), and the deed is entered in the property register ([[pv:4]]). The rules on prescription of ownership apply to other real rights too ([[zs:85]]). The possession of a servitude that lasted more than six months is protected against any disturbance, by a claim within six months ([[zs:75]]). The Spatial Development Act sets rights of way and network servitudes in a simpler form: a contract with notarially certified signatures (chapter 10).
 
 ## Waiver of ownership
 

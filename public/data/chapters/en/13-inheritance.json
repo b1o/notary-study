@@ -239,13 +239,13 @@
     {
       "question": "A nephew inherits from his aunt. Does he pay inheritance tax?",
       "options": [
-        "Possibly; 0.4–0.8% on the share above 250,000 лв.",
+        "Possibly; 0.4–0.8% for a share above 250,000 лв.",
         "No; nobody pays inheritance tax in Bulgaria",
         "Yes; 3.3–6.6% on the whole inherited share",
         "No; relatives are always exempt from the tax"
       ],
       "answer": 0,
-      "explanation": "[[zmdt:31:2]]: only the surviving spouse and the direct line are exempt. A nephew is a child of a sibling: [[zmdt:36::1|Art. 36 item 1]] sets 0.4–0.8% on the part of the share above 250,000 лв. (127,822.97 euro); other persons pay 3.3–6.6% (item 2). Below the threshold no tax is due.",
+      "explanation": "[[zmdt:31:2]]: only the surviving spouse and the direct line are exempt. A nephew is a child of a sibling: [[zmdt:36::1|Art. 36 item 1]] sets 0.4–0.8% for an inheritance share above 250,000 лв. (127,822.97 euro); other persons pay 3.3–6.6% (item 2). Below the threshold no tax is due.",
       "refs": [
         "zmdt:31:2",
         "zmdt:36"

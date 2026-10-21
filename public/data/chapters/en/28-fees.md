@@ -19,7 +19,8 @@ Plus an **additional fee** for acts outside the office, out of hours or on holid
 - A **draft** costs the same as the certification; a **check** of a draft costs half. If the same notary certifies the document within one month, only the other half is charged ([[znnd:94]], [[tarifa:22]]). Drafts of the acts of item 1 cost the item 1 fee ([[tarifa:17]]); a draft deed costs item 8, and a draft will or a draft contract with a value costs item 11, a draft will only when the will is not made on the same day ([[tarifa:20]]).
 - Time-based fees per hour: 8 лв. (4.09 €) for an oral consultation, 15 лв. (7.67 €) for a written consultation and for mediation, 5 лв. (2.56 €) for inquiries and obtaining documents ([[tarifa:14]], [[tarifa:15]], [[tarifa:16]]).
 - For time-based fees, a started hour counts as a full hour; the notary states the expected time in advance ([[tarifa:16]]).
-- When the Commerce Act or the Special Pledges Act requires the content to be certified together with the signatures, an **ordinary** fee applies ([[znnd:90:2]]).
+- When the Commerce Act or the Special Pledges Act requires the content to be certified together with the signatures, the fee for the **content** is an **ordinary** fee ([[znnd:90:2]], [[tarifa:4]]). The provision does not name the fee for the signatures. Item 10 covers the signatures on contracts with a material interest ([[tarifa:10]]), but a published commentary and the price lists of some offices apply only ordinary fees. Ask the notary which rule the office follows.
+- Fixed fees of item 1: 20 лв. (10.23 €) for a declaratory deed of ownership of agricultural land or forest, for its correction and for a voluntary partition of such land; the registration judge charges none of them for the acts of [[zspzz:5|Art. 5 ЗСПЗЗ]]. A declaratory protocol under the Commerce Act costs 50 лв. (25.56 €) ([[tarifa:1]]).
 
 ## The material interest
 
@@ -97,12 +98,12 @@ Notarial services are subject to VAT. A notary registered under the VAT Act adds
 
 ## Fees of the Registry Agency
 
-The registry office charges state fees under the tariff of the Registry Agency, collected through the notary for deeds. That tariff is not in the law library; check the current amounts on the site of the Agency:
+The registry office charges state fees under the tariff of the Registry Agency (ТДТАВ), collected through the notary for deeds. The law library has its first section, the fees under the Regulations on Entries:
 
-- **entry** of an act: **0.1%** of the price on which the act was charged, at least **10 лв. (5.11 €)**;
-- **notes and deletions**, for example the deletion of a mortgage: **half** of the entry fee;
-- **certificates** of encumbrances for a person: 5 лв. in 7 working days, 10 лв. in 3 working days, 25 лв. in 8 working hours (2.56 €, 5.11 €, 12.78 €); for one property: 10 лв. in 7 working days, 30 лв. in 3 working days (5.11 €, 15.34 €) ([[pv:46]], [[pv:47]]);
-- remote **inquiries**: 1 лв. (0.51 €).
+- **entry** of an act: **0.1%** of the price on which the act was charged, at least **10 лв. (5.11 €)** ([[tdtav:2:1]]);
+- **notes and deletions**, for example the deletion of a mortgage: **half** of the entry fee ([[tdtav:3:1]]);
+- **certificates** of encumbrances for a person: 5 лв. in 7 working days, 10 лв. in 3 working days, 25 лв. in 8 working hours (2.56 €, 5.11 €, 12.78 €); for one property: 10 лв. in 7 working days, 30 лв. in 3 working days (5.11 €, 15.34 €) ([[pv:46]], [[pv:47]], [[tdtav:7:1]], [[tdtav:7:2]]);
+- remote **inquiries**: 1 лв. (0.51 €) ([[tdtav:6:2]]).
 
 ## The local tax on acquisition
 

@@ -38,7 +38,7 @@ A transfer to a third person is possible only if the company has **no unpaid wag
 The company files an application to the Commercial Register **within 7 days** of the change ([[ztr:6]]). The application is filed by the merchant, a procurator, another person in the cases of law, or a lawyer with an express power ([[ztr:15]]). The new articles (or the new decision of the sole owner) and the beneficial owner data are filed too.
 
 > [!tip] The fee
-> When the Commerce Act requires the content to be certified together with the signatures, the notary charges an **ordinary fee**, not a fee on the price ([[znnd:90:2]]). Ask the notary which items of section I of the tariff the office uses.
+> When the Commerce Act requires the content to be certified together with the signatures, the content costs an **ordinary fee**, not a fee on the price ([[znnd:90:2]]). For the signatures, offices differ (chapter 28). Ask the notary which items of the tariff the office uses.
 
 ## Specimen signature and consent of a manager
 

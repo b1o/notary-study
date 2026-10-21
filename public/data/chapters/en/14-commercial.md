@@ -53,7 +53,7 @@ Majorities: decisions under items 1, 2 and 9 need more than three quarters of th
 - The transfer is entered in the Commercial Register after the manager and the transferor declare that there are no unpaid debts to workers; from 2 April 2027 the registration officer also checks electronically at the National Revenue Agency that the company and the transferor have no unpaid enforceable public debts for social contributions ([[tz:129:2]]).
 - A mayor may not certify such signatures ([[znnd:83:2]]).
 
-The fee: when the Commerce Act or the Special Pledges Act requires the content to be certified together with the signatures, the notary charges an **ordinary fee** from section I of the tariff, not a proportional fee on the price ([[znnd:90:2]], [[tarifa:4]], [[tarifa:5]]).
+The fee: when the Commerce Act or the Special Pledges Act requires the content to be certified together with the signatures, the content costs an **ordinary fee** from section I of the tariff, not a fee on the price ([[znnd:90:2]], [[tarifa:4]]). The provision does not name the fee for the signatures; chapter 28 explains the two practices. A declaratory protocol under the Commerce Act costs 50 лв. (25.56 €) ([[tarifa:1]]).
 
 ## Transfer of a commercial enterprise
 

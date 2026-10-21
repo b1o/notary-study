@@ -23,7 +23,7 @@ Two rules follow from the table:
 
 ### Case law and practice
 
-Courts decide individual cases, but the Supreme Court of Cassation ({{Върховен касационен съд}}, ВКС) also adopts **interpretative decisions** ({{тълкувателни решения}}). These decisions bind the courts and the administration. Notaries follow them in practice because a court will judge their acts by them. The Notary Chamber also issues guidance to notaries. Guidance is not law, but it shows how the profession applies the law.
+Courts decide individual cases, but the Supreme Court of Cassation ({{Върховен касационен съд}}, ВКС) also adopts **interpretative decisions** ({{тълкувателни решения}}). These decisions bind the courts and the administration ([[zsv:130:2]]). Notaries follow them in practice because a court will judge their acts by them. The Notary Chamber also issues guidance to notaries. Guidance is not law, but it shows how the profession applies the law.
 
 ## Courts and bodies around the notary
 

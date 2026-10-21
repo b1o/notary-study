@@ -116,3 +116,5 @@ A notary loses the capacity on request, on death or judicial disability, when a 
 - the notary may not perform any act, and the archive is **sealed** by order of the president of the district court, with a protocol and an inventory ([[znnd:36]]);
 - the Council of Notaries deletes the notary from the register and writes who received the archive ([[znnd:37]]);
 - the notary or registration judge who receives the archive performs acts only on the documents in it, for example issues copies ([[znnd:38]]).
+
+The capacity comes back on the notary's request in two cases: after a deprivation for a set term, when the term ends; and after an incompatible activity under [[znnd:9:1:1|Art. 9(1), item 1]], when the activity ends. The notary asks the Council of Notaries within **one month** after the ground falls away. The restoration is noted in the register of the Chamber, and the person who holds the archive hands it back with an inventory ([[znnd:39]]).

@@ -74,6 +74,7 @@ The persons who **cannot** be witnesses or interpreters are listed in [[gpk:584]
    - A procurator ({{прокурист}}) may represent the merchant, but may **not** sell or encumber real estate without a special authorisation ([[tz:22:2]]).
 3. **Internal decisions** required by law. In an OOD, the general meeting decides on the acquisition and disposal of real estate and real rights ([[tz:137:1]]). The office asks for the protocol of the decision with the signatures certified, as the notary requires.
 4. **Beneficial owners** under the anti-money laundering law (chapter 27).
+5. **Associations and foundations** (non-profit legal entities) are in the register of non-profit legal entities. It is one electronic database with the Commercial Register, so the office checks their current status in the same way ([[ztr:2:1]]). Their bodies and their representation follow the Non-Profit Legal Entities Act and the statute of the entity; that act is not in the library.
 
 ## Representation
 
@@ -86,7 +87,7 @@ Representation exists **by law** (parents, guardians, managers of companies) or 
 | Form | If the contract needs a special form, the power of attorney needs the same form; for a notarial deed, a written power with signature and content certified **at the same time** ([[zzd:37]]) |
 | Scope | The power covers what the principal stated ([[zzd:39]]). A power "to manage" does not cover "to sell". |
 | Self-contracting | The agent may not contract with himself or for another person he also represents, unless the principal agreed ([[zzd:38]]). |
-| Still valid | A power ends by revocation, renunciation, death or judicial disability of either side, or the end of a legal entity ([[zzd:41]]). The end cannot be opposed to a third person who contracted with the agent in good faith, unless the revocation was subject to entry and was entered; this is why the office checks the information system of the Notary Chamber for revocations ([[n32:9а]]). |
+| Still valid | A power ends by revocation, renunciation, death or judicial disability of either side, or the end of a legal entity ([[zzd:41]]). The end cannot be opposed to a third person who contracted with the agent in good faith, unless the end was subject to entry and was entered ([[zzd:41:2]]). The end of a procura is such a case: it ends only with the entry of the revocation in the Commercial Register ([[tz:25:1]]). The extract of a revocation that the notary enters in the Chamber's system ([[n32:9а]]) is not an entry in this sense (chapter 24). The office still checks the system: after a revocation the agent has no power to represent, and the notary checks that power before every act ([[gpk:578:4]]). |
 | Sub-delegation | Allowed only if authorised or necessary to protect the principal ([[zzd:43]]). |
 | Foreign power | Apostille or legalisation and a translation (chapter 5). |
 

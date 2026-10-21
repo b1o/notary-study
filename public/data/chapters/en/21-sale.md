@@ -118,7 +118,7 @@ Check whether the property is **common** (chapter 12). If yes, both spouses sign
 |---|---|---|---|
 | Notarial fee | Both parties equally ([[zzd:186]]) | Item 8 on the higher of price and tax assessment | [[tarifa:8]], [[znnd:96:3]] |
 | VAT on the notarial fee | With the fee | 20%, if the notary is VAT-registered | — |
-| Entry fee | With the notarial costs | 0.1% of the material interest, at least 10 лв. (5.11 €) | Registry Agency tariff |
+| Entry fee | With the notarial costs | 0.1% of the material interest, at least 10 лв. (5.11 €) | [[tdtav:2:1]] |
 | Local tax on acquisition | The **acquirer** ([[zmdt:45:1]]) | 0.1–3% of the higher of price and tax assessment, in euro, set by the municipality | [[zmdt:46]], [[zmdt:47:2]] |
 
 > [!example] A worked example

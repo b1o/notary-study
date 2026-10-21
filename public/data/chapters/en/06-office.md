@@ -121,7 +121,7 @@ Wills follow a different rule ([[n32:21:2]], [[n32:21:3]]):
 
 ## The information system of the Notary Chamber
 
-The Notary Chamber runs an information system that is part of the archive of every notary ([[znnd:28б]], [[n32:1а]]). Notaries call it **"Единство"** (Unity). The notary must enter **at once** ([[n32:9а]]):
+The Notary Chamber runs an information system that is part of the archive of every notary ([[znnd:28б]], [[n32:1а]]). The Chamber calls it **"Единство 2"** (Unity 2) on its site, edinstvo.notary-chamber.bg. The access rules are in Instruction No. И-1 of 14 April 2016, which the Chamber publishes with its regulations. The notary must enter **at once** ([[n32:9а]]):
 
 | What | Example |
 |---|---|

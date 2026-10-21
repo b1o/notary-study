@@ -96,7 +96,7 @@ A **declaratory protocol** ({{констативен протокол}}) certifi
 
 Example: a preliminary contract obliges the parties to sign the final deed at a certain notary on 15 May at 11:00. The buyer comes with the money; the seller does not come. The notary draws up a protocol of the buyer's appearance and readiness and of the seller's non-appearance. The buyer uses it in court to claim double the earnest money ([[zzd:93]]) or the final contract ([[zzd:19]]).
 
-The protocol is made in **two identical copies**, signed by the requester and the notary; one is filed in the special book, the other goes to the requester, charged as a copy ([[gpk:593]]). The fee is 30 leva (15.34 €) ([[tarifa:1]]).
+The protocol is made in **two identical copies**, signed by the requester and the notary; one is filed in the special book, the other goes to the requester, charged as a copy ([[gpk:593]]). The fee is 30 leva (15.34 €) ([[tarifa:1]]). A declaratory protocol under the Commerce Act costs 50 leva (25.56 €) ([[tarifa:1]]).
 
 ## Safekeeping of documents
 

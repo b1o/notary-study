@@ -87,7 +87,7 @@ An heir whose reserved portion is affected may ask for the **reduction** of will
 - Creditors of an heir who renounced can ask for the renunciation to be annulled in their favour, within one year of learning of it and at most three years after the renunciation ([[zn:56]]).
 
 > [!note] What the notary does here
-> Acceptance and renunciation go to the **district court**, not to the notary. The notary often **certifies the signature** on the statement, especially when the heir sends it by post or through a representative. For minors, the Family Code treats a waiver of rights as void ([[sk:130:4]]), and minors accept an inheritance only by inventory ([[zn:61:2]]). Check the current case law before any renunciation in the name of a child.
+> Acceptance and renunciation go to the **district court**, not to the notary. The notary often **certifies the signature** on the statement, especially when the heir sends it by post or through a representative. For minors, the Family Code treats a waiver of rights as void ([[sk:130:4]]), and minors accept an inheritance only by inventory ([[zn:61:2]]). The Supreme Court of Cassation decided in 2024 that a renunciation by a child under 18 is not allowed, because it is a waiver of rights. Before the court permits a disposal of inherited property, it asks for proof that the child accepted the inheritance by inventory, and a minor cannot accept by conduct (Interpretative Decision No. 1 of 23 January 2024, case 1/2021, General Assembly of the Civil College).
 
 ## The certificate of heirs
 
@@ -105,6 +105,8 @@ The **certificate of heirs** ({{удостоверение за наследни
 ## Tax
 
 The surviving spouse and the heirs in the direct line pay **no inheritance tax** ([[zmdt:31:2]]). The heirs file a **declaration** at the municipality of the last domicile within **six months** ([[zmdt:32:1]]).
+
+Brothers and sisters and their children pay **0.4–0.8%**, and other persons **3.3–6.6%**, for an inheritance share above **250,000 лв. (127,822.97 €)**. The municipal council sets the rate in this range for each heir ([[zmdt:36]]). Sofia, for example, sets 0.7% and 5% (Art. 28 of its ordinance on local taxes, in force from 1 January 2026). The act does not say whether the rate applies to the whole share or only to the part above the threshold. Ask the municipality how it applies the threshold.
 
 ## Cross-border successions
 

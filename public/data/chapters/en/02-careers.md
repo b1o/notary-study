@@ -132,6 +132,19 @@ The Council of Notaries inspects the office within one month ([[znnd:14:5]]). Th
 > [!warn] Incompatible activities
 > A notary may not at the same time be a member of parliament, a minister, a mayor or a municipal councillor, hold a post in a state or municipal body, work under an employment contract, practise as a lawyer, or trade and manage commercial companies ([[znnd:9:1]]).
 
+## What the two exams cover
+
+Both ordinances have an appendix with a list of **50 topics**: Ordinance No. 36 for the competition ([[n36:3:2]]), and Ordinance No. 2 of 2003 for the exam of substitutes ([[n2pn:3:2]]). The two lists are almost the same. The list is an example: the questions come from its topics, and they can be practical cases. The law library shows the list at the end of each ordinance.
+
+| Topics | Area | Chapters of this course |
+|---|---|---|
+| 1–4 | Persons, legal entities, objects of civil law | 3, 7, 14, 25 |
+| 5–18 | Property, planning, state and municipal property, restitution, prescription | 9, 10, 11, 22, 29 |
+| 19–25 | Transactions, representation, contracts, mortgage | 3, 7, 8, 15, 20, 22, 24 |
+| 26–30 | Property of spouses, inheritance, wills, EU law | 12, 13, 15, 26; EU law also in 3, 5 and 24 |
+| 31–42 | Non-contentious and notarial proceedings, deeds, certifications, entries | 16–20 |
+| 43–50 | The notary, the archive, the Chamber, the fees | 2, 4, 5, 6, 28, 30, 31 |
+
 ## Legal capacity (юридическа правоспособност)
 
 The roles of assistant notary and notary require legal capacity under the Judiciary Act. A law graduate acquires it after a **six-month internship** as a trainee lawyer ({{стажант-юрист}}) and an **exam** ([[zsv:294:1]]). The Minister of Justice assigns the trainee to a regional court ([[zsv:297]]). The exam is uniform and anonymous: a practical case and a practical test, graded "pass" or "fail" ([[zsv:300:1]]). After a fail, the trainee does two more months of internship and may sit the exam again, up to three times ([[zsv:300:3]]). The Minister then issues the certificate of legal capacity ([[zsv:301]]). The Ombudsman asked the Constitutional Court to strike the limit on repeat attempts (case 21/2023). The Court rejected the request on 4 June 2024 (Decision No. 8), so the limit stays in force ([[zsv:300:3]]).

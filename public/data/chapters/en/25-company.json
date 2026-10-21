@@ -40,8 +40,8 @@
       "back": "**Yes**: the notarial form of [[tz:137:4]] applies unless the articles provide written form."
     },
     {
-      "front": "What is the fee for certifying signature and content required by the Commerce Act?",
-      "back": "An **ordinary fee**, not a proportional one ([[znnd:90:2]])."
+      "front": "Which fee does [[znnd:90:2]] make ordinary?",
+      "back": "The fee for the **content** that the Commerce Act or the Special Pledges Act requires to be certified with the signatures. The provision does not name the fee for the signatures."
     },
     {
       "front": "A new manager was entered on 1 March. On 10 March a supplier contracted with the old manager, unaware of the change. Is the supplier bound by the entry?",
@@ -146,15 +146,15 @@
       ]
     },
     {
-      "question": "How does the notary charge for a share transfer contract that needs signature and content certified at the same time?",
+      "question": "A share transfer contract needs signature and content certified at the same time. What does Art. 90(2) ЗННД say about its fee?",
       "options": [
-        "An ordinary fee under section I of the tariff",
-        "A proportional fee under item 8 on the price",
-        "A proportional fee under item 9 on the capital",
-        "A fee set by the tariff of the Registry Agency"
+        "The content costs an ordinary fee, not a fee on the price",
+        "The content costs item 8 on the price of the shares",
+        "The content costs item 9 on the registered capital of the company",
+        "The certification costs nothing for a company"
       ],
       "answer": 0,
-      "explanation": "[[znnd:90:2]]: for the certification of the content of a document that the Commerce Act or the Special Pledges Act requires together with the signatures, an ordinary notarial fee is due, not a proportional one on the material interest.",
+      "explanation": "[[znnd:90:2]]: when the Commerce Act requires the content to be certified together with the signatures, an ordinary fee is due for the content. Items 8 and 9 are fees on a material interest, and no certification is free for a company. The provision does not name the fee for the signatures (chapter 28).",
       "refs": [
         "znnd:90:2"
       ]

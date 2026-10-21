@@ -53,6 +53,14 @@
       "(5) When the contract transfers real estate or a real right in it, the contract is also entered in the registry office."
     ]
   },
+  "16а": {
+    "title": "Protection of creditors",
+    "paragraphs": [
+      "Art. 16a. (1) The successor manages the transferred enterprise separately for 6 months from the entry of the transfer.",
+      "(2) During that term, any creditor of the transferor or the successor with an unsecured claim that arose before the entry may ask for performance or security. If the request is not met, the creditor has priority from the rights that belonged to his debtor.",
+      "(3) The members of the successor's management body are jointly liable to the creditors for the separate management."
+    ]
+  },
   "21": {
     "title": "Procurator",
     "paragraphs": [
@@ -72,6 +80,12 @@
     "title": "Effect towards third persons",
     "paragraphs": [
       "Art. 24. The authorisation has effect towards third persons after its entry in the Commercial Register."
+    ]
+  },
+  "25": {
+    "paragraphs": [
+      "Art. 25. (1) The authorisation ends with its revocation by the merchant and the entry of the revocation in the Commercial Register.",
+      "(2) The authorisation does not end with the death or the placement under interdiction of the merchant."
     ]
   },
   "26": {
@@ -286,14 +300,6 @@
       "5. the name of the person to whom or to whose order payment must be made;",
       "6. the date and place of issue;",
       "7. the signature of the issuer."
-    ]
-  },
-  "16а": {
-    "title": "Protection of creditors",
-    "paragraphs": [
-      "Art. 16a. (1) The successor manages the transferred enterprise separately for 6 months from the entry of the transfer.",
-      "(2) During that term, any creditor of the transferor or the successor with an unsecured claim that arose before the entry may ask for performance or security. If the request is not met, the creditor has priority from the rights that belonged to his debtor.",
-      "(3) The members of the successor's management body are jointly liable to the creditors for the separate management."
     ]
   }
 }

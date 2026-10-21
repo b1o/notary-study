@@ -8,7 +8,7 @@ not a tool for real case work), the content rules and the decisions so far.
 | Section               | What it does                                                                              |
 | --------------------- | ----------------------------------------------------------------------------------------- |
 | Course                | 32 chapters in 7 parts. Every legal statement cites its provision.                        |
-| Law library           | 38 acts from lex.bg, with an unofficial English translation of 660 articles               |
+| Law library           | 39 acts (37 from lex.bg, 2 tariffs by hand), with an unofficial English translation of 677 articles |
 | Glossary              | 173 Bulgarian terms with the English term, a definition and the provisions                |
 | Templates, checklists | Document templates on A4 pages, for study; checklists as examples of a typical flow       |
 | Fee calculator        | Notarial fee, additional fee, VAT, entry fee and local tax, as a bill with its provisions |

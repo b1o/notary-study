@@ -250,17 +250,18 @@
       ]
     },
     {
-      "question": "Case 8: which fee applies to the share transfer contract?",
+      "question": "Case 8: what does Art. 90(2) ЗННД settle about the fee for the share transfer contract?",
       "options": [
-        "An ordinary fee, as the content is certified with the signatures",
-        "Item 8 of the tariff, on the price of the share",
-        "Item 10 of the tariff, on the price of the share",
-        "Item 9 of the tariff, on the capital of the company"
+        "That the content costs an ordinary fee",
+        "That the content costs item 8 on the price",
+        "That the whole contract costs item 9",
+        "That the buyer alone pays all the fees"
       ],
       "answer": 0,
-      "explanation": "[[znnd:90:2]]: for the certification of the content of a document that the Commerce Act requires together with the signatures, an ordinary notarial fee is due. The proportional items 8, 9 and 10 do not apply to this contract.",
+      "explanation": "[[znnd:90:2]]: for the content of a document that the Commerce Act requires to be certified together with the signatures, an ordinary fee is due. The provision does not name the fee for the signatures or who pays. Item 10 covers the signatures on contracts with a material interest ([[tarifa:10]]), and offices differ (chapter 28).",
       "refs": [
-        "znnd:90:2"
+        "znnd:90:2",
+        "tarifa:10"
       ]
     }
   ]
