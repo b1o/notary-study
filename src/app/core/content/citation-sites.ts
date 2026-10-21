@@ -23,11 +23,15 @@ export function citationSites(chapterId: string, markdown: string): Map<string, 
   let inFence = false;
 
   for (const line of markdown.split('\n')) {
+    // Code blocks show their text as it is: no headings and no citation links.
     if (FENCE.test(line)) {
       inFence = !inFence;
       continue;
     }
-    const heading = inFence ? null : HEADING.exec(line);
+    if (inFence) {
+      continue;
+    }
+    const heading = HEADING.exec(line);
     if (heading) {
       section = { sectionTitle: plainHeading(heading[2]), sectionId: slugs.next(heading[2]) };
       continue;
@@ -45,7 +49,9 @@ export function citationSites(chapterId: string, markdown: string): Map<string, 
 }
 
 /** Merge the maps of several chapters into one, in chapter order. */
-export function mergeSites(maps: readonly Map<string, CitationSite[]>[]): Map<string, CitationSite[]> {
+export function mergeSites(
+  maps: readonly Map<string, CitationSite[]>[],
+): Map<string, CitationSite[]> {
   const merged = new Map<string, CitationSite[]>();
   for (const map of maps) {
     for (const [key, list] of map) {

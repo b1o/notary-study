@@ -1,14 +1,22 @@
 import { DOCUMENT, effect, inject, Service } from '@angular/core';
 
 import { isRecord, storedSignal } from '../storage/stored-signal';
-import { DEFAULT_READING_SETTINGS, READING_OPTIONS, type ReadingSettings } from './reading-settings';
+import {
+  DEFAULT_READING_SETTINGS,
+  READING_OPTIONS,
+  type ReadingSettings,
+} from './reading-settings';
 
 /** The reader's display settings, saved in the browser and applied as data attributes on <html>. */
 @Service()
 export class ReadingSettingsService {
   private readonly document = inject(DOCUMENT);
 
-  readonly values = storedSignal<ReadingSettings>('nc.reading', { ...DEFAULT_READING_SETTINGS }, restoreSettings);
+  readonly values = storedSignal<ReadingSettings>(
+    'nc.reading',
+    { ...DEFAULT_READING_SETTINGS },
+    restoreSettings,
+  );
 
   constructor() {
     effect(() => {
@@ -45,7 +53,9 @@ function restoreSettings(stored: unknown, fallback: ReadingSettings): ReadingSet
   const valid = <K extends keyof ReadingSettings>(key: K): ReadingSettings[K] => {
     const options: readonly string[] = READING_OPTIONS[key];
     const value = stored[key];
-    return typeof value === 'string' && options.includes(value) ? (value as ReadingSettings[K]) : fallback[key];
+    return typeof value === 'string' && options.includes(value)
+      ? (value as ReadingSettings[K])
+      : fallback[key];
   };
   return {
     theme: valid('theme'),

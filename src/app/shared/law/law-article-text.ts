@@ -41,10 +41,18 @@ export class LawArticleText {
     const translation = this.translation();
     const versions: TextVersion[] = [];
     if (choice !== 'en' || !translation) {
-      versions.push({ language: 'bg', title: article.title, paragraphs: groupParagraphs(article.paragraphs) });
+      versions.push({
+        language: 'bg',
+        title: article.title,
+        paragraphs: groupParagraphs(article.paragraphs),
+      });
     }
     if (choice !== 'bg' && translation) {
-      versions.push({ language: 'en', title: translation.title, paragraphs: groupParagraphs(translation.paragraphs) });
+      versions.push({
+        language: 'en',
+        title: translation.title,
+        paragraphs: groupParagraphs(translation.paragraphs),
+      });
     }
     return versions;
   });

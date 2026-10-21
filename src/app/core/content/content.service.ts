@@ -11,12 +11,16 @@ const DATA = 'data';
 export class ContentService {
   readonly manifest = httpResource<Manifest>(() => `${DATA}/manifest.json`);
 
-  readonly parts = computed<readonly Part[]>(() => (this.manifest.hasValue() ? this.manifest.value().parts : []));
+  readonly parts = computed<readonly Part[]>(() =>
+    this.manifest.hasValue() ? this.manifest.value().parts : [],
+  );
   readonly chapters = computed<readonly ChapterMeta[]>(() =>
     this.manifest.hasValue() ? this.manifest.value().chapters : [],
   );
 
-  private readonly chaptersById = computed(() => new Map(this.chapters().map((chapter) => [chapter.id, chapter])));
+  private readonly chaptersById = computed(
+    () => new Map(this.chapters().map((chapter) => [chapter.id, chapter])),
+  );
 
   chapter(id: string): ChapterMeta | undefined {
     return this.chaptersById().get(id);

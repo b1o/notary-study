@@ -20,14 +20,20 @@ export class LawPanelService {
   readonly canGoForward = computed(() => this.position() < this.history().length - 1);
 
   /** Panel width in CSS pixels, kept between visits. */
-  readonly width = storedSignal<number>('nc.lawPanel.width', LAW_PANEL_WIDTH.initial, (stored, fallback) =>
-    typeof stored === 'number' ? clampWidth(stored) : fallback,
+  readonly width = storedSignal<number>(
+    'nc.lawPanel.width',
+    LAW_PANEL_WIDTH.initial,
+    (stored, fallback) => (typeof stored === 'number' ? clampWidth(stored) : fallback),
   );
 
   /** Show a provision. Opening the provision that is already shown does nothing. */
   open(reference: LawReference): void {
     const current = this.current();
-    if (current && articleKey(current) === articleKey(reference) && current.paragraph === reference.paragraph) {
+    if (
+      current &&
+      articleKey(current) === articleKey(reference) &&
+      current.paragraph === reference.paragraph
+    ) {
       return;
     }
     // Like a browser: opening from the middle of the history drops the "forward" entries.

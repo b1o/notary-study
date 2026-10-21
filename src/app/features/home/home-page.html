@@ -1,0 +1,95 @@
+@let text = ui();
+<div class="page">
+  <header class="home-head">
+    <h1 class="page-title">{{ text.home.title }}</h1>
+    <p class="page-lead">{{ text.home.intro }}</p>
+  </header>
+
+  <nc-load-status [resource]="content.manifest" />
+
+  @if (nextChapter(); as chapter) {
+    <section class="resume" [attr.aria-label]="text.home.continueReading">
+      <a class="resume__link" [routerLink]="['/course', chapter.id]">
+        <span class="resume__action">
+          {{ progress.lastChapter() ? text.home.continueReading : text.home.startReading }}
+        </span>
+        <span class="resume__title">{{ chapter.number }}. {{ chapter.title[lang()] }}</span>
+        <span class="resume__summary">{{ chapter.summary[lang()] }}</span>
+        <nc-icon class="resume__arrow" name="arrowRight" />
+      </a>
+      <div class="resume__progress">
+        <progress [value]="progress.readCount()" [max]="content.chapters().length"></progress>
+        <span>{{ text.home.progress(progress.readCount(), content.chapters().length) }}</span>
+      </div>
+    </section>
+  }
+
+  <section class="home-section">
+    <h2 class="section-title">{{ text.home.libraryAndTools }}</h2>
+    <ul class="tools">
+      @for (tool of tools; track tool.title) {
+        <li>
+          @if (tool.path) {
+            <a class="tool" [routerLink]="tool.path">
+              <span class="tool__icon"><nc-icon [name]="tool.icon" /></span>
+              <span class="tool__title">{{ text.nav[tool.title] }}</span>
+              <span class="tool__hint">{{ text.home[tool.hint] }}</span>
+            </a>
+          } @else {
+            <div class="tool tool--unavailable">
+              <span class="tool__icon"><nc-icon [name]="tool.icon" /></span>
+              <span class="tool__title">{{ text.nav[tool.title] }}</span>
+              <span class="tool__hint">{{ text.nav.notAvailableYet }}</span>
+            </div>
+          }
+        </li>
+      }
+    </ul>
+  </section>
+
+  <section class="home-section">
+    <div class="contents-head">
+      <h2 class="section-title">{{ text.home.contents }}</h2>
+      <div class="contents-head__filter">
+        <span class="contents-head__label" aria-hidden="true">{{ text.roles.filterLabel }}</span>
+        <nc-choice-group
+          [legend]="text.roles.filterLabel"
+          [hideLegend]="true"
+          [choices]="roleChoices()"
+          [(value)]="roleFilter"
+        />
+      </div>
+    </div>
+
+    @for (group of parts(); track group.part.id) {
+      <section class="part">
+        <h3 class="part__title">
+          <span class="part__number">{{ group.number }}</span>
+          <span>{{ group.part.title[lang()] }}</span>
+        </h3>
+        <ol class="chapter-list">
+          @for (chapter of group.chapters; track chapter.id) {
+            <li>
+              <a class="chapter-row" [routerLink]="['/course', chapter.id]">
+                <span class="chapter-row__number">{{ chapter.number }}</span>
+                <span class="chapter-row__main">
+                  <span class="chapter-row__title">{{ chapter.title[lang()] }}</span>
+                  <span class="chapter-row__summary">{{ chapter.summary[lang()] }}</span>
+                </span>
+                <span class="chapter-row__meta">
+                  @if (progress.isRead(chapter.id)) {
+                    <span class="chapter-row__read">
+                      <nc-icon name="check" />
+                      {{ text.chapter.read }}
+                    </span>
+                  }
+                  <span>{{ text.chapter.minutes(chapter.minutes) }}</span>
+                </span>
+              </a>
+            </li>
+          }
+        </ol>
+      </section>
+    }
+  </section>
+</div>

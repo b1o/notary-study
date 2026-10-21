@@ -14,7 +14,16 @@ import { plainHeading, SlugRegistry } from '../text/slug';
  * Raw HTML in the source is shown as text, so the output contains only markup made here.
  */
 
-export const CALLOUT_KINDS = ['law', 'tip', 'warn', 'example', 'note', 'task', 'reform', 'solution'] as const;
+export const CALLOUT_KINDS = [
+  'law',
+  'tip',
+  'warn',
+  'example',
+  'note',
+  'task',
+  'reform',
+  'solution',
+] as const;
 export type CalloutKind = (typeof CALLOUT_KINDS)[number];
 
 export interface TocEntry {
@@ -59,7 +68,9 @@ export function renderMarkdown(source: string, context: MarkdownContext): Render
         if (kind !== 'doc') {
           return false;
         }
-        const caption = title.length ? `<figcaption class="document__title">${escapeHtml(title.join(' '))}</figcaption>` : '';
+        const caption = title.length
+          ? `<figcaption class="document__title">${escapeHtml(title.join(' '))}</figcaption>`
+          : '';
         return `<figure class="document">${caption}<pre class="document__text" lang="bg">${escapeHtml(text)}</pre></figure>\n`;
       },
       table(token) {
@@ -84,7 +95,9 @@ function citationExtension(context: MarkdownContext): TokenizerAndRendererExtens
     },
     tokenizer(src) {
       const match = CITATION_AT_START.exec(src);
-      return match ? { type: 'citation', raw: match[0], ref: match[1].trim(), label: match[2] } : undefined;
+      return match
+        ? { type: 'citation', raw: match[0], ref: match[1].trim(), label: match[2] }
+        : undefined;
     },
     renderer(token) {
       const ref = token['ref'] as string;

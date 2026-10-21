@@ -1,0 +1,51 @@
+@let text = ui().law;
+<div class="page">
+  <header class="library-head">
+    <h1 class="page-title">{{ text.library }}</h1>
+    <p class="page-lead">{{ text.libraryIntro }}</p>
+  </header>
+
+  <form class="jump" (submit)="openCitation($event)">
+    <label class="jump__label" for="law-jump">{{ text.jumpLabel }}</label>
+    <div class="jump__row">
+      <input
+        id="law-jump"
+        class="text-field"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        [placeholder]="text.jumpPlaceholder"
+        [formField]="jump.citation"
+        [attr.aria-describedby]="jumpFailed() ? 'law-jump-error' : null"
+      />
+      <button type="submit" class="button button--primary">{{ text.jump }}</button>
+    </div>
+    @if (jumpFailed()) {
+      <p id="law-jump-error" class="jump__error" role="alert">{{ text.jumpError }}</p>
+    }
+  </form>
+
+  <nc-load-status [resource]="laws.catalog" />
+
+  @for (entry of groups(); track entry.group) {
+    <section class="law-group">
+      <h2 class="section-title">{{ text.groups[entry.group] }}</h2>
+      <ul class="act-list">
+        @for (act of entry.acts; track act.id) {
+          <li>
+            <a class="act-row" [routerLink]="['/laws', act.id]">
+              <span class="act-row__abbr" lang="bg">{{ act.abbr }}</span>
+              <span class="act-row__title">{{ act.title[lang()] }}</span>
+              <span class="act-row__meta">
+                <span>{{ text.articles(act.articles) }}</span>
+                @if (act.partial) {
+                  <span class="badge">{{ text.extract }}</span>
+                }
+              </span>
+            </a>
+          </li>
+        }
+      </ul>
+    </section>
+  }
+</div>

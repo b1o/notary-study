@@ -1,0 +1,204 @@
+@let text = ui();
+<div
+  class="law-panel__handle"
+  role="separator"
+  tabindex="0"
+  aria-orientation="vertical"
+  aria-controls="law-panel-sheet"
+  [attr.aria-label]="text.panel.resize"
+  [attr.aria-valuenow]="panel.width()"
+  [attr.aria-valuemin]="widthLimits.min"
+  [attr.aria-valuemax]="widthLimits.max"
+  (pointerdown)="startResize($event)"
+  (pointermove)="moveResize($event)"
+  (pointerup)="endResize()"
+  (pointercancel)="endResize()"
+  (keydown)="resizeWithKeys($event)"
+></div>
+
+<div class="law-panel__sheet" id="law-panel-sheet">
+  <div class="law-panel__toolbar">
+    <button
+      type="button"
+      class="icon-button"
+      [attr.aria-label]="text.panel.back"
+      [title]="text.panel.back"
+      [disabled]="!panel.canGoBack()"
+      (click)="panel.back()"
+    >
+      <nc-icon name="arrowLeft" />
+    </button>
+    <button
+      type="button"
+      class="icon-button"
+      [attr.aria-label]="text.panel.forward"
+      [title]="text.panel.forward"
+      [disabled]="!panel.canGoForward()"
+      (click)="panel.forward()"
+    >
+      <nc-icon name="arrowRight" />
+    </button>
+    <span class="law-panel__spacer"></span>
+    @if (libraryLink(); as link) {
+      <a
+        class="icon-button"
+        [routerLink]="link.commands"
+        [queryParams]="link.queryParams"
+        [attr.aria-label]="text.panel.openInLibrary"
+        [title]="text.panel.openInLibrary"
+      >
+        <nc-icon name="open" />
+      </a>
+    }
+    <button
+      type="button"
+      class="icon-button"
+      [attr.aria-label]="text.panel.close"
+      [title]="text.panel.close"
+      (click)="panel.close()"
+    >
+      <nc-icon name="close" />
+    </button>
+  </div>
+
+  <div class="law-panel__body" #body>
+    @if (reference(); as ref) {
+      <header class="law-panel__head">
+        <h2 class="law-panel__title">{{ laws.label(ref) }}</h2>
+        @if (entry(); as act) {
+          <p class="law-panel__act">{{ act.title[lang()] }}</p>
+        }
+        @if (context()?.path?.length) {
+          <ol class="law-panel__path" lang="bg">
+            @for (heading of context()!.path; track $index) {
+              <li>{{ heading.text }}</li>
+            }
+          </ol>
+        }
+      </header>
+
+      <nc-load-status [resource]="act" />
+
+      @if (context(); as ctx) {
+        <div class="law-panel__options">
+          <nc-choice-group
+            [legend]="text.law.textLanguage"
+            [hideLegend]="true"
+            [choices]="textLanguageChoices()"
+            [(value)]="display.textLanguage"
+          />
+        </div>
+
+        <nc-law-article-text
+          [article]="ctx.article"
+          [translation]="translation()"
+          [highlight]="ref.paragraph"
+        />
+
+        <div class="law-panel__steps">
+          @if (ctx.previous; as previous) {
+            <button type="button" class="step-button" (click)="openArticle(previous.number)">
+              <nc-icon name="chevronLeft" />
+              <span>
+                <span class="step-button__hint">{{ text.panel.previousArticle }}</span>
+                <span class="step-button__label">{{
+                  laws.shortLabel({ act: ref.act, article: previous.number })
+                }}</span>
+              </span>
+            </button>
+          }
+          @if (ctx.next; as next) {
+            <button
+              type="button"
+              class="step-button step-button--next"
+              (click)="openArticle(next.number)"
+            >
+              <span>
+                <span class="step-button__hint">{{ text.panel.nextArticle }}</span>
+                <span class="step-button__label">{{
+                  laws.shortLabel({ act: ref.act, article: next.number })
+                }}</span>
+              </span>
+              <nc-icon name="chevronRight" />
+            </button>
+          }
+        </div>
+
+        @if (ctx.section.length > 1) {
+          <section class="law-panel__section">
+            <h3 class="law-panel__heading">{{ text.panel.sameSection }}</h3>
+            <ul class="article-list">
+              @for (article of ctx.section; track article.number) {
+                <li>
+                  <button
+                    type="button"
+                    class="article-list__item"
+                    [class.article-list__item--current]="article.number === ref.article"
+                    [attr.aria-current]="article.number === ref.article ? 'true' : null"
+                    (click)="openArticle(article.number)"
+                  >
+                    <span class="article-list__number">{{
+                      laws.shortLabel({ act: ref.act, article: article.number })
+                    }}</span>
+                    @if (article.title) {
+                      <span class="article-list__title" lang="bg">{{ article.title }}</span>
+                    }
+                  </button>
+                </li>
+              }
+            </ul>
+          </section>
+        }
+
+        <section class="law-panel__section">
+          <h3 class="law-panel__heading">{{ text.panel.citedInCourse }}</h3>
+          @if (sites().length) {
+            <ul class="site-list">
+              @for (site of sites(); track $index) {
+                <li>
+                  <a
+                    class="site-list__link"
+                    [routerLink]="['/course', site.chapterId]"
+                    [fragment]="site.sectionId"
+                  >
+                    <span class="site-list__chapter"
+                      >{{ site.chapter.number }}. {{ site.chapter.title[lang()] }}</span
+                    >
+                    @if (site.sectionTitle) {
+                      <span class="site-list__section">{{ site.sectionTitle }}</span>
+                    }
+                  </a>
+                </li>
+              }
+            </ul>
+          } @else if (courseIndexLoading()) {
+            <p class="law-panel__empty">{{ ui().common.loading }}</p>
+          } @else {
+            <p class="law-panel__empty">{{ text.panel.citedNowhere }}</p>
+          }
+        </section>
+
+        @if (terms().length) {
+          <section class="law-panel__section">
+            <h3 class="law-panel__heading">{{ text.panel.glossary }}</h3>
+            <dl class="term-list">
+              @for (term of terms(); track term.bg) {
+                <div class="term-list__entry">
+                  <dt>
+                    <span lang="bg">{{ term.bg }}</span>
+                    @if (lang() === 'en') {
+                      <span class="term-list__translation">{{ term.en }}</span>
+                    }
+                  </dt>
+                  <dd>{{ term.definition[lang()] }}</dd>
+                </div>
+              }
+            </dl>
+          </section>
+        }
+      } @else if (act.hasValue()) {
+        <p class="law-panel__empty">{{ text.law.notFound }}</p>
+      }
+    }
+  </div>
+</div>

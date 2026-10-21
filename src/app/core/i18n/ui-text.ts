@@ -95,7 +95,9 @@ export interface UiText {
     readonly previous: string;
     readonly next: string;
     readonly citedLaw: string;
-    readonly calloutTitles: Readonly<Record<'law' | 'tip' | 'warn' | 'example' | 'note' | 'task' | 'reform' | 'solution', string>>;
+    readonly calloutTitles: Readonly<
+      Record<'law' | 'tip' | 'warn' | 'example' | 'note' | 'task' | 'reform' | 'solution', string>
+    >;
   };
   readonly law: {
     readonly library: string;

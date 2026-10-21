@@ -1,0 +1,131 @@
+@let text = ui().law;
+<div class="act-page">
+  <a class="back-link" routerLink="/laws"><nc-icon name="arrowLeft" />{{ text.library }}</a>
+
+  @if (entry(); as entry) {
+    <header class="act-head">
+      <p class="act-head__abbr" lang="bg">{{ entry.abbr }}</p>
+      <h1 class="page-title">{{ entry.title[lang()] }}</h1>
+      @if (lang() === 'en') {
+        <p class="act-head__original" lang="bg">{{ entry.title.bg }}</p>
+      }
+      <dl class="act-facts">
+        @if (entry.inForce) {
+          <div>
+            <dt>{{ text.inForce }}</dt>
+            <dd>{{ entry.inForce }}</dd>
+          </div>
+        }
+        @if (entry.lastChange) {
+          <div>
+            <dt>{{ text.lastChange }}</dt>
+            <dd>{{ entry.lastChange }}</dd>
+          </div>
+        }
+        <div>
+          <dt>{{ text.retrieved }}</dt>
+          <dd>{{ entry.retrieved }}</dd>
+        </div>
+        <div>
+          <dt>{{ text.source }}</dt>
+          <dd><a [href]="entry.source" target="_blank" rel="noopener">lex.bg</a></dd>
+        </div>
+      </dl>
+      <div class="act-notes">
+        @if (entry.note) {
+          <p>{{ entry.note[lang()] }}</p>
+        }
+        <p>{{ text.officialNote }}</p>
+        @if (entry.group === 'tax') {
+          <p>{{ text.euroNote }}</p>
+        }
+      </div>
+    </header>
+  } @else if (actMissing()) {
+    <h1 class="page-title">{{ ui().common.notFound }}</h1>
+  }
+
+  <nc-load-status [resource]="act" />
+
+  @if (act.hasValue()) {
+    <div class="act-tools">
+      <nc-choice-group
+        [legend]="text.textLanguage"
+        [hideLegend]="true"
+        [choices]="textLanguageChoices()"
+        [(value)]="display.textLanguage"
+      />
+      <label class="checkbox">
+        <input type="checkbox" [formField]="hideAmendments" />
+        {{ text.hideAmendments }}
+      </label>
+      <input
+        class="text-field act-tools__filter"
+        type="search"
+        [attr.aria-label]="text.filterLabel"
+        [placeholder]="text.filterPlaceholder"
+        [formField]="filter"
+      />
+    </div>
+
+    @if (articleMissing()) {
+      <p class="act-missing" role="status">{{ text.notFound }}</p>
+    }
+
+    <ng-template #contents>
+      <ol class="act-contents__list">
+        @for (heading of headings(); track heading.id) {
+          <li [class.act-contents__sub]="heading.level === 2">
+            <a [routerLink]="[]" [fragment]="heading.id">{{ heading.text }}</a>
+          </li>
+        }
+      </ol>
+    </ng-template>
+
+    <div class="act-layout" [class.act-layout--no-contents]="!headings().length">
+      @if (headings().length) {
+        <nav class="act-contents act-contents--rail" [attr.aria-label]="text.contents" lang="bg">
+          <h2 class="act-contents__title">{{ text.contents }}</h2>
+          <ng-container [ngTemplateOutlet]="contents" />
+        </nav>
+        <details class="act-contents act-contents--inline" lang="bg">
+          <summary class="act-contents__title">{{ text.contents }}</summary>
+          <ng-container [ngTemplateOutlet]="contents" />
+        </details>
+      }
+
+      <div class="act-text">
+        @for (entry of visibleEntries(); track entry.id) {
+          @if (entry.kind === 'heading') {
+            @if (entry.level === 1) {
+              <h2 class="act-heading" [id]="entry.id" lang="bg">{{ entry.text }}</h2>
+            } @else {
+              <h3 class="act-heading act-heading--section" [id]="entry.id" lang="bg">
+                {{ entry.text }}
+              </h3>
+            }
+          } @else if (entry.kind === 'note') {
+            <section class="act-note" [id]="entry.id" lang="bg">
+              <h3 class="act-note__title">{{ entry.title }}</h3>
+              @for (paragraph of entry.paragraphs; track $index) {
+                <p>{{ paragraph }}</p>
+              }
+            </section>
+          } @else {
+            <section
+              class="act-article"
+              [id]="entry.id"
+              [class.act-article--target]="entry.article.number === article()"
+            >
+              <nc-law-article-text
+                [article]="entry.article"
+                [translation]="translationOf()[entry.article.number]"
+                [highlight]="entry.article.number === article() ? paragraph() : undefined"
+              />
+            </section>
+          }
+        }
+      </div>
+    </div>
+  }
+</div>

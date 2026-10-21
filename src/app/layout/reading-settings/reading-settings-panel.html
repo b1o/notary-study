@@ -1,0 +1,38 @@
+@let text = ui().settings;
+@let options = choices();
+<div class="reading-settings__head">
+  <h2 class="reading-settings__title">{{ text.title }}</h2>
+  <button type="button" class="icon-button" [attr.aria-label]="ui().common.close" (click)="close()">
+    <nc-icon name="close" />
+  </button>
+</div>
+
+<nc-choice-group [formField]="form.theme" [legend]="text.theme" [choices]="options.theme" />
+<nc-choice-group
+  [formField]="form.textSize"
+  [legend]="text.textSize"
+  [choices]="options.textSize"
+/>
+<nc-choice-group
+  [formField]="form.lineSpacing"
+  [legend]="text.lineSpacing"
+  [choices]="options.lineSpacing"
+/>
+<nc-choice-group
+  [formField]="form.textWidth"
+  [legend]="text.textWidth"
+  [choices]="options.textWidth"
+/>
+<nc-choice-group
+  [formField]="form.readingFont"
+  [legend]="text.readingFont"
+  [choices]="options.readingFont"
+/>
+<nc-choice-group [formField]="form.motion" [legend]="text.motion" [choices]="options.motion" />
+
+<div class="reading-settings__foot">
+  <p>{{ text.storedLocally }}</p>
+  <button type="button" class="button button--quiet" (click)="settings.reset()">
+    {{ text.reset }}
+  </button>
+</div>

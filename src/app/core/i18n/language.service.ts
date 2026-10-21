@@ -13,8 +13,10 @@ const UI_TEXT: Readonly<Record<Language, UiText>> = { bg: UI_TEXT_BG, en: UI_TEX
 export class LanguageService {
   private readonly document = inject(DOCUMENT);
 
-  readonly current = storedSignal<Language>('nc.language', this.browserLanguage(), (stored, fallback) =>
-    isLanguage(stored) ? stored : fallback,
+  readonly current = storedSignal<Language>(
+    'nc.language',
+    this.browserLanguage(),
+    (stored, fallback) => (isLanguage(stored) ? stored : fallback),
   );
 
   /** All interface texts in the current language. */

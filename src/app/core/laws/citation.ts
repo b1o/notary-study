@@ -68,7 +68,11 @@ export function formatReference(
   }
   if (article.startsWith('§')) {
     const number = article.slice(1);
-    const paragraphPart = paragraph ? (language === 'bg' ? `, ал. ${paragraph}` : `(${paragraph})`) : '';
+    const paragraphPart = paragraph
+      ? language === 'bg'
+        ? `, ал. ${paragraph}`
+        : `(${paragraph})`
+      : '';
     return `§ ${number}${paragraphPart} ${abbr}`;
   }
   const unit = source?.unit?.[language] ?? (language === 'bg' ? 'чл.' : 'Art.');

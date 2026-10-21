@@ -58,4 +58,5 @@ export function indexAct(act: LawAct): ActIndex {
   };
 }
 
-const sectionKey = (path: readonly LawHeading[]) => path.map((heading) => heading.text).join('\u0000');
+const sectionKey = (path: readonly LawHeading[]) =>
+  path.map((heading) => heading.text).join('\u0000');

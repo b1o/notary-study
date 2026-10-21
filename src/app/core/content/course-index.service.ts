@@ -22,13 +22,19 @@ export class CourseIndexService {
   private readonly index = resource({
     params: () => {
       const chapters = this.content.chapters();
-      return this.requested() && chapters.length ? { chapters, language: this.language.current() } : undefined;
+      return this.requested() && chapters.length
+        ? { chapters, language: this.language.current() }
+        : undefined;
     },
     loader: async ({ params: { chapters, language } }) => {
       const [texts, glossary] = await Promise.all([
         Promise.all(
           chapters.map((chapter) =>
-            firstValueFrom(this.http.get(this.content.chapterTextUrl(chapter, language), { responseType: 'text' })),
+            firstValueFrom(
+              this.http.get(this.content.chapterTextUrl(chapter, language), {
+                responseType: 'text',
+              }),
+            ),
           ),
         ),
         firstValueFrom(this.http.get<GlossaryTerm[]>('data/glossary.json')),
@@ -58,6 +64,8 @@ export class CourseIndexService {
       return [];
     }
     const key = articleKey(reference);
-    return this.index.value().glossary.filter((term) => term.refs.some((ref) => articleKey(parseReference(ref)) === key));
+    return this.index
+      .value()
+      .glossary.filter((term) => term.refs.some((ref) => articleKey(parseReference(ref)) === key));
   }
 }

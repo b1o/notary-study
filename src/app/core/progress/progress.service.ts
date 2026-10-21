@@ -19,11 +19,15 @@ const EMPTY: ProgressState = { chapters: {} };
 @Service()
 export class ProgressService {
   private readonly state = storedSignal<ProgressState>('nc.progress', EMPTY, (stored, fallback) =>
-    isRecord(stored) && isRecord(stored['chapters']) ? (stored as unknown as ProgressState) : fallback,
+    isRecord(stored) && isRecord(stored['chapters'])
+      ? (stored as unknown as ProgressState)
+      : fallback,
   );
 
   readonly lastChapter = computed(() => this.state().lastChapter);
-  readonly readCount = computed(() => Object.values(this.state().chapters).filter((c) => c.readAt).length);
+  readonly readCount = computed(
+    () => Object.values(this.state().chapters).filter((c) => c.readAt).length,
+  );
 
   isRead(chapterId: string): boolean {
     return !!this.state().chapters[chapterId]?.readAt;
@@ -38,7 +42,10 @@ export class ProgressService {
       ...state,
       chapters: {
         ...state.chapters,
-        [chapterId]: { ...state.chapters[chapterId], readAt: read ? new Date().toISOString() : undefined },
+        [chapterId]: {
+          ...state.chapters[chapterId],
+          readAt: read ? new Date().toISOString() : undefined,
+        },
       },
     }));
   }

@@ -9,10 +9,16 @@ export type LawTextLanguage = (typeof LAW_TEXT_LANGUAGES)[number];
 @Service()
 export class LawDisplayService {
   /** "both" shows the Bulgarian text, and the English translation when there is one. */
-  readonly textLanguage = storedSignal<LawTextLanguage>('nc.law.textLanguage', 'both', oneOf(LAW_TEXT_LANGUAGES));
+  readonly textLanguage = storedSignal<LawTextLanguage>(
+    'nc.law.textLanguage',
+    'both',
+    oneOf(LAW_TEXT_LANGUAGES),
+  );
 
   /** Amendment notes, for example "(Изм. - ДВ, бр. 18 от 2003 г.)". */
-  readonly hideAmendments = storedSignal<boolean>('nc.law.hideAmendments', false, (stored, fallback) =>
-    typeof stored === 'boolean' ? stored : fallback,
+  readonly hideAmendments = storedSignal<boolean>(
+    'nc.law.hideAmendments',
+    false,
+    (stored, fallback) => (typeof stored === 'boolean' ? stored : fallback),
   );
 }

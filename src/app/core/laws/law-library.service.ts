@@ -17,8 +17,12 @@ export class LawLibraryService {
 
   readonly catalog = httpResource<readonly LawCatalogEntry[]>(() => `${LAWS}/catalog.json`);
 
-  readonly entries = computed<readonly LawCatalogEntry[]>(() => (this.catalog.hasValue() ? this.catalog.value() : []));
-  private readonly entriesById = computed(() => new Map(this.entries().map((entry) => [entry.id, entry])));
+  readonly entries = computed<readonly LawCatalogEntry[]>(() =>
+    this.catalog.hasValue() ? this.catalog.value() : [],
+  );
+  private readonly entriesById = computed(
+    () => new Map(this.entries().map((entry) => [entry.id, entry])),
+  );
 
   /** Acts and translations are loaded once and then shared by every view. */
   private readonly acts = new Map<string, Promise<ActIndex>>();
@@ -34,9 +38,17 @@ export class LawLibraryService {
     return formatReference(parsed, this.entry(parsed.act), this.language.current());
   }
 
+  /** Label without the act, for lists inside one act: "чл. 25, ал. 9" or "Art. 25(9)". */
+  shortLabel(reference: LawReference): string {
+    const unit = this.entry(reference.act)?.unit;
+    return formatReference(reference, { abbr: '', unit }, this.language.current()).trim();
+  }
+
   /** Router link to a provision in the library. The paragraph travels as a query parameter. */
   link(reference: LawReference): { commands: string[]; queryParams: { paragraph?: string } } {
-    const commands = reference.article ? ['/laws', reference.act, reference.article] : ['/laws', reference.act];
+    const commands = reference.article
+      ? ['/laws', reference.act, reference.article]
+      : ['/laws', reference.act];
     return { commands, queryParams: reference.paragraph ? { paragraph: reference.paragraph } : {} };
   }
 
@@ -54,7 +66,11 @@ export class LawLibraryService {
   }
 
   /** Share one request per key. A failed request is forgotten, so the next call tries again. */
-  private cached<T>(cache: Map<string, Promise<T>>, key: string, load: () => Promise<T>): Promise<T> {
+  private cached<T>(
+    cache: Map<string, Promise<T>>,
+    key: string,
+    load: () => Promise<T>,
+  ): Promise<T> {
     let promise = cache.get(key);
     if (!promise) {
       promise = load();

@@ -31,7 +31,9 @@ export class MarkdownContent {
       for (const link of this.host.nativeElement.querySelectorAll<HTMLAnchorElement>('a.cite')) {
         const reference = parseReference(link.dataset['ref'] ?? '');
         const active =
-          !!current && articleKey(reference) === articleKey(current) && reference.paragraph === current.paragraph;
+          !!current &&
+          articleKey(reference) === articleKey(current) &&
+          reference.paragraph === current.paragraph;
         link.classList.toggle('cite--active', active);
         if (active) link.setAttribute('aria-current', 'true');
         else link.removeAttribute('aria-current');
@@ -41,7 +43,14 @@ export class MarkdownContent {
 
   protected openCitation(event: MouseEvent): void {
     const link = (event.target as Element | null)?.closest<HTMLAnchorElement>('a.cite');
-    if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+    if (
+      !link ||
+      event.button !== 0 ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      event.altKey
+    ) {
       return;
     }
     event.preventDefault();

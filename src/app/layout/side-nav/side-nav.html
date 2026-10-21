@@ -1,0 +1,103 @@
+@let text = ui();
+<div class="side-nav__head">
+  <a class="side-nav__name" routerLink="/">{{ text.app.name }}</a>
+  <button
+    type="button"
+    class="icon-button side-nav__close"
+    [attr.aria-label]="text.nav.closeMenu"
+    (click)="closeMenu.emit()"
+  >
+    <nc-icon name="close" />
+  </button>
+</div>
+
+<nav class="side-nav__body" [attr.aria-label]="text.nav.label">
+  <ul class="nav-list">
+    <li>
+      <a
+        class="nav-link"
+        routerLink="/"
+        routerLinkActive="nav-link--active"
+        ariaCurrentWhenActive="page"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <nc-icon name="home" />
+        <span>{{ text.nav.home }}</span>
+      </a>
+    </li>
+  </ul>
+
+  @for (group of groups; track group.label) {
+    <h2 class="nav-heading">{{ text.nav[group.label] }}</h2>
+    <ul class="nav-list">
+      @for (item of group.items; track item.label) {
+        <li>
+          @if (item.path) {
+            <a
+              class="nav-link"
+              [routerLink]="item.path"
+              routerLinkActive="nav-link--active"
+              ariaCurrentWhenActive="page"
+            >
+              <nc-icon [name]="item.icon" />
+              <span>{{ text.nav[item.label] }}</span>
+            </a>
+          } @else {
+            <span class="nav-link nav-link--unavailable" [title]="text.nav.notAvailableYet">
+              <nc-icon [name]="item.icon" />
+              <span>{{ text.nav[item.label] }}</span>
+            </span>
+          }
+        </li>
+      }
+    </ul>
+  }
+
+  <h2 class="nav-heading">{{ text.nav.contents }}</h2>
+  @for (part of content.parts(); track part.id; let partIndex = $index) {
+    <details class="nav-part" [open]="part.id === currentPart()">
+      <summary class="nav-part__title">
+        <span class="nav-part__number">{{ partIndex + 1 }}</span>
+        <span>{{ part.title[lang()] }}</span>
+        <nc-icon class="nav-part__chevron" name="chevronDown" />
+      </summary>
+      <ol class="nav-list nav-list--chapters">
+        @for (chapter of content.chaptersOf(part); track chapter.id) {
+          <li>
+            <a
+              class="nav-link nav-link--chapter"
+              [routerLink]="['/course', chapter.id]"
+              routerLinkActive="nav-link--active"
+              ariaCurrentWhenActive="page"
+            >
+              <span class="nav-link__number">{{ chapter.number }}</span>
+              <span class="nav-link__title">{{ chapter.title[lang()] }}</span>
+              @if (progress.isRead(chapter.id)) {
+                <nc-icon class="nav-link__read" name="check" />
+                <span class="visually-hidden">({{ text.chapter.read }})</span>
+              }
+            </a>
+          </li>
+        }
+      </ol>
+    </details>
+  }
+</nav>
+
+<div class="side-nav__foot">
+  <nc-choice-group
+    [legend]="text.language.label"
+    [hideLegend]="true"
+    [choices]="languageChoices()"
+    [(value)]="language.current"
+  />
+  <button
+    type="button"
+    class="icon-button"
+    popovertarget="reading-settings"
+    [attr.aria-label]="text.settings.open"
+  >
+    <nc-icon name="settings" />
+  </button>
+  <nc-reading-settings-panel id="reading-settings" popover />
+</div>

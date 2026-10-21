@@ -29,13 +29,30 @@ import type { ActTranslation, LawAct, LawCatalogEntry } from '../src/app/core/la
 const DATA = join(import.meta.dirname, '..', 'public', 'data');
 const LANGUAGES: readonly Language[] = ['bg', 'en'];
 const LATIN_TO_CYRILLIC: Readonly<Record<string, string>> = {
-  a: 'а', e: 'е', o: 'о', p: 'р', c: 'с', x: 'х', y: 'у',
-  A: 'А', B: 'В', E: 'Е', K: 'К', M: 'М', H: 'Н', O: 'О', P: 'Р', C: 'С', T: 'Т', X: 'Х',
+  a: 'а',
+  e: 'е',
+  o: 'о',
+  p: 'р',
+  c: 'с',
+  x: 'х',
+  y: 'у',
+  A: 'А',
+  B: 'В',
+  E: 'Е',
+  K: 'К',
+  M: 'М',
+  H: 'Н',
+  O: 'О',
+  P: 'Р',
+  C: 'С',
+  T: 'Т',
+  X: 'Х',
 };
 
 const problems: string[] = [];
 const warnings: string[] = [];
-const readJson = <T>(...path: string[]): T => JSON.parse(readFileSync(join(DATA, ...path), 'utf8')) as T;
+const readJson = <T>(...path: string[]): T =>
+  JSON.parse(readFileSync(join(DATA, ...path), 'utf8')) as T;
 const readText = (...path: string[]) => readFileSync(join(DATA, ...path), 'utf8');
 
 // ---- Law library -------------------------------------------------------------------------------
@@ -54,7 +71,8 @@ for (const file of readdirSync(join(DATA, 'laws', 'en'))) {
   const keys = Object.keys(readJson<ActTranslation>('laws', 'en', file));
   translations.set(act, new Set(keys));
   for (const key of keys) {
-    if (!articlesByAct.get(act)?.has(key)) problems.push(`laws/en/${file}: ${act} has no article "${key}"`);
+    if (!articlesByAct.get(act)?.has(key))
+      problems.push(`laws/en/${file}: ${act} has no article "${key}"`);
   }
 }
 
@@ -103,20 +121,34 @@ for (const meta of manifest.chapters) {
       problems.push(`${where}.md: missing`);
       continue;
     }
-    checkMarkdown(readText('chapters', language, `${meta.file}.md`), `${where}.md`, language === 'en');
+    checkMarkdown(
+      readText('chapters', language, `${meta.file}.md`),
+      `${where}.md`,
+      language === 'en',
+    );
     const data = readJson<ChapterData>('chapters', language, `${meta.file}.json`);
     if (data.id !== meta.id) problems.push(`${where}.json: id "${data.id}" should be "${meta.id}"`);
-    data.cards.forEach((card) => checkMarkdown(`${card.front}\n${card.back}`, `${where}.json`, language === 'en'));
+    data.cards.forEach((card) =>
+      checkMarkdown(`${card.front}\n${card.back}`, `${where}.json`, language === 'en'),
+    );
     data.quiz.forEach((question, index) => {
-      if (question.options.length < 2 || question.answer < 0 || question.answer >= question.options.length) {
-        problems.push(`${where}.json: question ${index + 1} has an invalid answer or too few options`);
+      if (
+        question.options.length < 2 ||
+        question.answer < 0 ||
+        question.answer >= question.options.length
+      ) {
+        problems.push(
+          `${where}.json: question ${index + 1} has an invalid answer or too few options`,
+        );
       }
       question.refs.forEach((ref) => checkReference(ref, `${where}.json`, language === 'en'));
     });
     counts.push(`${data.cards.length}/${data.quiz.length}`);
   }
   if (counts.length === 2 && counts[0] !== counts[1]) {
-    problems.push(`chapters/*/${meta.file}.json: cards/questions differ between languages (${counts.join(' vs ')})`);
+    problems.push(
+      `chapters/*/${meta.file}.json: cards/questions differ between languages (${counts.join(' vs ')})`,
+    );
   }
 }
 
@@ -148,7 +180,9 @@ for (const checklist of readJson<Checklist[]>('checklists.json')) {
 // ---- Report ------------------------------------------------------------------------------------
 
 if (untranslated.size) {
-  warnings.push(`${untranslated.size} cited article(s) have no English translation: ${[...untranslated].slice(0, 30).join(', ')}`);
+  warnings.push(
+    `${untranslated.size} cited article(s) have no English translation: ${[...untranslated].slice(0, 30).join(', ')}`,
+  );
 }
 warnings.forEach((warning) => console.log(`Warning: ${warning}`));
 if (problems.length) {
@@ -156,4 +190,6 @@ if (problems.length) {
   problems.forEach((problem) => console.log(` - ${problem}`));
   process.exit(1);
 }
-console.log(`OK: ${manifest.chapters.length} chapters in ${LANGUAGES.length} languages, ${catalog.length} acts.`);
+console.log(
+  `OK: ${manifest.chapters.length} chapters in ${LANGUAGES.length} languages, ${catalog.length} acts.`,
+);

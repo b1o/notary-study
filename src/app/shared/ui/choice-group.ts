@@ -6,6 +6,14 @@ export interface Choice<T extends string> {
   readonly label: string;
 }
 
+/** Options with their labels, in the order of `values`. */
+export function toChoices<T extends string>(
+  values: readonly T[],
+  labels: Readonly<Record<T, string>>,
+): Choice<T>[] {
+  return values.map((value) => ({ value, label: labels[value] }));
+}
+
 let nextGroup = 0;
 
 /**
@@ -16,7 +24,9 @@ let nextGroup = 0;
   selector: 'nc-choice-group',
   template: `
     <fieldset class="choice-group">
-      <legend class="choice-group__legend" [class.visually-hidden]="hideLegend()">{{ legend() }}</legend>
+      <legend class="choice-group__legend" [class.visually-hidden]="hideLegend()">
+        {{ legend() }}
+      </legend>
       <div class="choice-group__options">
         @for (choice of choices(); track choice.value) {
           <label class="choice-group__option">

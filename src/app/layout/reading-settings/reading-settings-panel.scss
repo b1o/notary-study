@@ -1,0 +1,58 @@
+/*
+ * The popover's look. "display" is set only while it is open: an author "display" rule
+ * would win over the browser's "display: none" for a closed popover.
+ */
+:host {
+  position: fixed;
+  inset: auto auto var(--space-4) calc(var(--nav-width) + var(--space-2));
+  inline-size: min(23rem, 100vw - 2 * var(--space-4));
+  max-block-size: calc(100dvh - 2 * var(--space-4));
+  margin: 0;
+  padding: var(--space-5);
+  overflow-y: auto;
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-3);
+}
+
+:host(:popover-open) {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+@media (width < 64rem) {
+  :host {
+    inset: auto var(--space-3) var(--space-3);
+    inline-size: auto;
+  }
+}
+
+.reading-settings__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reading-settings__title {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 650;
+}
+
+.reading-settings__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-3);
+  padding-block-start: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-ink-3);
+}
+
+.reading-settings__foot p {
+  margin: 0;
+}
