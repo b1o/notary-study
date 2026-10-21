@@ -10,64 +10,64 @@
   "cards": [
     {
       "front": "A flat bought during the marriage in the husband's name. Who sells?",
-      "back": "**Both spouses**: common property (Art. 21 СК) is disposed of jointly (Art. 24(3) СК)."
+      "back": "**Both spouses**: common property (Art. 21(1) СК) is disposed of jointly (Art. 24(3) СК)."
     },
     {
-      "front": "The seller has public debts. Two ways to proceed?",
-      "back": "Pay them first, or the seller declares they are paid from the price and the buyer pays them to the budget (Art. 264(4) ДОПК)."
+      "front": "The seller has public debts. What are the two ways to proceed?",
+      "back": "Pay them first, or the seller declares that they are paid from the price and the buyer pays them into the budget (Art. 264(4) ДОПК)."
     },
     {
-      "front": "Order of acts on a sale with two banks?",
-      "back": "Consent to delete the old mortgage, sale deed, new mortgage deed; all entered the same day."
+      "front": "What is the order of acts in a sale with two banks?",
+      "back": "Consent to delete the old mortgage, sale deed, new mortgage deed; all entered the same day, because the rank of a mortgage follows the entry (Art. 169 ЗЗД)."
     },
     {
       "front": "Can parents sign a gift deed at home?",
-      "back": "**No**: deeds are issued only in the office in working hours (Art. 573(2) ГПК). A power of attorney can be certified at home."
+      "back": "**No**: deeds for entry are issued only in the office in working hours (Art. 573(2) ГПК). A power of attorney can be certified at home (Art. 573(3))."
     },
     {
-      "front": "Fee for work outside the office in working hours?",
-      "back": "**+25%** of the fee (item 23 of the tariff)."
+      "front": "The notary certifies a power of attorney at the donors' home in the same town, in working hours. What is added to the fee?",
+      "back": "**+25%** for an act outside the office in working hours (item 23 letter \"а\" ТНТ); out of hours: 50% (letter \"в\")."
     },
     {
       "front": "A 15-year-old heir sells her share. What is needed?",
-      "back": "She signs with a parent's **consent** (Art. 129 СК) and the **permission of the district court** (Art. 130(3) СК)."
+      "back": "She signs with a parent's **consent** (Art. 129 СК) and the **permission of the district court** of her current address (Art. 130(3) СК)."
     },
     {
-      "front": "A co-owner sells a share to a third person. What first?",
-      "back": "A written **offer** to the other co-owners and a declaration that nobody accepted (Art. 33 ЗС)."
+      "front": "A co-owner sells a share to a third person. What comes first?",
+      "back": "A written **offer** to the other co-owners and a declaration before the notary that nobody accepted (Art. 33 ЗС)."
     },
     {
-      "front": "Car insured for 8,000 €, sold for 8,500 €. Fee base?",
-      "back": "**8,500 €**: the contract price applies when it is higher (Art. 97(3) ЗННД)."
+      "front": "A car insured for 8,000 € is sold for 8,500 €. What is the fee base?",
+      "back": "**8,500 €**: the contract price applies when it is higher than the insured value (Art. 97(1) and (3) ЗННД)."
     },
     {
       "front": "Can the applicant's son be a witness in a circumstantial verification?",
-      "back": "**No**: relatives in the direct line are excluded (Art. 584 and 575 ГПК)."
+      "back": "**No**: relatives in the direct line are excluded (Art. 584 item 3 and Art. 575 ГПК)."
     },
     {
       "front": "Is the fee for a circumstantial verification returned after a refusal?",
-      "back": "**No**: it is due on filing and is not returned (item 11 of the tariff)."
+      "back": "**No**: it is due when the request is filed and is not returned (note to item 11 ТНТ; Art. 88(1) ЗННД)."
     },
     {
       "front": "Who may take back a deposited holographic will?",
-      "back": "Only the **testator personally**, with two witnesses (Art. 26 ЗН)."
+      "back": "Only the **testator personally** (Art. 26(1) ЗН); the note of the return in the register is signed by the testator, two witnesses and the notary (Art. 26(2))."
     },
     {
-      "front": "Majority to admit a new partner in an OOD?",
-      "back": "**More than three quarters** of the capital (Art. 137(3) ТЗ)."
+      "front": "An OOD has four partners with equal shares. Three vote to admit the buyer of a share. Is the buyer admitted?",
+      "back": "**No**: three of four is exactly three quarters; the decision needs **more than** three quarters of the capital (Art. 137(3) ТЗ)."
     }
   ],
   "quiz": [
     {
       "question": "Case 1: the revenue agency check shows that the seller owes 320 € of public debts. Which option allows the deal on the same day?",
       "options": [
-        "The seller declares in writing that the debts are paid from the price, and the buyer pays them into the budget",
-        "The notary ignores small debts",
-        "The buyer pays the seller 320 € more in cash",
-        "The deal must wait one month"
+        "The seller declares in writing; the buyer pays 320 € into the budget",
+        "The buyer pays the seller 320 € more in cash, for the debt",
+        "The notary ignores a debt below 500 € and notes it in the deed",
+        "The seller promises in the deed to pay the debt within one month"
       ],
       "answer": 0,
-      "explanation": "Art. 264(4) ДОПК.",
+      "explanation": "Art. 264(4) ДОПК: when the seller has public debts, the deed may be issued after they are paid, or when the seller declares in writing that they are paid from the price and the buyer pays the amount into the budget. A payment to the seller or a promise does not satisfy the law.",
       "refs": [
         "dopk:264:4"
       ]
@@ -75,13 +75,13 @@
     {
       "question": "Case 1: why is the consent to delete the old mortgage entered before the new mortgage?",
       "options": [
-        "The buyer's bank wants the first rank, and the rank follows the order of entry",
-        "The registry office accepts one act per day",
-        "The law forbids two mortgages",
-        "The notary fee is lower"
+        "The buyer's bank wants the first rank; the rank follows the entry",
+        "The registry office enters one act per property each day",
+        "The law allows only one mortgage on a property at a time",
+        "The fee for the new mortgage is lower after a deletion"
       ],
       "answer": 0,
-      "explanation": "Art. 169 ЗЗД.",
+      "explanation": "Art. 169 ЗЗД: a mortgage has its rank from the entry. The deletion of the old mortgage is entered first, so that the new bank's mortgage takes the first rank; several mortgages on one property are possible, with different ranks.",
       "refs": [
         "zzd:169"
       ]
@@ -89,13 +89,13 @@
     {
       "question": "Case 2: the elderly donors cannot travel. What can the office offer?",
       "options": [
-        "A power of attorney with signature and content certified at their home, naming the gift",
-        "A gift deed signed at their home",
-        "A gift deed signed by the son alone",
-        "Nothing"
+        "A power of attorney certified at their home, naming the gift",
+        "A gift deed signed at their home, before two witnesses",
+        "A gift deed signed by the son alone, as their representative",
+        "A gift deed signed at home and confirmed later in the office"
       ],
       "answer": 0,
-      "explanation": "Deeds are issued only in the office; other acts may be performed outside it for valid reasons.",
+      "explanation": "Art. 573(2) ГПК: deeds for entry are issued only in the office in working hours; Art. 573(3): other acts may be performed outside the office for good reasons. The donors give a power of attorney with signature and content certified at home (Art. 37 ЗЗД), naming the gift and the donee.",
       "refs": [
         "gpk:573:2",
         "gpk:573:3",
@@ -105,27 +105,28 @@
     {
       "question": "Case 2: is local tax due on a gift from parents to their son?",
       "options": [
-        "No; gifts between relatives in the direct line are exempt",
-        "Yes, 0.4–0.8%",
-        "Yes, 3.3–6.6%",
-        "Yes, 3%"
+        "No; gifts in the direct line are exempt",
+        "Yes, 0.4–0.8%, as between relatives",
+        "Yes, 3.3–6.6%, as between other persons",
+        "Yes, up to 3%, as for a purchase"
       ],
       "answer": 0,
-      "explanation": "Art. 44(6) ЗМДТ.",
+      "explanation": "Art. 44(6) ЗМДТ: gifts between relatives in the direct line and between spouses are exempt from the tax. The rate 0.4–0.8% applies between siblings and their children, 3.3–6.6% between other persons (Art. 47(1)).",
       "refs": [
-        "zmdt:44:6"
+        "zmdt:44:6",
+        "zmdt:47:1"
       ]
     },
     {
       "question": "Case 3: a man brings a power to sell his flat, already signed at home. What must happen?",
       "options": [
-        "He confirms the signature and writes his full name before the notary; signature and content are certified at the same time",
-        "The clerk certifies the signature",
-        "The notary certifies only the signature",
-        "He must sign a new power in Burgas"
+        "He writes his full name and confirms the signature before the notary",
+        "The clerk certifies the signature; the notary certifies the content",
+        "The notary certifies only the signature; the content stays uncertified",
+        "He signs a new power before a notary of Burgas, where the flat is"
       ],
       "answer": 0,
-      "explanation": "Art. 37 ЗЗД and Art. 589(2) ГПК.",
+      "explanation": "Art. 37 ЗЗД: a power for a sale of real estate needs signature and content certified at the same time; Art. 589(2) ГПК: for a document about rights in real estate the person writes the full name and confirms the signature before the notary. Any notary may certify it (Art. 570(2)).",
       "refs": [
         "zzd:37",
         "gpk:589:2"
@@ -134,13 +135,13 @@
     {
       "question": "Case 3: a caller wants a sale deed for his flat in Burgas from your Sofia office. What do you say?",
       "options": [
-        "Only a notary of the district where the flat is can issue the deed",
-        "Yes, any notary can",
-        "Yes, with a 50% surcharge",
-        "Only the Notary Chamber can decide"
+        "Only a notary of the district of the flat issues the deed",
+        "Any notary in the country can issue the deed",
+        "A Sofia notary can, with a 50% additional fee",
+        "A Sofia notary can, after a decision of the Chamber"
       ],
       "answer": 0,
-      "explanation": "Art. 570(1) ГПК.",
+      "explanation": "Art. 570(1) ГПК: deeds for the transfer of real estate are issued by the notary in whose district the property is. The Sofia office can certify the power of attorney (Art. 570(2)) and send the client to a notary in Burgas.",
       "refs": [
         "gpk:570:1"
       ]
@@ -149,12 +150,12 @@
       "question": "Case 4: Todor inherited the plot and left a widow and two children. What are the shares?",
       "options": [
         "One third each",
-        "Widow one half, children one quarter each",
-        "Children one half each",
-        "Widow all of it"
+        "The widow one half, the children one quarter each",
+        "The children one half each; the widow nothing",
+        "The widow everything; the children after her death"
       ],
       "answer": 0,
-      "explanation": "Inherited property is personal; the spouse takes a share equal to each child.",
+      "explanation": "Art. 22(1) СК: property inherited during the marriage is personal, so the widow has no share as a spouse. Art. 9(1) ЗН: the spouse inherits a share equal to that of each child; Art. 5(1): the children inherit in equal shares: one third each.",
       "refs": [
         "sk:22:1",
         "zn:5:1",
@@ -165,12 +166,12 @@
       "question": "Case 4: who gives permission for the sale of the 15-year-old heir's share?",
       "options": [
         "The district court of her current address",
-        "Her mother alone",
-        "The notary",
-        "The mayor"
+        "Her mother alone, as her legal representative",
+        "The notary, in the deed of sale",
+        "The mayor of the municipality of her address"
       ],
       "answer": 0,
-      "explanation": "Art. 130(3) СК.",
+      "explanation": "Art. 130(3) СК: a disposal of real estate of a child needs the permission of the district court of the child's current address. The mother's consent to the minor's signature (Art. 129) is needed too, but it does not replace the court.",
       "refs": [
         "sk:130:3"
       ]
@@ -179,12 +180,12 @@
       "question": "Case 5: the wife did not sign the sale of the common car. What is the risk?",
       "options": [
         "She can challenge the sale, as for real estate",
-        "None; cars are personal",
-        "The sale is void automatically",
-        "Only a fine"
+        "None; the car is the husband's personal property",
+        "The sale is void by law, without a claim",
+        "Only an administrative fine for the husband"
       ],
       "answer": 0,
-      "explanation": "Art. 24(5) and (4) СК.",
+      "explanation": "Art. 24(5) СК: a disposal of a common movable that needs certified signatures follows Art. 24(4): the other spouse may challenge it in court within six months of learning of it, not later than three years. The sale is voidable, not void.",
       "refs": [
         "sk:24:5"
       ]
@@ -198,7 +199,7 @@
         "The market price set by the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 46(2) and 33(1) ЗМДТ.",
+      "explanation": "Art. 46(2) item 2 ЗМДТ refers to Art. 33(1), which values vehicles at their insured value, in euro. The base of the notarial fee is different: the price, when it is higher than the insured value (Art. 97(3) ЗННД).",
       "refs": [
         "zmdt:46:2",
         "zmdt:33:1"
@@ -208,26 +209,27 @@
       "question": "Case 6: why is the handwritten contract of 2008 not enough?",
       "options": [
         "A transfer of real estate needs a notarial deed",
-        "It is too old",
-        "Kosta died",
-        "It was not translated"
+        "It is too old; a contract expires after ten years",
+        "It was not entered in the property register",
+        "It was not certified by a mayor or a notary"
       ],
       "answer": 0,
-      "explanation": "Art. 18 ЗЗД.",
+      "explanation": "Art. 18 ЗЗД: contracts for the transfer of ownership of real estate are made by a notarial deed; a written contract transfers nothing, so it could not be entered. Dimitar relies on possession for ten years (Art. 79 ЗС) and a circumstantial verification (Art. 587(2) ГПК).",
       "refs": [
-        "zzd:18"
+        "zzd:18",
+        "zs:79"
       ]
     },
     {
       "question": "Case 7: a nephew brings a power of attorney to take back his aunt's deposited will. Answer?",
       "options": [
         "Refuse; only the testator personally can take it back",
-        "Accept if the power is certified",
-        "Accept with two witnesses",
-        "Send the will by post"
+        "Accept, with a power certified for signature and content",
+        "Accept, with two witnesses who sign the register",
+        "Accept, if the testator confirms by telephone"
       ],
       "answer": 0,
-      "explanation": "Art. 26(1) ЗН.",
+      "explanation": "Art. 26(1) ЗН: a deposited holographic will may be taken back only by the testator personally; a power of attorney does not replace the personal act. The two witnesses of Art. 26(2) sign the note of the return together with the testator.",
       "refs": [
         "zn:26:1"
       ]
@@ -236,26 +238,27 @@
       "question": "Case 8: the company has unpaid April wages. Can the share pass to a new partner?",
       "options": [
         "No, not while wages are due and unpaid",
-        "Yes, the buyer takes over the wages",
-        "Yes, with the employees' consent",
-        "Yes, if the price is higher"
+        "Yes, if the buyer takes over the wages in the contract",
+        "Yes, with the written consent of the employees",
+        "Yes, if the price covers the unpaid wages"
       ],
       "answer": 0,
-      "explanation": "Art. 129(1) ТЗ.",
+      "explanation": "Art. 129(1) ТЗ: a transfer to a third person is possible only when there are no unpaid due wages, compensations and social contributions of the workers; the manager and the transferor declare this (Art. 129(2)). A takeover or a consent does not change the ban.",
       "refs": [
-        "tz:129:1"
+        "tz:129:1",
+        "tz:129:2"
       ]
     },
     {
       "question": "Case 8: which fee applies to the share transfer contract?",
       "options": [
-        "An ordinary fee, because the content is certified together with the signatures",
-        "Item 8 on the price",
-        "Item 10 on the price",
-        "No fee"
+        "An ordinary fee, as the content is certified with the signatures",
+        "Item 8 of the tariff, on the price of the share",
+        "Item 10 of the tariff, on the price of the share",
+        "Item 9 of the tariff, on the capital of the company"
       ],
       "answer": 0,
-      "explanation": "Art. 90(2) ЗННД.",
+      "explanation": "Art. 90(2) ЗННД: for the certification of the content of a document that the Commerce Act requires together with the signatures, an ordinary notarial fee is due. The proportional items 8, 9 and 10 do not apply to this contract.",
       "refs": [
         "znnd:90:2"
       ]

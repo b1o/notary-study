@@ -17,8 +17,8 @@
       "back": "In figures **and in words** when they concern the content of the deal (Art. 578(3) ГПК)."
     },
     {
-      "front": "What is done with empty spaces in a draft?",
-      "back": "They are **crossed out** (Art. 578(3) ГПК)."
+      "front": "The parties signed the draft at home before coming. What happens at the office?",
+      "back": "After the reading, they write their **full name** by hand and **confirm** the signatures before the notary (Art. 579(1) ГПК). Empty spaces in the draft are crossed out (Art. 578(3))."
     },
     {
       "front": "List the required content of a notarial deed.",
@@ -37,8 +37,8 @@
       "back": "With an **express note** signed like the deed itself (Art. 579(3) ГПК)."
     },
     {
-      "front": "When does the notary refuse a deed because of the transferor's title?",
-      "back": "When the transferor's document of ownership is **not entered** (Art. 586(4) ГПК)."
+      "front": "The seller's deed of 1998 was never entered. May the sale go ahead?",
+      "back": "**No**: the new deed is not issued until the transferor's document of ownership is entered (Art. 586(4) ГПК). The office presents the old deed for entry first."
     },
     {
       "front": "What are the two ways to a declaratory deed?",
@@ -49,8 +49,8 @@
       "back": "The **mayor** (or an official he designates), at the owner's suggestion; as far as possible **neighbours** (Art. 587(2) ГПК)."
     },
     {
-      "front": "How does the notary decide in a circumstantial verification?",
-      "back": "By a **reasoned decision** (постановление) (Art. 587(3) ГПК)."
+      "front": "A wrong identity number is found the day after the entry. How is it corrected?",
+      "back": "By a **correction deed** signed by the same parties (item 1 of the tariff: 30 лв. = 15.34 €), then entered. No crossing out after the signing has ended (Art. 579(3) ГПК)."
     },
     {
       "front": "When do the parties receive their copies of a deed for entry?",
@@ -62,12 +62,12 @@
       "question": "A draft says \"price: 85 000 euro\" only in figures. What must be corrected?",
       "options": [
         "The price must also be written in words",
-        "Nothing",
+        "Nothing; figures are enough for a price",
         "The price must be written only in words",
-        "The price must be in leva"
+        "The price must be stated in leva, not euro"
       ],
       "answer": 0,
-      "explanation": "Numbers concerning the content of the deal are also written in words.",
+      "explanation": "Art. 578(3) ГПК: numbers that concern the content of the deal, such as the price, the area and the shares, are written in figures and in words; the euro is the currency since 2026.",
       "refs": [
         "gpk:578:3"
       ]
@@ -76,12 +76,12 @@
       "question": "Which missing item makes a deed null?",
       "options": [
         "The signatures of the parties",
+        "The list of the documents of ownership",
         "The address of the notary's office",
-        "The page numbers",
         "The registry office data above the title"
       ],
       "answer": 0,
-      "explanation": "Missing signatures (item 6 of Art. 580) is a ground for nullity under Art. 576.",
+      "explanation": "Art. 576 ГПК makes a deed null when items 1, 3, 4 or 6 of Art. 580 are missing: the date, the identity data, the content, the signatures. The list of the documents (item 5) is required by Art. 580, but its absence does not cause nullity; the address and the registry data come from Ordinance No. 32.",
       "refs": [
         "gpk:580",
         "gpk:576"
@@ -90,13 +90,13 @@
     {
       "question": "The parties signed the draft at home before coming. What happens at the office?",
       "options": [
-        "They write their full names and confirm their signatures before the notary",
-        "They sign again on a new copy only",
-        "Nothing more is needed",
-        "The notary refuses the deed"
+        "They write their full names and confirm the signatures",
+        "They sign again, on a new copy of the deed",
+        "Nothing more; the signatures are already there",
+        "The notary refuses the deed, because it was signed at home"
       ],
       "answer": 0,
-      "explanation": "If the act is already signed, they write their full name and confirm their signatures.",
+      "explanation": "Art. 579(1) ГПК: when the act was signed before, the participants write their full name by hand before the notary and confirm their signatures, after the notary reads the deed to them. A refusal is not needed; a signature made elsewhere is simply confirmed.",
       "refs": [
         "gpk:579:1"
       ]
@@ -104,55 +104,58 @@
     {
       "question": "An illiterate seller signs a deed with a thumbprint. Do witnesses countersign the deed?",
       "options": [
-        "No",
-        "Yes, two witnesses",
-        "Yes, one witness",
-        "Yes, the buyer countersigns"
+        "No; a notarial deed is not countersigned",
+        "Yes; two witnesses countersign the deed",
+        "Yes; one witness countersigns the deed",
+        "Yes; the buyer countersigns for the seller"
       ],
       "answer": 0,
-      "explanation": "For a notarial deed, Art. 579(2) applies Art. 189 but excludes countersigning by witnesses.",
+      "explanation": "Art. 579(2) ГПК applies Art. 189 to a notarial deed (the thumbprint of the right hand) but excludes the countersigning by witnesses; witnesses countersign only private documents (Art. 189(1)).",
       "refs": [
-        "gpk:579:2"
+        "gpk:579:2",
+        "gpk:189:1"
       ]
     },
     {
       "question": "The seller's deed from 1998 was never entered. What does the notary do?",
       "options": [
-        "Does not issue the new deed until the old deed is entered",
-        "Issues the deed and enters both",
-        "Issues the deed if the buyer agrees",
-        "Asks for a circumstantial verification"
+        "Does not issue the new deed until the old one is entered",
+        "Issues the deed and enters both deeds the same day",
+        "Issues the deed if the buyer agrees in writing to the risk",
+        "Performs a circumstantial verification instead of the entry"
       ],
       "answer": 0,
-      "explanation": "Art. 586(4) ГПК.",
+      "explanation": "Art. 586(4) ГПК: when the document of ownership of the transferor is not entered, the notarial deed is not issued until that document is entered. The office first presents the 1998 deed for entry; a circumstantial verification is for owners without documents (Art. 587(2)).",
       "refs": [
-        "gpk:586:4"
+        "gpk:586:4",
+        "gpk:587:2"
       ]
     },
     {
       "question": "A woman has lived for 30 years in a house built by her late father, without any documents. What procedure can give her a document?",
       "options": [
         "A circumstantial verification for acquisition by prescription",
-        "A gift deed from the municipality",
-        "A certificate of heirs",
-        "A court decision only"
+        "A deed of gift from the municipality that owns the land",
+        "A certificate of heirs from the municipality of the father's address",
+        "A court decision only, after a claim against the other heirs"
       ],
       "answer": 0,
-      "explanation": "Without documents, ownership can be certified by circumstantial verification with three witnesses.",
+      "explanation": "Art. 587(2) ГПК: an owner without written evidence obtains a declaratory deed after a circumstantial verification for prescription (Art. 79 ЗС) with three witnesses; a certificate of heirs proves who inherits, not what the father owned without documents.",
       "refs": [
-        "gpk:587:2"
+        "gpk:587:2",
+        "zs:79"
       ]
     },
     {
       "question": "Who chooses the three witnesses in a circumstantial verification?",
       "options": [
-        "The mayor or an official he designates, at the owner's suggestion",
-        "The notary",
-        "The owner alone",
-        "The district court"
+        "The mayor, or an official he designates, at the owner's suggestion",
+        "The notary, from the neighbours of the property and the owner's family",
+        "The owner alone, from people who know the property",
+        "The district court, on the request of the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 587(2) ГПК.",
+      "explanation": "Art. 587(2) ГПК: the three witnesses are named by the mayor of the municipality, district or village where the property is, or by an official the mayor designates, at the suggestion of the owner; as far as possible they are neighbours. The notary questions them and decides.",
       "refs": [
         "gpk:587:2"
       ]
@@ -162,11 +165,11 @@
       "options": [
         "It is not returned",
         "It is returned in full",
-        "Half is returned",
+        "Half of it is returned",
         "It is paid only after the decision"
       ],
       "answer": 0,
-      "explanation": "The fee is due when the request is made and is not returned if ownership is not recognised.",
+      "explanation": "The note to item 11 of the tariff: the fee for a circumstantial verification is due when the request is made and is not returned when ownership is not recognised (Art. 88(1) ЗННД).",
       "refs": [
         "tarifa:11",
         "znnd:88:1"
@@ -177,39 +180,42 @@
       "options": [
         "By a correction deed signed by the same parties",
         "By crossing it out and writing the right number",
-        "By a letter to the registry office",
-        "It cannot be corrected"
+        "By a letter of the notary to the registry office",
+        "It cannot be corrected after the entry"
       ],
       "answer": 0,
-      "explanation": "After signing and entry, corrections are made by a correction deed.",
+      "explanation": "After the deed is signed and entered, an error is corrected only by a correction deed signed by the same parties, charged under item 1 of the tariff (30 лв. = 15.34 €) and entered (Art. 4 ПВ). Crossing out is allowed only before the signing ends (Art. 579(3) ГПК).",
       "refs": [
-        "tarifa:1"
+        "tarifa:1",
+        "gpk:579:3",
+        "pv:4"
       ]
     },
     {
       "question": "What does the notary state in the deed about the ownership check?",
       "options": [
-        "That the check was made, with the documents of ownership and the other requirements",
-        "Nothing; the check is internal",
-        "Only the tax assessment",
-        "Only the buyer's statement"
+        "That the check was made, and which documents proved it",
+        "Nothing; the check is an internal step of the office",
+        "Only the tax assessment of the property and the sketch",
+        "Only the statement of the buyer that he trusts the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 586(3) ГПК.",
+      "explanation": "Art. 586(3) ГПК: the notary certifies in the deed that the check of Art. 586(1) was made and lists the documents of ownership and the other requirements; the deed must name them (Art. 580 item 5).",
       "refs": [
-        "gpk:586:3"
+        "gpk:586:3",
+        "gpk:580"
       ]
     },
     {
       "question": "What does a deed that is entered contain in addition to Art. 580 ГПК?",
       "options": [
-        "Addresses of the parties, description of the property and the price",
-        "The notary's photo",
-        "The bank details of the parties",
-        "Nothing more"
+        "The parties' addresses, the property description and the price",
+        "A photograph of the notary and of the parties to the deed",
+        "The bank details of the parties for the payment of the price",
+        "Nothing more; Art. 580 is the full list"
       ],
       "answer": 0,
-      "explanation": "Art. 6(1) of the Regulations on Entries.",
+      "explanation": "Art. 6(1) of the Regulations on Entries: an act for entry also states the addresses of the parties, the description of the property (type, location, number, area, boundaries) and the price or the certified material interest; for a company, the firm and the ЕИК.",
       "refs": [
         "pv:6:1"
       ]
@@ -217,14 +223,17 @@
     {
       "question": "Is a declaratory deed proof that cannot be disputed?",
       "options": [
-        "No, it certifies ownership but can be disputed in court",
-        "Yes, it is final",
-        "Yes, after entry",
-        "Only within one year"
+        "No; it certifies ownership but can be disputed in court",
+        "Yes; the decision of the notary is final",
+        "Yes; after the entry in the property register",
+        "Only within one year after the entry"
       ],
       "answer": 0,
-      "explanation": "It legitimises the holder as owner; a person who disputes it must prove the contrary in court.",
-      "refs": []
+      "explanation": "The notary issues the declaratory deed on a reasoned decision (Art. 587(3) ГПК); the deed legitimises the holder as owner, but a person who disputes it may prove the contrary in court. The entry gives priority (Art. 113 ЗС), not finality.",
+      "refs": [
+        "gpk:587:3",
+        "zs:113"
+      ]
     }
   ]
 }

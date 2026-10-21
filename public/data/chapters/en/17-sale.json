@@ -9,8 +9,8 @@
   ],
   "cards": [
     {
-      "front": "Which notary handles the sale of a flat in Burgas?",
-      "back": "A notary of the **Burgas district** (Art. 570(1) ГПК)."
+      "front": "A client in Sofia asks you to prepare the sale of her flat in Burgas. Which notary issues the deed?",
+      "back": "A notary of the **Burgas district** (Art. 570(1) ГПК). A power of attorney for the sale may be certified by any notary (Art. 570(2))."
     },
     {
       "front": "Which certificate gives the tax assessment and shows unpaid property taxes?",
@@ -18,26 +18,26 @@
     },
     {
       "front": "What must be attached to the request for entry of a deed?",
-      "back": "A **sketch** from the cadastral map, or a **scheme** for a separate object (Art. 77 ЗКИР)."
+      "back": "A **sketch** from the cadastral map, or a **scheme** for a separate object in a building (Art. 77(2) ЗКИР)."
     },
     {
       "front": "What does the notary check at the National Revenue Agency?",
       "back": "That the seller has **no unpaid public debts subject to enforcement** (Art. 264(1) ДОПК)."
     },
     {
-      "front": "What if the seller has public debts?",
-      "back": "Pay them, or the seller consents in writing that they are paid from the price and the buyer pays them into the budget (Art. 264(4) ДОПК)."
+      "front": "The NRA check shows a public debt of the seller. May the deed go ahead today?",
+      "back": "**Yes**, after the debt is paid, or when the seller consents in writing that it is paid from the price and the buyer pays it into the budget (Art. 264(4) ДОПК)."
     },
     {
-      "front": "Limit for cash payments in Bulgaria?",
-      "back": "Payments of **10,000 лв. (5,112.92 €) or more** only by bank transfer or deposit (Art. 3 ЗОПБ)."
+      "front": "What is the limit for cash payments in Bulgaria?",
+      "back": "Payments of **10,000 лв. (5,112.92 €) or more** only by transfer or deposit to a payment account (Art. 3(1) ЗОПБ)."
     },
     {
       "front": "How are payments over 10,000 лв. in real estate deals made?",
       "back": "Through the notary's **special account** or a bank account in a bank chosen by the parties (Art. 25(10) ЗННД)."
     },
     {
-      "front": "Base for the notarial fee in a sale?",
+      "front": "What is the base for the notarial fee in a sale?",
       "back": "The **higher** of the price and the tax assessment (Art. 96(3) ЗННД)."
     },
     {
@@ -50,15 +50,15 @@
     },
     {
       "front": "Within what time does the notary notify the municipality after a sale?",
-      "back": "**7 days** (Art. 51(2) ЗМДТ)."
+      "back": "**7 days** from the deal (Art. 51(2) ЗМДТ)."
     },
     {
       "front": "Does the buyer file an annual property tax declaration after buying by notarial deed?",
       "back": "**No** (Art. 14(3) ЗМДТ)."
     },
     {
-      "front": "What is a distraint (възбрана)?",
-      "back": "A block on the property imposed for a creditor; a transfer is not effective against that creditor until it is lifted."
+      "front": "The register shows a distraint on the flat. May the sale go ahead?",
+      "back": "**Not before it is lifted**: a transfer after the entry of the distraint is not effective against that creditor (Art. 452(2) and 453 ГПК, outside the library)."
     },
     {
       "front": "How long a chain of ownership do careful checks cover?",
@@ -69,13 +69,13 @@
     {
       "question": "A seller in Sofia wants to sell a house in Pleven but cannot travel. What is the practical solution?",
       "options": [
-        "A power of attorney with signature and content certified at the same time at any notary, and the deed at a notary in Pleven",
-        "The deed at a notary in Sofia",
-        "A deed by video call",
-        "A sale in simple written form"
+        "A power of attorney certified anywhere, and the deed at a notary in Pleven",
+        "The deed at a notary in Sofia, with a sketch from the cadastre of Pleven",
+        "The deed in Sofia, before the substitute of a notary from Pleven",
+        "A preliminary contract, entered in the registry office of Pleven"
       ],
       "answer": 0,
-      "explanation": "Deeds for real estate are issued only in the district of the property; a power of attorney can be certified anywhere.",
+      "explanation": "Art. 570(1) ГПК: a deed for a transfer of real estate is issued by the notary in whose district the property is; a power of attorney is certified by any notary (Art. 570(2)) with signature and content at the same time (Art. 37 ЗЗД). A substitute acts in the district of the notary he replaces.",
       "refs": [
         "gpk:570",
         "zzd:37"
@@ -85,12 +85,12 @@
       "question": "The seller's title deed was never entered in the property register. What happens?",
       "options": [
         "The notary does not issue the deed until the title deed is entered",
-        "The deed is issued and both are entered later",
-        "The buyer signs a declaration and the deed is issued",
-        "A circumstantial verification is needed"
+        "The deed is issued; the two deeds are entered later, on the same day",
+        "The buyer signs a declaration of the risk, and the deed is issued",
+        "The notary performs a circumstantial verification before the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 586(4) ГПК.",
+      "explanation": "Art. 586(4) ГПК: when the document of ownership of the transferor is not entered, the notarial deed is not issued until that document is entered. The office presents the old deed for entry first; a circumstantial verification is for owners without documents (Art. 587(2)).",
       "refs": [
         "gpk:586:4"
       ]
@@ -98,27 +98,42 @@
     {
       "question": "The price is 120,000 € and the tax assessment is 140,000 €. What is the base for the notarial fee?",
       "options": [
-        "140,000 €",
-        "120,000 €",
-        "130,000 €",
-        "The price chosen by the parties"
+        "140,000 €, the higher value",
+        "120,000 €, the agreed price",
+        "130,000 €, the average of the two",
+        "The value the parties choose"
       ],
       "answer": 0,
-      "explanation": "The fee is collected on the higher of the two.",
+      "explanation": "Art. 96(3) ЗННД: when the tax assessment and the certified material interest differ, the fee is collected on the higher of the two. The parties choose the price, not the base of the fee.",
       "refs": [
+        "znnd:96:3"
+      ]
+    },
+    {
+      "question": "A flat sells for 60,000 €; its tax assessment is 45,000 €. What is the notarial fee without VAT?",
+      "options": [
+        "765.20 лв. (391.24 €)",
+        "817.25 лв. (417.85 €)",
+        "670.56 лв. (342.85 €)",
+        "234.70 лв. (120.00 €)"
+      ],
+      "answer": 0,
+      "explanation": "The base is the price, the higher value (Art. 96(3) ЗННД): 60,000 € = 117,349.80 лв. Item 8 of the tariff, bracket 100,001–500,000 лв.: 730.50 + 0.2% × 17,349.80 = 765.20 лв. = 391.24 €. The 817.25 result uses the bracket below 100,000 лв.; 670.56 uses the tax assessment as the base.",
+      "refs": [
+        "tarifa:8",
         "znnd:96:3"
       ]
     },
     {
       "question": "The buyer wants to pay 30,000 € in cash at the signing. What is the rule?",
       "options": [
-        "Not allowed; payments of 10,000 лв. (5,112.92 €) or more must go through a payment account",
-        "Allowed if the notary counts the money",
-        "Allowed if declared in the deed",
-        "Allowed in euro but not in leva"
+        "Not allowed; from 10,000 лв. (5,112.92 €) the price goes through a bank",
+        "Allowed, if the notary counts the money and notes the amount in the deed",
+        "Allowed, if both parties declare the cash payment in the deed itself",
+        "Allowed in euro; the limit of the law applies only to payments in leva"
       ],
       "answer": 0,
-      "explanation": "Art. 3 ЗОПБ and Art. 25(10) ЗННД.",
+      "explanation": "Art. 3(1) ЗОПБ: payments of 10,000 лв. or more are made only by transfer or deposit to a payment account; Art. 3(2) applies the limit to foreign currency, including the euro. Art. 25(10) ЗННД: such payments in real estate deals go through the notary's special account or a bank chosen by the parties.",
       "refs": [
         "zopvb:3:1",
         "znnd:25:10"
@@ -127,27 +142,42 @@
     {
       "question": "The NRA check shows enforceable public debts of the seller of 2,000 €. Which option allows the deed today?",
       "options": [
-        "The seller declares that the debt is paid from the price and the buyer pays 2,000 € into the budget",
-        "The notary ignores the debt below 5,000 €",
-        "The buyer signs a waiver",
-        "The deed is impossible until next year"
+        "The seller consents in writing; the buyer pays the 2,000 € into the budget",
+        "The notary ignores the debt, because it is below 5,000 € and the price covers it",
+        "The buyer signs a waiver of all claims against the seller for the debt",
+        "The deed is postponed until a new NRA certificate shows that there are no debts"
       ],
       "answer": 0,
-      "explanation": "Art. 264(4) ДОПК.",
+      "explanation": "Art. 264(4) ДОПК: when the seller has public debts, the deed may be issued after they are paid, or when the debtor declares in writing that they are paid from the price and the buyer pays the amount into the budget. There is no minimum below which the debt is ignored.",
       "refs": [
+        "dopk:264:4"
+      ]
+    },
+    {
+      "question": "A deed was issued although the seller had public debts and gave no declaration under Art. 264(4). What is the effect?",
+      "options": [
+        "The deed cannot be opposed to the state and the municipality",
+        "The deed is null; the buyer acquires no right to the property",
+        "The deed is valid against everyone, once it is entered",
+        "The deed is voidable at the request of the buyer within a year"
+      ],
+      "answer": 0,
+      "explanation": "Art. 264(5) ДОПК: acts performed in breach of Art. 264(4) cannot be opposed to the state and the municipality, which may enforce the debt against the property. Between the parties the deed is not null.",
+      "refs": [
+        "dopk:264:5",
         "dopk:264:4"
       ]
     },
     {
       "question": "The property register shows a mortgage of the seller's bank. How is it usually handled?",
       "options": [
-        "The loan is repaid from the price and the bank gives notarially certified consent to delete the mortgage",
-        "The mortgage disappears with the sale",
-        "The buyer must take over the loan always",
-        "The notary deletes it"
+        "The loan is paid from the price; the bank consents to the deletion",
+        "The mortgage ends with the sale; the buyer takes the flat free of charges",
+        "The buyer must take over the loan; the bank is not asked for anything",
+        "The notary deletes the mortgage in the deed, at the request of the seller"
       ],
       "answer": 0,
-      "explanation": "The mortgage follows the property; deletion needs the creditor's certified consent.",
+      "explanation": "Art. 173 ЗЗД: the mortgage follows the property, so the buyer would take the flat with it. The usual way is a payment of the loan from the price and a notarially certified consent of the bank to the deletion (Art. 179 ЗЗД); the notary cannot delete a mortgage without the creditor.",
       "refs": [
         "zzd:173",
         "zzd:179"
@@ -156,13 +186,13 @@
     {
       "question": "A property was bought in 2015 in the husband's name; the couple married in 2008. Who signs the sale?",
       "options": [
-        "Both spouses",
-        "Only the husband",
-        "Only the wife",
-        "The husband with a declaration of personal property"
+        "Both spouses, as co-owners",
+        "Only the husband, as the titleholder",
+        "Only the wife, with his consent",
+        "The husband, with a declaration of personal property"
       ],
       "answer": 0,
-      "explanation": "The property is common; disposal is joint.",
+      "explanation": "Art. 21(1) СК: rights acquired during the marriage through a joint contribution belong to both spouses, whatever name is in the deed; the contribution is presumed (Art. 21(3)). Art. 24(3): a disposal of common property is made jointly by both spouses.",
       "refs": [
         "sk:21:1",
         "sk:24:3"
@@ -171,70 +201,44 @@
     {
       "question": "Before the deed, what must the notary establish about the local acquisition tax?",
       "options": [
-        "That it is paid",
-        "Nothing; the municipality collects it later",
-        "Only that the buyer knows about it",
-        "That the seller paid it"
+        "That it is paid before the deed",
+        "Nothing; the municipality collects it after the entry",
+        "Only that the buyer knows the rate of the tax",
+        "That the seller paid the tax for the current year"
       ],
       "answer": 0,
-      "explanation": "Art. 50(1) ЗМДТ.",
+      "explanation": "Art. 50(1) ЗМДТ: notaries perform the deal only after they establish that the taxes of this chapter for the property are paid; the acquisition tax is paid by the acquirer (Art. 45(1)). The annual tax of the seller is shown in the certificate of tax assessment.",
       "refs": [
-        "zmdt:50:1"
-      ]
-    },
-    {
-      "question": "Within what time must the notary inform the municipality about a sale?",
-      "options": [
-        "7 days",
-        "1 month",
-        "2 months",
-        "3 days"
-      ],
-      "answer": 0,
-      "explanation": "Art. 51(2) ЗМДТ.",
-      "refs": [
-        "zmdt:51:2"
+        "zmdt:50:1",
+        "zmdt:45:1"
       ]
     },
     {
       "question": "A seller and buyer agreed nothing about costs. How are the notarial fee and the entry fee shared?",
       "options": [
-        "Equally",
-        "All by the buyer",
-        "All by the seller",
+        "Equally between the two parties",
+        "All by the buyer, as the acquirer",
+        "All by the seller, as the transferor",
         "By the party who asked for the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 186 ЗЗД for real estate.",
+      "explanation": "Art. 186 ЗЗД: the costs of the contract and of the transfer are borne by the buyer, except in a sale of real estate, where the parties pay them equally. The parties may agree otherwise in the deed.",
       "refs": [
         "zzd:186"
       ]
     },
     {
-      "question": "What does the office attach to the request for entry?",
-      "options": [
-        "A sketch or scheme from the cadastral map",
-        "A photo of the property",
-        "The buyer's bank statement",
-        "The seller's tax return"
-      ],
-      "answer": 0,
-      "explanation": "Art. 77 ЗКИР.",
-      "refs": [
-        "zkir:77"
-      ]
-    },
-    {
       "question": "When do the parties receive their copies of the deed?",
       "options": [
-        "After the deed is entered",
-        "Immediately after signing",
-        "After one month",
-        "Only on request to the court"
+        "After the deed is entered in the property register",
+        "Immediately after the signing of the deed",
+        "After the fee and the local tax are paid in full",
+        "After the municipality receives the notice of the sale"
       ],
       "answer": 0,
-      "explanation": "Before entry, the notary gives no copies.",
+      "explanation": "Art. 581 ГПК: after the deed is issued and entered, one copy is filed in the special book and the others are handed to the participants. Art. 25(5) ЗННД: the notary presents the deed for entry on the day of the deal.",
       "refs": [
+        "gpk:581",
         "znnd:25:5"
       ]
     }

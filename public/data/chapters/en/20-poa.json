@@ -18,43 +18,43 @@
     },
     {
       "front": "What defines the scope of the agent's power towards third parties?",
-      "back": "**What the principal stated** (Art. 39 ЗЗД)."
+      "back": "**What the principal stated** (Art. 39(1) ЗЗД)."
     },
     {
       "front": "When may an agent sell the principal's property to himself?",
-      "back": "Only with the principal's **consent** (Art. 38 ЗЗД)."
+      "back": "Only with the principal's **consent** (Art. 38(1) ЗЗД)."
     },
     {
-      "front": "Can the principal waive the right to revoke?",
-      "back": "**No**; such a waiver is invalid (Art. 38 ЗЗД)."
+      "front": "A power says it is \"irrevocable\". May the principal still revoke it?",
+      "back": "**Yes**: the principal may always revoke; a waiver of that right is invalid (Art. 38(2) ЗЗД)."
     },
     {
-      "front": "When may an agent re-delegate?",
-      "back": "If **authorised**, or if necessary to protect the principal (Art. 43 ЗЗД)."
+      "front": "An agent re-delegated his power without authority and without need. Does the sub-agent have power?",
+      "back": "**No** (Art. 43(1) ЗЗД). An agent who does not inform the principal of a re-delegation answers for the sub-agent's acts as for his own (Art. 43(3))."
     },
     {
       "front": "List the grounds on which a power of attorney ends.",
-      "back": "Revocation, renunciation, death or judicial disability of either side, end of a legal entity (Art. 41 ЗЗД)."
+      "back": "Revocation, renunciation, death or judicial disability of either side, end of a legal entity (Art. 41(1) ЗЗД)."
     },
     {
-      "front": "Does revocation affect a third party in good faith?",
-      "back": "**No**, unless the end was subject to entry and was entered (Art. 41 ЗЗД)."
+      "front": "Does the end of a power affect a third party in good faith?",
+      "back": "**No**, unless the end was subject to entry and was entered (Art. 41(2) ЗЗД)."
     },
     {
       "front": "What does the notary enter in the information system after certifying a revocation?",
-      "back": "An extract with the parties, and the **number and date** of the revoked power and its notary (Art. 9а, item 2 Наредба № 32)."
+      "back": "An extract with the parties and the **number and date** of the revoked power and its notary (Art. 9а item 2 Наредба № 32)."
     },
     {
       "front": "How can a principal confirm an act made without power?",
-      "back": "In the **form required for the power** of attorney (Art. 42 ЗЗД)."
+      "back": "In the **form required for the power** of attorney (Art. 42(2) ЗЗД)."
     },
     {
-      "front": "Fee for the signature on a re-delegation?",
+      "front": "What is the fee for the signature on a re-delegation?",
       "back": "**Double** the normal signature fee (item 5 ТНТ)."
     },
     {
-      "front": "Which law governs the form of a power signed abroad?",
-      "back": "The law of the act, but the form of the **place of signing** is enough (Art. 61 КМЧП)."
+      "front": "A power signed in Germany has only the signature certified by a German notary. Is the form valid?",
+      "back": "As to form, **yes**: the form of the place of signing is enough (Art. 61 КМЧП). For real estate, notaries in practice expect signature and content, an apostille and a translation with the translator's signature certified (Art. 21а(1) ПЛЗП)."
     }
   ],
   "quiz": [
@@ -62,40 +62,42 @@
       "question": "A client needs a power of attorney to mortgage her flat to a bank. What form?",
       "options": [
         "Signature and content certified at the same time",
-        "Certified signature only",
-        "Simple written form",
-        "A notarial deed"
+        "A certified signature only, as for a bank power",
+        "Simple written form, signed by the client",
+        "A notarial deed of the power of attorney, before a notary"
       ],
       "answer": 0,
-      "explanation": "A mortgage needs a notarial deed, so the power needs signature and content certified at the same time.",
+      "explanation": "Art. 37 ЗЗД: the power follows the form of the deal; when the deal needs a notarial deed, as a mortgage does (Art. 167(1) ЗЗД), the power may be written with signature and content certified at the same time. A bank power concerns operations, not the mortgage itself.",
       "refs": [
-        "zzd:37"
+        "zzd:37",
+        "zzd:167:1"
       ]
     },
     {
       "question": "A power says: \"to sell my flat in Sofia\". The agent wants to donate it to his wife. Is it covered?",
       "options": [
-        "No, a sale power does not cover a gift, and contracting for a relative of the agent needs care",
-        "Yes, a gift is a kind of sale",
-        "Yes, if the price is zero",
-        "Yes, with a declaration of the agent"
+        "No; a power to sell does not cover a gift",
+        "Yes; a gift is a sale with a price of zero",
+        "Yes, if the agent states the gift in the deed",
+        "Yes, if the wife accepts the gift in person"
       ],
       "answer": 0,
-      "explanation": "The scope is what the principal stated.",
+      "explanation": "Art. 39(1) ЗЗД: the scope of the power towards third parties is what the principal stated; a sale and a gift are different deals. A deal that benefits the agent through his wife also calls for the principal's express consent, as self-contracting does (Art. 38(1)).",
       "refs": [
-        "zzd:39"
+        "zzd:39",
+        "zzd:38"
       ]
     },
     {
       "question": "An agent with a power to sell wants to buy the flat himself. What is needed?",
       "options": [
-        "The principal's express consent to self-contracting",
-        "Nothing, the power is enough",
-        "A court permission",
-        "The consent of the notary"
+        "The express consent of the principal",
+        "Nothing more; the power to sell is enough",
+        "The permission of the district court",
+        "The consent of the notary, in the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 38 ЗЗД.",
+      "explanation": "Art. 38(1) ЗЗД: the agent may not contract in the name of the principal with himself, or with another person he also represents, unless the principal consented. The consent comes from the principal, not from a court or the notary.",
       "refs": [
         "zzd:38"
       ]
@@ -104,12 +106,12 @@
       "question": "A power of attorney says it is \"irrevocable\". What is the legal position?",
       "options": [
         "The principal can still revoke it; the waiver is invalid",
-        "It cannot be revoked",
-        "It can be revoked only by a court",
-        "It can be revoked only after one year"
+        "It cannot be revoked; the principal waived the right",
+        "It can be revoked only by a court, on a claim of the principal",
+        "It can be revoked only after one year, by a notice"
       ],
       "answer": 0,
-      "explanation": "A waiver of the right to revoke is invalid.",
+      "explanation": "Art. 38(2) ЗЗД: the principal may always revoke the power and the agent may always renounce it; a waiver of that right by either side is invalid. The word \"irrevocable\" has no effect.",
       "refs": [
         "zzd:38"
       ]
@@ -118,12 +120,12 @@
       "question": "The principal died last week. The agent comes to sign a sale under the power. What does the office do?",
       "options": [
         "Refuses; the power ended with the death",
-        "Proceeds if the agent did not know",
-        "Proceeds if the heirs agree orally",
-        "Proceeds if the power is notarised"
+        "Proceeds, if the agent did not know of the death",
+        "Proceeds, if the heirs agree to the sale orally",
+        "Proceeds, if the power was certified by a notary"
       ],
       "answer": 0,
-      "explanation": "The power ends with the death of the principal.",
+      "explanation": "Art. 41(1) ЗЗД: the power ends with the death of the principal. The heirs may sell themselves, or give a new power; an oral consent is not a power.",
       "refs": [
         "zzd:41"
       ]
@@ -131,13 +133,13 @@
     {
       "question": "An agent re-delegated his power to a friend, although the power does not allow it, and nothing urgent required it. What is the position?",
       "options": [
-        "The re-delegation is not allowed; the friend has no valid power",
-        "It is valid because the agent trusts the friend",
-        "It is valid if notarised",
-        "It is valid for movables only"
+        "The re-delegation is not allowed; the friend has no power",
+        "It is valid, because the agent trusts the friend",
+        "It is valid, if the re-delegation is certified by a notary",
+        "It is valid for movables, but not for real estate"
       ],
       "answer": 0,
-      "explanation": "Re-delegation is allowed only if authorised or necessary to protect the principal.",
+      "explanation": "Art. 43(1) ЗЗД: an agent may re-delegate only when authorised, or when the re-delegation became necessary to protect the interests of the principal. A certification does not create a power that the agent could not give.",
       "refs": [
         "zzd:43"
       ]
@@ -145,13 +147,13 @@
     {
       "question": "What must the office do right after certifying the revocation of a power to sell real estate?",
       "options": [
-        "Enter an extract in the information system with the number and date of the revoked power",
-        "Nothing more",
-        "Send the revocation to the agent by e-mail",
-        "Destroy the old power"
+        "Enter an extract with the number and date of the revoked power",
+        "Nothing; the revocation takes effect with the certification",
+        "Send the revocation to the agent by registered letter with a receipt",
+        "Destroy the copy of the old power in the office's file"
       ],
       "answer": 0,
-      "explanation": "Art. 9а, item 2 of Ordinance No. 32.",
+      "explanation": "Art. 9а item 2 of Ordinance No. 32: after certifying a document that revokes a power, the notary enters and sends at once to the information system an extract with the data of the parties, the number and date of the revoked power and the name and number of the notary who certified it.",
       "refs": [
         "n32:9а"
       ]
@@ -160,71 +162,74 @@
       "question": "A person sold a flat as \"agent\" without a power. Can the owner make the sale valid?",
       "options": [
         "Yes, by confirming it in the form required for the power",
-        "No, never",
-        "Yes, orally",
-        "Yes, by a simple letter"
+        "No; a sale without power is null and cannot be confirmed",
+        "Yes, orally before the notary who issued the deed",
+        "Yes, by a simple letter to the buyer and the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 42 ЗЗД.",
+      "explanation": "Art. 42(2) ЗЗД: the person in whose name a contract was concluded without power may confirm it, in the form required for the power to conclude that contract: for a sale of real estate, signature and content certified at the same time (Art. 37).",
       "refs": [
-        "zzd:42"
+        "zzd:42",
+        "zzd:37"
       ]
     },
     {
       "question": "A Bulgarian in Canada needs to sell a flat in Plovdiv. Which is a valid route?",
       "options": [
-        "A Canadian notary certifies signature and content, with an apostille and a certified translation",
-        "A scan of a signed letter",
-        "A video call with the Bulgarian notary",
-        "A power signed before a Canadian bank officer"
+        "A Canadian notary certifies the power, with an apostille and a translation",
+        "A scan of a letter signed by the client, sent by e-mail to the office",
+        "A video call with the Bulgarian notary, recorded and filed by the office staff",
+        "A power signed before an officer of a Canadian bank, with a translation"
       ],
       "answer": 0,
-      "explanation": "The form of the place of signing is enough, and notaries expect certification of signature and content, an apostille and a translation.",
+      "explanation": "Art. 61 КМЧП: the form of the place of signing is enough. For real estate, Bulgarian notaries in practice expect a certification of the signature and the content, an apostille and a translation into Bulgarian with the translator's signature certified (Art. 21а(1) ПЛЗП). A bank officer is not a certifying authority.",
       "refs": [
         "kmchp:61",
         "plzp:21а:1"
       ]
     },
     {
-      "question": "Who can certify a power of attorney in Bulgarian at a Bulgarian embassy?",
+      "question": "The principal revoked a bank power on Monday. On Tuesday the agent withdrew money; the bank knew nothing of the revocation. Is the bank protected?",
       "options": [
-        "A Bulgarian consular officer",
-        "The ambassador's driver",
-        "Any embassy employee",
-        "Nobody"
+        "Yes; the end of the power cannot be opposed to a bank in good faith",
+        "No; the revocation acts against everyone from its certification",
+        "No; the extract in the Chamber's system binds the bank from Monday morning",
+        "Yes, but only if the agent returns the money to the principal"
       ],
       "answer": 0,
-      "explanation": "Art. 84(1) ЗННД.",
+      "explanation": "Art. 41(2) ЗЗД: the end of a power cannot be opposed to third persons who contracted with the agent in good faith, unless the end was subject to entry and was entered. The extract in the Chamber's system serves the notaries' checks; it is not such an entry. The principal informs the bank and claims from the agent.",
       "refs": [
-        "znnd:84:1"
+        "zzd:41",
+        "n32:9а"
       ]
     },
     {
       "question": "What does a notarial certification of a signature on a declaration prove?",
       "options": [
-        "Who signed it and when",
-        "That the facts are true",
-        "That the declarant has no debts",
-        "Nothing"
+        "Who signed the declaration, and when",
+        "That the facts in the declaration are true",
+        "That the declarant has no public debts",
+        "That the declarant will keep the promise"
       ],
       "answer": 0,
-      "explanation": "A private document proves that the statements were made by the signatory; the notary certifies the signature.",
+      "explanation": "Art. 589(2) ГПК: the notary certifies that the person signed, or confirmed the signature, before the notary on that date. Art. 180 ГПК: a private document proves that its statements were made by the signatory, not that they are true; a false declaration is a crime (Art. 313 НК).",
       "refs": [
-        "gpk:180"
+        "gpk:180",
+        "gpk:589:2"
       ]
     },
     {
-      "question": "Can a spouse sign a marriage contract through a power of attorney?",
+      "question": "A power of attorney names two agents and says nothing about how they act. May one of them sign the sale alone?",
       "options": [
-        "No",
-        "Yes, with signature and content certified",
-        "Yes, at a consulate",
-        "Yes, if the other spouse agrees"
+        "Yes; each may act alone, unless the power says otherwise",
+        "No; both must sign together in every case",
+        "No; the principal must first choose one of them",
+        "Yes, but only with the written consent of the other agent"
       ],
       "answer": 0,
-      "explanation": "The marriage contract is concluded personally.",
+      "explanation": "Art. 39(2) ЗЗД: when several persons are authorised for an act, each of them may perform it alone, unless the authorisation shows otherwise. A principal who wants joint action writes it in the power.",
       "refs": [
-        "sk:39:1"
+        "zzd:39"
       ]
     }
   ]

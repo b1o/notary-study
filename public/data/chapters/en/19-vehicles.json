@@ -12,20 +12,20 @@
       "back": "Registered **cars**, **trailers over 10 t**, **wheeled tractors**, **motorcycles over 350 cm³** (Art. 144(2) ЗДвП)."
     },
     {
-      "front": "Name two exceptions from the certification requirement.",
-      "back": "End-of-life vehicles; vehicles whose acquirer is abroad without later Bulgarian registration; vehicles deregistered after a total loss (Art. 144(2) ЗДвП)."
+      "front": "Name the exceptions from the certification requirement.",
+      "back": "End-of-life vehicles; vehicles whose acquirer is abroad without a later Bulgarian registration; vehicles deregistered after a total loss (Art. 144(2) ЗДвП)."
     },
     {
-      "front": "Which notary may certify a car sale?",
-      "back": "**Any** notary (Art. 570(2) ГПК)."
+      "front": "A car registered in Varna is sold by a seller who lives in Sofia. Which notary may certify the contract?",
+      "back": "**Any** notary: a certification of signatures is not bound to a district (Art. 570(2) ГПК)."
     },
     {
       "front": "What does the notary check about the vehicle tax?",
-      "back": "That the **seller paid** the vehicle tax, through the MoF system or a municipal document (Art. 264(2) ДОПК)."
+      "back": "That the **seller paid** the vehicle tax, through the Ministry of Finance system or a municipal document (Art. 264(2) ДОПК)."
     },
     {
-      "front": "Material interest for the fee on a car sale?",
-      "back": "The value for which the vehicle is **insured** (Art. 97(1) ЗННД)."
+      "front": "What is the material interest for the fee on a car sale?",
+      "back": "The value for which the vehicle is **insured** (Art. 97(1) ЗННД), or the price when it is higher (Art. 97(3))."
     },
     {
       "front": "Which tariff item applies to a car sale?",
@@ -33,32 +33,40 @@
     },
     {
       "front": "What does the notary enter in the information system after a car sale?",
-      "back": "A **scan** of the contract; and keeps a copy with representation documents and declarations for **two years** (Art. 9а Наредба № 32)."
+      "back": "A **scan** of the contract; the office keeps a copy with the representation documents and the declarations for **two years** (Art. 9а item 6 Наредба № 32)."
     },
     {
-      "front": "Deadline for the buyer to register the car?",
+      "front": "What is the deadline for the buyer to register the car?",
       "back": "**One month** (Art. 145(2) ЗДвП)."
     },
     {
-      "front": "Does the buyer pay the annual vehicle tax again for the current year?",
-      "back": "**No**, if the seller paid it until the end of the year (Art. 58(3) ЗМДТ)."
+      "front": "The seller paid the vehicle tax for the whole year. Does the buyer pay it again?",
+      "back": "**No**: the new owner does not pay the tax when the previous owner paid it until the end of the calendar year (Art. 58(3) ЗМДТ)."
     },
     {
       "front": "Can a person without a Bulgarian address buy a registered car directly?",
-      "back": "Only after the registration is **terminated** and the plates returned (Art. 144(3) ЗДвП)."
+      "back": "Only after the registration is **terminated** and the plates are returned (Art. 144(3) ЗДвП)."
+    },
+    {
+      "front": "What form does a power of attorney to sell a car need?",
+      "back": "A **notarially certified signature**, because the power follows the form of the deal (Art. 37 ЗЗД, first sentence)."
+    },
+    {
+      "front": "A power of attorney to sell a car was certified by a mayor. Is it valid?",
+      "back": "**Yes**: a mayor may certify signatures where the settlement has no notary and no district court (Art. 83(1) ЗННД); mayors cannot enter the power in the information system (Council of Notaries, January 2024; chapter 5)."
     }
   ],
   "quiz": [
     {
       "question": "A motorcycle with a 250 cm³ engine is sold. Must the signatures be notarially certified?",
       "options": [
-        "No, the rule covers motorcycles over 350 cm³",
-        "Yes, all motorcycles",
-        "Yes, all registered vehicles",
-        "Only if the price is over 5,000 €"
+        "No; the rule covers motorcycles over 350 cm³",
+        "Yes; the rule covers all registered motorcycles",
+        "Yes; the rule covers all registered vehicles",
+        "Only when the price of the motorcycle is over 5,000 €"
       ],
       "answer": 0,
-      "explanation": "Art. 144(2) ЗДвП covers motorcycles with an engine over 350 cm³.",
+      "explanation": "Art. 144(2) ЗДвП requires certified signatures for registered cars, trailers over 10 t, wheeled tractors and motorcycles with an engine over 350 cm³. A 250 cm³ motorcycle is sold by a written contract (Art. 144(1)); the price plays no role.",
       "refs": [
         "zdvp:144:2"
       ]
@@ -66,13 +74,13 @@
     {
       "question": "A car registered in Varna is sold by a seller in Sofia. Which notary may certify the contract?",
       "options": [
-        "Any notary",
+        "Any notary in the country",
         "Only a notary in Varna",
         "Only a notary in Sofia",
         "Only the notary at the buyer's address"
       ],
       "answer": 0,
-      "explanation": "Certifications of signatures are not bound to a district.",
+      "explanation": "Art. 570(2) ГПК: notarial acts other than deeds for real estate are performed by any notary, whatever the link between the district and the act. The district rule of Art. 570(1) applies only to real estate.",
       "refs": [
         "gpk:570:2"
       ]
@@ -80,42 +88,59 @@
     {
       "question": "What must the notary check about the seller before certifying a car sale?",
       "options": [
-        "Paid vehicle tax and no enforceable public debts",
-        "The seller's salary",
-        "The seller's driving licence points",
-        "Nothing beyond the identity"
+        "The paid vehicle tax and the public debts of the seller",
+        "The income of the seller and the origin of the car",
+        "The penalty points on the driving licence of the seller",
+        "Only the identity of the seller and the registration certificate"
       ],
       "answer": 0,
-      "explanation": "Art. 264(2) ДОПК.",
+      "explanation": "Art. 264(2) ДОПК: a vehicle is transferred after a check in the Ministry of Finance system that the vehicle tax is paid (Art. 50(2) ЗМДТ) and after the check of the seller's public debts under Art. 264(1). The registration certificate identifies the car, but it is not the check the law requires.",
       "refs": [
-        "dopk:264:2"
+        "dopk:264:2",
+        "zmdt:50:2"
       ]
     },
     {
       "question": "The car is insured for 12,000 €; the price is 9,000 €. What is the material interest for the fee?",
       "options": [
         "12,000 €, the insured value",
-        "9,000 €",
-        "10,500 €",
+        "9,000 €, the agreed price",
+        "10,500 €, the average of the two",
         "The market price set by the notary"
       ],
       "answer": 0,
-      "explanation": "For a vehicle, the material interest is the value for which it is insured; for onerous deals the price applies if it is higher.",
+      "explanation": "Art. 97(1) item 1 ЗННД: for a deal with a vehicle the material interest is the value for which it is insured; Art. 97(3): in an onerous deal the price applies only when it is higher. Here the insured value is higher.",
       "refs": [
         "znnd:97:1",
         "znnd:97:3"
       ]
     },
     {
-      "question": "What does the office do with the signed contract in the information system?",
+      "question": "A car insured for 4,000 € is sold for 3,500 €. What is the notarial fee without VAT?",
       "options": [
-        "Enters a scan of it",
-        "Nothing",
-        "Enters only the price",
-        "Sends it to the bank"
+        "132.20 лв. (67.59 €)",
+        "101.70 лв. (52.00 €)",
+        "43.50 лв. (22.24 €)",
+        "30.00 лв. (15.34 €)"
       ],
       "answer": 0,
-      "explanation": "Art. 9а, item 6 of Ordinance No. 32.",
+      "explanation": "The base is the insured value, the higher amount (Art. 97(1) and (3) ЗННД): 4,000 € = 7,823.32 лв. Item 11 applies item 8, bracket 1,001–10,000 лв.: 43.50 + 1.3% × 6,823.32 = 132.20 лв. = 67.59 €. 101.70 is 1.3% of the whole base; 43.50 is the fixed part alone.",
+      "refs": [
+        "tarifa:11",
+        "tarifa:8",
+        "znnd:97:1"
+      ]
+    },
+    {
+      "question": "What does the office do with the signed contract in the information system?",
+      "options": [
+        "Enters a scan of the contract at once",
+        "Enters only the price and the parties",
+        "Enters nothing; the buyer registers the car",
+        "Sends the contract to the municipality"
+      ],
+      "answer": 0,
+      "explanation": "Art. 9а item 6 of Ordinance No. 32: the notary enters and sends at once to the information system of the Chamber a scanned copy of the contract certified under Art. 144(2) ЗДвП. The municipality receives a separate notice under Art. 51(2) ЗМДТ.",
       "refs": [
         "n32:9а"
       ]
@@ -129,7 +154,7 @@
         "Six months"
       ],
       "answer": 0,
-      "explanation": "Art. 9а, item 6 of Ordinance No. 32.",
+      "explanation": "Art. 9а item 6 of Ordinance No. 32: the notary keeps in a special office file, for two years, a copy of the contract, the documents proving the representative power of the parties and their declarations under the law.",
       "refs": [
         "n32:9а"
       ]
@@ -143,7 +168,7 @@
         "One year"
       ],
       "answer": 0,
-      "explanation": "Art. 145(2) ЗДвП.",
+      "explanation": "Art. 145(2) ЗДвП: the acquirer of a registered vehicle registers it within one month at the registration office of the owner's permanent address, unless a dealer acquired it for resale.",
       "refs": [
         "zdvp:145:2"
       ]
@@ -151,13 +176,13 @@
     {
       "question": "The buyer wants to pay 7,000 € in cash. Is it allowed?",
       "options": [
-        "No, payments of 10,000 лв. (5,112.92 €) or more must go through a payment account",
-        "Yes, cars are an exception",
-        "Yes, if the notary counts the money",
-        "Yes, if written in the contract"
+        "No; from 10,000 лв. (5,112.92 €) the payment goes through an account",
+        "Yes; the limit of the law does not apply to sales of vehicles",
+        "Yes, if the notary counts the money and notes it in the contract",
+        "Yes, if the parties write the cash payment in the contract"
       ],
       "answer": 0,
-      "explanation": "Art. 3 ЗОПБ.",
+      "explanation": "Art. 3(1) ЗОПБ: payments of 10,000 лв. or more are made only by transfer or deposit to a payment account; 7,000 € is above that limit. There is no exception for vehicles, and a note in the contract changes nothing.",
       "refs": [
         "zopvb:3:1"
       ]
@@ -165,13 +190,13 @@
     {
       "question": "The car belongs to a married couple as common property; only the husband comes. What is the risk?",
       "options": [
-        "The wife can challenge the sale as for real estate",
-        "There is no risk for movables",
-        "The sale is void automatically",
-        "The buyer becomes co-owner with the wife"
+        "The wife can challenge the sale, as for common real estate",
+        "None; the buyer of a movable acquires it in good faith",
+        "The sale is void by law, without a court claim",
+        "The buyer becomes co-owner of the car with the wife"
       ],
       "answer": 0,
-      "explanation": "For dispositions that need certified signatures, the rule for common real estate applies.",
+      "explanation": "Art. 24(5) СК: for a disposal that needs certified signatures, Art. 24(4) applies as for real estate: the other spouse may challenge the sale in court within six months of learning of it, but not later than three years. The good-faith rule for movables applies only to deals without certified signatures.",
       "refs": [
         "sk:24:5"
       ]
@@ -179,15 +204,29 @@
     {
       "question": "Within what time does the notary notify the municipality about the car sale?",
       "options": [
-        "7 days",
-        "1 month",
-        "2 months",
-        "Not at all"
+        "7 days from the deal",
+        "1 month from the deal",
+        "2 months from the deal",
+        "Never; the buyer notifies it"
       ],
       "answer": 0,
-      "explanation": "Art. 51(2) ЗМДТ covers vehicles too.",
+      "explanation": "Art. 51(2) ЗМДТ: within 7 days of the deal the notary notifies the municipality of the transferred real rights in real estate and vehicles, with the paid tax and its base.",
       "refs": [
         "zmdt:51:2"
+      ]
+    },
+    {
+      "question": "A buyer without a permanent address in Bulgaria wants to buy a registered car in Sofia. What is the procedure?",
+      "options": [
+        "The registration is terminated and the plates returned; then the contract is certified",
+        "The contract is certified; the buyer registers the car within one month",
+        "The contract is certified; the car keeps its plates until the buyer exports it",
+        "The sale is not possible; the car must first be sold to a Bulgarian dealer"
+      ],
+      "answer": 0,
+      "explanation": "Art. 144(3) ЗДвП: a registered vehicle is transferred to a person without a permanent address or address registration in Bulgaria under Art. 144(2) after the registration is terminated and the plates are returned to the registration office.",
+      "refs": [
+        "zdvp:144:3"
       ]
     }
   ]

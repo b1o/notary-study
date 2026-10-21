@@ -13,19 +13,19 @@
     },
     {
       "front": "Who may access the archive?",
-      "back": "Nobody without the notary's **consent**, except in the cases of law (Art. 21 ЗННД)."
+      "back": "Nobody without the notary's **consent**, except in the cases provided by law (Art. 21(1) ЗННД)."
     },
     {
-      "front": "How may files leave the office?",
-      "back": "Only on a **written order of a judge or prosecutor**; originals only with the notary personally (Art. 28(3)–(4) ЗННД)."
+      "front": "A police officer asks to take a case file to the station. What does the office need?",
+      "back": "A **written order of a judge or prosecutor**; copies go against signature to the official named in it; originals leave only with the notary personally (Art. 28(3)–(4) ЗННД)."
     },
     {
-      "front": "When does numbering restart?",
-      "back": "On **1 January** each year (Art. 5–6 and 10 Наредба № 32)."
+      "front": "When does the numbering restart?",
+      "back": "On **1 January** each year (Art. 5–6 and 10(4) Наредба № 32)."
     },
     {
       "front": "How long are case files for deeds kept?",
-      "back": "**5 years** (Art. 10(5) Наредба № 32)."
+      "back": "**5 years**; files for wills and deposits, and decisions on circumstantial verifications, **100 years** (Art. 10(5) Наредба № 32)."
     },
     {
       "front": "What happens to records after 100 years?",
@@ -36,24 +36,24 @@
       "back": "Only after **agreement with the State Archives** (Art. 28а(2) ЗННД)."
     },
     {
-      "front": "Who seals the archive when a notary loses the capacity?",
-      "back": "By order of the **president of the district court** (Art. 36(2) ЗННД)."
+      "front": "The notary dies. Who orders the sealing of the archive?",
+      "back": "The **president of the district court** (Art. 36(2) ЗННД); the heirs must ask for it at once, else the mayor or the district judge (Art. 22(2)–(3) Наредба № 32)."
     },
     {
       "front": "Who inspects notaries?",
       "back": "Inspectors of the **Ministry of Justice** with **inspector-notaries** (Art. 80б ЗННД)."
     },
     {
-      "front": "When may the office copy an identity document?",
-      "back": "Only when **a law provides** it, e.g. AML due diligence (Art. 25г ЗЗЛД; Art. 53 ЗМИП)."
+      "front": "A clerk wants to photocopy a client's identity card \"for the file\". When is that allowed?",
+      "back": "Only when **a law provides** for it, for example AML due diligence (Art. 25г ЗЗЛД; Art. 53(1) ЗМИП). Otherwise the office records the data."
     },
     {
       "front": "Is free public access to identity numbers allowed?",
-      "back": "**No**, unless a law provides otherwise (Art. 25ж ЗЗЛД)."
+      "back": "**No**, unless a law provides otherwise (Art. 25ж(1) ЗЗЛД)."
     },
     {
-      "front": "Deadline under the GDPR to notify a risky data breach?",
-      "back": "**72 hours** to the Commission for Personal Data Protection."
+      "front": "What is the deadline under the Regulation to notify a risky data breach?",
+      "back": "**72 hours** to the Commission for Personal Data Protection (Art. 33 of Regulation (EU) 2016/679)."
     }
   ],
   "quiz": [
@@ -61,26 +61,27 @@
       "question": "A police officer asks to take a case file to the station. What does the office need?",
       "options": [
         "A written order of a judge or prosecutor naming the official",
-        "The officer's badge",
-        "The client's consent",
-        "Nothing"
+        "The service card of the officer and a receipt for the file",
+        "The written consent of the client whose file it is",
+        "Nothing; the police have free access to every notarial file by law"
       ],
       "answer": 0,
-      "explanation": "Art. 28(3) ЗННД.",
+      "explanation": "Art. 28(3) ЗННД: files and documents leave the archive only on a written order of a judge or prosecutor; copies are handed against signature to the official named in the order. Art. 21: nobody has access to the archive without the notary's consent, except by law.",
       "refs": [
-        "znnd:28:3"
+        "znnd:28:3",
+        "znnd:21"
       ]
     },
     {
       "question": "A graphology expert must examine an original signature in a deed. Where?",
       "options": [
-        "The original leaves the office only with the notary, and the examination is in the notary's presence",
-        "The expert takes it home",
-        "The client brings it",
-        "A copy is enough always"
+        "In the office, in the notary's presence",
+        "At the expert's laboratory, with a receipt",
+        "At the court, after the clerk brings it",
+        "Anywhere; a certified copy is enough for the expert"
       ],
       "answer": 0,
-      "explanation": "Art. 28(4) ЗННД.",
+      "explanation": "Art. 28(4) ЗННД: originals leave the office only on an express order under Art. 28(3) and only with the notary personally, and an expert examination is made only in the notary's presence. A copy does not serve for a signature examination.",
       "refs": [
         "znnd:28:4"
       ]
@@ -88,13 +89,13 @@
     {
       "question": "The general register of 2014 is still in the office in 2026. What may the office do?",
       "options": [
-        "Destroy it only after agreement with the State Archives",
-        "Throw it away",
-        "Give it to the client",
-        "It must be kept 100 years"
+        "Destroy it after agreement with the State Archives",
+        "Throw it away; the 10-year period has expired",
+        "Hand it to the Registry Agency for permanent storage",
+        "Keep it; registers are kept for 100 years"
       ],
       "answer": 0,
-      "explanation": "The general register is kept 10 years and then destroyed after agreement with the State Archives.",
+      "explanation": "Art. 28а(2) ЗННД: the general register and the books of item 6 and 7 are kept 10 years and are then destroyed after agreement with the State Archives. The alphabetical index, the register of wills and the books of acts and wills are kept 100 years (Art. 28а(3)).",
       "refs": [
         "znnd:28а:2"
       ]
@@ -102,13 +103,13 @@
     {
       "question": "How long does the office keep the book of notarial wills?",
       "options": [
-        "100 years",
-        "10 years",
-        "5 years",
-        "Forever in the office"
+        "100 years, then to the State Archives",
+        "10 years, then destroyed after agreement",
+        "5 years, as a case file for a deed",
+        "Forever, in the office of the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 28а(3) ЗННД.",
+      "explanation": "Art. 28а(3) ЗННД: the alphabetical index, the register of deposited wills and the books of acts subject to entry and of wills are kept 100 years and then handed to the State Archives for permanent storage.",
       "refs": [
         "znnd:28а:3"
       ]
@@ -117,12 +118,12 @@
       "question": "The notary dies. What happens first to the archive?",
       "options": [
         "It is sealed by order of the president of the district court",
-        "The family takes it home",
-        "The clerk continues to work",
-        "It is sent to the Ministry"
+        "The heirs take it to the family home for safekeeping",
+        "The clerk continues to work with it until a new notary comes",
+        "It is sent to the Ministry of Justice by courier"
       ],
       "answer": 0,
-      "explanation": "Art. 36 ЗННД and Art. 22 of Ordinance No. 32.",
+      "explanation": "Art. 36(2) ЗННД and Art. 22(1) of Ordinance No. 32: the archive is sealed by order of the president of the district court, with a protocol and an inventory. The heirs must ask for the sealing at once (Art. 22(2)–(3)); the president may also order it ex officio (Art. 22(4)).",
       "refs": [
         "znnd:36:2",
         "n32:22:1"
@@ -131,41 +132,43 @@
     {
       "question": "Who receives the archive of a notary who left the profession?",
       "options": [
-        "Another notary of the same district who wants it, or the registration judge",
-        "The Notary Chamber",
-        "The State Archives",
-        "The notary's heirs"
+        "Another notary of the district who wants it, else the registration judge",
+        "The Notary Chamber, which keeps it in its own archive",
+        "The State Archives, as the place of permanent storage of every notarial record",
+        "The heirs of the notary, as the owners of the office"
       ],
       "answer": 0,
-      "explanation": "Art. 23(2) of Ordinance No. 32.",
+      "explanation": "Art. 23(2) of Ordinance No. 32: at the unsealing a representative of the Chamber makes an inventory, and the archive goes to another notary of the same district who wants it, or to the registration judge; Art. 23(3): the Council of Notaries decides when the heirs name no notary.",
       "refs": [
-        "n32:23:2"
+        "n32:23:2",
+        "n32:23:3"
       ]
     },
     {
       "question": "A client asks for a signature certification. May the clerk photocopy the client's ID card \"for the file\"?",
       "options": [
-        "Only if a law provides for it, such as AML due diligence; otherwise record the data",
-        "Yes, always",
-        "No, never",
-        "Only with oral consent"
+        "Only when a law provides for it, such as AML due diligence",
+        "Yes, always; the copy proves the identity check in every case file",
+        "No, never; identity documents are never copied",
+        "Only with the oral consent of the client"
       ],
       "answer": 0,
-      "explanation": "Art. 25г ЗЗЛД.",
+      "explanation": "Art. 25г ЗЗЛД: a controller may copy an identity document only when a law provides for it; Art. 53(1) ЗМИП provides it for due diligence. For a certification without due diligence the office records the data of the document in the endorsement and the register.",
       "refs": [
-        "zzld:25г"
+        "zzld:25г",
+        "zmip:53:1"
       ]
     },
     {
       "question": "A clerk wants to e-mail a list of clients with their identity numbers to a supplier. Is it allowed?",
       "options": [
-        "No; free disclosure of identity numbers is not allowed and secrecy applies",
-        "Yes, if the supplier is trusted",
-        "Yes, after a contract",
-        "Yes, for marketing"
+        "No; identity numbers are not disclosed freely, and secrecy applies",
+        "Yes, if the supplier signs a confidentiality contract with the office first",
+        "Yes, if the supplier is a trusted partner of the office",
+        "Yes, for marketing to the existing clients of the office"
       ],
       "answer": 0,
-      "explanation": "Art. 25ж ЗЗЛД and professional secrecy.",
+      "explanation": "Art. 25ж(1) ЗЗЛД: free access to information with identity numbers is not allowed unless a law provides otherwise; Art. 49 and 26 ЗННД bind the employees to secrecy about the clients. A contract with a supplier does not create a legal ground.",
       "refs": [
         "zzld:25ж",
         "znnd:49"
@@ -174,28 +177,58 @@
     {
       "question": "What do inspectors check in the registers?",
       "options": [
-        "Continuity, daily closing with signature and seal, and no unauthorised corrections",
-        "Only the colours of the covers",
-        "The notary's private accounts",
-        "Nothing"
+        "Continuity, daily closing with signature and seal, no unauthorised corrections",
+        "The colours of the covers and the numbering of the pages",
+        "The private bank accounts of the notary and the salaries of the staff of the office",
+        "Only the number of acts for the year in each of the registers"
       ],
       "answer": 0,
-      "explanation": "Art. 5 of Ordinance No. 32 sets the rules that inspections verify.",
+      "explanation": "Art. 5 of Ordinance No. 32 sets how the registers are kept: continuous numbering, every day's entries closed with the notary's signature and seal, corrections made only in the prescribed way. The inspection under Art. 80б ЗННД verifies these rules.",
       "refs": [
-        "n32:5"
+        "n32:5",
+        "znnd:80б"
       ]
     },
     {
       "question": "An office laptop with scanned identity documents is stolen. What should happen?",
       "options": [
-        "Inform the notary at once; the notary assesses the risk and notifies the data protection authority within 72 hours if needed",
-        "Nothing, it was locked",
-        "Buy a new laptop and forget it",
-        "Tell the clients in a year"
+        "Inform the notary at once; notify the authority within 72 hours if needed",
+        "Nothing; the laptop was locked with a password",
+        "Buy a new laptop and restore the scanned files from the backup of the office server",
+        "Inform the clients at the next visit of each of them"
       ],
       "answer": 0,
-      "explanation": "Personal data breaches must be handled and notified under the GDPR.",
+      "explanation": "Art. 33 of Regulation (EU) 2016/679: the controller notifies the supervisory authority of a personal data breach within 72 hours, unless the breach is unlikely to result in a risk; Art. 34: persons at high risk are informed. The notary, as controller, assesses the risk and decides.",
       "refs": []
+    },
+    {
+      "question": "A case file for a notarial will made in 2019 is in the archive. May the office destroy it in 2026?",
+      "options": [
+        "No; case files for wills are kept 100 years",
+        "Yes; case files are kept 5 years",
+        "Yes, after agreement with the State Archives",
+        "No; wills are kept until the testator dies"
+      ],
+      "answer": 0,
+      "explanation": "Art. 10(5) of Ordinance No. 32: case files for deeds and circumstantial verifications are kept five years and then destroyed after agreement with the State Archives; case files for wills and deposits, and the decisions on circumstantial verifications, are kept one hundred years and then handed to the State Archives.",
+      "refs": [
+        "n32:10:5"
+      ]
+    },
+    {
+      "question": "An heir asks to see the data of the deceased client in the case file. What does the office do?",
+      "options": [
+        "Gives access to the heir, who has a legal interest",
+        "Refuses; the data of a dead person are not protected",
+        "Refuses; only a court may order such access",
+        "Gives access to anyone who asks about a dead person"
+      ],
+      "answer": 0,
+      "explanation": "Art. 25е(2) ЗЗЛД: the controller gives the heirs, and other persons with a legal interest, access to the personal data of a deceased person, including a copy, within the terms of the Regulation; Art. 28а(4) ЗННД: inquiries in case files are given only to the parties, their successors and their representatives.",
+      "refs": [
+        "zzld:25е",
+        "znnd:28а:4"
+      ]
     }
   ]
 }

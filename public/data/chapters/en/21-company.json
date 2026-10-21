@@ -8,8 +8,8 @@
   ],
   "cards": [
     {
-      "front": "Is consent of the general meeting needed for a share transfer between partners?",
-      "back": "**No**; transfers between partners are free (Art. 129(1) ТЗ)."
+      "front": "Partner A sells her share to partner B. Must the general meeting consent?",
+      "back": "**No**: a transfer between partners is free (Art. 129(1) ТЗ). The contract still needs signatures and content certified at the same time (Art. 129(2))."
     },
     {
       "front": "What majority admits a new partner in an OOD?",
@@ -17,15 +17,15 @@
     },
     {
       "front": "What declaration accompanies a share transfer to a third person?",
-      "back": "A declaration by the manager and the transferor that there are **no unpaid wages** and other debts to workers (Art. 129(2) ТЗ)."
+      "back": "A declaration by the manager and the transferor that there are **no unpaid wages**, compensations or social contributions of the workers (Art. 129(2) ТЗ)."
     },
     {
       "front": "In how many copies is a share transfer contract certified?",
       "back": "**Two or more** identical copies; one stays with the notary (Art. 590(4) ГПК)."
     },
     {
-      "front": "Deadline to file a change in the Commercial Register?",
-      "back": "**7 days** from the change (Art. 6 ЗТРРЮЛНЦ)."
+      "front": "What is the deadline to file a change in the Commercial Register?",
+      "back": "**7 days** from the change (Art. 6(2) ЗТРРЮЛНЦ)."
     },
     {
       "front": "What does a new manager present to the register?",
@@ -33,40 +33,40 @@
     },
     {
       "front": "Which OOD decisions need protocols with signatures and content certified?",
-      "back": "Admission/expulsion and consent to transfer; capital; election of manager; real estate (Art. 137(4) ТЗ)."
+      "back": "Admission and expulsion of partners and consent to a transfer; capital changes; election of a manager; real estate (Art. 137(4) ТЗ)."
     },
     {
-      "front": "Can the articles replace the notarial form of such protocols?",
-      "back": "**Yes**, they may provide simple written form (Art. 137(4) ТЗ)."
+      "front": "The articles of an OOD provide written form for decisions. Is a protocol with simple signatures enough to elect a manager?",
+      "back": "**Yes**: the notarial form of Art. 137(4) ТЗ applies unless the articles provide written form."
     },
     {
-      "front": "Fee for certifying signature and content required by the Commerce Act?",
-      "back": "An **ordinary fee**, not proportional (Art. 90(2) ЗННД)."
+      "front": "What is the fee for certifying signature and content required by the Commerce Act?",
+      "back": "An **ordinary fee**, not a proportional one (Art. 90(2) ЗННД)."
     },
     {
-      "front": "When are entered facts deemed known to third persons in good faith?",
-      "back": "From the **entry** (Art. 7 ЗТРРЮЛНЦ)."
+      "front": "A new manager was entered on 1 March. On 10 March a supplier contracted with the old manager, unaware of the change. Is the supplier bound by the entry?",
+      "back": "An entered fact is deemed known from the entry, but for **15 days** it cannot be opposed to a third person who proves that it was impossible to know it (Art. 7(1) ЗТРРЮЛНЦ)."
     },
     {
       "front": "Where is a special pledge over company shares entered?",
-      "back": "In the **Central Register of Special Pledges** (Art. 2 ЗОЗ)."
+      "back": "In the **Central Register of Special Pledges** (Art. 2(1) ЗОЗ)."
     },
     {
       "front": "How does the notary identify the beneficial owner of a company?",
-      "back": "From the register data, and if insufficient or contradictory, a **declaration** by the representative (Art. 59 ЗМИП)."
+      "back": "From the register data; when they are insufficient or contradictory, a **declaration** by the representative (Art. 59(1) ЗМИП)."
     }
   ],
   "quiz": [
     {
       "question": "An OOD has three partners. One sells her share to an outside investor. What is needed besides the contract?",
       "options": [
-        "A general meeting decision admitting the investor, in a protocol with certified signatures and content unless the articles allow written form",
-        "Nothing else",
-        "A court decision",
-        "Consent of the employees"
+        "A decision of the general meeting admitting the investor",
+        "A decision of the manager approving the new partner",
+        "A decision of the district court approving the transfer",
+        "A declaration of the workers that they agree to the transfer"
       ],
       "answer": 0,
-      "explanation": "Transfers to third persons need admission and consent by the general meeting, in the form of Art. 137(4).",
+      "explanation": "Art. 129(1) ТЗ: a transfer to a third person follows the rules for admitting a new partner: a decision of the general meeting (Art. 137(1) item 2) by more than three quarters of the capital (Art. 137(3)), in a protocol with signatures and content certified at the same time, unless the articles provide written form (Art. 137(4)).",
       "refs": [
         "tz:129:1",
         "tz:137:4"
@@ -75,27 +75,28 @@
     {
       "question": "What prevents the registration of a share transfer to a third person?",
       "options": [
-        "Unpaid social contributions found by the registration officer at the NRA",
-        "A bank loan of the company",
-        "A lease of the office",
-        "A pending lawsuit about a supplier"
+        "Unpaid wages or social contributions of the workers",
+        "A bank loan of the company that is not yet due",
+        "A lease of the office that runs for five more years",
+        "A pending lawsuit of the company with a supplier"
       ],
       "answer": 0,
-      "explanation": "Art. 129(2) ТЗ.",
+      "explanation": "Art. 129(1) ТЗ: a transfer to a third person is possible only when there are no unpaid wages, compensations or mandatory social contributions of the workers, including those who left in the last three years; the manager and the transferor declare this (Art. 129(2)). From 2 April 2027 the registration officer also checks it electronically at the NRA.",
       "refs": [
+        "tz:129:1",
         "tz:129:2"
       ]
     },
     {
       "question": "Within how many days must the company file the share transfer with the Commercial Register?",
       "options": [
-        "7 days",
-        "14 days",
-        "1 month",
-        "3 days"
+        "7 days from the change",
+        "14 days from the change",
+        "1 month from the change",
+        "3 days from the change"
       ],
       "answer": 0,
-      "explanation": "Art. 6 ЗТРРЮЛНЦ.",
+      "explanation": "Art. 6(2) ЗТРРЮЛНЦ: a person who must file a fact for entry does so within 7 days of the fact, unless a law sets another term.",
       "refs": [
         "ztr:6"
       ]
@@ -103,13 +104,13 @@
     {
       "question": "The general meeting elected a new manager in a protocol with simple signatures; the articles say nothing about form. What is the status of the election?",
       "options": [
-        "Null; the election needs a protocol with certified signatures and content",
-        "Valid",
-        "Voidable",
-        "Valid after the entry"
+        "Null; the election needs certified signatures and content",
+        "Valid; the form of the protocol is free for an election",
+        "Voidable; a partner may challenge it within 14 days of the meeting",
+        "Valid only after the entry in the Commercial Register"
       ],
       "answer": 0,
-      "explanation": "Art. 137(4)–(5) ТЗ.",
+      "explanation": "Art. 137(4) ТЗ: the election of a manager (Art. 137(1) item 5, first part) is recorded in a protocol with signatures and content certified at the same time, unless the articles provide written form; Art. 137(5): a decision taken in breach of that form is null. The entry does not heal a null decision.",
       "refs": [
         "tz:137:4",
         "tz:137:5"
@@ -119,12 +120,12 @@
       "question": "What does a manager sign at the notary for the Commercial Register?",
       "options": [
         "A consent with a specimen signature, with the signature certified",
-        "A notarial deed",
-        "A will",
-        "A declaration of income"
+        "A declaration of his income, with the signature certified",
+        "A notarial deed of his appointment, before two witnesses and the partners",
+        "A protocol of the general meeting, with his signature only"
       ],
       "answer": 0,
-      "explanation": "Art. 141(3) ТЗ.",
+      "explanation": "Art. 141(3) ТЗ: the name of the manager is entered in the Commercial Register; the manager presents a notarially certified consent with a specimen signature. The election itself is in the protocol of the general meeting (Art. 137(4)).",
       "refs": [
         "tz:141:3"
       ]
@@ -132,27 +133,28 @@
     {
       "question": "A sole trader transfers his business to his new EOOD. What form does the contract need?",
       "options": [
-        "Written with signatures and content certified at the same time",
-        "A notarial deed",
-        "Simple written form",
-        "An oral agreement"
+        "Written, with signatures and content certified at the same time",
+        "A notarial deed, entered in the property register",
+        "Simple written form, filed with the Commercial Register within 7 days",
+        "Written form with the signatures certified only"
       ],
       "answer": 0,
-      "explanation": "Art. 15(1) ТЗ.",
+      "explanation": "Art. 15(1) ТЗ: an enterprise is transferred by a written contract with signatures and content certified at the same time; the transfer is entered in the Commercial Register in the files of both parties (Art. 16(1)), and in the registry office when real estate is included (Art. 16(5)).",
       "refs": [
-        "tz:15:1"
+        "tz:15:1",
+        "tz:16"
       ]
     },
     {
       "question": "How does the notary charge for a share transfer contract that needs signature and content certified at the same time?",
       "options": [
         "An ordinary fee under section I of the tariff",
-        "A proportional fee on the price",
-        "No fee",
-        "A fee set by the Registry Agency"
+        "A proportional fee under item 8 on the price",
+        "A proportional fee under item 9 on the capital",
+        "A fee set by the tariff of the Registry Agency"
       ],
       "answer": 0,
-      "explanation": "Art. 90(2) ЗННД.",
+      "explanation": "Art. 90(2) ЗННД: for the certification of the content of a document that the Commerce Act or the Special Pledges Act requires together with the signatures, an ordinary notarial fee is due, not a proportional one on the material interest.",
       "refs": [
         "znnd:90:2"
       ]
@@ -160,13 +162,13 @@
     {
       "question": "The register shows a beneficial owner, but the company says the owner changed last month. What does the notary do?",
       "options": [
-        "Asks for a declaration by the legal representative and documents",
-        "Ignores the difference",
-        "Refuses all acts forever",
-        "Relies on what the client says orally"
+        "Asks for a declaration by the legal representative, with documents",
+        "Relies on the register; it is the only source the law allows",
+        "Refuses the act until the company corrects the register and the data",
+        "Relies on the oral statement of the client, noted in the file"
       ],
       "answer": 0,
-      "explanation": "When the information is contradictory, a declaration by the representative is required.",
+      "explanation": "Art. 59(1) ЗМИП: the beneficial owner is identified from the register (item 1) and from documents (item 2); when the information is insufficient or contradictory, a declaration by the legal representative or agent is required (item 3).",
       "refs": [
         "zmip:59:1"
       ]
@@ -174,13 +176,13 @@
     {
       "question": "May a mayor in a village certify the signatures on a share transfer?",
       "options": [
-        "No",
-        "Yes",
-        "Yes, if there is no notary",
-        "Yes, with the Notary Chamber's consent"
+        "No; mayors may not certify such signatures",
+        "Yes; mayors certify signatures like a notary",
+        "Yes, if the village has no notary and no court",
+        "Yes, with the consent of the Notary Chamber"
       ],
       "answer": 0,
-      "explanation": "Art. 83(2) ЗННД.",
+      "explanation": "Art. 83(2) ЗННД: the mayors and municipal officials of Art. 83(1) may not certify signatures on private documents in the cases of Art. 15(1), 129(2) and 137(6) ТЗ: the transfer of an enterprise, the transfer of shares and the power to vote in a general meeting. The absence of a notary does not change this.",
       "refs": [
         "znnd:83:2"
       ]
@@ -189,14 +191,43 @@
       "question": "A company pledges its shares in a subsidiary to a bank. Where is the pledge entered?",
       "options": [
         "In the Central Register of Special Pledges",
-        "In the property register",
-        "With the notary only",
-        "Nowhere"
+        "In the property register at the registry office",
+        "In the notary's book of copies only",
+        "In the Commercial Register, in the file of the bank"
       ],
       "answer": 0,
-      "explanation": "Art. 2(1) ЗОЗ.",
+      "explanation": "Art. 2(1) ЗОЗ: a special pledge is created by its entry in the Central Register of Special Pledges on the basis of a pledge contract; the contract is in writing, in the cases provided by the law with notarially certified signatures (Art. 2(2)).",
       "refs": [
         "zoz:2:1"
+      ]
+    },
+    {
+      "question": "The articles of an OOD provide written form for decisions of the general meeting. The partners elect a manager in a protocol with simple signatures. Is the election valid?",
+      "options": [
+        "Yes; the articles may replace the notarial form with written form",
+        "No; the election of a manager always needs certified signatures",
+        "No; the articles cannot change the form that the law prescribes for it",
+        "Yes, but only if the protocol is entered in the Chamber's system"
+      ],
+      "answer": 0,
+      "explanation": "Art. 137(4) ТЗ: the protocol with signatures and content certified at the same time is required \"unless the articles provide written form\". With such a clause a protocol with simple signatures is valid; the Chamber's system receives only certified documents (Art. 9а Наредба № 32).",
+      "refs": [
+        "tz:137:4"
+      ]
+    },
+    {
+      "question": "A share transfer contract was certified by a notary who did not enter it in the information system of the Chamber. What does the registration officer do?",
+      "options": [
+        "Refuses the entry; the document must be in the information system",
+        "Enters the transfer; the entry in the system is the notary's duty only",
+        "Enters the transfer after a declaration of the manager about the contract",
+        "Sends the contract back to the notary for a second certification"
+      ],
+      "answer": 0,
+      "explanation": "Art. 21 item 9 ЗТРРЮЛНЦ: the registration officer checks that documents which the law requires with a certified signature, or signature and content, are entered in the information system of the Notary Chamber and match the entered data. The notary enters the extract under Art. 9а item 4 of Ordinance No. 32; the company asks the notary to do so.",
+      "refs": [
+        "ztr:21",
+        "n32:9а"
       ]
     }
   ]

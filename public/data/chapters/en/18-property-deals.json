@@ -13,44 +13,44 @@
       "back": "Gifts between relatives in the **direct line** and between **spouses** (Art. 44(6) ЗМДТ)."
     },
     {
-      "front": "Gift tax between siblings?",
-      "back": "**0.4–0.8%**, set by the municipality (Art. 47(1) ЗМДТ)."
+      "front": "What is the gift tax between siblings?",
+      "back": "**0.4–0.8%**, set by the municipal council (Art. 47(1) ЗМДТ)."
     },
     {
-      "front": "Who accepts a gift that a mother makes to her minor child?",
-      "back": "The **other parent**, or a **special representative** (Art. 38 ЗЗД; Art. 129(2) СК)."
+      "front": "A mother donates a flat to her 10-year-old daughter. Who accepts the gift for the child?",
+      "back": "The **father**, as the other parent; if he cannot act, a **special representative** (Art. 38 ЗЗД; Art. 129(2) СК)."
     },
     {
-      "front": "What happens to a reserved right of use when the holder dies?",
-      "back": "It **ends by law** (Art. 59 ЗС)."
+      "front": "A father gave a flat to his son and kept the right of use. The father dies. What happens to the right?",
+      "back": "It **ends by law** (Art. 59 ЗС). In practice the son presents the death certificate to the registry office for a note."
     },
     {
       "front": "On which property is the local tax due in an exchange?",
-      "back": "On the property of **higher value** (Art. 47(2) ЗМДТ)."
+      "back": "On the property of **higher value** (Art. 47(2) ЗМДТ); the acquirer of that property pays it (Art. 45(1))."
     },
     {
       "front": "How is a transfer against maintenance and care terminated?",
       "back": "Only **through a court** (Art. 87 ЗЗД)."
     },
     {
-      "front": "Material interest for a building right?",
+      "front": "What is the material interest for a building right?",
       "back": "**90%** of the market price of the land (Art. 96(2) ЗННД)."
     },
     {
-      "front": "Material interest for a right of use without a term?",
-      "back": "Market rent for **3 years** (Art. 96(2) ЗННД)."
+      "front": "What is the material interest for a right of use without a term?",
+      "back": "The market rent for **3 years** (Art. 96(2) ЗННД)."
     },
     {
       "front": "When is a voluntary partition void?",
       "back": "When a **co-heir did not take part** (Art. 75(2) ЗН)."
     },
     {
-      "front": "Local tax in a partition?",
+      "front": "What is the local tax in a partition?",
       "back": "Only on the **increase** of a co-owner's share (Art. 47(3) ЗМДТ)."
     },
     {
-      "front": "What makes a mortgage invalid under Art. 170 ЗЗД?",
-      "back": "**Uncertainty** about the creditor, owner, debtor, the property, the claim or the amount."
+      "front": "A mortgage deed names the loan but not the secured amount. Is the mortgage valid?",
+      "back": "**No**: uncertainty about the creditor, the owner, the debtor, the property, the claim or the amount makes it invalid (Art. 170 ЗЗД)."
     },
     {
       "front": "Is a clause \"the bank becomes owner if the loan is not paid\" valid?",
@@ -58,52 +58,39 @@
     },
     {
       "front": "Who has a statutory mortgage?",
-      "back": "The **transferor** for claims under the contract (e.g. unpaid price), and a **co-sharer** owed compensation (Art. 168 ЗЗД)."
+      "back": "The **transferor** for claims under the contract (for example the unpaid price), and a **co-sharer** owed compensation (Art. 168 ЗЗД)."
     },
     {
       "front": "What form does the transfer of a mortgage-secured claim need?",
-      "back": "Written with **notarially certified signatures**, and **entry** (Art. 171 ЗЗД)."
+      "back": "Written form with **notarially certified signatures**, and **entry** (Art. 171 ЗЗД)."
     }
   ],
   "quiz": [
     {
-      "question": "A grandmother donates a flat to her grandson. What local tax is due?",
-      "options": [
-        "None; gifts in the direct line are exempt",
-        "0.4–0.8%",
-        "3.3–6.6%",
-        "0.1–3%"
-      ],
-      "answer": 0,
-      "explanation": "Grandparents and grandchildren are relatives in the direct line.",
-      "refs": [
-        "zmdt:44:6"
-      ]
-    },
-    {
       "question": "An aunt donates a house to her nephew. Which rate range applies?",
       "options": [
-        "0.4–0.8%",
-        "Exempt",
-        "3.3–6.6%",
-        "0.1–3%"
+        "0.4–0.8%, as for siblings and their children",
+        "Exempt, as for relatives in the direct line",
+        "3.3–6.6%, as for other persons",
+        "0.1–3%, as for an onerous acquisition"
       ],
       "answer": 0,
-      "explanation": "Siblings and their children: 0.4–0.8%. A nephew is the child of the aunt's sibling.",
+      "explanation": "Art. 47(1) item 1 ЗМДТ: 0.4–0.8% for gifts between siblings and their children; a nephew is the child of the aunt's sibling. The direct line (Art. 44(6)) covers parents, children and grandchildren, not aunts; 3.3–6.6% is the rate for all other persons (item 2).",
       "refs": [
-        "zmdt:47:1"
+        "zmdt:47:1",
+        "zmdt:44:6"
       ]
     },
     {
       "question": "A father donates a flat to his 8-year-old son. Who signs as the recipient for the son?",
       "options": [
         "The mother, or a special representative",
-        "The father, for both sides",
+        "The father, for both sides of the deed",
         "Nobody; a child cannot receive a gift",
-        "The grandmother"
+        "The grandmother, as the closest relative"
       ],
       "answer": 0,
-      "explanation": "A representative may not contract with himself; the other parent or a special representative accepts.",
+      "explanation": "Art. 38 ЗЗД: a representative may not contract with himself, so the father cannot accept for the son. Art. 129(2) СК: the other parent represents the child; when both parents are prevented, a special representative is appointed. A child may receive a gift.",
       "refs": [
         "zzd:38",
         "sk:129:2"
@@ -112,27 +99,42 @@
     {
       "question": "In an exchange, Ana gives a flat worth 80,000 € and receives a house worth 120,000 € from Boris. What is the base for the notarial fee?",
       "options": [
-        "120,000 €",
-        "80,000 €",
-        "200,000 €",
-        "40,000 €"
+        "120,000 €, the dearer property",
+        "80,000 €, the cheaper property",
+        "200,000 €, the two together",
+        "40,000 €, the difference"
       ],
       "answer": 0,
-      "explanation": "The market price of the more valuable property.",
+      "explanation": "Art. 96(1) item 2 ЗННД: in an exchange the certified material interest is the market price of the dearer property. The two values are not added, and the difference is not the base.",
       "refs": [
         "znnd:96:1"
       ]
     },
     {
-      "question": "The transferee under a care contract stopped visiting the transferor two years ago. What can the transferor do?",
+      "question": "In the same exchange, who pays the local tax, and on what?",
       "options": [
-        "Sue to terminate the contract",
-        "Sign a termination at the notary alone",
-        "Send a letter; the contract ends automatically",
-        "Nothing"
+        "Ana, on the house worth 120,000 €, unless agreed otherwise",
+        "Boris, on the flat worth 80,000 €, unless agreed otherwise",
+        "Each party, on the property that the party receives",
+        "Ana and Boris equally, on the two properties together"
       ],
       "answer": 0,
-      "explanation": "Contracts transferring real rights in real estate are terminated only by a court.",
+      "explanation": "Art. 47(2) ЗМДТ: in an exchange the tax is due on the value of the property of higher value; Art. 45(1): it is paid by the person who acquires the property of higher value, unless the parties agree otherwise. Ana acquires the house.",
+      "refs": [
+        "zmdt:47:2",
+        "zmdt:45:1"
+      ]
+    },
+    {
+      "question": "The transferee under a care contract stopped visiting the transferor two years ago. What can the transferor do?",
+      "options": [
+        "Sue for the termination of the contract",
+        "Sign a termination alone before the notary",
+        "Send a letter; the contract then ends by itself",
+        "Nothing; the property was transferred for good"
+      ],
+      "answer": 0,
+      "explanation": "Art. 87(3) ЗЗД: a contract that transfers real rights in real estate is terminated for non-performance only through a court. A letter or a unilateral statement before the notary does not end it.",
       "refs": [
         "zzd:87"
       ]
@@ -140,13 +142,13 @@
     {
       "question": "The land is worth 200,000 €. A building right is granted over the whole plot. What is the material interest?",
       "options": [
-        "180,000 €",
-        "200,000 €",
-        "100,000 €",
-        "20,000 €"
+        "180,000 €, 90% of the land",
+        "200,000 €, the whole land",
+        "100,000 €, half of the land",
+        "20,000 €, 10% of the land"
       ],
       "answer": 0,
-      "explanation": "90% of the market price of the land.",
+      "explanation": "Art. 96(2) item 1 ЗННД: for a building right the certified material interest is 90% of the market price of the land, or of the part of it over which the right is granted.",
       "refs": [
         "znnd:96:2"
       ]
@@ -155,12 +157,12 @@
       "question": "Three heirs partition a house and a flat. One heir, abroad, was not involved. What is the status?",
       "options": [
         "The partition is entirely void",
-        "Valid for the three",
-        "Valid if the absent heir agrees later",
-        "Voidable within one year"
+        "The partition is valid for the three",
+        "The partition is valid, if the absent heir agrees later",
+        "The partition is voidable within one year"
       ],
       "answer": 0,
-      "explanation": "Art. 75(2) ЗН.",
+      "explanation": "Art. 75(2) ЗН: a partition made without the participation of a co-heir is entirely void. A later consent does not repair it; the heirs make a new partition with all co-heirs.",
       "refs": [
         "zn:75:2"
       ]
@@ -170,11 +172,11 @@
       "options": [
         "On the increase from 1/2 to 2/3",
         "On the whole property",
-        "On Ivan's whole new share",
-        "No tax"
+        "On Ivan's whole new share of 2/3",
+        "On nothing; a partition is tax-free"
       ],
       "answer": 0,
-      "explanation": "The tax is calculated on the excess when a share increases.",
+      "explanation": "Art. 47(3) ЗМДТ: in a partition, when the share held before the partition increases, the tax is charged on the excess. The share Ivan already had is not taxed.",
       "refs": [
         "zmdt:47:3"
       ]
@@ -184,26 +186,26 @@
       "options": [
         "The mortgage is invalid",
         "The full value of the property is secured",
-        "The bank may fill it in later",
-        "Nothing"
+        "The bank may fill in the amount later",
+        "The mortgage secures the loan without interest"
       ],
       "answer": 0,
-      "explanation": "Uncertainty about the amount makes the mortgage invalid.",
+      "explanation": "Art. 170 ЗЗД: a mortgage is invalid when there is uncertainty about the creditor, the owner, the debtor, the property, the claim or the amount; the mortgage deed must state the amount of the claim (Art. 167(2)). Nobody can fill it in later.",
       "refs": [
         "zzd:170",
         "zzd:166"
       ]
     },
     {
-      "question": "Which clause is invalid in a mortgage deed?",
+      "question": "Which clause in a draft mortgage deed is invalid?",
       "options": [
-        "If the loan is not repaid, the property passes to the creditor",
-        "The interest is 5% per year",
-        "The mortgage secures the loan and the interest",
-        "The owner must insure the property"
+        "If the loan is not repaid, the bank becomes owner of the flat",
+        "If the loan is not repaid, the whole loan becomes due at once",
+        "The owner insures the flat and assigns the insurance to the bank",
+        "The mortgage secures the principal, the interest and the costs"
       ],
       "answer": 0,
-      "explanation": "Art. 152 ЗЗД.",
+      "explanation": "Art. 152 ЗЗД: an agreement made in advance that the creditor becomes owner of the property on non-performance, or any other way of satisfaction that differs from the law, is invalid. An early-repayment clause, an insurance clause and the scope of the security are valid.",
       "refs": [
         "zzd:152"
       ]
@@ -211,13 +213,13 @@
     {
       "question": "A seller agreed to receive the price in instalments after the deed. What protects the seller by law?",
       "options": [
-        "A statutory mortgage over the sold property, entered at the seller's request",
-        "Nothing",
-        "A pledge on the buyer's car",
-        "The notary's guarantee"
+        "A statutory mortgage over the sold property, entered on request",
+        "Nothing; the seller can only sue for the unpaid instalments",
+        "A pledge on the movables of the buyer, entered on request",
+        "A guarantee of the notary for the payment of the price"
       ],
       "answer": 0,
-      "explanation": "Art. 168 ЗЗД gives the transferor a statutory mortgage for claims under the contract.",
+      "explanation": "Art. 168 ЗЗД: the transferor of a property has a statutory mortgage over it for the claims under the contract, such as the unpaid price; it is entered at the request of the transferor. The notary gives no guarantee.",
       "refs": [
         "zzd:168"
       ]
@@ -225,13 +227,13 @@
     {
       "question": "A bank sold a mortgage-secured loan to another bank. What is required for the transfer to be effective?",
       "options": [
-        "Written form with notarially certified signatures and entry in the property register",
-        "Only a notice to the borrower",
-        "A new mortgage deed",
-        "Nothing"
+        "Written form with certified signatures, and entry in the register",
+        "Only a notice of the transfer to the borrower, in writing",
+        "A new mortgage deed between the borrower and the new bank",
+        "Nothing; the mortgage follows the claim without formalities"
       ],
       "answer": 0,
-      "explanation": "Art. 171 ЗЗД.",
+      "explanation": "Art. 171 ЗЗД: the transfer of a claim secured by a mortgage is made in writing with notarially certified signatures and is entered in the property register; otherwise it has no effect for the mortgage. A new mortgage deed is not needed.",
       "refs": [
         "zzd:171"
       ]

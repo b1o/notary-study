@@ -14,46 +14,46 @@
     },
     {
       "front": "What must a person do for a signature certification?",
-      "back": "**Appear personally** and sign before the notary or confirm an existing signature (Art. 589(2) ГПК)."
+      "back": "**Appear personally** and sign before the notary, or confirm a signature already made (Art. 589(2) ГПК)."
     },
     {
-      "front": "What is added when the document is for rights in real estate?",
-      "back": "The person **writes the full name** by hand before the notary (Art. 589(2) ГПК); fee 10 лв. per signature."
+      "front": "A client signed a declaration for a real estate deal at home. What happens at the office?",
+      "back": "She **writes her full name** by hand and **confirms** the signature before the notary (Art. 589(2) ГПК); fee 10 лв. = 5.11 € per signature (item 5 ТНТ)."
     },
     {
       "front": "How many copies for a simultaneous certification of signature and content?",
       "back": "**Two or more** identical copies; one is filed in a special book (Art. 590(4) ГПК)."
     },
     {
-      "front": "Name three documents that need signature and content at the same time.",
-      "back": "Power of attorney for a notarial-deed deal; transfer of company shares; transfer of an enterprise; marriage contract (Art. 37 ЗЗД, 129 and 15 ТЗ, 39 СК)."
+      "front": "Which documents need signature and content certified at the same time?",
+      "back": "A power of attorney for a deal in notarial form; a transfer of company shares; a transfer of an enterprise; a marriage contract (Art. 37 ЗЗД, 129 and 15 ТЗ, 39 СК)."
     },
     {
-      "front": "What three things does a copy endorsement state?",
-      "back": "Who presented the document; whether copied from the original or another copy; any deletions, additions, corrections or peculiarities (Art. 591(1) ГПК)."
+      "front": "A client presents a certified copy of a diploma and asks for a copy of it. What does the endorsement say?",
+      "back": "Who presented the document and that the copy was made **from another copy**, not from the original; any corrections or peculiarities (Art. 591(1) ГПК)."
     },
     {
-      "front": "What does a date certification achieve?",
-      "back": "A **certain date** towards third persons (Art. 589(1) ГПК)."
+      "front": "A lease has a certified date. The flat is sold a year later. Does the lease bind the buyer?",
+      "back": "**Yes**, until its term, but for no more than **one year** after the transfer (Art. 237 ЗЗД). The certified date is the certain date (Art. 589(1) ГПК)."
     },
     {
       "front": "Where are date and signature certifications recorded?",
       "back": "In a special register: the **general register** (Art. 590(2) ГПК; Art. 7 Наредба № 32)."
     },
     {
-      "front": "What happens to the private document after certification?",
+      "front": "What happens to the private document after the certification?",
       "back": "It is **returned** to the person who presented it (Art. 590(3) ГПК)."
     },
     {
-      "front": "Fee for the first signature without material interest?",
-      "back": "5 лв. = **2.56 €**; each next signature 2 лв. (item 5 ТНТ)."
+      "front": "What is the fee for the first signature without material interest?",
+      "back": "5 лв. = **2.56 €**; each next signature 2 лв. = 1.02 € (item 5 ТНТ)."
     },
     {
-      "front": "Fee for certifying a one-page copy?",
-      "back": "3 лв. = **1.53 €** (item 6 ТНТ)."
+      "front": "What is the fee for certifying a one-page copy?",
+      "back": "3 лв. = **1.53 €**; each next page 2 лв. (item 6 ТНТ)."
     },
     {
-      "front": "What happens if the person did not appear personally for a signature certification?",
+      "front": "What happens when the person did not appear personally for a signature certification?",
       "back": "The certification is **null** (Art. 576 ГПК)."
     }
   ],
@@ -61,13 +61,13 @@
     {
       "question": "A client brings a power of attorney to sell her flat, already signed at home. What does the notary do?",
       "options": [
-        "Certifies signature and content at the same time; the client writes her full name and confirms the signature before the notary",
-        "Certifies only the signature",
-        "Certifies only the content",
-        "Refuses because it was signed at home"
+        "Certifies signature and content together; she writes her full name and confirms the signature",
+        "Certifies the signature only; she writes her full name and confirms the signature made at home",
+        "Certifies the content only; the signature made at home is enough for the document",
+        "Refuses the document; a power of attorney must be signed before the notary"
       ],
       "answer": 0,
-      "explanation": "A power of attorney for a deal in notarial form needs signature and content certified at the same time; for real estate the full name is written before the notary.",
+      "explanation": "A sale of real estate needs a notarial deed, so the power of attorney needs signature and content certified at the same time (Art. 37 ЗЗД). The document concerns rights in real estate: she writes her full name by hand and confirms the signature made before (Art. 589(2) ГПК). A signature made at home is confirmed, not refused.",
       "refs": [
         "zzd:37",
         "gpk:589:2"
@@ -76,56 +76,59 @@
     {
       "question": "How many copies of a share transfer contract does the office need?",
       "options": [
-        "Two or more identical copies, one stays in the archive",
-        "One original",
-        "Five copies",
-        "Only a copy for the archive"
+        "Two or more identical copies; one stays in the special book",
+        "One original; the office keeps a photocopy of it in the book",
+        "Five identical copies, as for a deed that is subject to entry",
+        "One copy; the notary files the original in the special book"
       ],
       "answer": 0,
-      "explanation": "Art. 590(4) ГПК.",
+      "explanation": "Art. 590(4) ГПК: for a simultaneous certification of signature and content the applicant presents two or more identical copies; one is filed in the special book, the others go back to the applicant. Five copies is the rule for a deed for entry (Art. 18(1) Наредба № 32); the original is never kept (Art. 590(3)).",
       "refs": [
-        "gpk:590:4"
+        "gpk:590:4",
+        "gpk:590:3"
       ]
     },
     {
       "question": "A husband wants to certify his wife's signature because she is at home ill. What is the answer?",
       "options": [
-        "No; she must appear personally, or the notary may visit her for a good reason",
-        "Yes, if he brings her ID card",
-        "Yes, with a phone call",
-        "Yes, if she signed in advance"
+        "No; she appears personally, or the notary visits her for a good reason",
+        "Yes, if he brings her identity card and a note from her doctor",
+        "Yes, if she confirms the signature by telephone during the visit",
+        "Yes, if she signed the document before and he confirms the signature for her"
       ],
       "answer": 0,
-      "explanation": "Personal appearance is required; acts other than deeds for entry can be done outside the office for good reasons.",
+      "explanation": "Art. 589(2) ГПК: the persons whose signatures are certified appear personally and sign, or confirm their signatures, before the notary; nobody confirms for them. For a good reason the notary performs an act that is not subject to entry outside the office (Art. 573(3)). A certification without personal appearance is null (Art. 576).",
       "refs": [
         "gpk:589:2",
-        "gpk:573:3"
+        "gpk:573:3",
+        "gpk:576"
       ]
     },
     {
-      "question": "What must a copy endorsement state?",
+      "question": "A client presents a notarised copy of a diploma and asks for a copy of it. What does the endorsement say about the source?",
       "options": [
-        "Who presented the document, whether it is copied from the original or a copy, and any corrections or peculiarities",
-        "Only the number of pages",
-        "The value of the document",
-        "Nothing beyond the signature and seal"
+        "That the copy was made from another copy, not from the original",
+        "That the copy was made from the original diploma presented by the client",
+        "Nothing about the source; only who presented the document",
+        "That the copy has the same evidential force as the diploma"
       ],
       "answer": 0,
-      "explanation": "Art. 591(1) ГПК.",
+      "explanation": "Art. 591(1) ГПК: the endorsement states who presented the document and whether the copy was made from the original or from another copy, and notes any deletions, additions or corrections. Only an officially certified copy of an official document has the force of the original (Art. 179(2)).",
       "refs": [
-        "gpk:591:1"
+        "gpk:591:1",
+        "gpk:179:2"
       ]
     },
     {
       "question": "A lease contract will be used against a future buyer. Which certification gives it a certain date?",
       "options": [
-        "Certification of the date",
-        "Certification of a copy",
-        "Apostille",
-        "A stamp of the landlord"
+        "Certification of the date of presentation",
+        "Certification of a copy of the contract",
+        "An apostille of the Ministry of Justice on it",
+        "A stamp of the landlord's company"
       ],
       "answer": 0,
-      "explanation": "Date certification gives a certain date towards third persons.",
+      "explanation": "Art. 589(1) ГПК: a private document is presented to certify the date of its presentation; the certified date is a certain date towards third persons, and a lease with a certain date binds the buyer for up to one year after the transfer (Art. 237 ЗЗД). A copy certification proves only that the copy matches.",
       "refs": [
         "gpk:589:1",
         "zzd:237"
@@ -134,27 +137,29 @@
     {
       "question": "A client asks to certify a signature on a blank sheet \"to fill in later\". What do you do?",
       "options": [
-        "Refuse; the notary certifies only complete documents",
-        "Certify it with a warning",
-        "Certify it if the client is known",
-        "Certify only the date"
+        "Refuse; the certification covers a document with content",
+        "Certify it, with a note that the text will be added later",
+        "Certify it, if the client is known to the office personally",
+        "Certify only the date of presentation of the blank sheet"
       ],
       "answer": 0,
-      "explanation": "The notary must check the content for legality; a blank sheet has no content to check and invites abuse.",
+      "explanation": "Art. 590(1) ГПК applies Art. 580 to the endorsement, and item 4 of Art. 580 is the content; the notary also checks the content for legality (Art. 574). A blank sheet has no content to check, so none of the certifications is possible.",
       "refs": [
+        "gpk:590:1",
+        "gpk:580",
         "gpk:574"
       ]
     },
     {
       "question": "What is the fee for certifying two signatures on a declaration without material interest (no real estate)?",
       "options": [
-        "7 лв. (3.58 €): 5 for the first and 2 for the second",
-        "10 лв.",
-        "20 лв.",
-        "4 лв."
+        "7 лв. (3.58 €)",
+        "10 лв. (5.11 €)",
+        "20 лв. (10.23 €)",
+        "4 лв. (2.05 €)"
       ],
       "answer": 0,
-      "explanation": "Item 5: 5 лв. for the first signature and 2 лв. for each next one.",
+      "explanation": "Item 5 of the tariff: 5 лв. for the first signature (letter \"а\") and 2 лв. for each next signature (letter \"в\"): 7 лв. The 10 лв. rate is the fee per signature on a document for rights in real estate (letter \"г\").",
       "refs": [
         "tarifa:5"
       ]
@@ -163,71 +168,76 @@
       "question": "What is the fee per signature on a declaration that will be used for a real estate deal?",
       "options": [
         "10 лв. (5.11 €) per signature",
-        "5 лв. for the first and 2 for the next",
-        "30 лв.",
-        "Free"
+        "5 лв. (2.56 €) per signature",
+        "30 лв. (15.34 €) per signature",
+        "2 лв. (1.02 €) per signature"
       ],
       "answer": 0,
-      "explanation": "Item 5, letter \"г\" of the tariff.",
+      "explanation": "Item 5, letter \"г\" of the tariff: 10 лв. for each signature on a document that will be used to create, change or end rights in real estate. 5 лв. is the first signature without material interest; 30 лв. is the minimum of items 9 and 10 for contracts with a material interest.",
       "refs": [
-        "tarifa:5"
+        "tarifa:5",
+        "tarifa:10"
       ]
     },
     {
       "question": "After certifying a power of attorney for actions before a bank, what must the office also do?",
       "options": [
-        "Enter an extract in the information system of the Notary Chamber at once",
-        "Send it to the bank",
-        "Keep the original",
-        "Send it to the Registry Agency"
+        "Enter an extract in the information system of the Chamber at once",
+        "Send a copy of the power of attorney to the bank that it names",
+        "Keep the original in the book of invitations, protests and copies",
+        "Send an extract to the Registry Agency on the same working day"
       ],
       "answer": 0,
-      "explanation": "Art. 9а, item 5 of Ordinance No. 32.",
+      "explanation": "Art. 9а, item 5 of Ordinance No. 32: an extract of a power of attorney for actions before a bank is entered and sent at once to the information system of the Notary Chamber. The document itself goes back to the person who presented it (Art. 590(3) ГПК).",
       "refs": [
-        "n32:9а"
+        "n32:9а",
+        "gpk:590:3"
       ]
     },
     {
       "question": "Which certified copy has the same evidential force as the original?",
       "options": [
-        "An officially certified copy of an official document",
-        "Any copy certified by a notary",
-        "A copy of a private contract",
-        "A photograph of the document"
+        "A certified copy of an official document",
+        "A certified copy of a private contract",
+        "Any copy that a notary has certified",
+        "A photograph of the document on a telephone"
       ],
       "answer": 0,
-      "explanation": "Art. 179(2) ГПК.",
+      "explanation": "Art. 179(2) ГПК: officially certified copies of official documents have the same evidential force as the originals. A certified copy of a private document proves only that the copy matches the document presented (Art. 591(1)).",
       "refs": [
-        "gpk:179:2"
+        "gpk:179:2",
+        "gpk:591:1"
       ]
     },
     {
       "question": "A client presents an English contract that will not be entered. The notary does not read English. What is the correct approach?",
       "options": [
-        "Use an interpreter or a translation so the notary understands the content",
-        "Certify without reading",
-        "Refuse all foreign documents",
-        "Ask the client to summarise it"
+        "Appoint an interpreter, or ask for a translation of the contract",
+        "Certify only the signature, without reading the text of the contract",
+        "Certify it on the declaration of the translator that the client brings",
+        "Certify it after the client summarises the content in Bulgarian"
       ],
       "answer": 0,
-      "explanation": "Art. 589(3) applies Art. 582 accordingly; the notary must be able to check legality.",
+      "explanation": "Art. 589(3) ГПК applies Art. 582: when the notary does not know the language, an interpreter is appointed; in practice the office asks for a translation. The notary must understand the content to check its legality (Art. 574); a summary or a declaration of a translator does not replace that check.",
       "refs": [
         "gpk:589:3",
+        "gpk:582",
         "gpk:574"
       ]
     },
     {
       "question": "A power of attorney had its signature certified in Varna on Monday and its content in Sofia on Friday. Does it meet Art. 37 ЗЗД for a sale of real estate?",
       "options": [
-        "No, signature and content must be certified at the same time",
-        "Yes, both are certified",
-        "Yes, if both notaries agree",
-        "Yes, within one week"
+        "No; signature and content are certified at the same time",
+        "Yes; both certifications were made by notaries",
+        "Yes, if the two notaries enter it in their registers",
+        "Yes, if both certifications are made within the same week"
       ],
       "answer": 0,
-      "explanation": "Art. 37 requires certification of signature and content performed at the same time.",
+      "explanation": "Art. 37 ЗЗД requires a certification of the signature and of the content performed at the same time: one endorsement, one notary, one day (Art. 590(4) ГПК). Two certifications on different days by different notaries do not meet the form.",
       "refs": [
-        "zzd:37"
+        "zzd:37",
+        "gpk:590:4"
       ]
     }
   ]
