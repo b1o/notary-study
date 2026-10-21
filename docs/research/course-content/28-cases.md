@@ -17,6 +17,7 @@ Sources checked: all 119 citations of the chapter, printed from the imported act
 | 9 | Introduction: "Use the law library, the checklists and the fee calculator". The app has a fees page with a calculator (`src/app/features/fees`), so the statement stands. | App | Keep. |
 | 10 | Case 6, point 3 ("Many offices also ask … certificates") and case 5, point 1 ("Prepare three identical copies") are practice and read as practice. | — | Keep. |
 | 11 | The "What all eight files share" table and the model solutions match the rules verified in chapters 7–25. | — | Keep. |
+| 12 | Case 6, point 7 (from the polish-pass session, 21 October 2026): the tax on acquisition by prescription is the tax on gratuitous acquisition "в размер на данък дарение" (Art. 44(2)–(3)); the rates of Art. 47(1) apply, and a prescription has no donor, so item 2 applies: 3.3–6.6% between other persons. Sofia's ordinance sets 5% (Art. 35(1)(б), sofia.obshtini.bg, 2022 edition) and has no separate rate for prescription. The lesson said "sets no separate rate". Agreed after reading Art. 44 and 47. | ЗМДТ Art. 44(2)–(3), 47(1); Sofia ordinance | Corrected in pass 2 (both languages); same in chapter 24. |
 
 ## Bulgarian version
 

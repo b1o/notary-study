@@ -24,14 +24,14 @@ A contract without the form that the law requires is void ([[zzd:26:1]]).
 
 Parties sometimes write a different deal from the real one: a "sale" that is really a gift, or a sale at a low price to pay less tax and fees. The law calls this a **sham** contract ({{привидна сделка}}). The sham contract is void ([[zzd:26:1]]). The hidden contract applies if it meets its own conditions of validity ([[zzd:17]]).
 
-To limit this practice, the parties to every onerous deal with real estate **declare in the deed that the price is the payment actually agreed** ([[znnd:25:9]]). A false declaration before the notary is a crime under the Criminal Code. The notary must explain this to the parties.
+To limit this practice, the parties to every onerous deal with real estate **declare in the deed that the price is the payment actually agreed** ([[znnd:25:9]]). A false declaration before the notary is a crime under Art. 313 of the Criminal Code. The notary must explain this to the parties.
 
 > [!warn] A low price does not save money in the end
 > Fees and the local tax are calculated on the higher of the price and the tax assessment anyway ([[znnd:96:3]], [[zmdt:46:2]]). A false low price creates risk for the buyer: if the deal is later annulled, the buyer can recover only the price in the deed ([[zzd:34]]).
 
 ## Creditors who are harmed
 
-A creditor may ask the court to declare **ineffective towards the creditor** the acts by which the debtor harms the creditor, if the debtor knew about the harm; for an onerous act, the other party must also have known ([[zzd:135]]). This is the Paulian action ({{Павлов иск}}). Typical case: a debtor donates an apartment to a child to avoid enforcement. The notary cannot know every debt, but staff should notice unusual gifts made in a hurry.
+A creditor may ask the court to declare **ineffective towards the creditor** the acts by which the debtor harms the creditor, if the debtor knew about the harm; for an onerous act, the other party must also have known ([[zzd:135]]). When the other party is the spouse, a descendant, an ascendant, a brother or a sister of the debtor, the law presumes that knowledge until the contrary is proved ([[zzd:135]]). This is the Paulian action ({{Павлов иск}}). Typical case: a debtor donates an apartment to a child to avoid enforcement. The notary cannot know every debt, but staff should notice unusual gifts made in a hurry.
 
 ## The preliminary contract
 
@@ -43,7 +43,7 @@ Two tools often appear in preliminary contracts:
 - **Penalty** ({{неустойка}}) is an agreed amount of damages without proof of the damage. A court may reduce an excessive penalty ([[zzd:92]]).
 
 > [!tip] Why parties certify signatures on a preliminary contract
-> The law requires only simple written form. But a certification of the signatures proves who signed and on which date, which matters if one party later denies it. The fee is 30% of the fee under item 8 of the tariff, at least 30 leva ([[tarifa:10]]).
+> The law requires only simple written form. But a certification of the signatures proves who signed and on which date, which matters if one party later denies it. The fee is 30% of the fee under item 8 of the tariff, at least 30 leva (15.34 euro) ([[tarifa:10]]).
 
 ## Performance and termination
 
@@ -71,7 +71,7 @@ The rules on sale apply: each party is a seller of what it gives and a buyer of 
 
 - A gift transfers something **at once** and **free of charge**; the recipient accepts it ([[zzd:225]]).
 - A **promise** of a gift has no effect. A gift of **future** property is void ([[zzd:226]]).
-- A gift can be **revoked** only if the recipient tries to kill the donor or close family, falsely accuses the donor of a serious crime, or refuses support that the donor needs. The claim must be filed within **one year** after the donor learns of the ground; a waiver in advance is void ([[zzd:227]]).
+- A gift can be **revoked** only if the recipient tries to kill the donor or close family, falsely accuses the donor of a serious crime, or refuses support that the donor needs. The claim must be filed within **one year** after the donor learns of the ground; if the donor dies within that year, the heirs may file it. A waiver in advance is void ([[zzd:227]]).
 
 ### Loan
 

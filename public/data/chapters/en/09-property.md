@@ -13,7 +13,7 @@ The owner may recover the property from anybody who possesses or holds it withou
 > [!tip] Why prescription matters in the office
 > Many Bulgarian families have no document for an old house: the land was inherited, the house was built decades ago, the documents were lost. The owner can get a **declaratory notarial deed** by a **circumstantial verification** with three witnesses ([[gpk:587:2]]). Chapter 14 explains the procedure. The tax on the acquisition is due also in this case ([[zmdt:44:3]]).
 
-Movable things are acquired by 5 years of possession ([[zs:80]]). A person who acquires a movable thing in good faith from a non-owner, for value, becomes the owner, **except** when the transfer of the thing needs a notarial deed or notarially certified signatures ([[zs:78]]). This exception covers cars: good faith does not cure a purchase of a car from a non-owner.
+Movable things are acquired by 5 years of possession ([[zs:80]]). A person who acquires a movable thing in good faith from a non-owner, for value, becomes the owner, **except** when the transfer of the thing needs a notarial deed or notarially certified signatures ([[zs:78]]). This exception covers cars: good faith does not cure a purchase of a car from a non-owner. The owner of a stolen or lost movable thing may claim it from a good-faith possessor within three years of the theft or loss ([[zs:78]]).
 
 ## Co-ownership
 
@@ -30,7 +30,7 @@ A co-owner may sell a share of real estate to a **third person** only after the 
 1. presents to the notary **written evidence** that the share was offered to the other co-owners **on the same terms**; and
 2. declares in writing before the notary that **none of them accepted** the offer.
 
-If the declaration is false, or the third person bought the share on sham terms that harm the other co-owners, a co-owner may **redeem** the share on the terms actually agreed. The claim must be filed within **two months** of the sale.
+If the declaration is false, or the third person bought the share on sham terms that harm the other co-owners, a co-owner may **redeem** the share on the terms actually agreed. The claim must be filed within **two months** of the sale. If the redeeming co-owner does not pay the price within one month after the decision becomes final, the decision is void by law ([[zs:33]]).
 
 > [!example] What the office asks for
 > Maria owns 1/2 of a flat; her brothers Ivan and Petar own 1/4 each. Maria wants to sell her half to a neighbour for 60,000 euro. The office asks for: (1) proof that Ivan and Petar received an offer for 60,000 euro on the same terms, usually a **notarial invitation** with proof of service (chapter 16); (2) Maria's written declaration before the notary that neither brother accepted. A sale of the share to Ivan or Petar themselves does not need this procedure.

@@ -57,9 +57,9 @@ The community ends with the end of the marriage, by a court decision for importa
 ## The marriage contract
 
 - Persons who are about to marry, and spouses during the marriage, may conclude a marriage contract. Only **persons with capacity** may conclude it ([[sk:37]]).
-- It contains only **property** arrangements: rights in property acquired before and during the marriage, management and disposal including the family home, costs, consequences of a divorce, maintenance and others ([[sk:38:1]]). It may refer to a statutory regime. It may **not** make premarital property of one spouse common ([[sk:38:2]]). It may **not** contain dispositions in case of death ([[sk:38:3]]).
+- It contains only **property** arrangements: rights in property acquired before and during the marriage, management and disposal including the family home, costs, consequences of a divorce, maintenance and others ([[sk:38:1]]). It may refer to a statutory regime. It may **not** make premarital property of one spouse common ([[sk:38:2]]). It may **not** contain dispositions in case of death, except clauses on the spouses' shares at the end of an agreed community ([[sk:38:3]]).
 - **Form:** the parties sign **personally**, in writing, with notarial certification of the **content and the signatures** ([[sk:39:1]]). No power of attorney.
-- If the contract transfers or creates real rights in real estate, a notary in whose **district the property is** certifies it ([[sk:39:2]]).
+- If the contract transfers or creates real rights in real estate, a notary in whose **district the property is** certifies it; when the properties lie in several districts, the parties choose a notary in one of them ([[sk:39:2]]).
 - Such a contract has a transfer effect and is **entered** in the property register: on the day of the certification if made during the marriage, or, if made before the marriage, on the day the notary receives the **marriage certificate** ([[sk:39:3]], [[znnd:25:5]]).
 - The contract takes effect from the marriage, or, if concluded during the marriage, from its date or another date it sets. It cannot affect rights acquired by third parties before it ([[sk:40]]).
 - Amendments need the same form ([[sk:41]]).
@@ -84,7 +84,7 @@ Each parent may **alone** represent a child under 14 and give consent to the act
 
 ### Consent for a child to travel abroad
 
-A minor may be refused exit from Bulgaria without the consent of the parents (or guardians, curators) ([[zbld:76]]). If the parents disagree, the district court decides ([[sk:127а]]). In practice, a parent who does not travel with the child signs a **declaration of consent** ({{декларация-съгласие}}) with a **notarially certified signature**. The declaration states:
+A minor may be refused exit from Bulgaria without the consent of the parents (or guardians, curators) ([[zbld:76]]). If the parents disagree, the district court of the child's current address decides ([[sk:127а]]). The act names no form for the consent. In practice the border authorities ask for a **declaration of consent** ({{декларация-съгласие}}) with a **notarially certified signature**, so a parent who does not travel with the child signs one at a notary. The declaration states:
 
 - the parent's full name, identity number and identity document;
 - the child's full name, identity number and passport;
@@ -92,4 +92,4 @@ A minor may be refused exit from Bulgaria without the consent of the parents (or
 - the period, or "until the child turns 18";
 - the accompanying person, or that the child may travel alone or with either parent.
 
-Each parent may sign at any notary in Bulgaria ([[gpk:570:2]]) or at a Bulgarian consulate abroad ([[znnd:84:1]]). The fee is the fee for a signature without material interest ([[tarifa:5]]).
+Each parent may sign at any notary in Bulgaria ([[gpk:570:2]]) or at a Bulgarian consulate abroad ([[znnd:84:1]]). The fee is the fee for a signature without material interest: 5 leva (2.56 euro) for the first signature ([[tarifa:5]]).

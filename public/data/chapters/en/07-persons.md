@@ -20,7 +20,7 @@ What the office checks:
 
 ### Without an identity document
 
-If the person has no identity document, the person proves identity with **two witnesses whose identity is established** ([[gpk:578:5]]). The witnesses must meet the conditions of [[gpk:584]]: for example, they cannot be relatives of the parties, beneficiaries of the act, employees of the notary office or employees of the registry office. They promise to tell the truth ([[gpk:585]]).
+If the person has no identity document, the person proves identity with **two witnesses whose identity is established** ([[gpk:578:5]]). The witnesses must meet the conditions of [[gpk:584]]: for example, they cannot be relatives of the parties or of the notary, beneficiaries of the act, employees of the notary office or employees of the registry office. They promise to tell the truth ([[gpk:585]]).
 
 ## Capacity to act
 
@@ -61,7 +61,7 @@ The persons who **cannot** be witnesses or interpreters are listed in [[gpk:584]
 
 - The capacity of a person follows the law of the state of which the person is a citizen ([[kmchp:50:1]]). A Bulgarian who is also a citizen of another state is treated as Bulgarian ([[kmchp:48:2]]).
 - Foreigners have the same civil rights as Bulgarians, unless a law provides otherwise ([[kmchp:49:2]]).
-- The main exception is **land**. Foreigners and foreign legal entities may acquire ownership of land only under the conditions of EU accession, an international treaty, or by inheritance by law ([[konst:22]]). Citizens and legal entities of the EU and the EEA may acquire farmland under the conditions of the Agricultural Land Act ([[zspzz:3:5]], [[zspzz:3:6]]). For **every** buyer of farmland, Bulgarian or foreign, that act requires residence or establishment in Bulgaria for more than five years, and an individual buyer declares the origin of the funds before the notary ([[zspzz:3в]]). Buildings and apartments are not land; foreigners may buy them, but not the land under a house unless the conditions apply.
+- The main exception is **land**. Foreigners and foreign legal entities may acquire ownership of land only under the conditions of EU accession, an international treaty, or by inheritance by law ([[konst:22]]). Citizens and legal entities of the EU and the EEA may acquire farmland under the conditions of the Agricultural Land Act ([[zspzz:3:5]], [[zspzz:3:6]]). For **every** buyer of farmland, Bulgarian or foreign, that act requires residence or establishment in Bulgaria for more than five years, and an individual buyer declares the origin of the funds before the notary ([[zspzz:3в]]). The five-year condition does not apply to acquisition by inheritance by law ([[zspzz:3в:4]]). Buildings and apartments are not land; foreigners may buy them, but not the land under a house unless the conditions apply.
 
 ## Companies and other legal entities
 
@@ -86,7 +86,7 @@ Representation exists **by law** (parents, guardians, managers of companies) or 
 | Form | If the contract needs a special form, the power of attorney needs the same form; for a notarial deed, a written power with signature and content certified **at the same time** ([[zzd:37]]) |
 | Scope | The power covers what the principal stated ([[zzd:39]]). A power "to manage" does not cover "to sell". |
 | Self-contracting | The agent may not contract with himself or for another person he also represents, unless the principal agreed ([[zzd:38]]). |
-| Still valid | A power ends by revocation, renunciation, death or judicial disability of either side, or the end of a legal entity ([[zzd:41]]). Check the information system of the Notary Chamber for revocations ([[n32:9а]]). |
+| Still valid | A power ends by revocation, renunciation, death or judicial disability of either side, or the end of a legal entity ([[zzd:41]]). The end cannot be opposed to a third person who contracted with the agent in good faith, unless the revocation was subject to entry and was entered; this is why the office checks the information system of the Notary Chamber for revocations ([[n32:9а]]). |
 | Sub-delegation | Allowed only if authorised or necessary to protect the principal ([[zzd:43]]). |
 | Foreign power | Apostille or legalisation and a translation (chapter 5). |
 

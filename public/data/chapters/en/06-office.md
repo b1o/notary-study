@@ -21,6 +21,8 @@ Other notarial acts may be performed outside the office and out of hours when go
 
 ## Who does what
 
+The table shows a typical division of the work. The law fixes only who may certify; offices divide the rest differently.
+
 | Task | Clerk | Legal assistant | Assistant notary | Notary |
 |---|---|---|---|---|
 | Receive clients, explain which documents to bring | ● | ● | | |
@@ -71,6 +73,8 @@ A notarial case file ({{нотариално дело}}) is opened for each requ
 1. a notarial deed;
 2. a notarial will or a revocation of a will, a deposit of a holographic will or of documents;
 3. a circumstantial verification (ownership by prescription).
+
+No new file is opened in three cases: a deed that follows a circumstantial verification goes into the file of the verification; a deed for a member of a housing cooperative goes into the file of the cooperative; a revocation of a notarial will made by the same notary goes into the file of that will ([[n32:10:2]]).
 
 The file contains the request, one copy of the signed deed, the declarations of the parties about the special requirements of the law, and the documents that prove the representative power of the parties ([[n32:11:1]]). It also contains the accounting documents for the fees ([[n32:11:4]]). The other documents are returned to the person who brought them, on request. A person who presents an official document must give the notary a copy of it on request ([[n32:11:5]]).
 
@@ -126,7 +130,7 @@ The Notary Chamber runs an information system that is part of the archive of eve
 | Extracts of documents with certified signatures that go to the Commercial Register or the Central Register of Special Pledges | Decision of the owner of an EOOD |
 | Extracts of powers of attorney for acts before banks, and their revocations | Power of attorney to manage a bank account |
 | Scans of contracts for the transfer of motor vehicles; the notary keeps a copy of the contract, the documents of representation and the declarations for two years | Sale of a car |
-| Extracts of powers of attorney for vehicles, for the National Revenue Agency, for investment intermediaries, for insurers, and for electronic administrative services | Power of attorney to register a car |
+| Extracts of powers of attorney for vehicles, for the National Revenue Agency, for investment intermediaries, for insurers, and, from 3 September 2027, for electronic administrative services | Power of attorney to register a car |
 
 Banks, insurers and other entities with a legal interest can get paid inquiries from the system; state bodies have free access for official purposes ([[n32:2б]], [[n32:2в]]). The purpose is simple: before a bank or a notary acts on a power of attorney, they can check that it exists and has not been revoked.
 
