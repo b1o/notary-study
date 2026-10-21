@@ -12,7 +12,7 @@ import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { QuizRunner } from './quiz-runner';
 
-/** The test of one chapter: every question of the chapter, each answer checked at once. */
+/** The test of one chapter: every question of the chapter; the answers show at the end. */
 @Component({
   selector: 'nc-chapter-test-page',
   imports: [RouterLink, PageLayout, PageHeader, MissingPage, QuizRunner, LoadStatus],

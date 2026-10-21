@@ -6,10 +6,16 @@
   box-sizing: border-box;
 }
 
+/*
+ * A jump to a fragment stops below the bars at the top: the app bar on a small screen and a
+ * sticky bar of the page (shared/dom/sticky-bar.ts). The router reads the same value (app.ts).
+ */
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  scroll-padding-block-start: calc(var(--sticky-offset) + var(--space-5));
+  scroll-padding-block-start: calc(
+    var(--sticky-offset) + var(--sticky-bar-height, 0px) + var(--space-5)
+  );
 }
 
 body {

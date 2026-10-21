@@ -58,7 +58,7 @@ src/
       law/         Article text, citation pills (LawRefs), the click rule for citations
       ui/          Icon, notice, choice group, select field, search box, outline list,
                    Markdown content, load status, copy and print buttons
-      dom/         Element width (ResizeObserver), scroll to a fragment
+      dom/         Element size (ResizeObserver), scroll to a fragment, sticky bar
     layout/        Parts of the app frame: side navigation, law panel, reading settings
     features/      Pages, one folder per route. Each page loads lazily.
   styles/          Global styles: tokens, reading settings, base, small components, prose

@@ -7,6 +7,7 @@ import {
   input,
   linkedSignal,
   output,
+  signal,
   viewChild,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -16,31 +17,33 @@ import { LanguageService } from '../../core/i18n/language.service';
 import { MarkdownService } from '../../core/markdown/markdown.service';
 import { scorePercent, type QuizItem } from '../../core/study/quiz';
 import { LawRefs } from '../../shared/law/law-refs';
+import { ChoiceGroup, type Choice } from '../../shared/ui/choice-group';
+import { Icon } from '../../shared/ui/icon';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
 
-/**
- * learn  each answer is checked at once, with the explanation (chapter tests)
- * exam   the answers show only at the end (final exam)
- */
-export type QuizMode = 'learn' | 'exam';
+/** Which answers the review at the end shows. */
+type ReviewFilter = 'all' | 'wrong';
 
 /**
- * Asks a list of questions one by one, then shows the score and the mistakes.
+ * Asks a list of questions one by one, like an exam: it does not tell after each question
+ * whether the answer is right. The reader can go back and change an answer. After the last
+ * question it shows the score and a review of all answers, with the explanations.
  * A new list of items starts the quiz again. The page puts its buttons for the result
  * (repeat, back) in the quizActions slot.
  */
 @Component({
   selector: 'nc-quiz-runner',
-  imports: [RouterLink, LawRefs, MarkdownContent],
+  imports: [RouterLink, LawRefs, MarkdownContent, ChoiceGroup, Icon],
   templateUrl: './quiz-runner.html',
   styleUrl: './quiz-runner.scss',
 })
 export class QuizRunner {
   readonly items = input.required<readonly QuizItem[]>();
-  readonly mode = input.required<QuizMode>();
   readonly passMark = input.required<number>();
   /** The result message: one for a pass, one for a fail. */
   readonly messages = input.required<{ readonly passed: string; readonly failed: string }>();
+  /** The review links each question to its chapter (the exam mixes chapters). */
+  readonly linkChapters = input(false);
   /** Emits the score in percent when the last question is answered. */
   readonly finished = output<number>();
 
@@ -49,17 +52,15 @@ export class QuizRunner {
   protected readonly ui = inject(LanguageService).text;
 
   protected readonly index = linkedSignal({ source: this.items, computation: () => 0 });
-  private readonly answers = linkedSignal<readonly QuizItem[], number[]>({
+  private readonly answers = linkedSignal<readonly QuizItem[], (number | undefined)[]>({
     source: this.items,
     computation: () => [],
   });
-  /** The option picked for the current question. */
+  /** The option picked for the current question: the earlier answer when the reader goes back. */
   protected readonly selected = linkedSignal<number, number | undefined>({
     source: this.index,
-    computation: () => undefined,
+    computation: (index) => this.answers()[index],
   });
-  /** Learn mode: the current answer is checked and its explanation shows. */
-  protected readonly checked = linkedSignal({ source: this.index, computation: () => false });
 
   protected readonly done = computed(
     () => this.items().length > 0 && this.index() >= this.items().length,
@@ -72,62 +73,81 @@ export class QuizRunner {
   });
 
   protected readonly score = computed(() => scorePercent(this.items(), this.answers()));
-  protected readonly rightCount = computed(
-    () => this.items().filter((item, i) => this.answers()[i] === item.answer).length,
-  );
   protected readonly passed = computed(() => this.score() >= this.passMark());
 
-  /** The wrong answers, with the right ones and their explanations. */
-  protected readonly mistakes = computed(() => {
+  /** Every question with the reader's answer, the right answer and the explanation. */
+  protected readonly review = computed(() => {
     if (!this.done()) return [];
-    return this.items().flatMap((item, i) => {
+    return this.items().map((item, i) => {
       const answer = this.answers()[i];
-      if (answer === item.answer) return [];
       const rendered = this.render(item);
-      const chapter = this.content.chapter(item.chapterId);
-      return [
-        {
-          ...rendered,
-          yourAnswerHtml: rendered.optionsHtml[answer],
-          rightAnswerHtml: rendered.optionsHtml[item.answer],
-          chapter,
-        },
-      ];
+      return {
+        ...rendered,
+        number: i + 1,
+        right: answer === item.answer,
+        yourAnswerHtml: answer === undefined ? '' : rendered.optionsHtml[answer],
+        rightAnswerHtml: rendered.optionsHtml[item.answer],
+        chapter: this.linkChapters() ? this.content.chapter(item.chapterId) : undefined,
+      };
     });
   });
+  protected readonly rightCount = computed(
+    () => this.review().filter((entry) => entry.right).length,
+  );
+
+  protected readonly reviewFilter = linkedSignal<readonly QuizItem[], ReviewFilter>({
+    source: this.items,
+    computation: () => 'all',
+  });
+  protected readonly reviewChoices = computed<Choice<ReviewFilter>[]>(() => {
+    const text = this.ui().tests;
+    const wrong = this.review().length - this.rightCount();
+    return [
+      { value: 'all', label: text.allAnswers(this.review().length) },
+      { value: 'wrong', label: text.wrongAnswers(wrong) },
+    ];
+  });
+  protected readonly shownReview = computed(() =>
+    this.reviewFilter() === 'wrong' ? this.review().filter((entry) => !entry.right) : this.review(),
+  );
 
   private readonly question = viewChild<ElementRef<HTMLElement>>('question');
+  private readonly result = viewChild<ElementRef<HTMLElement>>('result');
+  /** Set by a move between questions, so that the first question does not take the focus. */
+  private readonly moved = signal(false);
 
   constructor() {
-    // After each new question, move the focus to it, so keyboard and screen reader users follow.
-    let first = true;
+    // After a move to another question or to the result, the focus follows, so keyboard and
+    // screen reader users stay with the content.
     afterRenderEffect(() => {
       this.index();
-      const question = this.question()?.nativeElement;
-      if (first) {
-        first = false;
-        return;
-      }
-      question?.focus();
+      if (!this.moved()) return;
+      (this.result() ?? this.question())?.nativeElement.focus();
     });
-  }
-
-  /** Learn mode: check the answer and show the explanation. Exam mode: go on at once. */
-  protected answer(): void {
-    const selected = this.selected();
-    if (selected === undefined) return;
-    this.answers.update((answers) => {
-      const copy = [...answers];
-      copy[this.index()] = selected;
-      return copy;
-    });
-    if (this.mode() === 'exam') this.next();
-    else this.checked.set(true);
   }
 
   protected next(): void {
+    this.keepAnswer();
+    this.moved.set(true);
     this.index.update((index) => index + 1);
     if (this.done()) this.finished.emit(this.score());
+  }
+
+  protected previous(): void {
+    this.keepAnswer();
+    this.moved.set(true);
+    this.index.update((index) => Math.max(0, index - 1));
+  }
+
+  private keepAnswer(): void {
+    const selected = this.selected();
+    if (selected === undefined) return;
+    const index = this.index();
+    this.answers.update((answers) => {
+      const copy = [...answers];
+      copy[index] = selected;
+      return copy;
+    });
   }
 
   private render(item: QuizItem) {

@@ -16,7 +16,6 @@
     @if (items().length) {
       <nc-quiz-runner
         [items]="items()"
-        mode="learn"
         [passMark]="passMark"
         [messages]="{ passed: text.tests.passed, failed: text.tests.failed }"
         (finished)="record($event)"

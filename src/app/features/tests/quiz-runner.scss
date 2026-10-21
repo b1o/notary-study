@@ -60,39 +60,22 @@
   accent-color: var(--color-accent);
 }
 
-.question:disabled .option {
-  cursor: default;
-}
-
-.option--right,
-.option--right:hover {
-  background: var(--color-success-soft);
-  color: var(--color-success);
-}
-
-.option--wrong,
-.option--wrong:hover {
-  background: var(--color-danger-soft);
-  color: var(--color-danger);
-}
-
-.feedback {
-  margin-block-start: var(--space-4);
-  padding: var(--space-3) var(--space-4);
-  border-radius: var(--radius-md);
-  background: var(--color-danger-soft);
-}
-
-.feedback--right {
-  background: var(--color-success-soft);
-}
-
-.feedback p {
-  margin: 0 0 var(--space-2);
+/* The chosen option: tinted and ringed, so it stands out in the dark theme too. */
+.option:has(input:checked) {
+  background: var(--color-accent-soft);
+  box-shadow: inset 0 0 0 2px var(--color-accent);
+  color: var(--color-ink-strong);
 }
 
 .quiz-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
   margin-block-start: var(--space-5);
+}
+
+.quiz-actions__hidden {
+  visibility: hidden;
 }
 
 .result {
@@ -103,6 +86,10 @@
 
 .result--passed {
   background: var(--color-success-soft);
+}
+
+.result:focus {
+  outline: none;
 }
 
 .result__score {
@@ -123,41 +110,77 @@
   gap: var(--space-2);
 }
 
-.mistakes {
+.review {
   margin-block-start: var(--space-7);
 }
 
-.mistakes__list {
+.review__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  margin-block-end: var(--space-4);
+}
+
+.review__head .section-title {
   margin: 0;
-  padding-inline-start: 1.4em;
 }
 
-.mistake + .mistake {
+.review__list {
+  margin: 0;
+  padding-inline-start: 1.6em;
+}
+
+.review-item + .review-item {
   margin-block-start: var(--space-5);
+  padding-block-start: var(--space-5);
+  border-block-start: 1px solid var(--color-line);
 }
 
-.mistake p {
-  margin: 0 0 var(--space-1);
+.review-item::marker {
+  font-weight: 600;
+  color: var(--color-ink-3);
 }
 
-.mistake__question {
+.review-item p {
+  margin: 0 0 var(--space-2);
+}
+
+.review-item__question {
   font-weight: 600;
   color: var(--color-ink-strong);
 }
 
-.mistake__answer--yours {
-  color: var(--color-danger);
+/* "Right" or "Wrong" before the answer: a word and an icon, not only a colour. */
+.review-item__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  margin-inline-end: var(--space-2);
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  vertical-align: 0.05em;
+  --icon-size: 0.95em;
 }
 
-.mistake__answer--right {
+.review-item__mark--right {
+  background: var(--color-success-soft);
   color: var(--color-success);
 }
 
-.mistake__explanation {
+.review-item__mark--wrong {
+  background: var(--color-danger-soft);
+  color: var(--color-danger);
+}
+
+.review-item__explanation {
   color: var(--color-ink-2);
 }
 
-.mistake__links {
+.review-item__links {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;

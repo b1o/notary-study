@@ -6,18 +6,12 @@
       <progress [value]="index()" [max]="items().length"></progress>
     </div>
 
-    <fieldset class="question" [disabled]="checked()">
+    <fieldset class="question">
       <legend class="question__text" #question tabindex="-1">
         <nc-markdown-content inline [content]="current.questionHtml" />
       </legend>
       @for (option of current.optionsHtml; track $index) {
-        <label
-          class="option"
-          [class.option--right]="checked() && $index === current.item.answer"
-          [class.option--wrong]="
-            checked() && $index === selected() && $index !== current.item.answer
-          "
-        >
+        <label class="option">
           <input
             type="radio"
             name="quiz-option"
@@ -29,44 +23,28 @@
       }
     </fieldset>
 
-    @if (checked()) {
-      <div
-        class="feedback"
-        [class.feedback--right]="selected() === current.item.answer"
-        role="status"
-      >
-        <p>
-          <strong>{{ selected() === current.item.answer ? text.correct : text.wrong }}</strong
-          >&ngsp;
-          <nc-markdown-content inline [content]="current.explanationHtml" />
-        </p>
-        <nc-law-refs [refs]="current.item.refs" />
-      </div>
-    }
-
+    <!-- Back keeps its place while it is hidden on the first question, so Next does not move. -->
     <div class="quiz-actions">
-      @if (checked()) {
-        <button type="button" class="button button--primary" (click)="next()">
-          {{ isLast() ? text.finish : text.next }}
-        </button>
-      } @else {
-        <button
-          type="button"
-          class="button button--primary"
-          [disabled]="selected() === undefined"
-          (click)="answer()"
-        >
-          @if (mode() === 'learn') {
-            {{ text.check }}
-          } @else {
-            {{ isLast() ? text.finish : text.next }}
-          }
-        </button>
-      }
+      <button
+        type="button"
+        class="button button--quiet"
+        [class.quiz-actions__hidden]="index() === 0"
+        (click)="previous()"
+      >
+        <nc-icon name="arrowLeft" />{{ text.previous }}
+      </button>
+      <button
+        type="button"
+        class="button button--primary"
+        [disabled]="selected() === undefined"
+        (click)="next()"
+      >
+        {{ isLast() ? text.finish : text.next }}
+      </button>
     </div>
   }
 } @else {
-  <section class="result" [class.result--passed]="passed()" role="status">
+  <section class="result" [class.result--passed]="passed()" #result tabindex="-1">
     <p class="result__score">{{ score() }}%</p>
     <p class="result__text">
       {{ text.score(rightCount(), items().length) }}.
@@ -77,37 +55,53 @@
     </div>
   </section>
 
-  @if (mistakes().length) {
-    <section class="mistakes">
-      <h2 class="section-title">{{ text.mistakes }}</h2>
-      <ol class="mistakes__list">
-        @for (mistake of mistakes(); track $index) {
-          <li class="mistake">
-            <p class="mistake__question">
-              <nc-markdown-content inline [content]="mistake.questionHtml" />
+  <section class="review" aria-labelledby="review-title">
+    <div class="review__head">
+      <h2 class="section-title" id="review-title">{{ text.review }}</h2>
+      <nc-choice-group
+        [(value)]="reviewFilter"
+        [legend]="text.review"
+        [hideLegend]="true"
+        [choices]="reviewChoices()"
+      />
+    </div>
+    <ol class="review__list">
+      @for (entry of shownReview(); track entry.number) {
+        <li class="review-item" [value]="entry.number">
+          <p class="review-item__question">
+            <nc-markdown-content inline [content]="entry.questionHtml" />
+          </p>
+          <p class="review-item__answer">
+            <span
+              class="review-item__mark"
+              [class.review-item__mark--right]="entry.right"
+              [class.review-item__mark--wrong]="!entry.right"
+            >
+              <nc-icon [name]="entry.right ? 'check' : 'close'" />
+              {{ entry.right ? text.correct : text.wrong }}
+            </span>
+            {{ text.yourAnswer }}:
+            <nc-markdown-content inline [content]="entry.yourAnswerHtml" />
+          </p>
+          @if (!entry.right) {
+            <p class="review-item__answer">
+              <strong>{{ text.rightAnswer }}:</strong>&ngsp;
+              <nc-markdown-content inline [content]="entry.rightAnswerHtml" />
             </p>
-            <p class="mistake__answer mistake__answer--yours">
-              {{ text.yourAnswer }}:
-              <nc-markdown-content inline [content]="mistake.yourAnswerHtml" />
-            </p>
-            <p class="mistake__answer mistake__answer--right">
-              {{ text.rightAnswer }}:
-              <nc-markdown-content inline [content]="mistake.rightAnswerHtml" />
-            </p>
-            <p class="mistake__explanation">
-              <nc-markdown-content inline [content]="mistake.explanationHtml" />
-            </p>
-            <p class="mistake__links">
-              <nc-law-refs [refs]="mistake.item.refs" />
-              @if (mode() === 'exam' && mistake.chapter; as chapter) {
-                <a [routerLink]="['/course', chapter.id]">{{
-                  ui().chapter.number(chapter.number)
-                }}</a>
-              }
-            </p>
-          </li>
-        }
-      </ol>
-    </section>
-  }
+          }
+          <p class="review-item__explanation">
+            <nc-markdown-content inline [content]="entry.explanationHtml" />
+          </p>
+          <p class="review-item__links">
+            <nc-law-refs [refs]="entry.item.refs" />
+            @if (entry.chapter; as chapter) {
+              <a [routerLink]="['/course', chapter.id]">{{
+                ui().chapter.number(chapter.number)
+              }}</a>
+            }
+          </p>
+        </li>
+      }
+    </ol>
+  </section>
 }

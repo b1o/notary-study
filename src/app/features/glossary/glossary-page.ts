@@ -8,6 +8,7 @@ import { pageTitleEffect } from '../../core/page-title';
 import { GlossaryService } from '../../core/reference/glossary.service';
 import { foldText } from '../../core/text/fold';
 import { GlossaryList } from '../../shared/course/glossary-list';
+import { StickyBar } from '../../shared/dom/sticky-bar';
 import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
 import { LoadStatus } from '../../shared/ui/load-status';
@@ -15,7 +16,7 @@ import { LoadStatus } from '../../shared/ui/load-status';
 /** The glossary: all terms by initial letter, with a filter. */
 @Component({
   selector: 'nc-glossary-page',
-  imports: [RouterLink, FormField, PageLayout, PageHeader, GlossaryList, LoadStatus],
+  imports: [RouterLink, FormField, PageLayout, PageHeader, GlossaryList, LoadStatus, StickyBar],
   templateUrl: './glossary-page.html',
   styleUrl: './glossary-page.scss',
 })

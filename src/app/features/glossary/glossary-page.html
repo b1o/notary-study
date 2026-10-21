@@ -12,14 +12,17 @@
       [placeholder]="text.glossary.filterPlaceholder"
       [formField]="filter"
     />
-    <nav class="glossary-letters" [attr.aria-label]="text.glossary.letters">
+  </nc-page-header>
+
+  <nc-load-status [resource]="glossary.resource" />
+
+  @if (groups().length) {
+    <nav ncStickyBar class="glossary-letters" [attr.aria-label]="text.glossary.letters">
       @for (group of groups(); track group.letter) {
         <a [routerLink]="[]" [fragment]="'letter-' + group.letter">{{ group.letter }}</a>
       }
     </nav>
-  </nc-page-header>
-
-  <nc-load-status [resource]="glossary.resource" />
+  }
 
   @for (group of groups(); track group.letter) {
     <section class="glossary-group" [id]="'letter-' + group.letter">

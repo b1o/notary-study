@@ -30,7 +30,7 @@ import { QuizRunner } from './quiz-runner';
       @if (items().length) {
         <nc-quiz-runner
           [items]="items()"
-          mode="exam"
+          [linkChapters]="true"
           [passMark]="passMark"
           [messages]="{ passed: text.tests.examPassed, failed: text.tests.examFailed }"
           (finished)="progress.recordExam($event)"

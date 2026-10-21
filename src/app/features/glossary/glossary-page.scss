@@ -3,12 +3,27 @@
   margin-block-start: var(--space-5);
 }
 
-/* The initial letters as a row of small links. */
+/*
+ * The initial letters as a row of small links, which stays at the top while the page scrolls.
+ * On a narrow page they keep to one line that scrolls sideways, so the bar stays low.
+ */
 .glossary-letters {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-1);
-  margin-block-start: var(--space-3);
+  margin-block-end: var(--space-5);
+}
+
+@media (width < 40rem) {
+  .glossary-letters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .glossary-letters a {
+    flex: none;
+  }
 }
 
 .glossary-letters a {

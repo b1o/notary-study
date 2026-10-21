@@ -447,3 +447,16 @@ nc-notice > p + p {
   font-weight: 600;
   cursor: pointer;
 }
+
+/*
+ * A bar that stays at the top of the page while it scrolls, such as the letters of the glossary
+ * (shared/dom/sticky-bar.ts). Its background hides the text that scrolls under it.
+ */
+.sticky-bar {
+  position: sticky;
+  inset-block-start: var(--sticky-offset);
+  z-index: 5;
+  padding-block: var(--space-2);
+  background: var(--color-surface);
+  box-shadow: 0 1px 0 var(--color-line);
+}

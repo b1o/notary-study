@@ -1,7 +1,7 @@
 import { NgTemplateOutlet } from '@angular/common';
 import { Component, computed, ElementRef, inject, input } from '@angular/core';
 
-import { elementWidth, remInPixels } from '../dom/element-width';
+import { elementWidth, remInPixels } from '../dom/element-size';
 
 /**
  * Width of the main column:

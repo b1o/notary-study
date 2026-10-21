@@ -1,12 +1,14 @@
 import {
   afterNextRender,
   Component,
+  DOCUMENT,
   ElementRef,
   inject,
   Injector,
   signal,
   viewChild,
 } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
@@ -45,6 +47,14 @@ export class App {
   constructor() {
     // Created here, so that the saved reading settings apply to <html> before the first page shows.
     inject(ReadingSettingsService);
+
+    // The router scrolls to a fragment with scrollTo, which ignores the scroll padding of <html>.
+    // This offset is the same padding, so the target does not hide under a bar at the top.
+    const root = inject(DOCUMENT).documentElement;
+    inject(ViewportScroller).setOffset(() => [
+      0,
+      parseFloat(getComputedStyle(root).scrollPaddingBlockStart) || 0,
+    ]);
 
     inject(Router)
       .events.pipe(

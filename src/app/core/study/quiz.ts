@@ -70,8 +70,14 @@ export function finalExam(
     .map(({ chapterId, question }) => prepareQuestion(question, chapterId, random));
 }
 
-/** Percent of right answers, rounded: `answers[i]` is the option chosen for `items[i]`. */
-export function scorePercent(items: readonly QuizItem[], answers: readonly number[]): number {
+/**
+ * Percent of right answers, rounded: `answers[i]` is the option chosen for `items[i]`.
+ * A question without an answer counts as wrong.
+ */
+export function scorePercent(
+  items: readonly QuizItem[],
+  answers: readonly (number | undefined)[],
+): number {
   if (!items.length) return 0;
   const right = items.filter((item, i) => answers[i] === item.answer).length;
   return Math.round((right / items.length) * 100);

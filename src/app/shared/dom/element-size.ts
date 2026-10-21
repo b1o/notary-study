@@ -5,13 +5,26 @@ import { DestroyRef, inject, signal, type Signal } from '@angular/core';
  * Call it in an injection context; the observer stops when that context is destroyed.
  */
 export function elementWidth(element: Element): Signal<number> {
-  const width = signal(Math.round(element.getBoundingClientRect().width));
+  return observedSize(element, (size) => size.inlineSize);
+}
+
+/** The height of an element on screen, in CSS pixels, like elementWidth. */
+export function elementHeight(element: Element): Signal<number> {
+  return observedSize(element, (size) => size.blockSize);
+}
+
+function observedSize(
+  element: Element,
+  pick: (size: { inlineSize: number; blockSize: number }) => number,
+): Signal<number> {
+  const rect = element.getBoundingClientRect();
+  const value = signal(Math.round(pick({ inlineSize: rect.width, blockSize: rect.height })));
   const observer = new ResizeObserver(([entry]) =>
-    width.set(Math.round(entry.borderBoxSize[0].inlineSize)),
+    value.set(Math.round(pick(entry.borderBoxSize[0]))),
   );
   observer.observe(element);
   inject(DestroyRef).onDestroy(() => observer.disconnect());
-  return width.asReadonly();
+  return value.asReadonly();
 }
 
 /** The size of 1rem in CSS pixels. It changes only with the browser's font size setting. */

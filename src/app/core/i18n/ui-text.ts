@@ -203,9 +203,10 @@ export interface UiText {
     readonly chapterTest: string;
     readonly chapterTestIntro: (count: number, passMark: number) => string;
     readonly question: (index: number, total: number) => string;
-    readonly check: string;
+    readonly previous: string;
     readonly next: string;
     readonly finish: string;
+    /** The marks of an answer in the review at the end. */
     readonly correct: string;
     readonly wrong: string;
     readonly score: (right: number, total: number) => string;
@@ -215,7 +216,9 @@ export interface UiText {
     readonly examFailed: string;
     readonly retry: string;
     readonly backToChapter: string;
-    readonly mistakes: string;
+    readonly review: string;
+    readonly allAnswers: (count: number) => string;
+    readonly wrongAnswers: (count: number) => string;
     readonly yourAnswer: string;
     readonly rightAnswer: string;
     readonly bestScore: (score: number) => string;

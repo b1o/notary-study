@@ -16,7 +16,7 @@ import { toReferenceString } from '../../core/laws/citation';
 import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import { LAW_PANEL_WIDTH, LawPanelService } from '../../core/laws/law-panel.service';
-import { elementWidth } from '../../shared/dom/element-width';
+import { elementWidth } from '../../shared/dom/element-size';
 import { LawArticleText } from '../../shared/law/law-article-text';
 import { ChoiceGroup, toChoices } from '../../shared/ui/choice-group';
 import { Icon } from '../../shared/ui/icon';
