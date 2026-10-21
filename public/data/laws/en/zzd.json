@@ -172,6 +172,18 @@
       "The assignment takes effect towards third persons and the debtor from the day the former creditor notifies the debtor."
     ]
   },
+  "101": {
+    "paragraphs": [
+      "Art. 101. A third person may join a specific obligation as a co-debtor by agreement with the creditor or with the debtor. If the creditor approved the agreement to join, it cannot be revoked or changed without the creditor's consent. The original debtor and the person who joined are liable to the creditor as joint debtors."
+    ]
+  },
+  "102": {
+    "paragraphs": [
+      "Art. 102. A third person may replace the debtor only with the express consent of the creditor. The replaced debtor is released from liability to the creditor.",
+      "The securities given by third persons end if they do not agree that these securities serve for the new debtor. The pledge and the mortgage given by the original debtor stay in force.",
+      "The new debtor may raise against the creditor the objections that the old debtor had from the transferred legal relation."
+    ]
+  },
   "110": {
     "paragraphs": [
       "Art. 110. All claims for which the law does not provide another term expire after five years."
@@ -194,6 +206,12 @@
       "The creditors in whose favour the ineffectiveness is declared are satisfied from the proceeds of the public sale before the third person, when the latter takes part in the distribution with a claim arising from the declaration of ineffectiveness."
     ]
   },
+  "138": {
+    "paragraphs": [
+      "Art. 138. By the contract of guarantee, the guarantor undertakes to the creditor of another person to be liable for the performance of that person's obligation. This contract must be made in writing.",
+      "A guarantee can exist only for a valid obligation. It can also be given for a future or a conditional obligation."
+    ]
+  },
   "149": {
     "paragraphs": [
       "Art. 149. To secure a claim, a pledge over a movable thing or a claim, and a mortgage over real estate, may be created.",
@@ -203,6 +221,51 @@
   "152": {
     "paragraphs": [
       "Art. 152. An agreement made in advance that the creditor will become the owner of the thing if the obligation is not performed, and any other agreement made in advance on a way of satisfying the creditor different from the one provided by law, is invalid."
+    ]
+  },
+  "156": {
+    "paragraphs": [
+      "Art. 156. A pledge contract is valid only if the pledged thing is handed to the creditor or to another person chosen by the creditor and the pledgor.",
+      "(Para. 2 amended, SG No. 12 of 1993.) When the secured claim is more than 5 leva, the pledge cannot be relied upon against third persons without a written document with a certain date that names the things and the claim."
+    ]
+  },
+  "157": {
+    "paragraphs": [
+      "Art. 157. The creditor has the right to keep the pledged thing until the secured claim is paid in full.",
+      "The creditor has no right to use it, unless agreed otherwise.",
+      "If the creditor loses the possession of the thing, the creditor may, on the basis of the pledge, claim its return also from the person who holds it."
+    ]
+  },
+  "159": {
+    "paragraphs": [
+      "Art. 159. The creditor has the right to be satisfied with priority from the price of the pledged thing by enforcement on it only if the creditor did not return it to the debtor. The thing is presumed returned if it is with the debtor."
+    ]
+  },
+  "160": {
+    "paragraphs": [
+      "Art. 160. When the secured claim is for money, or a money penalty was agreed for it, and the pledge was created by a written contract or is given by law to secure claims from a written contract, the creditor may, on the basis of the contract, ask for an order for immediate enforcement under Art. 418 of the Civil Procedure Code."
+    ]
+  },
+  "161": {
+    "paragraphs": [
+      "Art. 161. The rules of this chapter do not repeal the special provisions of other laws on the creation and the effect of a pledge."
+    ]
+  },
+  "162": {
+    "paragraphs": [
+      "Art. 162. Claims that can be transferred can be pledged. The contract that pledges a claim cannot be relied upon against third persons if the debtor was not notified of the pledge; when the secured claim is more than 5 leva, Art. 156(2) also applies."
+    ]
+  },
+  "163": {
+    "paragraphs": [
+      "Art. 163. The pledgor must hand to the pledgee the documents that prove the pledged claim, if there are any."
+    ]
+  },
+  "164": {
+    "paragraphs": [
+      "Art. 164. A creditor who has a pledge on a claim must take all actions that are necessary to preserve it.",
+      "The creditor must collect the interest of the pledged claim and, when it becomes due, the principal too.",
+      "What the creditor collected under the preceding paragraph stays with the creditor as a pledge. If it is a sum of money, it is deposited in a bank as security for the creditor."
     ]
   },
   "166": {
@@ -291,6 +354,19 @@
       "The term runs from the handover of the thing."
     ]
   },
+  "212": {
+    "paragraphs": [
+      "Art. 212. A person who sells an inheritance as a whole, without naming its items, guarantees only the quality of heir.",
+      "The sale of an inheritance must be made in writing, and the signatures of the parties must be notarially certified.",
+      "A contract for the sale of an inheritance that contains real estate can be relied upon against third persons only if it is entered."
+    ]
+  },
+  "213": {
+    "paragraphs": [
+      "Art. 213. If, before the sale of an inheritance, the seller collected a claim or disposed of some items, the seller must give to the buyer what the seller received.",
+      "The buyer must give back to the seller what the seller paid for the debts and burdens of the inheritance."
+    ]
+  },
   "223": {
     "paragraphs": [
       "Art. 223. The rules on sale apply accordingly to exchange; each party is considered the seller of what it gives and the buyer of what it receives."
@@ -324,6 +400,19 @@
   "228": {
     "paragraphs": [
       "Art. 228. By a lease contract the landlord undertakes to provide the tenant with a thing for temporary use, and the tenant undertakes to pay a set rent."
+    ]
+  },
+  "229": {
+    "paragraphs": [
+      "Art. 229. A lease contract cannot be concluded for more than ten years, unless it is a commercial deal.",
+      "Persons who may perform only acts of ordinary management cannot conclude a lease contract for more than three years.",
+      "If the contract is concluded for a longer term, it has effect for ten or for three years."
+    ]
+  },
+  "236": {
+    "paragraphs": [
+      "Art. 236. If, after the term of the lease, the use of the thing continues with the knowledge and without the objection of the landlord, the contract is deemed extended for an indefinite term.",
+      "If the tenant continues the use despite the objection of the landlord, the tenant owes compensation and must perform all obligations of the ended lease contract."
     ]
   },
   "237": {

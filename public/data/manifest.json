@@ -38,7 +38,8 @@
         "public-property",
         "family",
         "inheritance",
-        "commercial"
+        "commercial",
+        "other-contracts"
       ]
     },
     {
@@ -304,6 +305,21 @@
       "summary": {
         "en": "Merchants and companies, the Commercial Register, representation, transfer of shares and of an enterprise, bills of exchange.",
         "bg": "Търговци и дружества, Търговски регистър, представителство, прехвърляне на дялове и на предприятие, менителници."
+      }
+    },
+    {
+      "id": "other-contracts",
+      "number": 15,
+      "part": "civil",
+      "file": "15-other-contracts",
+      "minutes": 40,
+      "title": {
+        "en": "Other contracts: debt, pledge, lease and inheritance",
+        "bg": "Други договори: дълг, залог, наем, аренда и наследство"
+      },
+      "summary": {
+        "en": "Joining and replacing a debtor, the guarantee, the pledge of a thing or a claim, the lease and the agricultural lease, the sale of an inheritance, and the fees for these contracts.",
+        "bg": "Встъпване и заместване в дълг, поръчителство, залог на вещ или на вземане, наем и аренда, продажба на наследство и таксите за тези договори."
       }
     },
     {

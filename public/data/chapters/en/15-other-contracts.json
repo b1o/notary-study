@@ -1,0 +1,240 @@
+{
+  "id": "other-contracts",
+  "objectives": [
+    "Tell joining a debt from replacing the debtor, and prepare the form for a debt secured by a mortgage.",
+    "State when a pledge of a thing or a claim is valid and when it binds third persons.",
+    "Apply the limits of a lease and the rule on its entry, and calculate the fee for a lease.",
+    "Carry out the notary's checks for an agricultural lease and prepare its form, term and entry.",
+    "Prepare the sale of an inheritance and tell it from the sale of one item of it."
+  ],
+  "cards": [
+    {
+      "front": "A third person joins a debt by agreement with the creditor. Who is liable?",
+      "back": "The old debtor and the new one, **jointly**; once the creditor approved, the agreement cannot be changed without the creditor (Art. 101 ЗЗД)."
+    },
+    {
+      "front": "What does a replacement of the debtor need, and what happens to the old debtor?",
+      "back": "The **express consent** of the creditor; the old debtor is **released**. A pledge and a mortgage of the old debtor stay (Art. 102 ЗЗД)."
+    },
+    {
+      "front": "A buyer replaces the seller as debtor of a mortgage loan. What form?",
+      "back": "Written with **notarially certified signatures**, and **entry** in the property register (Art. 171 ЗЗД)."
+    },
+    {
+      "front": "What form does a guarantee need?",
+      "back": "**Written** form (Art. 138 ЗЗД); a certification is not required by law."
+    },
+    {
+      "front": "The owner keeps a pledged painting at home. Is the pledge valid?",
+      "back": "**No**: a pledge is valid only if the thing is handed to the creditor or to a person they chose (Art. 156 ЗЗД)."
+    },
+    {
+      "front": "A claim against a tenant is pledged. What makes the pledge effective against third persons?",
+      "back": "A **notice to the debtor** and, above the small amount, a document with a **certain date** (Art. 162 ЗЗД)."
+    },
+    {
+      "front": "For how long can two private persons lease a flat?",
+      "back": "At most **ten years**; persons who may only manage, at most **three** (Art. 229 ЗЗД)."
+    },
+    {
+      "front": "What is the material interest of a lease?",
+      "back": "The total rent for the **whole term**; without a term, for **3 years** (Art. 97(1), item 7 ЗННД)."
+    },
+    {
+      "front": "What does the notary check in an agricultural lease of a co-owned field?",
+      "back": "That the lessor holds **more than 50%**, alone or with express **notarially certified** powers of co-owners (Art. 3(1), (4) ЗАЗ)."
+    },
+    {
+      "front": "Minimum term of an agricultural lease?",
+      "back": "**Five** business years (Art. 4(1) ЗАЗ)."
+    },
+    {
+      "front": "How is an agricultural lease terminated by mutual consent?",
+      "back": "In writing with **notarially certified signatures**; the termination is **entered** and **registered** (Art. 27(1), item 3, (2) ЗАЗ)."
+    },
+    {
+      "front": "What form does the sale of an inheritance need, and when does it bind third persons?",
+      "back": "Written with **notarially certified signatures**; with real estate in it, it binds third persons only when **entered** (Art. 212 ЗЗД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A son agrees with his father's bank to become a co-debtor of the father's loan. What is the effect?",
+      "options": [
+        "Father and son are liable jointly for the whole debt",
+        "The father is released and only the son owes the debt",
+        "Each of them owes one half of the debt to the bank",
+        "The son is liable only if the father cannot pay"
+      ],
+      "answer": 0,
+      "explanation": "Art. 101 ЗЗД: a third person may join a debt as a co-debtor by agreement with the creditor or the debtor, and both are liable as joint debtors. The release of the old debtor is the effect of a replacement under Art. 102, which needs the express consent of the creditor.",
+      "refs": [
+        "zzd:101",
+        "zzd:102"
+      ]
+    },
+    {
+      "question": "A buyer wants to take over the seller's mortgage loan, so that the seller is released. What does the bank have to give?",
+      "options": [
+        "Its express consent to the replacement",
+        "Nothing; the loan follows the property",
+        "A new mortgage deed for the same flat",
+        "A notarial invitation to the seller"
+      ],
+      "answer": 0,
+      "explanation": "Art. 102 ЗЗД: a third person may replace the debtor only with the express consent of the creditor; then the old debtor is released, and the mortgage given by him stays. The mortgage follows the property (Art. 173), but the debt does not pass to the buyer without the consent.",
+      "refs": [
+        "zzd:102",
+        "zzd:173"
+      ]
+    },
+    {
+      "question": "In the same case, the bank consents. In what form is the replacement in the mortgage debt made, and what follows the signing?",
+      "options": [
+        "Written with certified signatures; entered in the register",
+        "Simple written form; filed with the bank only",
+        "A notarial deed in the district of the flat; no entry is needed",
+        "Oral agreement; a note in the loan file of the bank"
+      ],
+      "answer": 0,
+      "explanation": "Art. 171 ЗЗД: a replacement in an obligation secured by a mortgage must be made in writing with notarially certified signatures and entered in the property register to have effect. Without the entry it has no effect for the mortgage.",
+      "refs": [
+        "zzd:171"
+      ]
+    },
+    {
+      "question": "A collector pledges a painting to a lender but keeps it on his wall at home. Is the pledge valid?",
+      "options": [
+        "No; it must be handed to the creditor",
+        "Yes, if the contract has a certain date",
+        "Yes, if the signatures are certified",
+        "Yes, if it is entered in a register"
+      ],
+      "answer": 0,
+      "explanation": "Art. 156 ЗЗД: a pledge contract is valid only if the pledged thing is handed to the creditor or to a person chosen by the creditor and the pledgor. A certain date makes a valid pledge effective against third persons, but it does not replace the handing over.",
+      "refs": [
+        "zzd:156"
+      ]
+    },
+    {
+      "question": "A landlord pledges his claim for rent against a tenant to a bank. What makes the pledge effective against third persons?",
+      "options": [
+        "A notice to the tenant, and a certain date",
+        "The written consent of the tenant to the pledge",
+        "An entry in the property register",
+        "The handing over of the rented flat"
+      ],
+      "answer": 0,
+      "explanation": "Art. 162 ЗЗД: a claim that can be transferred may be pledged; the pledge binds third persons only if the debtor was notified, and above the small amount of Art. 156 also with a document with a certain date. The tenant's consent is not needed.",
+      "refs": [
+        "zzd:162",
+        "zzd:156"
+      ]
+    },
+    {
+      "question": "Two private persons sign a lease of a flat for twelve years. What is the position?",
+      "options": [
+        "The lease is valid for ten years only",
+        "The lease is void for the whole term",
+        "The lease is valid for all twelve years",
+        "The lease becomes a lease without a term"
+      ],
+      "answer": 0,
+      "explanation": "Art. 229 ЗЗД: a lease may not be concluded for more than ten years, unless it is a commercial deal; when a longer term is agreed, the lease has effect for ten years. The contract is not void, and the excess term is reduced by law.",
+      "refs": [
+        "zzd:229"
+      ]
+    },
+    {
+      "question": "A shop is leased for 5 years at 500 € a month, and the lease is entered. What is the notarial fee without VAT?",
+      "options": [
+        "261.94 лв. (133.93 €)",
+        "523.87 лв. (267.85 €)",
+        "157.16 лв. (80.35 €)",
+        "181.07 лв. (92.58 €)"
+      ],
+      "answer": 0,
+      "explanation": "Art. 97(1), item 7 ЗННД: 60 × 500 = 30,000 € = 58,674.90 лв. Item 8: 480.50 + 0.5% × 8,674.90 = 523.87 лв.; a lease subject to entry is charged under item 9, 50%: 261.94 лв. 157.16 is item 10 (30%), for a lease that is not entered; 181.07 uses only 3 years of rent.",
+      "refs": [
+        "znnd:97:1",
+        "tarifa:9",
+        "tarifa:10"
+      ]
+    },
+    {
+      "question": "A farmer and a land owner want an agricultural lease for three years. What does the office tell them?",
+      "options": [
+        "The term is below the minimum of five years",
+        "It is valid if the contract is entered",
+        "It is valid if the agricultural office agrees",
+        "It is valid as a lease of up to ten years"
+      ],
+      "answer": 0,
+      "explanation": "Art. 4(1) ЗАЗ: the minimum term of an agricultural lease is five business years. Neither the entry nor the registration in the agricultural office cures a shorter term; the ten-year limit of Art. 229 ЗЗД concerns the ordinary lease.",
+      "refs": [
+        "zaz:4:1",
+        "zzd:229"
+      ]
+    },
+    {
+      "question": "Three co-owners hold a field in shares of 30%, 25% and 45%. The owner of 45% wants to lease the whole field alone. What does the notary do?",
+      "options": [
+        "Refuses; the lessor must hold more than half",
+        "Certifies; the largest co-owner may act alone",
+        "Certifies, if the others are told afterwards",
+        "Certifies, if the term is at least five years"
+      ],
+      "answer": 0,
+      "explanation": "Art. 3(4) ЗАЗ: an agricultural lease may be concluded with a co-owner who holds more than 50% of a co-owned plot, alone or with an express notarially certified power from co-owners; Art. 3(1): the notary checks this. 45% is not enough.",
+      "refs": [
+        "zaz:3:4",
+        "zaz:3:1"
+      ]
+    },
+    {
+      "question": "Lessor and farmer agree to end an agricultural lease early. In what form, and what follows?",
+      "options": [
+        "Written, signatures certified; entered and registered",
+        "Oral agreement, confirmed by the agricultural office",
+        "A notice of one party, served by a notarial invitation",
+        "Written only; the old entry stays in the property file"
+      ],
+      "answer": 0,
+      "explanation": "Art. 27(1), item 3 ЗАЗ: termination by mutual consent is made in writing with notarially certified signatures; Art. 27(2): the termination is entered in the registry office and registered in the municipal agricultural office. A unilateral notice works only in the cases of the act.",
+      "refs": [
+        "zaz:27:1",
+        "zaz:27:2"
+      ]
+    },
+    {
+      "question": "An heir sells his whole inheritance, which includes a flat, to a cousin. What form, and when does it bind third persons?",
+      "options": [
+        "Written with certified signatures; binding when entered",
+        "A notarial deed of the district; binding from signing",
+        "Simple written form; binding after the partition of the estate",
+        "Written with certified signatures; binding at once"
+      ],
+      "answer": 0,
+      "explanation": "Art. 212 ЗЗД: the sale of an inheritance is written with notarially certified signatures; when real estate is in it, the contract can be relied upon against third persons only if it is entered (also Art. 4 ПВ).",
+      "refs": [
+        "zzd:212",
+        "pv:4"
+      ]
+    },
+    {
+      "question": "The seller of a whole inheritance did not list its items. Later a debt of the deceased appears. What did the seller guarantee to the buyer?",
+      "options": [
+        "Only the quality of heir",
+        "That the inheritance has no debts",
+        "That each item exists and is free",
+        "That the price equals the market value"
+      ],
+      "answer": 0,
+      "explanation": "Art. 212 ЗЗД: a person who sells an inheritance as a whole, without naming its items, guarantees only the quality of heir. Art. 213: the buyer reimburses the seller for the debts of the inheritance that the seller paid.",
+      "refs": [
+        "zzd:212",
+        "zzd:213"
+      ]
+    }
+  ]
+}
