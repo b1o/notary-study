@@ -2,7 +2,8 @@
 
 A bilingual (Bulgarian and English) study hub for work in a Bulgarian notary office: course chapters,
 the law texts that the chapters cite, and study tools. It is an Angular 22 app without a server.
-All content is static data in `public/data`.
+All content is static data in `public/data`. `docs/design.md` states the purpose (a learning tool,
+not a tool for real case work), the content rules and the decisions so far.
 
 | Section               | What it does                                                                              |
 | --------------------- | ----------------------------------------------------------------------------------------- |
