@@ -1,0 +1,236 @@
+{
+  "id": "procedure",
+  "objectives": [
+    "List the notarial proceedings in Art. 569 of the Civil Procedure Code.",
+    "Decide which notary may perform a given act, depending on the location of the property.",
+    "Recognise the relations that oblige a notary to step aside.",
+    "List the breaches that make a notarial act null.",
+    "Explain what a refusal is, how it is appealed and within what time."
+  ],
+  "cards": [
+    {
+      "front": "Which notary issues a deed of sale of real estate?",
+      "back": "The notary in whose **district the property is** (Art. 570(1) ГПК)."
+    },
+    {
+      "front": "Which notary may make a will or certify a power of attorney?",
+      "back": "**Any** notary (Art. 570(2) ГПК)."
+    },
+    {
+      "front": "When is a written request needed?",
+      "back": "For deeds transferring or creating real rights in real estate, certification of ownership, and entries, notes and deletions (Art. 571 ГПК)."
+    },
+    {
+      "front": "Parties vs participants?",
+      "back": "**Parties**: in whose name the act is requested. **Participants**: whose personal statements the notary certifies (Art. 572 ГПК)."
+    },
+    {
+      "front": "Where and when may deeds for entry be issued?",
+      "back": "Only **in the office** and only **in working hours** (Art. 573(2) ГПК)."
+    },
+    {
+      "front": "Which relatives cause recusal?",
+      "back": "Spouse/cohabitant; ascendants and descendants; collaterals to the **4th degree**; in-laws to the **1st degree**; guardianship, adoption, foster relations (Art. 575(1) ГПК)."
+    },
+    {
+      "front": "Does recusal apply if the document only benefits the notary's relative?",
+      "back": "**Yes**, if it contains a disposition in their favour (Art. 575(2) ГПК)."
+    },
+    {
+      "front": "Name four breaches that make a notarial act null.",
+      "back": "No competence or wrong district; outside the district; illegal deal; recusal; no personal appearance; no reading/signing; missing essential content; no interpreter (Art. 576 ГПК)."
+    },
+    {
+      "front": "Where is a notary's refusal appealed?",
+      "back": "With a **private appeal** before the **regional court** (Art. 577(1) ГПК)."
+    },
+    {
+      "front": "Time limit for a private appeal?",
+      "back": "**One week** from notification (Art. 275(1) ГПК)."
+    },
+    {
+      "front": "What can a creditor do with a notarial deed for a loan?",
+      "back": "Ask the court for an **order for immediate enforcement** (Art. 417(1), item 3 and Art. 418 ГПК)."
+    },
+    {
+      "front": "When are notarial fees due?",
+      "back": "When the act is **performed**; for a circumstantial verification, when the request is **made** (Art. 88 ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A client from Sofia owns a flat in Plovdiv and wants to sell it while staying in Sofia. Which notary issues the deed?",
+      "options": [
+        "A notary from the Plovdiv district",
+        "Any notary in Sofia",
+        "Any notary in Bulgaria",
+        "The notary of the buyer's choice anywhere"
+      ],
+      "answer": 0,
+      "explanation": "Deeds for real estate are issued by the notary in whose district the property is. The seller may sign a power of attorney in Sofia.",
+      "refs": [
+        "gpk:570:1"
+      ]
+    },
+    {
+      "question": "Which act may a notary in Sofia perform for a property in Varna?",
+      "options": [
+        "Certify the signature and content of a power of attorney to sell it",
+        "Issue the sale deed",
+        "Issue a declaratory deed of ownership",
+        "Issue a mortgage deed"
+      ],
+      "answer": 0,
+      "explanation": "Only acts other than deeds for real rights and certifications of ownership are free of the property rule.",
+      "refs": [
+        "gpk:570:2"
+      ]
+    },
+    {
+      "question": "For which act is a written request required?",
+      "options": [
+        "A deed for a gift of a house",
+        "A certification of a signature on a declaration",
+        "A certification of a copy",
+        "A notarial invitation"
+      ],
+      "answer": 0,
+      "explanation": "A written request is required for deeds about real rights in real estate, certifications of ownership and entries.",
+      "refs": [
+        "gpk:571"
+      ]
+    },
+    {
+      "question": "The buyer is the notary's first cousin. May the notary issue the deed?",
+      "options": [
+        "No, first cousins are collaterals of the fourth degree",
+        "Yes, cousins are not covered",
+        "Yes, with the consent of the seller",
+        "Yes, if the assistant notary signs"
+      ],
+      "answer": 0,
+      "explanation": "Collaterals up to the fourth degree are covered; first cousins are fourth-degree relatives.",
+      "refs": [
+        "gpk:575:1"
+      ]
+    },
+    {
+      "question": "The notary's sister-in-law (the brother's wife) is a party. Is the notary recused?",
+      "options": [
+        "No, in-laws are covered only to the first degree, and a brother's wife is a second-degree in-law",
+        "Yes, all in-laws are covered",
+        "Yes, always",
+        "Only if she lives with the notary"
+      ],
+      "answer": 0,
+      "explanation": "Art. 575(1) covers in-laws up to the first degree only (parents-in-law, children-in-law). The notary may still decline under Art. 23 ЗННД if impartiality is in doubt.",
+      "refs": [
+        "gpk:575:1",
+        "znnd:23"
+      ]
+    },
+    {
+      "question": "A notary issued a sale deed for a flat in another district. What is the status of the deed?",
+      "options": [
+        "Null",
+        "Valid but voidable",
+        "Valid if entered",
+        "Valid if the parties agree"
+      ],
+      "answer": 0,
+      "explanation": "Breach of Art. 570(1) makes the act null.",
+      "refs": [
+        "gpk:576"
+      ]
+    },
+    {
+      "question": "The seller did not come; his brother signed \"for him\" without a power of attorney. What is the status?",
+      "options": [
+        "Null for lack of personal appearance of the participant",
+        "Valid if the seller later agrees",
+        "Voidable within three years",
+        "Valid because the brother is family"
+      ],
+      "answer": 0,
+      "explanation": "Breach of Art. 578(4) about personal appearance makes the act null.",
+      "refs": [
+        "gpk:576",
+        "gpk:578:4"
+      ]
+    },
+    {
+      "question": "Within what time can a client appeal the notary's refusal?",
+      "options": [
+        "One week from notification",
+        "One month",
+        "Two weeks",
+        "Three days"
+      ],
+      "answer": 0,
+      "explanation": "Private appeals are filed within one week.",
+      "refs": [
+        "gpk:275:1",
+        "gpk:577:1"
+      ]
+    },
+    {
+      "question": "The regional court sets aside a refusal of an entry. When is the entry deemed made?",
+      "options": [
+        "From the moment of the request for entry",
+        "From the date of the court decision",
+        "From the date of the new request",
+        "From the next working day"
+      ],
+      "answer": 0,
+      "explanation": "Art. 577(3) ГПК.",
+      "refs": [
+        "gpk:577:3"
+      ]
+    },
+    {
+      "question": "A patient in hospital needs a power of attorney certified today. Is it possible?",
+      "options": [
+        "Yes, outside the office for good reasons, with an additional fee",
+        "No, all acts are only in the office",
+        "Only on weekends",
+        "Only if the patient sends a relative"
+      ],
+      "answer": 0,
+      "explanation": "Acts other than deeds for entry may be done outside the office when good reasons require it.",
+      "refs": [
+        "gpk:573:3",
+        "tarifa:23"
+      ]
+    },
+    {
+      "question": "Why do lenders prefer a loan contract with notarially certified signatures?",
+      "options": [
+        "It allows an order for immediate enforcement",
+        "It reduces the interest rate",
+        "It makes the loan tax-free",
+        "It is required for all loans"
+      ],
+      "answer": 0,
+      "explanation": "Art. 417(1), item 3 ГПК covers notarial deeds and contracts with certified signatures for money obligations.",
+      "refs": [
+        "gpk:417",
+        "gpk:418"
+      ]
+    },
+    {
+      "question": "When does the client pay the fee for a circumstantial verification?",
+      "options": [
+        "When the request is made, and it is not returned if ownership is not recognised",
+        "After the deed is issued",
+        "Only if the ownership is recognised",
+        "At the end of the year"
+      ],
+      "answer": 0,
+      "explanation": "Art. 88(1) ЗННД and the note to item 11 of the tariff.",
+      "refs": [
+        "znnd:88:1",
+        "tarifa:11"
+      ]
+    }
+  ]
+}

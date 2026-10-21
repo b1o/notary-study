@@ -1,0 +1,532 @@
+{
+  "37": {
+    "title": "Addressee",
+    "paragraphs": [
+      "Art. 37. The addressee is the person for whom the notice is intended."
+    ]
+  },
+  "38": {
+    "title": "Address for service",
+    "paragraphs": [
+      "Art. 38. (1) The notice is served at the address stated in the case.",
+      "(2) Service may be made at an electronic address for service chosen by the party through:",
+      "1. the single portal for e-justice;",
+      "2. a qualified electronic registered delivery service under Art. 3(37) of Regulation (EU) No 910/2014 (\"Regulation (EU) No 910/2014\");",
+      "3. the secure electronic service system under Art. 26(2) of the E-Government Act.",
+      "(3) When no option under para. 2 was chosen but the party stated an e-mail address, service is made at that address.",
+      "(4) Consent to service under paras. 2 and 3 may be withdrawn at any time; the withdrawal does not affect the regularity of acts already performed.",
+      "(5) When service under paras. 1–3 is not possible, the notice is served at the party's current address, and failing that at the permanent address.",
+      "(6) A party may state an electronic address for service on an expert, a witness or a third person who must present a document.",
+      "(7) When the party is an executive body, service through the system under para. 2, item 3 is not possible."
+    ]
+  },
+  "39": {
+    "title": "Service on a representative",
+    "paragraphs": [
+      "Art. 39. (1) When the party named a person at the seat of the court to receive notices (a judicial addressee), or has an agent in the case, service is made on that person or the agent.",
+      "(2) When several claimants or defendants named a common judicial addressee or have a common agent at the seat of the court, one notice is issued for all, with their names.",
+      "(3) When there are several claimants or defendants with no conflicting interests, the court may oblige them to name one of them or another person as a common judicial addressee. If they fail, the court may appoint a representative to receive papers at their expense and risk.",
+      "(4) When the addressee lacks procedural capacity, the notice is served on the legal representative."
+    ]
+  },
+  "40": {
+    "title": "Judicial addressee",
+    "paragraphs": [
+      "Art. 40. (1) A party who lives abroad or leaves for more than one month must name a person at the seat of the court to receive notices, unless he has an agent in the case in Bulgaria. The legal representative, the curator and the agent of the party have the same duty.",
+      "(2) If they do not name a judicial addressee, all notices are attached to the case file and deemed served. The court warns them of this on serving the first notice."
+    ]
+  },
+  "41": {
+    "title": "Duty to notify a change of address",
+    "paragraphs": [
+      "Art. 41. (1) A party who is absent for more than one month from the address given in the case, or at which a notice was once served, must notify the court of the new address. The same applies when the party gave an electronic address for service, and to the legal representative, the curator and the agent.",
+      "(2) If this duty is not met, or the party changed the electronic address without notice or gave a false or non-existent address, all notices are attached to the case and deemed served. The court warns the party of this on serving the first notice."
+    ]
+  },
+  "42": {
+    "title": "Server",
+    "paragraphs": [
+      "Art. 42. (1) Notices are served by a court employee, by post or by courier with registered mail and return receipt. Where there is no court in the place of service, service may be made through the municipality or the mayoralty.",
+      "(2) At the request of a party, the court may order service by a private bailiff at the party's expense.",
+      "(3) When a notice was not served under paras. 1 and 2, and in disasters and other unforeseen events, the court may exceptionally order service by a court employee by telephone, electronic address, telex, fax or telegram.",
+      "(4) (Repealed.)"
+    ]
+  },
+  "43": {
+    "title": "Ways of service",
+    "paragraphs": [
+      "Art. 43. (1) A notice is served personally or through another person.",
+      "(2) The court may order service by attaching the notice to the case file or by affixing a notice.",
+      "(3) The court may order service by public announcement."
+    ]
+  },
+  "44": {
+    "title": "Certification of service",
+    "paragraphs": [
+      "Art. 44. (1) The server certifies with his signature the date and manner of service and all acts connected with it. He notes the capacity of the person who received the notice, after asking for an identity document. If the person refuses to show it, the server may ask for the help of the Chief Directorate \"Security\" of the Ministry of Justice. The recipient also signs to confirm receipt. A refusal to accept is noted in the receipt and certified by the server's signature. The refusal does not affect the regularity of service.",
+      "(2) Service by telephone or fax is certified in writing by the server; by telegram with a delivery notice; by telex with a written confirmation. Service by post is certified with the return receipt.",
+      "(3) Electronic service is certified by: 1. an electronic record of the portal sealed with the court's qualified electronic seal with certified time or a qualified time stamp – for service under Art. 38(2), item 1; 2. an electronic record of the qualified trust service provider – under Art. 38(2), item 2; 3. a confirmation of receipt – under Art. 38(3) and (6).",
+      "(4) The receipts and confirmations are returned to the court immediately after they are made."
+    ]
+  },
+  "45": {
+    "title": "Personal service",
+    "paragraphs": [
+      "Art. 45. A notice is served on the addressee personally. Service on a representative or at an electronic address for service counts as personal service."
+    ]
+  },
+  "46": {
+    "title": "Service on another person",
+    "paragraphs": [
+      "Art. 46. (1) When a notice cannot be served on the addressee personally, it is served on another person who agrees to accept it.",
+      "(2) Another person may be any adult member of the household, a person living at the address, or a worker, employee or employer of the addressee. That person signs the receipt and undertakes to hand the summons to the addressee. Service may not be made on persons who are the addressee's opponents in the case.",
+      "(3) The court excludes persons who have an interest in the outcome or whom the addressee expressly named in a written statement. They are named in the notice and the receipt.",
+      "(4) Receipt by the other person counts as service on the addressee. The addressee may ask for restoration of a term if he was absent and could not learn of the service in time. The term under Art. 64(2) runs from when he could learn of the service."
+    ]
+  },
+  "47": {
+    "title": "Service by affixing a notice",
+    "paragraphs": [
+      "Art. 47. (1) When for one month the defendant cannot be found at the address in the case and nobody agrees to receive the notice, the server affixes a notice on the door or the mailbox, and if there is no access to them, on the entrance door or a visible place near it; if there is access to the mailbox, he also puts a notice in it. That the defendant cannot be found is established by at least three visits at least one week apart, at least one on a non-working day. This rule does not apply when the server collected data, from the building manager, the mayor or otherwise, that the defendant does not live at the address and stated the source in the notice.",
+      "(2) The notice states that the papers are left at the court office (when served by a court employee or private bailiff) or at the municipality (when served by its employee), and can be collected there within two weeks of affixing.",
+      "(3) When the defendant does not come for the papers, the court checks his address registration, except in the cases of Art. 40(2) and 41(1). If the address differs from his permanent and current addresses, the court orders service there under paras. 1 and 2. The court also checks the defendant's place of work and orders service there.",
+      "(4) (Repealed.)",
+      "(5) The notice is deemed served when the term for collecting it from the court office or the municipality expires.",
+      "(6) When the court finds the service regular, it orders the notice attached to the case and appoints a special representative at the claimant's expense, with remuneration under Art. 36a of the Bar Act.",
+      "(7) Paras. 1–5 apply accordingly to service on an intervening party and to service of an order for payment.",
+      "(8) Paras. 1 and 2 apply to service on a witness, an expert and a non-party; the notice is left in the mailbox, or if there is no access, a notice is affixed."
+    ]
+  },
+  "48": {
+    "title": "Service by public announcement",
+    "paragraphs": [
+      "Art. 48. (1) If when the case is filed the defendant has no registered permanent or current address, at the claimant's request the notice of the claim is published in the unofficial section of the State Gazette. The court permits this after the claimant proves that the defendant has no address registration and declares that he does not know the defendant's address abroad.",
+      "(2) If the defendant still does not appear to receive copies of the claim, the court appoints a special representative at the claimant's expense under Art. 29(5)."
+    ]
+  },
+  "49": {
+    "title": "Place of service",
+    "paragraphs": [
+      "Art. 49. The place of service is the dwelling, the holiday house, the place of work or service, the seat, the place of business or another place where the addressee lives, and any other place where the addressee can be found."
+    ]
+  },
+  "50": {
+    "title": "Service on merchants and legal entities",
+    "paragraphs": [
+      "Art. 50. (1) The place of service on a merchant and a legal entity entered in a register is the last address entered in the register.",
+      "(2) If the entity left its address and the new one is not entered, all notices are attached to the case and deemed duly served.",
+      "(3) Service on merchants and legal entities is made at their offices on any employee or worker who agrees to accept it. The server states the name and position of the recipient.",
+      "(4) When the server finds no access to the office or nobody agrees to receive the notice, he affixes a notice under Art. 47(1). A second notice is not affixed.",
+      "(5) Service on credit and financial institutions, including those collecting claims from consumers, insurers and reinsurers, suppliers of energy, gas, postal, electronic communication, water and sewerage services, notaries and private bailiffs is made only under Art. 38(2) at an electronic address they state."
+    ]
+  },
+  "51": {
+    "title": "Service on a lawyer",
+    "paragraphs": [
+      "Art. 51. (1) Service on a lawyer is made personally at his office or wherever he is on duty. At the office it may be made on anyone who works or cooperates with the lawyer. The server states the name and capacity of the recipient.",
+      "(2) The lawyer may not refuse to receive a notice for his client, except after the power was revoked under Art. 35, renounced under Art. 36, or when the power clearly does not cover the instance. A refusal is noted in the receipt and certified by the server; it does not affect the regularity of service.",
+      "(3) Service on a lawyer may also be made only electronically at a stated electronic address under Art. 38(2)."
+    ]
+  },
+  "52": {
+    "title": "Service on state institutions and municipalities",
+    "paragraphs": [
+      "Art. 52. (1) State institutions and municipalities must provide an employee to receive notices in working hours.",
+      "(2) Service on state institutions and municipalities is made only under Art. 38(2) at an electronic address they state."
+    ]
+  },
+  "53": {
+    "title": "Service on foreigners in the country",
+    "paragraphs": [
+      "Art. 53. Service on foreigners residing in Bulgaria is made at the address they declared to the administrative authorities."
+    ]
+  },
+  "54": {
+    "title": "Irregular service",
+    "paragraphs": [
+      "Art. 54. If service was irregular, it is deemed made when the notice actually reached the addressee."
+    ]
+  },
+  "55": {
+    "title": "Forms",
+    "paragraphs": [
+      "Art. 55. The Minister of Justice issues an ordinance approving the forms of all papers related to service."
+    ]
+  },
+  "56": {
+    "title": "Summonses",
+    "paragraphs": [
+      "Art. 56. (1) The court summons the parties to the hearings.",
+      "(2) Parties duly summoned are not summoned again when a hearing is adjourned and the date of the next one is announced at the hearing.",
+      "(3) Summonses are served at least one week before the hearing. This rule does not apply in enforcement proceedings."
+    ]
+  },
+  "57": {
+    "title": "Content of the summons",
+    "paragraphs": [
+      "Art. 57. A summons states:",
+      "1. the court that issues it;",
+      "2. the name and address of the person summoned;",
+      "3. the case and the capacity in which the person is summoned;",
+      "4. the place and time of the hearing; and",
+      "5. the legal consequences of failure to appear."
+    ]
+  },
+  "58": {
+    "title": "Service of summonses",
+    "paragraphs": [
+      "Art. 58. Summonses are served under the rules for notices."
+    ]
+  },
+  "60": {
+    "title": "Calculation of terms",
+    "paragraphs": [
+      "Art. 60. (1) Terms are counted in years, months, weeks and days.",
+      "(2) A term in years ends on the corresponding day of the last year; if the month has no such day, on its last day.",
+      "(3) A term in months ends on the corresponding date of the last month; if that month has no such date, on its last day.",
+      "(4) A term in weeks ends on the corresponding day of the last week.",
+      "(5) A term in days is counted from the day after the day on which it starts and ends at the end of the last day.",
+      "(6) When the last day is a non-working day, the term ends on the first following working day."
+    ]
+  },
+  "61": {
+    "title": "Suspension of terms",
+    "paragraphs": [
+      "Art. 61. (1) When the proceedings are suspended, all terms that started and have not expired are suspended, from the event that caused the suspension.",
+      "(2) (Repealed.)"
+    ]
+  },
+  "62": {
+    "title": "Expiry of a term",
+    "paragraphs": [
+      "Art. 62. (1) The last day of a term lasts until the end of the twenty-fourth hour. If an act must be performed or something presented in court, the term ends when working hours end.",
+      "(2) A term is not missed when the request was sent by post or in electronic form, or filed in time with another court or the prosecutor's office.",
+      "(3) When the court set a longer term than the statutory one, an act performed after the statutory term but before the court's term is not late.",
+      "(4) An electronic statement is deemed received by the court when it enters the system of the single portal for e-justice."
+    ]
+  },
+  "63": {
+    "title": "Extension of terms",
+    "paragraphs": [
+      "Art. 63. (1) Statutory and court terms may be extended by the court on a request filed before they expire, for valid reasons.",
+      "(2) The new term may not be shorter than the original one; it runs from the end of the original term.",
+      "(3) Para. 1 does not apply to terms for appeal and for a request to set aside a final decision."
+    ]
+  },
+  "143": {
+    "title": "Hearing in open session",
+    "paragraphs": [
+      "Art. 143. (1) In the open session, after the preliminary questions, the court clarifies the facts of the dispute.",
+      "(2) The claimant may explain and supplement the claim and name and present evidence on the defendant's objections; the defendant may name and present new evidence that he could not present with his answer.",
+      "(3) The parties must make and justify all their requests and objections and state their position on the facts alleged by the other side.",
+      "(4) In a hearing by video conference the court ensures compliance with the technical requirements, simultaneous transmission of image and sound, perception of the acts by all participants, and recording."
+    ]
+  },
+  "144": {
+    "title": "Additional term",
+    "paragraphs": [
+      "Art. 144. (1) The defendant may ask for an additional term to respond to the claimant's evidentiary requests made at the hearing and to name additional evidence.",
+      "(2) When the request is granted, the court rules in closed session by a ruling communicated to the parties."
+    ]
+  },
+  "164": {
+    "title": "Admissibility of witness testimony",
+    "paragraphs": [
+      "Art. 164. (1) Witness testimony is admissible in all cases, except to establish:",
+      "1. legal transactions for whose validity the law requires a written document;",
+      "2. a challenge to the content of an official document;",
+      "3. facts that the law requires to be proved by a written document, and contracts worth more than 5,000 leva, unless concluded between spouses or relatives in the direct line, collateral relatives up to the fourth degree or relatives by marriage up to the second degree;",
+      "4. the payment of money obligations established by a written document;",
+      "5. written agreements in which the party calling the witnesses took part, and their change or cancellation;",
+      "6. a challenge to the content of a private document that comes from the party.",
+      "(2) In the cases of para. 1, items 3, 4, 5 and 6, witness testimony is admitted only with the express consent of the parties."
+    ]
+  },
+  "170": {
+    "title": "Promise to tell the truth",
+    "paragraphs": [
+      "Art. 170. (1) Before questioning a witness, the court establishes his identity, clarifies any interest he may have and reminds him of his liability for perjury.",
+      "(2) The witness promises to tell the truth."
+    ]
+  },
+  "179": {
+    "title": "Official document",
+    "paragraphs": [
+      "Art. 179. (1) An official document issued by an official within his competence in the prescribed form and procedure is evidence of the statements made before him and of the acts performed by him and before him.",
+      "(2) Officially certified copies or extracts of official documents have the same evidential force as the originals."
+    ]
+  },
+  "180": {
+    "title": "Private document",
+    "paragraphs": [
+      "Art. 180. Private documents signed by the persons who issued them are evidence that the statements in them were made by those persons."
+    ]
+  },
+  "189": {
+    "title": "Document of an illiterate or blind person",
+    "paragraphs": [
+      "Art. 189. (1) A private document of an illiterate person must bear, instead of a signature, the print of his right thumb and be countersigned by two witnesses. If the right thumb print cannot be made, the document states the reason and which other finger was used.",
+      "(2) A private document of a blind but literate person must be countersigned by two witnesses."
+    ]
+  },
+  "275": {
+    "title": "Term and content of a private appeal",
+    "paragraphs": [
+      "Art. 275. (1) Private appeals are filed within one week of the communication of the ruling. For a ruling made in a court hearing, the term runs for a party who was present from the day of the hearing.",
+      "(2) Art. 259(2)–(4), Art. 260, 261, 262 and 273 apply accordingly to private appeals."
+    ]
+  },
+  "417": {
+    "title": "Order for payment based on a document",
+    "paragraphs": [
+      "Art. 417. (1) The applicant may ask for an order for payment, regardless of the amount, when the claim is based on:",
+      "1. an act of an administrative body whose enforcement is assigned to the civil courts;",
+      "2. a document or extract from the accounts establishing claims of state institutions and municipalities, or an extract from the accounts of a bank with the document from which the bank's claim arises and all its annexes, including the general terms;",
+      "3. a notarial deed, settlement or other contract with notarially certified signatures, for the obligations in it to pay money or other fungible things or to hand over certain things;",
+      "4. an extract from the register of special pledges for an entered security and the start of enforcement – for the handover of pledged things;",
+      "5. an extract from the register of special pledges for an entered sale with retention of title or a lease – for the return of the things;",
+      "6. a pledge contract or a mortgage deed under Art. 160 and 173(3) of the Obligations and Contracts Act;",
+      "7. a final act establishing a private state or municipal claim enforced under this Code;",
+      "8. final mandatory instructions of the Labour Inspectorate to an employer to pay employment obligations delayed by more than two months;",
+      "9. an act of deficiency;",
+      "10. a promissory note, a bill of exchange or another order security, a bond or its coupons. When the security secures a claim from a consumer contract, the contract and all its annexes, including the general terms, are attached.",
+      "(2) In an electronic application, the applicant attaches a copy of the document; within 7 days he presents the original of a document under para. 1, items 3, 6 and 10.",
+      "(3) In a paper application, the applicant presents the original of a document under para. 1, items 3, 6 and 10, and in the other cases a copy certified by him."
+    ]
+  },
+  "418": {
+    "title": "Immediate enforcement",
+    "paragraphs": [
+      "Art. 418. (1) When a document under Art. 417(1) is presented with the application, the creditor may ask the court for immediate enforcement and a writ of execution.",
+      "(2) The writ is issued after the court checks that the document is regular on its face and establishes an enforceable claim against the debtor. The court notes the issue of the writ on the original document and in the electronic file.",
+      "(3) When the claim depends on a counter-performance or another circumstance, that performance or circumstance must be proved by an official document or a document from the debtor.",
+      "(4) After the writ is issued, bailiffs get access to the electronic order and the document through the single portal for e-justice.",
+      "(5) A refusal to issue a writ may be appealed by the applicant within one week by a private appeal, without a copy for service.",
+      "(6) The bailiff serves on the debtor a copy of the order and of the document with the note of the writ, and sends the court an electronic copy of the service."
+    ]
+  },
+  "569": {
+    "title": "Notarial certifications",
+    "paragraphs": [
+      "Art. 569. Notarial proceedings are those for:",
+      "1. legal transactions by notarial deeds;",
+      "2. certification of ownership of real estate, certification of the date, content or signatures of private documents, and of the correctness of copies and extracts of documents and papers;",
+      "3. notarial invitations, protests, certifications of the appearance or non-appearance of persons before the notary for acts before him;",
+      "4. acceptance and return of documents and papers deposited for safekeeping;",
+      "5. entries, notes and their deletion in the cases provided by law;",
+      "6. information from the notarial books, including under Art. 577(2);",
+      "7. certificates of the existence or absence of encumbrances;",
+      "8. other notarial acts provided by law."
+    ]
+  },
+  "570": {
+    "title": "Territorial competence",
+    "paragraphs": [
+      "Art. 570. (1) Notarial deeds for the transfer of ownership or the creation of a real right in real estate, and for the certification of ownership of real estate, are issued by the notary in whose district the property is. Entries, notes and deletions for real estate are made on the order of the registration judge by the registry office in whose district the property is. Acts subject to entry, note and deletion are presented in two or more identical copies.",
+      "(2) Other notarial acts and wills may be performed by any notary, regardless of the link between his district and the certification."
+    ]
+  },
+  "571": {
+    "title": "Start of notarial proceedings",
+    "paragraphs": [
+      "Art. 571. Notarial proceedings start with an oral request. The request is in writing only when a notarial deed is sought for the transfer or creation of a real right in real estate, for the certification of ownership of real estate, or for an entry, note or deletion."
+    ]
+  },
+  "572": {
+    "title": "Parties and participants",
+    "paragraphs": [
+      "Art. 572. The parties to notarial proceedings are the persons in whose name the act is requested. The participants are the persons whose personal statement the notary certifies."
+    ]
+  },
+  "573": {
+    "title": "Place and time of notarial certifications",
+    "paragraphs": [
+      "Art. 573. (1) A notary may not perform notarial acts outside his district.",
+      "(2) Notarial deeds subject to entry are issued only in the notary's office in working hours.",
+      "(3) Other notarial acts may also be performed outside the office and out of working hours when valid reasons prevent the participants from coming to the office or require immediate performance of the act."
+    ]
+  },
+  "574": {
+    "title": "Legality of notarial certifications",
+    "paragraphs": [
+      "Art. 574. No notarial acts may be performed concerning transactions, documents or other acts that are contrary to the law or to good morals."
+    ]
+  },
+  "575": {
+    "title": "Recusal of the notary",
+    "paragraphs": [
+      "Art. 575. (1) A notary may not perform notarial acts when a party or participant is the notary himself, his spouse or cohabiting partner, his relatives in the ascending and descending line, collateral relatives up to the fourth degree, relatives by marriage up to the first degree, or persons for whom the notary is guardian, curator, adopted child, adoptive parent or foster family.",
+      "(2) The prohibition under para. 1 also applies when the transaction or the document contains a disposition in favour of any of the persons under para. 1."
+    ]
+  },
+  "576": {
+    "title": "Null notarial acts",
+    "paragraphs": [
+      "Art. 576. A notarial act is null when the notary had no right to perform it (Art. 569, 570(1), 573(1), 574 and 575), and when in its performance Art. 578(4) (personal appearance of the participants), Art. 579, Art. 580, items 1, 3, 4 and 6, Art. 582, 583 or 589(2) were breached."
+    ]
+  },
+  "577": {
+    "title": "Appeal against a refusal",
+    "paragraphs": [
+      "Art. 577. (1) A refusal to perform a notarial certification is subject to a private appeal before the regional court.",
+      "(2) Separate books are kept for refusals of entries, notes or deletions.",
+      "(3) When the court sets aside the refusal, the entry, note or deletion is deemed made from the moment the request for it was filed."
+    ]
+  },
+  "578": {
+    "title": "Form of the notarial deed",
+    "paragraphs": [
+      "Art. 578. (1) To issue a notarial deed, a draft is prepared in two or more identical copies. The form, type and size of the paper are set by a model approved by the Minister of Justice.",
+      "(2) All copies of the draft are prepared cleanly and legibly, handwritten in black or blue ink or printed.",
+      "(3) Numbers in the draft are also written in words when they concern the content of the transaction. Empty spaces are crossed out.",
+      "(4) The persons whose statements are in the draft, or their agents, must appear personally before the notary, who, before issuing the deed, checks the identity, capacity and power of representation of those present.",
+      "(5) The identity of persons unknown to the notary is established by an identity document. In the same way the notary establishes whether they are of age. Without an identity document, the person proves identity through two witnesses whose identity is established."
+    ]
+  },
+  "579": {
+    "title": "Issue of the notarial deed",
+    "paragraphs": [
+      "Art. 579. (1) The notary reads the content of the deed to the participants. If they approve it, they write their names and sign before the notary; if the deed is already signed, they write their full names and confirm their signatures.",
+      "(2) When a participant cannot sign because of illiteracy or disability, Art. 189 applies, but the deed is not countersigned by witnesses.",
+      "(3) When corrections, additions or deletions are needed, an express note is made and signed like the deed itself."
+    ]
+  },
+  "580": {
+    "title": "Content of the notarial deed",
+    "paragraphs": [
+      "Art. 580. The notarial deed contains:",
+      "1. the year, month and day, and when necessary the hour and place of issue;",
+      "2. the name of the notary who issues it;",
+      "3. the full name and personal number of the participants, and the number, date, place and issuing authority of their identity document;",
+      "4. the content of the act;",
+      "5. a short description of the documents proving the requirements under Art. 586(1);",
+      "6. the signatures and handwritten full names of the parties or their representatives, and the signature of the notary."
+    ]
+  },
+  "581": {
+    "title": "Filing of the notarial deed",
+    "paragraphs": [
+      "Art. 581. After the deed is issued and entered, one copy is filed in a special book, and the other copies, charged as copies, are given to the participants."
+    ]
+  },
+  "582": {
+    "title": "Interpreter",
+    "paragraphs": [
+      "Art. 582. When a participant does not know Bulgarian and the notary does not know the language he uses, the notary appoints an interpreter."
+    ]
+  },
+  "583": {
+    "title": "Deaf, mute or illiterate participants",
+    "paragraphs": [
+      "Art. 583. (1) When a participant is literate but mute, deaf or deaf-mute, the deaf person must read the document aloud himself and say whether he agrees with it, and the mute or deaf-mute person must, after reading it, write by hand on it that he read it and agrees with its content.",
+      "(2) When these persons are illiterate, the notary appoints a Bulgarian sign language interpreter, through whom the content is communicated to the deaf or deaf-mute person and the approval of the mute or deaf-mute person is conveyed. The notary must make sure that the interpreter and these persons understand each other.",
+      "(3) In the cases of para. 2 the notary makes a note in the deed."
+    ]
+  },
+  "584": {
+    "title": "Incompatibility of witnesses and interpreters",
+    "paragraphs": [
+      "Art. 584. The following may not be witnesses, Bulgarian sign language interpreters or interpreters:",
+      "1. persons without capacity;",
+      "2. persons illiterate in Bulgarian;",
+      "3. persons in any of the relations under Art. 575 with the persons under Art. 572 or with the notary; a sign language interpreter may be a relative of a participant;",
+      "4. persons in whose favour the act contains any disposition;",
+      "5. blind, deaf and mute persons;",
+      "6. persons working in the notary office and employees of the registry office."
+    ]
+  },
+  "585": {
+    "title": "Participation of witnesses and interpreters",
+    "paragraphs": [
+      "Art. 585. (1) Witnesses, sign language interpreters and interpreters promise that what they confirm before the notary is true, under Art. 170.",
+      "(2) These persons sign the deed."
+    ]
+  },
+  "586": {
+    "title": "Check of ownership",
+    "paragraphs": [
+      "Art. 586. (1) When issuing a notarial deed that transfers ownership or creates, transfers, changes or ends another real right in real estate, the notary checks whether the transferor is the owner and whether the special requirements for the transaction are met.",
+      "(2) Ownership is proved by the relevant documents. When the transferor has no such documents, ownership is checked under Art. 587(2).",
+      "(3) The notary certifies the check in the deed and lists the documents of ownership and the other requirements.",
+      "(4) When the transferor's document of ownership is not entered, the notarial deed is not issued until that document is entered."
+    ]
+  },
+  "587": {
+    "title": "Declaratory notarial deed",
+    "paragraphs": [
+      "Art. 587. (1) When the owner of real estate has no document for his right, he may obtain one after proving his right before the notary with proper written evidence.",
+      "(2) If the owner has no such evidence or it is insufficient, the notary performs a circumstantial verification of acquisition by prescription by questioning three witnesses named by the mayor of the municipality, district or village where the property is, or by an official he designates. The witnesses are named on the owner's indication and should, as far as possible, be neighbours of the property.",
+      "(3) On the evidence under paras. 1 and 2 the notary rules by a reasoned decision. If ownership is recognised, the notary issues to the applicant a notarial deed of ownership of the property."
+    ]
+  },
+  "588": {
+    "title": "Content of the declaratory deed",
+    "paragraphs": [
+      "Art. 588. (1) The declaratory notarial deed contains:",
+      "1. the items under Art. 580, items 1, 2 and 5, and the notary's signature;",
+      "2. the full name or firm and personal number of the owner, and the number, date, place and issuing authority of the identity document;",
+      "3. an exact description of the property with its boundaries and location.",
+      "(2) Art. 578(4) and (5), 579, 581, 582 and 583 do not apply to a declaratory deed."
+    ]
+  },
+  "589": {
+    "title": "Presentation of a private document for certification",
+    "paragraphs": [
+      "Art. 589. (1) Any person may present a private document to the notary to certify the date of its presentation or its content.",
+      "(2) In the certification of a signature on a private document, the persons whose signatures are certified must appear personally before the notary and sign before him or confirm signatures already made. When the document will be used to create, change or end rights in real estate, they must write their full names and sign before the notary, or, if already signed, write their full names and confirm the signature. Art. 578(4) and (5), 579(2) and 582–585 apply.",
+      "(3) If the private document is in a foreign language and is not subject to entry, Art. 582 applies accordingly."
+    ]
+  },
+  "590": {
+    "title": "Certification of date, content and signatures",
+    "paragraphs": [
+      "Art. 590. (1) The date, content and signatures of a private document are certified by an endorsement on the document. Art. 580 applies unless there are special rules.",
+      "(2) A note of the certification of a date or signatures is made in a special register. For the certification of content, the applicant presents a copy of the document; after certification the duly certified copy is filed in a special book.",
+      "(3) After certification the private documents are returned to the persons who presented them.",
+      "(4) For simultaneous certification of the signatures and the content, the applicant presents two or more identical copies, signed under Art. 589(2) and (3). After certification one copy is filed in a special book and the others are given to the applicant."
+    ]
+  },
+  "591": {
+    "title": "Certification of a copy",
+    "paragraphs": [
+      "Art. 591. (1) When certifying a copy, the notary must compare it with the original and state in the certification who presented the document, whether the copy was made from the original or from another copy, and whether there were deletions, additions, corrections or other peculiarities.",
+      "(2) Art. 589(1) and 590 apply accordingly."
+    ]
+  },
+  "592": {
+    "title": "Notarial invitation",
+    "paragraphs": [
+      "Art. 592. (1) To serve a notarial invitation, the applicant presents it in three identical copies. The notary notes on each that the invitation was communicated to the addressee; one copy is then given to the sender, and another is filed in a special book at the notary.",
+      "(2) Any other notices, warnings and answers in civil law relations are made through the notary under para. 1."
+    ]
+  },
+  "593": {
+    "title": "Declaratory protocol",
+    "paragraphs": [
+      "Art. 593. A declaratory protocol is drawn up to certify the appearance or non-appearance of persons before the notary for acts before him. The consent or refusal of the persons present to perform the acts is certified in the same way. Art. 580 applies unless there are special rules. The protocol is made in two identical copies signed by the applicant and the notary; one is filed in a special book and the other is given to the applicant, charged as a copy."
+    ]
+  },
+  "594": {
+    "title": "Safekeeping of documents",
+    "paragraphs": [
+      "Art. 594. (1) When the notary accepts documents and papers for safekeeping, an acceptance protocol is made in two identical copies signed by the applicant and the notary. One copy is filed in a special register and the other is given to the applicant, charged as a copy.",
+      "(2) For the return of the documents, a handover protocol is signed by the applicant, his heirs or a special agent. The protocol is filed in the register."
+    ]
+  },
+  "38а": {
+    "title": "Duty to state an electronic address",
+    "paragraphs": [
+      "Art. 38a. (1) A person who performs a procedural act in electronic form must state an electronic address for notice of receipt of the electronic statement and of the result of the technical check.",
+      "(2) When performing a procedural act in electronic form, the person may agree to receive electronic statements and documents from the court in the proceedings before that instance or all instances.",
+      "(3) A person who performs a procedural act in the single portal for e-justice agrees to receive electronic statements, documents, notices, summonses and papers before that instance and all instances.",
+      "(4) The consent under paras. 2 and 3 may be withdrawn at any time without affecting acts already performed."
+    ]
+  },
+  "41а": {
+    "title": "Service by electronic message",
+    "paragraphs": [
+      "Art. 41a. (1) In service under Art. 38(2), the message with the information for download is deemed served on the day the addressee downloads it. If it is not downloaded within 7 days of dispatch, it is deemed served on the first day after that term.",
+      "(2) In service under Art. 38(3) and (6), the message is deemed served on the day the addressee confirms receipt. If receipt is not confirmed within 7 days, the notice is served in the ordinary way."
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "id": "aml",
+  "objectives": [
+    "Explain why notaries are obliged persons and which measures they apply.",
+    "Decide when customer due diligence is required, using the thresholds of the law.",
+    "Identify a natural person, a legal entity and its beneficial owner, and record the data.",
+    "Recognise a politically exposed person and the enhanced measures that follow.",
+    "Report a suspicion correctly and avoid tipping off the client."
+  ],
+  "cards": [
+    {
+      "front": "Are notaries obliged persons under the AML Act?",
+      "back": "**Yes**: notaries and substitute assistant notaries (Art. 4, item 14 ЗМИП)."
+    },
+    {
+      "front": "Threshold for due diligence in an occasional deal?",
+      "back": "**15,000 euro** or more (Art. 11(1) ЗМИП)."
+    },
+    {
+      "front": "Threshold for an occasional deal paid in cash?",
+      "back": "**5,000 euro** or more (Art. 11(1) ЗМИП)."
+    },
+    {
+      "front": "When is due diligence required regardless of the amount?",
+      "back": "In every case of **suspicion** (Art. 11(1) ЗМИП)."
+    },
+    {
+      "front": "What data does the office collect about a natural person?",
+      "back": "Names; date and place of birth; ID number from a valid ID with photo; all citizenships; country of residence and address (Art. 53 ЗМИП)."
+    },
+    {
+      "front": "Who is the beneficial owner?",
+      "back": "The **natural person** who ultimately owns or controls the client (Art. 59 ЗМИП)."
+    },
+    {
+      "front": "When is a beneficial owner declaration required?",
+      "back": "When register data and documents are **insufficient or contradictory** (Art. 59(1) ЗМИП)."
+    },
+    {
+      "front": "How is the origin of funds clarified?",
+      "back": "By at least **two** methods of the act; a **written declaration** if they fail (Art. 66 ЗМИП)."
+    },
+    {
+      "front": "Name four categories of politically exposed persons.",
+      "back": "Ministers, MPs, supreme court judges, ambassadors, mayors and deputy mayors, board members of state companies, party leaders (Art. 36 ЗМИП)."
+    },
+    {
+      "front": "Can the PEP check rely only on the client's declaration?",
+      "back": "**No** (Art. 42(3) ЗМИП)."
+    },
+    {
+      "front": "How long are AML records kept?",
+      "back": "**5 years** (Art. 67 ЗМИП)."
+    },
+    {
+      "front": "When must a suspicion be reported, and to whom?",
+      "back": "**At once, before the deal**, to the **Financial Intelligence Directorate of SANS** (Art. 72 ЗМИП)."
+    },
+    {
+      "front": "For how long can the directorate suspend a deal?",
+      "back": "Up to **5 working days** (Art. 73 ЗМИП)."
+    },
+    {
+      "front": "May the office tell the client about a report?",
+      "back": "**No**; tipping off is prohibited (Art. 80 ЗМИП)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A buyer pays 4,000 euro in cash for a garage. Is due diligence required?",
+      "options": [
+        "Not by the cash threshold (5,000 euro), unless there is a suspicion",
+        "Yes, always for cash",
+        "No, never for garages",
+        "Yes, because it is real estate"
+      ],
+      "answer": 0,
+      "explanation": "The cash threshold for occasional deals is 5,000 euro; any suspicion triggers due diligence regardless of the amount.",
+      "refs": [
+        "zmip:11:1"
+      ]
+    },
+    {
+      "question": "A sale of a flat for 95,000 euro by bank transfer. Is due diligence required?",
+      "options": [
+        "Yes, the occasional deal is above 15,000 euro",
+        "No, bank transfers are exempt",
+        "Only for the seller",
+        "Only if the buyer is foreign"
+      ],
+      "answer": 0,
+      "explanation": "Occasional deals of 15,000 euro or more need due diligence.",
+      "refs": [
+        "zmip:11:1"
+      ]
+    },
+    {
+      "question": "What must the office do with the client's identity document?",
+      "options": [
+        "Verify it and take a copy",
+        "Only look at it",
+        "Keep the original",
+        "Send it to the police"
+      ],
+      "answer": 0,
+      "explanation": "Identification uses an official identity document and a copy of it.",
+      "refs": [
+        "zmip:53:1"
+      ]
+    },
+    {
+      "question": "A company buys an office. The register lists no beneficial owner. What does the office do?",
+      "options": [
+        "Collects documents and a declaration by the legal representative identifying the beneficial owner",
+        "Proceeds without",
+        "Treats the manager as the owner automatically",
+        "Refuses all companies"
+      ],
+      "answer": 0,
+      "explanation": "When register data is insufficient, the representative declares the beneficial owner.",
+      "refs": [
+        "zmip:59:1"
+      ]
+    },
+    {
+      "question": "The buyer is the deputy mayor of a city. What follows?",
+      "options": [
+        "Enhanced due diligence as a politically exposed person",
+        "Nothing special",
+        "The deal is prohibited",
+        "Only a declaration"
+      ],
+      "answer": 0,
+      "explanation": "Deputy mayors of municipalities are politically exposed persons.",
+      "refs": [
+        "zmip:36"
+      ]
+    },
+    {
+      "question": "How may the office establish that a client is not a politically exposed person?",
+      "options": [
+        "Through an internal system that may use a declaration, but not only the declaration",
+        "Only by the client's declaration",
+        "By asking the municipality",
+        "It is not necessary"
+      ],
+      "answer": 0,
+      "explanation": "Art. 42(3) ЗМИП.",
+      "refs": [
+        "zmip:42"
+      ]
+    },
+    {
+      "question": "A clerk suspects that the buyer's money comes from a crime. What must the office do?",
+      "options": [
+        "Notify the Financial Intelligence Directorate of SANS before the deal and delay it",
+        "Tell the buyer and ask for an explanation of the report",
+        "Proceed and report after a month",
+        "Call the buyer's bank"
+      ],
+      "answer": 0,
+      "explanation": "Art. 72(1) ЗМИП.",
+      "refs": [
+        "zmip:72:1"
+      ]
+    },
+    {
+      "question": "The client asks: \"Did you report me?\" What may the clerk say?",
+      "options": [
+        "Nothing about a report; tipping off is prohibited",
+        "Yes, we did",
+        "No, we did not, even if it is false",
+        "The notary will call the agency for you"
+      ],
+      "answer": 0,
+      "explanation": "Art. 80 ЗМИП prohibits telling the client or third persons.",
+      "refs": [
+        "zmip:80"
+      ]
+    },
+    {
+      "question": "How long does the office keep the AML file of a sale made in 2026?",
+      "options": [
+        "5 years from the deal",
+        "1 year",
+        "10 years",
+        "100 years"
+      ],
+      "answer": 0,
+      "explanation": "Art. 67 ЗМИП.",
+      "refs": [
+        "zmip:67:1",
+        "zmip:67:3"
+      ]
+    },
+    {
+      "question": "The buyer cannot document his savings, and two methods give contradictory information. What does the office ask for?",
+      "options": [
+        "A written declaration of the origin of funds",
+        "Nothing",
+        "A bank guarantee",
+        "A court decision"
+      ],
+      "answer": 0,
+      "explanation": "Art. 66(2) ЗМИП.",
+      "refs": [
+        "zmip:66"
+      ]
+    },
+    {
+      "question": "Who performs internal AML control in a small notary office?",
+      "options": [
+        "The notary personally, or a senior employee designated in writing",
+        "The Notary Chamber",
+        "The bank of the office",
+        "Nobody"
+      ],
+      "answer": 0,
+      "explanation": "Art. 107 ЗМИП.",
+      "refs": [
+        "zmip:107"
+      ]
+    },
+    {
+      "question": "A client asks to pay 12,000 euro in three cash instalments of 4,000 euro \"to stay under the limit\". What is the right view?",
+      "options": [
+        "Related payments add up; cash of this size is prohibited, and the request is a warning sign",
+        "It is allowed because each payment is small",
+        "It is allowed with a declaration",
+        "It is allowed in euro"
+      ],
+      "answer": 0,
+      "explanation": "Related payments are added up under the cash limitation act, and splitting to avoid thresholds is a red flag.",
+      "refs": [
+        "zopvb:3:1",
+        "zmip:11:1"
+      ]
+    }
+  ]
+}

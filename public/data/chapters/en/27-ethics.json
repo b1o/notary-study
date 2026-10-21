@@ -1,0 +1,199 @@
+{
+  "id": "ethics",
+  "objectives": [
+    "Apply the ethical duties of the notary office in daily client contact.",
+    "Recognise a client who is vulnerable or under pressure, and protect the client's free will.",
+    "Recognise the warning signs of identity fraud, forged documents and property fraud.",
+    "Refuse a request correctly, and document the refusal.",
+    "Handle complaints and difficult situations professionally."
+  ],
+  "cards": [
+    {
+      "front": "Where are the ethical duties of the notary set out?",
+      "back": "In the law (Art. 34 ЗННД), the oath (Art. 15), the statute and the code of ethics of the Notary Chamber."
+    },
+    {
+      "front": "What does impartiality mean at the desk?",
+      "back": "The office serves **both parties** and does not take sides (Art. 24 ЗННД)."
+    },
+    {
+      "front": "Who explains the legal consequences to the parties?",
+      "back": "The **notary** (Art. 25(1) ЗННД); staff pass legal questions to the notary or assistant."
+    },
+    {
+      "front": "Why meet a vulnerable client alone?",
+      "back": "To protect the free will from pressure; the law allows it unless the person wants others present (Art. 20 ЗННД)."
+    },
+    {
+      "front": "Can the other party act as interpreter?",
+      "back": "**No**; the notary appoints the interpreter (Art. 582 ГПК), and a person who gains from the act cannot interpret (Art. 584 ГПК)."
+    },
+    {
+      "front": "Name three signs of an impostor owner.",
+      "back": "Face does not match; register shows a different document or photo; little knowledge of the property; hurried cheap sale."
+    },
+    {
+      "front": "How do you check a power of attorney for revocation?",
+      "back": "In the **information system** of the Notary Chamber (Art. 9а Наредба № 32)."
+    },
+    {
+      "front": "What may the notary do if doubts remain?",
+      "back": "**Refuse** the act (Art. 574 ГПК); the refusal can be appealed within one week (Art. 577, 275 ГПК)."
+    },
+    {
+      "front": "To whom is a suspicion of money laundering reported?",
+      "back": "The **Financial Intelligence Directorate of SANS**, without tipping off (Art. 72, 80 ЗМИП)."
+    },
+    {
+      "front": "Where can a client complain about a notary?",
+      "back": "To the **Council of Notaries** or the **Minister of Justice** (Art. 77 and 80б ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A client asks the clerk: \"Is it better for me to donate or to sell the flat to my son?\" What should the clerk do?",
+      "options": [
+        "Pass the question to the notary or assistant notary",
+        "Give a personal opinion",
+        "Say it does not matter",
+        "Recommend a lawyer for a commission"
+      ],
+      "answer": 0,
+      "explanation": "Explaining legal consequences is the notary's duty.",
+      "refs": [
+        "znnd:25:1"
+      ]
+    },
+    {
+      "question": "An elderly seller's nephew insists on staying in the room and answers all questions. What is the right approach?",
+      "options": [
+        "The notary talks with the seller alone",
+        "Let the nephew answer, he knows the facts",
+        "Cancel the deal at once without explanation",
+        "Ask the nephew to sign instead"
+      ],
+      "answer": 0,
+      "explanation": "The notary meets the person alone unless the person wants others present.",
+      "refs": [
+        "znnd:20"
+      ]
+    },
+    {
+      "question": "The buyer offers to translate for a seller who does not speak Bulgarian. Is it allowed?",
+      "options": [
+        "No; the notary appoints an interpreter who meets the legal conditions",
+        "Yes, it saves time",
+        "Yes, if the buyer is fluent",
+        "Yes, if the seller agrees"
+      ],
+      "answer": 0,
+      "explanation": "A person in whose favour the act contains a disposition cannot be an interpreter.",
+      "refs": [
+        "gpk:582",
+        "gpk:584"
+      ]
+    },
+    {
+      "question": "The identity card of a \"seller\" was issued last week, and the photo in the national register differs. What do you do?",
+      "options": [
+        "Stop and inform the notary; this is a sign of an impostor",
+        "Proceed; the card is valid",
+        "Ask the buyer if he trusts the seller",
+        "Take a photo and proceed"
+      ],
+      "answer": 0,
+      "explanation": "The register check exists to detect such cases.",
+      "refs": [
+        "znnd:25:3"
+      ]
+    },
+    {
+      "question": "An agent presents a power of attorney to sell a house; the information system shows its revocation last month. What happens?",
+      "options": [
+        "The notary refuses to rely on the power",
+        "The act proceeds because the agent has the original",
+        "The act proceeds if the buyer is in good faith",
+        "The clerk calls the agent's lawyer"
+      ],
+      "answer": 0,
+      "explanation": "A revoked power gives no authority. The revocation goes into the information system so that notaries can see it.",
+      "refs": [
+        "n32:9а",
+        "zzd:41"
+      ]
+    },
+    {
+      "question": "A client wants a deed back-dated to last year \"for tax reasons\". What is the answer?",
+      "options": [
+        "No; the date must be true, and a false act is a crime and invalid",
+        "Yes, if both parties agree",
+        "Yes, for a fee",
+        "Only for gifts"
+      ],
+      "answer": 0,
+      "explanation": "The deed states the true date and place; a notarial act about an illegal purpose cannot be performed.",
+      "refs": [
+        "gpk:574",
+        "gpk:580"
+      ]
+    },
+    {
+      "question": "The notary refused an act; the client wants to appeal. What does the office provide?",
+      "options": [
+        "A written refusal with reasons and date, so the client can appeal within one week",
+        "Nothing",
+        "A refund of all fees ever paid",
+        "A recommendation of another notary"
+      ],
+      "answer": 0,
+      "explanation": "Refusals are appealed with a private appeal within one week.",
+      "refs": [
+        "gpk:577:1",
+        "gpk:275:1"
+      ]
+    },
+    {
+      "question": "Three witnesses in a circumstantial verification are not neighbours and repeat identical words. What is the concern?",
+      "options": [
+        "Possible false testimony; the notary must assess carefully and may refuse to recognise ownership",
+        "Nothing; three witnesses are enough",
+        "They must be neighbours, so the procedure is void automatically",
+        "The mayor is responsible, not the notary"
+      ],
+      "answer": 0,
+      "explanation": "The law asks for neighbours where possible; identical statements are a warning sign.",
+      "refs": [
+        "gpk:587:2"
+      ]
+    },
+    {
+      "question": "A client complains in writing about the notary's conduct. What does the clerk do?",
+      "options": [
+        "Passes it to the notary at once",
+        "Throws it away",
+        "Answers it personally",
+        "Posts it online"
+      ],
+      "answer": 0,
+      "explanation": "Complaints may lead to disciplinary proceedings or inspections; the notary must know at once.",
+      "refs": [
+        "znnd:77:1",
+        "znnd:80б:2"
+      ]
+    },
+    {
+      "question": "Why is a refusal better than a doubtful act?",
+      "options": [
+        "An act for an impostor harms the real owner and the notary is liable up to the material interest",
+        "Refusals earn higher fees",
+        "Refusals are never appealed",
+        "The law requires a refusal quota"
+      ],
+      "answer": 0,
+      "explanation": "Art. 73(1) ЗННД.",
+      "refs": [
+        "znnd:73:1"
+      ]
+    }
+  ]
+}

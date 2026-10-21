@@ -1,0 +1,198 @@
+{
+  "id": "deputies",
+  "objectives": [
+    "Tell from a document whether the person who certified it had the power to do so.",
+    "Explain the three ways in which a notary can be substituted.",
+    "Say which notarial acts a mayor and a Bulgarian consul may perform.",
+    "Explain how a notarial document travels abroad (apostille) and how a foreign translation is used in Bulgaria."
+  ],
+  "cards": [
+    {
+      "front": "Who other than a notary may perform notarial functions?",
+      "back": "Only persons for whom **a law** provides it (Art. 81 ЗННД): assistant notaries, substitutes, registration judges, certain municipal officials and consuls."
+    },
+    {
+      "front": "How does a substitute assistant notary sign?",
+      "back": "With the addition \"**по заместване**\" (Art. 46(1) ЗННД); the deed names both the assistant and the notary (Art. 18(3) Наредба № 32)."
+    },
+    {
+      "front": "How does another notary substitute a colleague?",
+      "back": "Under a **contract**, only a notary **from the same district**, for up to **two years**; using the archive of the substituted notary but their own signature and seal (Art. 47 ЗННД)."
+    },
+    {
+      "front": "When does the registration judge perform notarial acts?",
+      "back": "When the district has **no notary**; when nobody substitutes an absent notary (urgent acts); and on documents in the registry archive (Art. 48 and 82 ЗННД)."
+    },
+    {
+      "front": "Where may a mayor certify signatures?",
+      "back": "In a settlement with **no notary and no district court** (Art. 83(1) ЗННД)."
+    },
+    {
+      "front": "What may a mayor certify?",
+      "back": "Signatures on unilateral private documents not subject to entry; signature **and** content of a power of attorney under Art. 37 ЗЗД; copies (Art. 83(1) ЗННД)."
+    },
+    {
+      "front": "What may a mayor NOT certify?",
+      "back": "Signatures for the transfer of an enterprise or of company shares under Art. 15(1), 129(2) and 137(6) ТЗ (Art. 83(2) ЗННД)."
+    },
+    {
+      "front": "In which language must a document be for a Bulgarian consul to certify it?",
+      "back": "**Bulgarian** (Art. 84(1) ЗННД)."
+    },
+    {
+      "front": "Who issues the apostille on a Bulgarian notarial certification?",
+      "back": "The **Ministry of Justice**, within two working days (Art. 17а(2)–(3) ПЛЗП)."
+    },
+    {
+      "front": "How is the translation of a foreign document made usable in Bulgaria?",
+      "back": "The **translator's signature** on the translation is certified by a notary (Art. 21а(1) ПЛЗП)."
+    },
+    {
+      "front": "Where do the fees go when a mayor or a registration judge performs a notarial act?",
+      "back": "Mayor: to the **municipal** budget; registration judge: to the **state** budget (Art. 86 ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A deed of sale of a house is signed by \"помощник-нотариус\" without \"по заместване\". What is your conclusion?",
+      "options": [
+        "The assistant had no power to issue it; the act is null",
+        "The act is valid because the assistant used the notary's seal",
+        "The act is valid if the notary was in the office",
+        "The act is voidable within three years"
+      ],
+      "answer": 0,
+      "explanation": "Real estate deeds are excluded from the powers of an assistant notary who is not a substitute.",
+      "refs": [
+        "znnd:40:1",
+        "gpk:576"
+      ]
+    },
+    {
+      "question": "Notary A from Plovdiv wants Notary B from Sofia to substitute A for two weeks. Is it possible?",
+      "options": [
+        "No, only a notary from the same district may substitute",
+        "Yes, with a contract",
+        "Yes, with the consent of the Notary Chamber",
+        "Yes, if B is a substitute assistant"
+      ],
+      "answer": 0,
+      "explanation": "Substitution by another notary is allowed only within the same district.",
+      "refs": [
+        "znnd:47:1"
+      ]
+    },
+    {
+      "question": "What does a substituting notary from the same district put on the documents?",
+      "options": [
+        "Their own signature and seal, and a note of the substitution",
+        "The seal of the substituted notary",
+        "Only the signature of the substituted notary",
+        "The seal of the district court"
+      ],
+      "answer": 0,
+      "explanation": "The substitute uses the archive of the substituted notary but signs and seals personally.",
+      "refs": [
+        "znnd:47:2"
+      ]
+    },
+    {
+      "question": "A village has no notary and no district court. A resident needs a power of attorney to sell land. What can the mayor do?",
+      "options": [
+        "Certify the signature and the content of the power of attorney",
+        "Issue a notarial deed of sale",
+        "Nothing; only a notary can help",
+        "Certify only the signature, not the content"
+      ],
+      "answer": 0,
+      "explanation": "Mayors may certify the signature and content of a power of attorney under Art. 37 ЗЗД.",
+      "refs": [
+        "znnd:83:1"
+      ]
+    },
+    {
+      "question": "Which certification may a mayor NOT perform?",
+      "options": [
+        "The signatures on a contract for the transfer of shares in an OOD",
+        "The signature on a declaration not subject to entry",
+        "The accuracy of a copy",
+        "The signature and content of a power of attorney"
+      ],
+      "answer": 0,
+      "explanation": "Art. 83(2) excludes the Commerce Act cases.",
+      "refs": [
+        "znnd:83:2"
+      ]
+    },
+    {
+      "question": "A Bulgarian citizen in Germany needs a power of attorney in Bulgarian to sell a flat in Varna. Where can the signature and content be certified?",
+      "options": [
+        "At the Bulgarian consulate",
+        "Only at a notary in Varna",
+        "At any German town hall without anything else",
+        "Only at the Bulgarian Ministry of Justice"
+      ],
+      "answer": 0,
+      "explanation": "Consuls certify private documents in Bulgarian that are not subject to entry. A German notary with an apostille and a translation is another option.",
+      "refs": [
+        "znnd:84:1"
+      ]
+    },
+    {
+      "question": "A Bulgarian notary certified a signature on a document for use in Italy. Who issues the apostille?",
+      "options": [
+        "The Ministry of Justice",
+        "The Ministry of Foreign Affairs",
+        "The regional governor",
+        "The Notary Chamber"
+      ],
+      "answer": 0,
+      "explanation": "For notarial acts and official certifications, the Ministry of Justice issues the apostille.",
+      "refs": [
+        "plzp:17а:2"
+      ]
+    },
+    {
+      "question": "A sworn translator in Sofia translates a Spanish birth certificate for a Bulgarian court. What does a notary certify?",
+      "options": [
+        "The signature of the translator on the translation",
+        "The content of the Spanish certificate",
+        "The accuracy of the translation",
+        "Nothing; the translation is enough"
+      ],
+      "answer": 0,
+      "explanation": "Art. 21а(1) ПЛЗП requires notarial certification of the translator's signature.",
+      "refs": [
+        "plzp:21а:1"
+      ]
+    },
+    {
+      "question": "A district has no notary at all. Who performs notarial acts there?",
+      "options": [
+        "The registration judge at the district court",
+        "The mayor of the district centre",
+        "The nearest notary from another district",
+        "The president of the district court"
+      ],
+      "answer": 0,
+      "explanation": "Where there is no notary in the district, the registration judge performs notarial acts.",
+      "refs": [
+        "znnd:82:1"
+      ]
+    },
+    {
+      "question": "How long may a substitution by another notary last?",
+      "options": [
+        "Up to two years from the contract",
+        "Up to one month",
+        "Up to six months",
+        "Without limit"
+      ],
+      "answer": 0,
+      "explanation": "The term may not be longer than two years from the conclusion of the contract.",
+      "refs": [
+        "znnd:47:4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "inheritance",
+  "objectives": [
+    "Calculate the shares of the legal heirs in common family situations.",
+    "Explain the two forms of will and the conditions of their validity.",
+    "Calculate the reserved portion and the freely disposable portion.",
+    "Explain how an inheritance is accepted or renounced and why the notary does not receive these statements.",
+    "Explain the rules of partition among co-heirs and the risks of selling inherited property."
+  ],
+  "cards": [
+    {
+      "front": "When and where does an inheritance open?",
+      "back": "At the moment of **death**, at the **last domicile** of the deceased (Art. 1 ЗН)."
+    },
+    {
+      "front": "Share of the spouse when inheriting with children?",
+      "back": "A share **equal to each child** (Art. 9(1) ЗН)."
+    },
+    {
+      "front": "Share of the spouse with parents after 12 years of marriage?",
+      "back": "**2/3** (1/2 if the marriage lasted less than 10 years) (Art. 9(2) ЗН)."
+    },
+    {
+      "front": "What do half-siblings receive compared with full siblings?",
+      "back": "**Half** of a full sibling's share (Art. 8(3) ЗН)."
+    },
+    {
+      "front": "Who inherits if there are no relatives up to the 6th degree?",
+      "back": "The **state**; dwellings, garages and housing plots go to the **municipality** (Art. 11 ЗН)."
+    },
+    {
+      "front": "Minimum age to make a will?",
+      "back": "**18** (Art. 13 ЗН)."
+    },
+    {
+      "front": "Requirements of a notarial will?",
+      "back": "Oral statement to the notary, **two witnesses**, reading, notes of formalities, place and date, signatures (Art. 24 ЗН)."
+    },
+    {
+      "front": "Requirements of a holographic will?",
+      "back": "Written **entirely by hand**, **dated**, **signed after** the dispositions (Art. 25(1) ЗН)."
+    },
+    {
+      "front": "Can two spouses make one joint will?",
+      "back": "**No** (Art. 15 ЗН)."
+    },
+    {
+      "front": "Reserved portion with two children and no spouse?",
+      "back": "**2/3** together; freely disposable **1/3** (Art. 29(1) ЗН)."
+    },
+    {
+      "front": "Freely disposable portion with a spouse and three children?",
+      "back": "**1/6** (Art. 29(3) ЗН)."
+    },
+    {
+      "front": "Where is an inheritance renounced?",
+      "back": "By a written statement to the **district judge** where the inheritance opened (Art. 52 and 49 ЗН)."
+    },
+    {
+      "front": "Deadline for acceptance by inventory?",
+      "back": "**Three months** from learning of the opening, extendable by three months (Art. 61 ЗН)."
+    },
+    {
+      "front": "Effect of a partition without one co-heir?",
+      "back": "**Entirely void** (Art. 75(2) ЗН)."
+    },
+    {
+      "front": "Who pays no inheritance tax?",
+      "back": "The surviving **spouse** and heirs in the **direct line** (Art. 31(2) ЗМДТ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A man dies leaving a wife and three children. What does the wife inherit from his half of the common flat?",
+      "options": [
+        "1/4 of his half",
+        "1/2 of his half",
+        "All of his half",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "The spouse gets a share equal to each child: four equal shares.",
+      "refs": [
+        "zn:9:1"
+      ]
+    },
+    {
+      "question": "A woman dies after 6 years of marriage with no children. She leaves her husband and her father. What does the husband get?",
+      "options": [
+        "1/2",
+        "2/3",
+        "1/3",
+        "Everything"
+      ],
+      "answer": 0,
+      "explanation": "With ascendants, the spouse gets 1/2 if the inheritance opened before 10 years of marriage.",
+      "refs": [
+        "zn:9:2"
+      ]
+    },
+    {
+      "question": "A grandchild whose father died before the grandmother: does the grandchild inherit from the grandmother?",
+      "options": [
+        "Yes, by representation in place of the father",
+        "No, grandchildren never inherit while a child lives",
+        "Only by a will",
+        "Only half of the father's share"
+      ],
+      "answer": 0,
+      "explanation": "Descendants of a predeceased child replace the child without limit of degree.",
+      "refs": [
+        "zn:10:1"
+      ]
+    },
+    {
+      "question": "Which will is valid?",
+      "options": [
+        "A will written entirely by hand, dated and signed at the end",
+        "A will typed on a computer and signed",
+        "A will written by hand but not dated",
+        "A joint will of two spouses signed by both"
+      ],
+      "answer": 0,
+      "explanation": "A holographic will must be handwritten, dated and signed after the dispositions; joint wills are not allowed.",
+      "refs": [
+        "zn:25:1",
+        "zn:15"
+      ]
+    },
+    {
+      "question": "How many witnesses are needed for a notarial will?",
+      "options": [
+        "Two",
+        "None",
+        "One",
+        "Three"
+      ],
+      "answer": 0,
+      "explanation": "The notarial will is made in the presence of two witnesses.",
+      "refs": [
+        "zn:24:1"
+      ]
+    },
+    {
+      "question": "May an assistant notary make a notarial will?",
+      "options": [
+        "No",
+        "Yes, on the notary's instructions",
+        "Yes, if two witnesses are present",
+        "Yes, outside the office"
+      ],
+      "answer": 0,
+      "explanation": "Notarial wills are excluded from an assistant notary's competence.",
+      "refs": [
+        "znnd:40:1"
+      ]
+    },
+    {
+      "question": "A father with one child, a widower, wants to leave everything to a charity. What is the maximum the charity can receive against the child's will?",
+      "options": [
+        "1/2 of the estate",
+        "Everything",
+        "1/3",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "With one child and no spouse, the reserved portion is 1/2.",
+      "refs": [
+        "zn:29:1"
+      ]
+    },
+    {
+      "question": "Which gifts are reduced first when the reserved portion is affected?",
+      "options": [
+        "After the wills, starting from the latest gift",
+        "The oldest gift first",
+        "All gifts proportionally",
+        "Gifts are never reduced"
+      ],
+      "answer": 0,
+      "explanation": "Wills are reduced first; gifts afterwards, from the latest to the earlier ones.",
+      "refs": [
+        "zn:33"
+      ]
+    },
+    {
+      "question": "Where does an heir file a renunciation of an inheritance?",
+      "options": [
+        "With the district judge where the inheritance opened",
+        "With any notary",
+        "With the municipality",
+        "With the Registry Agency"
+      ],
+      "answer": 0,
+      "explanation": "Acceptance and renunciation are made by a written statement to the district judge.",
+      "refs": [
+        "zn:52",
+        "zn:49:1"
+      ]
+    },
+    {
+      "question": "An heir wants to renounce only the inherited debts and keep the flat. Is that possible?",
+      "options": [
+        "No, renunciation of a part of the inheritance is invalid",
+        "Yes, with a declaration to the judge",
+        "Yes, at the notary",
+        "Yes, within three months"
+      ],
+      "answer": 0,
+      "explanation": "Acceptance and renunciation for a part of the inheritance are invalid. Acceptance by inventory is the tool to limit liability.",
+      "refs": [
+        "zn:54:1",
+        "zn:60:2"
+      ]
+    },
+    {
+      "question": "Three heirs signed a voluntary partition of an inherited house, but a fourth heir was left out. What is the status?",
+      "options": [
+        "The partition is entirely void",
+        "It is valid for the three signatories",
+        "It is voidable within one year",
+        "It is valid if the fourth heir is paid later"
+      ],
+      "answer": 0,
+      "explanation": "A partition made without one of the co-heirs is entirely void.",
+      "refs": [
+        "zn:75:2"
+      ]
+    },
+    {
+      "question": "A nephew inherits from his aunt. Does he pay inheritance tax?",
+      "options": [
+        "Possibly yes; only the spouse and the direct line are exempt",
+        "No, nobody pays inheritance tax",
+        "Yes, always 6%",
+        "No, relatives are always exempt"
+      ],
+      "answer": 0,
+      "explanation": "Only the surviving spouse and heirs in the direct line are exempt.",
+      "refs": [
+        "zmdt:31:2"
+      ]
+    }
+  ]
+}

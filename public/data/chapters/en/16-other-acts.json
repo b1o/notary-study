@@ -1,0 +1,232 @@
+{
+  "id": "other-acts",
+  "objectives": [
+    "Prepare and register a notarial invitation in the right number of copies.",
+    "Serve a document at an address following the Civil Procedure Code: personally, through another person, or by posting a notice.",
+    "Record each visit so that the service holds up in court.",
+    "Draw up a declaratory protocol of appearance or non-appearance.",
+    "Accept documents for safekeeping and return them correctly."
+  ],
+  "cards": [
+    {
+      "front": "In how many copies is a notarial invitation presented?",
+      "back": "**Three** identical copies (Art. 592(1) ГПК)."
+    },
+    {
+      "front": "Who keeps the three copies after service?",
+      "back": "One for the **requester**, one in the notary's **book**, one for the **addressee** (Art. 592(1) ГПК)."
+    },
+    {
+      "front": "Who may serve notarial invitations?",
+      "back": "An **employee** whom the notary assigns, under Art. 37–58 ГПК (Art. 50 ЗННД)."
+    },
+    {
+      "front": "To whom may an invitation be handed if the addressee is absent?",
+      "back": "An adult household member or person living at the address, or a worker, employee or employer of the addressee, who **agrees** to receive it (Art. 46 ГПК)."
+    },
+    {
+      "front": "When may the server post a notice?",
+      "back": "When the addressee cannot be found for **one month** and nobody agrees to receive the paper (Art. 47(1) ГПК)."
+    },
+    {
+      "front": "How is it established that the addressee cannot be found?",
+      "back": "At least **three visits**, at least **one week** apart, at least **one on a non-working day** (Art. 47(1) ГПК)."
+    },
+    {
+      "front": "How long can the addressee collect papers after a notice is posted?",
+      "back": "**Two weeks**; service is deemed made when the term expires (Art. 47(2), (5) ГПК)."
+    },
+    {
+      "front": "Does a refusal to accept affect the service?",
+      "back": "**No**; the refusal is noted and certified by the server (Art. 44(1) ГПК)."
+    },
+    {
+      "front": "Where is a company served?",
+      "back": "At the **last address in its register**, to any employee who agrees (Art. 50 ГПК)."
+    },
+    {
+      "front": "What does a declaratory protocol certify?",
+      "back": "The **appearance or non-appearance** of persons before the notary, and their consent or disagreement (Art. 593 ГПК)."
+    },
+    {
+      "front": "How is a deposit of documents recorded?",
+      "back": "An **acceptance protocol** in two copies; on return, a **handover protocol** (Art. 594 ГПК)."
+    },
+    {
+      "front": "Fee for a notarial invitation?",
+      "back": "**20 лв. (10.23 €)**; other copies as copies; half for service ex officio (item 3 ТНТ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A co-owner wants to prove that he offered his share to his sister on the same terms. Which notarial act fits best?",
+      "options": [
+        "A notarial invitation served on the sister",
+        "A declaratory deed",
+        "A certification of a copy",
+        "A protest"
+      ],
+      "answer": 0,
+      "explanation": "The notarial invitation certifies the communication of the offer and serves as written evidence under Art. 33 ЗС.",
+      "refs": [
+        "gpk:592",
+        "zs:33"
+      ]
+    },
+    {
+      "question": "The server finds the addressee's 15-year-old son at home. May the server leave the invitation with him?",
+      "options": [
+        "No, the other person must be an adult",
+        "Yes, any household member",
+        "Yes, if the son signs",
+        "Yes, if the parent agrees by phone"
+      ],
+      "answer": 0,
+      "explanation": "Only an adult household member or a person living at the address who agrees may receive it.",
+      "refs": [
+        "gpk:46:2"
+      ]
+    },
+    {
+      "question": "The addressee is never at home. What is the minimum before posting a notice?",
+      "options": [
+        "Three visits over at least one month, a week apart, one on a non-working day",
+        "One visit",
+        "Two visits on working days",
+        "Three visits on the same day"
+      ],
+      "answer": 0,
+      "explanation": "Art. 47(1) ГПК.",
+      "refs": [
+        "gpk:47:1"
+      ]
+    },
+    {
+      "question": "The condominium manager says the addressee moved abroad two years ago. What should the server do?",
+      "options": [
+        "Record the information and its source; the three-visit rule then does not apply",
+        "Ignore it and continue visiting",
+        "Post the notice at once without recording anything",
+        "Return the invitation to the client"
+      ],
+      "answer": 0,
+      "explanation": "The rule on visits does not apply when the server collected data that the addressee does not live there and recorded the source.",
+      "refs": [
+        "gpk:47:1"
+      ]
+    },
+    {
+      "question": "When is the invitation deemed served after a notice was posted?",
+      "options": [
+        "When the two-week term for collecting it expires",
+        "On the day of posting",
+        "After one month",
+        "Only when the addressee collects it"
+      ],
+      "answer": 0,
+      "explanation": "Art. 47(5) ГПК.",
+      "refs": [
+        "gpk:47:5"
+      ]
+    },
+    {
+      "question": "The addressee opens the door but refuses to take the invitation. What happens?",
+      "options": [
+        "The server notes and certifies the refusal; service is valid",
+        "Service fails",
+        "The server must call the police",
+        "The server must come back next week"
+      ],
+      "answer": 0,
+      "explanation": "Refusal does not affect the validity of the service.",
+      "refs": [
+        "gpk:44:1"
+      ]
+    },
+    {
+      "question": "Where is an invitation to an OOD served?",
+      "options": [
+        "At the last address in the Commercial Register, to any employee who agrees",
+        "At the home of the manager only",
+        "At the bank of the company",
+        "At the tax office"
+      ],
+      "answer": 0,
+      "explanation": "Art. 50(1) and (3) ГПК.",
+      "refs": [
+        "gpk:50:1",
+        "gpk:50:3"
+      ]
+    },
+    {
+      "question": "The buyer came at the agreed time to sign the final deed; the seller did not. Which act proves this?",
+      "options": [
+        "A declaratory protocol",
+        "A notarial invitation",
+        "A declaratory deed",
+        "A will"
+      ],
+      "answer": 0,
+      "explanation": "A declaratory protocol certifies appearance and non-appearance before the notary.",
+      "refs": [
+        "gpk:593"
+      ]
+    },
+    {
+      "question": "In how many copies is a declaratory protocol drawn up?",
+      "options": [
+        "Two",
+        "Three",
+        "Five",
+        "One"
+      ],
+      "answer": 0,
+      "explanation": "Art. 593 ГПК.",
+      "refs": [
+        "gpk:593"
+      ]
+    },
+    {
+      "question": "A client deposits a sealed envelope with share certificates. What is drawn up?",
+      "options": [
+        "An acceptance protocol in two copies, signed by the client and the notary",
+        "A notarial deed",
+        "A notarial invitation",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "Art. 594(1) ГПК.",
+      "refs": [
+        "gpk:594:1"
+      ]
+    },
+    {
+      "question": "Who may take back deposited documents after the depositor died?",
+      "options": [
+        "The heirs or a special agent, with a handover protocol",
+        "Any relative",
+        "The notary may keep them",
+        "Only a court"
+      ],
+      "answer": 0,
+      "explanation": "Art. 594(2) ГПК.",
+      "refs": [
+        "gpk:594:2"
+      ]
+    },
+    {
+      "question": "Which person may NOT receive the invitation for the addressee?",
+      "options": [
+        "The opposing party of the addressee in the same matter",
+        "The addressee's adult daughter",
+        "The addressee's employer",
+        "An adult tenant who lives at the address"
+      ],
+      "answer": 0,
+      "explanation": "Service may not be made through a person who is the opposing party of the addressee.",
+      "refs": [
+        "gpk:46:2"
+      ]
+    }
+  ]
+}

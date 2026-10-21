@@ -1,0 +1,240 @@
+{
+  "id": "property-deals",
+  "objectives": [
+    "Prepare a gift deed, including a gift to a child and a gift with a reserved right of use.",
+    "Explain the risks of a transfer against maintenance and care, and how it ends.",
+    "Calculate the material interest for a building right and a right of use.",
+    "Prepare a voluntary partition and know which tax applies.",
+    "Prepare a mortgage deed and the deletion of a mortgage."
+  ],
+  "cards": [
+    {
+      "front": "Which gifts are exempt from local tax?",
+      "back": "Gifts between relatives in the **direct line** and between **spouses** (Art. 44(6) ЗМДТ)."
+    },
+    {
+      "front": "Gift tax between siblings?",
+      "back": "**0.4–0.8%**, set by the municipality (Art. 47(1) ЗМДТ)."
+    },
+    {
+      "front": "Who accepts a gift that a mother makes to her minor child?",
+      "back": "The **other parent**, or a **special representative** (Art. 38 ЗЗД; Art. 129(2) СК)."
+    },
+    {
+      "front": "What happens to a reserved right of use when the holder dies?",
+      "back": "It **ends by law** (Art. 59 ЗС)."
+    },
+    {
+      "front": "On which property is the local tax due in an exchange?",
+      "back": "On the property of **higher value** (Art. 47(2) ЗМДТ)."
+    },
+    {
+      "front": "How is a transfer against maintenance and care terminated?",
+      "back": "Only **through a court** (Art. 87 ЗЗД)."
+    },
+    {
+      "front": "Material interest for a building right?",
+      "back": "**90%** of the market price of the land (Art. 96(2) ЗННД)."
+    },
+    {
+      "front": "Material interest for a right of use without a term?",
+      "back": "Market rent for **3 years** (Art. 96(2) ЗННД)."
+    },
+    {
+      "front": "When is a voluntary partition void?",
+      "back": "When a **co-heir did not take part** (Art. 75(2) ЗН)."
+    },
+    {
+      "front": "Local tax in a partition?",
+      "back": "Only on the **increase** of a co-owner's share (Art. 47(3) ЗМДТ)."
+    },
+    {
+      "front": "What makes a mortgage invalid under Art. 170 ЗЗД?",
+      "back": "**Uncertainty** about the creditor, owner, debtor, the property, the claim or the amount."
+    },
+    {
+      "front": "Is a clause \"the bank becomes owner if the loan is not paid\" valid?",
+      "back": "**No** (Art. 152 ЗЗД)."
+    },
+    {
+      "front": "Who has a statutory mortgage?",
+      "back": "The **transferor** for claims under the contract (e.g. unpaid price), and a **co-sharer** owed compensation (Art. 168 ЗЗД)."
+    },
+    {
+      "front": "What form does the transfer of a mortgage-secured claim need?",
+      "back": "Written with **notarially certified signatures**, and **entry** (Art. 171 ЗЗД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A grandmother donates a flat to her grandson. What local tax is due?",
+      "options": [
+        "None; gifts in the direct line are exempt",
+        "0.4–0.8%",
+        "3.3–6.6%",
+        "0.1–3%"
+      ],
+      "answer": 0,
+      "explanation": "Grandparents and grandchildren are relatives in the direct line.",
+      "refs": [
+        "zmdt:44:6"
+      ]
+    },
+    {
+      "question": "An aunt donates a house to her nephew. Which rate range applies?",
+      "options": [
+        "0.4–0.8%",
+        "Exempt",
+        "3.3–6.6%",
+        "0.1–3%"
+      ],
+      "answer": 0,
+      "explanation": "Siblings and their children: 0.4–0.8%. A nephew is the child of the aunt's sibling.",
+      "refs": [
+        "zmdt:47:1"
+      ]
+    },
+    {
+      "question": "A father donates a flat to his 8-year-old son. Who signs as the recipient for the son?",
+      "options": [
+        "The mother, or a special representative",
+        "The father, for both sides",
+        "Nobody; a child cannot receive a gift",
+        "The grandmother"
+      ],
+      "answer": 0,
+      "explanation": "A representative may not contract with himself; the other parent or a special representative accepts.",
+      "refs": [
+        "zzd:38",
+        "sk:129:2"
+      ]
+    },
+    {
+      "question": "In an exchange, Ana gives a flat worth 80,000 € and receives a house worth 120,000 € from Boris. What is the base for the notarial fee?",
+      "options": [
+        "120,000 €",
+        "80,000 €",
+        "200,000 €",
+        "40,000 €"
+      ],
+      "answer": 0,
+      "explanation": "The market price of the more valuable property.",
+      "refs": [
+        "znnd:96:1"
+      ]
+    },
+    {
+      "question": "The transferee under a care contract stopped visiting the transferor two years ago. What can the transferor do?",
+      "options": [
+        "Sue to terminate the contract",
+        "Sign a termination at the notary alone",
+        "Send a letter; the contract ends automatically",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "Contracts transferring real rights in real estate are terminated only by a court.",
+      "refs": [
+        "zzd:87"
+      ]
+    },
+    {
+      "question": "The land is worth 200,000 €. A building right is granted over the whole plot. What is the material interest?",
+      "options": [
+        "180,000 €",
+        "200,000 €",
+        "100,000 €",
+        "20,000 €"
+      ],
+      "answer": 0,
+      "explanation": "90% of the market price of the land.",
+      "refs": [
+        "znnd:96:2"
+      ]
+    },
+    {
+      "question": "Three heirs partition a house and a flat. One heir, abroad, was not involved. What is the status?",
+      "options": [
+        "The partition is entirely void",
+        "Valid for the three",
+        "Valid if the absent heir agrees later",
+        "Voidable within one year"
+      ],
+      "answer": 0,
+      "explanation": "Art. 75(2) ЗН.",
+      "refs": [
+        "zn:75:2"
+      ]
+    },
+    {
+      "question": "In a partition, Ivan's share grows from 1/2 to 2/3 of the property. On what is the local tax due?",
+      "options": [
+        "On the increase from 1/2 to 2/3",
+        "On the whole property",
+        "On Ivan's whole new share",
+        "No tax"
+      ],
+      "answer": 0,
+      "explanation": "The tax is calculated on the excess when a share increases.",
+      "refs": [
+        "zmdt:47:3"
+      ]
+    },
+    {
+      "question": "A mortgage deed does not state the amount secured. What is the consequence?",
+      "options": [
+        "The mortgage is invalid",
+        "The full value of the property is secured",
+        "The bank may fill it in later",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "Uncertainty about the amount makes the mortgage invalid.",
+      "refs": [
+        "zzd:170",
+        "zzd:166"
+      ]
+    },
+    {
+      "question": "Which clause is invalid in a mortgage deed?",
+      "options": [
+        "If the loan is not repaid, the property passes to the creditor",
+        "The interest is 5% per year",
+        "The mortgage secures the loan and the interest",
+        "The owner must insure the property"
+      ],
+      "answer": 0,
+      "explanation": "Art. 152 ЗЗД.",
+      "refs": [
+        "zzd:152"
+      ]
+    },
+    {
+      "question": "A seller agreed to receive the price in instalments after the deed. What protects the seller by law?",
+      "options": [
+        "A statutory mortgage over the sold property, entered at the seller's request",
+        "Nothing",
+        "A pledge on the buyer's car",
+        "The notary's guarantee"
+      ],
+      "answer": 0,
+      "explanation": "Art. 168 ЗЗД gives the transferor a statutory mortgage for claims under the contract.",
+      "refs": [
+        "zzd:168"
+      ]
+    },
+    {
+      "question": "A bank sold a mortgage-secured loan to another bank. What is required for the transfer to be effective?",
+      "options": [
+        "Written form with notarially certified signatures and entry in the property register",
+        "Only a notice to the borrower",
+        "A new mortgage deed",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "Art. 171 ЗЗД.",
+      "refs": [
+        "zzd:171"
+      ]
+    }
+  ]
+}

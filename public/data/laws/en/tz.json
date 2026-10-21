@@ -1,0 +1,299 @@
+{
+  "1": {
+    "title": "Merchant",
+    "paragraphs": [
+      "Art. 1. (1) A merchant within the meaning of this Act is any natural or legal person who as an occupation carries out any of these transactions:",
+      "1. purchase of goods or other things for resale in original, processed or worked form;",
+      "2. sale of goods of own production;",
+      "3. purchase of securities for sale;",
+      "4. commercial agency and brokerage;",
+      "5. commission, forwarding and carriage;",
+      "6. insurance;",
+      "7. banking and currency transactions;",
+      "8. bills of exchange, promissory notes and cheques;",
+      "9. warehousing;",
+      "10. licensing;",
+      "11. goods inspection;",
+      "12. intellectual property transactions;",
+      "13. hotel, tourist, advertising, information, programming, impresario or other services;",
+      "14. purchase, construction or furnishing of real estate for sale;",
+      "15. leasing.",
+      "(2) Merchants are:",
+      "1. commercial companies;",
+      "2. cooperatives, except housing construction cooperatives.",
+      "(3) Any person who formed an enterprise whose object and size require its affairs to be run in a commercial way is also a merchant, even if the activity is not listed in para. 1."
+    ]
+  },
+  "2": {
+    "title": "Persons who are not merchants",
+    "paragraphs": [
+      "Art. 2. The following are not merchants:",
+      "1. natural persons engaged in agriculture;",
+      "2. craftsmen, persons providing services by personal work or practising a liberal profession, unless their activity is an enterprise under Art. 1(3);",
+      "3. persons providing hotel services by letting rooms in the homes they live in."
+    ]
+  },
+  "15": {
+    "title": "Transactions with an enterprise",
+    "paragraphs": [
+      "Art. 15. (1) The enterprise, as a set of rights, obligations and factual relations, may be transferred by a transaction made in writing with notarial certification of the signatures and the content made at the same time. The transferor must notify the creditors and debtors of the transfer.",
+      "(2) When the whole enterprise of a commercial company is transferred, a decision under Art. 262p is needed.",
+      "(3) In the transfer of an enterprise, unless otherwise agreed with the creditors, the transferor is jointly liable with the successor for the obligations up to the value of the rights received. Creditors of collectable obligations must first turn to the transferor.",
+      "(4) An enterprise with employees may be transferred after the transferor pays the due and unpaid wages, compensations and compulsory social contributions of the employees, including those whose employment ended up to three years before the transfer.",
+      "(5) If the parties expressly agree, the enterprise may also be transferred if the acquirer performs the obligations under para. 4."
+    ]
+  },
+  "16": {
+    "title": "Entry of the transfer",
+    "paragraphs": [
+      "Art. 16. (1) The transfer of an enterprise is entered in the Commercial Register at the same time in the files of the transferor and of the successor.",
+      "(2) The entry is made after an electronic check by the registration officer at the National Revenue Agency shows that the transferor has no unpaid public debts for compulsory social contributions subject to enforcement, and after the transferor presents a declaration on the approved form that there are no other due and unpaid obligations under Art. 15(4). The Registry Agency immediately informs the Labour Inspectorate of the declaration.",
+      "(3) The Labour Inspectorate checks the truth of the declared facts on a signal or of its own motion; if they do not match, it sends the results to the prosecutor.",
+      "(4) The form of the declaration is approved by the Minister of Justice and the Minister of Labour and Social Policy.",
+      "(5) When the contract transfers real estate or a real right in it, the contract is also entered in the registry office."
+    ]
+  },
+  "21": {
+    "title": "Procurator",
+    "paragraphs": [
+      "Art. 21. (1) A procurator is a natural person charged and authorised by a merchant to manage his enterprise for remuneration. The authorisation may be given to more than one person, separately or jointly. The authorisation (procuration) must have notarially certified signatures and be filed by the merchant for entry in the Commercial Register with a specimen of the procurator's signature.",
+      "(2) The procurator signs by adding to the firm his name and a note indicating the procuration.",
+      "(3) A person declared insolvent may not be a procurator, nor a person who in the two years before the insolvency decision was a manager or member of a management or control body of a company terminated for insolvency, if creditors remained unsatisfied."
+    ]
+  },
+  "22": {
+    "title": "Powers of the procurator",
+    "paragraphs": [
+      "Art. 22. (1) The procurator may perform all acts and transactions connected with the commercial activity, represent the merchant and authorise other persons for specific acts. He may not delegate his statutory powers.",
+      "(2) The procurator may not dispose of or encumber the merchant's real estate unless specially authorised. The authorisation may be limited only to the activity of a branch. Other limitations have no effect towards third persons."
+    ]
+  },
+  "24": {
+    "title": "Effect towards third persons",
+    "paragraphs": [
+      "Art. 24. The authorisation has effect towards third persons after its entry in the Commercial Register."
+    ]
+  },
+  "26": {
+    "title": "Commercial agent",
+    "paragraphs": [
+      "Art. 26. (1) A commercial agent is a person authorised by a merchant to perform the acts stated in the power for remuneration. Without other instructions, the agent is deemed authorised for all acts connected with the merchant's ordinary activity. The authorisation is in writing with a notarially certified signature.",
+      "(2) For disposing of or encumbering real estate, assuming obligations under bills of exchange, taking loans and conducting litigation, the agent must be expressly authorised. Other limitations can be relied upon against a third person only if he knew or should have known of them.",
+      "(3) The commercial agent may not transfer his rights to another person without the merchant's consent.",
+      "(4) The agent signs by adding to the firm his name and a note that he is an agent."
+    ]
+  },
+  "56": {
+    "title": "Sole trader",
+    "paragraphs": [
+      "Art. 56. Any natural person with capacity and residence in Bulgaria may register as a sole trader."
+    ]
+  },
+  "59": {
+    "title": "Firm of the sole trader",
+    "paragraphs": [
+      "Art. 59. The firm of a sole trader must contain, without abbreviation, the first name and the family or father's name by which he is known."
+    ]
+  },
+  "60": {
+    "title": "Transfer of the firm",
+    "paragraphs": [
+      "Art. 60. (1) The firm of a sole trader may be transferred to a third person only together with his enterprise. The consent to transfer the firm must be given under Art. 15(1).",
+      "(2) The heirs of a sole trader who take over the enterprise may keep the firm.",
+      "(3) In these cases the name of the new owner must be added to the firm.",
+      "(4) The transfer is entered in the Commercial Register."
+    ]
+  },
+  "63": {
+    "title": "Commercial company",
+    "paragraphs": [
+      "Art. 63. (1) A commercial company is an association of two or more persons to carry out commercial transactions with common means.",
+      "(2) In cases provided by law a company may be formed by one person.",
+      "(3) Commercial companies are legal entities."
+    ]
+  },
+  "64": {
+    "title": "Types of companies",
+    "paragraphs": [
+      "Art. 64. (1) The commercial companies are:",
+      "1. the general partnership;",
+      "2. the limited partnership;",
+      "3. the limited liability company;",
+      "4. the joint-stock company;",
+      "5. the partnership limited by shares;",
+      "6. the company with variable capital.",
+      "(2) Only the companies provided in this Act may be formed.",
+      "(3) The companies under para. 1, items 1 and 2 are partnerships, and those under items 3–5 are capital companies.",
+      "(4) A law may provide that a certain activity may be carried out only by a certain type of company."
+    ]
+  },
+  "113": {
+    "title": "Limited liability company",
+    "paragraphs": [
+      "Art. 113. A limited liability company may be formed by one or more persons who are liable for the company's obligations with their contribution to the capital."
+    ]
+  },
+  "114": {
+    "title": "Form of the articles of association",
+    "paragraphs": [
+      "Art. 114. (1) The articles of association are concluded in writing.",
+      "(2) A partner may be represented by an agent with an express power with a notarially certified signature.",
+      "(3) When a limited liability company is formed by one person, a memorandum of incorporation is drawn up instead of articles of association."
+    ]
+  },
+  "116": {
+    "title": "Firm",
+    "paragraphs": [
+      "Art. 116. (1) The firm of the company must contain the words \"Дружество с ограничена отговорност\" or the abbreviation \"ООД\".",
+      "(2) When the capital belongs to one person, the firm contains the words \"еднолично ООД\"."
+    ]
+  },
+  "117": {
+    "title": "Capital and shares",
+    "paragraphs": [
+      "Art. 117. (1) The capital of a limited liability company may not be less than 1 euro. It consists of the partners' shares, each not less than one euro cent.",
+      "(2) The sum of the shares must equal the capital, and the value of each share must be a multiple of 1.",
+      "(3) The shares of different partners may differ in size.",
+      "(4) One share may be taken jointly by several persons."
+    ]
+  },
+  "129": {
+    "title": "Transfer of shares",
+    "paragraphs": [
+      "Art. 129. (1) A company share may be transferred and inherited. A transfer from one partner to another is free; a transfer to third persons requires compliance with the requirements for admitting a new partner and that there are no due unpaid wages, compensations and compulsory social contributions of the employees, including those whose employment ended up to three years before the transfer.",
+      "(2) The share is transferred by a contract with notarial certification of the signatures and the content made at the same time, and is entered in the Commercial Register after an electronic check by the registration officer at the National Revenue Agency shows that the company and the transferor have no unpaid public debts for compulsory social contributions subject to enforcement, and after the manager and the transferor present a declaration on the approved form that there are no other due and unpaid obligations under para. 1. Art. 16(2)–(4) apply accordingly."
+    ]
+  },
+  "137": {
+    "title": "Competence of the general meeting",
+    "paragraphs": [
+      "Art. 137. (1) The general meeting:",
+      "1. amends and supplements the articles of association;",
+      "2. admits and excludes partners, and consents to the transfer of a share to a new member;",
+      "3. adopts the annual report and the balance sheet, distributes the profit and decides on its payment;",
+      "4. decides on the decrease and increase of the capital;",
+      "5. elects the manager, sets his remuneration and releases him from liability;",
+      "6. decides on opening and closing branches and on participation in other companies;",
+      "7. decides on the acquisition and disposal of real estate and real rights in it;",
+      "8. decides on claims of the company against the manager or the controller and appoints a representative for such proceedings;",
+      "9. decides on additional money contributions.",
+      "(2) Each partner has as many votes as his share in the capital, unless the articles provide otherwise.",
+      "(3) Decisions under para. 1, items 1, 2 and 9 are taken by a majority of more than three quarters of the capital, and decisions under item 4 unanimously by all partners; the articles may provide a larger majority. An excluded partner does not vote and his share is deducted from the capital in determining the majority. Other decisions are taken by a majority of more than half of the capital, unless the articles provide otherwise.",
+      "(4) For decisions under para. 1, item 2, item 4, item 5, first proposal, and item 7, a protocol is drawn up with notarial certification of the signatures and the content made at the same time, unless the articles provide written form.",
+      "(5) Decisions of the general meeting adopted in breach of para. 4 are void.",
+      "(6) Partners may vote through a representative only with an express written power, except for partners that are legal entities and legal representatives.",
+      "(7) The general meeting decides labour and social matters after hearing the representative of the staff."
+    ]
+  },
+  "141": {
+    "title": "Management and representation",
+    "paragraphs": [
+      "Art. 141. (1) The manager organises and directs the company's activity according to the law and the decisions of the general meeting.",
+      "(2) The company is represented by the manager. When there are several managers, each may act alone unless the articles provide otherwise. Other limitations of the manager's power have no effect towards third persons.",
+      "(3) The name of the manager is entered in the Commercial Register; he presents a notarially certified consent with a specimen signature.",
+      "(4) The manager's authorisation may be withdrawn at any time and his name deleted from the register.",
+      "(5) The manager may ask to be deleted by written notice to the company. Within one month the company must file the release for entry; if it does not, the manager may file it himself, and it is entered whether or not another person was elected.",
+      "(6) The authorisation and its deletion have effect towards third persons in good faith after their entry.",
+      "(7) The relations between the company and the manager are governed by a management contract, concluded in writing in the name of the company by a person authorised by the general meeting or the sole owner.",
+      "(8) A person declared insolvent may not be a manager, nor a person who in the two years before the insolvency decision was a manager or member of a management or control body of a company terminated for insolvency, if creditors remained unsatisfied. These limits end 5 years after the termination of that company; the end of the limits is declared expressly with the specific circumstances.",
+      "(9) A person who was a manager or member of a management or control body of a company found by a final penalty decree to have breached its duties to keep oil stocks may not be a manager."
+    ]
+  },
+  "142": {
+    "title": "Non-compete",
+    "paragraphs": [
+      "Art. 142. (1) Without the company's consent the manager may not:",
+      "1. carry out commercial transactions in his own or another's name;",
+      "2. take part in general partnerships, limited partnerships and limited liability companies;",
+      "3. hold a position in the management bodies of other companies.",
+      "(2) The limits under para. 1 apply when the activity is similar to the company's.",
+      "(3) A manager who breaches these duties owes the company compensation for the damage caused."
+    ]
+  },
+  "147": {
+    "title": "Management of a single-member LLC",
+    "paragraphs": [
+      "Art. 147. (1) The sole owner of the capital manages and represents the company personally or through a manager he appoints. If the owner is a legal entity, its head or a person he appoints manages the company.",
+      "(2) The sole owner decides the matters within the competence of the general meeting, and a protocol is drawn up in the form required for decisions of the general meeting.",
+      "(3) Contracts between the sole owner and the company, when he represents it, are concluded in writing."
+    ]
+  },
+  "496": {
+    "title": "Kinds of protest",
+    "paragraphs": [
+      "Art. 496. A refusal to accept or to pay must be established by a protest for non-acceptance or for non-payment."
+    ]
+  },
+  "498": {
+    "title": "Protest for non-payment",
+    "paragraphs": [
+      "Art. 498. A protest for non-payment of a bill payable on a fixed day or at a fixed time after issue or sight must be made on one of the two working days after the day of payment. If the bill is payable at sight, the protest must be made within the terms of Art. 497(1)."
+    ]
+  },
+  "500": {
+    "title": "Waiver of protest",
+    "paragraphs": [
+      "Art. 500. (1) The drawer and any endorser or guarantor may, by the words \"without costs\", \"without protest\" or another equivalent expression signed on the bill, release the holder from making a protest for non-acceptance or non-payment in order to exercise his rights of recourse.",
+      "(2) This clause does not release the holder from presenting the bill in time and giving the required notices. The burden of proving that these terms were not met is on the person who relies on it.",
+      "(3) A clause written by the drawer has effect towards all signatories; a clause written by an endorser or guarantor has effect only for him. If the holder protests despite the drawer's clause, he bears the costs; if the clause was written by an endorser or guarantor, all signatories are liable for the costs."
+    ]
+  },
+  "501": {
+    "title": "Making a protest",
+    "paragraphs": [
+      "Art. 501. The protest is made on the holder's written request by the notary of the place of payment or acceptance."
+    ]
+  },
+  "502": {
+    "title": "Content of the protest",
+    "paragraphs": [
+      "Art. 502. (1) The protest contains:",
+      "1. a full copy of the document with all endorsements and notes;",
+      "2. the names of the persons for and against whom the protest is made;",
+      "3. the demand to the person against whom the protest is made, the answer given, or a note that he did not answer or was not found;",
+      "4. in case of acceptance or payment by intervention – by whom, for whom and how it was made;",
+      "5. the place and date of the protest;",
+      "6. the notary's signature and seal.",
+      "(2) The protest is noted on the document."
+    ]
+  },
+  "504": {
+    "title": "Recording of the protest",
+    "paragraphs": [
+      "Art. 504. (1) The notary must record the content of the protest in the register and issue copies to the interested persons.",
+      "(2) The original of the protest is handed to the holder."
+    ]
+  },
+  "514": {
+    "title": "Missed terms",
+    "paragraphs": [
+      "Art. 514. (1) The holder loses his rights against the endorsers, the drawer and the other obligors, except the drawee, if he misses the terms:",
+      "1. for presenting a bill payable at sight or at a fixed time after sight;",
+      "2. for making a protest for non-acceptance or non-payment;",
+      "3. for presenting for payment when the bill says \"without costs\".",
+      "(2) If the holder misses the term set by the drawer for presentation for acceptance, he loses recourse for non-acceptance and non-payment, unless the bill shows that the drawer meant to exclude only liability for acceptance.",
+      "(3) When the clause with a term for presentation is in an endorsement, only the endorser may rely on it."
+    ]
+  },
+  "535": {
+    "title": "Content of a promissory note",
+    "paragraphs": [
+      "Art. 535. A promissory note contains:",
+      "1. the words \"promissory note\" in the text of the document, in the language in which it is written;",
+      "2. an unconditional promise to pay a set sum of money;",
+      "3. the maturity;",
+      "4. the place of payment;",
+      "5. the name of the person to whom or to whose order payment must be made;",
+      "6. the date and place of issue;",
+      "7. the signature of the issuer."
+    ]
+  },
+  "16а": {
+    "title": "Protection of creditors",
+    "paragraphs": [
+      "Art. 16a. (1) The successor manages the transferred enterprise separately for 6 months from the entry of the transfer.",
+      "(2) During that term, any creditor of the transferor or the successor with an unsecured claim that arose before the entry may ask for performance or security. If the request is not met, the creditor has priority from the rights that belonged to his debtor.",
+      "(3) The members of the successor's management body are jointly liable to the creditors for the separate management."
+    ]
+  }
+}

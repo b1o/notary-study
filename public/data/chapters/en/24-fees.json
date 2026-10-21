@@ -1,0 +1,237 @@
+{
+  "id": "fees",
+  "objectives": [
+    "Name the four kinds of notarial fees and when each applies.",
+    "Determine the material interest for any common act.",
+    "Calculate a proportional fee from the tariff, in leva and in euro.",
+    "Prepare a correct bill and explain who owes the fees.",
+    "Add the entry fee, the local tax and VAT to give a client a full estimate."
+  ],
+  "cards": [
+    {
+      "front": "Name the four kinds of notarial fees.",
+      "back": "Ordinary, proportional, by time, and for drafting and checking (Art. 90–94 ЗННД)."
+    },
+    {
+      "front": "When is a fee charged on the higher of price and tax assessment?",
+      "back": "When they **differ**: always the higher (Art. 96(3) ЗННД)."
+    },
+    {
+      "front": "Material interest for a mortgage?",
+      "back": "The **nominal value** of the secured claim (Art. 97(1) ЗННД)."
+    },
+    {
+      "front": "Maximum fee under item 8?",
+      "back": "**6,000 лв. = 3,067.75 €** (item 8 ТНТ)."
+    },
+    {
+      "front": "Item 10 fee?",
+      "back": "**30%** of item 8, at least 30 лв. (item 10 ТНТ)."
+    },
+    {
+      "front": "Item 12 fee?",
+      "back": "**Half of item 10**, at least 25 лв. (item 12 ТНТ)."
+    },
+    {
+      "front": "Fee for checking a client's draft?",
+      "back": "**Half** of the fee; the other half if the same notary certifies within one month (Art. 94 ЗННД)."
+    },
+    {
+      "front": "Is an oral consultation charged when it relates to a charged act?",
+      "back": "**No** (Art. 93(2) ЗННД)."
+    },
+    {
+      "front": "When is the fee due?",
+      "back": "When the act is **performed**; for a circumstantial verification, when the request is **filed** (Art. 88 ЗННД)."
+    },
+    {
+      "front": "Who is liable for the fee when several persons ask?",
+      "back": "All of them **jointly** (Art. 87 ЗННД)."
+    },
+    {
+      "front": "What can the notary do about unpaid fees?",
+      "back": "Ask for an **order for payment** regardless of the amount (Art. 89(3) ЗННД)."
+    },
+    {
+      "front": "Entry fee at the Registry Agency?",
+      "back": "**0.1%**, at least **10 лв. (5.11 €)**; deletions and notes: half."
+    },
+    {
+      "front": "Range of the local tax on purchase?",
+      "back": "**0.1% – 3%**, set by the municipal council (Art. 47(2) ЗМДТ)."
+    },
+    {
+      "front": "Additional fee for an act outside the office in working hours?",
+      "back": "**25%** (item 23 ТНТ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the item 8 fee for a material interest of 200,000 €?",
+      "options": [
+        "671.24 €",
+        "200.00 €",
+        "3,067.75 €",
+        "1,000.00 €"
+      ],
+      "answer": 0,
+      "explanation": "200,000 € = 391,166 лв.; 730.50 + 0.2% × (391,166 − 100,000) = 1,312.83 лв. = 671.24 €.",
+      "refs": [
+        "tarifa:8"
+      ]
+    },
+    {
+      "question": "A flat is sold for 70,000 €; its tax assessment is 85,000 €. What is the material interest for the fee?",
+      "options": [
+        "85,000 €",
+        "70,000 €",
+        "77,500 €",
+        "155,000 €"
+      ],
+      "answer": 0,
+      "explanation": "The higher of the price and the tax assessment.",
+      "refs": [
+        "znnd:96:3"
+      ]
+    },
+    {
+      "question": "What is the material interest for a right of use granted for life?",
+      "options": [
+        "The market rent for 3 years",
+        "The market price of the property",
+        "The rent for 10 years",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "If no term is set, the rent for 3 years.",
+      "refs": [
+        "znnd:96:2"
+      ]
+    },
+    {
+      "question": "The office drafts a sale deed at the parties' request. What may it charge for the drafting?",
+      "options": [
+        "The item 8 fee for the draft, in addition to the fee for the deed",
+        "Nothing; drafting is always free",
+        "Only VAT",
+        "A fixed 30 лв."
+      ],
+      "answer": 0,
+      "explanation": "For a draft deed, the fee provided for the certification is charged (item 20, letter \"а\"); a check of a client's own draft costs half.",
+      "refs": [
+        "tarifa:20",
+        "znnd:94"
+      ]
+    },
+    {
+      "question": "A client asks for a written legal opinion that takes 1 hour 10 minutes. How is it charged?",
+      "options": [
+        "Two hours at the item 15 rate",
+        "One hour",
+        "Free",
+        "Item 8 on the value"
+      ],
+      "answer": 0,
+      "explanation": "A started hour counts as a full hour.",
+      "refs": [
+        "tarifa:15",
+        "tarifa:16"
+      ]
+    },
+    {
+      "question": "Two clients asked the notary for a contract; only one paid half. What can the notary do?",
+      "options": [
+        "Claim the rest from either client, as they are jointly liable",
+        "Claim only from the one who did not pay",
+        "Write it off",
+        "Ask the Notary Chamber to pay"
+      ],
+      "answer": 0,
+      "explanation": "Several persons who owe fees are jointly liable.",
+      "refs": [
+        "znnd:87"
+      ]
+    },
+    {
+      "question": "The office used a wrong material interest and undercharged. What is the procedure?",
+      "options": [
+        "A new bill for the correct fee, made within 7 days of discovering the error",
+        "Nothing",
+        "A court claim only",
+        "Ask the client to send a gift"
+      ],
+      "answer": 0,
+      "explanation": "Art. 89(4) ЗННД.",
+      "refs": [
+        "znnd:89:4"
+      ]
+    },
+    {
+      "question": "Is VAT charged on the entry fee of the Registry Agency?",
+      "options": [
+        "No",
+        "Yes, 20%",
+        "Yes, 9%",
+        "Only for companies"
+      ],
+      "answer": 0,
+      "explanation": "VAT applies to the notary's service, not to state fees and taxes.",
+      "refs": []
+    },
+    {
+      "question": "A gift of a house from a woman to her brother's son. Which tax range applies?",
+      "options": [
+        "0.4–0.8%",
+        "Exempt",
+        "3.3–6.6%",
+        "0.1–3%"
+      ],
+      "answer": 0,
+      "explanation": "Siblings and their children.",
+      "refs": [
+        "zmdt:47:1"
+      ]
+    },
+    {
+      "question": "The notary certifies a power of attorney at a client's home in the same town, at 19:00. What additional fee applies under the tariff?",
+      "options": [
+        "50% (outside the office, out of hours)",
+        "25%",
+        "Double",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "Item 23, letter \"в\".",
+      "refs": [
+        "tarifa:23"
+      ]
+    },
+    {
+      "question": "What is the minimum entry fee?",
+      "options": [
+        "10 лв. (5.11 €)",
+        "30 лв.",
+        "1 лв.",
+        "No minimum"
+      ],
+      "answer": 0,
+      "explanation": "The Registry Agency tariff sets 0.1%, at least 10 лв.",
+      "refs": []
+    },
+    {
+      "question": "How are amounts in leva in the tariff read since 2026?",
+      "options": [
+        "Converted at 1.95583 and rounded to the cent",
+        "One lev equals one euro",
+        "They are void",
+        "At the daily exchange rate"
+      ],
+      "answer": 0,
+      "explanation": "Art. 11–13 ЗВЕРБ.",
+      "refs": [
+        "zvevro:11:2",
+        "zvevro:12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "welcome",
+  "objectives": [
+    "Explain in two sentences what a Bulgarian notary is and why the state needs one.",
+    "Name the main types of work that come into a notary office every day.",
+    "Name the roles in an office and what each role may and may not do.",
+    "Use the law margin, the law library, the flashcards and the tests of this course."
+  ],
+  "cards": [
+    {
+      "front": "Who is a notary under Bulgarian law?",
+      "back": "A person to whom **the state assigns** the notarial acts provided for by law, and who is entered in the **register of the Notary Chamber** (Art. 2 ЗННД)."
+    },
+    {
+      "front": "May a clerk certify a signature if the notary is busy?",
+      "back": "**No.** Only the notary, an assistant notary within Art. 40 ЗННД, or an authorised substitute may certify. A certification by an unauthorised person is null (Art. 576 ГПК)."
+    },
+    {
+      "front": "Which acts may an assistant notary NOT perform?",
+      "back": "Deeds that create, transfer, change or end real rights in real estate; acts that recognise ownership or limited real rights in real estate; notarial wills and their revocation; mortgages (Art. 40(1) ЗННД)."
+    },
+    {
+      "front": "When must the notary present a deed for entry?",
+      "back": "On the **day** on which the deed is made (Art. 25(5) ЗННД)."
+    },
+    {
+      "front": "Where and when are deeds that need entry issued?",
+      "back": "Only **in the office** of the notary and only **in working hours** (Art. 573(2) ГПК)."
+    },
+    {
+      "front": "What evidential force does a notarial certification have?",
+      "back": "It is an **official document**: it proves the facts it certifies until somebody proves the contrary (Art. 179 ГПК)."
+    },
+    {
+      "front": "What duty of secrecy do employees of the notary have?",
+      "back": "The **same** as the notary (Art. 49 ЗННД)."
+    },
+    {
+      "front": "In which language is a notarial document made?",
+      "back": "In **Bulgarian**. A participant who does not know Bulgarian signs through an interpreter whom the notary appoints (Art. 582 ГПК)."
+    },
+    {
+      "front": "How long are the notarial books with deeds kept?",
+      "back": "**100 years**, then they go to the State Archives (Art. 28а(3) ЗННД)."
+    },
+    {
+      "front": "What is the euro conversion rate for amounts in leva in legal acts?",
+      "back": "**1.95583 leva = 1 euro**, with rounding to the cent (Art. 11–13 ЗВЕРБ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who assigns notarial functions to the notary?",
+      "options": [
+        "The State",
+        "The Notary Chamber",
+        "The district court",
+        "The municipality"
+      ],
+      "answer": 0,
+      "explanation": "The notary is a person to whom the state assigns notarial acts. The Chamber keeps the register.",
+      "refs": [
+        "znnd:2:1"
+      ]
+    },
+    {
+      "question": "A client asks the secretary to certify a signature because the notary is at lunch. What is right?",
+      "options": [
+        "The secretary refuses: only the notary, an assistant notary or a substitute may certify",
+        "The secretary certifies and the notary countersigns later",
+        "The secretary may certify signatures but not deeds",
+        "The secretary may certify if the client is known to the office"
+      ],
+      "answer": 0,
+      "explanation": "Employees never perform notarial acts. A certification by a person without the right is null.",
+      "refs": [
+        "znnd:2:3",
+        "gpk:576"
+      ]
+    },
+    {
+      "question": "Which act may an assistant notary perform on the instructions of the notary?",
+      "options": [
+        "Certification of the signature on a power of attorney",
+        "A notarial deed for the sale of an apartment",
+        "A notarial will",
+        "A mortgage deed"
+      ],
+      "answer": 0,
+      "explanation": "Art. 40(1) excludes real-estate deeds, acts recognising ownership, notarial wills and mortgages. Certifications of signatures are allowed.",
+      "refs": [
+        "znnd:40:1"
+      ]
+    },
+    {
+      "question": "A notarial deed for a sale of land is signed on Tuesday. When must the notary present it for entry?",
+      "options": [
+        "On Tuesday",
+        "Within 7 days",
+        "Within 14 days",
+        "When the buyer asks"
+      ],
+      "answer": 0,
+      "explanation": "The notary presents deeds for entry on the day they are made.",
+      "refs": [
+        "znnd:25:5"
+      ]
+    },
+    {
+      "question": "Where can a notary issue a deed that must be entered in the property register?",
+      "options": [
+        "Only in the office, in working hours",
+        "Anywhere in the district",
+        "At the home of a party who is ill",
+        "At the bank of the buyer"
+      ],
+      "answer": 0,
+      "explanation": "Deeds subject to entry are issued only in the office in working hours. Other acts may be done outside the office for good reasons.",
+      "refs": [
+        "gpk:573:2"
+      ]
+    },
+    {
+      "question": "What is the legal force of a signature certification by a notary?",
+      "options": [
+        "It is an official document and proves the certified facts until the contrary is proved",
+        "It is a private document like any other",
+        "It is valid only for one year",
+        "It binds only the notary"
+      ],
+      "answer": 0,
+      "explanation": "Official documents issued within the competence of the official are proof of the facts they certify.",
+      "refs": [
+        "gpk:179"
+      ]
+    },
+    {
+      "question": "Who keeps the register in which notaries and assistant notaries are entered?",
+      "options": [
+        "The Notary Chamber",
+        "The Ministry of Justice",
+        "The Registry Agency",
+        "The Supreme Court of Cassation"
+      ],
+      "answer": 0,
+      "explanation": "The register is kept at the Notary Chamber.",
+      "refs": [
+        "znnd:5"
+      ]
+    },
+    {
+      "question": "Since 1 January 2026, how do you read an amount of 30 лв. in the notarial tariff?",
+      "options": [
+        "As 15.34 euro",
+        "As 30 euro",
+        "As 15 euro",
+        "As 60 euro"
+      ],
+      "answer": 0,
+      "explanation": "30 ÷ 1.95583 = 15.338…, rounded to 15.34 euro.",
+      "refs": [
+        "zvevro:12",
+        "zvevro:13"
+      ]
+    },
+    {
+      "question": "Which statement about the 2026 draft law against property fraud is correct?",
+      "options": [
+        "It is a draft for public consultation and is not law",
+        "It is in force since 1 January 2026",
+        "It abolished holographic wills",
+        "It abolished the Notary Chamber"
+      ],
+      "answer": 0,
+      "explanation": "The Ministry of Justice published the draft for consultation in August 2026.",
+      "refs": []
+    },
+    {
+      "question": "How long does the notary keep the book with the deeds that are subject to entry?",
+      "options": [
+        "100 years",
+        "10 years",
+        "50 years",
+        "Until the notary retires"
+      ],
+      "answer": 0,
+      "explanation": "Books with deeds and wills and the alphabetical index are kept for 100 years.",
+      "refs": [
+        "znnd:28а:3"
+      ]
+    }
+  ]
+}

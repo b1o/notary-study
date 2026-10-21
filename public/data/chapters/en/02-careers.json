@@ -1,0 +1,230 @@
+{
+  "id": "careers",
+  "objectives": [
+    "Describe the tasks of a clerk, a legal assistant, an assistant notary, a substitute and a notary.",
+    "List the legal requirements for an assistant notary, a substitute and a notary, with the article for each.",
+    "Explain how the competition for notaries and the exam for substitutes work.",
+    "Prepare an application for a first job in a notary office."
+  ],
+  "cards": [
+    {
+      "front": "How many assistant notaries may a notary appoint?",
+      "back": "**One** (Art. 41(1) ЗННД)."
+    },
+    {
+      "front": "What are the requirements for an assistant notary?",
+      "back": "The requirements for a notary, **regardless of age and experience**: citizenship, law degree, legal capacity, clean criminal record and the others in Art. 8(1) ЗННД (Art. 41(1) ЗННД)."
+    },
+    {
+      "front": "What does an assistant notary add to the signature?",
+      "back": "\"помощник\" (Art. 40(2) ЗННД). A substitute adds \"по заместване\" (Art. 46(1) ЗННД)."
+    },
+    {
+      "front": "Who is liable for damage caused by the assistant notary?",
+      "back": "The notary, **jointly** with the assistant (Art. 40(3) ЗННД)."
+    },
+    {
+      "front": "What does a substitute assistant notary need?",
+      "back": "**Three years** of legal experience and an **exam** for the first term (Art. 46 ЗННД)."
+    },
+    {
+      "front": "Maximum term of a substitution by an assistant notary?",
+      "back": "**Two years** from the entry in the register (Art. 46(2) ЗННД)."
+    },
+    {
+      "front": "When is the exam for substitutes held, and what form does it have?",
+      "back": "Twice a year, in **April** and **October**. It is **oral**, with one theoretical and one practical ticket. Pass mark: good (4)."
+    },
+    {
+      "front": "Age limit for a new notary?",
+      "back": "**Up to 60 years** (Art. 8(1) ЗННД). Older persons may apply only when the term is extended for lack of candidates (Art. 11(5))."
+    },
+    {
+      "front": "How many notary places does a district have?",
+      "back": "At least **two**; one place for every **10,000 inhabitants** (Art. 10(1) ЗННД)."
+    },
+    {
+      "front": "What are the parts of the competition for notaries?",
+      "back": "A **written** exam (3 hours, anonymous) and an **oral** exam. Grade at least 4 in each; ranking by the average (Ordinance No. 36)."
+    },
+    {
+      "front": "What must the notary office have?",
+      "back": "**Two or more functionally connected rooms** with the chancery and the archive; only one office in the district (Art. 13 ЗННД)."
+    },
+    {
+      "front": "Name four activities incompatible with the notary profession.",
+      "back": "MP, minister, mayor or councillor; state or municipal post; employment contract; practising as a lawyer; trade or management of companies (Art. 9 ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A law graduate with legal capacity and no work experience wants to become an assistant notary. Is that possible?",
+      "options": [
+        "Yes, the requirements for a notary apply regardless of age and experience",
+        "No, three years of experience are always needed",
+        "No, an assistant notary must be over 30",
+        "Only after the competition for notaries"
+      ],
+      "answer": 0,
+      "explanation": "Art. 41(1) waives age and experience for assistant notaries. Experience is needed only for substitution.",
+      "refs": [
+        "znnd:41:1"
+      ]
+    },
+    {
+      "question": "Which act may an assistant notary NOT perform, even on the instructions of the notary?",
+      "options": [
+        "A deed for a mortgage",
+        "Certification of a signature",
+        "Certification of a copy",
+        "Service of a notarial invitation"
+      ],
+      "answer": 0,
+      "explanation": "Mortgages are excluded by Art. 40(1), item 4.",
+      "refs": [
+        "znnd:40:1"
+      ]
+    },
+    {
+      "question": "What makes an assistant notary able to act alone while the notary is on holiday?",
+      "options": [
+        "Entry as a substitute after three years of experience and an exam",
+        "A written power of attorney from the notary",
+        "Permission from the district court",
+        "Nothing; the assistant can always act alone"
+      ],
+      "answer": 0,
+      "explanation": "Substitution by an assistant notary requires the experience under Art. 8(1)(3) and an exam.",
+      "refs": [
+        "znnd:46:1"
+      ]
+    },
+    {
+      "question": "How long may one term of substitution by an assistant notary last?",
+      "options": [
+        "Up to two years",
+        "Up to six months",
+        "Up to one year",
+        "Without limit"
+      ],
+      "answer": 0,
+      "explanation": "The term may not exceed two years from the entry in the register.",
+      "refs": [
+        "znnd:46:2"
+      ]
+    },
+    {
+      "question": "What may candidates use at the exam for substitutes?",
+      "options": [
+        "Legal acts and case law on paper",
+        "A laptop with a legal database",
+        "Their own notes",
+        "Nothing at all"
+      ],
+      "answer": 0,
+      "explanation": "Only normative acts and case law on paper are allowed.",
+      "refs": [
+        "n2pn:3:3"
+      ]
+    },
+    {
+      "question": "What is the minimum grade to pass the written exam of the competition for notaries and go to the oral exam?",
+      "options": [
+        "Good (4)",
+        "Average (3)",
+        "Very good (5)",
+        "Excellent (6)"
+      ],
+      "answer": 0,
+      "explanation": "Only candidates with at least good (4) go to the oral exam.",
+      "refs": [
+        "n36:9:1"
+      ]
+    },
+    {
+      "question": "A district has 45,000 inhabitants. How many notary places does the general rule give?",
+      "options": [
+        "Four",
+        "Two",
+        "Five",
+        "Three"
+      ],
+      "answer": 0,
+      "explanation": "One place for every 10,000 inhabitants: 45,000 gives four places, and never fewer than two.",
+      "refs": [
+        "znnd:10:1"
+      ]
+    },
+    {
+      "question": "For how many districts may a candidate apply in one competition?",
+      "options": [
+        "Up to three",
+        "Only one",
+        "Up to five",
+        "All districts"
+      ],
+      "answer": 0,
+      "explanation": "The application lists up to three judicial districts in order of preference.",
+      "refs": [
+        "znnd:11:1"
+      ]
+    },
+    {
+      "question": "Which activity is compatible with the work of a notary?",
+      "options": [
+        "Teaching law as a freelance lecturer without an employment contract",
+        "Working as a lawyer",
+        "Being a municipal councillor",
+        "Managing a commercial company"
+      ],
+      "answer": 0,
+      "explanation": "Art. 9 lists incompatible activities. Freelance teaching is not among them; an employment contract is.",
+      "refs": [
+        "znnd:9:1"
+      ]
+    },
+    {
+      "question": "What must a new notary have before entry in the register?",
+      "options": [
+        "An office with two or more functionally connected rooms, insurance, a seal specimen and a signature specimen",
+        "Five employees",
+        "A bank guarantee of 100,000 euro",
+        "A recommendation from the district court"
+      ],
+      "answer": 0,
+      "explanation": "Art. 13 and Art. 14(2) list the office, insurance, seal and signature requirements.",
+      "refs": [
+        "znnd:13:2",
+        "znnd:14:2"
+      ]
+    },
+    {
+      "question": "What secrecy duty does a newly hired clerk have?",
+      "options": [
+        "The same as the notary",
+        "None until the end of the probation period",
+        "Only for real estate deeds",
+        "Only towards the press"
+      ],
+      "answer": 0,
+      "explanation": "Employees keep official secrecy under the same conditions as the notary.",
+      "refs": [
+        "znnd:49"
+      ]
+    },
+    {
+      "question": "Who trains the employees of a notary office?",
+      "options": [
+        "The notary is obliged to introduce, train and guide them",
+        "Only the Notary Chamber",
+        "The Ministry of Justice",
+        "Nobody; training is voluntary"
+      ],
+      "answer": 0,
+      "explanation": "Art. 34(2) puts this duty on the notary. The Council of Notaries also runs training.",
+      "refs": [
+        "znnd:34:2"
+      ]
+    }
+  ]
+}

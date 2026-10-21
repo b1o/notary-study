@@ -1,0 +1,224 @@
+{
+  "2": {
+    "title": "Cadastre",
+    "paragraphs": [
+      "Art. 2. (1) The cadastre is the set of basic data on the location, boundaries and size of real estate in Bulgaria, collected, presented, kept up to date and stored under this Act.",
+      "(2) The cadastre also covers:",
+      "1. data on the ownership of real estate;",
+      "2. data on other real rights in real estate;",
+      "3. data on the state borders, the boundaries of administrative units, land areas and territories of the same permanent use;",
+      "4. data on restriction zones on land.",
+      "(3) These data are drawn on a cadastral map and recorded in cadastral registers.",
+      "(4) A map that also shows specialised data under Art. 32(1) is a specialised map.",
+      "(5) The data under para. 1 and para. 2, item 3 are evidence of the facts they concern until proven otherwise. The data under para. 2, items 1, 2 and 4 are evidence as far as their source has evidential value."
+    ]
+  },
+  "3": {
+    "title": "Property register",
+    "paragraphs": [
+      "Art. 3. (1) The property register consists of the files of the real estate properties.",
+      "(2) The property register records the acts that recognise or transfer ownership or create, transfer, change or end another real right in real estate, the distraints and mortgages on it, and other acts, circumstances and legal facts for which the law provides entry.",
+      "(3) The registration judge orders the entries in the files of the properties in his judicial district."
+    ]
+  },
+  "26": {
+    "title": "Identifier",
+    "paragraphs": [
+      "Art. 26. (1) Every plot, building, technical infrastructure facility containing a separate object, and separate object in a building or facility receives an identifier.",
+      "(2) The identifier is a unique number that identifies the property unambiguously in Bulgaria. It always includes the EKATTE code of the settlement where the property is.",
+      "(3) The identifier is given by the Geodesy, Cartography and Cadastre Agency.",
+      "(4) The structure and content of the identifier and of the number of a restriction zone are set by an ordinance of the Minister of Regional Development and Public Works."
+    ]
+  },
+  "52": {
+    "title": "Draft sketch",
+    "paragraphs": [
+      "Art. 52. (1) The cadastre office issues a draft sketch or draft scheme for a property not shown in the cadastral map and registers, on a project for amendment, in the cases of:",
+      "1. partition;",
+      "2. (Repealed.)",
+      "3. change of a plot boundary by agreement of the owners, including to apply detailed plans under § 8(2), item 1 of the Spatial Development Act;",
+      "4. merger of plots of different owners;",
+      "5. obtaining a declaratory notarial deed;",
+      "6. Art. 19(6) of the Agricultural Land Ownership and Use Act, for decisions restoring ownership of land;",
+      "7. identification of properties transferred, expropriated or acquired.",
+      "(2) The cadastral map and registers are amended after the data from the entered act arrive under Art. 86(1)."
+    ]
+  },
+  "54": {
+    "title": "Incompleteness or error",
+    "paragraphs": [
+      "Art. 54. (1) An incompleteness or error is completed or corrected by the cadastre offices on written evidence and a project for amendment.",
+      "(2) When it is connected with a dispute on substantive rights, it is corrected after the court resolves the dispute. The court may assign a licensed cadastre expert to prepare a combined sketch with coordinates. The final decision with a project for amendment is the ground for amending the map under Art. 53a, item 1.",
+      "(3) A difference in the coordinates of a boundary point between the map and geodetic measurements smaller than the permitted one under the ordinance under Art. 31 is not an error.",
+      "(4) The amendments are approved by order of the head of the cadastre office where the property is, with a draft sketch, communicated to the interested persons whose rights are affected.",
+      "(5) In the cases of Art. 51(7), the amendments are approved by order of the Executive Director of the Agency, announced under Art. 35(3).",
+      "(6) The orders under paras. 4 and 5 may be appealed before the administrative court where the property is.",
+      "(7) Paras. 1–6 apply when entering a property whose ownership was restored under Art. 10(7) of the Agricultural Land Ownership and Use Act."
+    ]
+  },
+  "59": {
+    "title": "Property file",
+    "paragraphs": [
+      "Art. 59. (1) The file of each property consists of five parts:",
+      "1. part \"A\" – the property;",
+      "2. part \"B\" – the owner and the recognition and transfer of ownership;",
+      "3. part \"C\" – the creation and transfer of other real rights and the legal facts and circumstances subject to entry, other than those under items 4 and 5;",
+      "4. part \"D\" – mortgages;",
+      "5. part \"E\" – distraints.",
+      "(2) An act subject to entry is entered in the part of the file to which it relates.",
+      "(3) The Minister of Justice approves the model of the file.",
+      "(4) The file has a disclosure effect. It is not evidence of the facts, circumstances and rights entered."
+    ]
+  },
+  "60": {
+    "title": "Part \"A\"",
+    "paragraphs": [
+      "Art. 60. Part \"A\" of the file records:",
+      "1. the identifier;",
+      "2. the type of property – plot, building or separate object in a building;",
+      "3. the address;",
+      "4. the boundaries of the plot (the identifiers of the neighbouring plots or separate objects);",
+      "5. the area in square metres or decares;",
+      "6. the use of the property;",
+      "7. the number of floors of the building;",
+      "8. the circumstance under Art. 67(2) of the Inheritance Act."
+    ]
+  },
+  "61": {
+    "title": "Part \"B\"",
+    "paragraphs": [
+      "Art. 61. (1) Part \"B\" records:",
+      "1. the name, personal or other identification number and address – for an owner who is a natural person;",
+      "2. the name, legal form, seat and BULSTAT or other identification number – for an owner that is a legal entity;",
+      "3. the data of the state legal entity to which management was granted – for state property;",
+      "4. the data of the municipal budget organisations to which management was granted under Art. 12(2) of the Municipal Property Act – for municipal property;",
+      "5. the name and EKATTE code of the municipality – for municipal property;",
+      "6. the court, the register, the volume and the file – for legal entities registered with a court and foreign entities with a branch in Bulgaria;",
+      "7. the BULSTAT or other identification number – for entities without court registration;",
+      "8. the type of ownership – private or public;",
+      "9. in co-ownership – the ideal parts and the data of the co-owners, and in marital community – the data of the spouses;",
+      "10. the act from which the owner derives his right;",
+      "11. the number and date of the notarial deed or other act under Art. 112 of the Property Act subject to entry, and the date of entry;",
+      "12. the claims under Art. 114 of the Property Act;",
+      "13. whether the act under item 11 is under a condition or term.",
+      "(2) Part \"B\" also notes: 1. the request for entry; 2. a refusal of the registration judge to order entry; 3. an appeal against the refusal."
+    ]
+  },
+  "62": {
+    "title": "Part \"C\"",
+    "paragraphs": [
+      "Art. 62. (1) Part \"C\" records:",
+      "1. the type of right;",
+      "2. the holder of the right;",
+      "3. the term, if the right is for a term;",
+      "4. the act under Art. 112 of the Property Act subject to entry;",
+      "5. the claims under Art. 114 of the Property Act;",
+      "6. the contracts subject to entry: a) the type of contract; b) the date, parties and object; c) whether it is under a condition or term.",
+      "(2) Part \"C\" also notes the request for entry, a refusal and an appeal against it."
+    ]
+  },
+  "63": {
+    "title": "Part \"D\"",
+    "paragraphs": [
+      "Art. 63. (1) Part \"D\" records:",
+      "1. the type of mortgage – statutory, contractual or as security before a court;",
+      "2. the type, number, date and issuer of the act on which the entry was made;",
+      "3. the amount of the secured claim – principal, interest, costs;",
+      "4. the maturity;",
+      "5. the creditor, with the data under Art. 61(1);",
+      "6. the debtor, with his data, or the data of the person whose obligation is secured if different from the owner;",
+      "7. the changes of the claim;",
+      "8. the deletion of the mortgage and its ground;",
+      "9. whether the contract is under a condition;",
+      "10. the renewal of the mortgage.",
+      "(2) Part \"D\" also notes the request for entry, a refusal and an appeal against it."
+    ]
+  },
+  "64": {
+    "title": "Part \"E\"",
+    "paragraphs": [
+      "Art. 64. (1) Part \"E\" records:",
+      "1. the type of distraint – general or for a specific property;",
+      "2. the number and date of the act imposing it and the authority that imposed it;",
+      "3. the number and date of its entry;",
+      "4. the amount secured;",
+      "5. the deletion of the distraint and its ground.",
+      "(2) Part \"E\" also notes the request for entry, a refusal and an appeal against it."
+    ]
+  },
+  "65": {
+    "title": "Keeping of files",
+    "paragraphs": [
+      "Art. 65. (1) A file is kept for a property that has an identifier.",
+      "(2) Each file has its own number.",
+      "(3) Until the order under Art. 73 enters into force, a property file with the content under Art. 59–64 is kept whether or not an identifier exists.",
+      "(4) Until the order under Art. 70, the Registry Agency prepares an electronic file and an electronic file record at every entry, note or deletion of an act under Art. 110–115 of the Property Act concerning a property with an identifier, on the existing personal files and the data from the Cadastre Agency, as an aid for preparing the property files."
+    ]
+  },
+  "76": {
+    "title": "Who may request an entry",
+    "paragraphs": [
+      "Art. 76. (1) Entry in the property register may be made:",
+      "1. on a request of the interested person or his representative;",
+      "2. on a request of a notary in the cases provided by law;",
+      "3. of the registry's own motion in the cases provided by law.",
+      "(2) Files are opened and closed of the registry's own motion in the cases under Art. 54c."
+    ]
+  },
+  "77": {
+    "title": "Request for entry",
+    "paragraphs": [
+      "Art. 77. (1) The request for entry is written in Bulgarian and contains:",
+      "1. the name, address and other data of the applicant under Art. 61(1);",
+      "2. the legal fact subject to entry;",
+      "3. the description of the property;",
+      "4. the cadastral identifier of the property;",
+      "5. the file number;",
+      "6. other circumstances provided by law;",
+      "7. the applicant's signature.",
+      "(2) The request is accompanied by:",
+      "1. a sketch from the cadastral map, and for a separate object in a building or facility a scheme; when the act forms new or changed properties, a draft sketch or draft scheme issued by the Cadastre Agency;",
+      "2. the written evidence of the legal fact entered;",
+      "3. a power of attorney when the request is filed by an agent.",
+      "(3) For the entry of a distraint, a document under Art. 55(1) is attached."
+    ]
+  },
+  "84": {
+    "title": "Certification of the entry",
+    "paragraphs": [
+      "Art. 84. (1) Every entry in the file states the date (day, month and year) on which it was made. The entry is certified by the signature of the registration judge.",
+      "(2) The entered act shows the incoming number, the date of entry and the file number.",
+      "(3) A ruling refusing entry and an appeal against it are noted in the file, which preserves the rank under Art. 81.",
+      "(4) If no appeal is filed against the refusal, the note is deleted of the registry's own motion.",
+      "(5) The entry is also certified with a qualified electronic time stamp under Regulation (EU) No 910/2014."
+    ]
+  },
+  "85": {
+    "title": "Invalid entry",
+    "paragraphs": [
+      "Art. 85. An entry is invalid when there is no order of the registration judge, or when it is not certified under Art. 84(1)."
+    ]
+  },
+  "86": {
+    "title": "Notice to the cadastre",
+    "paragraphs": [
+      "Art. 86. (1) The registry office immediately informs the cadastre office of the new files and the entries made.",
+      "(2) The forms for this information are approved by the Minister of Justice and the Minister of Regional Development and Public Works."
+    ]
+  },
+  "53б": {
+    "title": "Obvious factual error",
+    "paragraphs": [
+      "Art. 53b. (1) An obvious factual error is corrected by the Agency on an application of an interested person or when the cadastre office finds it.",
+      "(2) It is corrected on a project for amendment prepared by a licensed cadastre specialist, assigned by the Agency or an interested person, who prepares a map of the contact zone, a list of affected properties and the project, reviewed by the commission under Art. 47(1).",
+      "(3) (Repealed.) (4) (Repealed.)",
+      "(5) The commission rules for each property on the period in which a permanent topographic object arose, if data exist, and on the existence of an obvious factual error, stating the ground for compensation or proposing expropriation.",
+      "(6) On the commission's decisions the cadastre office accepts, rejects or returns the project for correction.",
+      "(7) The amendments are made by order of the head of the cadastre office when they affect up to 50 plots, and by order of the Executive Director of the Agency when they affect more than 50 plots or plots occupied by linear infrastructure.",
+      "(8) For compensation under the agricultural and forest land restitution laws, the order with the draft sketch is sent to the municipal agriculture office; the draft sketch states the area for which compensation is due.",
+      "(9) The order under para. 7, item 1 is communicated under the Administrative Procedure Code and may be appealed within 14 days before the administrative court where the property is.",
+      "(10) The order under para. 7, item 2 is announced under Art. 35(3) and may be appealed within 30 days of its publication in the State Gazette.",
+      "(11) An appeal does not stop the execution of the order unless the court orders otherwise."
+    ]
+  }
+}

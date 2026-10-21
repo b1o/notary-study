@@ -1,0 +1,231 @@
+{
+  "id": "succession",
+  "objectives": [
+    "Prepare and carry out a notarial will with two witnesses.",
+    "Accept a holographic will for safekeeping and return it to the testator.",
+    "Announce a holographic will after the testator's death and issue copies.",
+    "Enter the announced will and register the data that the law requires.",
+    "Handle the documents for a sale or partition of inherited property."
+  ],
+  "cards": [
+    {
+      "front": "Who may make a notarial will?",
+      "back": "Only the **notary personally**; not an assistant (Art. 40(1) ЗННД)."
+    },
+    {
+      "front": "How many witnesses for a notarial will?",
+      "back": "**Two** (Art. 24 ЗН)."
+    },
+    {
+      "front": "Who cannot be a witness to a will?",
+      "back": "Relatives, beneficiaries, persons without capacity, illiterate in Bulgarian, blind/deaf/mute, employees of the notary or registry office (Art. 584 ГПК)."
+    },
+    {
+      "front": "What if the testator cannot sign a notarial will?",
+      "back": "The testator states the **reason**, and the notary records it **before reading** the will (Art. 24(3) ЗН)."
+    },
+    {
+      "front": "Deadline to send a notarial will to the registration judge?",
+      "back": "**3 days** (Art. 21(2) Наредба № 32)."
+    },
+    {
+      "front": "What is entered in the information system about wills?",
+      "back": "The **name and ЕГН of the testator** (Art. 9а, item 3 Наредба № 32)."
+    },
+    {
+      "front": "How is a holographic will deposited?",
+      "back": "In a **closed envelope**; the notary writes a protocol on the envelope, signed by the depositor and the notary (Art. 25(2) ЗН)."
+    },
+    {
+      "front": "Who may take back a deposited holographic will?",
+      "back": "Only the **testator personally**, with a note signed by the testator, two witnesses and the notary (Art. 26 ЗН)."
+    },
+    {
+      "front": "Which notary announces a deposited holographic will?",
+      "back": "The notary **who keeps it** (Art. 27(4) ЗН)."
+    },
+    {
+      "front": "What does the announcement protocol describe?",
+      "back": "The **condition** of the will and its **opening**; the will is attached and countersigned on every page (Art. 27(3) ЗН)."
+    },
+    {
+      "front": "Is a copy of an announced will entered in the property register?",
+      "back": "**Yes**, if it concerns real estate (Art. 4 ПВ)."
+    },
+    {
+      "front": "Fee for a notarial will?",
+      "back": "**50%** of the item 8 fee, at least 30 лв. (item 9 ТНТ)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A testator asks the assistant notary to write her will while the notary is at a meeting. What is right?",
+      "options": [
+        "Refuse; only the notary personally makes notarial wills",
+        "Proceed with two witnesses",
+        "Proceed if the notary signs later",
+        "Proceed as a holographic will"
+      ],
+      "answer": 0,
+      "explanation": "Art. 40(1) ЗННД.",
+      "refs": [
+        "znnd:40:1"
+      ]
+    },
+    {
+      "question": "The testator's daughter, who inherits under the will, offers to be a witness. Can she?",
+      "options": [
+        "No, a beneficiary cannot be a witness",
+        "Yes, if she is an adult",
+        "Yes, if the testator agrees",
+        "Yes, but only one witness may be a relative"
+      ],
+      "answer": 0,
+      "explanation": "Persons in whose favour the act contains a disposition cannot be witnesses; neither can close relatives.",
+      "refs": [
+        "gpk:584"
+      ]
+    },
+    {
+      "question": "In what order are the steps of a notarial will?",
+      "options": [
+        "Oral statement, writing, reading in the presence of witnesses, note of formalities, signatures",
+        "Signatures, then reading",
+        "The testator writes it, the notary reads it",
+        "Witnesses dictate, the testator signs"
+      ],
+      "answer": 0,
+      "explanation": "Art. 24(2) ЗН.",
+      "refs": [
+        "zn:24:2"
+      ]
+    },
+    {
+      "question": "Within what time does the notary send a copy of a notarial will to the registration judge?",
+      "options": [
+        "3 days",
+        "7 days",
+        "1 month",
+        "Only after death"
+      ],
+      "answer": 0,
+      "explanation": "Art. 21(2) of Ordinance No. 32.",
+      "refs": [
+        "n32:21:2"
+      ]
+    },
+    {
+      "question": "A holographic will is deposited in a sealed envelope. Does the notary read it?",
+      "options": [
+        "No; the notary writes a protocol on the envelope",
+        "Yes, to check validity",
+        "Yes, and keeps a copy",
+        "Only if the testator is over 80"
+      ],
+      "answer": 0,
+      "explanation": "The notary draws up a protocol on the envelope; the will stays closed.",
+      "refs": [
+        "zn:25:2"
+      ]
+    },
+    {
+      "question": "The testator's son asks to take back his father's deposited will \"for safekeeping at home\". What is the answer?",
+      "options": [
+        "No, only the testator personally can take it back",
+        "Yes, with a power of attorney",
+        "Yes, with two witnesses",
+        "Yes, after a fee"
+      ],
+      "answer": 0,
+      "explanation": "Art. 26(1) ЗН.",
+      "refs": [
+        "zn:26"
+      ]
+    },
+    {
+      "question": "A woman finds her late aunt's holographic will in a drawer. What must she do?",
+      "options": [
+        "Ask a notary to announce it as soon as possible",
+        "Keep it until all heirs agree",
+        "Take it to the municipality",
+        "File it at the district court only"
+      ],
+      "answer": 0,
+      "explanation": "Art. 27(1) ЗН.",
+      "refs": [
+        "zn:27:1"
+      ]
+    },
+    {
+      "question": "Who signs the protocol of announcement of a holographic will?",
+      "options": [
+        "The person who presented the will and the notary",
+        "All heirs",
+        "Two witnesses and the notary",
+        "The registration judge"
+      ],
+      "answer": 0,
+      "explanation": "Art. 27(3) ЗН.",
+      "refs": [
+        "zn:27:3"
+      ]
+    },
+    {
+      "question": "An announced will leaves a flat in Burgas to a niece. What happens with the copy?",
+      "options": [
+        "It is entered in the property register in Burgas",
+        "Nothing; wills are never entered",
+        "It is entered in the Commercial Register",
+        "It is sent to the municipality only"
+      ],
+      "answer": 0,
+      "explanation": "Copies of announced wills concerning real estate are entered.",
+      "refs": [
+        "pv:4"
+      ]
+    },
+    {
+      "question": "What does the notary enter in the information system after a holographic will is deposited?",
+      "options": [
+        "The name and identity number of the testator",
+        "The full text of the will",
+        "The names of the heirs",
+        "Nothing"
+      ],
+      "answer": 0,
+      "explanation": "Art. 9а, item 3 of Ordinance No. 32.",
+      "refs": [
+        "n32:9а"
+      ]
+    },
+    {
+      "question": "How is a notarial will revoked?",
+      "options": [
+        "By a new will or a notarial deed expressly revoking it",
+        "By tearing the copy at home",
+        "By a letter to the notary",
+        "By telling the heirs"
+      ],
+      "answer": 0,
+      "explanation": "Art. 38 ЗН.",
+      "refs": [
+        "zn:38"
+      ]
+    },
+    {
+      "question": "A Bulgarian living in France wants to make a will valid for property in Bulgaria. Which route is safe?",
+      "options": [
+        "A notarial will before a Bulgarian consul, or a will valid under French law or the law of citizenship",
+        "Only a will before a notary in Bulgaria",
+        "An e-mail to the notary",
+        "A video recording"
+      ],
+      "answer": 0,
+      "explanation": "Consuls make notarial wills of Bulgarian citizens; the form is valid under several laws.",
+      "refs": [
+        "znnd:84:1",
+        "kmchp:90:2"
+      ]
+    }
+  ]
+}

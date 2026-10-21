@@ -1,0 +1,234 @@
+{
+  "id": "legal-system",
+  "objectives": [
+    "Put the sources of Bulgarian law in order, from the Constitution to a municipal ordinance.",
+    "Find the current text of a provision and check when it entered into force.",
+    "Read a citation such as \"чл. 25, ал. 9, т. 1 ЗННД\" and find it in the law library.",
+    "Explain the difference between legal capacity and capacity to act, between real rights and obligations, and between official and private documents.",
+    "Say when a contract is void and when it is voidable."
+  ],
+  "cards": [
+    {
+      "front": "Which act is the supreme law of Bulgaria?",
+      "back": "The **Constitution**; its provisions have direct effect (Art. 5(1)–(2) Конституция)."
+    },
+    {
+      "front": "When does a normative act enter into force if it says nothing?",
+      "back": "**Three days after promulgation** in the State Gazette (Art. 5(5) Конституция)."
+    },
+    {
+      "front": "What applies if a Bulgarian act contradicts an EU regulation?",
+      "back": "The **EU regulation** (Art. 15(2) ЗНА)."
+    },
+    {
+      "front": "Who sets the rate of the local tax on the acquisition of property?",
+      "back": "The **municipal council**, by ordinance, within the limits of the law (Art. 1(2) ЗМДТ)."
+    },
+    {
+      "front": "What is the difference between \"ал.\" and \"т.\"?",
+      "back": "\"ал.\" (алинея) is a **paragraph** of an article; \"т.\" (точка) is an **item** inside a paragraph."
+    },
+    {
+      "front": "Where are the definitions of an act usually found?",
+      "back": "In the **Additional Provisions** (Допълнителни разпоредби, ДР), numbered with §."
+    },
+    {
+      "front": "Legal capacity vs capacity to act?",
+      "back": "**Legal capacity**: to hold rights, from birth (Art. 1 ЗЛС). **Capacity to act**: to acquire rights by one's own acts, full at 18 (Art. 2 ЗЛС)."
+    },
+    {
+      "front": "How does a minor aged 15 sign a contract?",
+      "back": "Personally, **with the consent** of a parent or curator (Art. 4 ЗЛС)."
+    },
+    {
+      "front": "What form does a contract for the transfer of real estate need?",
+      "back": "A **notarial deed** (Art. 18 ЗЗД)."
+    },
+    {
+      "front": "What happens to a contract without the form required by law?",
+      "back": "It is **void** (Art. 26(1) ЗЗД)."
+    },
+    {
+      "front": "Name three grounds that make a contract voidable.",
+      "back": "Lack of capacity, mistake, fraud, threat, extreme need (Art. 27 ЗЗД)."
+    },
+    {
+      "front": "Time limit to request annulment of a voidable contract?",
+      "back": "**Three years**, as a rule (Art. 32 ЗЗД)."
+    },
+    {
+      "front": "What does an official document prove?",
+      "back": "The statements made before the official and the acts done by or before the official (Art. 179(1) ГПК)."
+    },
+    {
+      "front": "What are immovable things?",
+      "back": "Land, plants, buildings and everything permanently attached to the land or a building (Art. 110 ЗС)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "An ordinance of a minister contradicts a law. Which one applies?",
+      "options": [
+        "The law",
+        "The ordinance, because it is newer",
+        "Both equally",
+        "The one chosen by the notary"
+      ],
+      "answer": 0,
+      "explanation": "A normative act must agree with the Constitution and all higher acts.",
+      "refs": [
+        "zna:15:1"
+      ]
+    },
+    {
+      "question": "A law is promulgated on 10 March and says nothing about its entry into force. When does it enter into force?",
+      "options": [
+        "13 March",
+        "10 March",
+        "1 April",
+        "On the next 1 January"
+      ],
+      "answer": 0,
+      "explanation": "Three days after promulgation.",
+      "refs": [
+        "konst:5:5"
+      ]
+    },
+    {
+      "question": "What does \"чл. 8, ал. 1, т. 3 ЗННД\" mean?",
+      "options": [
+        "Article 8, paragraph 1, item 3 of the Notaries and Notarial Activity Act",
+        "Chapter 8, article 1, page 3",
+        "Article 8 of the Tariff, item 3",
+        "Paragraph 8 of the Additional Provisions"
+      ],
+      "answer": 0,
+      "explanation": "чл. = article, ал. = paragraph, т. = item.",
+      "refs": []
+    },
+    {
+      "question": "Which court hears an appeal against a notary's refusal to certify?",
+      "options": [
+        "The regional court (окръжен съд)",
+        "The district court (районен съд)",
+        "The Supreme Administrative Court",
+        "The Notary Chamber"
+      ],
+      "answer": 0,
+      "explanation": "A refusal is appealed with a private appeal before the regional court.",
+      "refs": [
+        "gpk:577:1"
+      ]
+    },
+    {
+      "question": "Who orders an entry in the property register?",
+      "options": [
+        "The registration judge",
+        "The notary",
+        "The mayor",
+        "The cadastre office"
+      ],
+      "answer": 0,
+      "explanation": "Registration judges at the district courts order or refuse entries.",
+      "refs": [
+        "zsv:280"
+      ]
+    },
+    {
+      "question": "A 13-year-old inherits an apartment. Who signs a contract about it?",
+      "options": [
+        "The parents, as legal representatives, in the child's name",
+        "The child alone",
+        "The child with the consent of the parents",
+        "Nobody until the child is 18"
+      ],
+      "answer": 0,
+      "explanation": "Minors under 14 cannot act; their legal representatives act for them. Chapter 10 adds the court permission needed to dispose of a child's property.",
+      "refs": [
+        "zls:3"
+      ]
+    },
+    {
+      "question": "A sale of a house is made in simple written form. What is its status?",
+      "options": [
+        "Void for lack of the required form",
+        "Valid between the parties",
+        "Voidable within three years",
+        "Valid once entered"
+      ],
+      "answer": 0,
+      "explanation": "Transfers of real estate need a notarial deed; a contract without the required form is void.",
+      "refs": [
+        "zzd:18",
+        "zzd:26:1"
+      ]
+    },
+    {
+      "question": "A person signed a contract because of a threat. What is the status of the contract?",
+      "options": [
+        "Voidable",
+        "Void",
+        "Valid and unchallengeable",
+        "Non-existent"
+      ],
+      "answer": 0,
+      "explanation": "Threat is a ground for annulment.",
+      "refs": [
+        "zzd:27",
+        "zzd:30"
+      ]
+    },
+    {
+      "question": "Which statement about a private document is correct?",
+      "options": [
+        "It proves that the signatories made the statements in it",
+        "It proves that the statements are true",
+        "It has the same force as a notarial deed",
+        "It must always be in notarial form"
+      ],
+      "answer": 0,
+      "explanation": "A signed private document proves only who made the statements.",
+      "refs": [
+        "gpk:180"
+      ]
+    },
+    {
+      "question": "What is a real right?",
+      "options": [
+        "A right over a thing that everybody must respect, such as ownership or a building right",
+        "Any right written in a contract",
+        "A right that only the parties must respect",
+        "A right of the state to collect taxes"
+      ],
+      "answer": 0,
+      "explanation": "Real rights act against everybody; obligations bind the parties only.",
+      "refs": []
+    },
+    {
+      "question": "Which source is the official text of a Bulgarian law?",
+      "options": [
+        "The State Gazette",
+        "lex.bg",
+        "The website of the Notary Chamber",
+        "A commercial legal database"
+      ],
+      "answer": 0,
+      "explanation": "Only the State Gazette is official; the others are consolidated reproductions.",
+      "refs": []
+    },
+    {
+      "question": "A deadline for filing an appeal at the court ends on Friday. Until when can you file it at the court office?",
+      "options": [
+        "Until the end of the working hours on Friday",
+        "Until midnight on Friday",
+        "Until Monday morning",
+        "Until midnight on Sunday"
+      ],
+      "answer": 0,
+      "explanation": "If something must be presented to the court, the term ends when the working hours end.",
+      "refs": [
+        "gpk:62:1"
+      ]
+    }
+  ]
+}

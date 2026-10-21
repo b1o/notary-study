@@ -1,0 +1,245 @@
+{
+  "id": "family",
+  "objectives": [
+    "Decide whether a property bought during a marriage is common property or personal property.",
+    "Decide who must sign when a married person sells real estate, and what happens if one spouse signs alone.",
+    "Explain the form and the entry of a marriage contract.",
+    "Explain when the district court must permit a disposal of a child's property.",
+    "Prepare a parental consent for a child to travel abroad."
+  ],
+  "cards": [
+    {
+      "front": "Name the three matrimonial property regimes.",
+      "back": "Statutory community, statutory separation, contractual regime (Art. 18 СК)."
+    },
+    {
+      "front": "Which regime applies when the spouses chose none?",
+      "back": "The **statutory community** (Art. 18(2) СК)."
+    },
+    {
+      "front": "Where are marriage contracts and regimes registered?",
+      "back": "In the **central electronic register** at the Registry Agency (Art. 19 СК)."
+    },
+    {
+      "front": "Is a flat bought during the marriage in one spouse's name common?",
+      "back": "**Yes**, if acquired through joint contribution, which is **presumed** (Art. 21 СК)."
+    },
+    {
+      "front": "Name three kinds of personal property.",
+      "back": "Acquired before the marriage; by inheritance or gift; with entirely personal money (Art. 22–23 СК)."
+    },
+    {
+      "front": "Who disposes of common property?",
+      "back": "**Both spouses together** (Art. 24(3) СК)."
+    },
+    {
+      "front": "Time limits to challenge a sale of common real estate by one spouse?",
+      "back": "**6 months** from learning, at most **3 years** from the sale (Art. 24(4) СК)."
+    },
+    {
+      "front": "When does the sale of a personal family home need the other spouse's consent?",
+      "back": "When the spouses have **no other home** (Art. 26 СК)."
+    },
+    {
+      "front": "Shares of spouses when the community ends?",
+      "back": "**Equal** (Art. 28 СК)."
+    },
+    {
+      "front": "Form of a marriage contract?",
+      "back": "Signed **personally**, in writing, with notarial certification of **content and signatures** (Art. 39(1) СК)."
+    },
+    {
+      "front": "When is a pre-marriage contract with real estate entered?",
+      "back": "On the day the notary receives the **marriage certificate** (Art. 39(3) СК; Art. 25(5) ЗННД)."
+    },
+    {
+      "front": "What can a marriage contract NOT contain?",
+      "back": "Dispositions in case of death; a clause making premarital property common (Art. 38 СК)."
+    },
+    {
+      "front": "What needs court permission for a child's property?",
+      "back": "Disposals of real estate, of movables by formal deal, of deposits and securities (Art. 130(3) СК)."
+    },
+    {
+      "front": "Can one parent alone represent a child?",
+      "back": "**Yes**, in the child's interest; with a conflict of interest, a special representative is appointed (Art. 129 СК)."
+    },
+    {
+      "front": "What document allows a child to travel abroad with one parent?",
+      "back": "A **declaration of consent** of the other parent with a **notarially certified signature** (Art. 76 ЗБЛД; Art. 127а СК for disputes)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Spouses married in 2012. In 2021 the husband bought a house in his name with his salary. Who must sign a sale of the house?",
+      "options": [
+        "Both spouses",
+        "Only the husband",
+        "Only the husband, with a declaration",
+        "The wife alone"
+      ],
+      "answer": 0,
+      "explanation": "The house is common property; disposal is done by both spouses.",
+      "refs": [
+        "sk:21:1",
+        "sk:24:3"
+      ]
+    },
+    {
+      "question": "A wife inherited a flat from her mother during the marriage. Who owns it?",
+      "options": [
+        "The wife personally",
+        "Both spouses equally",
+        "The wife and her siblings always",
+        "The husband"
+      ],
+      "answer": 0,
+      "explanation": "Rights acquired during the marriage by inheritance are personal.",
+      "refs": [
+        "sk:22:1"
+      ]
+    },
+    {
+      "question": "A husband sold a common apartment alone in January 2025. The wife learned in March 2026. Until when may she sue?",
+      "options": [
+        "Until September 2026, within 6 months of learning and within 3 years of the sale",
+        "She cannot sue; the sale is final",
+        "Until January 2030",
+        "Until March 2031"
+      ],
+      "answer": 0,
+      "explanation": "6 months from learning, no later than 3 years from the disposal.",
+      "refs": [
+        "sk:24:4"
+      ]
+    },
+    {
+      "question": "A woman owns a flat from before the marriage. It is the only home of the family. She wants to sell it. What is required?",
+      "options": [
+        "The consent of her husband, or permission of the district judge",
+        "Nothing, it is personal property",
+        "A marriage contract",
+        "The consent of the children"
+      ],
+      "answer": 0,
+      "explanation": "Disposal of a personal family home requires the other spouse's consent if they have no other home.",
+      "refs": [
+        "sk:26"
+      ]
+    },
+    {
+      "question": "Can a fiancé sign a marriage contract through a power of attorney?",
+      "options": [
+        "No, the parties sign personally",
+        "Yes, with a notarised power of attorney",
+        "Yes, if the other party agrees",
+        "Yes, at a consulate"
+      ],
+      "answer": 0,
+      "explanation": "The marriage contract is concluded personally by the parties.",
+      "refs": [
+        "sk:39:1"
+      ]
+    },
+    {
+      "question": "A couple signed a marriage contract in May that transfers a flat from one partner to the other. They marry in July. When is the contract entered?",
+      "options": [
+        "On the day the notary receives the marriage certificate",
+        "In May, on the day of signing",
+        "Within one month after the wedding",
+        "It is not entered"
+      ],
+      "answer": 0,
+      "explanation": "A pre-marriage contract with real estate is presented for entry on the day the notary receives the certificate of civil marriage.",
+      "refs": [
+        "sk:39:3",
+        "znnd:25:5"
+      ]
+    },
+    {
+      "question": "Which clause is NOT allowed in a marriage contract?",
+      "options": [
+        "A clause on who inherits the flat after the death of a spouse",
+        "A clause on separate ownership of salaries",
+        "A clause on maintenance after divorce",
+        "A clause on management of the family home"
+      ],
+      "answer": 0,
+      "explanation": "A marriage contract cannot contain dispositions in case of death.",
+      "refs": [
+        "sk:38:3"
+      ]
+    },
+    {
+      "question": "Parents want to sell an apartment that belongs to their 12-year-old daughter. What do they need?",
+      "options": [
+        "Permission of the district court of the child's current address",
+        "Nothing; parents represent the child",
+        "Consent of the child",
+        "Permission of the municipality"
+      ],
+      "answer": 0,
+      "explanation": "Disposals of a child's real estate need court permission.",
+      "refs": [
+        "sk:130:3"
+      ]
+    },
+    {
+      "question": "A 17-year-old wants to waive his share of an inheritance in favour of his mother. What is the legal position?",
+      "options": [
+        "A waiver of rights by a minor is void",
+        "Valid with the consent of a parent",
+        "Valid with court permission",
+        "Valid if the minor understands it"
+      ],
+      "answer": 0,
+      "explanation": "Gifts and waivers by minors are void.",
+      "refs": [
+        "sk:130:4"
+      ]
+    },
+    {
+      "question": "A mother and her 10-year-old son inherited a house and want to divide it. What is needed for the son?",
+      "options": [
+        "A special representative, because their interests conflict, and court permission",
+        "The mother signs for both",
+        "The father signs alone",
+        "Nothing special"
+      ],
+      "answer": 0,
+      "explanation": "With a conflict of interests, a special representative is appointed; disposals need court permission.",
+      "refs": [
+        "sk:129:2",
+        "sk:130:3"
+      ]
+    },
+    {
+      "question": "A child will travel to Greece with the mother. What does the father sign?",
+      "options": [
+        "A declaration of consent with a notarially certified signature",
+        "A notarial deed",
+        "Nothing; one parent is enough",
+        "A power of attorney with certified signature and content"
+      ],
+      "answer": 0,
+      "explanation": "The parent who does not travel gives consent with a notarially certified signature.",
+      "refs": [
+        "zbld:76"
+      ]
+    },
+    {
+      "question": "No property regime of a couple is entered in the register. A buyer buys from the husband. Which regime may the buyer rely on?",
+      "options": [
+        "The statutory community",
+        "Separation",
+        "The regime the husband declares",
+        "No regime"
+      ],
+      "answer": 0,
+      "explanation": "Without a registered regime, the statutory community applies towards third parties.",
+      "refs": [
+        "sk:20"
+      ]
+    }
+  ]
+}

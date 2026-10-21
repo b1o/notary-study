@@ -1,0 +1,2101 @@
+[
+  {
+    "bg": "нотариус",
+    "en": "notary",
+    "definition": {
+      "en": "A person to whom the state assigns the notarial acts provided by law. The notary performs them personally.",
+      "bg": "Лице, на което държавата възлага извършването на предвидените в законите нотариални действия. Нотариусът ги извършва лично."
+    },
+    "refs": [
+      "znnd:2"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "помощник-нотариус",
+    "en": "assistant notary",
+    "definition": {
+      "en": "A lawyer who works with a notary and performs certain acts on the notary's instructions, but not deeds, wills and some other acts.",
+      "bg": "Юрист, който работи при нотариус и извършва определени действия по негово възлагане, но не нотариални актове, завещания и някои други действия."
+    },
+    "refs": [
+      "znnd:40"
+    ],
+    "chapter": "deputies"
+  },
+  {
+    "bg": "помощник-нотариус по заместване",
+    "en": "substitute assistant notary",
+    "definition": {
+      "en": "An assistant notary entered in the register who replaces an absent notary with the notary's powers.",
+      "bg": "Вписан в регистъра помощник-нотариус, който замества отсъстващ нотариус с неговите правомощия."
+    },
+    "refs": [
+      "znnd:46"
+    ],
+    "chapter": "deputies"
+  },
+  {
+    "bg": "служител на нотариуса",
+    "en": "notary's employee",
+    "definition": {
+      "en": "A clerk, secretary, lawyer or other employee of the office. Employees keep the official secret like the notary.",
+      "bg": "Деловодител, секретар, юрист или друг служител на кантората. Служителите пазят служебна тайна като нотариуса."
+    },
+    "refs": [
+      "znnd:49"
+    ],
+    "chapter": "welcome"
+  },
+  {
+    "bg": "връчител",
+    "en": "process server",
+    "definition": {
+      "en": "An employee of the notary who delivers notarial invitations and other documents.",
+      "bg": "Служител на нотариуса, който връчва нотариални покани и други книжа."
+    },
+    "refs": [
+      "znnd:50"
+    ],
+    "chapter": "other-acts"
+  },
+  {
+    "bg": "Нотариална камара",
+    "en": "Notary Chamber",
+    "definition": {
+      "en": "The professional organisation of all notaries in Bulgaria. It keeps the register of notaries and the information system.",
+      "bg": "Професионалната организация на всички нотариуси в България. Води регистъра на нотариусите и информационната система."
+    },
+    "refs": [
+      "znnd:4"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "Съвет на нотариусите",
+    "en": "Council of Notaries",
+    "definition": {
+      "en": "The managing body of the Notary Chamber. It can start disciplinary proceedings and propose inspections.",
+      "bg": "Управителният орган на Нотариалната камара. Може да образува дисциплинарно производство и да предлага проверки."
+    },
+    "refs": [
+      "znnd:62"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "Дисциплинарна комисия",
+    "en": "Disciplinary Commission",
+    "definition": {
+      "en": "The body of the Notary Chamber that decides disciplinary cases against notaries at first instance.",
+      "bg": "Органът на Нотариалната камара, който решава дисциплинарните дела срещу нотариуси на първа инстанция."
+    },
+    "refs": [
+      "znnd:71"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "регистър на нотариусите",
+    "en": "register of notaries",
+    "definition": {
+      "en": "The register of the Notary Chamber. Only a person entered in it can be a notary.",
+      "bg": "Регистърът на Нотариалната камара. Нотариус може да бъде само лице, вписано в него."
+    },
+    "refs": [
+      "znnd:2:2"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "район на действие",
+    "en": "notary's district",
+    "definition": {
+      "en": "The district of the district court in which the notary works. Deeds for real estate are issued by the notary of the property's district.",
+      "bg": "Районът на районния съд, в който работи нотариусът. Актове за имоти издава нотариусът по местонахождението на имота."
+    },
+    "refs": [
+      "znnd:3"
+    ],
+    "chapter": "profession"
+  },
+  {
+    "bg": "нотариална кантора",
+    "en": "notary office",
+    "definition": {
+      "en": "The premises where the notary works and keeps the archive. Deeds for entry are issued only there, in working hours.",
+      "bg": "Помещенията, в които нотариусът работи и пази архива. Актовете, подлежащи на вписване, се издават само там, в работно време."
+    },
+    "refs": [
+      "znnd:13:2",
+      "gpk:573:2"
+    ],
+    "chapter": "office"
+  },
+  {
+    "bg": "служебен архив",
+    "en": "official archive",
+    "definition": {
+      "en": "The registers, books, case files, other documents and the seal of the notary. Nobody has access without the notary's consent, except as the law provides.",
+      "bg": "Регистрите, книгите, делата, другите документи и печатът на нотариуса. Никой няма достъп без съгласието на нотариуса, освен в предвидените от закона случаи."
+    },
+    "refs": [
+      "znnd:28:2",
+      "znnd:21"
+    ],
+    "chapter": "records"
+  },
+  {
+    "bg": "общ регистър",
+    "en": "general register",
+    "definition": {
+      "en": "The register in which every notarial act is entered in time order.",
+      "bg": "Регистърът, в който всяко нотариално действие се записва по хронологичен ред."
+    },
+    "refs": [
+      "n32:7"
+    ],
+    "chapter": "office"
+  },
+  {
+    "bg": "азбучен указател",
+    "en": "alphabetical index",
+    "definition": {
+      "en": "The index of the persons who take part in deeds and wills, kept for 100 years.",
+      "bg": "Указателят на лицата, участвали в нотариални актове и завещания; пази се 100 години."
+    },
+    "refs": [
+      "n32:8"
+    ],
+    "chapter": "office"
+  },
+  {
+    "bg": "том",
+    "en": "volume (of a notarial book)",
+    "definition": {
+      "en": "A bound set of up to 200 documents in a notarial book. Numbering starts again every year.",
+      "bg": "Подвързани до 200 документа от нотариална книга. Номерацията започва отначало всяка година."
+    },
+    "refs": [
+      "n32:6:1"
+    ],
+    "chapter": "office"
+  },
+  {
+    "bg": "нотариално дело",
+    "en": "notarial case file",
+    "definition": {
+      "en": "The file that holds the documents of one notarial act: the request, declarations, proof of representation, the bill.",
+      "bg": "Делото, което съдържа документите по едно нотариално действие: молба, декларации, документи за представителство, сметка."
+    },
+    "refs": [
+      "n32:10:1"
+    ],
+    "chapter": "office"
+  },
+  {
+    "bg": "разносна книга",
+    "en": "delivery book",
+    "definition": {
+      "en": "The book in which the office records the delivery of invitations and documents.",
+      "bg": "Книгата, в която кантората отбелязва връчването на покани и книжа."
+    },
+    "refs": [
+      "n32:4:1"
+    ],
+    "chapter": "other-acts"
+  },
+  {
+    "bg": "информационна система на Нотариалната камара",
+    "en": "information system of the Notary Chamber",
+    "definition": {
+      "en": "The electronic system into which notaries enter extracts of powers of attorney and their revocations, wills, vehicle contracts and other acts.",
+      "bg": "Електронната система, в която нотариусите въвеждат извлечения от пълномощни и оттеглянията им, завещания, договори за МПС и други действия."
+    },
+    "refs": [
+      "n32:9а"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "сметка",
+    "en": "bill",
+    "definition": {
+      "en": "The notary's bill for the fees, in two or more copies, with the legal basis, the material interest and the amounts.",
+      "bg": "Сметката на нотариуса за таксите в два или повече екземпляра, с основанието, материалния интерес и сумите."
+    },
+    "refs": [
+      "znnd:89"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "удостоверителен надпис",
+    "en": "endorsement",
+    "definition": {
+      "en": "The text by which the notary certifies a date, signature, content or copy on the document itself.",
+      "bg": "Текстът, с който нотариусът удостоверява дата, подпис, съдържание или препис върху самия документ."
+    },
+    "refs": [
+      "gpk:590:1"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "професионална тайна",
+    "en": "professional secrecy",
+    "definition": {
+      "en": "The notary's duty to keep secret all facts learned through the work, also after leaving the profession.",
+      "bg": "Задължението на нотариуса да пази в тайна обстоятелствата, научени в работата, и след напускане на професията."
+    },
+    "refs": [
+      "znnd:26"
+    ],
+    "chapter": "ethics"
+  },
+  {
+    "bg": "служебна тайна",
+    "en": "official secrecy",
+    "definition": {
+      "en": "The same duty of secrecy for the notary's employees.",
+      "bg": "Същото задължение за тайна за служителите на нотариуса."
+    },
+    "refs": [
+      "znnd:49"
+    ],
+    "chapter": "records"
+  },
+  {
+    "bg": "отвод",
+    "en": "recusal",
+    "definition": {
+      "en": "The bar on acting when the notary, a spouse, certain relatives or persons under the notary's care take part in or benefit from the act.",
+      "bg": "Забраната нотариусът да действа, когато в действието участват или се облагодетелстват той, съпругът му, определени роднини или лица под негова грижа."
+    },
+    "refs": [
+      "gpk:575"
+    ],
+    "chapter": "procedure"
+  },
+  {
+    "bg": "безпристрастност",
+    "en": "impartiality",
+    "definition": {
+      "en": "The notary does not take sides; the office serves both parties.",
+      "bg": "Нотариусът не взема страна; кантората обслужва и двете страни."
+    },
+    "refs": [
+      "znnd:24"
+    ],
+    "chapter": "ethics"
+  },
+  {
+    "bg": "срещане насаме",
+    "en": "meeting alone",
+    "definition": {
+      "en": "The notary meets the person who asks for help alone, unless that person wants others present.",
+      "bg": "Нотариусът се среща насаме с лицето, поискало съдействие, освен ако то пожелае да присъстват и други."
+    },
+    "refs": [
+      "znnd:20"
+    ],
+    "chapter": "ethics"
+  },
+  {
+    "bg": "стажант-юрист",
+    "en": "trainee lawyer",
+    "definition": {
+      "en": "A law graduate in the six-month internship that leads to the exam for legal capacity.",
+      "bg": "Завършил право юрист в шестмесечния стаж преди изпита за юридическа правоспособност."
+    },
+    "refs": [
+      "zsv:294"
+    ],
+    "chapter": "careers"
+  },
+  {
+    "bg": "съдия по вписванията",
+    "en": "registration judge",
+    "definition": {
+      "en": "A judge at the district court who orders or refuses entries in the property register and performs some notarial acts.",
+      "bg": "Съдия при районния съд, който разпорежда или отказва вписвания в имотния регистър и извършва някои нотариални действия."
+    },
+    "refs": [
+      "zsv:280"
+    ],
+    "chapter": "deputies"
+  },
+  {
+    "bg": "служба по вписванията",
+    "en": "registry office",
+    "definition": {
+      "en": "The office of the Registry Agency at each district court where acts are entered in the property register.",
+      "bg": "Службата на Агенцията по вписванията към всеки районен съд, където актовете се вписват в имотния регистър."
+    },
+    "refs": [
+      "znnd:25:5"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "кметски наместник",
+    "en": "mayor's deputy (village)",
+    "definition": {
+      "en": "A village official who may certify signatures, powers of attorney and copies where the place has no notary and no district court.",
+      "bg": "Длъжностно лице в село, което може да заверява подписи, пълномощни и преписи, когато в населеното място няма нотариус и районен съд."
+    },
+    "refs": [
+      "znnd:83:1"
+    ],
+    "chapter": "deputies"
+  },
+  {
+    "bg": "консулско длъжностно лице",
+    "en": "consular officer",
+    "definition": {
+      "en": "A Bulgarian consul abroad who certifies dates, signatures, content and copies of documents in Bulgarian and makes notarial wills.",
+      "bg": "Български консул в чужбина, който удостоверява дати, подписи, съдържание и преписи на документи на български език и съставя нотариални завещания."
+    },
+    "refs": [
+      "znnd:84:1"
+    ],
+    "chapter": "deputies"
+  },
+  {
+    "bg": "инспектор-нотариус",
+    "en": "inspector-notary",
+    "definition": {
+      "en": "An experienced notary elected to inspect other notaries together with inspectors of the Ministry of Justice.",
+      "bg": "Опитен нотариус, избран да проверява други нотариуси заедно с инспектори на Министерството на правосъдието."
+    },
+    "refs": [
+      "znnd:80б",
+      "znnd:80в"
+    ],
+    "chapter": "records"
+  },
+  {
+    "bg": "нотариален акт",
+    "en": "notarial deed",
+    "definition": {
+      "en": "An official document that the notary issues when the law requires this form, for example for a transfer of real estate.",
+      "bg": "Официален документ, който нотариусът издава, когато законът изисква тази форма, например при прехвърляне на имот."
+    },
+    "refs": [
+      "gpk:580",
+      "zzd:18"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "проект за нотариален акт",
+    "en": "draft deed",
+    "definition": {
+      "en": "The text of the deed prepared before the signing, in two or more identical copies on approved paper.",
+      "bg": "Текстът на акта, подготвен преди подписването, в два или повече еднообразни екземпляра на утвърдена хартия."
+    },
+    "refs": [
+      "gpk:578:1"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "констативен нотариален акт",
+    "en": "declaratory deed",
+    "definition": {
+      "en": "A deed that certifies ownership, either on written evidence or after a circumstantial verification.",
+      "bg": "Акт, който удостоверява собственост въз основа на писмени доказателства или след обстоятелствена проверка."
+    },
+    "refs": [
+      "gpk:587"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "обстоятелствена проверка",
+    "en": "circumstantial verification",
+    "definition": {
+      "en": "The procedure in which the notary questions three witnesses named by the mayor to establish ownership by prescription.",
+      "bg": "Процедурата, при която нотариусът разпитва трима свидетели, посочени от кмета, за да установи собственост по давност."
+    },
+    "refs": [
+      "gpk:587:2"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "молба-декларация",
+    "en": "request-declaration",
+    "definition": {
+      "en": "The written request with which a notarial procedure starts.",
+      "bg": "Писмената молба, с която започва нотариалното производство."
+    },
+    "refs": [
+      "gpk:571"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "постановление",
+    "en": "reasoned decision",
+    "definition": {
+      "en": "The notary's decision in a circumstantial verification to recognise or refuse to recognise ownership.",
+      "bg": "Решението на нотариуса при обстоятелствена проверка да признае или да откаже да признае собствеността."
+    },
+    "refs": [
+      "gpk:587:3"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "акт за поправка",
+    "en": "correction deed",
+    "definition": {
+      "en": "A deed signed by the same parties to correct an error in an issued deed.",
+      "bg": "Акт, подписан от същите страни, с който се поправя грешка в издаден нотариален акт."
+    },
+    "refs": [
+      "gpk:579:3",
+      "tarifa:1"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "лично явяване",
+    "en": "personal appearance",
+    "definition": {
+      "en": "The persons whose statements the act contains, or their agents, appear in person before the notary. A breach makes the act null.",
+      "bg": "Лицата, чиито изявления съдържа актът, или техните пълномощници се явяват лично пред нотариуса. Нарушението прави действието нищожно."
+    },
+    "refs": [
+      "gpk:578:4",
+      "gpk:576"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "преводач",
+    "en": "interpreter",
+    "definition": {
+      "en": "A person appointed by the notary when a participant does not know Bulgarian. Persons who benefit from the act and office staff cannot be interpreters.",
+      "bg": "Лице, назначено от нотариуса, когато участник не знае български. Облагодетелстваните от акта и служителите в кантората не могат да бъдат преводачи."
+    },
+    "refs": [
+      "gpk:582",
+      "gpk:584"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "свидетел",
+    "en": "witness",
+    "definition": {
+      "en": "A person who confirms identity, takes part in a will or testifies in a circumstantial verification. The law excludes relatives, beneficiaries and office staff.",
+      "bg": "Лице, което удостоверява самоличност, участва при завещание или свидетелства при обстоятелствена проверка. Законът изключва роднини, облагодетелствани и служители на кантората."
+    },
+    "refs": [
+      "gpk:584"
+    ],
+    "chapter": "deeds"
+  },
+  {
+    "bg": "заверка на подпис",
+    "en": "signature certification",
+    "definition": {
+      "en": "The notary certifies that the person signed the document, or confirmed the signature, in the notary's presence.",
+      "bg": "Нотариусът удостоверява, че лицето е подписало документа или е потвърдило подписа си в негово присъствие."
+    },
+    "refs": [
+      "gpk:589:2"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "заверка на съдържание",
+    "en": "certification of content",
+    "definition": {
+      "en": "The notary certifies the content of a private document; a copy stays in the archive.",
+      "bg": "Нотариусът удостоверява съдържанието на частен документ; копие остава в архива."
+    },
+    "refs": [
+      "gpk:589:1",
+      "gpk:590:2"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "едновременно удостоверяване на подписа и съдържанието",
+    "en": "simultaneous certification of signature and content",
+    "definition": {
+      "en": "One act that certifies both the signature and the content. Required for a power to sell real estate and for the transfer of company shares.",
+      "bg": "Едно действие, което удостоверява и подписа, и съдържанието. Изисква се за пълномощно за продажба на имот и за прехвърляне на дружествени дялове."
+    },
+    "refs": [
+      "gpk:590:4",
+      "zzd:37",
+      "tz:129:2"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "заверка на препис",
+    "en": "certification of a copy",
+    "definition": {
+      "en": "The notary compares the copy with the original or another copy and certifies that they match.",
+      "bg": "Нотариусът сравнява преписа с оригинала или с друг препис и удостоверява, че съвпадат."
+    },
+    "refs": [
+      "gpk:591"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "достоверна дата",
+    "en": "certain date",
+    "definition": {
+      "en": "A date that third persons must accept, for example after the notary certifies the date of presentation.",
+      "bg": "Дата, която третите лица са длъжни да приемат, например след удостоверяване на датата на представяне от нотариус."
+    },
+    "refs": [
+      "gpk:589:1",
+      "zzd:237"
+    ],
+    "chapter": "certifications"
+  },
+  {
+    "bg": "нотариална покана",
+    "en": "notarial invitation",
+    "definition": {
+      "en": "A written statement that the notary delivers to the addressee, with an official record of the delivery.",
+      "bg": "Писмено изявление, което нотариусът връчва на адресата, с официално отбелязване на връчването."
+    },
+    "refs": [
+      "gpk:592"
+    ],
+    "chapter": "other-acts"
+  },
+  {
+    "bg": "констативен протокол",
+    "en": "declaratory protocol",
+    "definition": {
+      "en": "A protocol in which the notary records whether persons appeared before the notary, or their consent or refusal.",
+      "bg": "Протокол, в който нотариусът удостоверява явяването или неявяването на лица пред него, или тяхното съгласие или несъгласие."
+    },
+    "refs": [
+      "gpk:593"
+    ],
+    "chapter": "other-acts"
+  },
+  {
+    "bg": "приемане на съхранение",
+    "en": "deposit for safekeeping",
+    "definition": {
+      "en": "The notary accepts documents for safekeeping with a protocol in two copies.",
+      "bg": "Нотариусът приема документи на съхранение с приемателен протокол в два екземпляра."
+    },
+    "refs": [
+      "gpk:594"
+    ],
+    "chapter": "other-acts"
+  },
+  {
+    "bg": "частна жалба",
+    "en": "private appeal",
+    "definition": {
+      "en": "The appeal against a notary's refusal, filed with the regional court within one week.",
+      "bg": "Жалбата срещу отказ на нотариуса, подавана пред окръжния съд в едноседмичен срок."
+    },
+    "refs": [
+      "gpk:577:1",
+      "gpk:275:1"
+    ],
+    "chapter": "procedure"
+  },
+  {
+    "bg": "нищожно нотариално действие",
+    "en": "null notarial act",
+    "definition": {
+      "en": "An act performed without power, or with a breach of key rules such as personal appearance or signatures. It has no effect.",
+      "bg": "Действие, извършено без право или при нарушение на основни правила като личното явяване или подписите. То не поражда действие."
+    },
+    "refs": [
+      "gpk:576"
+    ],
+    "chapter": "procedure"
+  },
+  {
+    "bg": "местна компетентност",
+    "en": "territorial competence",
+    "definition": {
+      "en": "Deeds for real estate are issued only by a notary of the district where the property is; other acts and wills by any notary.",
+      "bg": "Актовете за имоти се издават само от нотариус по местонахождението на имота; другите действия и завещанията – от всеки нотариус."
+    },
+    "refs": [
+      "gpk:570"
+    ],
+    "chapter": "procedure"
+  },
+  {
+    "bg": "официален документ",
+    "en": "official document",
+    "definition": {
+      "en": "A document issued by an official within the official's powers. It proves the facts that the official certified.",
+      "bg": "Документ, издаден от длъжностно лице в кръга на правомощията му. Той доказва удостоверените от лицето факти."
+    },
+    "refs": [
+      "gpk:179:1"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "частен документ",
+    "en": "private document",
+    "definition": {
+      "en": "A document signed by a private person. It proves only that the statements in it come from the signatory.",
+      "bg": "Документ, подписан от частно лице. Той доказва само, че изявленията в него са направени от подписалия."
+    },
+    "refs": [
+      "gpk:180"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "вписване",
+    "en": "entry (in the property register)",
+    "definition": {
+      "en": "The recording of an act in the property register. It makes the act effective against third persons.",
+      "bg": "Отразяването на акт в имотния регистър. То прави акта противопоставим на трети лица."
+    },
+    "refs": [
+      "zs:112"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "имотен регистър",
+    "en": "property register",
+    "definition": {
+      "en": "The register of the files (partidas) of real estate in which the acts on ownership and other real rights are entered.",
+      "bg": "Регистърът от партидите на недвижимите имоти, в който се вписват актовете за собственост и други вещни права."
+    },
+    "refs": [
+      "zkir:3"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "партида",
+    "en": "property file (partida)",
+    "definition": {
+      "en": "The record of one property, or one person, in the register, which collects all entries about it.",
+      "bg": "Записът за един имот или едно лице в регистъра, който събира всички вписвания за него."
+    },
+    "refs": [
+      "zkir:3:1"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "кадастър",
+    "en": "cadastre",
+    "definition": {
+      "en": "The basic data on the location, boundaries and size of real estate in Bulgaria, kept in the cadastral map and registers.",
+      "bg": "Основните данни за местоположението, границите и размерите на недвижимите имоти в България, поддържани в кадастралната карта и регистрите."
+    },
+    "refs": [
+      "zkir:2"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "идентификатор",
+    "en": "cadastral identifier",
+    "definition": {
+      "en": "The unique number of a plot, building or separate object in the cadastral map, used to describe the property in the deed.",
+      "bg": "Уникалният номер на поземлен имот, сграда или самостоятелен обект в кадастралната карта, с който имотът се описва в акта."
+    },
+    "refs": [
+      "zkir:77"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "скица",
+    "en": "sketch",
+    "definition": {
+      "en": "An extract from the cadastral map for a plot or building, attached to the request for entry.",
+      "bg": "Извадка от кадастралната карта за поземлен имот или сграда, прилагана към молбата за вписване."
+    },
+    "refs": [
+      "zkir:77"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "схема",
+    "en": "scheme",
+    "definition": {
+      "en": "An extract from the cadastral data for a separate object in a building, for example a flat.",
+      "bg": "Извадка от кадастралните данни за самостоятелен обект в сграда, например апартамент."
+    },
+    "refs": [
+      "zkir:77"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "удостоверение за данъчна оценка",
+    "en": "certificate of tax assessment",
+    "definition": {
+      "en": "A municipal certificate of the tax value of a property. It also shows whether property taxes are unpaid.",
+      "bg": "Удостоверение от общината за данъчната оценка на имота. То показва и дали има неплатени данъци за имота."
+    },
+    "refs": [
+      "dopk:264:1",
+      "zmdt:46:2"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "данъчна оценка",
+    "en": "tax assessment",
+    "definition": {
+      "en": "The value of a property under the Local Taxes Act. Fees and the acquisition tax are never charged on less.",
+      "bg": "Стойността на имота по Закона за местните данъци и такси. Таксите и данъкът при придобиване никога не се начисляват върху по-малко."
+    },
+    "refs": [
+      "zmdt:46:2",
+      "znnd:96:3"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "материален интерес",
+    "en": "material interest",
+    "definition": {
+      "en": "The value that an act certifies, for example the market price of a property. It is the base of proportional fees.",
+      "bg": "Стойността, която действието удостоверява, например пазарната цена на имот. Тя е основата на пропорционалните такси."
+    },
+    "refs": [
+      "znnd:96",
+      "znnd:97"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "обикновена такса",
+    "en": "ordinary fee",
+    "definition": {
+      "en": "A fixed fee for acts without a material interest, for example a signature on a declaration.",
+      "bg": "Фиксирана такса за действия без материален интерес, например подпис върху декларация."
+    },
+    "refs": [
+      "znnd:90"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "пропорционална такса",
+    "en": "proportional fee",
+    "definition": {
+      "en": "A fee calculated on the material interest, with a minimum and a maximum.",
+      "bg": "Такса, изчислявана върху материалния интерес, с минимум и максимум."
+    },
+    "refs": [
+      "znnd:91"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "тарифа",
+    "en": "tariff of notarial fees",
+    "definition": {
+      "en": "The act of the Council of Ministers that sets the notarial fees.",
+      "bg": "Актът на Министерския съвет, който определя нотариалните такси."
+    },
+    "refs": [
+      "znnd:85:3"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "специална сметка",
+    "en": "notary's special account",
+    "definition": {
+      "en": "A bank account in the notary's name for the price of a real estate deal. The notary's creditors cannot enforce against it.",
+      "bg": "Банкова сметка на името на нотариуса за цената по сделка с имот. Кредиторите на нотариуса не могат да насочат изпълнение върху нея."
+    },
+    "refs": [
+      "znnd:25а"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "местен данък при придобиване",
+    "en": "local acquisition tax",
+    "definition": {
+      "en": "The municipal tax on property acquired by gift, for value or by prescription. The acquirer pays it unless agreed otherwise.",
+      "bg": "Общинският данък върху имущество, придобито по дарение, възмездно или по давност. Плаща го приобретателят, освен ако е уговорено друго."
+    },
+    "refs": [
+      "zmdt:44",
+      "zmdt:45:1",
+      "zmdt:47"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "декларация за гражданство и гражданско състояние",
+    "en": "declaration on citizenship and marital status",
+    "definition": {
+      "en": "A declaration on the approved form that each party to a disposition signs before the notary.",
+      "bg": "Декларация по утвърден образец, която всяка страна по разпоредителна сделка подписва пред нотариуса."
+    },
+    "refs": [
+      "znnd:25:8"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "действително уговорено плащане",
+    "en": "actual price declaration",
+    "definition": {
+      "en": "In deeds for value on real estate, the parties declare that the stated price is the payment actually agreed.",
+      "bg": "В актовете за възмездни сделки с имоти страните декларират, че посочената цена е действително уговореното плащане."
+    },
+    "refs": [
+      "znnd:25:9"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "публични задължения",
+    "en": "public debts",
+    "definition": {
+      "en": "Debts to the state or a municipality, such as taxes. Before a transfer, the notary checks that the transferor has none subject to enforcement.",
+      "bg": "Задължения към държавата или общината, например данъци. Преди прехвърляне нотариусът проверява, че прехвърлителят няма такива, подлежащи на принудително изпълнение."
+    },
+    "refs": [
+      "dopk:264"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "обезпечителна мярка",
+    "en": "security measure",
+    "definition": {
+      "en": "A court measure that blocks a property. Before a deed, the notary checks for measures under the law on illegally acquired assets.",
+      "bg": "Мярка на съда, която блокира имот. Преди акт нотариусът проверява за мерки по закона за отнемане на незаконно придобито имущество."
+    },
+    "refs": [
+      "znnd:25:2"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "възбрана",
+    "en": "distraint",
+    "definition": {
+      "en": "An entry in the property register that blocks the disposal of a property for a creditor. A transfer is not effective against that creditor.",
+      "bg": "Вписване в имотния регистър, което блокира разпореждането с имота в полза на кредитор. Прехвърлянето не може да се противопостави на този кредитор."
+    },
+    "refs": [],
+    "chapter": "sale"
+  },
+  {
+    "bg": "плащане по банков път",
+    "en": "payment through an account",
+    "definition": {
+      "en": "Payments of 10,000 лв. (5,112.92 €) or more are made only by transfer or deposit into a payment account.",
+      "bg": "Плащанията от 10 000 лв. (5 112,92 €) или повече се извършват само чрез превод или внасяне по платежна сметка."
+    },
+    "refs": [
+      "zopvb:3:1",
+      "znnd:25:10"
+    ],
+    "chapter": "fees"
+  },
+  {
+    "bg": "правоспособност",
+    "en": "legal capacity",
+    "definition": {
+      "en": "The ability to have rights and obligations. It starts at birth.",
+      "bg": "Способността да имаш права и задължения. Възниква с раждането."
+    },
+    "refs": [
+      "zls:1"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "дееспособност",
+    "en": "capacity to act",
+    "definition": {
+      "en": "The ability to acquire rights and take on obligations by one's own acts. It is full at 18.",
+      "bg": "Способността чрез свои действия да придобиваш права и да се задължаваш. Пълна е от 18 години."
+    },
+    "refs": [
+      "zls:2"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "малолетен",
+    "en": "minor under 14",
+    "definition": {
+      "en": "A child under 14. Parents or a guardian act for the child.",
+      "bg": "Дете до 14 години. Вместо него действат родителите или настойникът."
+    },
+    "refs": [
+      "zls:3"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "непълнолетен",
+    "en": "minor aged 14 to 18",
+    "definition": {
+      "en": "A child from 14 to 18. The child acts personally with the consent of the parents or curator.",
+      "bg": "Дете от 14 до 18 години. То действа лично със съгласието на родителите или попечителя."
+    },
+    "refs": [
+      "zls:4"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "поставен под запрещение",
+    "en": "person under judicial disability",
+    "definition": {
+      "en": "An adult whom a court placed under full or limited disability. A guardian acts for the person, or a curator gives consent.",
+      "bg": "Пълнолетен, поставен от съда под пълно или ограничено запрещение. Вместо него действа настойник или попечител дава съгласие."
+    },
+    "refs": [
+      "zls:5"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "настойник",
+    "en": "guardian",
+    "definition": {
+      "en": "The person who represents a minor under 14 without parents, or a person under full disability.",
+      "bg": "Лицето, което представлява малолетен без родители или поставен под пълно запрещение."
+    },
+    "refs": [
+      "zls:5"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "попечител",
+    "en": "curator",
+    "definition": {
+      "en": "The person who gives consent to the acts of a minor aged 14 to 18 without parents, or of a person under limited disability.",
+      "bg": "Лицето, което дава съгласие за действията на непълнолетен без родители или на поставен под ограничено запрещение."
+    },
+    "refs": [
+      "zls:5"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "особен представител",
+    "en": "special representative",
+    "definition": {
+      "en": "A representative appointed when the interests of a parent and a child conflict.",
+      "bg": "Представител, назначен при противоречие между интересите на родител и дете."
+    },
+    "refs": [
+      "sk:129:2"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "ЕГН",
+    "en": "personal identity number",
+    "definition": {
+      "en": "The ten-digit civil number of a Bulgarian citizen. Every notarial deed states it.",
+      "bg": "Десетцифреният единен граждански номер. Всеки нотариален акт го посочва."
+    },
+    "refs": [
+      "gpk:580:3"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "ЛНЧ",
+    "en": "foreigner's personal number",
+    "definition": {
+      "en": "The personal number of a foreigner with a residence permit in Bulgaria.",
+      "bg": "Личният номер на чужденец с разрешено пребиваване в България."
+    },
+    "refs": [
+      "gpk:580:3"
+    ],
+    "chapter": "persons"
+  },
+  {
+    "bg": "договор",
+    "en": "contract",
+    "definition": {
+      "en": "An agreement between two or more persons to create, regulate or end a legal relationship between them.",
+      "bg": "Съглашение между две или повече лица, за да се създаде, уреди или унищожи правна връзка между тях."
+    },
+    "refs": [
+      "zzd:8"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "едностранно волеизявление",
+    "en": "unilateral statement",
+    "definition": {
+      "en": "A legal act of one person, for example a power of attorney. The rules on contracts apply to it accordingly.",
+      "bg": "Правно действие на едно лице, например пълномощно. За него се прилагат съответно правилата за договорите."
+    },
+    "refs": [
+      "zzd:44"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "предварителен договор",
+    "en": "preliminary contract",
+    "definition": {
+      "en": "A contract by which the parties agree to conclude a final contract. A court can declare it final.",
+      "bg": "Договор, с който страните се задължават да сключат окончателен договор. Съдът може да го обяви за окончателен."
+    },
+    "refs": [
+      "zzd:19"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "задатък",
+    "en": "earnest money",
+    "definition": {
+      "en": "A sum given at the conclusion of a contract as proof and security. The party not at fault may keep it or ask for double.",
+      "bg": "Сума, дадена при сключването на договора като доказателство и обезпечение. Изправната страна може да го задържи или да поиска двойния размер."
+    },
+    "refs": [
+      "zzd:93"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "неустойка",
+    "en": "contractual penalty",
+    "definition": {
+      "en": "An agreed sum that secures performance and compensates the damage from non-performance.",
+      "bg": "Уговорена сума, която обезпечава изпълнението и обезщетява вредите от неизпълнението."
+    },
+    "refs": [
+      "zzd:92"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "привидна сделка",
+    "en": "sham transaction",
+    "definition": {
+      "en": "A deal that the parties do not really want. It is void; a hidden deal applies if it meets its own conditions.",
+      "bg": "Сделка, която страните не желаят в действителност. Тя е нищожна; прикритата сделка се прилага, ако отговаря на условията си."
+    },
+    "refs": [
+      "zzd:17"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "нищожност",
+    "en": "nullity",
+    "definition": {
+      "en": "A void contract has no legal effect from the start, for example when the required form is missing.",
+      "bg": "Нищожният договор не поражда правно действие от самото начало, например когато липсва изискуемата форма."
+    },
+    "refs": [
+      "zzd:26"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "унищожаемост",
+    "en": "voidability",
+    "definition": {
+      "en": "A voidable contract is valid until a court annuls it, for example after a mistake, fraud or threat.",
+      "bg": "Унищожаемият договор е действителен, докато съдът не го унищожи, например при грешка, измама или заплашване."
+    },
+    "refs": [
+      "zzd:27"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "покупко-продажба",
+    "en": "sale",
+    "definition": {
+      "en": "The seller undertakes to transfer the ownership of a thing or a right, and the buyer undertakes to pay a price.",
+      "bg": "Продавачът се задължава да прехвърли собствеността върху вещ или право, а купувачът се задължава да плати цена."
+    },
+    "refs": [
+      "zzd:183"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "дарение",
+    "en": "gift",
+    "definition": {
+      "en": "The donor transfers a thing at once and free of charge to the recipient, who accepts it.",
+      "bg": "Дарителят отстъпва веднага и безвъзмездно нещо на надарения, който го приема."
+    },
+    "refs": [
+      "zzd:225"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "отмяна на дарение",
+    "en": "revocation of a gift",
+    "definition": {
+      "en": "A court may revoke a gift only on the grounds of the law, for example when the recipient refuses needed support; the claim is filed within one year.",
+      "bg": "Съдът може да отмени дарение само на законовите основания, например при отказ на надарения да даде нужна издръжка; искът се предявява в едногодишен срок."
+    },
+    "refs": [
+      "zzd:227"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "замяна",
+    "en": "exchange",
+    "definition": {
+      "en": "Each party transfers a thing to the other. The rules on sale apply.",
+      "bg": "Всяка страна прехвърля вещ на другата. Прилагат се правилата за продажбата."
+    },
+    "refs": [
+      "zzd:223"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "издръжка и гледане",
+    "en": "transfer against maintenance and care",
+    "definition": {
+      "en": "A property passes now; the acquirer must support and care for the transferor for life. Termination only through a court.",
+      "bg": "Имотът се прехвърля веднага; приобретателят се задължава да издържа и гледа прехвърлителя до края на живота му. Разваля се само по съдебен ред."
+    },
+    "refs": [
+      "zzd:9",
+      "zzd:87"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "наем",
+    "en": "lease",
+    "definition": {
+      "en": "The landlord provides a thing for temporary use against rent. A lease with a certain date binds a buyer for up to one year.",
+      "bg": "Наемодателят предоставя вещ за временно ползване срещу наемна цена. Наемът с достоверна дата обвързва купувача до една година."
+    },
+    "refs": [
+      "zzd:228",
+      "zzd:237"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "пълномощно",
+    "en": "power of attorney",
+    "definition": {
+      "en": "A unilateral act by which the principal authorises an agent to act in the principal's name.",
+      "bg": "Едностранно действие, с което упълномощителят овластява пълномощника да действа от негово име."
+    },
+    "refs": [
+      "zzd:36",
+      "zzd:37"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "упълномощител",
+    "en": "principal",
+    "definition": {
+      "en": "The person who gives a power of attorney. The agent's acts take effect directly for the principal.",
+      "bg": "Лицето, което дава пълномощно. Действията на пълномощника пораждат последици пряко за него."
+    },
+    "refs": [
+      "zzd:36"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "пълномощник",
+    "en": "agent",
+    "definition": {
+      "en": "The person authorised to act in the principal's name, within the powers stated.",
+      "bg": "Лицето, овластено да действа от името на упълномощителя в рамките на посочените права."
+    },
+    "refs": [
+      "zzd:39"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "оттегляне на пълномощно",
+    "en": "revocation of a power of attorney",
+    "definition": {
+      "en": "The principal can always revoke a power. The revocation is entered in the information system of the Notary Chamber.",
+      "bg": "Упълномощителят винаги може да оттегли пълномощното. Оттеглянето се въвежда в информационната система на Нотариалната камара."
+    },
+    "refs": [
+      "zzd:38",
+      "zzd:41",
+      "n32:9а"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "преупълномощаване",
+    "en": "re-delegation",
+    "definition": {
+      "en": "The agent authorises another person. It is allowed only if the power permits it or the principal's interests require it.",
+      "bg": "Пълномощникът упълномощава друго лице. Допуска се само ако пълномощното го позволява или интересите на упълномощителя го налагат."
+    },
+    "refs": [
+      "zzd:43"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "договаряне сам със себе си",
+    "en": "self-contracting",
+    "definition": {
+      "en": "An agent may not contract with himself or with another person he represents, unless the principal consented.",
+      "bg": "Пълномощникът не може да договаря със себе си или с друго лице, което представлява, освен ако упълномощителят е съгласен."
+    },
+    "refs": [
+      "zzd:38"
+    ],
+    "chapter": "poa"
+  },
+  {
+    "bg": "ипотека",
+    "en": "mortgage",
+    "definition": {
+      "en": "A security over an identified property for a fixed sum, created by entry in the property register on the basis of a contract or the law.",
+      "bg": "Обезпечение върху определен имот за определена сума, учредено чрез вписване в имотния регистър въз основа на договор или закон."
+    },
+    "refs": [
+      "zzd:166",
+      "zzd:167"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "законна ипотека",
+    "en": "statutory mortgage",
+    "definition": {
+      "en": "A mortgage that the law gives, for example to a seller for an unpaid price or to a co-sharer owed compensation after a partition.",
+      "bg": "Ипотека, която законът дава, например на продавача за неплатената цена или на съделител за дължимо уравнение след делба."
+    },
+    "refs": [
+      "zzd:168"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "заличаване на ипотека",
+    "en": "deletion of a mortgage",
+    "definition": {
+      "en": "The removal of a mortgage entry on the creditor's notarially certified consent or a final court decision.",
+      "bg": "Премахването на вписана ипотека въз основа на нотариално заверено съгласие на кредитора или влязло в сила съдебно решение."
+    },
+    "refs": [
+      "zzd:179"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "Павлов иск",
+    "en": "actio Pauliana",
+    "definition": {
+      "en": "A creditor's claim to declare ineffective a deal by which the debtor damages the creditor.",
+      "bg": "Иск на кредитора да бъде обявена за недействителна сделка, с която длъжникът го уврежда."
+    },
+    "refs": [
+      "zzd:135"
+    ],
+    "chapter": "contracts"
+  },
+  {
+    "bg": "недвижим имот",
+    "en": "real estate",
+    "definition": {
+      "en": "Land, plants, buildings and everything permanently attached to the land or to a building.",
+      "bg": "Земята, растенията, сградите и всичко, което е трайно прикрепено към земята или към постройката."
+    },
+    "refs": [
+      "zs:110"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "съсобственост",
+    "en": "co-ownership",
+    "definition": {
+      "en": "Ownership of one thing by two or more persons. The shares are presumed equal.",
+      "bg": "Собственост на две или повече лица върху една вещ. Частите се смятат равни до доказване на противното."
+    },
+    "refs": [
+      "zs:30"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "право на предимство",
+    "en": "pre-emption right",
+    "definition": {
+      "en": "A co-owner who sells a share of real estate to a third person must first offer it to the other co-owners on the same terms.",
+      "bg": "Съсобственик, който продава дела си от имот на трето лице, трябва първо да го предложи на другите съсобственици при същите условия."
+    },
+    "refs": [
+      "zs:33"
+    ],
+    "chapter": "sale"
+  },
+  {
+    "bg": "право на ползване",
+    "en": "right of use",
+    "definition": {
+      "en": "The right to use a thing and receive its fruits without changing it substantially. It cannot be transferred.",
+      "bg": "Правото да се използва вещта и да се получават добивите от нея, без тя да се променя съществено. То не може да се прехвърля."
+    },
+    "refs": [
+      "zs:56"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "гола собственост",
+    "en": "bare ownership",
+    "definition": {
+      "en": "Ownership without the right of use, for example after a gift with a reserved right of use.",
+      "bg": "Собственост без правото на ползване, например след дарение със запазено право на ползване."
+    },
+    "refs": [
+      "zs:56",
+      "zs:59"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "право на строеж",
+    "en": "building right",
+    "definition": {
+      "en": "The right to build on another person's land and to own the building. It lapses if not used for 5 years.",
+      "bg": "Правото да се построи сграда върху чужда земя и да се притежава тя. Погасява се, ако не се упражни 5 години."
+    },
+    "refs": [
+      "zs:63",
+      "zs:67"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "право на надстрояване",
+    "en": "right to add floors",
+    "definition": {
+      "en": "The right to add a floor to an existing building; the rules on the building right apply.",
+      "bg": "Правото да се надстрои съществуваща сграда; прилагат се правилата за правото на строеж."
+    },
+    "refs": [
+      "zs:66"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "владение",
+    "en": "possession",
+    "definition": {
+      "en": "Holding a thing as one's own, personally or through another person.",
+      "bg": "Упражняване на фактическа власт върху вещ като своя – лично или чрез другиго."
+    },
+    "refs": [
+      "zs:68"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "придобивна давност",
+    "en": "acquisitive prescription",
+    "definition": {
+      "en": "Ownership of real estate after 10 years of uninterrupted possession, or 5 years in good faith.",
+      "bg": "Придобиване на собственост върху имот след 10 години непрекъснато владение или 5 години при добросъвестно владение."
+    },
+    "refs": [
+      "zs:79"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "добросъвестен владелец",
+    "en": "possessor in good faith",
+    "definition": {
+      "en": "A possessor with a legal ground fit to make him owner, who does not know that the transferor was not the owner.",
+      "bg": "Владелец на правно основание, годно да го направи собственик, който не знае, че праводателят му не е собственик."
+    },
+    "refs": [
+      "zs:70"
+    ],
+    "chapter": "property"
+  },
+  {
+    "bg": "доброволна делба",
+    "en": "voluntary partition",
+    "definition": {
+      "en": "An agreement by which co-owners divide a common property. All co-heirs must take part.",
+      "bg": "Споразумение, с което съсобствениците поделят общия имот. Всички сънаследници трябва да участват."
+    },
+    "refs": [
+      "zs:34",
+      "zs:35",
+      "zn:75"
+    ],
+    "chapter": "property-deals"
+  },
+  {
+    "bg": "съпружеска имуществена общност",
+    "en": "marital community of property",
+    "definition": {
+      "en": "Real rights acquired during the marriage by joint contribution belong to both spouses, whatever name is on the deed.",
+      "bg": "Вещните права, придобити по време на брака със съвместен принос, принадлежат на двамата съпрузи, независимо на чие име са."
+    },
+    "refs": [
+      "sk:21"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "лично имущество",
+    "en": "personal property of a spouse",
+    "definition": {
+      "en": "Property acquired before the marriage, or during it by inheritance or gift; it belongs to that spouse alone.",
+      "bg": "Имущество, придобито преди брака или по време на брака по наследство или дарение; принадлежи само на този съпруг."
+    },
+    "refs": [
+      "sk:22"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "имуществен режим",
+    "en": "matrimonial property regime",
+    "definition": {
+      "en": "Statutory community, statutory separation or a contractual regime. Without a choice, the community applies.",
+      "bg": "Законов режим на общност, законов режим на разделност или договорен режим. Ако няма избор, се прилага общността."
+    },
+    "refs": [
+      "sk:18"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "брачен договор",
+    "en": "marriage contract",
+    "definition": {
+      "en": "A contract on the property relations of spouses, signed personally, with content and signatures certified by a notary.",
+      "bg": "Договор за имуществените отношения на съпрузите, подписан лично, с нотариално удостоверяване на съдържанието и подписите."
+    },
+    "refs": [
+      "sk:39:1"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "семейно жилище",
+    "en": "family home",
+    "definition": {
+      "en": "The home where the family lives. The sale of a spouse's personal family home needs the other spouse's consent if they have no other home.",
+      "bg": "Жилището, в което живее семейството. Продажбата на лично семейно жилище изисква съгласието на другия съпруг, ако нямат друго жилище."
+    },
+    "refs": [
+      "sk:26"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "разрешение на районния съд",
+    "en": "court permission (child's property)",
+    "definition": {
+      "en": "Disposals of a child's real estate, deposits, securities and formally sold movables need the permission of the district court of the child's current address.",
+      "bg": "Разпореждането с имоти, влогове, ценни книжа и движими вещи на детето чрез формална сделка изисква разрешение на районния съд по настоящия му адрес."
+    },
+    "refs": [
+      "sk:130:3"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "декларация-съгласие",
+    "en": "travel consent",
+    "definition": {
+      "en": "A parent's declaration with a notarially certified signature that allows a child to travel abroad.",
+      "bg": "Декларация на родител с нотариално заверен подпис, която позволява на детето да пътува в чужбина."
+    },
+    "refs": [
+      "zbld:76"
+    ],
+    "chapter": "family"
+  },
+  {
+    "bg": "откриване на наследството",
+    "en": "opening of the inheritance",
+    "definition": {
+      "en": "The inheritance opens at the moment of death at the last residence of the deceased.",
+      "bg": "Наследството се открива в момента на смъртта в последното местожителство на починалия."
+    },
+    "refs": [
+      "zn:1"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "наследник по закон",
+    "en": "legal heir",
+    "definition": {
+      "en": "A person who inherits under the law: children equally, and the spouse a share equal to each child's.",
+      "bg": "Лице, което наследява по закон: децата по равно, а съпругът – част, равна на частта на всяко дете."
+    },
+    "refs": [
+      "zn:5",
+      "zn:9"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "заветник",
+    "en": "legatee",
+    "definition": {
+      "en": "A person who receives a specific item or right under a will.",
+      "bg": "Лице, което получава по завещание определена вещ или право."
+    },
+    "refs": [
+      "zn:16"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "запазена част",
+    "en": "reserved portion",
+    "definition": {
+      "en": "The part of the estate that descendants, parents and the spouse receive even against a will or gifts.",
+      "bg": "Частта от наследството, която низходящите, родителите и съпругът получават дори против завещание или дарения."
+    },
+    "refs": [
+      "zn:28",
+      "zn:29"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "разполагаема част",
+    "en": "disposable portion",
+    "definition": {
+      "en": "The part of the estate outside the reserved portions, which the deceased could give freely.",
+      "bg": "Частта от наследството извън запазените части, с която наследодателят може да се разпорежда свободно."
+    },
+    "refs": [
+      "zn:28:2"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "намаляване",
+    "en": "reduction",
+    "definition": {
+      "en": "A forced heir's claim to reduce wills and gifts that infringe the reserved portion.",
+      "bg": "Искът на наследник със запазена част да бъдат намалени завещания и дарения, които я накърняват."
+    },
+    "refs": [
+      "zn:30"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "нотариално завещание",
+    "en": "notarial will",
+    "definition": {
+      "en": "A will that the testator states orally to the notary in the presence of two witnesses; the notary writes and reads it.",
+      "bg": "Завещание, което завещателят изявява устно пред нотариуса в присъствието на двама свидетели; нотариусът го записва и прочита."
+    },
+    "refs": [
+      "zn:24"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "саморъчно завещание",
+    "en": "holographic will",
+    "definition": {
+      "en": "A will written entirely by hand by the testator, dated and signed after the dispositions.",
+      "bg": "Завещание, изцяло написано на ръка от завещателя, с дата и подпис след разпорежданията."
+    },
+    "refs": [
+      "zn:25"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "обявяване на саморъчно завещание",
+    "en": "announcement of a holographic will",
+    "definition": {
+      "en": "After the death, a notary opens the will with a protocol; copies then go to the heirs.",
+      "bg": "След смъртта нотариус разпечатва завещанието с протокол; след това наследниците получават преписи."
+    },
+    "refs": [
+      "zn:27"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "отмяна на завещание",
+    "en": "revocation of a will",
+    "definition": {
+      "en": "A will is revoked by a new will or by a notarial deed that expressly revokes it.",
+      "bg": "Завещанието се отменя с ново завещание или с нотариален акт, който изрично го отменя."
+    },
+    "refs": [
+      "zn:38"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "изпълнител на завещание",
+    "en": "executor",
+    "definition": {
+      "en": "A person appointed by the testator to carry out the will.",
+      "bg": "Лице, определено от завещателя да изпълни завещанието."
+    },
+    "refs": [
+      "zn:45"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "отказ от наследство",
+    "en": "renunciation of an inheritance",
+    "definition": {
+      "en": "A written statement to the district judge, entered in a special book. A notary often certifies the signature on it.",
+      "bg": "Писмено заявление до районния съдия, вписано в особена книга. Нотариус често заверява подписа под него."
+    },
+    "refs": [
+      "zn:52"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "приемане по опис",
+    "en": "acceptance by inventory",
+    "definition": {
+      "en": "An acceptance that limits the heir's liability for the debts of the estate to its assets.",
+      "bg": "Приемане, което ограничава отговорността на наследника за задълженията на наследството до неговия актив."
+    },
+    "refs": [
+      "zn:61"
+    ],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "удостоверение за наследници",
+    "en": "certificate of heirs",
+    "definition": {
+      "en": "A certificate of the municipality of the deceased's last address that lists the legal heirs.",
+      "bg": "Удостоверение от общината по последния адрес на починалия, което посочва наследниците по закон."
+    },
+    "refs": [],
+    "chapter": "inheritance"
+  },
+  {
+    "bg": "наследствена делба",
+    "en": "partition of an inheritance",
+    "definition": {
+      "en": "The division of the estate among the co-heirs. A partition without all co-heirs is entirely void.",
+      "bg": "Поделянето на наследството между сънаследниците. Делба без участието на всички сънаследници е изцяло нищожна."
+    },
+    "refs": [
+      "zn:69",
+      "zn:75:2"
+    ],
+    "chapter": "succession"
+  },
+  {
+    "bg": "търговец",
+    "en": "merchant",
+    "definition": {
+      "en": "A person who carries out one of the commercial activities of the Commerce Act as an occupation, and every commercial company.",
+      "bg": "Лице, което по занятие извършва търговска дейност по Търговския закон, както и всяко търговско дружество."
+    },
+    "refs": [
+      "tz:1"
+    ],
+    "chapter": "commercial"
+  },
+  {
+    "bg": "едноличен търговец",
+    "en": "sole trader",
+    "definition": {
+      "en": "A natural person entered in the Commercial Register as a merchant. The person is liable with all personal property.",
+      "bg": "Физическо лице, вписано в Търговския регистър като търговец. То отговаря с цялото си имущество."
+    },
+    "refs": [
+      "tz:56"
+    ],
+    "chapter": "commercial"
+  },
+  {
+    "bg": "дружество с ограничена отговорност (ООД)",
+    "en": "limited liability company",
+    "definition": {
+      "en": "A company formed by one or more persons who are liable for its debts only with their share in the capital. With one owner it is an EOOD.",
+      "bg": "Дружество от едно или повече лица, които отговарят за задълженията му само с дяловата си вноска. С един собственик е ЕООД."
+    },
+    "refs": [
+      "tz:113"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "дружествен дял",
+    "en": "company share",
+    "definition": {
+      "en": "A partner's share in an OOD. It passes to a third person by a contract with signatures and content certified at the same time.",
+      "bg": "Делът на съдружник в ООД. Прехвърля се на трето лице с договор с едновременно удостоверяване на подписите и съдържанието."
+    },
+    "refs": [
+      "tz:129"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "общо събрание",
+    "en": "general meeting",
+    "definition": {
+      "en": "The body of all partners of an OOD. Key decisions need a protocol certified by a notary.",
+      "bg": "Органът на всички съдружници в ООД. Основните решения изискват протокол с нотариално удостоверяване."
+    },
+    "refs": [
+      "tz:137"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "управител",
+    "en": "manager",
+    "definition": {
+      "en": "The person who manages and represents an OOD. Entry needs a notarially certified consent with a specimen signature.",
+      "bg": "Лицето, което управлява и представлява ООД. За вписването е нужно нотариално заверено съгласие с образец от подписа."
+    },
+    "refs": [
+      "tz:141"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "прокурист",
+    "en": "procurator",
+    "definition": {
+      "en": "A person whom a merchant authorises to run the business and represent it in all transactions; real estate needs express power.",
+      "bg": "Лице, което търговецът упълномощава да управлява предприятието и да го представлява във всички сделки; за имоти е нужно изрично овластяване."
+    },
+    "refs": [
+      "tz:21"
+    ],
+    "chapter": "commercial"
+  },
+  {
+    "bg": "търговско предприятие",
+    "en": "commercial enterprise",
+    "definition": {
+      "en": "The set of rights, obligations and factual relations of a merchant. It is transferred by a contract with signatures and content certified at the same time.",
+      "bg": "Съвкупността от права, задължения и фактически отношения на търговеца. Прехвърля се с договор с едновременно удостоверяване на подписите и съдържанието."
+    },
+    "refs": [
+      "tz:15"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "Търговски регистър",
+    "en": "Commercial Register",
+    "definition": {
+      "en": "The public electronic register of merchants and non-profit legal entities, kept by the Registry Agency.",
+      "bg": "Публичният електронен регистър на търговците и юридическите лица с нестопанска цел, воден от Агенцията по вписванията."
+    },
+    "refs": [
+      "ztr:2"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "актуално състояние",
+    "en": "current status",
+    "definition": {
+      "en": "The data of a company in the Commercial Register at a given moment: representatives, capital, partners.",
+      "bg": "Данните за дружество в Търговския регистър към даден момент: представители, капитал, съдружници."
+    },
+    "refs": [
+      "ztr:11:1"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "ЕИК",
+    "en": "unified identification code",
+    "definition": {
+      "en": "The identification number of a legal entity or merchant in the Commercial Register or BULSTAT.",
+      "bg": "Идентификационният номер на юридическо лице или търговец в Търговския регистър или БУЛСТАТ."
+    },
+    "refs": [],
+    "chapter": "commercial"
+  },
+  {
+    "bg": "особен залог",
+    "en": "special pledge",
+    "definition": {
+      "en": "A pledge over movables, receivables, shares or an enterprise without handing them over, entered in the Central Register of Special Pledges.",
+      "bg": "Залог върху движими вещи, вземания, дялове или предприятие без предаването им, вписан в Централния регистър на особените залози."
+    },
+    "refs": [
+      "zoz:1"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "запис на заповед",
+    "en": "promissory note",
+    "definition": {
+      "en": "An unconditional written promise to pay a sum of money. The law lists its required content.",
+      "bg": "Безусловно писмено обещание да се плати сума пари. Законът изброява задължителното му съдържание."
+    },
+    "refs": [
+      "tz:535"
+    ],
+    "chapter": "commercial"
+  },
+  {
+    "bg": "образец от подписа",
+    "en": "specimen signature",
+    "definition": {
+      "en": "A declaration with a sample of the signature of a manager or procurator, certified by a notary and filed with the Commercial Register.",
+      "bg": "Декларация с образец от подписа на управител или прокурист, заверена от нотариус и представена в Търговския регистър."
+    },
+    "refs": [
+      "tz:141:3"
+    ],
+    "chapter": "company"
+  },
+  {
+    "bg": "задължено лице",
+    "en": "obliged person",
+    "definition": {
+      "en": "A person who must apply the anti-money laundering measures. Notaries are obliged persons.",
+      "bg": "Лице, което трябва да прилага мерките срещу изпирането на пари. Нотариусите са задължени лица."
+    },
+    "refs": [
+      "zmip:4"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "комплексна проверка",
+    "en": "customer due diligence",
+    "definition": {
+      "en": "Identification of the client and the beneficial owner, the purpose of the relationship and ongoing monitoring.",
+      "bg": "Идентифициране на клиента и действителния собственик, на целта на отношенията и текущо наблюдение."
+    },
+    "refs": [
+      "zmip:10"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "действителен собственик",
+    "en": "beneficial owner",
+    "definition": {
+      "en": "The natural person who ultimately owns or controls a client that is a legal entity.",
+      "bg": "Физическото лице, което в крайна сметка притежава или контролира клиент – юридическо лице."
+    },
+    "refs": [
+      "zmip:59"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "видна политическа личност",
+    "en": "politically exposed person",
+    "definition": {
+      "en": "A person who holds or held an important public function, with family members and close associates. Enhanced checks apply.",
+      "bg": "Лице, което заема или е заемало висока публична длъжност, както и членовете на семейството и близките му. Прилагат се разширени мерки."
+    },
+    "refs": [
+      "zmip:36"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "произход на средствата",
+    "en": "origin of funds",
+    "definition": {
+      "en": "Information or a declaration on where the client's money comes from.",
+      "bg": "Информация или декларация за това откъде идват средствата на клиента."
+    },
+    "refs": [
+      "zmip:66"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "уведомяване за съмнение",
+    "en": "suspicious transaction report",
+    "definition": {
+      "en": "A report to the Financial Intelligence Directorate of SANS before the transaction when money laundering is suspected.",
+      "bg": "Уведомление до дирекция „Финансово разузнаване“ на ДАНС преди операцията при съмнение за изпиране на пари."
+    },
+    "refs": [
+      "zmip:72"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "забрана за разкриване",
+    "en": "tipping-off prohibition",
+    "definition": {
+      "en": "The office may not tell the client or others that a report was made.",
+      "bg": "Кантората не може да уведомява клиента или други лица, че е подадено уведомление."
+    },
+    "refs": [
+      "zmip:80"
+    ],
+    "chapter": "aml"
+  },
+  {
+    "bg": "Агенция по вписванията",
+    "en": "Registry Agency",
+    "definition": {
+      "en": "The state agency that keeps the property register, the Commercial Register and other registers.",
+      "bg": "Държавната агенция, която води имотния регистър, Търговския регистър и други регистри."
+    },
+    "refs": [],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "АГКК",
+    "en": "Geodesy, Cartography and Cadastre Agency",
+    "definition": {
+      "en": "The agency that keeps the cadastre and issues sketches and schemes.",
+      "bg": "Агенцията, която поддържа кадастъра и издава скици и схеми."
+    },
+    "refs": [
+      "zkir:77"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "НАП",
+    "en": "National Revenue Agency",
+    "definition": {
+      "en": "The agency that collects public debts. The notary checks the transferor's debts electronically.",
+      "bg": "Агенцията, която събира публичните вземания. Нотариусът проверява електронно задълженията на прехвърлителя."
+    },
+    "refs": [
+      "dopk:264:1"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "НБД „Население“",
+    "en": "national population database",
+    "definition": {
+      "en": "The national database of the civil registration of persons. Notaries have access to it.",
+      "bg": "Националната база данни за гражданската регистрация на лицата. Нотариусите имат достъп до нея."
+    },
+    "refs": [
+      "znnd:19:2"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "Национален регистър на българските лични документи",
+    "en": "national register of identity documents",
+    "definition": {
+      "en": "The register of identity cards and passports. The notary checks the document and the photo in it.",
+      "bg": "Регистърът на личните карти и паспортите. Нотариусът проверява документа и снимката в него."
+    },
+    "refs": [
+      "znnd:19:2",
+      "znnd:25:3"
+    ],
+    "chapter": "institutions"
+  },
+  {
+    "bg": "Държавен вестник",
+    "en": "State Gazette",
+    "definition": {
+      "en": "The official journal in which laws are published. A law enters into force three days after publication, unless it says otherwise.",
+      "bg": "Официалното издание, в което се обнародват законите. Законът влиза в сила три дни след обнародването, освен ако в него е определено друго."
+    },
+    "refs": [
+      "konst:5:5"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "районен съд",
+    "en": "district court",
+    "definition": {
+      "en": "The first-level court. The district of a notary is the district of a district court; its registration judges order entries.",
+      "bg": "Първоинстанционният съд. Районът на нотариуса е районът на районен съд; съдиите по вписванията към него разпореждат вписванията."
+    },
+    "refs": [
+      "znnd:3",
+      "zsv:280"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "окръжен съд",
+    "en": "regional court",
+    "definition": {
+      "en": "The court above the district courts. It hears appeals against a notary's refusal.",
+      "bg": "Съдът над районните съдилища. Той разглежда жалбите срещу отказ на нотариуса."
+    },
+    "refs": [
+      "gpk:577:1"
+    ],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "тълкувателно решение",
+    "en": "interpretative decision",
+    "definition": {
+      "en": "A decision of the Supreme Court of Cassation that interprets the law and binds all courts.",
+      "bg": "Решение на Върховния касационен съд, което тълкува закона и е задължително за всички съдилища."
+    },
+    "refs": [],
+    "chapter": "legal-system"
+  },
+  {
+    "bg": "Допълнителни разпоредби",
+    "en": "Additional Provisions",
+    "definition": {
+      "en": "The final part of a law that defines its terms (marked with §).",
+      "bg": "Заключителната част на закона, която определя понятията в него (означава се с §)."
+    },
+    "refs": [
+      "znnd:§1"
+    ],
+    "chapter": "legal-system"
+  }
+]

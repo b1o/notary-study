@@ -1,0 +1,230 @@
+{
+  "id": "deeds",
+  "objectives": [
+    "Prepare a draft deed that meets the form and content rules.",
+    "Describe the steps from the arrival of the parties to the entry of the deed.",
+    "Explain the ownership check of Art. 586 ГПК and the documents that prove ownership.",
+    "Explain the two ways to obtain a declaratory deed of ownership.",
+    "Correct an error in a deed in the proper way."
+  ],
+  "cards": [
+    {
+      "front": "How many copies of a draft deed for entry does Ordinance No. 32 require?",
+      "back": "At least **five** identical copies (Art. 18(1) Наредба № 32)."
+    },
+    {
+      "front": "How are numbers written in a draft deed?",
+      "back": "In figures **and in words** when they concern the content of the deal (Art. 578(3) ГПК)."
+    },
+    {
+      "front": "What is done with empty spaces in a draft?",
+      "back": "They are **crossed out** (Art. 578(3) ГПК)."
+    },
+    {
+      "front": "List the required content of a notarial deed.",
+      "back": "Date (and hour/place if needed); notary; names, ЕГН and ID data of participants; content; documents for Art. 586(1); signatures and full names (Art. 580 ГПК)."
+    },
+    {
+      "front": "What does the notary do before the parties sign?",
+      "back": "**Reads** the content to them (Art. 579(1) ГПК)."
+    },
+    {
+      "front": "How do participants sign a deed?",
+      "back": "They write their **full name** by hand and sign before the notary, or confirm signatures already made (Art. 579(1) ГПК)."
+    },
+    {
+      "front": "How is a correction made in a deed before signing ends?",
+      "back": "With an **express note** signed like the deed itself (Art. 579(3) ГПК)."
+    },
+    {
+      "front": "When does the notary refuse a deed because of the transferor's title?",
+      "back": "When the transferor's document of ownership is **not entered** (Art. 586(4) ГПК)."
+    },
+    {
+      "front": "What are the two ways to a declaratory deed?",
+      "back": "By **written evidence**, or by **circumstantial verification** with three witnesses (Art. 587 ГПК)."
+    },
+    {
+      "front": "Who names the witnesses in a circumstantial verification?",
+      "back": "The **mayor** (or an official he designates), at the owner's suggestion; as far as possible **neighbours** (Art. 587(2) ГПК)."
+    },
+    {
+      "front": "How does the notary decide in a circumstantial verification?",
+      "back": "By a **reasoned decision** (постановление) (Art. 587(3) ГПК)."
+    },
+    {
+      "front": "When do the parties receive their copies of a deed for entry?",
+      "back": "After the deed is **entered**; before that, no copy (Art. 25(5) ЗННД; Art. 581 ГПК)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A draft says \"price: 85 000 euro\" only in figures. What must be corrected?",
+      "options": [
+        "The price must also be written in words",
+        "Nothing",
+        "The price must be written only in words",
+        "The price must be in leva"
+      ],
+      "answer": 0,
+      "explanation": "Numbers concerning the content of the deal are also written in words.",
+      "refs": [
+        "gpk:578:3"
+      ]
+    },
+    {
+      "question": "Which missing item makes a deed null?",
+      "options": [
+        "The signatures of the parties",
+        "The address of the notary's office",
+        "The page numbers",
+        "The registry office data above the title"
+      ],
+      "answer": 0,
+      "explanation": "Missing signatures (item 6 of Art. 580) is a ground for nullity under Art. 576.",
+      "refs": [
+        "gpk:580",
+        "gpk:576"
+      ]
+    },
+    {
+      "question": "The parties signed the draft at home before coming. What happens at the office?",
+      "options": [
+        "They write their full names and confirm their signatures before the notary",
+        "They sign again on a new copy only",
+        "Nothing more is needed",
+        "The notary refuses the deed"
+      ],
+      "answer": 0,
+      "explanation": "If the act is already signed, they write their full name and confirm their signatures.",
+      "refs": [
+        "gpk:579:1"
+      ]
+    },
+    {
+      "question": "An illiterate seller signs a deed with a thumbprint. Do witnesses countersign the deed?",
+      "options": [
+        "No",
+        "Yes, two witnesses",
+        "Yes, one witness",
+        "Yes, the buyer countersigns"
+      ],
+      "answer": 0,
+      "explanation": "For a notarial deed, Art. 579(2) applies Art. 189 but excludes countersigning by witnesses.",
+      "refs": [
+        "gpk:579:2"
+      ]
+    },
+    {
+      "question": "The seller's deed from 1998 was never entered. What does the notary do?",
+      "options": [
+        "Does not issue the new deed until the old deed is entered",
+        "Issues the deed and enters both",
+        "Issues the deed if the buyer agrees",
+        "Asks for a circumstantial verification"
+      ],
+      "answer": 0,
+      "explanation": "Art. 586(4) ГПК.",
+      "refs": [
+        "gpk:586:4"
+      ]
+    },
+    {
+      "question": "A woman has lived for 30 years in a house built by her late father, without any documents. What procedure can give her a document?",
+      "options": [
+        "A circumstantial verification for acquisition by prescription",
+        "A gift deed from the municipality",
+        "A certificate of heirs",
+        "A court decision only"
+      ],
+      "answer": 0,
+      "explanation": "Without documents, ownership can be certified by circumstantial verification with three witnesses.",
+      "refs": [
+        "gpk:587:2"
+      ]
+    },
+    {
+      "question": "Who chooses the three witnesses in a circumstantial verification?",
+      "options": [
+        "The mayor or an official he designates, at the owner's suggestion",
+        "The notary",
+        "The owner alone",
+        "The district court"
+      ],
+      "answer": 0,
+      "explanation": "Art. 587(2) ГПК.",
+      "refs": [
+        "gpk:587:2"
+      ]
+    },
+    {
+      "question": "The notary does not recognise ownership after a circumstantial verification. What happens to the fee?",
+      "options": [
+        "It is not returned",
+        "It is returned in full",
+        "Half is returned",
+        "It is paid only after the decision"
+      ],
+      "answer": 0,
+      "explanation": "The fee is due when the request is made and is not returned if ownership is not recognised.",
+      "refs": [
+        "tarifa:11",
+        "znnd:88:1"
+      ]
+    },
+    {
+      "question": "An error in the buyer's identity number is found the day after the deed was entered. How is it corrected?",
+      "options": [
+        "By a correction deed signed by the same parties",
+        "By crossing it out and writing the right number",
+        "By a letter to the registry office",
+        "It cannot be corrected"
+      ],
+      "answer": 0,
+      "explanation": "After signing and entry, corrections are made by a correction deed.",
+      "refs": [
+        "tarifa:1"
+      ]
+    },
+    {
+      "question": "What does the notary state in the deed about the ownership check?",
+      "options": [
+        "That the check was made, with the documents of ownership and the other requirements",
+        "Nothing; the check is internal",
+        "Only the tax assessment",
+        "Only the buyer's statement"
+      ],
+      "answer": 0,
+      "explanation": "Art. 586(3) ГПК.",
+      "refs": [
+        "gpk:586:3"
+      ]
+    },
+    {
+      "question": "What does a deed that is entered contain in addition to Art. 580 ГПК?",
+      "options": [
+        "Addresses of the parties, description of the property and the price",
+        "The notary's photo",
+        "The bank details of the parties",
+        "Nothing more"
+      ],
+      "answer": 0,
+      "explanation": "Art. 6(1) of the Regulations on Entries.",
+      "refs": [
+        "pv:6:1"
+      ]
+    },
+    {
+      "question": "Is a declaratory deed proof that cannot be disputed?",
+      "options": [
+        "No, it certifies ownership but can be disputed in court",
+        "Yes, it is final",
+        "Yes, after entry",
+        "Only within one year"
+      ],
+      "answer": 0,
+      "explanation": "It legitimises the holder as owner; a person who disputes it must prove the contrary in court.",
+      "refs": []
+    }
+  ]
+}

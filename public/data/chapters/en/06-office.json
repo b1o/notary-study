@@ -1,0 +1,247 @@
+{
+  "id": "office",
+  "objectives": [
+    "Describe the legal requirements for the premises, the sign and the working hours of an office.",
+    "Name the seven registers and books of a notary and how long each one is kept.",
+    "Open, fill and close a notarial case file correctly.",
+    "Prepare documents in the format that Ordinance No. 32 requires.",
+    "List what the office must enter at once in the information system of the Notary Chamber."
+  ],
+  "cards": [
+    {
+      "front": "Minimum premises of a notary office?",
+      "back": "**Two or more functionally connected rooms** with the chancery and the official archive (Art. 13(2) ЗННД; Art. 25 Наредба № 32)."
+    },
+    {
+      "front": "Working hours of a notary office?",
+      "back": "The same as those of the **district court** (Art. 27(1) Наредба № 32)."
+    },
+    {
+      "front": "When does work on deeds for entry stop each day?",
+      "back": "At least **two hours** before the end of the reception time of the registry office (Art. 27(2) Наредба № 32)."
+    },
+    {
+      "front": "How long can an office close temporarily?",
+      "back": "Up to **25 working days a year** and up to **2 hours a day** (Art. 28 Наредба № 32)."
+    },
+    {
+      "front": "Name the seven registers and books of a notary.",
+      "back": "General register; alphabetical index; register of holographic wills and deposits; book of acts subject to entry; book of notarial wills; book of invitations, protests, protocols and copies; expense book (Art. 28а ЗННД)."
+    },
+    {
+      "front": "Which registers and books are kept 100 years?",
+      "back": "Alphabetical index, register of holographic wills and deposits, book of acts subject to entry, book of notarial wills (Art. 28а(3) ЗННД)."
+    },
+    {
+      "front": "How is the day closed in the registers?",
+      "back": "With the **signature and seal** of the notary before the first entry of the next day (Art. 5(1) Наредба № 32)."
+    },
+    {
+      "front": "How is an error in a register corrected?",
+      "back": "By a **note** signed and sealed by the notary that says exactly how the correction reads; no erasures (Art. 5(3) Наредба № 32)."
+    },
+    {
+      "front": "How many documents does a volume of a notarial book hold?",
+      "back": "**200**; numbering starts again each year (Art. 6(1) Наредба № 32)."
+    },
+    {
+      "front": "What goes into a notarial case file for a deed?",
+      "back": "The request, a copy of the signed deed, the declarations about the special requirements of the law, the proof of representation, and the accounting documents for the fees (Art. 11 Наредба № 32)."
+    },
+    {
+      "front": "How long are case files for deeds kept?",
+      "back": "**5 years**; files for wills and deposits and decisions in circumstantial verifications: **100 years** (Art. 10(5) Наредба № 32)."
+    },
+    {
+      "front": "Describe the notary's seal.",
+      "back": "Round, **40 mm**; centre: name, \"Район на действие\", \"Р. С.\" and the seat of the court; top: \"Нотариус\" and register number; bottom: \"Република България\" (Art. 14 Наредба № 32)."
+    },
+    {
+      "front": "How many copies of a draft deed that must be entered?",
+      "back": "At least **five** identical copies; wills: at least four (Art. 18(1) Наредба № 32)."
+    },
+    {
+      "front": "How many copies go to the registry office?",
+      "back": "**Four** identical copies, one may be only signed, plus the request in two copies with the fee proof (Art. 21(1) Наредба № 32)."
+    },
+    {
+      "front": "Deadline to send a notarial will to the registration judge?",
+      "back": "**Three days** (Art. 21(2) Наредба № 32)."
+    },
+    {
+      "front": "Who may receive information from a notarial case file?",
+      "back": "Only the parties, their successors and their representatives; a non-lawyer needs an **express** power of attorney with a certified signature (Art. 28а(4) ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "The district court works from 9:00 to 17:00 and the registry office receives documents until 16:30. Until when may the office start work on deeds for entry?",
+      "options": [
+        "Until 14:30",
+        "Until 16:30",
+        "Until 17:00",
+        "Until 15:30"
+      ],
+      "answer": 0,
+      "explanation": "Work on deeds for entry ends at least two hours before the end of the reception time of the registry office.",
+      "refs": [
+        "n32:27:2"
+      ]
+    },
+    {
+      "question": "A clerk made a mistake in the general register yesterday. How is it corrected?",
+      "options": [
+        "With a note signed and sealed by the notary that states how the correction reads",
+        "With correction fluid and a new entry",
+        "By printing the page again",
+        "By a new line at the end of the register"
+      ],
+      "answer": 0,
+      "explanation": "Erasures are not allowed. Corrections need a note with signature and seal.",
+      "refs": [
+        "n32:5:3"
+      ]
+    },
+    {
+      "question": "How many general registers may a notary keep?",
+      "options": [
+        "Only one",
+        "One per employee",
+        "One per type of act",
+        "As many as needed"
+      ],
+      "answer": 0,
+      "explanation": "Keeping more than one general register is not allowed.",
+      "refs": [
+        "n32:7:3"
+      ]
+    },
+    {
+      "question": "For which request is a notarial case file NOT opened?",
+      "options": [
+        "Certification of a signature on a power of attorney",
+        "A notarial deed of sale",
+        "A notarial will",
+        "A circumstantial verification"
+      ],
+      "answer": 0,
+      "explanation": "Case files are opened for deeds, wills and deposits, and circumstantial verifications. A signature certification goes only into the general register.",
+      "refs": [
+        "n32:10:1"
+      ]
+    },
+    {
+      "question": "For how long does the office keep the book of acts subject to entry?",
+      "options": [
+        "100 years",
+        "10 years",
+        "5 years",
+        "50 years"
+      ],
+      "answer": 0,
+      "explanation": "The book of acts subject to entry is kept for 100 years and then goes to the State Archives.",
+      "refs": [
+        "znnd:28а:3"
+      ]
+    },
+    {
+      "question": "What is written in the lower half of the ring of a notary's seal?",
+      "options": [
+        "\"Република България\"",
+        "The name of the notary",
+        "\"Нотариус\" and the register number",
+        "The address of the office"
+      ],
+      "answer": 0,
+      "explanation": "Upper half: \"Нотариус\" and the register number; lower half: \"Република България\".",
+      "refs": [
+        "n32:14:1"
+      ]
+    },
+    {
+      "question": "A sale deed is prepared. How many identical copies of the draft are needed as a minimum?",
+      "options": [
+        "Five",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 0,
+      "explanation": "Deeds subject to entry: at least five identical copies.",
+      "refs": [
+        "n32:18:1"
+      ]
+    },
+    {
+      "question": "A testator deposits a holographic will. What must the notary do within three days?",
+      "options": [
+        "Inform the registration judge in writing of the name of the testator",
+        "Open and announce the will",
+        "Send a copy to the heirs",
+        "Publish a notice in the State Gazette"
+      ],
+      "answer": 0,
+      "explanation": "The registration judge is informed of the name within three days.",
+      "refs": [
+        "n32:21:3"
+      ]
+    },
+    {
+      "question": "Which document must the notary enter at once in the information system of the Notary Chamber?",
+      "options": [
+        "An extract of a power of attorney with signature and content certified at the same time",
+        "A copy of a diploma",
+        "A signature on a declaration for a school",
+        "A copy of a passport"
+      ],
+      "answer": 0,
+      "explanation": "Art. 9а, item 1 of Ordinance No. 32 requires the extract.",
+      "refs": [
+        "n32:9а"
+      ]
+    },
+    {
+      "question": "A neighbour asks for a copy of a deed in your archive \"because he is curious\". What do you do?",
+      "options": [
+        "Refuse; information is given only to the parties, their successors and representatives",
+        "Give it after a fee",
+        "Give it if the neighbour shows an identity card",
+        "Give only the first page"
+      ],
+      "answer": 0,
+      "explanation": "Inquiries from case files are limited to the parties, successors and representatives.",
+      "refs": [
+        "znnd:28а:4"
+      ]
+    },
+    {
+      "question": "What may the office sign NOT contain?",
+      "options": [
+        "Commercial advertising",
+        "The working hours",
+        "The address",
+        "The district of the notary"
+      ],
+      "answer": 0,
+      "explanation": "The sign may show the district, address and hours, but may not be the subject of commercial advertising.",
+      "refs": [
+        "n32:26:3"
+      ]
+    },
+    {
+      "question": "An office uses a computer to keep the general register. What must it do?",
+      "options": [
+        "Print the data; each sheet carries the date, signature and seal and is joined to the previous one",
+        "Nothing more; the electronic file is enough",
+        "Send the file to the Notary Chamber each day",
+        "Print only at the end of the year"
+      ],
+      "answer": 0,
+      "explanation": "Electronic registers must be printed and bound sheet by sheet.",
+      "refs": [
+        "n32:5:4",
+        "n32:5:5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "institutions",
+  "objectives": [
+    "Name the institution that issues or keeps each document a notary file needs.",
+    "Read a cadastral identifier and a property register record.",
+    "Order sketches, certificates and inquiries, and know their limits.",
+    "Communicate with institutions correctly: in writing, electronically, and by phone."
+  ],
+  "cards": [
+    {
+      "front": "What are the five parts of a property register partida?",
+      "back": "А – property; Б – owner; В – other rights, claims, contracts; Г – mortgages; Д – distraints (Art. 59 ЗКИР)."
+    },
+    {
+      "front": "Is the partida evidence of ownership?",
+      "back": "**No**; it announces facts, it is not evidence of them (Art. 59(4) ЗКИР)."
+    },
+    {
+      "front": "What must the request for entry contain?",
+      "back": "Applicant, fact entered, description, **identifier**, partida number, signature; a **sketch or scheme** attached (Art. 77 ЗКИР)."
+    },
+    {
+      "front": "What makes an entry invalid?",
+      "back": "No order of the registration judge, or no signature under Art. 84 (Art. 85 ЗКИР)."
+    },
+    {
+      "front": "Who gives cadastral identifiers?",
+      "back": "The **Geodesy, Cartography and Cadastre Agency** (Art. 26(3) ЗКИР)."
+    },
+    {
+      "front": "What does an identifier always contain?",
+      "back": "The **EKATTE** code of the settlement (Art. 26(2) ЗКИР)."
+    },
+    {
+      "front": "When is a sketch-project needed?",
+      "back": "When a deal creates new or changed properties, e.g. a partition or a declaratory deed (Art. 52 ЗКИР)."
+    },
+    {
+      "front": "Who issues the certificate of tax assessment?",
+      "back": "The **municipality** (Art. 264(1) ДОПК)."
+    },
+    {
+      "front": "Whom does the registry office notify after an entry?",
+      "back": "The **cadastre office** at once (Art. 86 ЗКИР) and the **municipality** within 7 days (Art. 51(1) ЗМДТ)."
+    },
+    {
+      "front": "Can the ministry audit a notary's inquiries in the population database?",
+      "back": "**Yes**; the notary gives the reason for each inquiry within one month of a sample (Art. 10–11 of the access ordinance)."
+    },
+    {
+      "front": "What right of access to offices does the notary have?",
+      "back": "Free access to court and administrative offices, files and copies, **with priority** (Art. 19(1) ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In which part of a partida do you find a bailiff's distraint?",
+      "options": [
+        "Part Д",
+        "Part Б",
+        "Part Г",
+        "Part А"
+      ],
+      "answer": 0,
+      "explanation": "Part Д records distraints.",
+      "refs": [
+        "zkir:64",
+        "zkir:59:1"
+      ]
+    },
+    {
+      "question": "The partida shows a person as owner. Is this proof of ownership?",
+      "options": [
+        "No, the partida announces; the acts are the evidence",
+        "Yes, always",
+        "Yes, after 10 years",
+        "Only for apartments"
+      ],
+      "answer": 0,
+      "explanation": "Art. 59(4) ЗКИР.",
+      "refs": [
+        "zkir:59:4"
+      ]
+    },
+    {
+      "question": "What does the office attach to a request for entry of a sale of a flat?",
+      "options": [
+        "A scheme of the separate object from the cadastre",
+        "A photo",
+        "A tax return",
+        "A utility bill"
+      ],
+      "answer": 0,
+      "explanation": "Art. 77 ЗКИР.",
+      "refs": [
+        "zkir:77"
+      ]
+    },
+    {
+      "question": "What is \"68134\" in the identifier 68134.4083.123.1.5?",
+      "options": [
+        "The EKATTE code of the settlement",
+        "The flat number",
+        "The plot number",
+        "The postal code"
+      ],
+      "answer": 0,
+      "explanation": "The identifier always includes the EKATTE code.",
+      "refs": [
+        "zkir:26:2"
+      ]
+    },
+    {
+      "question": "Two heirs divide a plot into two new plots. What does the office need from the cadastre?",
+      "options": [
+        "A sketch-project for the new plots",
+        "Nothing",
+        "Only the old sketch",
+        "A building permit"
+      ],
+      "answer": 0,
+      "explanation": "For a partition that creates new properties, a sketch-project is issued.",
+      "refs": [
+        "zkir:52"
+      ]
+    },
+    {
+      "question": "Which institution issues the certificate of tax assessment?",
+      "options": [
+        "The municipality",
+        "The National Revenue Agency",
+        "The Registry Agency",
+        "The cadastre office"
+      ],
+      "answer": 0,
+      "explanation": "The local taxes department of the municipality.",
+      "refs": [
+        "dopk:264:1"
+      ]
+    },
+    {
+      "question": "An entry was made without the registration judge's order. What is its status?",
+      "options": [
+        "Invalid",
+        "Valid",
+        "Voidable",
+        "Valid after 3 days"
+      ],
+      "answer": 0,
+      "explanation": "Art. 85 ЗКИР.",
+      "refs": [
+        "zkir:85"
+      ]
+    },
+    {
+      "question": "A caller says he is from \"the tax office\" and asks for a client's identity number by phone. What do you do?",
+      "options": [
+        "Refuse; ask for a written request through official channels",
+        "Give it to help",
+        "Give only the address",
+        "Ask the client by text message"
+      ],
+      "answer": 0,
+      "explanation": "Professional secrecy binds employees.",
+      "refs": [
+        "znnd:49",
+        "znnd:26"
+      ]
+    },
+    {
+      "question": "Where does a parent ask for permission to sell a child's flat?",
+      "options": [
+        "The district court of the child's current address",
+        "The notary",
+        "The municipality",
+        "The regional court"
+      ],
+      "answer": 0,
+      "explanation": "Art. 130(3) СК.",
+      "refs": [
+        "sk:130:3"
+      ]
+    },
+    {
+      "question": "What right does Art. 19(1) ЗННД give the notary?",
+      "options": [
+        "Free access to offices, files and copies with priority",
+        "Free taxi rides to courts",
+        "Access to bank accounts of clients",
+        "Power to order entries"
+      ],
+      "answer": 0,
+      "explanation": "Art. 19(1) ЗННД.",
+      "refs": [
+        "znnd:19:1"
+      ]
+    }
+  ]
+}

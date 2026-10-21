@@ -1,0 +1,242 @@
+{
+  "id": "profession",
+  "objectives": [
+    "Explain why the notary is a private professional who performs state functions.",
+    "List the main duties of the notary towards the parties, with the article for each.",
+    "Describe the bodies of the Notary Chamber and what each one does.",
+    "Explain the civil and disciplinary liability of the notary and the role of insurance.",
+    "Say what happens to the archive when a notary loses the capacity."
+  ],
+  "cards": [
+    {
+      "front": "Is the state liable for the acts of a notary?",
+      "back": "**No** (Art. 73(2) ЗННД). The notary is liable, up to the certified material interest, and must be insured."
+    },
+    {
+      "front": "Upper limit of the notary's civil liability?",
+      "back": "The **certified material interest** (Art. 73(1) ЗННД)."
+    },
+    {
+      "front": "Whose faults does the notary's insurance cover?",
+      "back": "Those of the notary, the **assistant notary** and the **employees** (Art. 30(1) ЗННД)."
+    },
+    {
+      "front": "Can a notary act outside the district?",
+      "back": "**No.** Such an act is null (Art. 573(1) and 576 ГПК)."
+    },
+    {
+      "front": "When may a notary refuse to deal with a request?",
+      "back": "When the notary has an interest in the act or a special relation with the party that raises a well-founded doubt about impartiality (Art. 23 ЗННД)."
+    },
+    {
+      "front": "What must the parties declare about the price in a sale of real estate?",
+      "back": "That the amount in the deed is the **payment actually agreed** (Art. 25(9) ЗННД)."
+    },
+    {
+      "front": "How are payments over 10,000 leva in real estate deals made?",
+      "back": "Through the **special bank account of the notary** or a bank account in a bank chosen by the parties (Art. 25(10) ЗННД)."
+    },
+    {
+      "front": "Can creditors of the notary seize money in the special account?",
+      "back": "**No** (Art. 25а(3) ЗННД)."
+    },
+    {
+      "front": "What does the notary check at the National Revenue Agency before a sale of real estate?",
+      "back": "That the transferor has **no unpaid public debts subject to enforcement** (Art. 264(1) ДОПК)."
+    },
+    {
+      "front": "Name the four bodies of the Notary Chamber.",
+      "back": "General Assembly, Council of Notaries, Control Council, Disciplinary Commission (Art. 52 ЗННД)."
+    },
+    {
+      "front": "List the four disciplinary penalties.",
+      "back": "Reprimand; fine of 1,000–5,000 лв.; warning of deprivation; deprivation of capacity for 3 months to 5 years (Art. 75 ЗННД)."
+    },
+    {
+      "front": "When does disciplinary liability lapse?",
+      "back": "**Six months** after discovery, and at most **two years** after the breach (Art. 76(1) ЗННД)."
+    },
+    {
+      "front": "Where is a disciplinary decision appealed, and when?",
+      "back": "Before the **Supreme Court of Cassation** within **14 days** (Art. 80 ЗННД)."
+    },
+    {
+      "front": "What happens to the archive when a notary loses the capacity?",
+      "back": "It is **sealed** by order of the president of the district court, with an inventory, and handed over (Art. 36 ЗННД)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A seller says to the notary: \"You work for me, I chose you.\" What is the correct position?",
+      "options": [
+        "The notary is impartial and does not take sides",
+        "The notary represents the party who pays the fee",
+        "The notary represents the buyer",
+        "The notary represents the seller"
+      ],
+      "answer": 0,
+      "explanation": "The notary may not take sides in the performance of the functions.",
+      "refs": [
+        "znnd:24"
+      ]
+    },
+    {
+      "question": "A party asks the notary for a meeting without the other relatives present. What does the law say?",
+      "options": [
+        "The notary meets the person alone unless the person wants others present",
+        "The notary must always have a witness",
+        "All relatives have the right to attend",
+        "Only a lawyer may attend"
+      ],
+      "answer": 0,
+      "explanation": "Meeting alone is a rule that protects people under pressure.",
+      "refs": [
+        "znnd:20"
+      ]
+    },
+    {
+      "question": "A buyer pays 80,000 euro in a sale of an apartment. How may the price be paid?",
+      "options": [
+        "Through the special bank account of the notary or a bank account in a bank chosen by the parties",
+        "In cash in front of the notary",
+        "In cash if both parties agree",
+        "Only by a cheque"
+      ],
+      "answer": 0,
+      "explanation": "Payments over 10,000 leva in such deals go through the notary's special account or a bank account.",
+      "refs": [
+        "znnd:25:10"
+      ]
+    },
+    {
+      "question": "What must the notary check before an act, under Art. 25(2) ЗННД?",
+      "options": [
+        "Whether a security measure under the law on illegally acquired assets is imposed",
+        "The credit score of the buyer",
+        "The salary of the seller",
+        "The market price of the property"
+      ],
+      "answer": 0,
+      "explanation": "Art. 25(2) requires a check for security measures under the law on the forfeiture of illegally acquired assets.",
+      "refs": [
+        "znnd:25:2"
+      ]
+    },
+    {
+      "question": "The check at the National Revenue Agency shows that the seller has unpaid public debts subject to enforcement. What is possible?",
+      "options": [
+        "The deal can proceed after payment, or if the seller agrees in writing that the debts are paid from the price and the buyer pays them into the budget",
+        "The deal can never proceed",
+        "The deal proceeds and the notary pays the debt",
+        "The deal proceeds without any condition"
+      ],
+      "answer": 0,
+      "explanation": "Art. 264(4) ДОПК gives these two options.",
+      "refs": [
+        "dopk:264:4"
+      ]
+    },
+    {
+      "question": "What is the maximum civil liability of a notary for a deed with a price of 120,000 euro?",
+      "options": [
+        "120,000 euro",
+        "Unlimited",
+        "The amount of the fee",
+        "The insured amount only"
+      ],
+      "answer": 0,
+      "explanation": "The notary is liable up to the certified material interest.",
+      "refs": [
+        "znnd:73:1"
+      ]
+    },
+    {
+      "question": "Who decides a disciplinary case against a notary at first instance?",
+      "options": [
+        "A panel of the Disciplinary Commission of the Notary Chamber",
+        "The district court",
+        "The Minister of Justice",
+        "The General Assembly"
+      ],
+      "answer": 0,
+      "explanation": "The chair of the Disciplinary Commission appoints a panel of three.",
+      "refs": [
+        "znnd:77:4",
+        "znnd:72"
+      ]
+    },
+    {
+      "question": "A breach was committed in March 2024 and discovered in January 2026. Can a disciplinary penalty still be imposed?",
+      "options": [
+        "No, because two years from the breach ended in March 2026",
+        "Yes, within six months from January 2026",
+        "Yes, at any time",
+        "Only with the consent of the Minister"
+      ],
+      "answer": 0,
+      "explanation": "The limit is six months from discovery and at most two years from the breach. Two years from March 2024 ended in March 2026.",
+      "refs": [
+        "znnd:76:1"
+      ]
+    },
+    {
+      "question": "Who may take an original document out of the notary's archive for an expert examination?",
+      "options": [
+        "Only on a written order of a judge or prosecutor, and the expertise is made in the notary's presence",
+        "Any police officer",
+        "Any party to the deed",
+        "The Notary Chamber at any time"
+      ],
+      "answer": 0,
+      "explanation": "Art. 28(3)–(4) ЗННД protect the archive.",
+      "refs": [
+        "znnd:28:3",
+        "znnd:28:4"
+      ]
+    },
+    {
+      "question": "Within what time must a notary report a change of the office address to the register?",
+      "options": [
+        "Seven days",
+        "One month",
+        "Three days",
+        "There is no time limit"
+      ],
+      "answer": 0,
+      "explanation": "Persons in the register report changes within seven days; the president of the district court is informed at once.",
+      "refs": [
+        "znnd:16:2",
+        "znnd:29"
+      ]
+    },
+    {
+      "question": "Which statement about the special bank account is correct?",
+      "options": [
+        "A written agreement between the notary and the parties sets the conditions for paying in and paying out",
+        "The money belongs to the notary until the deed is entered",
+        "Creditors of the notary may seize it",
+        "It may be used only for cash payments"
+      ],
+      "answer": 0,
+      "explanation": "Art. 25а(2) requires a written agreement; Art. 25а(3) protects the money from the notary's creditors.",
+      "refs": [
+        "znnd:25а"
+      ]
+    },
+    {
+      "question": "What happens to a notary's archive after the notary dies?",
+      "options": [
+        "It is sealed with an inventory and handed over to another notary or the registration judge",
+        "The family keeps it",
+        "It is destroyed after one year",
+        "The Notary Chamber sells it"
+      ],
+      "answer": 0,
+      "explanation": "Art. 36–38 ЗННД govern the sealing and handing over of the archive.",
+      "refs": [
+        "znnd:36",
+        "znnd:38"
+      ]
+    }
+  ]
+}
