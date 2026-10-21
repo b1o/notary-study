@@ -1,0 +1,91 @@
+:host {
+  display: block;
+  font-family: var(--font-law);
+  font-size: var(--law-text-size, var(--reading-size));
+  line-height: var(--reading-leading);
+  color: var(--color-ink);
+  container-type: inline-size;
+}
+
+.law-article-text__notice {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
+}
+
+.law-version + .law-version {
+  margin-block-start: var(--space-5);
+}
+
+/* Wide enough for two readable columns: the original and the translation side by side. */
+@container (min-width: 46rem) {
+  :host(.law-article-text--both) .law-article-text__versions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+  }
+
+  .law-version + .law-version {
+    margin-block-start: 0;
+  }
+}
+
+.law-version__label {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-3);
+}
+
+.law-version__title {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+
+/* The negative margin keeps the text aligned with the content around it when the paragraph is tinted. */
+.law-paragraph {
+  margin-inline: calc(-1 * var(--space-3));
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-md);
+}
+
+.law-paragraph + .law-paragraph {
+  margin-block-start: var(--space-2);
+}
+
+.law-paragraph--highlight {
+  background: var(--color-mark);
+}
+
+.law-line {
+  margin: 0;
+}
+
+.law-line + .law-line {
+  margin-block-start: var(--space-1);
+}
+
+.law-line--item {
+  padding-inline-start: var(--space-5);
+}
+
+.law-segment--number {
+  font-weight: 700;
+}
+
+.law-segment--paragraph {
+  font-weight: 600;
+  color: var(--color-accent-text);
+}
+
+.law-segment--amendment {
+  font-family: var(--font-ui);
+  font-size: 0.8em;
+  color: var(--color-ink-3);
+}
+
+:host(.law-article-text--no-amendments) .law-segment--amendment {
+  display: none;
+}

@@ -1,0 +1,29 @@
+@if (translationMissing()) {
+  <p class="law-article-text__notice">{{ ui().law.noTranslation }}</p>
+}
+<div class="law-article-text__versions">
+  @for (version of versions(); track version.language) {
+    <section class="law-version" [attr.lang]="version.language">
+      @if (version.language === 'en') {
+        <p class="law-version__label">{{ ui().law.translation }}</p>
+      }
+      @if (version.title) {
+        <p class="law-version__title">{{ version.title }}</p>
+      }
+      @for (paragraph of version.paragraphs; track $index) {
+        <div
+          class="law-paragraph"
+          [class.law-paragraph--highlight]="!!highlight() && paragraph.number === highlight()"
+        >
+          @for (line of paragraph.lines; track $index) {
+            <p class="law-line" [class.law-line--item]="line.item">
+              @for (segment of line.segments; track $index) {
+                <span [class]="'law-segment law-segment--' + segment.kind">{{ segment.text }}</span>
+              }
+            </p>
+          }
+        </div>
+      }
+    </section>
+  }
+</div>
