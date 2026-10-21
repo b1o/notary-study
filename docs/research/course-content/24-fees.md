@@ -37,4 +37,4 @@ Facts verified. Rework 3 cards into calculation form (item 10 on a given amount;
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2, 3, 5, 6 and 8 fixed (the prescription row, the gift base, the amounts of items 14–17 and 20, the Registry Agency tariff marked as outside the library); 1, 4 and 7 kept; "Tools menu" replaced.

@@ -37,4 +37,4 @@ Facts verified. Rework 3 cards into case form (a deputy mayor; a 4,000-euro cash
 
 ## Fix status
 
-Filled in during pass 2 and 3.
+Pass 2: findings 2, 4 and 6 fixed; the others kept.

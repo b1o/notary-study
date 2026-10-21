@@ -21,6 +21,7 @@ The office applies customer due diligence ([[zmip:11:1]]):
 | An **occasional deal** (one deal, or several related deals) | **15,000 euro or more** |
 | An occasional deal paid **in cash** | **5,000 euro or more** |
 | Any **suspicion** of money laundering, terrorist financing or criminal funds | **Regardless of the amount** |
+| A **doubt** about the truth or adequacy of the identification data collected | Regardless of the amount |
 
 Most real estate sales exceed 15,000 euro, so due diligence is the normal case.
 
@@ -71,7 +72,7 @@ The **origin of funds** ({{произход на средствата}}) is clar
 
 A **politically exposed person** ({{видна политическа личност}}) holds or held an important public function in Bulgaria, another Member State, a third country or an international organisation ([[zmip:36]]): heads of state and government, ministers and deputy ministers, members of parliament, members of constitutional and supreme courts, members of the court of auditors and central bank boards, ambassadors, senior officers, members of the boards of state-owned companies, **mayors and deputy mayors, chairs of municipal councils**, members of party governing bodies, and leaders of international organisations. Their family members and close associates are also covered ([[zmip:36:1]]).
 
-For such persons the office applies **enhanced due diligence** ([[zmip:36:1]]). The office must have an internal system to find out whether a client is a politically exposed person; the system may use a written declaration, but **not only** the declaration ([[zmip:42]]).
+For such persons the office applies **enhanced due diligence** ([[zmip:36:1]]). The office must have an internal system to find out whether a client is a politically exposed person; the system may use a written declaration, but **not only** the declaration ([[zmip:42:3]]).
 
 Clients from countries that do not apply international standards against money laundering also need enhanced measures ([[zmip:46]]).
 
@@ -81,7 +82,7 @@ The office keeps all documents, data and information collected under the act for
 
 ## Reporting a suspicion
 
-When the office **suspects** or **knows** that money is laundered or that funds have a criminal origin, it must **notify the Financial Intelligence Directorate of the State Agency for National Security** ({{дирекция „Финансово разузнаване“ на ДАНС}}) **at once, before the deal**, and **delay** the deal within the permitted time, stating in the notice how long the deal can be postponed ([[zmip:72:1]]). If the delay is objectively impossible, the office notifies immediately after the deal and explains why ([[zmip:72:2]]). The director of the directorate may suspend a deal for up to **5 working days** ([[zmip:73]]).
+When the office **suspects** or **knows** that money is laundered or that funds have a criminal origin, it must **notify the Financial Intelligence Directorate of the State Agency for National Security** ({{дирекция „Финансово разузнаване“ на ДАНС}}) **at once, before the deal**, and **delay** the deal within the permitted time, stating in the notice how long the deal can be postponed ([[zmip:72:1]]). If the delay is objectively impossible, the office notifies immediately after the deal and explains why ([[zmip:72:2]]). The director of the directorate may suspend a deal for up to **5 working days** from the day after the order; if no distraint or injunction follows in that time, the deal may go ahead ([[zmip:73:1]]).
 
 An employee may report even if not responsible for the AML measures; the directorate keeps the employee anonymous ([[zmip:72:3]]).
 
