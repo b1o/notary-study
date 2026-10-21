@@ -33,7 +33,7 @@ Courts decide individual cases, but the Supreme Court of Cassation ({{Върхо
 | Regional court ({{окръжен съд}}) | Hears appeals against a refusal of the notary to perform a certification ([[gpk:577:1]]). |
 | Court of appeal ({{апелативен съд}}) | The notarial colleges follow the districts of the courts of appeal ([[znnd:4:3]]). |
 | Supreme Court of Cassation | Hears appeals in disciplinary cases against notaries ([[znnd:80:1]]); a judge of the court sits in the competition commission ([[znnd:12:2]]). |
-| Administrative courts | Hear appeals against orders of the Minister of Justice about entries and transfers of notaries ([[znnd:12:4]]). |
+| Administrative courts | Hear appeals against orders of the Minister of Justice about entries and transfers of notaries ([[znnd:12:4]], [[znnd:34б:5]]). |
 | Ministry of Justice | Controls the work of each notary through inspectors ([[znnd:80б]]); the Registry Agency is under the Ministry. |
 | Notary Chamber ({{Нотариална камара}}) | All notaries are members; it keeps the register, the information system and the disciplinary bodies ([[znnd:4]], [[znnd:52]]). |
 
@@ -108,8 +108,8 @@ A contract without the form that the law requires is **void** ([[zzd:26:1]]). Th
 |---|---|---|
 | Grounds | Contrary to law or good morals, impossible object, no consent, no required form, no cause, a sham contract ([[zzd:26]]) | Concluded by a person without capacity, by mistake, fraud, threat or extreme need ([[zzd:27]]) |
 | Effect | Never produces effect; anyone can rely on the nullity | Valid until a court annuls it at the request of the protected party ([[zzd:32]]) |
-| Time limit | None | Three years for most grounds ([[zzd:32]]) |
-| Can it be confirmed? | No | Yes, by a written act or by voluntary performance ([[zzd:35]]) |
+| Time limit | None | Three years for most grounds, counted from the end of the disability or the discovery of the mistake or fraud ([[zzd:32]]); one year for extreme need ([[zzd:33:2]]) |
+| Can it be confirmed? | No | Yes, by a written act or by voluntary performance, except a contract concluded in extreme need ([[zzd:35]]) |
 
 After nullity or annulment, each party returns what it received ([[zzd:34]]).
 

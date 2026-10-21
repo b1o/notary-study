@@ -2,7 +2,7 @@
 
 The state assigns notarial acts to the notary ([[znnd:2:1]]), but the notary is not paid by the state and **the state is not liable for the acts of the notary** ([[znnd:73:2]]). The notary earns notarial fees, which the law defines as the payment for the service ([[znnd:§1]]), keeps accounts ([[znnd:33]]) and is socially insured like other free professions ([[znnd:31]]).
 
-The notary is **independent** and obeys only the law ([[znnd:17:1]]). Everybody owes the notary assistance and respect in the exercise of the functions ([[znnd:18]]). When a notary is detained or charged with a crime, the Minister of Justice and the Council of Notaries must be informed ([[znnd:17:2]]).
+The notary is **independent** and obeys only the law ([[znnd:17:1]]). Everybody owes the notary assistance and respect in the exercise of the functions ([[znnd:18]]). When a notary is detained or charged with a crime subject to public prosecution, the Minister of Justice and the Council of Notaries must be informed ([[znnd:17:2]]).
 
 ## The district and the office
 
@@ -10,7 +10,7 @@ The notary is **independent** and obeys only the law ([[znnd:17:1]]). Everybody 
 - A notary **cannot perform notarial acts outside the district** ([[gpk:573:1]]). An act made outside the district is null ([[gpk:576]]).
 - A notary has **one office** in the district ([[znnd:13:3]]) and must inform the president of the district court at once about any move of the office or the archive ([[znnd:29]]).
 - Notaries may work together in a civil partnership, but each keeps a separate archive ([[znnd:34а]]).
-- The Minister of Justice may move a notary to another district for important reasons, such as health or family circumstances, when a place is open there ([[znnd:34б]]).
+- At the notary's reasoned request, the Minister of Justice may move the notary to another district for important reasons, such as health or family circumstances, when a place is open there. The Minister decides within 14 days after an opinion of the Council of Notaries ([[znnd:34б:1]], [[znnd:34б:4]]).
 
 ## The duties of the notary
 
@@ -100,7 +100,7 @@ The procedure, step by step:
 1. The Minister of Justice proposes, or the Council of Notaries decides, to open a case ([[znnd:77:1]]).
 2. The notary may give explanations within **seven days** ([[znnd:77:2]]).
 3. A panel of three members of the Disciplinary Commission hears the case in a closed meeting; the notary may have a lawyer ([[znnd:77:4]], [[znnd:78]]).
-4. The panel decides within **one month** with a reasoned decision ([[znnd:79]]).
+4. The panel decides within **one month** of the assignment with a reasoned decision; a deprivation of capacity needs the votes of two thirds of the members ([[znnd:79:3]], [[znnd:79:4]]).
 5. The notary, the Council or the Minister may appeal to the Supreme Court of Cassation within **14 days** ([[znnd:80:1]]).
 
 The liability lapses **six months** after the discovery of the breach and in any case **two years** after it was committed ([[znnd:76:1]]).
@@ -111,7 +111,7 @@ The Minister of Justice controls each notary. Inspectors of the Ministry and **i
 
 ## Loss of capacity and the archive
 
-A notary loses the capacity on request, on death or judicial disability, when a requirement of [[znnd:8]] fails or an incompatibility arises, or by a disciplinary penalty ([[znnd:35]]). From that moment:
+A notary loses the capacity on request, on death or judicial disability, when a requirement of [[znnd:8]] fails or an incompatibility arises, or by the disciplinary penalty of deprivation of capacity ([[znnd:35]]). From that moment:
 
 - the notary may not perform any act, and the archive is **sealed** by order of the president of the district court, with a protocol and an inventory ([[znnd:36]]);
 - the Council of Notaries deletes the notary from the register and writes who received the archive ([[znnd:37]]);

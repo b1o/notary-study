@@ -33,7 +33,7 @@ What a clerk does every day:
 
 ## Legal assistant
 
-Many offices employ a law student or a young lawyer who drafts deeds and contracts, studies the history of a property, reads court decisions and talks with banks, municipalities and the registry office. The work is the best preparation for the role of assistant notary and later for the competition for notaries. The notary may charge clients for drafting and checking documents ([[znnd:22]], [[znnd:94]]); in practice the legal assistant does much of this work and the notary checks and signs.
+Many offices employ a law student or a young lawyer who drafts deeds and contracts, studies the history of a property, reads court decisions and talks with banks, municipalities and the registry office. The work is the best preparation for the role of assistant notary and later for the competition for notaries. The notary may charge clients for drafting and checking documents: the full fee of the act for a draft, half of it for a check ([[znnd:22]], [[znnd:94:2]], [[znnd:94:3]]); in practice the legal assistant does much of this work and the notary checks and signs.
 
 ## Assistant notary
 
@@ -51,7 +51,7 @@ A notary may appoint **one** assistant notary from the persons who meet the requ
 1. The notary files a written application with the Minister of Justice. The candidate countersigns it. The application may state a term ([[znnd:41:2]]).
 2. The documents of [[znnd:11:2]] are attached: proof of the state fee, identity, diploma, legal capacity, work experience, a declaration and a medical certificate.
 3. The Minister issues an order for entry in the register of the Notary Chamber.
-4. The Council of Notaries enters the assistant after the candidate takes the oath and signs the oath sheet ([[znnd:14]], [[znnd:15]]).
+4. The Council of Notaries enters the assistant after the candidate takes the oath and signs the oath sheet ([[znnd:14]], [[znnd:15]]). Of the documents for the entry, an assistant notary presents only the order, the declaration, the insurance and the specimen signature ([[znnd:14:3]]).
 
 ### Powers and limits
 
@@ -62,7 +62,7 @@ The assistant notary may perform, on the instructions of the notary, all acts wi
 - notarial wills and acts that revoke them;
 - acts that create or delete mortgages.
 
-The assistant uses the archive and the seal of the notary and adds the word "помощник" (assistant) to the signature ([[znnd:40:2]]). The notary is jointly liable for damage that the assistant causes by fault ([[znnd:40:3]]). A contract between them settles their relations ([[znnd:40:5]]). The assistant loses the capacity, for example, at the request of the notary or when the notary leaves the register ([[znnd:42]]).
+The assistant uses the archive and the seal of the notary and adds the word "помощник" (assistant) to the signature ([[znnd:40:2]]). The notary is jointly liable for damage that the assistant causes by fault ([[znnd:40:3]]). A contract between them settles their relations ([[znnd:40:5]]). The assistant loses the capacity, for example, on a written request of the notary to the Council of Notaries, or when the notary leaves the register ([[znnd:42:1]]).
 
 ## Substitute assistant notary
 
@@ -81,7 +81,7 @@ The rules are in Ordinance No. 2 of 2003 ([[n2pn:1]]):
 - It is **oral**. One of the questions is a practical case from notarial work ([[n2pn:3]]).
 - Candidates may use legal acts and case law **on paper**. Any other aid means removal from the exam ([[n2pn:3:3]]).
 - Each candidate draws **two tickets**: one theoretical question and one practical question ([[n2pn:9:2]]).
-- The commission has a representative of the Ministry of Justice, a notary and an inspector-notary ([[n2pn:6]]). It grades on the Bulgarian scale from 2 to 6. You need at least **"good" (4)** ([[n2pn:10:3]]).
+- The commission has a representative of the Ministry of Justice, a notary and an inspector-notary ([[n2pn:6]]). Each member grades on the Bulgarian scale from 2 to 6, and the final grade is the arithmetic mean of their grades ([[n2pn:10:1]], [[n2pn:10:2]]). You need at least **"good" (4)** ([[n2pn:10:3]]).
 
 ## Becoming a notary
 
@@ -134,7 +134,7 @@ The Council of Notaries inspects the office within one month ([[znnd:14:5]]). Th
 
 ## Legal capacity (юридическа правоспособност)
 
-The roles of assistant notary and notary require legal capacity under the Judiciary Act. A law graduate acquires it after a **six-month internship** as a trainee lawyer ({{стажант-юрист}}) and an **exam** ([[zsv:294:1]]). The Minister of Justice assigns the trainee to a regional court ([[zsv:297]]). The exam is uniform and anonymous: a practical case and a practical test, graded "pass" or "fail" ([[zsv:300:1]]). After a fail, the trainee does two more months of internship and may sit the exam again, up to three times ([[zsv:300:3]]). The Minister then issues the certificate of legal capacity ([[zsv:301]]). The limit on repeat attempts was challenged before the Constitutional Court in 2024; check the current text before you plan your path.
+The roles of assistant notary and notary require legal capacity under the Judiciary Act. A law graduate acquires it after a **six-month internship** as a trainee lawyer ({{стажант-юрист}}) and an **exam** ([[zsv:294:1]]). The Minister of Justice assigns the trainee to a regional court ([[zsv:297]]). The exam is uniform and anonymous: a practical case and a practical test, graded "pass" or "fail" ([[zsv:300:1]]). After a fail, the trainee does two more months of internship and may sit the exam again, up to three times ([[zsv:300:3]]). The Minister then issues the certificate of legal capacity ([[zsv:301]]). The Ombudsman asked the Constitutional Court to strike the limit on repeat attempts (case 21/2023). The Court decided on 4 June 2024 (Decision No. 8), and the limit stays in the text in force ([[zsv:300:3]]).
 
 ## How to get hired
 

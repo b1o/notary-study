@@ -4,7 +4,7 @@ A notary ({{нотариус}}) is a person to whom the state assigns the notari
 
 Two short facts explain the whole profession:
 
-- **Only a person in the register of the Notary Chamber is a notary** ([[znnd:2:2]]). The Minister of Justice appoints new notaries after a competition, and the Notary Chamber enters them in its register.
+- **Only a person in the register of the Notary Chamber is a notary** ([[znnd:2:2]]). After a competition, the Minister of Justice orders the entry of the new notary ([[znnd:12:3]]), and the Council of Notaries enters the notary in the register after the oath ([[znnd:14:1]], [[znnd:15]]).
 - **The notary must do the notarial work personally** ([[znnd:2:3]]). Staff prepare, check, call, copy, file and deliver. The legal act itself, for example the certification of a signature, is the act of the notary or of an authorised assistant.
 
 > [!note] Why the state uses notaries
@@ -55,20 +55,19 @@ The Minister of Justice sets the working hours of notary offices ([[znnd:27]]). 
 
 ## The language of the office
 
-Every notarial document in Bulgaria is in Bulgarian. A person who does not know Bulgarian signs through an interpreter whom the notary appoints ([[gpk:582]]). You therefore need the Bulgarian terms even when you study in English. This course writes key Bulgarian terms like this: {{нотариален акт}}. The glossary gives all of them with an English equivalent and the law behind each term.
+Every notarial document in Bulgaria is in Bulgarian. When a person does not know Bulgarian and the notary does not know the language of that person, the notary appoints an interpreter ([[gpk:582]]). You therefore need the Bulgarian terms even when you study in English. This course writes key Bulgarian terms like this: {{нотариален акт}}. The glossary gives all of them with an English equivalent and the law behind each term.
 
 ## How to use this course
 
 - **Chapters.** Seven volumes, from the basics to full simulations. Each chapter starts with objectives and ends with a test and flashcards. Read the chapters in order the first time.
-- **Your path.** On the home page, choose *Office clerk*, *Assistant notary* or *Notary*. The register then marks the chapters that are essential for that role.
 - **Law citations.** A citation such as [[gpk:578:4]] opens the text of the law in the margin, next to the chapter. The library has the full Bulgarian text of each act. In English mode, key articles also have an unofficial English translation.
 - **Law library.** Open it from the menu. You can type a citation, for example "чл. 586 ГПК", and go straight to the article.
-- **Tests.** Each chapter test gives feedback after each question. You certify a chapter when you mark it as read and score at least 80%. The final exam has 40 random questions and shows the answers only at the end.
+- **Tests.** Each chapter test shows the answers and the explanations at the end, not after each question. A chapter counts as done when you mark it as read and score at least 80% in its test. The final exam has 40 random questions from all chapters.
 - **Flashcards.** The cards use Leitner boxes. A card that you know moves to a higher box and comes back later. A card that you miss goes back to box 1.
-- **Templates, checklists and the fee calculator.** Use them during practice, and later in the office.
+- **Templates, checklists and the fee calculator.** The templates and the checklists are study material: read them next to the chapter that uses them. The fee calculator applies the tariff of chapter 24 to an amount.
 
 > [!law] The law changes
 > The law texts in the library come from lex.bg and show the date of retrieval and the last amendment in the source. Before you rely on a provision in a real case, check the official text in the State Gazette ({{Държавен вестник}}). Since 1 January 2026 the currency of Bulgaria is the euro. Amounts in leva in older acts count as euro at 1.95583 leva per euro ([[zvevro:11:2]], [[zvevro:12]]).
 
 > [!reform] A reform is under discussion in 2026
-> In August 2026 the Ministry of Justice published for public consultation a draft law against property fraud. It proposes, among other things, a central register of wills at the Notary Chamber, a public notice period before holographic wills are announced, a stricter procedure for ownership by prescription, and stricter rules for powers of attorney for real estate. The draft is not law. This course marks the topics that it would change.
+> In August 2026 the Ministry of Justice published for public consultation a draft law against property fraud. It proposes, among other things, the entry of announced wills in the information system of the Notary Chamber, a notice of each announced holographic will on the site of the Chamber with one month for objections, a stricter procedure for ownership by prescription, and stricter rules for powers of attorney for real estate. The draft is not law. This course marks the topics that it would change.
