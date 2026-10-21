@@ -57,12 +57,23 @@ const readText = (...path: string[]) => readFileSync(join(DATA, ...path), 'utf8'
 
 // ---- Law library -------------------------------------------------------------------------------
 
+/** A part of an HTML tag that the importer left in a law text, such as "./span>." */
+const HTML_REMNANT = /<\/?[a-z]+|\/span>/i;
+
 const catalog = readJson<LawCatalogEntry[]>('laws', 'catalog.json');
 const articlesByAct = new Map<string, Set<string>>();
 for (const entry of catalog) {
   const act = readJson<LawAct>('laws', 'acts', `${entry.id}.json`);
   const numbers = act.items.flatMap((item) => ('number' in item ? [item.number] : []));
   articlesByAct.set(entry.id, new Set(numbers));
+  for (const item of act.items) {
+    const texts = 'paragraphs' in item ? item.paragraphs : 'text' in item ? [item.text] : [];
+    if (texts.some((text) => HTML_REMNANT.test(text))) {
+      problems.push(
+        `laws/acts/${entry.id}.json: HTML left in ${'number' in item ? item.number : 'a heading'}`,
+      );
+    }
+  }
 }
 
 const translations = new Map<string, Set<string>>();

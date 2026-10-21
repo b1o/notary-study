@@ -19,7 +19,7 @@
   @if (groups().length) {
     <nav ncStickyBar class="glossary-letters" [attr.aria-label]="text.glossary.letters">
       @for (group of groups(); track group.letter) {
-        <a [routerLink]="[]" [fragment]="'letter-' + group.letter">{{ group.letter }}</a>
+        <a lang="bg" [routerLink]="[]" [fragment]="'letter-' + group.letter">{{ group.letter }}</a>
       }
     </nav>
   }

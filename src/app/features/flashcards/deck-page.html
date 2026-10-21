@@ -42,7 +42,7 @@
             </span>
             <span class="flashcard__turn">
               {{ text.flashcards.showAnswer }}
-              <kbd aria-hidden="true">Space</kbd>
+              <kbd aria-hidden="true">{{ text.flashcards.spaceKey }}</kbd>
             </span>
           </button>
           <div #back class="flashcard__face flashcard__back" tabindex="-1" [inert]="!flipped()">

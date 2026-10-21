@@ -54,6 +54,8 @@ FINAL_HEADING_RE = re.compile(
     re.I,
 )
 AMENDMENT_RE = re.compile(r"\((?:нов|изм|доп|отм|предиш|попр|загл|обн)[^()]*(?:\([^()]*\)[^()]*)*\)", re.I)
+# A closing tag that lost its "<", with the dot before it: "Чл. 574./span>." becomes "Чл. 574.".
+STRAY_TAG_RE = re.compile(r"\.?/span>")
 # Deepest heading level that the app shows (h2 to h5).
 MAX_HEADING_LEVEL = 4
 
@@ -79,11 +81,18 @@ def decode(raw):
 
 
 def clean_text(fragment):
-    """Turn an HTML fragment into a list of plain-text lines."""
+    """Turn an HTML fragment into a list of plain-text lines.
+
+    lex.bg sometimes leaves a closing tag without its "<" after an article number:
+
+    >>> clean_text('<p>Чл. 574./span>. Не могат</p>')
+    ['Чл. 574. Не могат']
+    """
     s = re.sub(r"(?is)<(script|style|ins)[^>]*>.*?</\1>", " ", fragment)
     s = re.sub(r"(?i)</t[dh]>", " | ", s)
     s = re.sub(r"(?i)<(br|/?div|/?p|/?tr|/?table)[^>]*>", "\n", s)
     s = re.sub(r"<[^>]+>", "", s)
+    s = STRAY_TAG_RE.sub("", s)
     s = html.unescape(s).replace(" ", " ")
     lines = []
     for line in s.split("\n"):

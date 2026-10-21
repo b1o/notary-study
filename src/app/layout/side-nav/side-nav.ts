@@ -42,7 +42,11 @@ export class SideNav {
   }));
 
   protected readonly languageChoices = computed<Choice<Language>[]>(() =>
-    LANGUAGES.map((language) => ({ value: language, label: this.ui().language[language] })),
+    LANGUAGES.map((language) => ({
+      value: language,
+      label: this.ui().language[language],
+      lang: language,
+    })),
   );
 
   private readonly url = toSignal(

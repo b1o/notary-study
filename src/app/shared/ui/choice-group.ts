@@ -4,6 +4,8 @@ import type { FormValueControl } from '@angular/forms/signals';
 export interface Choice<T extends string> {
   readonly value: T;
   readonly label: string;
+  /** The language of the label when it differs from the page: "Български" on an English page. */
+  readonly lang?: string;
 }
 
 /** Options with their labels, in the order of `values`. */
@@ -37,7 +39,7 @@ let nextGroup = 0;
               [checked]="choice.value === value()"
               (change)="value.set(choice.value)"
             />
-            <span>{{ choice.label }}</span>
+            <span [attr.lang]="choice.lang ?? null">{{ choice.label }}</span>
           </label>
         }
       </div>

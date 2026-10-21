@@ -11,6 +11,15 @@ export function formatDate(iso: string, language: Language): string {
   });
 }
 
+/** A date with the name of the month: "6 октомври 2023 г." or "6 October 2023". */
+export function formatLongDate(iso: string, language: Language): string {
+  return new Date(`${iso}T00:00:00`).toLocaleDateString(LOCALES[language], {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+
 /** A number as the reader's language writes it: "0,6" or "0.6". */
 export function formatNumber(value: number, language: Language): string {
   return value.toLocaleString(LOCALES[language]);

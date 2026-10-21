@@ -8,21 +8,26 @@
     }
   </p>
   <dl class="act-facts">
-    @if (act.inForce) {
+    @if (inForce(); as inForce) {
       <div>
         <dt>{{ text.inForce }}</dt>
-        <dd>{{ act.inForce }}</dd>
+        <dd>{{ date(inForce) }}</dd>
       </div>
     }
-    @if (act.lastChange) {
+    @if (lastIssue(); as issue) {
+      <div>
+        <dt>{{ issue.kind === 'published' ? text.published : text.lastChange }}</dt>
+        <dd>{{ text.gazette(issue.number, date(issue.date)) }}</dd>
+      </div>
+    } @else if (act.lastChange) {
       <div>
         <dt>{{ text.lastChange }}</dt>
-        <dd>{{ act.lastChange }}</dd>
+        <dd lang="bg">{{ act.lastChange }}</dd>
       </div>
     }
     <div>
       <dt>{{ text.retrieved }}</dt>
-      <dd>{{ act.retrieved }}</dd>
+      <dd>{{ date(act.retrieved) }}</dd>
     </div>
     <div>
       <dt>{{ text.source }}</dt>

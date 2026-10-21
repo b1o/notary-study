@@ -123,6 +123,8 @@ export interface UiText {
     readonly inForce: string;
     readonly published: string;
     readonly lastChange: string;
+    /** An issue of the State Gazette: "ДВ, бр. 84 от 6 октомври 2023 г.". */
+    readonly gazette: (issue: string, date: string) => string;
     readonly retrieved: string;
     readonly source: string;
     readonly contents: string;
@@ -179,6 +181,8 @@ export interface UiText {
     readonly learned: (count: number) => string;
     readonly hint: string;
     readonly showAnswer: string;
+    /** The name of the space bar on a key cap. */
+    readonly spaceKey: string;
     readonly again: string;
     readonly knewIt: string;
     readonly position: (index: number, total: number) => string;
