@@ -38,3 +38,5 @@ Facts verified. Rework 3 cards into calculation form (item 10 on a given amount;
 ## Fix status
 
 Pass 2: findings 2, 3, 5, 6 and 8 fixed (the prescription row, the gift base, the amounts of items 14–17 and 20, the Registry Agency tariff marked as outside the library); 1, 4 and 7 kept; "Tools menu" replaced.
+
+Pass 3 (commit 189f0ad): Q3 (right of use) and Q9 (gift tax) replaced by the item 9 calculation (a will for 28,000 euro) and the item 23 letter "д" double fee; cards 5, 7 and 14 as calculations. Measure after: unique longest EN 2/12, BG 3/12; case-like questions EN 5, BG 7; 14 cards per language; every explanation names the provision.

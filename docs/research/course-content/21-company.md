@@ -35,3 +35,5 @@ Facts verified. Rework 3 cards into case form (a transfer between partners; a pr
 ## Fix status
 
 Pass 2: findings 1, 2, 3 and 4 fixed; 5 kept.
+
+Pass 3 (commit 189f0ad): Q1 shortened to the decision of the general meeting; two questions added (articles that provide written form; Art. 21 item 9 ЗТРРЮЛНЦ); cards 1, 8 and 10 in case form. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 7, BG 7; 12 cards per language; every explanation names the provision.

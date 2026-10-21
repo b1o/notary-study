@@ -34,3 +34,5 @@ Facts verified. Rework 3 cards into case form (earnest money both ways, the leas
 ## Fix status
 
 Pass 2 (commit a129829): findings 1, 2, 3 and 4 fixed; the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 1/12, BG 4/12; case-like questions EN 8, BG 8; 15 cards per language; every explanation names the provision.

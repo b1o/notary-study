@@ -37,3 +37,5 @@ Facts verified. Rework 3 cards into calculation or case form (a spouse with thre
 ## Fix status
 
 Pass 2: findings 2, 3, 4, 5, 6, 7 and 9 fixed; the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above; Art. 36 ЗМДТ cited (translation added to laws/en/zmdt.json in commit 5857c51). Measure after: unique longest EN 3/12, BG 2/12; case-like questions EN 5, BG 5; 15 cards per language; every explanation names the provision.

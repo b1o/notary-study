@@ -40,3 +40,5 @@ Facts verified. Rework 4 cards into consequence form (liability limit as a case,
 ## Fix status
 
 Pass 2 (commit 976cca7): findings 1, 2, 5 and 6 fixed; 3 and 4 kept; 7: Art. 25(4) and (7) are repealed, so there is nothing to cite.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 3/12, BG 2/12; case-like questions EN 5, BG 4; 14 cards per language; every explanation names the provision.

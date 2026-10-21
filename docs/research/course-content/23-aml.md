@@ -38,3 +38,5 @@ Facts verified. Rework 3 cards into case form (a deputy mayor; a 4,000-euro cash
 ## Fix status
 
 Pass 2: findings 2, 4 and 6 fixed; the others kept.
+
+Pass 3 (commit 189f0ad): Q1, Q2 and Q12 shortened; Q3 (copy of the identity document) and Q9 (5 years) replaced by the Art. 11(1) item 7 and Art. 72(2) cases; cards 3, 9 and 14 in case form. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 3, BG 5; 14 cards per language; every explanation names the provision.

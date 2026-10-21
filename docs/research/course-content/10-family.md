@@ -34,3 +34,5 @@ Facts verified. Rework 3 cards into case form (a flat bought with premarital mon
 ## Fix status
 
 Pass 2 (commit a129829): findings 2, 3, 5, 6 and 8 fixed; the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 3/12, BG 2/12; case-like questions EN 8, BG 6; 15 cards per language; every explanation names the provision.

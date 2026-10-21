@@ -35,3 +35,5 @@ Facts verified. Rework 3 cards into "what follows" form (an assistant's deed; a 
 ## Fix status
 
 Pass 2 (commit a129829): finding 1 fixed (date and publisher); 2 verified (Art. 17а(2) item 1 ПЛЗП names notarial acts and certifications); 3–6 kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 0/12, BG 3/12; case-like questions EN 8, BG 7; 11 cards per language; every explanation names the provision.

@@ -37,3 +37,5 @@ Facts verified. Add two cards (the mayor's power; the Art. 37 form of a vehicle 
 ## Fix status
 
 Pass 2: findings 4 and 6 fixed (Art. 44(4) items 1–3 named); the others kept.
+
+Pass 3 (commit 189f0ad): two questions added (the fee for a car insured for 4,000 euro; Art. 144(3), a buyer without a Bulgarian address); two cards added (the Art. 37 form of a vehicle power; a power certified by a mayor, Art. 83(1) ЗННД); cards 3 and 9 in case form. Measure after: unique longest EN 3/12, BG 0/12; case-like questions EN 5, BG 4; 12 cards per language; every explanation names the provision.

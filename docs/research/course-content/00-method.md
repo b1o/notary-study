@@ -5,7 +5,7 @@ Date of the review: October 2026. Branch `claude/course-review-60eafa`, from `po
 ## What the review covers
 
 - 28 chapters in `public/data/chapters/{bg,en}`: the lesson (`.md`) and the objectives, cards and quiz (`.json`).
-- 324 questions and 359 cards per language. The glossary (`public/data/glossary.json`) only where a chapter depends on it.
+- 324 questions and 359 cards per language at the start; 336 questions and 364 cards after pass 3. The glossary (`public/data/glossary.json`) only where a chapter depends on it.
 - Not covered: `templates.json` and `checklists.json` (other sessions work there). A wrong checklist item goes into the notes of its chapter under "Report to the user".
 
 ## Sources, in this order
@@ -45,6 +45,22 @@ Date of the review: October 2026. Branch `claude/course-review-60eafa`, from `po
 | Recall-style cards | 116 (32 %) | 86 (24 %) |
 
 Per chapter the share of "unique longest" ranges from 40 % (19-vehicles) to 100 % (23-aml).
+
+### After pass 3 (commits 70a7410, 189f0ad, 5857c51)
+
+| Measure | EN | BG |
+| --- | --- | --- |
+| Questions | 336 | 336 |
+| Unique longest | 39 (12 %) | 38 (11 %) |
+| Longest or tie | 77 (23 %) | 70 (21 %) |
+| Mean length ratio | 0.99 | 1.00 |
+| Giveaway word | 56 | 47 |
+| Case-like | 144 | 142 |
+| Short explanation | 0 | 0 |
+| Cards | 364 | 364 |
+| Recall-style cards | 121 (33 %) | 71 (20 %) |
+
+Per chapter the share of "unique longest" is at most 33 % (14-deeds BG, 4 of 12; 28-cases EN, 4 of 14); 11 chapters in English and 12 in Bulgarian have none. `bun run check:content` now fails a chapter above a third. The "giveaway" count stays near the baseline because the measure counts any shared word of five letters, and a case question names the act (a power, a will, a mortgage) that the right option names too; a read of the flagged questions found no option that the question text alone identifies. The "recall-style" count follows the card fronts that start with "What is" or "Who", which the rewritten cards keep when the fact is a definition or a competence.
 
 ## Rules for a rewritten question
 

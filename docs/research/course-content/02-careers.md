@@ -41,3 +41,5 @@ Facts verified. Rework 4 cards into condition/consequence form (substitute requi
 ## Fix status
 
 Pass 2 (commit 976cca7): findings 1, 3, 4, 5 and 6 fixed; 2 and 7 kept. The lesson now names the case and the decision and says that the limit stays in the text in force; the outcome of the decision still needs a check by a person.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 1/12, BG 0/12; case-like questions EN 4, BG 5; 12 cards per language; every explanation names the provision.

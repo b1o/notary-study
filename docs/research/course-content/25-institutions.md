@@ -34,3 +34,5 @@ Facts verified. Add one card (the time stamp of Art. 84(5)); rework 3 into case 
 ## Fix status
 
 Pass 2: findings 2 and 3 fixed; the others kept.
+
+Pass 3 (commit 189f0ad): two questions added (Art. 65(3)–(4), the search by name; Art. 10–11 of the НБД ordinance); one card added (the time stamp of Art. 84(5)); Q10 distractors replaced; cards 2, 7 and 10 in case form. Measure after: unique longest EN 3/12, BG 3/12; case-like questions EN 3, BG 2; 12 cards per language; every explanation names the provision.

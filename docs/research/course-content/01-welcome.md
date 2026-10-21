@@ -39,3 +39,5 @@ Mostly recall with a provision; the facts are right. Card 8 (interpreter) is inc
 ## Fix status
 
 Pass 2 (commit 976cca7): findings 1, 2, 3, 4 (lesson), 6 and 8 fixed; 5, 7 and 9 kept. Pass 3: see the questions and cards tables.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 1/10, BG 1/10; case-like questions EN 4, BG 2; 10 cards per language; every explanation names the provision.

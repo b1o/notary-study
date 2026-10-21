@@ -31,3 +31,5 @@ Rework 3 cards into case form; add 2 cards (the oath; the clerk's answer to "whi
 ## Fix status
 
 Pass 2: finding 2 fixed (the statute, no separate code); the interpreter condition of Art. 582 added; the "small favour" bullet now separates the null certification (Art. 576) from the false date (Art. 580, a crime); the others kept.
+
+Pass 3 (commit 189f0ad): two questions added (Art. 23 ЗННД, a friend as a party; a bonus from an estate agent); two cards added (the oath; the clerk's answer); card 1 names the statute, not a code; cards 4, 7 and 8 in case form. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 6, BG 6; 12 cards per language; every explanation names the provision.

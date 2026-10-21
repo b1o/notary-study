@@ -37,3 +37,5 @@ Facts verified. Rework 3 cards into case form (a document signed at home; a copy
 ## Fix status
 
 Pass 2: findings 3 and 4 fixed; the euro amount of item 9 added; "Tools menu" replaced by "the menu" (the app has no Tools menu: the calculator sits in the Reference group); the others kept.
+
+Pass 3 (commit 189f0ad): Q1 shortened to four actions of equal form; Q4 replaced by the copy-of-a-copy case (Art. 591(1)); Q11 options as planned; three cards in case form (a document signed at home, a copy of a copy, a certified date and a new owner). Measure after: unique longest EN 0/12, BG 1/12; case-like questions EN 8, BG 8; 12 cards per language; every explanation names the provision.

@@ -39,3 +39,5 @@ Facts verified. Rework 4 cards into case form (witness exclusions, the end of a 
 ## Fix status
 
 Pass 2 (commit a129829): findings 4, 7 and 9 fixed; 2 and 3 verified against the items of Art. 13(1) ЗБЛД and Art. 3(2) of the ordinance; the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 3/12, BG 3/12; case-like questions EN 4, BG 5; 14 cards per language; every explanation names the provision.

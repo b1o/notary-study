@@ -33,3 +33,5 @@ Facts verified. Rework 3 cards into case form (an "irrevocable" power; a sub-age
 ## Fix status
 
 Pass 2: finding 2 fixed (the callout now states the trusted-person mechanism and the registry check); item 11 of Art. 9а marked "from 3 September 2027"; the others kept.
+
+Pass 3 (commit 189f0ad): Q2 reduced to "a power to sell does not cover a gift"; Q10 (consular officer) and Q12 (marriage contract) replaced by the Art. 41(2) bank case and the Art. 39(2) two-agents case; cards 5, 6 and 12 in case form. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 6, BG 8; 12 cards per language; every explanation names the provision.

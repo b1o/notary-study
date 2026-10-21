@@ -42,3 +42,5 @@ Facts verified. Card 11 ("Only the testator personally, with two witnesses") rea
 ## Fix status
 
 Pass 2 (commit a129829): findings 2, 3, 4 and 12 fixed; the others kept or verified.
+
+Pass 3 (commit 189f0ad): 14 questions kept; the distractors rewritten as near misses; every explanation gives the reason; card 11 reworded (the witnesses sign the note of the return); cards 5 and 12 as cases. Measure after: unique longest EN 4/14, BG 0/14; case-like questions EN 3, BG 5; 12 cards per language; every explanation names the provision.

@@ -35,3 +35,5 @@ Facts verified. Rework 3 cards into case form (a daughter-beneficiary as witness
 ## Fix status
 
 Pass 2: findings 1 and 2 fixed (items 1, 2, 9 and 13 with amounts in euro; the announcement fee added as step 6); the others kept.
+
+Pass 3 (commit 189f0ad): Q4 (3 days) and Q12 (France) replaced by the Art. 27(4) and Art. 42 cases; cards 3, 8 and 10 in case form. Measure after: unique longest EN 2/12, BG 2/12; case-like questions EN 4, BG 6; 12 cards per language; every explanation names the provision.

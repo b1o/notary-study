@@ -35,3 +35,5 @@ Facts verified. Rework 3 cards into case form (a minor at the door; a company wi
 ## Fix status
 
 Pass 2: findings 2, 5 and 6 fixed; the others kept.
+
+Pass 3 (commit 189f0ad): Q9 (copies of the protocol) and Q10 (deposit protocol) replaced by the Art. 50(4) and Art. 54 cases; three cards in case form (a minor at the door, a company without access, a refused invitation). Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 6, BG 5; 12 cards per language; every explanation names the provision.

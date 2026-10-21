@@ -34,3 +34,5 @@ Facts verified. Rework 3 cards into case form (a gift to a minor; a right of use
 ## Fix status
 
 Pass 2: findings 2, 3 and 4 fixed; the others kept. The gift-tax table gives rates only, so the base question of the polish-pass session (Art. 46(2) item 1: the tax assessment for a gift) needed no change here.
+
+Pass 3 (commit 189f0ad): Q1 (grandmother) replaced by the exchange tax case (Art. 47(2), 45(1)); Q10 rewritten as Art. 152 against three valid clauses; cards 3, 4 and 11 in case form. Measure after: unique longest EN 3/12, BG 1/12; case-like questions EN 7, BG 7; 14 cards per language; every explanation names the provision.

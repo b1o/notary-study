@@ -38,3 +38,5 @@ Definitional. Card 7 "Legal capacity vs capacity to act?" is not a question. Rew
 ## Fix status
 
 Pass 2 (commit 976cca7): findings 2, 3 and 4 fixed. Finding 1 stays open: Art. 130 ЗСВ is not in the extract, and a re-import needs the network (add "130" to the `include` list of `zsv` in `tools/laws.config.json` and run `python tools/import_laws.py zsv`). Finding 5 kept without a citation: the phrase "към министъра на правосъдието" was not located in the imported extracts. Finding 6 kept; 7 for pass 3.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above; Art. 33(2) ЗЗД cited (translation added to laws/en/zzd.json). Measure after: unique longest EN 2/12, BG 2/12; case-like questions EN 2, BG 1; 14 cards per language; every explanation names the provision.

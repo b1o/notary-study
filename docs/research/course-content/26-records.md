@@ -32,3 +32,5 @@ Facts verified. Rework 3 cards into case form.
 ## Fix status
 
 Pass 2: findings 3, 4 and 5 fixed; the others kept.
+
+Pass 3 (commit 189f0ad): two questions added (Art. 10(5), a case file for a 2019 will; Art. 25е ЗЗЛД, an heir); cards 3, 8 and 10 in case form. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 4, BG 2; 12 cards per language; every explanation names the provision.

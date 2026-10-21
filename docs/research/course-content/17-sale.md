@@ -39,3 +39,5 @@ Facts verified. Card 13 (distraint) has no provision; cite ГПК Art. 452–453
 ## Fix status
 
 Pass 2: findings 3, 4, 7 and 8 fixed; 2 verified (Art. 3(1) items 1–2 ЗОПБ: 10,000 лв., related payments added up); 6 kept (the table already names the Registry Agency tariff); "Tools menu" replaced by "the menu". Card 13 for pass 3.
+
+Pass 3 (commit 189f0ad): Q1 options of equal form; Q9 (7 days) and Q11 (sketch) replaced by the fee calculation for a 60,000-euro flat and the Art. 264(5) case; card 13 (distraint) cites Art. 452(2) and 453 ГПК, outside the library; cards 1, 5 and 13 in case form. Measure after: unique longest EN 1/12, BG 0/12; case-like questions EN 7, BG 8; 14 cards per language; every explanation names the provision.

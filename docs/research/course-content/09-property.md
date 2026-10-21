@@ -34,3 +34,5 @@ Facts verified. Rework 3 cards into case form (the race to entry, a reserved rig
 ## Fix status
 
 Pass 2 (commit a129829): findings 3 and 4 fixed; 5 verified (Art. 96(2) item 1 ЗННД: 90 % of the market price of the land); the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 0/12, BG 0/12; case-like questions EN 7, BG 9; 15 cards per language; every explanation names the provision.

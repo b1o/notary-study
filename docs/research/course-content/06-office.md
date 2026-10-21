@@ -41,3 +41,5 @@ Facts verified. Rework 4 cards into consequence form (the two-hour rule as a cas
 ## Fix status
 
 Pass 2 (commit a129829): findings 1, 5 and 10 fixed; the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 0/12, BG 2/12; case-like questions EN 4, BG 3; 16 cards per language; every explanation names the provision.

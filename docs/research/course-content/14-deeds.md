@@ -32,3 +32,5 @@ Facts verified. Rework 3 cards into case form (a deed signed at home; an unenter
 ## Fix status
 
 Pass 2: findings 2 and 3 fixed; the condition of Art. 582 ГПК (the notary does not know the language) added to the interpreter bullet; 4 kept; 5 for pass 3.
+
+Pass 3 (commit 189f0ad): Q2 adds the Art. 580 item 5 distractor; Q5, Q7 and Q10 explained; Q10 and Q11 equalised; Q12 cites Art. 587(3); three cards in case form (a deed signed at home, an unentered title, a correction after the entry). Measure after: unique longest EN 2/12, BG 4/12; case-like questions EN 3, BG 1; 12 cards per language; every explanation names the provision.

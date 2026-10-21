@@ -34,3 +34,5 @@ Facts verified. Rework 3 cards into case form (a will for a house in another dis
 ## Fix status
 
 Pass 2: findings 2 and 4 fixed; the others kept.
+
+Pass 3 (commit 189f0ad): questions and cards rewritten as planned above; the Bulgarian distractors lengthened after the length check. Measure after: unique longest EN 2/12, BG 0/12; case-like questions EN 4, BG 2; 12 cards per language; every explanation names the provision.

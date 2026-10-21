@@ -40,3 +40,5 @@ Facts verified. Rework 3 cards into case form (a protocol without certification;
 ## Fix status
 
 Pass 2: findings 1, 3, 4 and 6 fixed; 5 verified (Art. 97(1) item 2 ЗННД); the others kept.
+
+Pass 3 (commit 70a7410): questions and cards rewritten as planned above. Measure after: unique longest EN 0/12, BG 3/12; case-like questions EN 4, BG 4; 13 cards per language; every explanation names the provision.
