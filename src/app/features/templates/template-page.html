@@ -1,8 +1,9 @@
 @let text = ui();
 @if (template(); as template) {
-  <nc-page-layout main="reading">
+  <nc-page-layout>
     <nc-page-header
       pageHeader
+      class="no-print"
       [heading]="template.title.bg"
       headingLang="bg"
       [lead]="lang() === 'en' ? template.title.en : undefined"
@@ -14,26 +15,32 @@
 
     <div class="template-actions no-print">
       <nc-copy-button [text]="template.text" />
-      <nc-print-button />
     </div>
 
-    <nc-document-sheet [text]="template.text" [form]="templates.form(template)" />
+    <nc-document-sheet
+      [text]="template.text"
+      [form]="templates.form(template)"
+      [seal]="templates.seal()"
+      [paper]="template.paper ?? 'a4'"
+    />
 
-    @if (notes(); as notes) {
-      <section class="no-print">
-        <h2 class="section-title">{{ text.templates.notes }}</h2>
-        <nc-markdown-content [content]="notes" />
-      </section>
-    }
+    <div class="template-reading no-print">
+      @if (notes(); as notes) {
+        <section>
+          <h2 class="section-title">{{ text.templates.notes }}</h2>
+          <nc-markdown-content [content]="notes" />
+        </section>
+      }
 
-    @if (lang() === 'en' && template.translation) {
-      <details class="template-translation no-print">
-        <summary>{{ text.templates.translation }}</summary>
-        <pre class="document__text" lang="en">{{ template.translation }}</pre>
-      </details>
-    }
+      @if (lang() === 'en' && template.translation) {
+        <details class="template-translation">
+          <summary>{{ text.templates.translation }}</summary>
+          <pre class="document__text" lang="en">{{ template.translation }}</pre>
+        </details>
+      }
 
-    <nc-notice class="no-print">{{ text.templates.note }}</nc-notice>
+      <nc-notice>{{ text.templates.note }}</nc-notice>
+    </div>
   </nc-page-layout>
 } @else if (missing()) {
   <nc-missing-page />

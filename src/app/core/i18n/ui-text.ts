@@ -1,4 +1,5 @@
 import type { Language } from './language';
+import type { Paper } from '../content/content.models';
 import type { LawGroup } from '../laws/law.models';
 import type {
   LineSpacing,
@@ -165,6 +166,12 @@ export interface UiText {
     readonly note: string;
     readonly translation: string;
     readonly notes: string;
+    /** The paper and the number of pages: "A4 paper, 210 × 297 mm · 2 pages". */
+    readonly sheet: (paper: Paper, pages: number) => string;
+    /** Said when the page is too wide for the screen and the text flows. */
+    readonly flowing: string;
+    /** "Page 2 of 3 · back of sheet 1"; the side only for paper printed on both sides. */
+    readonly page: (page: number, count: number, twoSided: boolean) => string;
   };
   readonly checklists: {
     readonly lead: string;

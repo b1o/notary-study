@@ -104,9 +104,12 @@
   @include light-colors;
 
   /* Type. Golos Text for the interface and headings, Literata for long text and laws.
-     Both keep the standard Cyrillic letter forms when lang="bg". */
+     Both keep the standard Cyrillic letter forms when lang="bg". Tinos for the document
+     templates: it has the widths of Times New Roman, the font of the offices, so the lines and
+     the pages break as in a typed document. */
   --font-ui: 'Golos Text Variable', system-ui, sans-serif;
   --font-serif: 'Literata Variable', Georgia, serif;
+  --font-document: 'Tinos', 'Times New Roman', serif;
   --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
   --font-reading: var(--font-serif);
   --font-law: var(--font-reading);

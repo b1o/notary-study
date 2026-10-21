@@ -13,6 +13,7 @@
         "@angular/router": "^22.2.0",
         "@fontsource-variable/golos-text": "^5.3.0",
         "@fontsource-variable/literata": "^5.3.0",
+        "@fontsource/tinos": "^5.3.0",
         "marked": "^18.1.1",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0",
@@ -200,6 +201,8 @@
     "@fontsource-variable/golos-text": ["@fontsource-variable/golos-text@5.3.0", "", {}, "sha512-D+Evz5yqXYh6tsalc537FS+cPDWn2FTdO8j/K1ZZuFAvA7ib6WnusTiihciq7mMnm6GBo6XTlh0JXPrhBsam2g=="],
 
     "@fontsource-variable/literata": ["@fontsource-variable/literata@5.3.0", "", {}, "sha512-1Jw7xvOcoGyB83lxB2nG4bfNbqtX2/TTbdh9sHAOmU064SvmSdulDtA5RBu5JYWf64fdaKX7xU+z3GO1T2bCHA=="],
+
+    "@fontsource/tinos": ["@fontsource/tinos@5.3.0", "", {}, "sha512-VVDyyZdbcsLKxo/W7rClAvacD/7DsGc7J5xzzp51Tndib8kDkEe/0bqbb3Xb3iH6+IUjt07aRsvtQ9MGeGGi4w=="],
 
     "@harperfast/extended-iterable": ["@harperfast/extended-iterable@1.0.5", "", {}, "sha512-4ScXlphaKEa49RpHmqwATq9QI9aUTdWVYDlJkzxhsD7ShJP+pHCYLznMO9n/wREY8jPjRZ59wLJY6HM5yB5Gkw=="],
 

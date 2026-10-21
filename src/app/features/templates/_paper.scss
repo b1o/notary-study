@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+/*
+ * Lengths on the paper of a template. The text on paper is 12 pt; the lengths inside a page are in
+ * em of that text, so that a page whose text flows on a narrow screen keeps its proportions at the
+ * reader's text size. Only functions: this file writes no CSS.
+ */
+
+/* A length on the paper in millimetres, as em of the 12 pt text (12 pt = 4.2333 mm). */
+@function mm($value) {
+  @return math.div($value, 4.2333) * 1em;
+}
+
+/* A font size in points, as em of the 12 pt text. */
+@function pt($value) {
+  @return math.div($value, 12) * 1em;
+}

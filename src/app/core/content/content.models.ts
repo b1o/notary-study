@@ -76,11 +76,31 @@ export interface DocumentForm {
   readonly boxes: readonly FormBox[];
 }
 
+/** The text of the notary's seal (Ordinance No. 32 Art. 14(1)), with blanks for the notary. */
+export interface NotarySeal {
+  /** What the drawing is, for a screen reader: "печат". */
+  readonly name: string;
+  /** The upper half of the ring: "НОТАРИУС № [...]". */
+  readonly upper: string;
+  /** The lower half of the ring: "РЕПУБЛИКА БЪЛГАРИЯ". */
+  readonly lower: string;
+  /** The lines in the centre: the name, "Район на действие", the court. */
+  readonly centre: readonly string[];
+}
+
+/**
+ * The paper of a document: an A4 sheet (Ordinance No. 32 Art. 18(1)), or the envelope of a
+ * deposited will, on which the notary writes the protocol (Закон за наследството Art. 25(2)).
+ */
+export type Paper = 'a4' | 'envelope';
+
 export interface DocumentTemplate {
   readonly id: string;
   readonly group: string;
   /** The form that the document is printed on, if it has one. */
   readonly form?: string;
+  /** The paper, when it is not A4. */
+  readonly paper?: Paper;
   readonly title: Localized;
   readonly use: Localized;
   readonly refs: readonly string[];
@@ -96,6 +116,7 @@ export interface DocumentTemplate {
 export interface TemplateLibrary {
   readonly groups: readonly TemplateGroup[];
   readonly forms: readonly DocumentForm[];
+  readonly seal: NotarySeal;
   readonly templates: readonly DocumentTemplate[];
 }
 

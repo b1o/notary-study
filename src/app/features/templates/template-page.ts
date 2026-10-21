@@ -12,10 +12,13 @@ import { CopyButton } from '../../shared/ui/copy-button';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
 import { Notice } from '../../shared/ui/notice';
-import { PrintButton } from '../../shared/ui/print-button';
 import { DocumentSheet } from './document-sheet';
 
-/** One document template: the Bulgarian text as a sheet, the notes and the English translation. */
+/**
+ * One document template: the Bulgarian text on its pages, the notes and the English translation.
+ * The page uses the full column, so that an A4 page fits; the text around it keeps the reading
+ * measure. The templates are for viewing and study, so the page has no Print button.
+ */
 @Component({
   selector: 'nc-template-page',
   imports: [
@@ -24,7 +27,6 @@ import { DocumentSheet } from './document-sheet';
     MissingPage,
     LawRefs,
     CopyButton,
-    PrintButton,
     MarkdownContent,
     Notice,
     LoadStatus,

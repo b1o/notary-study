@@ -4,6 +4,7 @@ import { computed, Service } from '@angular/core';
 import type {
   DocumentForm,
   DocumentTemplate,
+  NotarySeal,
   TemplateGroup,
   TemplateLibrary,
 } from '../content/content.models';
@@ -33,4 +34,9 @@ export class TemplatesService {
     if (!template.form || !this.resource.hasValue()) return undefined;
     return this.resource.value().forms.find((form) => form.id === template.form);
   }
+
+  /** The text of the notary's seal, the same on every template. */
+  readonly seal = computed<NotarySeal | undefined>(() =>
+    this.resource.hasValue() ? this.resource.value().seal : undefined,
+  );
 }
