@@ -24,5 +24,10 @@ export const routes: Routes = [
     path: 'checklists/:checklistId',
     loadComponent: () => import('./features/checklists/checklist-page'),
   },
+  { path: 'flashcards', loadComponent: () => import('./features/flashcards/decks-page') },
+  { path: 'flashcards/:deck', loadComponent: () => import('./features/flashcards/deck-page') },
+  { path: 'tests', loadComponent: () => import('./features/tests/tests-page') },
+  { path: 'tests/:chapterId', loadComponent: () => import('./features/tests/chapter-test-page') },
+  { path: 'exam', loadComponent: () => import('./features/tests/exam-page') },
   { path: '**', loadComponent: () => import('./features/not-found/not-found-page') },
 ];

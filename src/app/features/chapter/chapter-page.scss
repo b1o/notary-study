@@ -27,6 +27,12 @@
   margin-block-start: var(--space-8);
 }
 
+.chapter-foot__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
 .chapter-foot .step-links {
   inline-size: 100%;
 }

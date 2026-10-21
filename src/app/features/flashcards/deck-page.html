@@ -1,0 +1,74 @@
+@let text = ui();
+@if (missing()) {
+  <nc-missing-page />
+} @else {
+  <nc-page-layout main="reading">
+    <nc-page-header
+      pageHeader
+      [heading]="title()"
+      [lead]="text.flashcards.hint"
+      [back]="{ label: text.nav.flashcards, link: '/flashcards' }"
+    />
+
+    <nc-load-status [resource]="cards" />
+
+    @if (cards.hasValue()) {
+      @if (card(); as card) {
+        <ul class="meta-list deck-position" aria-live="polite">
+          <li>{{ text.flashcards.position(position() + 1, total()) }}</li>
+          <li>{{ card.box ? text.flashcards.box(card.box) : text.flashcards.newCard }}</li>
+          @if (card.chapterNumber) {
+            <li>{{ text.chapter.number(card.chapterNumber) }}</li>
+          }
+        </ul>
+
+        <article class="flashcard">
+          <div class="flashcard__front" [attr.lang]="card.frontLang ?? null">
+            <nc-markdown-content inline [content]="card.frontHtml" />
+          </div>
+          @if (flipped()) {
+            <div class="flashcard__back">
+              <nc-markdown-content [content]="card.backHtml" />
+            </div>
+          }
+        </article>
+
+        <div class="flashcard-actions">
+          @if (flipped()) {
+            <button type="button" class="button" (click)="grade(false)">
+              {{ text.flashcards.again }}
+            </button>
+            <button type="button" class="button button--primary" (click)="grade(true)">
+              {{ text.flashcards.knewIt }}
+            </button>
+          } @else {
+            <button type="button" class="button button--primary" (click)="flipped.set(true)">
+              {{ text.flashcards.showAnswer }}
+            </button>
+          }
+        </div>
+      } @else if (total()) {
+        <div class="deck-end">
+          <p>{{ text.flashcards.deckDone }}</p>
+          <button type="button" class="button button--primary" (click)="restart()">
+            {{ text.flashcards.restart }}
+          </button>
+        </div>
+      } @else {
+        <p class="deck-end">{{ text.flashcards.deckEmpty }}</p>
+      }
+
+      <ol class="row-list boxes">
+        @for (count of boxes(); track $index) {
+          <li class="box">
+            <span class="box__count">{{ count }}</span>
+            <span class="box__label">{{
+              $index ? text.flashcards.box($index) : text.flashcards.newCard
+            }}</span>
+          </li>
+        }
+      </ol>
+      <p class="boxes-note">{{ text.flashcards.boxes }}</p>
+    }
+  </nc-page-layout>
+}

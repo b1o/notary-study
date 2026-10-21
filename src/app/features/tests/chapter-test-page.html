@@ -1,0 +1,44 @@
+@let text = ui();
+@if (chapter(); as chapter) {
+  <nc-page-layout main="reading">
+    <nc-page-header
+      pageHeader
+      [heading]="text.tests.chapterTest"
+      [lead]="text.tests.chapterTestIntro(items().length, passMark)"
+      [back]="{
+        label: chapter.number + '. ' + chapter.title[lang()],
+        link: ['/course', chapter.id],
+      }"
+    />
+
+    <nc-load-status [resource]="data" />
+
+    @if (items().length) {
+      <nc-quiz-runner
+        [items]="items()"
+        mode="learn"
+        [passMark]="passMark"
+        [messages]="{ passed: text.tests.passed, failed: text.tests.failed }"
+        (finished)="record($event)"
+      >
+        <ng-container ngProjectAs="[quizActions]">
+          <button type="button" class="button" (click)="retry()">{{ text.tests.retry }}</button>
+          <a class="button" [routerLink]="['/course', chapter.id]">{{
+            text.tests.backToChapter
+          }}</a>
+          @if (passed() && nextChapter(); as next) {
+            <a class="button button--primary" [routerLink]="['/course', next.id]">
+              {{ text.chapter.next }}: {{ next.title[lang()] }}
+            </a>
+          }
+        </ng-container>
+      </nc-quiz-runner>
+    }
+  </nc-page-layout>
+} @else if (missing()) {
+  <nc-missing-page />
+} @else {
+  <nc-page-layout>
+    <nc-load-status [resource]="content.manifest" />
+  </nc-page-layout>
+}

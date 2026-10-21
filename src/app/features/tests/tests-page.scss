@@ -1,0 +1,31 @@
+.exam {
+  max-inline-size: 40rem;
+  margin-block-end: var(--space-8);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-2);
+}
+
+.exam__intro {
+  margin: 0 0 var(--space-4);
+  color: var(--color-ink-2);
+}
+
+.exam__history-title {
+  margin: var(--space-5) 0 var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 650;
+}
+
+.exam__history li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-block: var(--space-1);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.exam__failed {
+  color: var(--color-ink-2);
+}

@@ -1,0 +1,41 @@
+@let text = ui();
+<nc-page-layout>
+  <nc-page-header pageHeader [heading]="text.nav.tests" [lead]="text.tests.lead" />
+
+  <section class="exam">
+    <h2 class="section-title">{{ text.tests.finalExam }}</h2>
+    <p class="exam__intro">{{ text.tests.examIntro(examSize, examPassMark) }}</p>
+    <a class="button button--primary" routerLink="/exam">{{ text.tests.startExam }}</a>
+
+    @if (attempts().length) {
+      <h3 class="exam__history-title">{{ text.tests.history }}</h3>
+      <ul class="row-list exam__history">
+        @for (attempt of attempts(); track attempt.at) {
+          <li>
+            <span>{{ attempt.date }}</span>
+            @if (attempt.score >= examPassMark) {
+              <span class="done-mark"><nc-icon name="check" />{{ attempt.score }}%</span>
+            } @else {
+              <span class="exam__failed">{{ attempt.score }}%</span>
+            }
+          </li>
+        }
+      </ul>
+    }
+  </section>
+
+  <h2 class="section-title">{{ text.tests.chapterTests }}</h2>
+  <nc-load-status [resource]="content.manifest" />
+  <nc-chapter-list [parts]="content.outline()" [link]="testLink" [summaries]="false">
+    <ng-template ncChapterRowEnd let-chapter>
+      @let best = progress.bestScore(chapter.id);
+      @if (best === undefined) {
+        <span>{{ text.tests.notTaken }}</span>
+      } @else if (best >= chapterPassMark) {
+        <span class="done-mark"><nc-icon name="check" />{{ text.tests.bestScore(best) }}</span>
+      } @else {
+        <span>{{ text.tests.bestScore(best) }}</span>
+      }
+    </ng-template>
+  </nc-chapter-list>
+</nc-page-layout>

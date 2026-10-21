@@ -1,0 +1,113 @@
+@let text = ui().tests;
+@if (!done()) {
+  @if (current(); as current) {
+    <div class="quiz-progress">
+      <span>{{ text.question(index() + 1, items().length) }}</span>
+      <progress [value]="index()" [max]="items().length"></progress>
+    </div>
+
+    <fieldset class="question" [disabled]="checked()">
+      <legend class="question__text" #question tabindex="-1">
+        <nc-markdown-content inline [content]="current.questionHtml" />
+      </legend>
+      @for (option of current.optionsHtml; track $index) {
+        <label
+          class="option"
+          [class.option--right]="checked() && $index === current.item.answer"
+          [class.option--wrong]="
+            checked() && $index === selected() && $index !== current.item.answer
+          "
+        >
+          <input
+            type="radio"
+            name="quiz-option"
+            [checked]="selected() === $index"
+            (change)="selected.set($index)"
+          />
+          <nc-markdown-content inline [content]="option" />
+        </label>
+      }
+    </fieldset>
+
+    @if (checked()) {
+      <div
+        class="feedback"
+        [class.feedback--right]="selected() === current.item.answer"
+        role="status"
+      >
+        <p>
+          <strong>{{ selected() === current.item.answer ? text.correct : text.wrong }}</strong
+          >&ngsp;
+          <nc-markdown-content inline [content]="current.explanationHtml" />
+        </p>
+        <nc-law-refs [refs]="current.item.refs" />
+      </div>
+    }
+
+    <div class="quiz-actions">
+      @if (checked()) {
+        <button type="button" class="button button--primary" (click)="next()">
+          {{ isLast() ? text.finish : text.next }}
+        </button>
+      } @else {
+        <button
+          type="button"
+          class="button button--primary"
+          [disabled]="selected() === undefined"
+          (click)="answer()"
+        >
+          @if (mode() === 'learn') {
+            {{ text.check }}
+          } @else {
+            {{ isLast() ? text.finish : text.next }}
+          }
+        </button>
+      }
+    </div>
+  }
+} @else {
+  <section class="result" [class.result--passed]="passed()" role="status">
+    <p class="result__score">{{ score() }}%</p>
+    <p class="result__text">
+      {{ text.score(rightCount(), items().length) }}.
+      {{ passed() ? messages().passed : messages().failed }}
+    </p>
+    <div class="result__actions">
+      <ng-content select="[quizActions]" />
+    </div>
+  </section>
+
+  @if (mistakes().length) {
+    <section class="mistakes">
+      <h2 class="section-title">{{ text.mistakes }}</h2>
+      <ol class="mistakes__list">
+        @for (mistake of mistakes(); track $index) {
+          <li class="mistake">
+            <p class="mistake__question">
+              <nc-markdown-content inline [content]="mistake.questionHtml" />
+            </p>
+            <p class="mistake__answer mistake__answer--yours">
+              {{ text.yourAnswer }}:
+              <nc-markdown-content inline [content]="mistake.yourAnswerHtml" />
+            </p>
+            <p class="mistake__answer mistake__answer--right">
+              {{ text.rightAnswer }}:
+              <nc-markdown-content inline [content]="mistake.rightAnswerHtml" />
+            </p>
+            <p class="mistake__explanation">
+              <nc-markdown-content inline [content]="mistake.explanationHtml" />
+            </p>
+            <p class="mistake__links">
+              <nc-law-refs [refs]="mistake.item.refs" />
+              @if (mode() === 'exam' && mistake.chapter; as chapter) {
+                <a [routerLink]="['/course', chapter.id]">{{
+                  ui().chapter.number(chapter.number)
+                }}</a>
+              }
+            </p>
+          </li>
+        }
+      </ol>
+    </section>
+  }
+}

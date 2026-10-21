@@ -41,16 +41,28 @@
     }
 
     <footer class="chapter-foot">
-      <button
-        type="button"
-        class="button"
-        [class.button--success]="isRead()"
-        [attr.aria-pressed]="isRead()"
-        (click)="toggleRead()"
-      >
-        <nc-icon name="check" />
-        {{ isRead() ? text.chapter.read : text.chapter.markRead }}
-      </button>
+      <div class="chapter-foot__actions">
+        <button
+          type="button"
+          class="button"
+          [class.button--success]="isRead()"
+          [attr.aria-pressed]="isRead()"
+          (click)="toggleRead()"
+        >
+          <nc-icon name="check" />
+          {{ isRead() ? text.chapter.read : text.chapter.markRead }}
+        </button>
+        <a class="button" [routerLink]="['/tests', chapter.id]">
+          <nc-icon name="test" />{{ text.chapter.test }}
+          @let best = bestScore();
+          @if (best !== undefined) {
+            ({{ text.tests.bestScore(best) }})
+          }
+        </a>
+        <a class="button" [routerLink]="['/flashcards', chapter.id]">
+          <nc-icon name="cards" />{{ text.chapter.flashcards }}
+        </a>
+      </div>
 
       <nav class="step-links" [attr.aria-label]="text.nav.contents">
         @if (neighbours().previous; as previous) {

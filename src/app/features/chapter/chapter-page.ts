@@ -54,6 +54,7 @@ export default class ChapterPage {
   });
   protected readonly neighbours = computed(() => this.content.neighbours(this.chapterId()));
   protected readonly isRead = computed(() => this.progress.isRead(this.chapterId()));
+  protected readonly bestScore = computed(() => this.progress.bestScore(this.chapterId()));
 
   /** The chapter and the language whose files to load. */
   private readonly files = computed(() => {

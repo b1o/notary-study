@@ -39,6 +39,12 @@ export const APP_SECTIONS: readonly AppSection[] = [
     path: '/checklists',
   },
   { label: 'fees', hint: 'feesHint', icon: 'calculator', group: 'reference' },
-  { label: 'tests', hint: 'testsHint', icon: 'test', group: 'study' },
-  { label: 'flashcards', hint: 'flashcardsHint', icon: 'cards', group: 'study' },
+  { label: 'tests', hint: 'testsHint', icon: 'test', group: 'study', path: '/tests' },
+  {
+    label: 'flashcards',
+    hint: 'flashcardsHint',
+    icon: 'cards',
+    group: 'study',
+    path: '/flashcards',
+  },
 ];
