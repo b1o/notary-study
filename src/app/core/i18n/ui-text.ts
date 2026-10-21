@@ -243,7 +243,12 @@ export interface UiText {
     readonly rateOutside: (min: string, max: string) => string;
     readonly price: string;
     readonly assessment: string;
+    readonly propertyHint: string;
+    readonly landValue: string;
+    readonly rightPrice: string;
+    readonly rightAssessment: string;
     readonly buildingHint: string;
+    readonly ownershipHint: string;
     readonly securedAmount: string;
     readonly insuredValue: string;
     readonly agreedPrice: string;

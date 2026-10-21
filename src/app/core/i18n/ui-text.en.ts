@@ -244,10 +244,17 @@ export const UI_TEXT_EN: UiText = {
     taxKind: 'Type of acquisition',
     taxRate: 'Rate of the municipality, %',
     rateOutside: (min, max) => `The law allows ${min}–${max}%. The bill uses the nearest limit.`,
-    price: 'Agreed price, €',
+    price: 'Price, or the market value for a gift, €',
     assessment: 'Tax assessment (данъчна оценка), €',
+    propertyHint:
+      'The notarial fee uses this amount, or the tax assessment if it is higher (Art. 96 ЗННД). The tax on a sale uses the same; the tax on a gift uses the tax assessment only (Art. 46(2) ЗМДТ).',
+    landValue: 'Market value of the land, €',
+    rightPrice: 'Agreed price of the building right, €',
+    rightAssessment: 'Tax assessment of the building right, €',
     buildingHint:
-      'For a building right the material interest is 90% of the market price of the land (Art. 96(2) ЗННД). Enter the land value.',
+      'The notarial fee uses 90% of the market value of the land (Art. 96(2) ЗННД), or the price or the tax assessment of the right if it is higher (Art. 96(3) and 97(3) ЗННД). The tax uses the price of the right, or its tax assessment if it is higher (Art. 46(2) ЗМДТ).',
+    ownershipHint:
+      'The notarial fee uses the market value, or the tax assessment if it is higher (Art. 96 ЗННД). The tax uses the tax assessment, at the rate of a gift to other persons (Art. 44(3), 46(2) and 47(1) ЗМДТ).',
     securedAmount: 'Secured amount (loan), €',
     insuredValue: 'Insured value of the vehicle, €',
     agreedPrice: 'Agreed price, €',
@@ -273,7 +280,9 @@ export const UI_TEXT_EN: UiText = {
       'Who pays: for a sale of real estate the parties pay the costs of the contract equally, unless they agree otherwise; for other sales the buyer pays ([[zzd:186]]). The acquirer pays the local tax unless agreed otherwise ([[zmdt:45]]).',
     howItWorks: `## How the calculator works
 - The tariff states amounts in leva. The calculator converts the material interest into leva at 1.95583, applies the tariff, and converts the result back into euro. Offices can show differences of a few cents.
-- For real estate, the material interest is the higher of the agreed price and the tax assessment ([[znnd:96:3]], [[zmdt:46:2]]).
+- For real estate, the material interest is the higher of the agreed price and the tax assessment ([[znnd:96:3]], [[zmdt:46:2]]). For a gift, enter the market value as the price ([[znnd:96:1]]).
+- The tax on a sale uses the same amount. A gift or an acquisition by prescription has no agreed price, so the tax uses the tax assessment only ([[zmdt:46:2]]). Prescription pays the tax of a gift between other persons ([[zmdt:44:3]], [[zmdt:47:1]]).
+- For a building right, the material interest is 90% of the market value of the land ([[znnd:96:2]]), or the price or the tax assessment of the right if it is higher. The tax uses the price of the right, not the land.
 - For a vehicle, the material interest is the value for which the vehicle is insured ([[znnd:97:1]]), or the agreed price if it is higher ([[znnd:97:3]]).
 - The additional fee for work outside the office follows item 23 of the tariff ([[tarifa:23]]). [[znnd:95:2]] states a total of one half of the fee. Ask the notary which rule the office applies.
 - The tax is paid to the municipality where the property is ([[zmdt:49]]). Each municipality fixes its own rate in its ordinance. Check the rate before you quote a total to a client.`,
