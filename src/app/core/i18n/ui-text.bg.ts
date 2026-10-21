@@ -171,8 +171,6 @@ export const UI_TEXT_BG: UiText = {
     notes: 'Бележки',
     sheet: (paper, pages) =>
       `${paper === 'envelope' ? 'Плик C5, 229 × 162 мм' : 'Хартия A4, 210 × 297 мм'} · ${pages === 1 ? '1 страница' : `${pages} страници`}`,
-    flowing:
-      'Страницата е по-широка от екрана, затова текстът се пренарежда. Страниците се разделят както при печат.',
     page: (page, count, twoSided) =>
       `Страница ${page} от ${count}` +
       (twoSided ? ` · ${page % 2 ? 'лице' : 'гръб'} на лист ${Math.ceil(page / 2)}` : ''),
@@ -294,7 +292,5 @@ export const UI_TEXT_BG: UiText = {
     notFound: 'Тази страница не съществува.',
     goHome: 'Към началото',
     print: 'Печат',
-    copy: 'Копирай текста',
-    copied: 'Копирано',
   },
 };

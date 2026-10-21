@@ -5,7 +5,7 @@
  *
  * Positions count the visible pieces in reading order: one for each character of text, one for a
  * box to tick, one for each piece of a dotted line. The brackets of a blank have no position:
- * they are there only for screen readers and for a copy.
+ * they are there only for screen readers.
  */
 
 import { blankSize, isEmptyHint } from './blank-size';

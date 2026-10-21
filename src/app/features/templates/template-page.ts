@@ -8,7 +8,6 @@ import { LawRefs } from '../../shared/law/law-refs';
 import { MissingPage } from '../../shared/layout/missing-page';
 import { PageHeader } from '../../shared/layout/page-header';
 import { PageLayout } from '../../shared/layout/page-layout';
-import { CopyButton } from '../../shared/ui/copy-button';
 import { LoadStatus } from '../../shared/ui/load-status';
 import { MarkdownContent } from '../../shared/ui/markdown-content';
 import { Notice } from '../../shared/ui/notice';
@@ -17,7 +16,7 @@ import { DocumentSheet } from './document-sheet';
 /**
  * One document template: the Bulgarian text on its pages, the notes and the English translation.
  * The page uses the full column, so that an A4 page fits; the text around it keeps the reading
- * measure. The templates are for viewing and study, so the page has no Print button.
+ * measure. The templates are for viewing and study, so the page has no Print or Copy button.
  */
 @Component({
   selector: 'nc-template-page',
@@ -26,7 +25,6 @@ import { DocumentSheet } from './document-sheet';
     PageHeader,
     MissingPage,
     LawRefs,
-    CopyButton,
     MarkdownContent,
     Notice,
     LoadStatus,

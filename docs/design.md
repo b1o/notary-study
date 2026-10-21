@@ -49,7 +49,7 @@ you change content or design.
 | 2026-10-21 | Law text in Bulgarian or English, not both at once. It follows the interface language until the reader picks one. |
 | 2026-10-21 | Tests and the exam show right and wrong only at the end, with a review of all answers.                            |
 | 2026-10-21 | Checklists have no ticks to save. They are examples of a typical flow and say so.                                 |
-| 2026-10-21 | Templates are for viewing and study: no print button. They follow the standards of the real document.             |
+| 2026-10-21 | Templates are for viewing and study: no print or copy button. They follow the standards of the real document.     |
 | 2026-10-21 | Templates are A4 pages at the real size, after the standards in `docs/research/templates`.                        |
 | 2026-10-21 | A template page shrinks to fit the column, never below its real size; then its text flows.                        |
 | 2026-10-21 | The paper of a template follows the theme; print is always black on white.                                        |

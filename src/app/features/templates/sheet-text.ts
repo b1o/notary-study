@@ -6,7 +6,7 @@ import type { SheetLine } from '../../core/reference/sheet-line';
 /**
  * One line of a template on the sheet: its text, its blanks with their dotted lines, and its boxes
  * to tick. Each visible piece carries its position (data-at), so that the sheet can find where a
- * line on the page starts. A blank keeps its brackets for screen readers and for a copy.
+ * line on the page starts. A blank keeps its brackets for screen readers.
  * Angular drops the white space between the elements, so the parts join without spaces.
  */
 @Component({

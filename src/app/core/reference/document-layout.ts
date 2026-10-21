@@ -1,6 +1,6 @@
 /**
- * The layout of a document template. A template is plain text, so that it can be copied as it is;
- * this file finds its parts, so that the page can set it like the paper document:
+ * The layout of a document template. A template is plain text, as it is typed; this file finds its
+ * parts, so that the page can set it like the paper document:
  *
  *   НОТАРИАЛЕН АКТ                        title: the first block; its next lines are the subtitle
  *   за покупко-продажба на недвижим имот

@@ -5,10 +5,11 @@
  * paper; the lengths inside it are in em of its 12 pt text (paper.scss).
  */
 
+/* The page header above keeps its own space to the sheet. */
 :host {
   position: relative;
   display: block;
-  margin-block: var(--space-6);
+  margin-block-end: var(--space-6);
   font-size: var(--reading-size);
 }
 

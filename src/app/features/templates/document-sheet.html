@@ -59,12 +59,7 @@
 @let pageList = pages();
 @let text = ui().templates;
 @if (pageList.length) {
-  <div class="sheet-caption">
-    <p>{{ text.sheet(paper(), pageList.length) }}</p>
-    @if (flowing()) {
-      <p>{{ text.flowing }}</p>
-    }
-  </div>
+  <p class="sheet-caption">{{ text.sheet(paper(), pageList.length) }}</p>
 }
 
 <div

@@ -171,8 +171,6 @@ export const UI_TEXT_EN: UiText = {
     notes: 'Notes',
     sheet: (paper, pages) =>
       `${paper === 'envelope' ? 'C5 envelope, 229 × 162 mm' : 'A4 paper, 210 × 297 mm'} · ${pages === 1 ? '1 page' : `${pages} pages`}`,
-    flowing:
-      'The page is wider than the screen, so the text flows. The pages break where the printed pages do.',
     page: (page, count, twoSided) =>
       `Page ${page} of ${count}` +
       (twoSided ? ` · ${page % 2 ? 'front' : 'back'} of sheet ${Math.ceil(page / 2)}` : ''),
@@ -292,7 +290,5 @@ export const UI_TEXT_EN: UiText = {
     notFound: 'This page does not exist.',
     goHome: 'Go to the home page',
     print: 'Print',
-    copy: 'Copy the text',
-    copied: 'Copied',
   },
 };
