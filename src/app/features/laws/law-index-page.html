@@ -1,5 +1,5 @@
 @let text = ui().law;
-<div class="page">
+<div class="page page--wide">
   <header class="library-head">
     <h1 class="page-title">{{ text.library }}</h1>
     <p class="page-lead">{{ text.libraryIntro }}</p>
@@ -27,25 +27,27 @@
 
   <nc-load-status [resource]="laws.catalog" />
 
-  @for (entry of groups(); track entry.group) {
-    <section class="law-group">
-      <h2 class="section-title">{{ text.groups[entry.group] }}</h2>
-      <ul class="act-list">
-        @for (act of entry.acts; track act.id) {
-          <li>
-            <a class="act-row" [routerLink]="['/laws', act.id]">
-              <span class="act-row__abbr" lang="bg">{{ act.abbr }}</span>
-              <span class="act-row__title">{{ act.title[lang()] }}</span>
-              <span class="act-row__meta">
-                <span>{{ text.articles(act.articles) }}</span>
-                @if (act.partial) {
-                  <span class="badge">{{ text.extract }}</span>
-                }
-              </span>
-            </a>
-          </li>
-        }
-      </ul>
-    </section>
-  }
+  <div class="law-groups">
+    @for (entry of groups(); track entry.group) {
+      <section class="law-group">
+        <h2 class="section-title">{{ text.groups[entry.group] }}</h2>
+        <ul class="act-list">
+          @for (act of entry.acts; track act.id) {
+            <li>
+              <a class="act-row" [routerLink]="['/laws', act.id]">
+                <span class="act-row__abbr" lang="bg">{{ act.abbr }}</span>
+                <span class="act-row__title">{{ act.title[lang()] }}</span>
+                <span class="act-row__meta">
+                  <span>{{ text.articles(act.articles) }}</span>
+                  @if (act.partial) {
+                    <span class="badge">{{ text.extract }}</span>
+                  }
+                </span>
+              </a>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+  </div>
 </div>

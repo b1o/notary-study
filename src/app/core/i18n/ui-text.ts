@@ -141,6 +141,7 @@ export interface UiText {
     readonly citedNowhere: string;
     readonly glossary: string;
     readonly resize: string;
+    readonly resizeHint: string;
   };
   readonly common: {
     readonly loading: string;

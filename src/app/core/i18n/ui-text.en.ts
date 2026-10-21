@@ -149,6 +149,7 @@ export const UI_TEXT_EN: UiText = {
     citedNowhere: 'No chapter cites this article.',
     glossary: 'Glossary',
     resize: 'Resize the law panel',
+    resizeHint: 'Drag to resize. Double-click to go back to the automatic width.',
   },
   common: {
     loading: 'Loading…',

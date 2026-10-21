@@ -1,5 +1,5 @@
 @let text = ui();
-<div class="page">
+<div class="page page--wide">
   <header class="home-head">
     <h1 class="page-title">{{ text.home.title }}</h1>
     <p class="page-lead">{{ text.home.intro }}</p>
@@ -61,35 +61,37 @@
       </div>
     </div>
 
-    @for (group of parts(); track group.part.id) {
-      <section class="part">
-        <h3 class="part__title">
-          <span class="part__number">{{ group.number }}</span>
-          <span>{{ group.part.title[lang()] }}</span>
-        </h3>
-        <ol class="chapter-list">
-          @for (chapter of group.chapters; track chapter.id) {
-            <li>
-              <a class="chapter-row" [routerLink]="['/course', chapter.id]">
-                <span class="chapter-row__number">{{ chapter.number }}</span>
-                <span class="chapter-row__main">
-                  <span class="chapter-row__title">{{ chapter.title[lang()] }}</span>
-                  <span class="chapter-row__summary">{{ chapter.summary[lang()] }}</span>
-                </span>
-                <span class="chapter-row__meta">
-                  @if (progress.isRead(chapter.id)) {
-                    <span class="chapter-row__read">
-                      <nc-icon name="check" />
-                      {{ text.chapter.read }}
-                    </span>
-                  }
-                  <span>{{ text.chapter.minutes(chapter.minutes) }}</span>
-                </span>
-              </a>
-            </li>
-          }
-        </ol>
-      </section>
-    }
+    <div class="parts">
+      @for (group of parts(); track group.part.id) {
+        <section class="part">
+          <h3 class="part__title">
+            <span class="part__number">{{ group.number }}</span>
+            <span>{{ group.part.title[lang()] }}</span>
+          </h3>
+          <ol class="chapter-list">
+            @for (chapter of group.chapters; track chapter.id) {
+              <li>
+                <a class="chapter-row" [routerLink]="['/course', chapter.id]">
+                  <span class="chapter-row__number">{{ chapter.number }}</span>
+                  <span class="chapter-row__main">
+                    <span class="chapter-row__title">{{ chapter.title[lang()] }}</span>
+                    <span class="chapter-row__summary">{{ chapter.summary[lang()] }}</span>
+                  </span>
+                  <span class="chapter-row__meta">
+                    @if (progress.isRead(chapter.id)) {
+                      <span class="chapter-row__read">
+                        <nc-icon name="check" />
+                        {{ text.chapter.read }}
+                      </span>
+                    }
+                    <span>{{ text.chapter.minutes(chapter.minutes) }}</span>
+                  </span>
+                </a>
+              </li>
+            }
+          </ol>
+        </section>
+      }
+    </div>
   </section>
 </div>

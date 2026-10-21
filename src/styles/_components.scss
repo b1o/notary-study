@@ -3,9 +3,15 @@
  * Larger parts have their own component styles.
  */
 
+/* A page column, centred in the sheet. Lists and overviews use the wide variant. */
 .page {
   max-inline-size: 64rem;
+  margin-inline: auto;
   padding: var(--page-padding);
+}
+
+.page--wide {
+  max-inline-size: 88rem;
 }
 
 .page-title {

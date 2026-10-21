@@ -135,6 +135,8 @@
   --nav-width: 17rem;
   --frame-gap: 0.75rem;
   --app-bar-height: 3.25rem;
+  /* Law panel width until the reader resizes it: about a third of a wide window. */
+  --panel-auto-width: clamp(30rem, 30vw, 66rem);
   /* Height of the bar that stays at the top of the window: none on wide screens. */
   --sticky-offset: 0px;
   --page-padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1rem, 5vw, 4rem) var(--space-9);

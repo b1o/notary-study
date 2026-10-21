@@ -33,6 +33,16 @@
   color: var(--color-danger);
 }
 
+/* On a wide page the groups flow into two columns; a group never breaks across columns. */
+.law-groups {
+  columns: 2 32rem;
+  column-gap: var(--space-8);
+}
+
+.law-group {
+  break-inside: avoid;
+}
+
 .law-group + .law-group {
   margin-block-start: var(--space-7);
 }
@@ -43,10 +53,11 @@
   list-style: none;
 }
 
+/* Abbreviation, then the title with the article count under it. */
 .act-row {
   display: grid;
-  grid-template-columns: 9rem minmax(0, 1fr) auto;
-  gap: var(--space-4);
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 2px var(--space-4);
   align-items: baseline;
   margin-inline: calc(-1 * var(--space-3));
   padding: var(--space-3);
@@ -60,6 +71,7 @@
 }
 
 .act-row__abbr {
+  grid-row: span 2;
   font-weight: 650;
   color: var(--color-accent-text);
 }
@@ -70,12 +82,15 @@
   gap: var(--space-2);
   font-size: var(--text-sm);
   color: var(--color-ink-3);
-  white-space: nowrap;
 }
 
 @media (width < 40rem) {
   .act-row {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-1);
+  }
+
+  .act-row__abbr {
+    grid-row: auto;
   }
 }

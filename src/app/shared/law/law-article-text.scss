@@ -27,8 +27,8 @@
   margin-block-start: 0.9em;
 }
 
-/* Room for two columns of about 60 characters: the original and the translation side by side. */
-@container (min-width: 60em) {
+/* Room for two columns of at least 50 characters: the original and the translation side by side. */
+@container (min-width: 52em) {
   :host(.law-article-text--both) .law-article-text__versions {
     display: grid;
     grid-template-columns: 1fr 1fr;

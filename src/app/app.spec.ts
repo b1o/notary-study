@@ -19,6 +19,12 @@ function respondToRequests(): void {
 describe('App', () => {
   beforeEach(() => {
     localStorage.clear();
+    // jsdom has no ResizeObserver; the law panel measures its own width with one.
+    globalThis.ResizeObserver ??= class {
+      observe = vi.fn();
+      unobserve = vi.fn();
+      disconnect = vi.fn();
+    } as unknown as typeof ResizeObserver;
     TestBed.configureTestingModule({
       imports: [App],
       providers: [provideRouter([]), provideHttpClientTesting()],

@@ -5,6 +5,7 @@
 /* The way back into the course: the one strong colour on the page. */
 .resume {
   display: grid;
+  max-inline-size: 52rem;
   gap: var(--space-3);
   margin-block-end: var(--space-8);
 }
@@ -67,7 +68,8 @@
 
 .tools {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  /* At most three per row, so the six tools always fill whole rows: 3 + 3, 2 + 2 + 2 or one column. */
+  grid-template-columns: repeat(auto-fill, minmax(max(15rem, 30%), 1fr));
   gap: var(--space-2);
   margin: 0;
   padding: 0;
@@ -148,6 +150,16 @@ a.tool:hover {
 .contents-head__label {
   font-size: var(--text-sm);
   color: var(--color-ink-2);
+}
+
+/* On a wide page the parts flow into two columns; a part never breaks across columns. */
+.parts {
+  columns: 2 30rem;
+  column-gap: var(--space-8);
+}
+
+.part {
+  break-inside: avoid;
 }
 
 .part + .part {

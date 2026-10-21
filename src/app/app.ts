@@ -18,7 +18,7 @@ import { Icon } from './shared/ui/icon';
   styleUrl: './app.scss',
   host: {
     '[class.app--panel-open]': 'panel.isOpen()',
-    '[style.--panel-width.px]': 'panel.width()',
+    '[style.--panel-width.px]': 'panel.customWidth()',
     '(document:keydown.escape)': 'menuOpen.set(false)',
   },
 })

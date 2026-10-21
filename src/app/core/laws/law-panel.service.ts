@@ -3,7 +3,8 @@ import { computed, Service, signal } from '@angular/core';
 import { storedSignal } from '../storage/stored-signal';
 import { articleKey, type LawReference } from './citation';
 
-export const LAW_PANEL_WIDTH = { min: 340, max: 900, initial: 480 } as const;
+/** Limits of a width that the reader sets by dragging the edge of the panel, in CSS pixels. */
+export const LAW_PANEL_WIDTH = { min: 340, max: 1200 } as const;
 
 /**
  * State of the law panel next to the reading area: which provision it shows,
@@ -19,10 +20,13 @@ export class LawPanelService {
   readonly canGoBack = computed(() => this.position() > 0);
   readonly canGoForward = computed(() => this.position() < this.history().length - 1);
 
-  /** Panel width in CSS pixels, kept between visits. */
-  readonly width = storedSignal<number>(
-    'nc.lawPanel.width',
-    LAW_PANEL_WIDTH.initial,
+  /**
+   * The width that the reader chose, kept between visits. Null until the reader resizes the
+   * panel: then the CSS default applies, which follows the window width (see app.scss).
+   */
+  readonly customWidth = storedSignal<number | null>(
+    'nc.lawPanel.customWidth',
+    null,
     (stored, fallback) => (typeof stored === 'number' ? clampWidth(stored) : fallback),
   );
 
@@ -55,7 +59,12 @@ export class LawPanelService {
   }
 
   resize(width: number): void {
-    this.width.set(clampWidth(width));
+    this.customWidth.set(clampWidth(width));
+  }
+
+  /** Go back to the default width, which follows the window width. */
+  resetWidth(): void {
+    this.customWidth.set(null);
   }
 }
 

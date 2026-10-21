@@ -48,12 +48,15 @@
   block-size: 100dvh;
 }
 
-/* Wide enough for the panel next to the page. The page keeps at least 30rem. */
+/*
+ * Wide enough for the panel next to the page. The page keeps at least 30rem.
+ * --panel-width is set only when the reader resized the panel; else the width follows the window.
+ */
 @media (width >= 75rem) {
   :host(.app--panel-open) {
     grid-template-columns:
       var(--nav-width) minmax(0, 1fr)
-      min(var(--panel-width), 100vw - var(--nav-width) - 30rem);
+      min(var(--panel-width, var(--panel-auto-width)), 100vw - var(--nav-width) - 30rem);
   }
 
   :host(.app--panel-open) .app-main {
@@ -67,7 +70,7 @@
     position: fixed;
     inset: 0 0 0 auto;
     z-index: 30;
-    inline-size: min(var(--panel-width), 100vw);
+    inline-size: min(var(--panel-width, var(--panel-auto-width)), 100vw);
   }
 }
 

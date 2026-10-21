@@ -41,15 +41,23 @@ describe('LawPanelService', () => {
     expect(panel.canGoBack()).toBe(false);
   });
 
+  it('has no width of its own until the reader resizes it', () => {
+    expect(panel.customWidth()).toBeNull();
+  });
+
   it('keeps the width inside the limits', () => {
     panel.resize(10_000);
-    expect(panel.width()).toBe(LAW_PANEL_WIDTH.max);
+    expect(panel.customWidth()).toBe(LAW_PANEL_WIDTH.max);
     expect(clampWidth(0)).toBe(LAW_PANEL_WIDTH.min);
   });
 
-  it('saves the width in the browser', () => {
+  it('saves the width in the browser, and forgets it on reset', () => {
     panel.resize(600);
     TestBed.tick();
-    expect(localStorage.getItem('nc.lawPanel.width')).toBe('600');
+    expect(localStorage.getItem('nc.lawPanel.customWidth')).toBe('600');
+
+    panel.resetWidth();
+    TestBed.tick();
+    expect(localStorage.getItem('nc.lawPanel.customWidth')).toBe('null');
   });
 });

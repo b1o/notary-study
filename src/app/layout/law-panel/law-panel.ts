@@ -2,9 +2,11 @@ import {
   afterRenderEffect,
   Component,
   computed,
+  DestroyRef,
   ElementRef,
   inject,
   resource,
+  signal,
   viewChild,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -53,6 +55,13 @@ export class LawPanel {
 
   protected readonly widthLimits = LAW_PANEL_WIDTH;
   private readonly body = viewChild.required<ElementRef<HTMLElement>>('body');
+  private readonly host: ElementRef<HTMLElement> = inject(ElementRef);
+
+  /**
+   * The width on screen. It differs from the chosen width when the reader chose none
+   * (the width then follows the window) or when the window is too narrow for it.
+   */
+  protected readonly renderedWidth = signal(0);
 
   protected readonly reference = computed(() => this.panel.current());
   protected readonly libraryLink = computed(() => {
@@ -112,6 +121,12 @@ export class LawPanel {
   constructor() {
     this.courseIndex.load();
 
+    const observer = new ResizeObserver(([entry]) =>
+      this.renderedWidth.set(Math.round(entry.borderBoxSize[0].inlineSize)),
+    );
+    observer.observe(this.host.nativeElement);
+    inject(DestroyRef).onDestroy(() => observer.disconnect());
+
     // Each new provision starts at the top. When the cited paragraph is not fully in view there,
     // the panel scrolls down to it instead.
     let shown: string | undefined;
@@ -140,7 +155,7 @@ export class LawPanel {
   protected startResize(event: PointerEvent): void {
     if (event.button !== 0) return;
     (event.currentTarget as HTMLElement).setPointerCapture(event.pointerId);
-    this.drag = { startX: event.clientX, startWidth: this.panel.width() };
+    this.drag = { startX: event.clientX, startWidth: this.renderedWidth() };
     event.preventDefault();
   }
 
@@ -156,7 +171,7 @@ export class LawPanel {
   /** The window splitter keys: arrows move the edge, Home and End go to the limits. */
   protected resizeWithKeys(event: KeyboardEvent): void {
     const step = event.shiftKey ? RESIZE_STEP * 4 : RESIZE_STEP;
-    const width = this.panel.width();
+    const width = this.renderedWidth();
     const target: Record<string, number> = {
       ArrowLeft: width + step,
       ArrowRight: width - step,
