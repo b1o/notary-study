@@ -37,20 +37,9 @@
   </section>
 
   <section class="home-section">
-    <div class="contents-head">
-      <h2 class="section-title">{{ text.home.contents }}</h2>
-      <div class="contents-head__filter">
-        <span class="contents-head__label" aria-hidden="true">{{ text.roles.filterLabel }}</span>
-        <nc-choice-group
-          [legend]="text.roles.filterLabel"
-          [hideLegend]="true"
-          [choices]="roleChoices()"
-          [(value)]="roleFilter"
-        />
-      </div>
-    </div>
+    <h2 class="section-title">{{ text.home.contents }}</h2>
 
-    <nc-chapter-list [parts]="parts()" [link]="chapterLink">
+    <nc-chapter-list [parts]="content.outline()" [link]="chapterLink">
       <ng-template ncChapterRowEnd let-chapter>
         @if (progress.isRead(chapter.id)) {
           <span class="read-mark"><nc-icon name="check" />{{ text.chapter.read }}</span>

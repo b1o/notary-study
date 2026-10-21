@@ -7,9 +7,8 @@ import { elementWidth, remInPixels } from '../dom/element-size';
  * Width of the main column:
  *   full     the whole frame, for overviews and lists
  *   reading  one column of text (the reading measure)
- *   double   two columns of text side by side (an act in both languages); the frame widens
  */
-export type PageMain = 'full' | 'reading' | 'double';
+export type PageMain = 'full' | 'reading';
 
 /** Where the side column goes on a wide page. On a narrow page it folds above the main column. */
 export type PageAside = 'none' | 'start' | 'end';

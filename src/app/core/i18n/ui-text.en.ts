@@ -60,13 +60,6 @@ export const UI_TEXT_EN: UiText = {
     reset: 'Restore the defaults',
     storedLocally: 'Saved in this browser.',
   },
-  roles: {
-    clerk: 'Clerk',
-    assistant: 'Assistant notary',
-    notary: 'Notary',
-    filterLabel: 'Show chapters for',
-    all: 'All roles',
-  },
   home: {
     title: 'Notary course',
     intro: 'Course chapters, the Bulgarian law texts they cite, and study tools.',
@@ -141,7 +134,7 @@ export const UI_TEXT_EN: UiText = {
     filterPlaceholder: 'Article number or word',
     hideAmendments: 'Hide amendment notes',
     textLanguage: 'Text',
-    textLanguages: { bg: 'Bulgarian', en: 'English', both: 'Both' },
+    textLanguages: { bg: 'Bulgarian', en: 'English' },
     translation: 'Unofficial English translation',
     noTranslation: 'No English translation for this article.',
     notFound: 'This provision is not in the library.',

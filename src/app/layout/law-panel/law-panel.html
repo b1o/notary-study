@@ -87,7 +87,8 @@
             [legend]="text.law.textLanguage"
             [hideLegend]="true"
             [choices]="textLanguageChoices()"
-            [(value)]="display.textLanguage"
+            [value]="display.textLanguage()"
+            (valueChange)="display.chooseTextLanguage($event)"
           />
         </div>
 

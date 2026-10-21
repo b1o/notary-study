@@ -3,7 +3,7 @@
   <nc-missing-page />
 } @else {
   <nc-page-layout
-    [main]="sideBySide() ? 'double' : 'reading'"
+    main="reading"
     [aside]="headings().length ? 'start' : 'none'"
     [asideLabel]="text.contents"
   >
@@ -23,7 +23,8 @@
           [legend]="text.textLanguage"
           [hideLegend]="true"
           [choices]="textLanguageChoices()"
-          [(value)]="display.textLanguage"
+          [value]="display.textLanguage()"
+          (valueChange)="display.chooseTextLanguage($event)"
         />
         <label class="checkbox">
           <input type="checkbox" [formField]="hideAmendments" />

@@ -1,4 +1,4 @@
-import type { Role } from '../content/content.models';
+import type { Language } from './language';
 import type { LawGroup } from '../laws/law.models';
 import type {
   LineSpacing,
@@ -74,10 +74,6 @@ export interface UiText {
     readonly reset: string;
     readonly storedLocally: string;
   };
-  readonly roles: Readonly<Record<Role, string>> & {
-    readonly filterLabel: string;
-    readonly all: string;
-  };
   readonly home: {
     readonly title: string;
     readonly intro: string;
@@ -134,7 +130,7 @@ export interface UiText {
     readonly filterPlaceholder: string;
     readonly hideAmendments: string;
     readonly textLanguage: string;
-    readonly textLanguages: Readonly<Record<'bg' | 'en' | 'both', string>>;
+    readonly textLanguages: Readonly<Record<Language, string>>;
     readonly translation: string;
     readonly noTranslation: string;
     readonly notFound: string;

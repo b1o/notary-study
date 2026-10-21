@@ -99,11 +99,6 @@
       "part": "start",
       "file": "01-welcome",
       "minutes": 20,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "How the course and the office work",
         "bg": "Как работят курсът и кантората"
@@ -119,11 +114,6 @@
       "part": "start",
       "file": "02-careers",
       "minutes": 30,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Jobs in a notary office and the way in",
         "bg": "Професиите в кантората и пътят към тях"
@@ -139,11 +129,6 @@
       "part": "start",
       "file": "03-legal-system",
       "minutes": 35,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "The Bulgarian legal system for notary staff",
         "bg": "Правната система за служителите в кантората"
@@ -159,10 +144,6 @@
       "part": "office",
       "file": "04-profession",
       "minutes": 40,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "The notary: status, duties and liability",
         "bg": "Нотариусът: статут, задължения и отговорност"
@@ -178,10 +159,6 @@
       "part": "office",
       "file": "05-deputies",
       "minutes": 25,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Assistant notaries, substitutes and other officials",
         "bg": "Помощник-нотариуси, заместници и други длъжностни лица"
@@ -197,11 +174,6 @@
       "part": "office",
       "file": "06-office",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Inside the office: people, workflow and the archive",
         "bg": "Кантората отвътре: хора, работа и архив"
@@ -217,11 +189,6 @@
       "part": "civil",
       "file": "07-persons",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Persons, capacity, identity and representation",
         "bg": "Лица, дееспособност, самоличност и представителство"
@@ -237,10 +204,6 @@
       "part": "civil",
       "file": "08-contracts",
       "minutes": 45,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Obligations and contracts",
         "bg": "Задължения и договори"
@@ -256,10 +219,6 @@
       "part": "civil",
       "file": "09-property",
       "minutes": 45,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Property and real rights",
         "bg": "Собственост и вещни права"
@@ -275,11 +234,6 @@
       "part": "civil",
       "file": "10-family",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Family property and children",
         "bg": "Семейно имущество и деца"
@@ -295,10 +249,6 @@
       "part": "civil",
       "file": "11-inheritance",
       "minutes": 45,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Inheritance law",
         "bg": "Наследствено право"
@@ -314,10 +264,6 @@
       "part": "civil",
       "file": "12-commercial",
       "minutes": 35,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Commercial law for the notary office",
         "bg": "Търговско право за нотариалната кантора"
@@ -333,10 +279,6 @@
       "part": "procedure",
       "file": "13-procedure",
       "minutes": 35,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "General rules of notarial proceedings",
         "bg": "Общи правила на нотариалното производство"
@@ -352,10 +294,6 @@
       "part": "procedure",
       "file": "14-deeds",
       "minutes": 50,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Notarial deeds step by step",
         "bg": "Нотариалният акт стъпка по стъпка"
@@ -371,11 +309,6 @@
       "part": "procedure",
       "file": "15-certifications",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Certifying signatures, content, dates and copies",
         "bg": "Удостоверяване на подписи, съдържание, дата и преписи"
@@ -391,11 +324,6 @@
       "part": "procedure",
       "file": "16-other-acts",
       "minutes": 35,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Invitations, service at addresses, protocols and safekeeping",
         "bg": "Покани, връчване на адрес, протоколи и съхранение"
@@ -411,11 +339,6 @@
       "part": "deals",
       "file": "17-sale",
       "minutes": 55,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Sale of real estate from the first call to entry",
         "bg": "Продажба на имот от първото обаждане до вписването"
@@ -431,10 +354,6 @@
       "part": "deals",
       "file": "18-property-deals",
       "minutes": 45,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Gifts, exchange, care contracts, building rights, partition and mortgages",
         "bg": "Дарение, замяна, издръжка и гледане, право на строеж, делба и ипотека"
@@ -450,11 +369,6 @@
       "part": "deals",
       "file": "19-vehicles",
       "minutes": 30,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Sale of motor vehicles",
         "bg": "Продажба на моторни превозни средства"
@@ -470,11 +384,6 @@
       "part": "deals",
       "file": "20-poa",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Powers of attorney and declarations",
         "bg": "Пълномощни и декларации"
@@ -490,10 +399,6 @@
       "part": "deals",
       "file": "21-company",
       "minutes": 35,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Company transactions at the notary",
         "bg": "Сделки с дружества при нотариуса"
@@ -509,10 +414,6 @@
       "part": "deals",
       "file": "22-succession",
       "minutes": 40,
-      "roles": [
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Wills and inheritance work in the office",
         "bg": "Завещания и наследствени дела в кантората"
@@ -528,11 +429,6 @@
       "part": "compliance",
       "file": "23-aml",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Money laundering prevention",
         "bg": "Мерки срещу изпирането на пари"
@@ -548,11 +444,6 @@
       "part": "compliance",
       "file": "24-fees",
       "minutes": 40,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Fees, taxes and payments",
         "bg": "Такси, данъци и плащания"
@@ -568,11 +459,6 @@
       "part": "compliance",
       "file": "25-institutions",
       "minutes": 45,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Working with institutions and registers",
         "bg": "Работа с институции и регистри"
@@ -588,11 +474,6 @@
       "part": "compliance",
       "file": "26-records",
       "minutes": 30,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Registers, archive and data protection",
         "bg": "Регистри, архив и защита на данните"
@@ -608,11 +489,6 @@
       "part": "practice",
       "file": "27-ethics",
       "minutes": 35,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Ethics, client service and fraud prevention",
         "bg": "Етика, обслужване и защита от измами"
@@ -628,11 +504,6 @@
       "part": "practice",
       "file": "28-cases",
       "minutes": 60,
-      "roles": [
-        "clerk",
-        "assistant",
-        "notary"
-      ],
       "title": {
         "en": "Case studies: full simulations",
         "bg": "Казуси: пълни симулации"

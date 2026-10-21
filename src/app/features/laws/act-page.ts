@@ -1,8 +1,9 @@
 import { Component, computed, inject, input, resource, signal } from '@angular/core';
 import { form, FormField } from '@angular/forms/signals';
 
+import { LANGUAGES } from '../../core/i18n/language';
 import { LanguageService } from '../../core/i18n/language.service';
-import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
+import { LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import type { ActTranslation } from '../../core/laws/law.models';
 import { pageTitleEffect } from '../../core/page-title';
@@ -63,15 +64,10 @@ export default class ActPage {
     this.translations.hasValue() ? this.translations.value() : {},
   );
 
-  /** "Both" languages and an act with translations: the text gets two columns when they fit. */
-  protected readonly sideBySide = computed(
-    () => this.display.textLanguage() === 'both' && Object.keys(this.translationOf()).length > 0,
-  );
-
   protected readonly filter = form(signal(''));
   protected readonly hideAmendments = form(this.display.hideAmendments);
   protected readonly textLanguageChoices = computed(() =>
-    toChoices(LAW_TEXT_LANGUAGES, this.ui().law.textLanguages),
+    toChoices(LANGUAGES, this.ui().law.textLanguages),
   );
 
   private readonly entries = computed<ActEntry[]>(() =>

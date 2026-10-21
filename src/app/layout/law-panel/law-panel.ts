@@ -11,9 +11,10 @@ import { RouterLink } from '@angular/router';
 
 import { CourseIndexService } from '../../core/content/course-index.service';
 import { ContentService } from '../../core/content/content.service';
+import { LANGUAGES } from '../../core/i18n/language';
 import { LanguageService } from '../../core/i18n/language.service';
 import { toReferenceString } from '../../core/laws/citation';
-import { LAW_TEXT_LANGUAGES, LawDisplayService } from '../../core/laws/law-display.service';
+import { LawDisplayService } from '../../core/laws/law-display.service';
 import { LawLibraryService } from '../../core/laws/law-library.service';
 import { LAW_PANEL_WIDTH, LawPanelService } from '../../core/laws/law-panel.service';
 import { elementWidth } from '../../shared/dom/element-size';
@@ -112,7 +113,7 @@ export class LawPanel {
   });
 
   protected readonly textLanguageChoices = computed(() =>
-    toChoices(LAW_TEXT_LANGUAGES, this.ui().law.textLanguages),
+    toChoices(LANGUAGES, this.ui().law.textLanguages),
   );
 
   private drag?: { readonly startX: number; readonly startWidth: number };

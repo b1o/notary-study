@@ -60,13 +60,6 @@ export const UI_TEXT_BG: UiText = {
     reset: 'Върни стандартните',
     storedLocally: 'Пази се в този браузър.',
   },
-  roles: {
-    clerk: 'Служител',
-    assistant: 'Помощник-нотариус',
-    notary: 'Нотариус',
-    filterLabel: 'Покажи главите за',
-    all: 'Всички роли',
-  },
   home: {
     title: 'Нотариален курс',
     intro: 'Главите на курса, цитираните в тях закони и инструменти за учене.',
@@ -141,7 +134,7 @@ export const UI_TEXT_BG: UiText = {
     filterPlaceholder: 'Номер на член или дума',
     hideAmendments: 'Скрий бележките за изменения',
     textLanguage: 'Текст',
-    textLanguages: { bg: 'Български', en: 'Английски', both: 'И двата' },
+    textLanguages: { bg: 'Български', en: 'Английски' },
     translation: 'Неофициален превод на английски',
     noTranslation: 'Няма превод на този член.',
     notFound: 'Тази разпоредба липсва в библиотеката.',

@@ -8,7 +8,6 @@
   font-size: var(--law-text-size, var(--reading-size));
   line-height: var(--reading-leading);
   color: var(--color-ink);
-  container-type: inline-size;
 }
 
 .law-article-text__notice {
@@ -20,24 +19,6 @@
 
 .law-version {
   max-inline-size: var(--measure);
-}
-
-/* Closer than two articles are to each other, so the original and its translation read as one unit. */
-.law-version + .law-version {
-  margin-block-start: 0.9em;
-}
-
-/* Room for two columns of at least 50 characters: the original and the translation side by side. */
-@container (min-width: 52em) {
-  :host(.law-article-text--both) .law-article-text__versions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5em;
-  }
-
-  :host(.law-article-text--both) .law-version + .law-version {
-    margin-block-start: 0;
-  }
 }
 
 .law-version__label {

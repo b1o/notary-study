@@ -18,9 +18,10 @@ interface TextVersion {
 }
 
 /**
- * The text of one article: the Bulgarian original, the English translation, or both,
- * as LawDisplayService says. The paragraph in `highlight` is marked, for example the cited one.
- * All sizes are relative to the law text size, so the reading settings keep the proportions.
+ * The text of one article: the Bulgarian original, or the English translation when
+ * LawDisplayService asks for English and the article has one. The paragraph in `highlight` is
+ * marked, for example the cited one. All sizes are relative to the law text size, so the reading
+ * settings keep the proportions.
  */
 @Component({
   selector: 'nc-law-article-text',
@@ -28,7 +29,6 @@ interface TextVersion {
   styleUrl: './law-article-text.scss',
   host: {
     class: 'law-article-text',
-    '[class.law-article-text--both]': 'versions().length > 1',
     '[class.law-article-text--no-amendments]': 'display.hideAmendments()',
   },
 })
@@ -46,18 +46,12 @@ export class LawArticleText {
   private readonly laws = inject(LawLibraryService);
   protected readonly ui = inject(LanguageService).text;
 
-  protected readonly versions = computed<TextVersion[]>(() => {
-    const choice = this.display.textLanguage();
+  protected readonly version = computed<TextVersion>(() => {
     const article = this.article();
     const translation = this.translation();
-    const versions: TextVersion[] = [];
-    if (choice !== 'en' || !translation) {
-      versions.push(this.version('bg', article.title, article.paragraphs));
-    }
-    if (choice !== 'bg' && translation) {
-      versions.push(this.version('en', translation.title, translation.paragraphs));
-    }
-    return versions;
+    return this.display.textLanguage() === 'en' && translation
+      ? this.toVersion('en', translation.title, translation.paragraphs)
+      : this.toVersion('bg', article.title, article.paragraphs);
   });
 
   /** English was asked for, but this article has no translation, so the Bulgarian text shows. */
@@ -65,7 +59,7 @@ export class LawArticleText {
     () => this.display.textLanguage() === 'en' && !this.translation(),
   );
 
-  private version(
+  private toVersion(
     language: Language,
     title: string | undefined,
     lines: readonly string[],

@@ -14,20 +14,9 @@
   --main-width: var(--measure);
 }
 
-:host(.page-layout--main-double) {
-  --main-width: calc(2 * var(--measure) + 2.5 * var(--reading-size));
-}
-
 .page-layout__frame {
   max-inline-size: var(--page-frame);
   margin-inline: auto;
-}
-
-:host(.page-layout--main-double) .page-layout__frame {
-  max-inline-size: max(
-    var(--page-frame),
-    var(--aside-width) + var(--aside-gap) + var(--main-width)
-  );
 }
 
 .page-layout__header:not(:empty) {

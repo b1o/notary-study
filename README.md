@@ -49,7 +49,7 @@ src/
       reference/   Glossary, templates and checklists, and the layout of a template text
       search/      Full-text search: the index, the ranking and the snippets
       settings/    Reading settings, saved in localStorage, applied as attributes on <html>
-      storage/     storedSignal(): a signal that is kept in localStorage
+      storage/     storedSignal(): a signal that is kept in localStorage; removal of retired keys
       study/       Leitner boxes for flashcards, and the tests and the exam
       text/        Small text helpers (folding for search, formats, HTML escaping, heading ids)
     shared/        Reusable components. Pages build on these instead of their own copies.
@@ -70,7 +70,7 @@ Dependencies point one way: `features` and `layout` use `shared` and `core`; `sh
 
 ## How the main parts work
 
-- **Pages.** Every page sits in `PageLayout` (`main`: full, reading or double width; an optional
+- **Pages.** Every page sits in `PageLayout` (`main`: full or reading width; an optional
   side column at the start or the end) with a `PageHeader`. So all pages share one frame, one left
   edge and one heading style. The side sections of the app are listed once in `app-sections.ts`.
 - **Content.** `ContentService` loads `manifest.json`. A chapter page loads its Markdown and its

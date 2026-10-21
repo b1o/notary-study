@@ -2,8 +2,6 @@ import type { Localized } from '../i18n/language';
 
 /** Shapes of the JSON files in public/data. Keep them in sync with tools/check-content.ts. */
 
-export type Role = 'clerk' | 'assistant' | 'notary';
-
 export interface Part {
   readonly id: string;
   readonly title: Localized;
@@ -18,7 +16,6 @@ export interface ChapterMeta {
   /** File name without extension in public/data/chapters/<lang>/. */
   readonly file: string;
   readonly minutes: number;
-  readonly roles: readonly Role[];
   readonly title: Localized;
   readonly summary: Localized;
 }
