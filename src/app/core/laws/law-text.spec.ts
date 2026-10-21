@@ -40,6 +40,15 @@ describe('paragraphOfLines', () => {
     const lines = ['Чл. 19. Първа.', 'Втора.', 'Трета:', 'а) буква;'];
     expect(paragraphOfLines(lines)).toEqual(['1', '2', '3', '3']);
   });
+
+  it('finds a paragraph number after an amendment note of the article', () => {
+    const lines = [
+      'Чл. 84. (Доп. - ДВ, бр. 18 от 2003 г.) (1) Текст:',
+      '1. условие;',
+      '(2) Текст.',
+    ];
+    expect(paragraphOfLines(lines)).toEqual(['1', '1', '2']);
+  });
 });
 
 describe('groupParagraphs', () => {
@@ -71,6 +80,19 @@ describe('groupParagraphs', () => {
   it('gives no markers to an act without paragraph numbers', () => {
     const plain = groupParagraphs(['Чл. 19. Първа.', 'Втора.']);
     expect(plain.map((group) => group.marker)).toEqual([undefined, undefined]);
+  });
+
+  it('moves a paragraph number after an amendment note to the marker, and keeps both notes', () => {
+    const [first] = groupParagraphs([
+      'Чл. 3. (Изм. - ДВ, бр. 42 от 2018 г.) (1) (Изм. и доп. - ДВ, бр. 55 от 2018 г.) Текст.',
+      '(2) Текст.',
+    ]);
+    expect([first.number, first.marker]).toEqual(['1', '(1)']);
+    expect(first.lines[0].notes).toEqual([
+      '(Изм. - ДВ, бр. 42 от 2018 г.)',
+      '(Изм. и доп. - ДВ, бр. 55 от 2018 г.)',
+    ]);
+    expect(first.lines[0].segments).toEqual([{ kind: 'text', text: 'Текст.' }]);
   });
 });
 

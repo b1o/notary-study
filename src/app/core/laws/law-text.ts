@@ -71,9 +71,12 @@ export function segmentText(text: string): TextSegment[] {
   return segments;
 }
 
-/** The explicit paragraph number of a line, for example "9" for "(9) ...", or undefined. */
+/**
+ * The explicit paragraph number of a line, for example "9" for "(9) ...", or undefined.
+ * An amendment note of the article can stand before it: "Чл. 3. (Изм. - ДВ ...) (1) ...".
+ */
 export function ownParagraphNumber(line: string): string | undefined {
-  return PARAGRAPH_NUMBER.exec(line.replace(LINE_NUMBER, ''))?.[1];
+  return PARAGRAPH_NUMBER.exec(leadingNotes(line.replace(LINE_NUMBER, '')).rest)?.[1];
 }
 
 /**
@@ -102,12 +105,18 @@ export function groupParagraphs(lines: readonly string[]): LawParagraph[] {
   const paragraphs: { number?: string; marker?: string; lines: LawLine[] }[] = [];
   lines.forEach((line, index) => {
     let rest = line.replace(LINE_NUMBER, '').trim();
-    const paragraph = PARAGRAPH_NUMBER.exec(rest);
-    if (paragraph) rest = rest.slice(paragraph[0].length).trim();
+    // The notes of the article can stand before the paragraph number; they stay notes of the line.
+    const before = leadingNotes(rest);
+    const paragraph = PARAGRAPH_NUMBER.exec(before.rest);
+    if (paragraph) rest = before.rest.slice(paragraph[0].length).trim();
     const item = !paragraph && isItem(line, index) ? ITEM.exec(rest) : null;
     if (item) rest = rest.slice(item[0].length).trim();
     const { notes, rest: text } = leadingNotes(rest);
-    const lawLine: LawLine = { marker: item?.[1], notes, segments: segmentText(text) };
+    const lawLine: LawLine = {
+      marker: item?.[1],
+      notes: paragraph ? [...before.notes, ...notes] : notes,
+      segments: segmentText(text),
+    };
 
     const last = paragraphs.at(-1);
     if (last && index > 0 && last.number === numbers[index]) {
