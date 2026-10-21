@@ -43,15 +43,15 @@ A Bulgarian article ({{член}}, abbreviated "чл.") can have paragraphs ({{�
 
 | Bulgarian form | Meaning | In this course (English mode) |
 |---|---|---|
-| чл. 25, ал. 9 ЗННД | Article 25, paragraph 9 of the Notaries Act | Art. 25(9) ЗННД |
-| чл. 8, ал. 1, т. 3 ЗННД | Article 8, paragraph 1, item 3 | Art. 8(1), item 3 ЗННД |
-| чл. 40, ал. 1, т. 1 – 4 ЗННД | Items 1 to 4 | Art. 40(1), items 1–4 ЗННД |
-| § 2 от ДР на ЗННД | Paragraph 2 of the Additional Provisions | § 2 ЗННД |
-| т. 8 от ТНТ | Item 8 of the Tariff of notarial fees | Item 8 ТНТ |
+| чл. 25, ал. 9 ЗННД | Article 25, paragraph 9 of the Notaries Act | [[znnd:25:9]] |
+| чл. 8, ал. 1, т. 3 ЗННД | Article 8, paragraph 1, item 3 | [[znnd:8:1:3]] |
+| чл. 40, ал. 1, т. 1 – 4 ЗННД | Items 1 to 4 | [[znnd:40:1|Art. 40(1), items 1–4 ЗННД]] |
+| § 2 от ДР на ЗННД | Paragraph 2 of the Additional Provisions | [[znnd:§2]] |
+| т. 8 от ТНТ | Item 8 of the Tariff of notarial fees | [[tarifa:8]] |
 
 Other parts of an act:
 
-- **Additional provisions** ({{Допълнителни разпоредби}}, ДР) often define the terms of the act. For example, § 1 of the Additional Provisions of ЗННД defines the notarial fee ([[znnd:§1]]).
+- **Additional provisions** ({{Допълнителни разпоредби}}, ДР) often define the terms of the act. For example, [[znnd:§1|§ 1 of the Additional Provisions of ЗННД]] defines the notarial fee.
 - **Transitional and final provisions** ({{Преходни и заключителни разпоредби}}, ПЗР) settle old cases and the date of entry into force.
 - **Amendment notes** in brackets, such as "(Изм. – ДВ, бр. 84 от 2023 г., в сила от 06.10.2023 г.)", say which issue of the State Gazette changed the text and from when. "Нов/нова" means new, "изм." amended, "доп." supplemented, "отм." repealed.
 

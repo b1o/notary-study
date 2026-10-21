@@ -10,59 +10,59 @@
   "cards": [
     {
       "front": "Is the state liable for the acts of a notary?",
-      "back": "**No** (Art. 73(2) ЗННД). The notary is liable, up to the certified material interest, and must be insured."
+      "back": "**No** ([[znnd:73:2]]). The notary is liable, up to the certified material interest, and must be insured."
     },
     {
       "front": "A notary's error voids a sale with a price of 90,000 euro; the buyer's loss is 150,000 euro. How much does the notary owe?",
-      "back": "Up to the **certified material interest**: 90,000 euro (Art. 73(1) ЗННД), paid through the insurance (Art. 30 ЗННД)."
+      "back": "Up to the **certified material interest**: 90,000 euro ([[znnd:73:1]]), paid through the insurance ([[znnd:30]])."
     },
     {
       "front": "Whose faults does the notary's insurance cover?",
-      "back": "Those of the notary, the **assistant notary** and the **employees** (Art. 30(1) ЗННД)."
+      "back": "Those of the notary, the **assistant notary** and the **employees** ([[znnd:30:1]])."
     },
     {
       "front": "Can a notary act outside the district?",
-      "back": "**No.** Such an act is null (Art. 573(1) and 576 ГПК)."
+      "back": "**No.** Such an act is null ([[gpk:573:1|Art. 573(1)]] and [[gpk:576|576 ГПК]])."
     },
     {
       "front": "When may a notary refuse to deal with a request?",
-      "back": "When the notary has an interest in the act or a special relation with the party that raises a well-founded doubt about impartiality (Art. 23 ЗННД)."
+      "back": "When the notary has an interest in the act or a special relation with the party that raises a well-founded doubt about impartiality ([[znnd:23]])."
     },
     {
       "front": "What must the parties declare about the price in a sale of real estate?",
-      "back": "That the amount in the deed is the **payment actually agreed** (Art. 25(9) ЗННД)."
+      "back": "That the amount in the deed is the **payment actually agreed** ([[znnd:25:9]])."
     },
     {
       "front": "The buyer paid the price into the special account of the notary. When does the seller receive the money?",
-      "back": "Under the **written agreement** of Art. 25а(2) ЗННД, usually after the entry of the deed. The notary's creditors cannot touch the money (Art. 25а(3))."
+      "back": "Under the **written agreement** of [[znnd:25а:2]], usually after the entry of the deed. The notary's creditors cannot touch the money ([[znnd:25а:3|Art. 25а(3)]])."
     },
     {
       "front": "How are payments over 10,000 leva in real estate deals made?",
-      "back": "Through the **special bank account of the notary** or a bank account in a bank chosen by the parties (Art. 25(10) ЗННД)."
+      "back": "Through the **special bank account of the notary** or a bank account in a bank chosen by the parties ([[znnd:25:10]])."
     },
     {
       "front": "What does the notary check at the National Revenue Agency before a sale of real estate?",
-      "back": "That the transferor has **no unpaid public debts subject to enforcement** (Art. 264(1) ДОПК)."
+      "back": "That the transferor has **no unpaid public debts subject to enforcement** ([[dopk:264:1]])."
     },
     {
       "front": "Name the four bodies of the Notary Chamber.",
-      "back": "General Assembly, Council of Notaries, Control Council, Disciplinary Commission (Art. 52 ЗННД)."
+      "back": "General Assembly, Council of Notaries, Control Council, Disciplinary Commission ([[znnd:52]])."
     },
     {
       "front": "List the four disciplinary penalties.",
-      "back": "Reprimand; fine of 1,000–5,000 лв.; warning of deprivation; deprivation of capacity for 3 months to 5 years (Art. 75 ЗННД)."
+      "back": "Reprimand; fine of 1,000–5,000 лв.; warning of deprivation; deprivation of capacity for 3 months to 5 years ([[znnd:75]])."
     },
     {
       "front": "A breach of 2024 is discovered in 2027. Can the Chamber still punish it?",
-      "back": "**No.** Liability lapses six months after the discovery and at most **two years** after the breach (Art. 76(1) ЗННД)."
+      "back": "**No.** Liability lapses six months after the discovery and at most **two years** after the breach ([[znnd:76:1]])."
     },
     {
       "front": "Where is a disciplinary decision appealed, and when?",
-      "back": "Before the **Supreme Court of Cassation** within **14 days** (Art. 80 ЗННД)."
+      "back": "Before the **Supreme Court of Cassation** within **14 days** ([[znnd:80]])."
     },
     {
       "front": "A notary dies on Monday. What happens in the office?",
-      "back": "No act is performed. The president of the district court orders the **sealing** of the archive with an inventory (Art. 36 ЗННД); the Council of Notaries records who receives it (Art. 37)."
+      "back": "No act is performed. The president of the district court orders the **sealing** of the archive with an inventory ([[znnd:36]]); the Council of Notaries records who receives it ([[znnd:37|Art. 37]])."
     }
   ],
   "quiz": [
@@ -75,7 +75,7 @@
         "The notary acts for the seller, who chose the office"
       ],
       "answer": 0,
-      "explanation": "Art. 24 ЗННД: the notary may not take sides; the choice of the office and the payment of the fee change nothing. Both parties owe the fee jointly (Art. 87).",
+      "explanation": "[[znnd:24]]: the notary may not take sides; the choice of the office and the payment of the fee change nothing. Both parties owe the fee jointly ([[znnd:87|Art. 87]]).",
       "refs": [
         "znnd:24",
         "znnd:87"
@@ -90,7 +90,7 @@
         "The notary admits only the lawyer of the person to the meeting"
       ],
       "answer": 0,
-      "explanation": "Art. 20 ЗННД: the notary meets the person who asked for the act alone; other persons attend only when that person wishes it. Witnesses are required for other reasons, such as an illiterate participant (Art. 583 ГПК), not for the meeting.",
+      "explanation": "[[znnd:20]]: the notary meets the person who asked for the act alone; other persons attend only when that person wishes it. Witnesses are required for other reasons, such as an illiterate participant ([[gpk:583]]), not for the meeting.",
       "refs": [
         "znnd:20"
       ]
@@ -104,7 +104,7 @@
         "4,000 euro only through the special account; 80,000 euro by bank or in cash"
       ],
       "answer": 0,
-      "explanation": "Art. 25(10) ЗННД: payments under a real-estate deal that total more than 10,000 лв. (5,112.92 euro) go through the notary's special account or a bank account chosen by the parties. 4,000 euro is below the limit; 80,000 euro is above it. Art. 3(1) ЗОПБ adds the general ban on cash payments of 10,000 лв. or more.",
+      "explanation": "[[znnd:25:10]]: payments under a real-estate deal that total more than 10,000 лв. (5,112.92 euro) go through the notary's special account or a bank account chosen by the parties. 4,000 euro is below the limit; 80,000 euro is above it. [[zopvb:3:1]] adds the general ban on cash payments of 10,000 лв. or more.",
       "refs": [
         "znnd:25:10",
         "zopvb:3:1"
@@ -119,7 +119,7 @@
         "The notary performs the act after a declaration of the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 25(2) ЗННД requires the check for such a measure before the act. A disposal under a security measure is against the law, and the notary may not perform an act against the law (Art. 574 ГПК). A note in the deed or a declaration does not lift the measure.",
+      "explanation": "[[znnd:25:2]] requires the check for such a measure before the act. A disposal under a security measure is against the law, and the notary may not perform an act against the law ([[gpk:574]]). A note in the deed or a declaration does not lift the measure.",
       "refs": [
         "znnd:25:2",
         "gpk:574"
@@ -134,7 +134,7 @@
         "The seller signs a declaration that the debt will be paid within one month after the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 264(4) ДОПК: the deal goes ahead after the debts are paid, or when the debtor declares in writing that the debts are paid from the price and the buyer pays the amount into the budget. A payment to the seller or a promise for later does not satisfy the rule; an act in breach cannot be opposed to the state (Art. 264(5)).",
+      "explanation": "[[dopk:264:4]]: the deal goes ahead after the debts are paid, or when the debtor declares in writing that the debts are paid from the price and the buyer pays the amount into the budget. A payment to the seller or a promise for later does not satisfy the rule; an act in breach cannot be opposed to the state ([[dopk:264:5|Art. 264(5)]]).",
       "refs": [
         "dopk:264:4",
         "dopk:264:5"
@@ -149,7 +149,7 @@
         "The insured amount only"
       ],
       "answer": 0,
-      "explanation": "Art. 73(1) ЗННД: the notary is liable for culpable damage up to the certified material interest, here the price of 120,000 euro. The insurance pays within the policy, but the limit of the liability itself is the material interest.",
+      "explanation": "[[znnd:73:1]]: the notary is liable for culpable damage up to the certified material interest, here the price of 120,000 euro. The insurance pays within the policy, but the limit of the liability itself is the material interest.",
       "refs": [
         "znnd:73:1"
       ]
@@ -163,7 +163,7 @@
         "The General Assembly of the Notary Chamber"
       ],
       "answer": 0,
-      "explanation": "Art. 72 and 77(4) ЗННД: the chair of the Disciplinary Commission assigns the case to a panel of three members. The Minister or the Council only propose the case; the Supreme Court of Cassation hears the appeal (Art. 80(1)).",
+      "explanation": "[[znnd:72|Art. 72]] and [[znnd:77:4|77(4) ЗННД]]: the chair of the Disciplinary Commission assigns the case to a panel of three members. The Minister or the Council only propose the case; the Supreme Court of Cassation hears the appeal ([[znnd:80:1|Art. 80(1)]]).",
       "refs": [
         "znnd:77:4",
         "znnd:72",
@@ -179,7 +179,7 @@
         "At any time; discipline has no time limit"
       ],
       "answer": 0,
-      "explanation": "Art. 76(1) ЗННД: six months from the discovery, but at most two years from the breach. Six months from January 2026 would run to July 2026, but the two years from March 2024 end earlier, in March 2026.",
+      "explanation": "[[znnd:76:1]]: six months from the discovery, but at most two years from the breach. Six months from January 2026 would run to July 2026, but the two years from March 2024 end earlier, in March 2026.",
       "refs": [
         "znnd:76:1"
       ]
@@ -193,7 +193,7 @@
         "An inspector of the Notary Chamber, during a planned inspection"
       ],
       "answer": 0,
-      "explanation": "Art. 28(3)–(4) ЗННД: files leave the office only on a written order of a judge or a prosecutor; originals leave only with the notary, and an expert examination takes place in the notary's presence. The archive is inviolable (Art. 21); neither the police nor the Chamber take originals without such an order.",
+      "explanation": "[[znnd:28:3|Art. 28(3)]]–[[znnd:28:4|(4) ЗННД]]: files leave the office only on a written order of a judge or a prosecutor; originals leave only with the notary, and an expert examination takes place in the notary's presence. The archive is inviolable ([[znnd:21|Art. 21]]); neither the police nor the Chamber take originals without such an order.",
       "refs": [
         "znnd:28:3",
         "znnd:28:4",
@@ -209,7 +209,7 @@
         "There is no time limit"
       ],
       "answer": 0,
-      "explanation": "Art. 16(2) ЗННД: the persons entered in the register report changes within seven days. A move of the office or the archive is also reported to the president of the district court at once (Art. 29).",
+      "explanation": "[[znnd:16:2]]: the persons entered in the register report changes within seven days. A move of the office or the archive is also reported to the president of the district court at once ([[znnd:29|Art. 29]]).",
       "refs": [
         "znnd:16:2",
         "znnd:29"
@@ -224,7 +224,7 @@
         "The account serves only for payments in cash made at the office"
       ],
       "answer": 0,
-      "explanation": "Art. 25а(2) ЗННД: a written agreement between the notary and the parties sets the conditions for the deposit and the payments. Art. 25а(3) bars enforcement against the money for the notary's debts, because it is not the notary's money.",
+      "explanation": "[[znnd:25а:2]]: a written agreement between the notary and the parties sets the conditions for the deposit and the payments. [[znnd:25а:3|Art. 25а(3)]] bars enforcement against the money for the notary's debts, because it is not the notary's money.",
       "refs": [
         "znnd:25а"
       ]
@@ -238,7 +238,7 @@
         "Kept by the Notary Chamber in its own archive"
       ],
       "answer": 0,
-      "explanation": "Art. 36–38 ЗННД: the archive is sealed by order of the president of the district court with an inventory, and the Council records who received it: another notary of the district or the registration judge, who performs acts only on the documents in it. The State Archives receive records only after the retention periods (Art. 28а).",
+      "explanation": "[[znnd:36|Art. 36]]–[[znnd:38|38 ЗННД]]: the archive is sealed by order of the president of the district court with an inventory, and the Council records who received it: another notary of the district or the registration judge, who performs acts only on the documents in it. The State Archives receive records only after the retention periods ([[znnd:28а|Art. 28а]]).",
       "refs": [
         "znnd:36",
         "znnd:38"

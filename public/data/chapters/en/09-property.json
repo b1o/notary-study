@@ -10,63 +10,63 @@
   "cards": [
     {
       "front": "Name three ways to acquire ownership.",
-      "back": "Legal transaction, prescription, other ways in law such as inheritance (Art. 77 ЗС)."
+      "back": "Legal transaction, prescription, other ways in law such as inheritance ([[zs:77]])."
     },
     {
       "front": "Prescription period for real estate?",
-      "back": "**10 years** of uninterrupted possession; **5 years** in good faith (Art. 79 ЗС)."
+      "back": "**10 years** of uninterrupted possession; **5 years** in good faith ([[zs:79]])."
     },
     {
       "front": "What interrupts the prescription period?",
-      "back": "Loss of possession for more than **six months** (Art. 81 ЗС)."
+      "back": "Loss of possession for more than **six months** ([[zs:81]])."
     },
     {
       "front": "Possession vs holding?",
-      "back": "Possession: control as **one's own**. Holding: control **not** as one's own, e.g. a tenant (Art. 68 ЗС)."
+      "back": "Possession: control as **one's own**. Holding: control **not** as one's own, e.g. a tenant ([[zs:68]])."
     },
     {
       "front": "Are shares of co-owners equal?",
-      "back": "They are **presumed equal** until the contrary is proven (Art. 30 ЗС)."
+      "back": "They are **presumed equal** until the contrary is proven ([[zs:30]])."
     },
     {
       "front": "What must a co-owner present to the notary before selling a share to a third person?",
-      "back": "Written evidence of an **offer to the other co-owners on the same terms** and a written declaration that **no one accepted** (Art. 33 ЗС)."
+      "back": "Written evidence of an **offer to the other co-owners on the same terms** and a written declaration that **no one accepted** ([[zs:33]])."
     },
     {
       "front": "Time limit for a co-owner's redemption claim?",
-      "back": "**Two months** from the sale (Art. 33 ЗС)."
+      "back": "**Two months** from the sale ([[zs:33]])."
     },
     {
       "front": "Form of a voluntary partition of real estate?",
-      "back": "Written with **notarially certified signatures**; court permission if persons without capacity or absent persons take part (Art. 35 ЗС)."
+      "back": "Written with **notarially certified signatures**; court permission if persons without capacity or absent persons take part ([[zs:35]])."
     },
     {
       "front": "Can common parts of a condominium be divided?",
-      "back": "**No** (Art. 38 ЗС)."
+      "back": "**No** ([[zs:38]])."
     },
     {
       "front": "A building right of 2019 was never used. May the holder start building in 2026?",
-      "back": "**No.** The right to build on another's land lapses after **5 years** of non-use (Art. 67 ЗС)."
+      "back": "**No.** The right to build on another's land lapses after **5 years** of non-use ([[zs:67]])."
     },
     {
       "front": "Material interest for a building right deed?",
-      "back": "**90%** of the market price of the land (Art. 96(2) ЗННД)."
+      "back": "**90%** of the market price of the land ([[znnd:96:2]])."
     },
     {
       "front": "A father kept a right of use after a gift and then lived in a care home for six years. What happened to the right?",
-      "back": "It **lapsed**: a right of use ends when it is not exercised for **5 years** (Art. 59 ЗС). It also cannot be sold (Art. 56)."
+      "back": "It **lapsed**: a right of use ends when it is not exercised for **5 years** ([[zs:59]]). It also cannot be sold ([[zs:56|Art. 56]])."
     },
     {
       "front": "When does a right of use end?",
-      "back": "Death of the holder (unless shorter term), end of a legal entity, loss of the thing, **5 years** of non-use (Art. 59 ЗС)."
+      "back": "Death of the holder (unless shorter term), end of a legal entity, loss of the thing, **5 years** of non-use ([[zs:59]])."
     },
     {
       "front": "Form of a waiver of ownership of real estate?",
-      "back": "Written with **notarially certified signature**, and **entered** in the property register (Art. 100 ЗС)."
+      "back": "Written with **notarially certified signature**, and **entered** in the property register ([[zs:100]])."
     },
     {
       "front": "The seller sold the same flat twice; the second buyer entered first. Who owns it?",
-      "back": "The **second** buyer: an unentered act cannot be opposed to a third person who acquired from the same owner and **entered** first (Art. 113 ЗС)."
+      "back": "The **second** buyer: an unentered act cannot be opposed to a third person who acquired from the same owner and **entered** first ([[zs:113]])."
     }
   ],
   "quiz": [
@@ -79,7 +79,7 @@
         "No ownership yet; twenty years are needed for a house"
       ],
       "answer": 0,
-      "explanation": "Art. 79 ЗС: a good-faith possessor acquires real estate by five years of uninterrupted possession; otherwise ten years. Good faith means possession on a legal ground capable of making the possessor the owner, without knowledge of its defect (Art. 70). Twenty years is not a term of the act.",
+      "explanation": "[[zs:79]]: a good-faith possessor acquires real estate by five years of uninterrupted possession; otherwise ten years. Good faith means possession on a legal ground capable of making the possessor the owner, without knowledge of its defect ([[zs:70|Art. 70]]). Twenty years is not a term of the act.",
       "refs": [
         "zs:79",
         "zs:70"
@@ -94,7 +94,7 @@
         "No presumption; a court sets the shares"
       ],
       "answer": 0,
-      "explanation": "Art. 30 ЗС: the shares of co-owners are presumed equal until the contrary is proven. A deed or a certificate of heirs can prove other shares; age and seniority prove nothing.",
+      "explanation": "[[zs:30]]: the shares of co-owners are presumed equal until the contrary is proven. A deed or a certificate of heirs can prove other shares; age and seniority prove nothing.",
       "refs": [
         "zs:30"
       ]
@@ -108,7 +108,7 @@
         "A valuation of the share by a licensed appraiser"
       ],
       "answer": 0,
-      "explanation": "Art. 33 ЗС: before selling a share to a third person, the co-owner presents written evidence that the share was offered to the other co-owners on the same terms and declares in writing that none of them accepted. Their consent is not needed: the offer and its refusal suffice; a false declaration opens the redemption claim.",
+      "explanation": "[[zs:33]]: before selling a share to a third person, the co-owner presents written evidence that the share was offered to the other co-owners on the same terms and declares in writing that none of them accepted. Their consent is not needed: the offer and its refusal suffice; a false declaration opens the redemption claim.",
       "refs": [
         "zs:33"
       ]
@@ -122,7 +122,7 @@
         "Six months from the sale"
       ],
       "answer": 0,
-      "explanation": "Art. 33 ЗС: the claim for redemption is filed within two months of the sale; the co-owner who wins must pay within one month after the decision becomes final, or the decision is void by law.",
+      "explanation": "[[zs:33]]: the claim for redemption is filed within two months of the sale; the co-owner who wins must pay within one month after the decision becomes final, or the decision is void by law.",
       "refs": [
         "zs:33"
       ]
@@ -136,7 +136,7 @@
         "The right lapses only after ten years of non-use"
       ],
       "answer": 0,
-      "explanation": "Art. 67 ЗС: the right to build on another's land lapses when it is not exercised for five years. 2018 plus five years ended in 2023; the land stays with its owner.",
+      "explanation": "[[zs:67]]: the right to build on another's land lapses when it is not exercised for five years. 2018 plus five years ended in 2023; the land stays with its owner.",
       "refs": [
         "zs:67"
       ]
@@ -150,7 +150,7 @@
         "Nobody, because the flat is a family home"
       ],
       "answer": 0,
-      "explanation": "Art. 57 ЗС: the holder of the right of use pays the costs of use, including taxes and fees. The owner of the bare ownership pays nothing while the right lasts; the Local Taxes Act says the same for the property tax (Art. 11(3) ЗМДТ, not in the library).",
+      "explanation": "[[zs:57]]: the holder of the right of use pays the costs of use, including taxes and fees. The owner of the bare ownership pays nothing while the right lasts; the Local Taxes Act says the same for the property tax ([[zmdt:11:3]]).",
       "refs": [
         "zs:57"
       ]
@@ -164,7 +164,7 @@
         "Yes, but only to relatives in the direct line"
       ],
       "answer": 0,
-      "explanation": "Art. 56 ЗС: the holder of a right of use may not transfer it; the right is personal and ends with the holder's death (Art. 59). No consent or form changes that.",
+      "explanation": "[[zs:56]]: the holder of a right of use may not transfer it; the right is personal and ends with the holder's death ([[zs:59|Art. 59]]). No consent or form changes that.",
       "refs": [
         "zs:56",
         "zs:59"
@@ -179,7 +179,7 @@
         "An oral agreement before two witnesses"
       ],
       "answer": 0,
-      "explanation": "Art. 35 ЗС: a voluntary partition of real estate needs written form with notarially certified signatures; persons without capacity or absent persons need court permission. In practice offices make a partition contract certified and entered (Art. 4 ПВ).",
+      "explanation": "[[zs:35]]: a voluntary partition of real estate needs written form with notarially certified signatures; persons without capacity or absent persons need court permission. In practice offices make a partition contract certified and entered ([[pv:4]]).",
       "refs": [
         "zs:35",
         "pv:4"
@@ -194,7 +194,7 @@
         "When signed in simple writing before a witness"
       ],
       "answer": 0,
-      "explanation": "Art. 100 ЗС: a waiver of ownership of real estate takes effect only when made in writing with a notarially certified signature and entered in the property register; until the entry the owner may withdraw it.",
+      "explanation": "[[zs:100]]: a waiver of ownership of real estate takes effect only when made in writing with a notarially certified signature and entered in the property register; until the entry the owner may withdraw it.",
       "refs": [
         "zs:100"
       ]
@@ -208,7 +208,7 @@
         "The seller decides"
       ],
       "answer": 0,
-      "explanation": "Art. 113 ЗС: until entry, an act cannot be relied upon against third persons who acquired rights from the same owner and entered them earlier. B entered first and wins; A keeps only a claim for damages against the seller.",
+      "explanation": "[[zs:113]]: until entry, an act cannot be relied upon against third persons who acquired rights from the same owner and entered them earlier. B entered first and wins; A keeps only a claim for damages against the seller.",
       "refs": [
         "zs:113"
       ]
@@ -222,7 +222,7 @@
         "Yes; if the price paid was a fair one"
       ],
       "answer": 0,
-      "explanation": "Art. 78 ЗС: good-faith acquisition of a movable from a non-owner does not apply when the transfer needs a notarial deed or notarially certified signatures; a car needs certified signatures (Art. 144(2) ЗДвП). Movables are otherwise acquired by prescription in five years (Art. 80).",
+      "explanation": "[[zs:78]]: good-faith acquisition of a movable from a non-owner does not apply when the transfer needs a notarial deed or notarially certified signatures; a car needs certified signatures ([[zdvp:144:2]]). Movables are otherwise acquired by prescription in five years ([[zs:80|Art. 80]]).",
       "refs": [
         "zs:78",
         "zdvp:144:2",
@@ -238,7 +238,7 @@
         "Yes; if the municipality approves the four gardens"
       ],
       "answer": 0,
-      "explanation": "Art. 38 ЗС: the common parts of a condominium, including the land and the yard, cannot be divided. The owners may agree on the use of the yard, but each flat keeps its ideal part of the common parts (Art. 40).",
+      "explanation": "[[zs:38]]: the common parts of a condominium, including the land and the yard, cannot be divided. The owners may agree on the use of the yard, but each flat keeps its ideal part of the common parts ([[zs:40|Art. 40]]).",
       "refs": [
         "zs:38",
         "zs:40"

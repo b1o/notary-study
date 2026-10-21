@@ -10,19 +10,19 @@
   "cards": [
     {
       "front": "Which act is the supreme law of Bulgaria?",
-      "back": "The **Constitution**; its provisions have direct effect (Art. 5(1)–(2) Конституция)."
+      "back": "The **Constitution**; its provisions have direct effect ([[konst:5:1|Art. 5(1)]]–[[konst:5:2|(2) Конституция]])."
     },
     {
       "front": "When does a normative act enter into force if it says nothing?",
-      "back": "**Three days after promulgation** in the State Gazette (Art. 5(5) Конституция)."
+      "back": "**Three days after promulgation** in the State Gazette ([[konst:5:5]])."
     },
     {
       "front": "What applies if a Bulgarian act contradicts an EU regulation?",
-      "back": "The **EU regulation** (Art. 15(2) ЗНА)."
+      "back": "The **EU regulation** ([[zna:15:2]])."
     },
     {
       "front": "Who sets the rate of the local tax on the acquisition of property?",
-      "back": "The **municipal council**, by ordinance, within the limits of the law (Art. 1(2) ЗМДТ)."
+      "back": "The **municipal council**, by ordinance, within the limits of the law ([[zmdt:1:2]])."
     },
     {
       "front": "What is the difference between \"ал.\" and \"т.\"?",
@@ -34,35 +34,35 @@
     },
     {
       "front": "A 17-year-old wants to sell her bicycle. Who signs?",
-      "back": "She signs herself, **with the consent** of a parent (Art. 4 ЗЛС); a small everyday deal needs no consent. Legal capacity (to hold rights) starts at birth (Art. 1 ЗЛС); capacity to act is full at 18 (Art. 2 ЗЛС)."
+      "back": "She signs herself, **with the consent** of a parent ([[zls:4]]); a small everyday deal needs no consent. Legal capacity (to hold rights) starts at birth ([[zls:1]]); capacity to act is full at 18 ([[zls:2]])."
     },
     {
       "front": "How does a minor aged 15 sign a contract?",
-      "back": "Personally, **with the consent** of a parent or curator (Art. 4 ЗЛС)."
+      "back": "Personally, **with the consent** of a parent or curator ([[zls:4]])."
     },
     {
       "front": "What form does a contract for the transfer of real estate need?",
-      "back": "A **notarial deed** (Art. 18 ЗЗД)."
+      "back": "A **notarial deed** ([[zzd:18]])."
     },
     {
       "front": "What happens to a contract without the form required by law?",
-      "back": "It is **void** (Art. 26(2) ЗЗД)."
+      "back": "It is **void** ([[zzd:26:2]])."
     },
     {
       "front": "Name three grounds that make a contract voidable.",
-      "back": "Lack of capacity, mistake, fraud, threat, extreme need (Art. 27 ЗЗД)."
+      "back": "Lack of capacity, mistake, fraud, threat, extreme need ([[zzd:27]])."
     },
     {
       "front": "Time limit to request annulment of a voidable contract?",
-      "back": "**Three years**, as a rule (Art. 32 ЗЗД); **one year** for extreme need (Art. 33 ЗЗД)."
+      "back": "**Three years**, as a rule ([[zzd:32]]); **one year** for extreme need ([[zzd:33]])."
     },
     {
       "front": "What does an official document prove?",
-      "back": "The statements made before the official and the acts done by or before the official (Art. 179(1) ГПК)."
+      "back": "The statements made before the official and the acts done by or before the official ([[gpk:179:1]])."
     },
     {
       "front": "What are immovable things?",
-      "back": "Land, plants, buildings and everything permanently attached to the land or a building (Art. 110 ЗС)."
+      "back": "Land, plants, buildings and everything permanently attached to the land or a building ([[zs:110]])."
     }
   ],
   "quiz": [
@@ -75,7 +75,7 @@
         "The one chosen by the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 15(1) ЗНА: a normative act must agree with the Constitution and with every act of a higher level; an ordinance only implements the law that allows it (Art. 12). The date of the act does not matter.",
+      "explanation": "[[zna:15:1]]: a normative act must agree with the Constitution and with every act of a higher level; an ordinance only implements the law that allows it ([[zna:12|Art. 12]]). The date of the act does not matter.",
       "refs": [
         "zna:15:1",
         "zna:12"
@@ -90,7 +90,7 @@
         "On the next 1 January"
       ],
       "answer": 0,
-      "explanation": "Art. 5(5) of the Constitution: a normative act enters into force three days after its promulgation in the State Gazette, unless the act sets another term. 10 March plus three days is 13 March.",
+      "explanation": "[[konst:5:5|Art. 5(5) of the Constitution]]: a normative act enters into force three days after its promulgation in the State Gazette, unless the act sets another term. 10 March plus three days is 13 March.",
       "refs": [
         "konst:5:5"
       ]
@@ -116,7 +116,7 @@
         "The Notary Chamber"
       ],
       "answer": 0,
-      "explanation": "Art. 577(1) ГПК: a refusal to perform a notarial certification is appealed with a private appeal before the окръжен съд, which this course calls the regional court. The district court houses the registration judge, who handles entries, not appeals.",
+      "explanation": "[[gpk:577:1]]: a refusal to perform a notarial certification is appealed with a private appeal before the окръжен съд, which this course calls the regional court. The district court houses the registration judge, who handles entries, not appeals.",
       "refs": [
         "gpk:577:1"
       ]
@@ -130,7 +130,7 @@
         "The cadastre office"
       ],
       "answer": 0,
-      "explanation": "Art. 280 ЗСВ: the registration judge at the district court orders or refuses entries, notes and deletions in the property register. The notary presents the act; the cadastre office issues sketches.",
+      "explanation": "[[zsv:280]]: the registration judge at the district court orders or refuses entries, notes and deletions in the property register. The notary presents the act; the cadastre office issues sketches.",
       "refs": [
         "zsv:280"
       ]
@@ -144,7 +144,7 @@
         "Nobody; the apartment waits until the child turns 18"
       ],
       "answer": 0,
-      "explanation": "Art. 3 ЗЛС: a child under 14 cannot act; the parents act in the child's name. Consent of the parents is the regime of a minor from 14 to 18 (Art. 4). A disposal of the child's real estate also needs the permission of the district court (Art. 130(3) СК; chapter 12).",
+      "explanation": "[[zls:3]]: a child under 14 cannot act; the parents act in the child's name. Consent of the parents is the regime of a minor from 14 to 18 ([[zls:4|Art. 4]]). A disposal of the child's real estate also needs the permission of the district court ([[sk:130:3]]; chapter 12).",
       "refs": [
         "zls:3",
         "zls:4",
@@ -160,7 +160,7 @@
         "Valid once entered"
       ],
       "answer": 0,
-      "explanation": "Art. 18 ЗЗД requires a notarial deed for a transfer of real estate; Art. 26(2) makes a contract without the required form void. A void contract has no effect even between the parties, and an entry cannot cure it; only a preliminary contract in writing gives a claim for a final contract (Art. 19).",
+      "explanation": "[[zzd:18]] requires a notarial deed for a transfer of real estate; [[zzd:26:2|Art. 26(2)]] makes a contract without the required form void. A void contract has no effect even between the parties, and an entry cannot cure it; only a preliminary contract in writing gives a claim for a final contract ([[zzd:19|Art. 19]]).",
       "refs": [
         "zzd:18",
         "zzd:26:2",
@@ -176,7 +176,7 @@
         "Non-existent"
       ],
       "answer": 0,
-      "explanation": "Art. 27 ЗЗД: a contract concluded by mistake, fraud, threat or in extreme need is voidable; Art. 30 defines the threat. The contract stands until a court annuls it at the request of the threatened party (Art. 32), unlike a void contract, which has no effect from the start.",
+      "explanation": "[[zzd:27]]: a contract concluded by mistake, fraud, threat or in extreme need is voidable; [[zzd:30|Art. 30]] defines the threat. The contract stands until a court annuls it at the request of the threatened party ([[zzd:32|Art. 32]]), unlike a void contract, which has no effect from the start.",
       "refs": [
         "zzd:27",
         "zzd:30",
@@ -192,7 +192,7 @@
         "It must always be made in notarial form"
       ],
       "answer": 0,
-      "explanation": "Art. 180 ГПК: a private document signed by its authors proves that the statements were made by them, not that they are true. Only an official document proves the facts certified before the official (Art. 179).",
+      "explanation": "[[gpk:180]]: a private document signed by its authors proves that the statements were made by them, not that they are true. Only an official document proves the facts certified before the official ([[gpk:179|Art. 179]]).",
       "refs": [
         "gpk:180",
         "gpk:179"
@@ -207,7 +207,7 @@
         "A verbal permission to park in the yard"
       ],
       "answer": 0,
-      "explanation": "A real right, such as the right of use, acts against everybody (chapter 9); it is created by a deed and entered (Art. 56 ЗС). A loan, a promise or a permission is an obligation that binds only the parties (Art. 8 ЗЗД); the buyer need not respect it.",
+      "explanation": "A real right, such as the right of use, acts against everybody (chapter 9); it is created by a deed and entered ([[zs:56]]). A loan, a promise or a permission is an obligation that binds only the parties ([[zzd:8]]); the buyer need not respect it.",
       "refs": [
         "zs:56",
         "zzd:8"
@@ -222,7 +222,7 @@
         "A commercial legal database"
       ],
       "answer": 0,
-      "explanation": "Only the State Gazette carries the official text; promulgation there starts the term for the entry into force (Art. 5(5) of the Constitution). lex.bg and commercial databases offer consolidated texts, and the Chamber publishes guidance, not the law.",
+      "explanation": "Only the State Gazette carries the official text; promulgation there starts the term for the entry into force ([[konst:5:5|Art. 5(5) of the Constitution]]). lex.bg and commercial databases offer consolidated texts, and the Chamber publishes guidance, not the law.",
       "refs": [
         "konst:5:5"
       ]
@@ -236,7 +236,7 @@
         "Until midnight on Sunday, by the court's e-mail"
       ],
       "answer": 0,
-      "explanation": "Art. 62(1) ГПК: when something must be filed with the court, the term ends with the end of the working hours of the last day. Midnight applies only to filings sent by post or electronically (Art. 62(2)), not to a filing at the court office.",
+      "explanation": "[[gpk:62:1]]: when something must be filed with the court, the term ends with the end of the working hours of the last day. Midnight applies only to filings sent by post or electronically ([[gpk:62:2|Art. 62(2)]]), not to a filing at the court office.",
       "refs": [
         "gpk:62:1",
         "gpk:62:2"

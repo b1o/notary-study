@@ -10,47 +10,47 @@
   "cards": [
     {
       "front": "Name the four kinds of notarial fees.",
-      "back": "Ordinary, proportional, by time, and for drafting and checking (Art. 90–94 ЗННД)."
+      "back": "Ordinary, proportional, by time, and for drafting and checking ([[znnd:90|Art. 90]]–[[znnd:94|94 ЗННД]])."
     },
     {
       "front": "When is a fee charged on the higher of the price and the tax assessment?",
-      "back": "When they **differ**: always on the higher (Art. 96(3) ЗННД)."
+      "back": "When they **differ**: always on the higher ([[znnd:96:3]])."
     },
     {
       "front": "What is the material interest for a mortgage?",
-      "back": "The **nominal value** of the secured claim (Art. 97(1) item 7 ЗННД)."
+      "back": "The **nominal value** of the secured claim ([[znnd:97:1:7|Art. 97(1) item 7 ЗННД]])."
     },
     {
       "front": "What is the maximum fee under item 8?",
-      "back": "**6,000 лв. = 3,067.75 €** (item 8 ТНТ)."
+      "back": "**6,000 лв. = 3,067.75 €** ([[tarifa:8|item 8 ТНТ]])."
     },
     {
       "front": "A contract with a material interest of 10,000 € is certified under item 10. What is the fee?",
-      "back": "10,000 € = 19,558.30 лв.; item 8: 160.50 + 0.8% × 9,558.30 = 236.97 лв.; **30%** = **71.09 лв. = 36.35 €** (at least 30 лв.; item 10 ТНТ)."
+      "back": "10,000 € = 19,558.30 лв.; [[tarifa:8|item 8]]: 160.50 + 0.8% × 9,558.30 = 236.97 лв.; **30%** = **71.09 лв. = 36.35 €** (at least 30 лв.; [[tarifa:10|item 10 ТНТ]])."
     },
     {
       "front": "What is the item 12 fee?",
-      "back": "**Half of item 10**, at least 25 лв. = 12.78 € (item 12 ТНТ)."
+      "back": "**Half of [[tarifa:10|item 10]]**, at least 25 лв. = 12.78 € ([[tarifa:12|item 12 ТНТ]])."
     },
     {
       "front": "The notary checked a client's draft and charged half of the fee. The same notary certifies it three weeks later. What is charged?",
-      "back": "Only the **other half**: a certification by the same notary within one month costs the remaining half (Art. 94(3) ЗННД)."
+      "back": "Only the **other half**: a certification by the same notary within one month costs the remaining half ([[znnd:94:3]])."
     },
     {
       "front": "Is an oral consultation charged when it relates to a charged act?",
-      "back": "**No** (Art. 93(2) ЗННД)."
+      "back": "**No** ([[znnd:93:2]])."
     },
     {
       "front": "When is the fee due?",
-      "back": "When the act is **performed**; for a circumstantial verification, when the request is **filed** (Art. 88(1) ЗННД)."
+      "back": "When the act is **performed**; for a circumstantial verification, when the request is **filed** ([[znnd:88:1]])."
     },
     {
       "front": "Who is liable for the fee when several persons ask?",
-      "back": "All of them **jointly** (Art. 87 ЗННД)."
+      "back": "All of them **jointly** ([[znnd:87]])."
     },
     {
       "front": "What can the notary do about unpaid fees?",
-      "back": "Ask for an **order for payment** regardless of the amount (Art. 89(3) ЗННД)."
+      "back": "Ask for an **order for payment** regardless of the amount ([[znnd:89:3]])."
     },
     {
       "front": "What is the entry fee at the Registry Agency?",
@@ -58,11 +58,11 @@
     },
     {
       "front": "What is the range of the local tax on a purchase?",
-      "back": "**0.1% – 3%**, set by the municipal council (Art. 47(2) ЗМДТ)."
+      "back": "**0.1% – 3%**, set by the municipal council ([[zmdt:47:2]])."
     },
     {
       "front": "The notary certifies signatures in a village outside the town of the office, in working hours. What is the additional fee?",
-      "back": "**50%** (item 23 letter \"г\" ТНТ); out of hours and outside the town: **double** (letter \"д\"). In working hours in the same town: 25% (letter \"а\")."
+      "back": "**50%** ([[tarifa:23|item 23]] letter \"г\" ТНТ); out of hours and outside the town: **double** (letter \"д\"). In working hours in the same town: 25% (letter \"а\")."
     }
   ],
   "quiz": [
@@ -89,7 +89,7 @@
         "155,000 €, the two added together"
       ],
       "answer": 0,
-      "explanation": "Art. 96(3) ЗННД: when the tax assessment and the certified material interest differ, the fee is collected on the higher of the two. Here the tax assessment is higher than the price.",
+      "explanation": "[[znnd:96:3]]: when the tax assessment and the certified material interest differ, the fee is collected on the higher of the two. Here the tax assessment is higher than the price.",
       "refs": [
         "znnd:96:3"
       ]
@@ -103,7 +103,7 @@
         "30.00 лв. (15.34 €)"
       ],
       "answer": 0,
-      "explanation": "Item 9: 50% of item 8. 28,000 € = 54,763.24 лв.; bracket 50,001–100,000 лв.: 480.50 + 0.5% × 4,763.24 = 504.32 лв.; half: 252.16 лв. = 128.93 €. 504.32 is the full item 8 fee; 126.08 is a quarter; 30 лв. is only the minimum.",
+      "explanation": "[[tarifa:9|Item 9]]: 50% of [[tarifa:8|item 8]]. 28,000 € = 54,763.24 лв.; bracket 50,001–100,000 лв.: 480.50 + 0.5% × 4,763.24 = 504.32 лв.; half: 252.16 лв. = 128.93 €. 504.32 is the full [[tarifa:8|item 8]] fee; 126.08 is a quarter; 30 лв. is only the minimum.",
       "refs": [
         "tarifa:9",
         "tarifa:8"
@@ -118,7 +118,7 @@
         "A fixed fee of 30 лв. (15.34 €) for the draft of any act"
       ],
       "answer": 0,
-      "explanation": "Art. 94(2) ЗННД and item 20 letter \"а\" of the tariff: for a draft of a notarial deed the fee provided for the certification is charged, that is item 8. A check of a draft that the client brings costs half (Art. 94(3)); 30 лв. is the item 1 fee for drafts of item 1 acts (item 17).",
+      "explanation": "[[znnd:94:2]] and [[tarifa:20|item 20]] letter \"а\" of the tariff: for a draft of a notarial deed the fee provided for the certification is charged, that is [[tarifa:8|item 8]]. A check of a draft that the client brings costs half ([[znnd:94:3|Art. 94(3)]]); 30 лв. is the [[tarifa:1|item 1]] fee for drafts of [[tarifa:1|item 1]] acts ([[tarifa:17|item 17]]).",
       "refs": [
         "tarifa:20",
         "znnd:94"
@@ -133,7 +133,7 @@
         "Item 8 on the value of the matter in the opinion"
       ],
       "answer": 0,
-      "explanation": "Item 15 of the tariff: 15 лв. per hour for a written consultation; the note to items 14–16: a started hour is charged as a full hour, so 1 hour 10 minutes counts as two hours. Art. 93(2) ЗННД exempts only oral consultations given on the occasion of another charged act.",
+      "explanation": "[[tarifa:15|Item 15 of the tariff]]: 15 лв. per hour for a written consultation; the note to [[tarifa:14|items 14]]–[[tarifa:16|16]]: a started hour is charged as a full hour, so 1 hour 10 minutes counts as two hours. [[znnd:93:2]] exempts only oral consultations given on the occasion of another charged act.",
       "refs": [
         "tarifa:15",
         "tarifa:16",
@@ -149,7 +149,7 @@
         "Ask the Notary Chamber to cover the unpaid half of the fee"
       ],
       "answer": 0,
-      "explanation": "Art. 87 ЗННД: the fee is owed by the person whose request the notary examined, and several liable persons are jointly liable; the notary may claim the whole rest from any of them and ask for an order for payment (Art. 89(3)).",
+      "explanation": "[[znnd:87]]: the fee is owed by the person whose request the notary examined, and several liable persons are jointly liable; the notary may claim the whole rest from any of them and ask for an order for payment ([[znnd:89:3|Art. 89(3)]]).",
       "refs": [
         "znnd:87",
         "znnd:89:3"
@@ -164,7 +164,7 @@
         "A new bill only with the written consent of the client"
       ],
       "answer": 0,
-      "explanation": "Art. 89(4) ЗННД: when the material interest was wrongly determined, the fees actually due are collected on a bill signed by the notary and made within 7 days of discovering the error. If the client does not pay, the notary asks for an order for payment (Art. 89(3)).",
+      "explanation": "[[znnd:89:4]]: when the material interest was wrongly determined, the fees actually due are collected on a bill signed by the notary and made within 7 days of discovering the error. If the client does not pay, the notary asks for an order for payment ([[znnd:89:3|Art. 89(3)]]).",
       "refs": [
         "znnd:89:4",
         "znnd:89:3"
@@ -193,7 +193,7 @@
         "25% of the fee, as outside the office"
       ],
       "answer": 0,
-      "explanation": "Item 23 letter \"д\" of the tariff: an act outside the office, out of hours and outside the settlement of the office is charged with an additional fee in the double amount. Letters \"в\" and \"г\" give 50% when only one of the two conditions is met.",
+      "explanation": "[[tarifa:23|Item 23]] letter \"д\" of the tariff: an act outside the office, out of hours and outside the settlement of the office is charged with an additional fee in the double amount. Letters \"в\" and \"г\" give 50% when only one of the two conditions is met.",
       "refs": [
         "tarifa:23"
       ]
@@ -207,7 +207,7 @@
         "No additional fee for a power of attorney"
       ],
       "answer": 0,
-      "explanation": "Item 23 letter \"в\" of the tariff: an act outside the office out of hours carries an additional fee of 50%. Art. 95(2) ЗННД speaks of one half in total; the lesson notes the difference between the act and the tariff.",
+      "explanation": "[[tarifa:23|Item 23]] letter \"в\" of the tariff: an act outside the office out of hours carries an additional fee of 50%. [[znnd:95:2]] speaks of one half in total; the lesson notes the difference between the act and the tariff.",
       "refs": [
         "tarifa:23",
         "znnd:95"
@@ -222,7 +222,7 @@
         "No minimum; 0.1% only"
       ],
       "answer": 0,
-      "explanation": "The tariff of the state fees collected by the Registry Agency (outside the library) sets the entry fee at 0.1% of the material interest, at least 10 лв. The office checks the current tariff; 30 лв. is a notarial minimum of items 9 and 10.",
+      "explanation": "The tariff of the state fees collected by the Registry Agency (outside the library) sets the entry fee at 0.1% of the material interest, at least 10 лв. The office checks the current tariff; 30 лв. is a notarial minimum of [[tarifa:9|items 9]] and [[tarifa:10|10]].",
       "refs": []
     },
     {
@@ -234,7 +234,7 @@
         "Converted at the daily rate of the central bank"
       ],
       "answer": 0,
-      "explanation": "Art. 11–13 ЗВЕРБ: amounts in leva in acts are read in euro at the fixed rate of 1.95583 лв. per euro, with rounding to the second decimal; the tariff stays in force with its leva amounts converted that way.",
+      "explanation": "[[zvevro:11|Art. 11]]–[[zvevro:13|13 ЗВЕРБ]]: amounts in leva in acts are read in euro at the fixed rate of 1.95583 лв. per euro, with rounding to the second decimal; the tariff stays in force with its leva amounts converted that way.",
       "refs": [
         "zvevro:11:2",
         "zvevro:12"

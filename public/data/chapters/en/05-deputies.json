@@ -9,47 +9,47 @@
   "cards": [
     {
       "front": "Who other than a notary may perform notarial functions?",
-      "back": "Only persons for whom **a law** provides it (Art. 81 ЗННД): assistant notaries, substitutes, registration judges, certain municipal officials and consuls."
+      "back": "Only persons for whom **a law** provides it ([[znnd:81]]): assistant notaries, substitutes, registration judges, certain municipal officials and consuls."
     },
     {
       "front": "A deed of sale shows \"помощник-нотариус\" and no \"по заместване\". What follows?",
-      "back": "The assistant had no power for a real-estate deed (Art. 40(1) ЗННД); the act is **null** (Art. 576 ГПК). A substitute signs with \"по заместване\" (Art. 46(1) ЗННД)."
+      "back": "The assistant had no power for a real-estate deed ([[znnd:40:1]]); the act is **null** ([[gpk:576]]). A substitute signs with \"по заместване\" ([[znnd:46:1]])."
     },
     {
       "front": "How does another notary substitute a colleague?",
-      "back": "Under a **contract**, only a notary **from the same district**, for up to **two years**; using the archive of the substituted notary but their own signature and seal (Art. 47 ЗННД)."
+      "back": "Under a **contract**, only a notary **from the same district**, for up to **two years**; using the archive of the substituted notary but their own signature and seal ([[znnd:47]])."
     },
     {
       "front": "When does the registration judge perform notarial acts?",
-      "back": "When the district has **no notary**; when nobody substitutes an absent notary (urgent acts); and on documents in the registry archive (Art. 48 and 82 ЗННД)."
+      "back": "When the district has **no notary**; when nobody substitutes an absent notary (urgent acts); and on documents in the registry archive ([[znnd:48|Art. 48]] and [[znnd:82|82 ЗННД]])."
     },
     {
       "front": "Where may a mayor certify signatures?",
-      "back": "In a settlement with **no notary and no district court** (Art. 83(1) ЗННД)."
+      "back": "In a settlement with **no notary and no district court** ([[znnd:83:1]])."
     },
     {
       "front": "What may a mayor certify?",
-      "back": "Signatures on unilateral private documents not subject to entry; signature **and** content of a power of attorney under Art. 37 ЗЗД; copies (Art. 83(1) ЗННД)."
+      "back": "Signatures on unilateral private documents not subject to entry; signature **and** content of a power of attorney under [[zzd:37]]; copies ([[znnd:83:1]])."
     },
     {
       "front": "A mayor certified the signatures on a transfer of OOD shares. What follows?",
-      "back": "The certification is outside the mayor's powers (Art. 83(2) ЗННД), and the Commercial Register refuses the entry. Only a notary certifies such signatures (Art. 129(2) ТЗ)."
+      "back": "The certification is outside the mayor's powers ([[znnd:83:2]]), and the Commercial Register refuses the entry. Only a notary certifies such signatures ([[tz:129:2]])."
     },
     {
       "front": "In which language must a document be for a Bulgarian consul to certify it?",
-      "back": "**Bulgarian** (Art. 84(1) ЗННД)."
+      "back": "**Bulgarian** ([[znnd:84:1]])."
     },
     {
       "front": "Who issues the apostille on a Bulgarian notarial certification?",
-      "back": "The **Ministry of Justice**, within two working days (Art. 17а(2)–(3) ПЛЗП)."
+      "back": "The **Ministry of Justice**, within two working days ([[plzp:17а:2|Art. 17а(2)]]–[[plzp:17а:3|(3) ПЛЗП]])."
     },
     {
       "front": "A translator brings a translation of a French deed for use in Bulgaria. What does the office certify?",
-      "back": "The **translator's signature** on the translation (Art. 21а(1) ПЛЗП), not the accuracy of the translation."
+      "back": "The **translator's signature** on the translation ([[plzp:21а:1]]), not the accuracy of the translation."
     },
     {
       "front": "Where do the fees go when a mayor or a registration judge performs a notarial act?",
-      "back": "Mayor: to the **municipal** budget; registration judge: to the **state** budget (Art. 86 ЗННД)."
+      "back": "Mayor: to the **municipal** budget; registration judge: to the **state** budget ([[znnd:86]])."
     }
   ],
   "quiz": [
@@ -62,7 +62,7 @@
         "The act is voidable within three years from its date"
       ],
       "answer": 0,
-      "explanation": "Art. 40(1) item 1 ЗННД excludes real-estate deeds from the powers of an assistant who is not a substitute; an act by a person without the power is null (Art. 576 ГПК), whatever seal was used. Only a registered substitute signs such deeds, with \"по заместване\" (Art. 46(1)).",
+      "explanation": "[[znnd:40:1:1|Art. 40(1) item 1 ЗННД]] excludes real-estate deeds from the powers of an assistant who is not a substitute; an act by a person without the power is null ([[gpk:576]]), whatever seal was used. Only a registered substitute signs such deeds, with \"по заместване\" ([[znnd:46:1|Art. 46(1)]]).",
       "refs": [
         "znnd:40:1",
         "gpk:576",
@@ -78,7 +78,7 @@
         "Yes; if notary B is also a registered substitute"
       ],
       "answer": 0,
-      "explanation": "Art. 47(1) ЗННД: a notary is substituted by another notary from the same district under a contract. Sofia and Plovdiv are different districts, so no contract or consent helps; A can use a substitute assistant (Art. 46) or inform the registration judge (Art. 48).",
+      "explanation": "[[znnd:47:1]]: a notary is substituted by another notary from the same district under a contract. Sofia and Plovdiv are different districts, so no contract or consent helps; A can use a substitute assistant ([[znnd:46|Art. 46]]) or inform the registration judge ([[znnd:48|Art. 48]]).",
       "refs": [
         "znnd:47:1",
         "znnd:48:1"
@@ -93,7 +93,7 @@
         "The seal of the district court and their own signature"
       ],
       "answer": 0,
-      "explanation": "Art. 47(2) ЗННД: the substitute uses the archive of the substituted notary, but puts their own signature and seal and notes the substitution. The seal of the substituted notary stays locked away.",
+      "explanation": "[[znnd:47:2]]: the substitute uses the archive of the substituted notary, but puts their own signature and seal and notes the substitution. The seal of the substituted notary stays locked away.",
       "refs": [
         "znnd:47:2"
       ]
@@ -107,7 +107,7 @@
         "Nothing; the resident must travel to a notary in the town"
       ],
       "answer": 0,
-      "explanation": "Art. 83(1) ЗННД: in a settlement with no notary and no district court, the mayor certifies the signature and the content of a power of attorney under Art. 37 ЗЗД, signatures on unilateral documents not subject to entry, and copies. A deed stays with the notary of the district (Art. 570(1) ГПК).",
+      "explanation": "[[znnd:83:1]]: in a settlement with no notary and no district court, the mayor certifies the signature and the content of a power of attorney under [[zzd:37]], signatures on unilateral documents not subject to entry, and copies. A deed stays with the notary of the district ([[gpk:570:1]]).",
       "refs": [
         "znnd:83:1",
         "gpk:570:1"
@@ -122,7 +122,7 @@
         "The signature and the content of a power of attorney for a sale"
       ],
       "answer": 0,
-      "explanation": "Art. 83(2) ЗННД excludes the signatures required by Art. 15(1), 129(2) and 137(6) ТЗ: the transfer of an enterprise, of company shares and the protocols of decisions. The three other acts are in Art. 83(1).",
+      "explanation": "[[znnd:83:2]] excludes the signatures required by [[tz:15:1|Art. 15(1)]], [[tz:129:2|129(2)]] and [[tz:137:6|137(6) ТЗ]]: the transfer of an enterprise, of company shares and the protocols of decisions. The three other acts are in [[znnd:83:1|Art. 83(1)]].",
       "refs": [
         "znnd:83:2",
         "znnd:83:1"
@@ -137,7 +137,7 @@
         "Only at the Ministry of Justice in Sofia"
       ],
       "answer": 0,
-      "explanation": "Art. 84(1) ЗННД: a Bulgarian consul certifies the date, the content and the signatures of private documents in Bulgarian that are not subject to entry. A German notary is another way, but the power then needs an apostille and a translation with a certified translator's signature (Art. 21а(1) ПЛЗП). A power is not tied to the district of the flat (Art. 570(2) ГПК).",
+      "explanation": "[[znnd:84:1]]: a Bulgarian consul certifies the date, the content and the signatures of private documents in Bulgarian that are not subject to entry. A German notary is another way, but the power then needs an apostille and a translation with a certified translator's signature ([[plzp:21а:1]]). A power is not tied to the district of the flat ([[gpk:570:2]]).",
       "refs": [
         "znnd:84:1",
         "plzp:21а:1",
@@ -153,7 +153,7 @@
         "The Notary Chamber"
       ],
       "answer": 0,
-      "explanation": "Art. 17а(2) item 1 ПЛЗП: for notarial acts and certifications the Ministry of Justice issues the apostille, within two working days (Art. 17а(3)). The Ministry of Foreign Affairs legalises documents for countries outside the Hague Convention (Art. 6, 7).",
+      "explanation": "[[plzp:17а:2:1|Art. 17а(2) item 1 ПЛЗП]]: for notarial acts and certifications the Ministry of Justice issues the apostille, within two working days ([[plzp:17а:3|Art. 17а(3)]]). The Ministry of Foreign Affairs legalises documents for countries outside the Hague Convention ([[plzp:6|Art. 6]], [[plzp:7|7]]).",
       "refs": [
         "plzp:17а:2",
         "plzp:17а:3"
@@ -168,7 +168,7 @@
         "Nothing; a sworn translator's stamp is enough"
       ],
       "answer": 0,
-      "explanation": "Art. 21а(1) ПЛЗП: the notary certifies the signature of the translator on a translation made in Bulgaria for use in Bulgaria. The notary does not check the accuracy of the translation or the content of the foreign document.",
+      "explanation": "[[plzp:21а:1]]: the notary certifies the signature of the translator on a translation made in Bulgaria for use in Bulgaria. The notary does not check the accuracy of the translation or the content of the foreign document.",
       "refs": [
         "plzp:21а:1"
       ]
@@ -182,7 +182,7 @@
         "The president of the district court of the district"
       ],
       "answer": 0,
-      "explanation": "Art. 82(1) ЗННД: in a district with no notary the registration judge performs all notarial acts. A notary of another district may not act outside the district (Art. 573(1) ГПК); the mayor acts only where there is also no district court (Art. 83(1)).",
+      "explanation": "[[znnd:82:1]]: in a district with no notary the registration judge performs all notarial acts. A notary of another district may not act outside the district ([[gpk:573:1]]); the mayor acts only where there is also no district court ([[znnd:83:1|Art. 83(1)]]).",
       "refs": [
         "znnd:82:1",
         "gpk:573:1",
@@ -198,7 +198,7 @@
         "Without a limit, while the contract stands"
       ],
       "answer": 0,
-      "explanation": "Art. 47(4) ЗННД: the term of a substitution by another notary may not exceed two years from the conclusion of the contract, the same limit as for a substitute assistant (Art. 46(2)).",
+      "explanation": "[[znnd:47:4]]: the term of a substitution by another notary may not exceed two years from the conclusion of the contract, the same limit as for a substitute assistant ([[znnd:46:2|Art. 46(2)]]).",
       "refs": [
         "znnd:47:4",
         "znnd:46:2"
@@ -213,7 +213,7 @@
         "The clerk prepares the acts, and the notary signs them after recovery"
       ],
       "answer": 0,
-      "explanation": "Art. 48(1) ЗННД: when the notary is absent and nobody substitutes, the notary informs the registration judge, who takes over the urgent notarial acts. An assistant without entry as a substitute acts only on the notary's instructions (Art. 40), and no notary acts outside the own district (Art. 573(1) ГПК).",
+      "explanation": "[[znnd:48:1]]: when the notary is absent and nobody substitutes, the notary informs the registration judge, who takes over the urgent notarial acts. An assistant without entry as a substitute acts only on the notary's instructions ([[znnd:40|Art. 40]]), and no notary acts outside the own district ([[gpk:573:1]]).",
       "refs": [
         "znnd:48:1",
         "znnd:40:1",
@@ -229,7 +229,7 @@
         "Yes, but only after a translation into German is attached"
       ],
       "answer": 0,
-      "explanation": "Art. 84(1) ЗННД: the consul certifies private documents in Bulgarian presented by Bulgarian or foreign citizens; for a foreign citizen Art. 84(2) adds the condition that the document is intended to take effect in Bulgaria. Documents subject to entry are excluded.",
+      "explanation": "[[znnd:84:1]]: the consul certifies private documents in Bulgarian presented by Bulgarian or foreign citizens; for a foreign citizen [[znnd:84:2|Art. 84(2)]] adds the condition that the document is intended to take effect in Bulgaria. Documents subject to entry are excluded.",
       "refs": [
         "znnd:84:1",
         "znnd:84:2"

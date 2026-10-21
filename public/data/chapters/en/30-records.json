@@ -9,47 +9,47 @@
   "cards": [
     {
       "front": "What does the official archive contain?",
-      "back": "Registers and books, case files, other documents, and the **seal** (Art. 28(2) ЗННД)."
+      "back": "Registers and books, case files, other documents, and the **seal** ([[znnd:28:2]])."
     },
     {
       "front": "Who may access the archive?",
-      "back": "Nobody without the notary's **consent**, except in the cases provided by law (Art. 21(1) ЗННД)."
+      "back": "Nobody without the notary's **consent**, except in the cases provided by law ([[znnd:21:1]])."
     },
     {
       "front": "A police officer asks to take a case file to the station. What does the office need?",
-      "back": "A **written order of a judge or prosecutor**; copies go against signature to the official named in it; originals leave only with the notary personally (Art. 28(3)–(4) ЗННД)."
+      "back": "A **written order of a judge or prosecutor**; copies go against signature to the official named in it; originals leave only with the notary personally ([[znnd:28:3|Art. 28(3)]]–[[znnd:28:4|(4) ЗННД]])."
     },
     {
       "front": "When does the numbering restart?",
-      "back": "On **1 January** each year (Art. 5–6 and 10(4) Наредба № 32)."
+      "back": "On **1 January** each year ([[n32:5|Art. 5]]–[[n32:6|6]] and [[n32:10:4|10(4) Наредба № 32]])."
     },
     {
       "front": "How long are case files for deeds kept?",
-      "back": "**5 years**; files for wills and deposits, and decisions on circumstantial verifications, **100 years** (Art. 10(5) Наредба № 32)."
+      "back": "**5 years**; files for wills and deposits, and decisions on circumstantial verifications, **100 years** ([[n32:10:5]])."
     },
     {
       "front": "What happens to records after 100 years?",
-      "back": "They go to the **State Archives** for permanent storage (Art. 28а(3) ЗННД)."
+      "back": "They go to the **State Archives** for permanent storage ([[znnd:28а:3]])."
     },
     {
       "front": "How are expired records destroyed?",
-      "back": "Only after **agreement with the State Archives** (Art. 28а(2) ЗННД)."
+      "back": "Only after **agreement with the State Archives** ([[znnd:28а:2]])."
     },
     {
       "front": "The notary dies. Who orders the sealing of the archive?",
-      "back": "The **president of the district court** (Art. 36(2) ЗННД); the heirs must ask for it at once, else the mayor or the district judge (Art. 22(2)–(3) Наредба № 32)."
+      "back": "The **president of the district court** ([[znnd:36:2]]); the heirs must ask for it at once, else the mayor or the district judge ([[n32:22:2|Art. 22(2)]]–[[n32:22:3|(3) Наредба № 32]])."
     },
     {
       "front": "Who inspects notaries?",
-      "back": "Inspectors of the **Ministry of Justice** with **inspector-notaries** (Art. 80б ЗННД)."
+      "back": "Inspectors of the **Ministry of Justice** with **inspector-notaries** ([[znnd:80б]])."
     },
     {
       "front": "A clerk wants to photocopy a client's identity card \"for the file\". When is that allowed?",
-      "back": "Only when **a law provides** for it, for example AML due diligence (Art. 25г ЗЗЛД; Art. 53(1) ЗМИП). Otherwise the office records the data."
+      "back": "Only when **a law provides** for it, for example AML due diligence ([[zzld:25г]]; [[zmip:53:1]]). Otherwise the office records the data."
     },
     {
       "front": "Is free public access to identity numbers allowed?",
-      "back": "**No**, unless a law provides otherwise (Art. 25ж(1) ЗЗЛД)."
+      "back": "**No**, unless a law provides otherwise ([[zzld:25ж:1]])."
     },
     {
       "front": "What is the deadline under the Regulation to notify a risky data breach?",
@@ -66,7 +66,7 @@
         "Nothing; the police have free access to every notarial file by law"
       ],
       "answer": 0,
-      "explanation": "Art. 28(3) ЗННД: files and documents leave the archive only on a written order of a judge or prosecutor; copies are handed against signature to the official named in the order. Art. 21: nobody has access to the archive without the notary's consent, except by law.",
+      "explanation": "[[znnd:28:3]]: files and documents leave the archive only on a written order of a judge or prosecutor; copies are handed against signature to the official named in the order. [[znnd:21|Art. 21]]: nobody has access to the archive without the notary's consent, except by law.",
       "refs": [
         "znnd:28:3",
         "znnd:21"
@@ -81,7 +81,7 @@
         "Anywhere; a certified copy is enough for the expert"
       ],
       "answer": 0,
-      "explanation": "Art. 28(4) ЗННД: originals leave the office only on an express order under Art. 28(3) and only with the notary personally, and an expert examination is made only in the notary's presence. A copy does not serve for a signature examination.",
+      "explanation": "[[znnd:28:4]]: originals leave the office only on an express order under [[znnd:28:3|Art. 28(3)]] and only with the notary personally, and an expert examination is made only in the notary's presence. A copy does not serve for a signature examination.",
       "refs": [
         "znnd:28:4"
       ]
@@ -95,7 +95,7 @@
         "Keep it; registers are kept for 100 years"
       ],
       "answer": 0,
-      "explanation": "Art. 28а(2) ЗННД: the general register and the books of item 6 and 7 are kept 10 years and are then destroyed after agreement with the State Archives. The alphabetical index, the register of wills and the books of acts and wills are kept 100 years (Art. 28а(3)).",
+      "explanation": "[[znnd:28а:2]]: the general register and the books of item 6 and 7 are kept 10 years and are then destroyed after agreement with the State Archives. The alphabetical index, the register of wills and the books of acts and wills are kept 100 years ([[znnd:28а:3|Art. 28а(3)]]).",
       "refs": [
         "znnd:28а:2"
       ]
@@ -109,7 +109,7 @@
         "Forever, in the office of the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 28а(3) ЗННД: the alphabetical index, the register of deposited wills and the books of acts subject to entry and of wills are kept 100 years and then handed to the State Archives for permanent storage.",
+      "explanation": "[[znnd:28а:3]]: the alphabetical index, the register of deposited wills and the books of acts subject to entry and of wills are kept 100 years and then handed to the State Archives for permanent storage.",
       "refs": [
         "znnd:28а:3"
       ]
@@ -123,7 +123,7 @@
         "It is sent to the Ministry of Justice by courier"
       ],
       "answer": 0,
-      "explanation": "Art. 36(2) ЗННД and Art. 22(1) of Ordinance No. 32: the archive is sealed by order of the president of the district court, with a protocol and an inventory. The heirs must ask for the sealing at once (Art. 22(2)–(3)); the president may also order it ex officio (Art. 22(4)).",
+      "explanation": "[[znnd:36:2]] and [[n32:22:1|Art. 22(1) of Ordinance No. 32]]: the archive is sealed by order of the president of the district court, with a protocol and an inventory. The heirs must ask for the sealing at once ([[n32:22:2|Art. 22(2)]]–[[n32:22:3|(3)]]); the president may also order it ex officio ([[n32:22:4|Art. 22(4)]]).",
       "refs": [
         "znnd:36:2",
         "n32:22:1"
@@ -138,7 +138,7 @@
         "The heirs of the notary, as the owners of the office"
       ],
       "answer": 0,
-      "explanation": "Art. 23(2) of Ordinance No. 32: at the unsealing a representative of the Chamber makes an inventory, and the archive goes to another notary of the same district who wants it, or to the registration judge; Art. 23(3): the Council of Notaries decides when the heirs name no notary.",
+      "explanation": "[[n32:23:2|Art. 23(2) of Ordinance No. 32]]: at the unsealing a representative of the Chamber makes an inventory, and the archive goes to another notary of the same district who wants it, or to the registration judge; [[n32:23:3|Art. 23(3)]]: the Council of Notaries decides when the heirs name no notary.",
       "refs": [
         "n32:23:2",
         "n32:23:3"
@@ -153,7 +153,7 @@
         "Only with the oral consent of the client"
       ],
       "answer": 0,
-      "explanation": "Art. 25г ЗЗЛД: a controller may copy an identity document only when a law provides for it; Art. 53(1) ЗМИП provides it for due diligence. For a certification without due diligence the office records the data of the document in the endorsement and the register.",
+      "explanation": "[[zzld:25г]]: a controller may copy an identity document only when a law provides for it; [[zmip:53:1]] provides it for due diligence. For a certification without due diligence the office records the data of the document in the endorsement and the register.",
       "refs": [
         "zzld:25г",
         "zmip:53:1"
@@ -168,7 +168,7 @@
         "Yes, for marketing to the existing clients of the office"
       ],
       "answer": 0,
-      "explanation": "Art. 25ж(1) ЗЗЛД: free access to information with identity numbers is not allowed unless a law provides otherwise; Art. 49 and 26 ЗННД bind the employees to secrecy about the clients. A contract with a supplier does not create a legal ground.",
+      "explanation": "[[zzld:25ж:1]]: free access to information with identity numbers is not allowed unless a law provides otherwise; [[znnd:49|Art. 49]] and [[znnd:26|26 ЗННД]] bind the employees to secrecy about the clients. A contract with a supplier does not create a legal ground.",
       "refs": [
         "zzld:25ж",
         "znnd:49"
@@ -183,7 +183,7 @@
         "Only the number of acts for the year in each of the registers"
       ],
       "answer": 0,
-      "explanation": "Art. 5 of Ordinance No. 32 sets how the registers are kept: continuous numbering, every day's entries closed with the notary's signature and seal, corrections made only in the prescribed way. The inspection under Art. 80б ЗННД verifies these rules.",
+      "explanation": "[[n32:5|Art. 5 of Ordinance No. 32]] sets how the registers are kept: continuous numbering, every day's entries closed with the notary's signature and seal, corrections made only in the prescribed way. The inspection under [[znnd:80б]] verifies these rules.",
       "refs": [
         "n32:5",
         "znnd:80б"
@@ -210,7 +210,7 @@
         "No; wills are kept until the testator dies"
       ],
       "answer": 0,
-      "explanation": "Art. 10(5) of Ordinance No. 32: case files for deeds and circumstantial verifications are kept five years and then destroyed after agreement with the State Archives; case files for wills and deposits, and the decisions on circumstantial verifications, are kept one hundred years and then handed to the State Archives.",
+      "explanation": "[[n32:10:5|Art. 10(5) of Ordinance No. 32]]: case files for deeds and circumstantial verifications are kept five years and then destroyed after agreement with the State Archives; case files for wills and deposits, and the decisions on circumstantial verifications, are kept one hundred years and then handed to the State Archives.",
       "refs": [
         "n32:10:5"
       ]
@@ -224,7 +224,7 @@
         "Gives access to anyone who asks about a dead person"
       ],
       "answer": 0,
-      "explanation": "Art. 25е(2) ЗЗЛД: the controller gives the heirs, and other persons with a legal interest, access to the personal data of a deceased person, including a copy, within the terms of the Regulation; Art. 28а(4) ЗННД: inquiries in case files are given only to the parties, their successors and their representatives.",
+      "explanation": "[[zzld:25е:2]]: the controller gives the heirs, and other persons with a legal interest, access to the personal data of a deceased person, including a copy, within the terms of the Regulation; [[znnd:28а:4]]: inquiries in case files are given only to the parties, their successors and their representatives.",
       "refs": [
         "zzld:25е",
         "znnd:28а:4"

@@ -10,59 +10,59 @@
   "cards": [
     {
       "front": "What three things does the notary check about each participant before a deed?",
-      "back": "**Identity, capacity to act and representative power** (Art. 578(4) ГПК)."
+      "back": "**Identity, capacity to act and representative power** ([[gpk:578:4]])."
     },
     {
       "front": "How is identity established without an identity document?",
-      "back": "With **two witnesses** whose identity is established (Art. 578(5) ГПК)."
+      "back": "With **two witnesses** whose identity is established ([[gpk:578:5]])."
     },
     {
       "front": "Which Bulgarian documents prove identity?",
-      "back": "Identity card; passport (incl. diplomatic, service, seaman's); military ID card; **driving licence** (Art. 13(1) ЗБЛД)."
+      "back": "Identity card; passport (incl. diplomatic, service, seaman's); military ID card; **driving licence** ([[zbld:13:1]])."
     },
     {
       "front": "Who may access the National Population Database individually?",
-      "back": "Only **notaries and assistant notaries** in the register (Art. 2(1) of the access ordinance)."
+      "back": "Only **notaries and assistant notaries** in the register ([[nnbd:2:1|Art. 2(1)]] of the access ordinance)."
     },
     {
       "front": "What can the population database show besides the address?",
-      "back": "Legal restrictions, marital status, marriage and divorce, death data, relatives (Art. 3(2) of the access ordinance)."
+      "back": "Legal restrictions, marital status, marriage and divorce, death data, relatives ([[nnbd:3:2|Art. 3(2)]] of the access ordinance)."
     },
     {
       "front": "Parents want to mortgage their child's flat for their own loan. Is that possible?",
-      "back": "Only by **exception**: the court may permit a pledge or a mortgage for a clear benefit of the child or an extraordinary need of the family (Art. 130(4) СК). A gift, a waiver or a loan by the minor is void."
+      "back": "Only by **exception**: the court may permit a pledge or a mortgage for a clear benefit of the child or an extraordinary need of the family ([[sk:130:4]]). A gift, a waiver or a loan by the minor is void."
     },
     {
       "front": "Who signs for a person under full judicial disability?",
-      "back": "The **guardian**, with court permission for dispositions (Art. 5 ЗЛС; Art. 165(4) СК)."
+      "back": "The **guardian**, with court permission for dispositions ([[zls:5]]; [[sk:165:4]])."
     },
     {
       "front": "How does an illiterate person sign a notarial deed?",
-      "back": "With the print of the **right thumb**; a notarial deed is **not** countersigned by witnesses (Art. 579(2) and 189 ГПК)."
+      "back": "With the print of the **right thumb**; a notarial deed is **not** countersigned by witnesses ([[gpk:579:2|Art. 579(2)]] and [[gpk:189|189 ГПК]])."
     },
     {
       "front": "A buyer speaks only Greek, and the notary knows no Greek. What follows?",
-      "back": "The notary appoints an **interpreter** (Art. 582 ГПК), who promises to translate truly and signs (Art. 585 ГПК)."
+      "back": "The notary appoints an **interpreter** ([[gpk:582]]), who promises to translate truly and signs ([[gpk:585]])."
     },
     {
       "front": "The seller has no document and brings his brother and a clerk of the office as witnesses. What follows?",
-      "back": "Neither may witness: a relative of a party (Art. 584 item 3 with Art. 575 ГПК) and an employee of the office (Art. 584 item 6) are excluded."
+      "back": "Neither may witness: a relative of a party ([[gpk:584::3|Art. 584 item 3]] with [[gpk:575]]) and an employee of the office ([[gpk:584::6|Art. 584 item 6]]) are excluded."
     },
     {
       "front": "Which law governs the capacity of a foreigner?",
-      "back": "The law of the state of **citizenship** (Art. 50(1) КМЧП)."
+      "back": "The law of the state of **citizenship** ([[kmchp:50:1]])."
     },
     {
       "front": "A procurator signs a deed to sell the company's warehouse. What does the office check?",
-      "back": "A **special authorisation** for real estate (Art. 22(2) ТЗ); the procuration alone does not cover a sale or an encumbrance of real estate."
+      "back": "A **special authorisation** for real estate ([[tz:22:2]]); the procuration alone does not cover a sale or an encumbrance of real estate."
     },
     {
       "front": "Who decides on the disposal of real estate in an OOD?",
-      "back": "The **general meeting** (Art. 137(1), item 7 ТЗ)."
+      "back": "The **general meeting** ([[tz:137:1:7]])."
     },
     {
       "front": "What form does a power of attorney for a sale of real estate need?",
-      "back": "Written, with **signature and content certified at the same time** (Art. 37 ЗЗД)."
+      "back": "Written, with **signature and content certified at the same time** ([[zzd:37]])."
     }
   ],
   "quiz": [
@@ -75,7 +75,7 @@
         "Yes, if the buyer confirms the identity of the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 578(5) ГПК: a person without an identity document proves identity with two witnesses whose identity is established and who meet Art. 584 (no relatives, beneficiaries or office staff). Postponing is a common office habit, not the law; a photo or the buyer's word proves nothing.",
+      "explanation": "[[gpk:578:5]]: a person without an identity document proves identity with two witnesses whose identity is established and who meet [[gpk:584|Art. 584]] (no relatives, beneficiaries or office staff). Postponing is a common office habit, not the law; a photo or the buyer's word proves nothing.",
       "refs": [
         "gpk:578:5",
         "gpk:584"
@@ -90,7 +90,7 @@
         "The clerk, with the notary's password"
       ],
       "answer": 0,
-      "explanation": "Art. 2 of the ordinance on the register of identity documents: only notaries and assistant notaries have individual access; the access is personal and audited (Art. 10–11 of the population-database ordinance). A clerk with the notary's password breaks the rule.",
+      "explanation": "[[nnrbld:2|Art. 2]] of the ordinance on the register of identity documents: only notaries and assistant notaries have individual access; the access is personal and audited ([[nnbd:10|Art. 10]]–[[nnbd:11|11]] of the population-database ordinance). A clerk with the notary's password breaks the rule.",
       "refs": [
         "nnrbld:2",
         "nnbd:10"
@@ -105,7 +105,7 @@
         "Nothing is possible until the minor turns 18 and signs alone"
       ],
       "answer": 0,
-      "explanation": "Art. 4 ЗЛС: a minor from 14 to 18 acts personally with the consent of a parent; Art. 130(3) СК adds the permission of the district court for a disposal of real estate. A parent signs alone only for a child under 14 (Art. 3 ЗЛС).",
+      "explanation": "[[zls:4]]: a minor from 14 to 18 acts personally with the consent of a parent; [[sk:130:3]] adds the permission of the district court for a disposal of real estate. A parent signs alone only for a child under 14 ([[zls:3]]).",
       "refs": [
         "zls:4",
         "sk:130:3",
@@ -121,7 +121,7 @@
         "It is valid if the grandmother accepts it"
       ],
       "answer": 0,
-      "explanation": "Art. 130(4) СК: a gift, a waiver of rights, a loan and a security for another's debt by a minor are void; the court may allow only a pledge or a mortgage, as an exception. Signatures and acceptance cannot cure a void act.",
+      "explanation": "[[sk:130:4]]: a gift, a waiver of rights, a loan and a security for another's debt by a minor are void; the court may allow only a pledge or a mortgage, as an exception. Signatures and acceptance cannot cure a void act.",
       "refs": [
         "sk:130:4"
       ]
@@ -135,7 +135,7 @@
         "The clerk decides whether the seller understands the deed and its effects"
       ],
       "answer": 0,
-      "explanation": "Art. 20 ЗННД: the notary meets the person alone; Art. 25(1) requires the notary to clarify the will. A contract by a person who cannot understand or control the acts is voidable (Art. 31 ЗЗД). A valid identity card proves identity, not capacity; nobody signs for the seller without a power.",
+      "explanation": "[[znnd:20]]: the notary meets the person alone; [[znnd:25:1|Art. 25(1)]] requires the notary to clarify the will. A contract by a person who cannot understand or control the acts is voidable ([[zzd:31]]). A valid identity card proves identity, not capacity; nobody signs for the seller without a power.",
       "refs": [
         "znnd:20",
         "znnd:25:1",
@@ -151,7 +151,7 @@
         "A clerk of the registry office who will enter the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 584 ГПК excludes persons without capacity, persons illiterate in Bulgarian, relatives of the parties or of the notary in the degrees of Art. 575, beneficiaries of the act, blind, deaf and mute persons, and the staff of the notary office and of the registry office.",
+      "explanation": "[[gpk:584]] excludes persons without capacity, persons illiterate in Bulgarian, relatives of the parties or of the notary in the degrees of [[gpk:575|Art. 575]], beneficiaries of the act, blind, deaf and mute persons, and the staff of the notary office and of the registry office.",
       "refs": [
         "gpk:584",
         "gpk:575"
@@ -166,7 +166,7 @@
         "Lets a relative sign the deed in the person's name"
       ],
       "answer": 0,
-      "explanation": "Art. 583 ГПК has two cases: a literate deaf or mute person reads the deed and states agreement, a mute person in writing (paragraph 1); an illiterate deaf, mute or deaf-mute person needs a Bulgarian sign language interpreter appointed by the notary and noted in the act (paragraphs 2–3). That interpreter may be a relative (Art. 584 item 3).",
+      "explanation": "[[gpk:583]] has two cases: a literate deaf or mute person reads the deed and states agreement, a mute person in writing (paragraph 1); an illiterate deaf, mute or deaf-mute person needs a Bulgarian sign language interpreter appointed by the notary and noted in the act (paragraphs 2–3). That interpreter may be a relative ([[gpk:584::3|Art. 584 item 3]]).",
       "refs": [
         "gpk:583:2",
         "gpk:583:1",
@@ -182,7 +182,7 @@
         "The law that the notary finds more suitable"
       ],
       "answer": 0,
-      "explanation": "Art. 50(1) КМЧП: the capacity of a natural person follows the law of the state of citizenship. A Bulgarian who is also a citizen of another state counts as Bulgarian (Art. 48(2)).",
+      "explanation": "[[kmchp:50:1]]: the capacity of a natural person follows the law of the state of citizenship. A Bulgarian who is also a citizen of another state counts as Bulgarian ([[kmchp:48:2|Art. 48(2)]]).",
       "refs": [
         "kmchp:50:1",
         "kmchp:48:2"
@@ -197,7 +197,7 @@
         "The written consent of the employees who work in the office that is sold"
       ],
       "answer": 0,
-      "explanation": "The manager represents the company (Art. 141(2) ТЗ), which the office checks in the Commercial Register (Art. 10 ЗТРРЮЛНЦ); the disposal of real estate needs a decision of the general meeting (Art. 137(1) item 7), in the form of Art. 137(4).",
+      "explanation": "The manager represents the company ([[tz:141:2]]), which the office checks in the Commercial Register ([[ztr:10]]); the disposal of real estate needs a decision of the general meeting ([[tz:137:1:7|Art. 137(1) item 7]]), in the form of [[tz:137:4|Art. 137(4)]].",
       "refs": [
         "tz:141:2",
         "tz:137:1",
@@ -213,7 +213,7 @@
         "Yes, with the consent of the buyer and the bank"
       ],
       "answer": 0,
-      "explanation": "Art. 39 ЗЗД: the scope of the power is what the principal stated; \"to manage\" and \"to collect the rent\" do not include a sale. Nobody widens a power except the principal, in the form of Art. 37.",
+      "explanation": "[[zzd:39]]: the scope of the power is what the principal stated; \"to manage\" and \"to collect the rent\" do not include a sale. Nobody widens a power except the principal, in the form of [[zzd:37|Art. 37]].",
       "refs": [
         "zzd:39",
         "zzd:37"
@@ -228,7 +228,7 @@
         "The power stays valid until the heirs revoke it"
       ],
       "answer": 0,
-      "explanation": "Art. 41 ЗЗД: a power of attorney ends with the death or the judicial disability of the principal or the agent; a certification does not prolong it, and the heirs need not revoke it. An agent who signs after the death acts without power (Art. 42).",
+      "explanation": "[[zzd:41]]: a power of attorney ends with the death or the judicial disability of the principal or the agent; a certification does not prolong it, and the heirs need not revoke it. An agent who signs after the death acts without power ([[zzd:42|Art. 42]]).",
       "refs": [
         "zzd:41",
         "zzd:42"
@@ -243,7 +243,7 @@
         "Signs, and the notary countersigns for the person"
       ],
       "answer": 0,
-      "explanation": "Art. 189(2) ГПК: a private document of a literate blind person is countersigned by two witnesses. The thumbprint is for a person who cannot sign at all (Art. 189(1)); a notarial deed is never countersigned by witnesses (Art. 579(2)).",
+      "explanation": "[[gpk:189:2]]: a private document of a literate blind person is countersigned by two witnesses. The thumbprint is for a person who cannot sign at all ([[gpk:189:1|Art. 189(1)]]); a notarial deed is never countersigned by witnesses ([[gpk:579:2|Art. 579(2)]]).",
       "refs": [
         "gpk:189:2",
         "gpk:189:1",

@@ -9,43 +9,43 @@
   "cards": [
     {
       "front": "Who is a notary under Bulgarian law?",
-      "back": "A person to whom **the state assigns** the notarial acts provided for by law, and who is entered in the **register of the Notary Chamber** (Art. 2 ЗННД)."
+      "back": "A person to whom **the state assigns** the notarial acts provided for by law, and who is entered in the **register of the Notary Chamber** ([[znnd:2]])."
     },
     {
       "front": "The notary is at lunch and a client needs a signature certified now. What may the clerk do?",
-      "back": "Prepare the endorsement and wait. Only the notary, an assistant notary within Art. 40 ЗННД or a registered substitute certifies; a certification by anyone else is null (Art. 576 ГПК)."
+      "back": "Prepare the endorsement and wait. Only the notary, an assistant notary within [[znnd:40]] or a registered substitute certifies; a certification by anyone else is null ([[gpk:576]])."
     },
     {
       "front": "Which acts may an assistant notary NOT perform?",
-      "back": "Deeds that create, transfer, change or end real rights in real estate; acts that recognise ownership or limited real rights in real estate; notarial wills and their revocation; mortgages (Art. 40(1) ЗННД)."
+      "back": "Deeds that create, transfer, change or end real rights in real estate; acts that recognise ownership or limited real rights in real estate; notarial wills and their revocation; mortgages ([[znnd:40:1]])."
     },
     {
       "front": "A deed is signed at 11:00 on Tuesday. By when does it reach the registry office?",
-      "back": "**The same day** (Art. 25(5) ЗННД). Until the entry, the parties get no copy of the deed."
+      "back": "**The same day** ([[znnd:25:5]]). Until the entry, the parties get no copy of the deed."
     },
     {
       "front": "Where and when are deeds that need entry issued?",
-      "back": "Only **in the office** of the notary and only **in working hours** (Art. 573(2) ГПК)."
+      "back": "Only **in the office** of the notary and only **in working hours** ([[gpk:573:2]])."
     },
     {
       "front": "What evidential force does a notarial certification have?",
-      "back": "It is an **official document**: it proves the facts it certifies until somebody proves the contrary (Art. 179 ГПК)."
+      "back": "It is an **official document**: it proves the facts it certifies until somebody proves the contrary ([[gpk:179]])."
     },
     {
       "front": "What duty of secrecy do employees of the notary have?",
-      "back": "The **same** as the notary (Art. 49 ЗННД)."
+      "back": "The **same** as the notary ([[znnd:49]])."
     },
     {
       "front": "A buyer does not speak Bulgarian. What follows?",
-      "back": "The document stays in Bulgarian. When the notary does not know the language of the buyer, the notary appoints an interpreter (Art. 582 ГПК)."
+      "back": "The document stays in Bulgarian. When the notary does not know the language of the buyer, the notary appoints an interpreter ([[gpk:582]])."
     },
     {
       "front": "How long are the notarial books with deeds kept?",
-      "back": "**100 years**, then they go to the State Archives (Art. 28а(3) ЗННД)."
+      "back": "**100 years**, then they go to the State Archives ([[znnd:28а:3]])."
     },
     {
       "front": "What is the euro conversion rate for amounts in leva in legal acts?",
-      "back": "**1.95583 leva = 1 euro**, with rounding to the cent (Art. 11–13 ЗВЕРБ)."
+      "back": "**1.95583 leva = 1 euro**, with rounding to the cent ([[zvevro:11|Art. 11]]–[[zvevro:13|13 ЗВЕРБ]])."
     }
   ],
   "quiz": [
@@ -58,7 +58,7 @@
         "The municipality"
       ],
       "answer": 0,
-      "explanation": "Art. 2(1) ЗННД: the notary is a person to whom the state assigns the notarial acts. The Notary Chamber only keeps the register in which the notary is entered (Art. 2(2)).",
+      "explanation": "[[znnd:2:1]]: the notary is a person to whom the state assigns the notarial acts. The Notary Chamber only keeps the register in which the notary is entered ([[znnd:2:2|Art. 2(2)]]).",
       "refs": [
         "znnd:2:1",
         "znnd:2:2"
@@ -73,7 +73,7 @@
         "The secretary certifies, because the client is well known to the office"
       ],
       "answer": 0,
-      "explanation": "The notary performs the notarial acts personally (Art. 2(3) ЗННД); an assistant notary acts within Art. 40 and a substitute under Art. 46. A certification by a person without that right is null (Art. 576 ГПК), so a later countersignature cures nothing.",
+      "explanation": "The notary performs the notarial acts personally ([[znnd:2:3]]); an assistant notary acts within [[znnd:40|Art. 40]] and a substitute under [[znnd:46|Art. 46]]. A certification by a person without that right is null ([[gpk:576]]), so a later countersignature cures nothing.",
       "refs": [
         "znnd:2:3",
         "gpk:576"
@@ -88,7 +88,7 @@
         "A mortgage deed in favour of the bank of the buyer"
       ],
       "answer": 0,
-      "explanation": "Art. 40(1) ЗННД excludes from the assistant's powers the deeds for real rights in real estate, the acts that recognise ownership, notarial wills and their revocation, and mortgages. A certification of a signature is none of these.",
+      "explanation": "[[znnd:40:1]] excludes from the assistant's powers the deeds for real rights in real estate, the acts that recognise ownership, notarial wills and their revocation, and mortgages. A certification of a signature is none of these.",
       "refs": [
         "znnd:40:1"
       ]
@@ -102,7 +102,7 @@
         "When the buyer asks"
       ],
       "answer": 0,
-      "explanation": "Art. 25(5) ЗННД: the notary presents the deed for entry on the day it is made. The seven-day term belongs to the notice to the municipality (Art. 51(2) ЗМДТ), not to the entry.",
+      "explanation": "[[znnd:25:5]]: the notary presents the deed for entry on the day it is made. The seven-day term belongs to the notice to the municipality ([[zmdt:51:2]]), not to the entry.",
       "refs": [
         "znnd:25:5"
       ]
@@ -116,7 +116,7 @@
         "Anywhere in the district of the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 573(2) ГПК: deeds subject to entry are issued only in the office and only in working hours. The exception of Art. 573(3), outside the office or out of hours for good reasons, covers the other acts, such as a signature certification, not deeds.",
+      "explanation": "[[gpk:573:2]]: deeds subject to entry are issued only in the office and only in working hours. The exception of [[gpk:573:3|Art. 573(3)]], outside the office or out of hours for good reasons, covers the other acts, such as a signature certification, not deeds.",
       "refs": [
         "gpk:573:2",
         "gpk:573:3"
@@ -131,7 +131,7 @@
         "Nothing more than a private document proves"
       ],
       "answer": 0,
-      "explanation": "The endorsement is an official document (Art. 179(1) ГПК): it proves what the notary certified, here who signed and when. It does not prove that the declared facts are true; a private document proves only that its author made the statement (Art. 180 ГПК).",
+      "explanation": "The endorsement is an official document ([[gpk:179:1]]): it proves what the notary certified, here who signed and when. It does not prove that the declared facts are true; a private document proves only that its author made the statement ([[gpk:180]]).",
       "refs": [
         "gpk:179",
         "gpk:180"
@@ -146,7 +146,7 @@
         "The Supreme Court of Cassation"
       ],
       "answer": 0,
-      "explanation": "Art. 5 ЗННД: the register of notaries and assistant notaries is kept at the Notary Chamber. The Ministry of Justice orders the entries and controls notaries; the Registry Agency keeps the property and commercial registers.",
+      "explanation": "[[znnd:5]]: the register of notaries and assistant notaries is kept at the Notary Chamber. The Ministry of Justice orders the entries and controls notaries; the Registry Agency keeps the property and commercial registers.",
       "refs": [
         "znnd:5"
       ]
@@ -160,7 +160,7 @@
         "As 60.00 euro"
       ],
       "answer": 0,
-      "explanation": "Art. 12 and 13 ЗВЕРБ: an amount in leva in a legal act applies as the amount divided by 1.95583 and rounded to the cent: 30 ÷ 1.95583 = 15.338… → 15.34 euro. \"15 euro\" drops the rounding rule; \"30 euro\" ignores the conversion.",
+      "explanation": "[[zvevro:12|Art. 12]] and [[zvevro:13|13 ЗВЕРБ]]: an amount in leva in a legal act applies as the amount divided by 1.95583 and rounded to the cent: 30 ÷ 1.95583 = 15.338… → 15.34 euro. \"15 euro\" drops the rounding rule; \"30 euro\" ignores the conversion.",
       "refs": [
         "zvevro:12",
         "zvevro:13"
@@ -175,7 +175,7 @@
         "The assistant issues it with the addition \"помощник\" to the signature"
       ],
       "answer": 0,
-      "explanation": "Art. 40(1) ЗННД excludes mortgages, real-estate deeds, acts recognising ownership and wills from the assistant's powers; only a registered substitute (Art. 46(1)) acts alone in everything. A deed by an assistant without that power is null (Art. 576 ГПК).",
+      "explanation": "[[znnd:40:1]] excludes mortgages, real-estate deeds, acts recognising ownership and wills from the assistant's powers; only a registered substitute ([[znnd:46:1|Art. 46(1)]]) acts alone in everything. A deed by an assistant without that power is null ([[gpk:576]]).",
       "refs": [
         "znnd:40:1",
         "znnd:46:1",
@@ -191,7 +191,7 @@
         "Until the notary retires"
       ],
       "answer": 0,
-      "explanation": "Art. 28а(3) ЗННД: the alphabetical index, the register of wills and deposits, and the books of deeds and of notarial wills are kept for 100 years and then go to the State Archives. The general register and the book of invitations are kept for 10 years (Art. 28а(2)).",
+      "explanation": "[[znnd:28а:3]]: the alphabetical index, the register of wills and deposits, and the books of deeds and of notarial wills are kept for 100 years and then go to the State Archives. The general register and the book of invitations are kept for 10 years ([[znnd:28а:2|Art. 28а(2)]]).",
       "refs": [
         "znnd:28а:3",
         "znnd:28а:2"

@@ -10,51 +10,51 @@
   "cards": [
     {
       "front": "Which notary issues a deed of sale of real estate?",
-      "back": "The notary in whose **district the property is** (Art. 570(1) ГПК)."
+      "back": "The notary in whose **district the property is** ([[gpk:570:1]])."
     },
     {
       "front": "A testator in Sofia wants a notarial will for a house in Burgas. Which notary?",
-      "back": "**Any** notary: wills and all acts other than real-estate deeds and certifications of ownership are not tied to the district (Art. 570(2) ГПК)."
+      "back": "**Any** notary: wills and all acts other than real-estate deeds and certifications of ownership are not tied to the district ([[gpk:570:2]])."
     },
     {
       "front": "The notary's brother-in-law, the husband of the sister, is a party. Is the notary recused?",
-      "back": "**Not by law**: in-laws are covered only to the first degree, parents-in-law and children-in-law (Art. 575(1) ГПК). The notary may still decline under Art. 23 ЗННД when impartiality is in doubt."
+      "back": "**Not by law**: in-laws are covered only to the first degree, parents-in-law and children-in-law ([[gpk:575:1]]). The notary may still decline under [[znnd:23]] when impartiality is in doubt."
     },
     {
       "front": "Parties vs participants?",
-      "back": "**Parties**: in whose name the act is requested. **Participants**: whose personal statements the notary certifies (Art. 572 ГПК)."
+      "back": "**Parties**: in whose name the act is requested. **Participants**: whose personal statements the notary certifies ([[gpk:572]])."
     },
     {
       "front": "Where and when may deeds for entry be issued?",
-      "back": "Only **in the office** and only **in working hours** (Art. 573(2) ГПК)."
+      "back": "Only **in the office** and only **in working hours** ([[gpk:573:2]])."
     },
     {
       "front": "Which relatives cause recusal?",
-      "back": "Spouse/cohabitant; ascendants and descendants; collaterals to the **4th degree**; in-laws to the **1st degree**; guardianship, adoption, foster relations (Art. 575(1) ГПК)."
+      "back": "Spouse/cohabitant; ascendants and descendants; collaterals to the **4th degree**; in-laws to the **1st degree**; guardianship, adoption, foster relations ([[gpk:575:1]])."
     },
     {
       "front": "Does recusal apply if the document only benefits the notary's relative?",
-      "back": "**Yes**, if it contains a disposition in their favour (Art. 575(2) ГПК)."
+      "back": "**Yes**, if it contains a disposition in their favour ([[gpk:575:2]])."
     },
     {
       "front": "Name four breaches that make a notarial act null.",
-      "back": "No competence or wrong district; outside the district; illegal deal; recusal; no personal appearance; no reading/signing; missing essential content; no interpreter (Art. 576 ГПК)."
+      "back": "No competence or wrong district; outside the district; illegal deal; recusal; no personal appearance; no reading/signing; missing essential content; no interpreter ([[gpk:576]])."
     },
     {
       "front": "Where is a notary's refusal appealed?",
-      "back": "With a **private appeal** before the **regional court** (Art. 577(1) ГПК)."
+      "back": "With a **private appeal** before the **regional court** ([[gpk:577:1]])."
     },
     {
       "front": "Time limit for a private appeal?",
-      "back": "**One week** from notification (Art. 275(1) ГПК)."
+      "back": "**One week** from notification ([[gpk:275:1]])."
     },
     {
       "front": "A client lends 20,000 euro and wants the fastest way to enforce if the borrower does not pay. Which form?",
-      "back": "A contract with **notarially certified signatures** (or a notarial deed): it allows an order for immediate enforcement, whatever the amount (Art. 417 item 3 and Art. 418 ГПК)."
+      "back": "A contract with **notarially certified signatures** (or a notarial deed): it allows an order for immediate enforcement, whatever the amount ([[gpk:417::3|Art. 417 item 3]] and [[gpk:418]])."
     },
     {
       "front": "When are notarial fees due?",
-      "back": "When the act is **performed**; for a circumstantial verification, when the request is **made** (Art. 88 ЗННД)."
+      "back": "When the act is **performed**; for a circumstantial verification, when the request is **made** ([[znnd:88]])."
     }
   ],
   "quiz": [
@@ -67,7 +67,7 @@
         "The notary chosen by the buyer, anywhere"
       ],
       "answer": 0,
-      "explanation": "Art. 570(1) ГПК: deeds that transfer real rights in real estate are issued by the notary in whose district the property is. The seller in Sofia can sign a power of attorney at any notary (Art. 570(2)) for an agent in Plovdiv.",
+      "explanation": "[[gpk:570:1]]: deeds that transfer real rights in real estate are issued by the notary in whose district the property is. The seller in Sofia can sign a power of attorney at any notary ([[gpk:570:2|Art. 570(2)]]) for an agent in Plovdiv.",
       "refs": [
         "gpk:570:1",
         "gpk:570:2"
@@ -82,7 +82,7 @@
         "Issue a mortgage deed on the property"
       ],
       "answer": 0,
-      "explanation": "Art. 570(2) ГПК: all acts except deeds for real rights in real estate and certifications of ownership may be performed by any notary; a power of attorney, even with certified content, is such an act. The sale, the declaratory deed and the mortgage stay in Varna (Art. 570(1)).",
+      "explanation": "[[gpk:570:2]]: all acts except deeds for real rights in real estate and certifications of ownership may be performed by any notary; a power of attorney, even with certified content, is such an act. The sale, the declaratory deed and the mortgage stay in Varna ([[gpk:570:1|Art. 570(1)]]).",
       "refs": [
         "gpk:570:2",
         "gpk:570:1"
@@ -97,7 +97,7 @@
         "Yes, if the testator signs a declaration of consent"
       ],
       "answer": 0,
-      "explanation": "Art. 575(2) ГПК: the recusal also applies when the document contains a disposition in favour of a person of Art. 575(1); a nephew is a collateral relative of the third degree. The testator's consent does not remove the recusal, and an act despite it is null (Art. 576).",
+      "explanation": "[[gpk:575:2]]: the recusal also applies when the document contains a disposition in favour of a person of [[gpk:575:1|Art. 575(1)]]; a nephew is a collateral relative of the third degree. The testator's consent does not remove the recusal, and an act despite it is null ([[gpk:576|Art. 576]]).",
       "refs": [
         "gpk:575:2",
         "gpk:575:1",
@@ -113,7 +113,7 @@
         "Yes, if the assistant notary signs the deed instead"
       ],
       "answer": 0,
-      "explanation": "Art. 575(1) ГПК covers collateral relatives up to the fourth degree; first cousins are related in the fourth degree (two steps up to the common grandparents, two steps down). Consent of a party does not help, and the assistant works under the same recusal, because it attaches to the act.",
+      "explanation": "[[gpk:575:1]] covers collateral relatives up to the fourth degree; first cousins are related in the fourth degree (two steps up to the common grandparents, two steps down). Consent of a party does not help, and the assistant works under the same recusal, because it attaches to the act.",
       "refs": [
         "gpk:575:1"
       ]
@@ -127,7 +127,7 @@
         "Only if she lives in the notary's household"
       ],
       "answer": 0,
-      "explanation": "Art. 575(1) ГПК covers relatives by marriage only to the first degree: parents-in-law and children-in-law. A brother's wife is a second-degree in-law, so no recusal applies by law; the notary may still decline under Art. 23 ЗННД when impartiality is in doubt.",
+      "explanation": "[[gpk:575:1]] covers relatives by marriage only to the first degree: parents-in-law and children-in-law. A brother's wife is a second-degree in-law, so no recusal applies by law; the notary may still decline under [[znnd:23]] when impartiality is in doubt.",
       "refs": [
         "gpk:575:1",
         "znnd:23"
@@ -142,7 +142,7 @@
         "Valid if the parties agree"
       ],
       "answer": 0,
-      "explanation": "Art. 576 ГПК: a notarial act performed in breach of Art. 570(1), the rule on the district of the property, is null; it produces no effect, and neither the entry nor the parties' agreement cures it.",
+      "explanation": "[[gpk:576]]: a notarial act performed in breach of [[gpk:570:1|Art. 570(1)]], the rule on the district of the property, is null; it produces no effect, and neither the entry nor the parties' agreement cures it.",
       "refs": [
         "gpk:576",
         "gpk:570:1"
@@ -157,7 +157,7 @@
         "Valid, because the brother is close family"
       ],
       "answer": 0,
-      "explanation": "Art. 578(4) ГПК requires the personal appearance of the persons whose statements the deed contains, or of their agents; a signature by a brother without a power is a breach that makes the act null (Art. 576). A later confirmation does not revive a null act.",
+      "explanation": "[[gpk:578:4]] requires the personal appearance of the persons whose statements the deed contains, or of their agents; a signature by a brother without a power is a breach that makes the act null ([[gpk:576|Art. 576]]). A later confirmation does not revive a null act.",
       "refs": [
         "gpk:576",
         "gpk:578:4"
@@ -172,7 +172,7 @@
         "Three days from the notification"
       ],
       "answer": 0,
-      "explanation": "Art. 577(1) ГПК: a refusal is appealed with a private appeal before the regional court; Art. 275(1) sets one week from the notification for a private appeal. The office gives the refusal in writing with its date, so the client can keep the term.",
+      "explanation": "[[gpk:577:1]]: a refusal is appealed with a private appeal before the regional court; [[gpk:275:1|Art. 275(1)]] sets one week from the notification for a private appeal. The office gives the refusal in writing with its date, so the client can keep the term.",
       "refs": [
         "gpk:275:1",
         "gpk:577:1"
@@ -187,7 +187,7 @@
         "From the next working day after the decision"
       ],
       "answer": 0,
-      "explanation": "Art. 577(3) ГПК: when the court sets aside a refusal of an entry, the entry is deemed made from the moment of the request. The rank of the act is thus kept against acts entered in the meantime (Art. 113 ЗС).",
+      "explanation": "[[gpk:577:3]]: when the court sets aside a refusal of an entry, the entry is deemed made from the moment of the request. The rank of the act is thus kept against acts entered in the meantime ([[zs:113]]).",
       "refs": [
         "gpk:577:3",
         "zs:113"
@@ -202,7 +202,7 @@
         "Only if the patient sends a relative with the document"
       ],
       "answer": 0,
-      "explanation": "Art. 573(3) ГПК: acts other than deeds subject to entry may be performed outside the office and out of hours when good reasons prevent the person from coming; item 23 of the tariff adds 25% for an act outside the office in working hours. A relative cannot sign for the patient (Art. 578(4)).",
+      "explanation": "[[gpk:573:3]]: acts other than deeds subject to entry may be performed outside the office and out of hours when good reasons prevent the person from coming; [[tarifa:23|item 23 of the tariff]] adds 25% for an act outside the office in working hours. A relative cannot sign for the patient ([[gpk:578:4|Art. 578(4)]]).",
       "refs": [
         "gpk:573:3",
         "tarifa:23",
@@ -218,7 +218,7 @@
         "It is required by law for every loan"
       ],
       "answer": 0,
-      "explanation": "Art. 417 item 3 ГПК: a notarial deed, a settlement or another contract with notarially certified signatures about an obligation to pay money allows the creditor to ask for an order for immediate enforcement (Art. 418), whatever the amount. Interest and tax do not change.",
+      "explanation": "[[gpk:417::3|Art. 417 item 3 ГПК]]: a notarial deed, a settlement or another contract with notarially certified signatures about an obligation to pay money allows the creditor to ask for an order for immediate enforcement ([[gpk:418|Art. 418]]), whatever the amount. Interest and tax do not change.",
       "refs": [
         "gpk:417",
         "gpk:418"
@@ -233,7 +233,7 @@
         "At the end of the year, with the other fees"
       ],
       "answer": 0,
-      "explanation": "Art. 88(1) ЗННД: fees are due when the act is performed, but the fee for a circumstantial verification is due when the request is made; the note to item 11 of the tariff adds that it is not returned when ownership is not recognised.",
+      "explanation": "[[znnd:88:1]]: fees are due when the act is performed, but the fee for a circumstantial verification is due when the request is made; the note to [[tarifa:11|item 11 of the tariff]] adds that it is not returned when ownership is not recognised.",
       "refs": [
         "znnd:88:1",
         "tarifa:11"

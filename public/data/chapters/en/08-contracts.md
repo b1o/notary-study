@@ -43,7 +43,7 @@ Two tools often appear in preliminary contracts:
 - **Penalty** ({{неустойка}}) is an agreed amount of damages without proof of the damage. A court may reduce an excessive penalty ([[zzd:92]]).
 
 > [!tip] Why parties certify signatures on a preliminary contract
-> The law requires only simple written form. But a certification of the signatures proves who signed and on which date, which matters if one party later denies it. The fee is 30% of the fee under item 8 of the tariff, at least 30 leva (15.34 euro) ([[tarifa:10]]).
+> The law requires only simple written form. But a certification of the signatures proves who signed and on which date, which matters if one party later denies it. The fee is 30% of the fee under [[tarifa:8|item 8 of the tariff]], at least 30 leva (15.34 euro) ([[tarifa:10]]).
 
 ## Performance and termination
 

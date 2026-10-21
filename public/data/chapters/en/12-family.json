@@ -10,63 +10,63 @@
   "cards": [
     {
       "front": "Name the three matrimonial property regimes.",
-      "back": "Statutory community, statutory separation, contractual regime (Art. 18 СК)."
+      "back": "Statutory community, statutory separation, contractual regime ([[sk:18]])."
     },
     {
       "front": "Which regime applies when the spouses chose none?",
-      "back": "The **statutory community** (Art. 18(2) СК)."
+      "back": "The **statutory community** ([[sk:18:2]])."
     },
     {
       "front": "Where are marriage contracts and regimes registered?",
-      "back": "In the **central electronic register** at the Registry Agency (Art. 19 СК)."
+      "back": "In the **central electronic register** at the Registry Agency ([[sk:19]])."
     },
     {
       "front": "Georgi sold his premarital flat and bought a new one during the marriage with all that money. Whose is the new flat?",
-      "back": "**Personal**, when acquired entirely with personal money (Art. 23(1) СК). The deed usually states the origin of the money and the other spouse's confirmation; otherwise joint contribution is presumed (Art. 21(3))."
+      "back": "**Personal**, when acquired entirely with personal money ([[sk:23:1]]). The deed usually states the origin of the money and the other spouse's confirmation; otherwise joint contribution is presumed ([[sk:21:3|Art. 21(3)]])."
     },
     {
       "front": "Name three kinds of personal property.",
-      "back": "Acquired before the marriage; by inheritance or gift; with entirely personal money (Art. 22–23 СК)."
+      "back": "Acquired before the marriage; by inheritance or gift; with entirely personal money ([[sk:22|Art. 22]]–[[sk:23|23 СК]])."
     },
     {
       "front": "Who disposes of common property?",
-      "back": "**Both spouses together** (Art. 24(3) СК)."
+      "back": "**Both spouses together** ([[sk:24:3]])."
     },
     {
       "front": "The husband sold a common flat alone. What may the wife do?",
-      "back": "Sue to challenge the sale within **6 months** of learning of it, and at most **3 years** after it (Art. 24(4) СК)."
+      "back": "Sue to challenge the sale within **6 months** of learning of it, and at most **3 years** after it ([[sk:24:4]])."
     },
     {
       "front": "When does the sale of a personal family home need the other spouse's consent?",
-      "back": "When the spouses have **no other home** (Art. 26 СК)."
+      "back": "When the spouses have **no other home** ([[sk:26]])."
     },
     {
       "front": "Shares of spouses when the community ends?",
-      "back": "**Equal** (Art. 28 СК)."
+      "back": "**Equal** ([[sk:28]])."
     },
     {
       "front": "Form of a marriage contract?",
-      "back": "Signed **personally**, in writing, with notarial certification of **content and signatures** (Art. 39(1) СК)."
+      "back": "Signed **personally**, in writing, with notarial certification of **content and signatures** ([[sk:39:1]])."
     },
     {
       "front": "A marriage contract signed in May transfers a flat; the wedding is in July. When is it entered?",
-      "back": "On the day the notary receives the **marriage certificate** (Art. 39(3) СК; Art. 25(5) ЗННД). It takes effect from the marriage (Art. 40)."
+      "back": "On the day the notary receives the **marriage certificate** ([[sk:39:3]]; [[znnd:25:5]]). It takes effect from the marriage ([[sk:40|Art. 40]])."
     },
     {
       "front": "What can a marriage contract NOT contain?",
-      "back": "Dispositions in case of death; a clause making premarital property common (Art. 38 СК)."
+      "back": "Dispositions in case of death; a clause making premarital property common ([[sk:38]])."
     },
     {
       "front": "What needs court permission for a child's property?",
-      "back": "Disposals of real estate, of movables by formal deal, of deposits and securities (Art. 130(3) СК)."
+      "back": "Disposals of real estate, of movables by formal deal, of deposits and securities ([[sk:130:3]])."
     },
     {
       "front": "Can one parent alone represent a child?",
-      "back": "**Yes**, in the child's interest; with a conflict of interest, a special representative is appointed (Art. 129 СК)."
+      "back": "**Yes**, in the child's interest; with a conflict of interest, a special representative is appointed ([[sk:129]])."
     },
     {
       "front": "What document allows a child to travel abroad with one parent?",
-      "back": "A **declaration of consent** of the other parent; the act names no form (Art. 76 ЗБЛД), and the border authorities ask for a **notarially certified signature**. Disputes go to the district court (Art. 127а СК)."
+      "back": "A **declaration of consent** of the other parent; the act names no form ([[zbld:76]]), and the border authorities ask for a **notarially certified signature**. Disputes go to the district court ([[sk:127а]])."
     }
   ],
   "quiz": [
@@ -79,7 +79,7 @@
         "The wife alone"
       ],
       "answer": 0,
-      "explanation": "Art. 21(1) СК: a right acquired during the marriage through joint contribution is common, whoever's name is in the deed, and the contribution is presumed (Art. 21(3)); a salary is such a contribution. Disposal of common property is made by both spouses together (Art. 24(3)).",
+      "explanation": "[[sk:21:1]]: a right acquired during the marriage through joint contribution is common, whoever's name is in the deed, and the contribution is presumed ([[sk:21:3|Art. 21(3)]]); a salary is such a contribution. Disposal of common property is made by both spouses together ([[sk:24:3|Art. 24(3)]]).",
       "refs": [
         "sk:21:1",
         "sk:21:3",
@@ -95,7 +95,7 @@
         "The husband"
       ],
       "answer": 0,
-      "explanation": "Art. 22(1) СК: rights acquired during the marriage by inheritance or gift are personal property of the spouse who acquired them. The siblings inherit only if they are heirs under the Inheritance Act.",
+      "explanation": "[[sk:22:1]]: rights acquired during the marriage by inheritance or gift are personal property of the spouse who acquired them. The siblings inherit only if they are heirs under the Inheritance Act.",
       "refs": [
         "sk:22:1"
       ]
@@ -109,7 +109,7 @@
         "Never; the sale is final"
       ],
       "answer": 0,
-      "explanation": "Art. 24(4) СК: the other spouse may challenge the disposal within six months of learning of it, and no later than three years after it. Six months from March 2026 end in September 2026; the three years from January 2025 would end in January 2028, later, so the shorter term applies.",
+      "explanation": "[[sk:24:4]]: the other spouse may challenge the disposal within six months of learning of it, and no later than three years after it. Six months from March 2026 end in September 2026; the three years from January 2025 would end in January 2028, later, so the shorter term applies.",
       "refs": [
         "sk:24:4"
       ]
@@ -123,7 +123,7 @@
         "The written consent of the adult children who live in the flat"
       ],
       "answer": 0,
-      "explanation": "Art. 26 СК: a spouse disposes of a family home that is personal property only with the consent of the other spouse, when the spouses have no other home; without consent, the district judge may permit the disposal. Children never consent.",
+      "explanation": "[[sk:26]]: a spouse disposes of a family home that is personal property only with the consent of the other spouse, when the spouses have no other home; without consent, the district judge may permit the disposal. Children never consent.",
       "refs": [
         "sk:26"
       ]
@@ -137,7 +137,7 @@
         "Yes, at a Bulgarian consulate abroad"
       ],
       "answer": 0,
-      "explanation": "Art. 39(1) СК: the marriage contract is concluded personally by the parties, in writing with notarial certification of the content and the signatures. A consul cannot help a party who is absent; the party must appear.",
+      "explanation": "[[sk:39:1]]: the marriage contract is concluded personally by the parties, in writing with notarial certification of the content and the signatures. A consul cannot help a party who is absent; the party must appear.",
       "refs": [
         "sk:39:1"
       ]
@@ -151,7 +151,7 @@
         "It is not entered; the contract is private"
       ],
       "answer": 0,
-      "explanation": "Art. 39(3) СК with Art. 25(5) ЗННД: a marriage contract with a transfer of real estate concluded before the marriage is presented for entry on the day the notary receives the certificate of civil marriage; the contract takes effect from the marriage (Art. 40).",
+      "explanation": "[[sk:39:3]] with [[znnd:25:5]]: a marriage contract with a transfer of real estate concluded before the marriage is presented for entry on the day the notary receives the certificate of civil marriage; the contract takes effect from the marriage ([[sk:40|Art. 40]]).",
       "refs": [
         "sk:39:3",
         "znnd:25:5",
@@ -167,7 +167,7 @@
         "Management of the family home during the marriage"
       ],
       "answer": 0,
-      "explanation": "Art. 38(3) СК: a marriage contract may not contain dispositions in case of death; the only exception concerns the shares of the spouses at the end of an agreed community. Salaries, maintenance and the family home are property arrangements allowed by Art. 38(1).",
+      "explanation": "[[sk:38:3]]: a marriage contract may not contain dispositions in case of death; the only exception concerns the shares of the spouses at the end of an agreed community. Salaries, maintenance and the family home are property arrangements allowed by [[sk:38:1|Art. 38(1)]].",
       "refs": [
         "sk:38:3",
         "sk:38:1"
@@ -182,7 +182,7 @@
         "A permission of the municipality where the flat is"
       ],
       "answer": 0,
-      "explanation": "Art. 130(3) СК: a disposal of a child's real estate needs the permission of the district court of the child's current address, given when the disposal is not against the child's interest. The parents represent the child (Art. 129) but cannot replace the permission.",
+      "explanation": "[[sk:130:3]]: a disposal of a child's real estate needs the permission of the district court of the child's current address, given when the disposal is not against the child's interest. The parents represent the child ([[sk:129|Art. 129]]) but cannot replace the permission.",
       "refs": [
         "sk:130:3",
         "sk:129:1"
@@ -197,7 +197,7 @@
         "Valid if the minor understands it"
       ],
       "answer": 0,
-      "explanation": "Art. 130(4) СК: a gift, a waiver of rights, a loan and a security for another's debt by a minor are void; no consent or permission cures them. A renunciation of an inheritance is such a waiver (chapter 13).",
+      "explanation": "[[sk:130:4]]: a gift, a waiver of rights, a loan and a security for another's debt by a minor are void; no consent or permission cures them. A renunciation of an inheritance is such a waiver (chapter 13).",
       "refs": [
         "sk:130:4"
       ]
@@ -211,7 +211,7 @@
         "Nothing special; a partition is not a disposal"
       ],
       "answer": 0,
-      "explanation": "Art. 129(2) СК: when the interests of a parent and the child conflict, as in a partition between them, a special representative is appointed; Art. 130(3) adds the court's permission for the disposal of the child's real estate. A partition is a disposal.",
+      "explanation": "[[sk:129:2]]: when the interests of a parent and the child conflict, as in a partition between them, a special representative is appointed; [[sk:130:3|Art. 130(3)]] adds the court's permission for the disposal of the child's real estate. A partition is a disposal.",
       "refs": [
         "sk:129:2",
         "sk:130:3"
@@ -226,7 +226,7 @@
         "A power of attorney with certified content"
       ],
       "answer": 0,
-      "explanation": "Art. 76 item 9 ЗБЛД: a minor may be refused exit without the consent of the parents; the act names no form, and in practice the border authorities ask for a declaration with a notarially certified signature (item 5(a) of the tariff). A deed or a power with certified content is not required.",
+      "explanation": "[[zbld:76::9|Art. 76 item 9 ЗБЛД]]: a minor may be refused exit without the consent of the parents; the act names no form, and in practice the border authorities ask for a declaration with a notarially certified signature ([[tarifa:5|item 5]](a) of the tariff). A deed or a power with certified content is not required.",
       "refs": [
         "zbld:76",
         "tarifa:5"
@@ -241,7 +241,7 @@
         "No regime; the buyer must ask the court"
       ],
       "answer": 0,
-      "explanation": "Art. 20 СК: when no regime is entered in the register, a third person may rely on the statutory community, so the buyer needs both spouses' signatures (Art. 24(3)). The husband's declaration does not change the regime.",
+      "explanation": "[[sk:20]]: when no regime is entered in the register, a third person may rely on the statutory community, so the buyer needs both spouses' signatures ([[sk:24:3|Art. 24(3)]]). The husband's declaration does not change the regime.",
       "refs": [
         "sk:20",
         "sk:24:3"

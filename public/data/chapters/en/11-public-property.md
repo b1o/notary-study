@@ -74,7 +74,7 @@ Prescription that ran for property restored under this act or under the agricult
 |---|---|---|
 | Act of state or municipal property | The state or municipality recorded its right | Public or private; the ground; the entry ([[zds:5]], [[zos:5]]) |
 | Contract with the state or a municipality | A disposal of private property | Written form; the decision or the auction; the signatory; the entry ([[zds:48:2]], [[zos:34:7]], [[zos:35:1]]) |
-| Decision of the agricultural office in old boundaries | A title with the force of a declaratory deed, except for land in settlements under Art. 10(7) | Final; with a sketch; heirs and their shares ([[zspzz:14:1]]) |
+| Decision of the agricultural office in old boundaries | A title with the force of a declaratory deed, except for land in settlements under [[zspzz:10:7]] | Final; with a sketch; heirs and their shares ([[zspzz:14:1]]) |
 | Restitution of urban property | Ownership returned by law | Expropriation under a listed law; real existence; no compensation ([[zvsoni:2]], [[zvsoni:4:1]]) |
 | Prescription against the state or a municipality | Possible only for private property | Not public property ([[zs:86]]); no years of the moratorium |
 

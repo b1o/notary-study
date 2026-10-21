@@ -9,51 +9,51 @@
   "cards": [
     {
       "front": "What are the five parts of a property register partida?",
-      "back": "А – property; Б – owner; В – other rights, claims, contracts; Г – mortgages; Д – distraints (Art. 59–64 ЗКИР)."
+      "back": "А – property; Б – owner; В – other rights, claims, contracts; Г – mortgages; Д – distraints ([[zkir:59|Art. 59]]–[[zkir:64|64 ЗКИР]])."
     },
     {
       "front": "The partida shows the seller as owner. Is this proof of ownership?",
-      "back": "**No**: the partida announces facts; it is not evidence of them (Art. 59(4) ЗКИР). The acts in the file prove the ownership."
+      "back": "**No**: the partida announces facts; it is not evidence of them ([[zkir:59:4]]). The acts in the file prove the ownership."
     },
     {
       "front": "What must the request for entry contain?",
-      "back": "Applicant, fact entered, description, **identifier**, partida number, signature; a **sketch or scheme** attached (Art. 77 ЗКИР)."
+      "back": "Applicant, fact entered, description, **identifier**, partida number, signature; a **sketch or scheme** attached ([[zkir:77]])."
     },
     {
       "front": "What makes an entry invalid?",
-      "back": "No order of the registration judge, or no certification under Art. 84(1) (Art. 85 ЗКИР)."
+      "back": "No order of the registration judge, or no certification under [[zkir:84:1|Art. 84(1)]] ([[zkir:85]])."
     },
     {
       "front": "What certifies an entry since 30 January 2025, in addition to the order and the signature?",
-      "back": "A **qualified electronic time stamp** (Art. 84(5) ЗКИР)."
+      "back": "A **qualified electronic time stamp** ([[zkir:84:5]])."
     },
     {
       "front": "Who gives cadastral identifiers?",
-      "back": "The **Geodesy, Cartography and Cadastre Agency** (Art. 26(3) ЗКИР)."
+      "back": "The **Geodesy, Cartography and Cadastre Agency** ([[zkir:26:3]])."
     },
     {
       "front": "What does an identifier always contain?",
-      "back": "The **EKATTE** code of the settlement (Art. 26(2) ЗКИР)."
+      "back": "The **EKATTE** code of the settlement ([[zkir:26:2]])."
     },
     {
       "front": "Two heirs divide a plot into two new plots. What do they need from the cadastre?",
-      "back": "A **sketch-project** for the new plots, issued on the basis of a draft amendment of the cadastral map (Art. 52(1) ЗКИР)."
+      "back": "A **sketch-project** for the new plots, issued on the basis of a draft amendment of the cadastral map ([[zkir:52:1]])."
     },
     {
       "front": "Who issues the certificate of tax assessment?",
-      "back": "The **municipality** (Art. 264(1) ДОПК)."
+      "back": "The **municipality** ([[dopk:264:1]])."
     },
     {
       "front": "Whom does the registry office notify after an entry?",
-      "back": "The **cadastre office** at once (Art. 86 ЗКИР) and the **municipality** within 7 days (Art. 51(1) ЗМДТ)."
+      "back": "The **cadastre office** at once ([[zkir:86]]) and the **municipality** within 7 days ([[zmdt:51:1]])."
     },
     {
       "front": "The ministry sends the office a sample of its inquiries in the population database. What must the notary do?",
-      "back": "State the **ground** of each inquiry in the sample within **one month** (Art. 10–11 of the ordinance on access to НБД \"Население\")."
+      "back": "State the **ground** of each inquiry in the sample within **one month** ([[nnbd:10|Art. 10]]–[[nnbd:11|11]] of the ordinance on access to НБД \"Население\")."
     },
     {
       "front": "What right of access to offices does the notary have?",
-      "back": "Free access to court and administrative offices, files and copies, **with priority** (Art. 19(1) ЗННД)."
+      "back": "Free access to court and administrative offices, files and copies, **with priority** ([[znnd:19:1]])."
     }
   ],
   "quiz": [
@@ -66,7 +66,7 @@
         "Part В, other rights"
       ],
       "answer": 0,
-      "explanation": "Art. 64(1) ЗКИР: part Д of the partida records the distraints: their type, the act and the body that imposed them, the entry and the secured amount. Mortgages are in part Г (Art. 63), the owner in part Б (Art. 61).",
+      "explanation": "[[zkir:64:1]]: part Д of the partida records the distraints: their type, the act and the body that imposed them, the entry and the secured amount. Mortgages are in part Г ([[zkir:63|Art. 63]]), the owner in part Б ([[zkir:61|Art. 61]]).",
       "refs": [
         "zkir:64",
         "zkir:59:1"
@@ -81,7 +81,7 @@
         "Only for separate objects in a building, not for plots"
       ],
       "answer": 0,
-      "explanation": "Art. 59(4) ЗКИР: the partida is a document with an announcing effect; it is not evidence of the entered facts, circumstances and rights. The office checks the acts themselves, in the chain of ownership.",
+      "explanation": "[[zkir:59:4]]: the partida is a document with an announcing effect; it is not evidence of the entered facts, circumstances and rights. The office checks the acts themselves, in the chain of ownership.",
       "refs": [
         "zkir:59:4"
       ]
@@ -95,7 +95,7 @@
         "A utility bill in the name of the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 77(2) item 1 ЗКИР: the request for entry is accompanied by a sketch from the cadastral map, and for a separate object in a building by a scheme; item 2 adds the written evidence of the fact entered, item 3 a power of attorney when an agent files it.",
+      "explanation": "[[zkir:77:2:1|Art. 77(2) item 1 ЗКИР]]: the request for entry is accompanied by a sketch from the cadastral map, and for a separate object in a building by a scheme; item 2 adds the written evidence of the fact entered, item 3 a power of attorney when an agent files it.",
       "refs": [
         "zkir:77"
       ]
@@ -109,7 +109,7 @@
         "The postal code of the address"
       ],
       "answer": 0,
-      "explanation": "Art. 26(2) ЗКИР: the identifier is a unique number that names the property for the whole country and always includes the EKATTE code of the settlement; the following groups are the cadastral district, the plot, the building and the separate object.",
+      "explanation": "[[zkir:26:2]]: the identifier is a unique number that names the property for the whole country and always includes the EKATTE code of the settlement; the following groups are the cadastral district, the plot, the building and the separate object.",
       "refs": [
         "zkir:26:2"
       ]
@@ -123,7 +123,7 @@
         "A building permit for each of the new plots"
       ],
       "answer": 0,
-      "explanation": "Art. 52(1) ЗКИР: the cadastre office issues a sketch-project or scheme-project for a property that is not yet in the cadastral map, on the basis of a draft amendment, including for a partition and for the individualisation of properties that are transferred (Art. 77(2) item 1).",
+      "explanation": "[[zkir:52:1]]: the cadastre office issues a sketch-project or scheme-project for a property that is not yet in the cadastral map, on the basis of a draft amendment, including for a partition and for the individualisation of properties that are transferred ([[zkir:77:2:1|Art. 77(2) item 1]]).",
       "refs": [
         "zkir:52",
         "zkir:77"
@@ -138,7 +138,7 @@
         "The cadastre office of the district"
       ],
       "answer": 0,
-      "explanation": "Art. 264(1) ДОПК: a transfer of real estate is made after a certificate of tax assessment issued by the municipality, which shows the assessment and the unpaid property taxes. The NRA check concerns the public debts of the transferor.",
+      "explanation": "[[dopk:264:1]]: a transfer of real estate is made after a certificate of tax assessment issued by the municipality, which shows the assessment and the unpaid property taxes. The NRA check concerns the public debts of the transferor.",
       "refs": [
         "dopk:264:1"
       ]
@@ -152,7 +152,7 @@
         "Valid after 3 days without an appeal"
       ],
       "answer": 0,
-      "explanation": "Art. 85 ЗКИР: an entry is invalid when the order of the registration judge is missing, and when it is not certified under Art. 84(1). The office checks the certification on the copy that comes back.",
+      "explanation": "[[zkir:85]]: an entry is invalid when the order of the registration judge is missing, and when it is not certified under [[zkir:84:1|Art. 84(1)]]. The office checks the certification on the copy that comes back.",
       "refs": [
         "zkir:85"
       ]
@@ -166,7 +166,7 @@
         "Ask the client by text message and then give it"
       ],
       "answer": 0,
-      "explanation": "Art. 26(1) ЗННД: the notary keeps professional secrecy about the facts learned at work; Art. 49: the employees keep official secrecy on the same conditions. A state body asks in writing, in a procedure that a law provides; a telephone call is not such a request.",
+      "explanation": "[[znnd:26:1]]: the notary keeps professional secrecy about the facts learned at work; [[znnd:49|Art. 49]]: the employees keep official secrecy on the same conditions. A state body asks in writing, in a procedure that a law provides; a telephone call is not such a request.",
       "refs": [
         "znnd:49",
         "znnd:26"
@@ -181,7 +181,7 @@
         "The regional court of the child's current address"
       ],
       "answer": 0,
-      "explanation": "Art. 130(3) СК: a disposal of real estate of a child is allowed with the permission of the district court of the child's current address, when the disposal does not conflict with the child's interest. The notary asks for the court decision before the deed.",
+      "explanation": "[[sk:130:3]]: a disposal of real estate of a child is allowed with the permission of the district court of the child's current address, when the disposal does not conflict with the child's interest. The notary asks for the court decision before the deed.",
       "refs": [
         "sk:130:3"
       ]
@@ -195,7 +195,7 @@
         "Access to the bank accounts of the clients of the office"
       ],
       "answer": 0,
-      "explanation": "Art. 19(1) ЗННД: the notary has free access to court and administrative offices, may consult files, ask for copies and documents and receive information and certificates with priority. Access to tax, bank or population data follows the special laws and ordinances.",
+      "explanation": "[[znnd:19:1]]: the notary has free access to court and administrative offices, may consult files, ask for copies and documents and receive information and certificates with priority. Access to tax, bank or population data follows the special laws and ordinances.",
       "refs": [
         "znnd:19:1"
       ]
@@ -209,7 +209,7 @@
         "By the partida number only, in the electronic partida"
       ],
       "answer": 0,
-      "explanation": "Art. 65(3)–(4) ЗКИР: until the order for the district, a partida is kept whatever the identifier, and the Registry Agency makes an electronic partida at each entry; the records are still kept by person. The clerk searches by the name and identity number of each owner in the chain and by the identifier.",
+      "explanation": "[[zkir:65:3|Art. 65(3)]]–[[zkir:65:4|(4) ЗКИР]]: until the order for the district, a partida is kept whatever the identifier, and the Registry Agency makes an electronic partida at each entry; the records are still kept by person. The clerk searches by the name and identity number of each owner in the chain and by the identifier.",
       "refs": [
         "zkir:65:3",
         "zkir:65:4"
@@ -224,7 +224,7 @@
         "Ask the clients to confirm each inquiry in writing"
       ],
       "answer": 0,
-      "explanation": "Art. 10 of the ordinance on access to НБД \"Население\": the access of notaries is controlled by the ministry on a random sample; Art. 11: within one month of receiving the sample the notary states the ground of each access. Inquiries are made only for official purposes (Art. 2(2)).",
+      "explanation": "[[nnbd:10|Art. 10]] of the ordinance on access to НБД \"Население\": the access of notaries is controlled by the ministry on a random sample; [[nnbd:11|Art. 11]]: within one month of receiving the sample the notary states the ground of each access. Inquiries are made only for official purposes ([[nnbd:2:2|Art. 2(2)]]).",
       "refs": [
         "nnbd:10",
         "nnbd:11"

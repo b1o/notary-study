@@ -10,14 +10,14 @@
   "cards": [
     {
       "front": "Which rules apply to a notarial proceeding where the special rules say nothing?",
-      "back": "The **general rules of non-contentious proceedings** (Art. 530 ГПК); the rules of claim proceedings apply accordingly, with exceptions (Art. 540 ГПК)."
+      "back": "The **general rules of non-contentious proceedings** ([[gpk:530]]); the rules of claim proceedings apply accordingly, with exceptions ([[gpk:540]])."
     },
     {
       "front": "Is a notarial act that grants a request appealed?",
-      "back": "**No** (Art. 537(1) ГПК). A third person whose rights it affects sues; if the claim succeeds, the court cancels or changes the act (Art. 537(2))."
+      "back": "**No** ([[gpk:537:1]]). A third person whose rights it affects sues; if the claim succeeds, the court cancels or changes the act ([[gpk:537:2|Art. 537(2)]])."
     },
     {
-      "front": "Which notarial acts does a court cancel under Art. 537(2) ГПК?",
+      "front": "Which notarial acts does a court cancel under [[gpk:537:2]]?",
       "back": "Only **declaratory deeds** of ownership, not deeds of transactions (Interpretative Decision No. 3/2012, General Assembly of the Civil College)."
     },
     {
@@ -26,19 +26,19 @@
     },
     {
       "front": "What does a declaratory deed prove with binding force?",
-      "back": "The **acts of the notary**: who issued it, when, where and on which documents (Art. 179(1) ГПК). It does not prove who owns the property."
+      "back": "The **acts of the notary**: who issued it, when, where and on which documents ([[gpk:179:1]]). It does not prove who owns the property."
     },
     {
       "front": "A party says that the date of a certification was changed afterwards. How is that disputed?",
-      "back": "By contesting the **authenticity** of the document; the contesting party bears the burden of proof (Art. 193(1), (3) ГПК)."
+      "back": "By contesting the **authenticity** of the document; the contesting party bears the burden of proof ([[gpk:193:1|Art. 193(1)]], [[gpk:193:3|(3) ГПК]])."
     },
     {
       "front": "Who orders an entry in the property register?",
-      "back": "The **registration judge** of the registry office where the property is (Art. 570(1) ГПК; Art. 7 ПВ)."
+      "back": "The **registration judge** of the registry office where the property is ([[gpk:570:1]]; [[pv:7]])."
     },
     {
       "front": "On whose request is a sale deed entered?",
-      "back": "On the **written request of the notary** who made it (Art. 8(1) ПВ)."
+      "back": "On the **written request of the notary** who made it ([[pv:8:1]])."
     },
     {
       "front": "What does the registration judge check before an entry?",
@@ -46,15 +46,15 @@
     },
     {
       "front": "The regional court sets aside a refusal of entry. From when does the entry count?",
-      "back": "From the record of the act in the **incoming register**, so the rank is kept (Art. 32в ПВ; Art. 577(3) ГПК)."
+      "back": "From the record of the act in the **incoming register**, so the rank is kept ([[pv:32в]]; [[gpk:577:3]])."
     },
     {
       "front": "A mortgage entry is eleven years old and was never renewed. How is it deleted?",
-      "back": "On the **request** of anybody interested, without other evidence (Art. 22 ПВ)."
+      "back": "On the **request** of anybody interested, without other evidence ([[pv:22]])."
     },
     {
       "front": "The partida shows other data than the entered act. What is it, and who fixes it?",
-      "back": "A **technical error** (Art. 33в(1) ПВ). The person concerned or the notary asks, and the Registry Agency corrects it (Art. 33в(2)–(3) ПВ)."
+      "back": "A **technical error** ([[pv:33в:1]]). The person concerned or the notary asks, and the Registry Agency corrects it ([[pv:33в:2|Art. 33в(2)]]–[[pv:33в:3|(3) ПВ]])."
     }
   ],
   "quiz": [
@@ -67,7 +67,7 @@
         "The administrative court, within fourteen days"
       ],
       "answer": 0,
-      "explanation": "Art. 577(1) ГПК: a refusal of a notarial certification is appealed with a private appeal before the regional court (окръжен съд), and Art. 275(1) sets one week. The general rule sends an appeal through the district court (Art. 538(2)), but the special rule of Art. 577 applies to notaries (Art. 530).",
+      "explanation": "[[gpk:577:1]]: a refusal of a notarial certification is appealed with a private appeal before the regional court (окръжен съд), and [[gpk:275:1|Art. 275(1)]] sets one week. The general rule sends an appeal through the district court ([[gpk:538:2|Art. 538(2)]]), but the special rule of [[gpk:577|Art. 577]] applies to notaries ([[gpk:530|Art. 530]]).",
       "refs": [
         "gpk:577:1",
         "gpk:275:1",
@@ -83,7 +83,7 @@
         "It becomes voidable and lapses after three years"
       ],
       "answer": 0,
-      "explanation": "Art. 537(2) ГПК: when an act affects the rights of a third person, the dispute goes to court by a claim, and when the claim succeeds the act is cancelled. A correction deed fixes errors, not ownership, and a notary cannot annul an act already issued.",
+      "explanation": "[[gpk:537:2]]: when an act affects the rights of a third person, the dispute goes to court by a claim, and when the claim succeeds the act is cancelled. A correction deed fixes errors, not ownership, and a notary cannot annul an act already issued.",
       "refs": [
         "gpk:537:2"
       ]
@@ -97,7 +97,7 @@
         "No; a sale deed cannot be challenged in any court"
       ],
       "answer": 0,
-      "explanation": "Interpretative Decision No. 3/2012 (General Assembly of the Civil College): only declaratory deeds of ownership are cancelled under Art. 537(2). The true owner sues for the property and enters the claim, which binds later buyers (Art. 114 ЗС). So a court does decide the dispute; only the deed is not cancelled.",
+      "explanation": "Interpretative Decision No. 3/2012 (General Assembly of the Civil College): only declaratory deeds of ownership are cancelled under [[gpk:537:2|Art. 537(2)]]. The true owner sues for the property and enters the claim, which binds later buyers ([[zs:114]]). So a court does decide the dispute; only the deed is not cancelled.",
       "refs": [
         "gpk:537:2",
         "zs:114"
@@ -127,7 +127,7 @@
         "That nobody else claimed the property at that date"
       ],
       "answer": 0,
-      "explanation": "Art. 179(1) ГПК and Interpretative Decision No. 11/2012: the deed proves the acts of the notary (who, when, where, on which documents, with which decision). The finding about the owner is a conclusion of the notary, which a challenger can rebut in court.",
+      "explanation": "[[gpk:179:1]] and Interpretative Decision No. 11/2012: the deed proves the acts of the notary (who, when, where, on which documents, with which decision). The finding about the owner is a conclusion of the notary, which a challenger can rebut in court.",
       "refs": [
         "gpk:179:1"
       ]
@@ -141,7 +141,7 @@
         "By a complaint filed with the registration judge"
       ],
       "answer": 0,
-      "explanation": "Art. 193(1) ГПК: a party may contest the authenticity of a document; the contesting party bears the burden of proof (Art. 193(3)), and the court checks it by comparison, witnesses or experts (Art. 194(1)). Art. 537(2) protects rights that an act affects, and a private appeal concerns a refusal.",
+      "explanation": "[[gpk:193:1]]: a party may contest the authenticity of a document; the contesting party bears the burden of proof ([[gpk:193:3|Art. 193(3)]]), and the court checks it by comparison, witnesses or experts ([[gpk:194:1|Art. 194(1)]]). [[gpk:537:2|Art. 537(2)]] protects rights that an act affects, and a private appeal concerns a refusal.",
       "refs": [
         "gpk:193:1",
         "gpk:193:3",
@@ -157,7 +157,7 @@
         "From the day the parties receive the entered copies"
       ],
       "answer": 0,
-      "explanation": "Art. 577(3) ГПК and Art. 32в ПВ: when the appeal succeeds, the entry is deemed made from the moment of the record in the incoming register, so the deed keeps its rank. A new request after a refusal would get a new rank.",
+      "explanation": "[[gpk:577:3]] and [[pv:32в]]: when the appeal succeeds, the entry is deemed made from the moment of the record in the incoming register, so the deed keeps its rank. A new request after a refusal would get a new rank.",
       "refs": [
         "gpk:577:3",
         "pv:32в"
@@ -172,7 +172,7 @@
         "That the money of the buyer has a lawful origin"
       ],
       "answer": 0,
-      "explanation": "Art. 32а(1) ПВ and Interpretative Decision No. 7/2012: the judge checks whether the act is subject to entry, has the required form and the content of ПВ (Art. 6), not the substantive conditions of the deal. The title, the price and the money are the notary's checks (Art. 586 ГПК; chapter 27).",
+      "explanation": "[[pv:32а:1]] and Interpretative Decision No. 7/2012: the judge checks whether the act is subject to entry, has the required form and the content of ПВ ([[pv:6|Art. 6]]), not the substantive conditions of the deal. The title, the price and the money are the notary's checks ([[gpk:586]]; chapter 27).",
       "refs": [
         "pv:32а:1",
         "pv:6:1"
@@ -187,7 +187,7 @@
         "Returns the request with no decision"
       ],
       "answer": 0,
-      "explanation": "Interpretative Decision No. 7/2012: the judge may not give instructions to remedy a defective request; the judge refuses under Art. 32а(1) ПВ. The notary then files a new request with the proof, which gets a new rank, or appeals the refusal.",
+      "explanation": "Interpretative Decision No. 7/2012: the judge may not give instructions to remedy a defective request; the judge refuses under [[pv:32а:1]]. The notary then files a new request with the proof, which gets a new rank, or appeals the refusal.",
       "refs": [
         "pv:32а:1"
       ]
@@ -201,7 +201,7 @@
         "A new declaratory deed of the owner for the flat"
       ],
       "answer": 0,
-      "explanation": "Art. 22 ПВ: when 10 years have passed from the entry without a renewal, the deletion is made on the request of anybody interested, without other evidence; the effect of the entry ends after 10 years (Art. 172 ЗЗД). The creditor's certified consent (Art. 19(1) ПВ) is the rule while the entry is in force.",
+      "explanation": "[[pv:22]]: when 10 years have passed from the entry without a renewal, the deletion is made on the request of anybody interested, without other evidence; the effect of the entry ends after 10 years ([[zzd:172]]). The creditor's certified consent ([[pv:19:1]]) is the rule while the entry is in force.",
       "refs": [
         "pv:22",
         "zzd:172",
@@ -217,7 +217,7 @@
         "A dispute; the owner sues the Agency in court"
       ],
       "answer": 0,
-      "explanation": "Art. 33в(1) ПВ: a mismatch between the entered act and the data in the partida is a technical error. The person concerned or the notary asks (Art. 33в(2)), and the Registry Agency corrects it (Art. 33в(3)). The deed itself is right, so the parties sign nothing.",
+      "explanation": "[[pv:33в:1]]: a mismatch between the entered act and the data in the partida is a technical error. The person concerned or the notary asks ([[pv:33в:2|Art. 33в(2)]]), and the Registry Agency corrects it ([[pv:33в:3|Art. 33в(3)]]). The deed itself is right, so the parties sign nothing.",
       "refs": [
         "pv:33в"
       ]
@@ -231,7 +231,7 @@
         "Only the instructions of the Council of Notaries"
       ],
       "answer": 0,
-      "explanation": "Art. 530 ГПК: the general rules of non-contentious proceedings apply as far as no special rules exist, and Art. 540 adds the rules of claim proceedings, with exceptions. A notarial act is not an administrative act, and guidance of the Council of Notaries is not law.",
+      "explanation": "[[gpk:530]]: the general rules of non-contentious proceedings apply as far as no special rules exist, and [[gpk:540|Art. 540]] adds the rules of claim proceedings, with exceptions. A notarial act is not an administrative act, and guidance of the Council of Notaries is not law.",
       "refs": [
         "gpk:530",
         "gpk:540"

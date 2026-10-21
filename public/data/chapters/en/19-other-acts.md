@@ -25,7 +25,7 @@ The fee is 20 leva (10.23 €) for the invitation; the other copies are charged 
 
 ## Serving at an address: the rules
 
-The employee who serves acts as the **server** ({{връчител}}). The rules come from the Civil Procedure Code and apply to notarial service "under the conditions and procedure" of Art. 37–58 ([[znnd:50]]). These articles are written for court papers; the office applies them to invitations accordingly, so the papers stay at the notary office instead of the court.
+The employee who serves acts as the **server** ({{връчител}}). The rules come from the Civil Procedure Code and apply to notarial service "under the conditions and procedure" of [[gpk:37|Art. 37–58 ГПК]] ([[znnd:50]]). These articles are written for court papers; the office applies them to invitations accordingly, so the papers stay at the notary office instead of the court.
 
 ### Where
 

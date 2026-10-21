@@ -10,51 +10,51 @@
   "cards": [
     {
       "front": "Name the five certifications a notary performs on private documents and copies.",
-      "back": "Date, signature, content, signature and content at the same time, copy (Art. 589–591 ГПК)."
+      "back": "Date, signature, content, signature and content at the same time, copy ([[gpk:589|Art. 589]]–[[gpk:591|591 ГПК]])."
     },
     {
       "front": "What must a person do for a signature certification?",
-      "back": "**Appear personally** and sign before the notary, or confirm a signature already made (Art. 589(2) ГПК)."
+      "back": "**Appear personally** and sign before the notary, or confirm a signature already made ([[gpk:589:2]])."
     },
     {
       "front": "A client signed a declaration for a real estate deal at home. What happens at the office?",
-      "back": "She **writes her full name** by hand and **confirms** the signature before the notary (Art. 589(2) ГПК); fee 10 лв. = 5.11 € per signature (item 5 ТНТ)."
+      "back": "She **writes her full name** by hand and **confirms** the signature before the notary ([[gpk:589:2]]); fee 10 лв. = 5.11 € per signature ([[tarifa:5|item 5 ТНТ]])."
     },
     {
       "front": "How many copies for a simultaneous certification of signature and content?",
-      "back": "**Two or more** identical copies; one is filed in a special book (Art. 590(4) ГПК)."
+      "back": "**Two or more** identical copies; one is filed in a special book ([[gpk:590:4]])."
     },
     {
       "front": "Which documents need signature and content certified at the same time?",
-      "back": "A power of attorney for a deal in notarial form; a transfer of company shares; a transfer of an enterprise; a marriage contract (Art. 37 ЗЗД, 129 and 15 ТЗ, 39 СК)."
+      "back": "A power of attorney for a deal in notarial form; a transfer of company shares; a transfer of an enterprise; a marriage contract ([[zzd:37]], 129 and 15 ТЗ, 39 СК)."
     },
     {
       "front": "A client presents a certified copy of a diploma and asks for a copy of it. What does the endorsement say?",
-      "back": "Who presented the document and that the copy was made **from another copy**, not from the original; any corrections or peculiarities (Art. 591(1) ГПК)."
+      "back": "Who presented the document and that the copy was made **from another copy**, not from the original; any corrections or peculiarities ([[gpk:591:1]])."
     },
     {
       "front": "A lease has a certified date. The flat is sold a year later. Does the lease bind the buyer?",
-      "back": "**Yes**, until its term, but for no more than **one year** after the transfer (Art. 237 ЗЗД). The certified date is the certain date (Art. 589(1) ГПК)."
+      "back": "**Yes**, until its term, but for no more than **one year** after the transfer ([[zzd:237]]). The certified date is the certain date ([[gpk:589:1]])."
     },
     {
       "front": "Where are date and signature certifications recorded?",
-      "back": "In a special register: the **general register** (Art. 590(2) ГПК; Art. 7 Наредба № 32)."
+      "back": "In a special register: the **general register** ([[gpk:590:2]]; [[n32:7]])."
     },
     {
       "front": "What happens to the private document after the certification?",
-      "back": "It is **returned** to the person who presented it (Art. 590(3) ГПК)."
+      "back": "It is **returned** to the person who presented it ([[gpk:590:3]])."
     },
     {
       "front": "What is the fee for the first signature without material interest?",
-      "back": "5 лв. = **2.56 €**; each next signature 2 лв. = 1.02 € (item 5 ТНТ)."
+      "back": "5 лв. = **2.56 €**; each next signature 2 лв. = 1.02 € ([[tarifa:5|item 5 ТНТ]])."
     },
     {
       "front": "What is the fee for certifying a one-page copy?",
-      "back": "3 лв. = **1.53 €**; each next page 2 лв. (item 6 ТНТ)."
+      "back": "3 лв. = **1.53 €**; each next page 2 лв. ([[tarifa:6|item 6 ТНТ]])."
     },
     {
       "front": "What happens when the person did not appear personally for a signature certification?",
-      "back": "The certification is **null** (Art. 576 ГПК)."
+      "back": "The certification is **null** ([[gpk:576]])."
     }
   ],
   "quiz": [
@@ -67,7 +67,7 @@
         "Refuses the document; a power of attorney must be signed before the notary"
       ],
       "answer": 0,
-      "explanation": "A sale of real estate needs a notarial deed, so the power of attorney needs signature and content certified at the same time (Art. 37 ЗЗД). The document concerns rights in real estate: she writes her full name by hand and confirms the signature made before (Art. 589(2) ГПК). A signature made at home is confirmed, not refused.",
+      "explanation": "A sale of real estate needs a notarial deed, so the power of attorney needs signature and content certified at the same time ([[zzd:37]]). The document concerns rights in real estate: she writes her full name by hand and confirms the signature made before ([[gpk:589:2]]). A signature made at home is confirmed, not refused.",
       "refs": [
         "zzd:37",
         "gpk:589:2"
@@ -82,7 +82,7 @@
         "One copy; the notary files the original in the special book"
       ],
       "answer": 0,
-      "explanation": "Art. 590(4) ГПК: for a simultaneous certification of signature and content the applicant presents two or more identical copies; one is filed in the special book, the others go back to the applicant. Five copies is the rule for a deed for entry (Art. 18(1) Наредба № 32); the original is never kept (Art. 590(3)).",
+      "explanation": "[[gpk:590:4]]: for a simultaneous certification of signature and content the applicant presents two or more identical copies; one is filed in the special book, the others go back to the applicant. Five copies is the rule for a deed for entry ([[n32:18:1]]); the original is never kept ([[gpk:590:3|Art. 590(3)]]).",
       "refs": [
         "gpk:590:4",
         "gpk:590:3"
@@ -97,7 +97,7 @@
         "Yes, if she signed the document before and he confirms the signature for her"
       ],
       "answer": 0,
-      "explanation": "Art. 589(2) ГПК: the persons whose signatures are certified appear personally and sign, or confirm their signatures, before the notary; nobody confirms for them. For a good reason the notary performs an act that is not subject to entry outside the office (Art. 573(3)). A certification without personal appearance is null (Art. 576).",
+      "explanation": "[[gpk:589:2]]: the persons whose signatures are certified appear personally and sign, or confirm their signatures, before the notary; nobody confirms for them. For a good reason the notary performs an act that is not subject to entry outside the office ([[gpk:573:3|Art. 573(3)]]). A certification without personal appearance is null ([[gpk:576|Art. 576]]).",
       "refs": [
         "gpk:589:2",
         "gpk:573:3",
@@ -113,7 +113,7 @@
         "That the copy has the same evidential force as the diploma"
       ],
       "answer": 0,
-      "explanation": "Art. 591(1) ГПК: the endorsement states who presented the document and whether the copy was made from the original or from another copy, and notes any deletions, additions or corrections. Only an officially certified copy of an official document has the force of the original (Art. 179(2)).",
+      "explanation": "[[gpk:591:1]]: the endorsement states who presented the document and whether the copy was made from the original or from another copy, and notes any deletions, additions or corrections. Only an officially certified copy of an official document has the force of the original ([[gpk:179:2|Art. 179(2)]]).",
       "refs": [
         "gpk:591:1",
         "gpk:179:2"
@@ -128,7 +128,7 @@
         "A stamp of the landlord's company"
       ],
       "answer": 0,
-      "explanation": "Art. 589(1) ГПК: a private document is presented to certify the date of its presentation; the certified date is a certain date towards third persons, and a lease with a certain date binds the buyer for up to one year after the transfer (Art. 237 ЗЗД). A copy certification proves only that the copy matches.",
+      "explanation": "[[gpk:589:1]]: a private document is presented to certify the date of its presentation; the certified date is a certain date towards third persons, and a lease with a certain date binds the buyer for up to one year after the transfer ([[zzd:237]]). A copy certification proves only that the copy matches.",
       "refs": [
         "gpk:589:1",
         "zzd:237"
@@ -143,7 +143,7 @@
         "Certify only the date of presentation of the blank sheet"
       ],
       "answer": 0,
-      "explanation": "Art. 590(1) ГПК applies Art. 580 to the endorsement, and item 4 of Art. 580 is the content; the notary also checks the content for legality (Art. 574). A blank sheet has no content to check, so none of the certifications is possible.",
+      "explanation": "[[gpk:590:1]] applies [[gpk:580|Art. 580]] to the endorsement, and item 4 of [[gpk:580|Art. 580]] is the content; the notary also checks the content for legality ([[gpk:574|Art. 574]]). A blank sheet has no content to check, so none of the certifications is possible.",
       "refs": [
         "gpk:590:1",
         "gpk:580",
@@ -159,7 +159,7 @@
         "4 лв. (2.05 €)"
       ],
       "answer": 0,
-      "explanation": "Item 5 of the tariff: 5 лв. for the first signature (letter \"а\") and 2 лв. for each next signature (letter \"в\"): 7 лв. The 10 лв. rate is the fee per signature on a document for rights in real estate (letter \"г\").",
+      "explanation": "[[tarifa:5|Item 5 of the tariff]]: 5 лв. for the first signature (letter \"а\") and 2 лв. for each next signature (letter \"в\"): 7 лв. The 10 лв. rate is the fee per signature on a document for rights in real estate (letter \"г\").",
       "refs": [
         "tarifa:5"
       ]
@@ -173,7 +173,7 @@
         "2 лв. (1.02 €) per signature"
       ],
       "answer": 0,
-      "explanation": "Item 5, letter \"г\" of the tariff: 10 лв. for each signature on a document that will be used to create, change or end rights in real estate. 5 лв. is the first signature without material interest; 30 лв. is the minimum of items 9 and 10 for contracts with a material interest.",
+      "explanation": "[[tarifa:5|Item 5]], letter \"г\" of the tariff: 10 лв. for each signature on a document that will be used to create, change or end rights in real estate. 5 лв. is the first signature without material interest; 30 лв. is the minimum of [[tarifa:9|items 9]] and [[tarifa:10|10]] for contracts with a material interest.",
       "refs": [
         "tarifa:5",
         "tarifa:10"
@@ -188,7 +188,7 @@
         "Send an extract to the Registry Agency on the same working day"
       ],
       "answer": 0,
-      "explanation": "Art. 9а, item 5 of Ordinance No. 32: an extract of a power of attorney for actions before a bank is entered and sent at once to the information system of the Notary Chamber. The document itself goes back to the person who presented it (Art. 590(3) ГПК).",
+      "explanation": "[[n32:9а::5|Art. 9а, item 5 of Ordinance No. 32]]: an extract of a power of attorney for actions before a bank is entered and sent at once to the information system of the Notary Chamber. The document itself goes back to the person who presented it ([[gpk:590:3]]).",
       "refs": [
         "n32:9а",
         "gpk:590:3"
@@ -203,7 +203,7 @@
         "A photograph of the document on a telephone"
       ],
       "answer": 0,
-      "explanation": "Art. 179(2) ГПК: officially certified copies of official documents have the same evidential force as the originals. A certified copy of a private document proves only that the copy matches the document presented (Art. 591(1)).",
+      "explanation": "[[gpk:179:2]]: officially certified copies of official documents have the same evidential force as the originals. A certified copy of a private document proves only that the copy matches the document presented ([[gpk:591:1|Art. 591(1)]]).",
       "refs": [
         "gpk:179:2",
         "gpk:591:1"
@@ -218,7 +218,7 @@
         "Certify it after the client summarises the content in Bulgarian"
       ],
       "answer": 0,
-      "explanation": "Art. 589(3) ГПК applies Art. 582: when the notary does not know the language, an interpreter is appointed; in practice the office asks for a translation. The notary must understand the content to check its legality (Art. 574); a summary or a declaration of a translator does not replace that check.",
+      "explanation": "[[gpk:589:3]] applies [[gpk:582|Art. 582]]: when the notary does not know the language, an interpreter is appointed; in practice the office asks for a translation. The notary must understand the content to check its legality ([[gpk:574|Art. 574]]); a summary or a declaration of a translator does not replace that check.",
       "refs": [
         "gpk:589:3",
         "gpk:582",
@@ -234,7 +234,7 @@
         "Yes, if both certifications are made within the same week"
       ],
       "answer": 0,
-      "explanation": "Art. 37 ЗЗД requires a certification of the signature and of the content performed at the same time: one endorsement, one notary, one day (Art. 590(4) ГПК). Two certifications on different days by different notaries do not meet the form.",
+      "explanation": "[[zzd:37]] requires a certification of the signature and of the content performed at the same time: one endorsement, one notary, one day ([[gpk:590:4]]). Two certifications on different days by different notaries do not meet the form.",
       "refs": [
         "zzd:37",
         "gpk:590:4"

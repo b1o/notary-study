@@ -6,10 +6,10 @@ The Spatial Development Act ({{Закон за устройство на тер�
 
 According to their basic purpose, the territories are **urbanised** (settlements and similar areas), **agricultural**, **forest**, **protected**, **damaged** territories for recovery, territories covered by **water**, and territories of **transport** ([[zut:7:1]]). The **specific purpose** of each plot, for example housing, offices or a park, is set by the **detailed development plan** ({{подробен устройствен план}}, ПУП) ([[zut:8]]).
 
-Two terms appear in every file. Both are defined in § 5 of the Additional Provisions of ЗУТ (outside the library extract):
+Two terms appear in every file. Both are defined in [[zut:§5|§ 5 of the Additional Provisions of ЗУТ]]:
 
-- a **land plot** ({{поземлен имот}}) is a part of the territory with boundaries set by ownership (§ 5, item 2);
-- a **regulated land plot** ({{урегулиран поземлен имот}}, УПИ) is a plot for which a detailed development plan set boundaries, access from a street, road or alley, a specific purpose and building rules (§ 5, item 11).
+- a **land plot** ({{поземлен имот}}) is a part of the territory with boundaries set by ownership ([[zut:§5::2|§ 5, item 2]]);
+- a **regulated land plot** ({{урегулиран поземлен имот}}, УПИ) is a plot for which a detailed development plan set boundaries, access from a street, road or alley, a specific purpose and building rules ([[zut:§5::11|§ 5, item 11]]).
 
 Building ({{застрояване}}) is allowed only if an effective detailed development plan provides for it, and after a change of the purpose of the land when a special law requires it ([[zut:12:2]]). In agricultural, forest and protected plots, objects that suit the purpose of the plot may be built without a change of purpose ([[zut:12:3]]).
 
@@ -43,16 +43,16 @@ For low residential building, a regulated plot needs at least ([[zut:19:1]]):
 
 The minimum may be reduced by at most one fifth, on an opinion of the municipal expert council ([[zut:19:3]]). When such a plot is divided, each part must have at least the minimum size reduced by one fifth ([[zut:19:4]]).
 
-The rule that matters most at the desk: **real parts** of plots in settlements can be acquired by a deal or by prescription **only if** they meet the minimum sizes ([[zut:200:1]]). The only exception is a part that joins a neighbouring plot under Art. 17 while the rest of the plot still meets the minimum, or joins another neighbour ([[zut:200:2]]). In a court partition of a regulated plot, the court asks the municipality whether the plot can be divided ([[zut:201:1]], [[zut:201:2]]).
+The rule that matters most at the desk: **real parts** of plots in settlements can be acquired by a deal or by prescription **only if** they meet the minimum sizes ([[zut:200:1]]). The only exception is a part that joins a neighbouring plot under [[zut:17]] while the rest of the plot still meets the minimum, or joins another neighbour ([[zut:200:2]]). In a court partition of a regulated plot, the court asks the municipality whether the plot can be divided ([[zut:201:1]], [[zut:201:2]]).
 
 > [!example] A real part or an ideal part?
-> Ana owns a regulated plot of 500 m² in a town. She wants to sell 200 m² of it to her neighbour Boris, who will build his own house there. A real part of 200 m² is below the 300 m² minimum, so the deal is not possible ([[zut:200:1]]). Ana can sell Boris an **ideal part** (a share of 2/5) instead. Art. 200 speaks of real parts; a share makes Ana and Boris co-owners ([[zs:30]]), and they then need a notarial contract with each other before either of them builds (see below, [[zut:183:1]]).
+> Ana owns a regulated plot of 500 m² in a town. She wants to sell 200 m² of it to her neighbour Boris, who will build his own house there. A real part of 200 m² is below the 300 m² minimum, so the deal is not possible ([[zut:200:1]]). Ana can sell Boris an **ideal part** (a share of 2/5) instead. [[zut:200]] speaks of real parts; a share makes Ana and Boris co-owners ([[zs:30]]), and they then need a notarial contract with each other before either of them builds (see below, [[zut:183:1]]).
 
 For a deal that forms new or changed plots, the office also orders a **sketch-project** from the cadastre ([[zkir:52:1]]).
 
 ## Buildings and their parts
 
-- A voluntary **partition of a co-owned building**, dwelling or other object, and a deal that transfers **real parts** of them, are possible only if the parts match **approved investment projects**. The municipality certifies this ([[zut:202]]). The office asks for this certificate before such a deed. The rule does not apply to auxiliary buildings (Art. 147(1), item 1 ЗУТ, outside the extract).
+- A voluntary **partition of a co-owned building**, dwelling or other object, and a deal that transfers **real parts** of them, are possible only if the parts match **approved investment projects**. The municipality certifies this ([[zut:202]]). The office asks for this certificate before such a deed. The rule does not apply to auxiliary buildings ([[zut:147:1:1]]).
 - A building may be **used** only after it is put into service ([[zut:178:1]]): with a **permit for use** issued by the National Construction Control Directorate for buildings of the first to the third category ([[zut:177:2]]), or with a **certificate of commissioning** issued by the authority that issued the building permit for the fourth and fifth category ([[zut:177:3]]). The law does not make the commissioning a condition of a sale, but the buyer should know whether the building may already be used.
 
 ### Changes inside a condominium
@@ -72,7 +72,7 @@ The Property Act creates the building right (chapter 9). ЗУТ adds the stages 
 - **After the rough construction**, the deal transfers the **building or its separate parts** ([[zut:181:2]]).
 - The completion of the rough construction is stated by a **protocol**, drawn up by the construction supervisor in the presence of the investor, the builder, the designer and a municipal official ([[zut:181:3]]). In practice the office asks for a copy of this protocol before a deed for a flat.
 
-ЗУТ defines the rough construction as a building with its outer walls and its roof finished, with or without finishing works (§ 5, item 46 of the Additional Provisions, outside the extract).
+ЗУТ defines the rough construction as a building with its outer walls and its roof finished, with or without finishing works ([[zut:§5::46|§ 5, item 46 of the Additional Provisions]]).
 
 | Situation | Form | Article |
 |---|---|---|
@@ -106,4 +106,4 @@ The Supreme Court of Cassation held that a contract for a network branch in this
 | A change of plot boundaries by a plan | A preliminary contract with certified signatures; the final contract before building | [[zut:15:3]], [[zut:17:3]] |
 
 > [!task] Practice
-> A family owns a house with a yard of 700 m² in a town and wants to (1) give the son a real part of 350 m² with the old house, (2) let a developer add a floor to a neighbouring condominium in which they own a flat, and (3) give a neighbour a right to lay a water pipe through the yard. For each step, name the form, the documents and the provision. Answers: (1) possible if both parts meet 14 m and 300 m² ([[zut:19:1]], [[zut:200:1]]), with a sketch-project ([[zkir:52:1]]); the part becomes a separate regulated plot only when the plan sets its boundaries (§ 5, item 11 ЗУТ); (2) the family signs the declaration of consent with a certified signature, the developer signs the notarial contract with the owners of the plot ([[zut:183:2]]); (3) a written contract with certified signatures, entered in both partidas ([[zut:193:1]], [[zut:193:9]]).
+> A family owns a house with a yard of 700 m² in a town and wants to (1) give the son a real part of 350 m² with the old house, (2) let a developer add a floor to a neighbouring condominium in which they own a flat, and (3) give a neighbour a right to lay a water pipe through the yard. For each step, name the form, the documents and the provision. Answers: (1) possible if both parts meet 14 m and 300 m² ([[zut:19:1]], [[zut:200:1]]), with a sketch-project ([[zkir:52:1]]); the part becomes a separate regulated plot only when the plan sets its boundaries ([[zut:§5::11|§ 5, item 11 ЗУТ]]); (2) the family signs the declaration of consent with a certified signature, the developer signs the notarial contract with the owners of the plot ([[zut:183:2]]); (3) a written contract with certified signatures, entered in both partidas ([[zut:193:1]], [[zut:193:9]]).

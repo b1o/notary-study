@@ -10,31 +10,31 @@
   "cards": [
     {
       "front": "Where are the ethical duties of the notary set out?",
-      "back": "In the law (Art. 34(1) ЗННД), the oath (Art. 15(1)) and the **Ethics Code of the Notaries**, an integral part of the statute of the Notary Chamber, to which Art. 34(1) refers."
+      "back": "In the law ([[znnd:34:1]]), the oath ([[znnd:15:1|Art. 15(1)]]) and the **Ethics Code of the Notaries**, an integral part of the statute of the Notary Chamber, to which [[znnd:34:1|Art. 34(1)]] refers."
     },
     {
       "front": "What does the notary swear in the oath?",
-      "back": "To keep the Constitution and the laws exactly, to perform the professional duties **honestly, in good faith and impartially**, and to be worthy of the trust and respect of the profession (Art. 15(1) ЗННД)."
+      "back": "To keep the Constitution and the laws exactly, to perform the professional duties **honestly, in good faith and impartially**, and to be worthy of the trust and respect of the profession ([[znnd:15:1]])."
     },
     {
       "front": "What does impartiality mean at the desk?",
-      "back": "The office serves **both parties** and does not take sides (Art. 24 ЗННД)."
+      "back": "The office serves **both parties** and does not take sides ([[znnd:24]])."
     },
     {
       "front": "Who explains the legal consequences to the parties?",
-      "back": "The **notary** (Art. 25(1) ЗННД); the staff pass legal questions to the notary or the assistant notary."
+      "back": "The **notary** ([[znnd:25:1]]); the staff pass legal questions to the notary or the assistant notary."
     },
     {
       "front": "A client asks the clerk: \"Is a gift or a sale better for me?\" What does the clerk answer?",
-      "back": "That the **notary** will explain the consequences of each deal (Art. 25(1) ЗННД); the clerk gives no legal advice and takes the question to the notary."
+      "back": "That the **notary** will explain the consequences of each deal ([[znnd:25:1]]); the clerk gives no legal advice and takes the question to the notary."
     },
     {
       "front": "An elderly client comes with a nephew who answers every question. What does the notary do?",
-      "back": "Meets the client **alone** (Art. 20 ЗННД), unless the client wants others present; checks the free will before the act."
+      "back": "Meets the client **alone** ([[znnd:20]]), unless the client wants others present; checks the free will before the act."
     },
     {
       "front": "Can the other party act as interpreter?",
-      "back": "**No**; the notary appoints the interpreter (Art. 582 ГПК), and a person who gains from the act cannot interpret (Art. 584 item 4 ГПК)."
+      "back": "**No**; the notary appoints the interpreter ([[gpk:582]]), and a person who gains from the act cannot interpret ([[gpk:584::4|Art. 584 item 4 ГПК]])."
     },
     {
       "front": "Name three signs of an impostor owner.",
@@ -42,19 +42,19 @@
     },
     {
       "front": "An agent presents a power of attorney. How do you check that it is not revoked?",
-      "back": "In the **information system** of the Notary Chamber, where revocations are entered (Art. 9а item 2 Наредба № 32)."
+      "back": "In the **information system** of the Notary Chamber, where revocations are entered ([[n32:9а::2|Art. 9а item 2 Наредба № 32]])."
     },
     {
       "front": "Doubts about the identity remain after the checks. What may the notary do?",
-      "back": "**Refuse** the act (Art. 574 ГПК); the refusal is appealed within one week before the regional court (Art. 577(1), 275(1) ГПК)."
+      "back": "**Refuse** the act ([[gpk:574]]); the refusal is appealed within one week before the regional court ([[gpk:577:1|Art. 577(1)]], [[gpk:275:1|275(1) ГПК]])."
     },
     {
       "front": "To whom is a suspicion of money laundering reported?",
-      "back": "The **Financial Intelligence Directorate of SANS**, without tipping off (Art. 72, 80 ЗМИП)."
+      "back": "The **Financial Intelligence Directorate of SANS**, without tipping off ([[zmip:72|Art. 72]], [[zmip:80|80 ЗМИП]])."
     },
     {
       "front": "Where can a client complain about a notary?",
-      "back": "To the **Council of Notaries** or the **Minister of Justice** (Art. 77(1) and 80б(2) ЗННД)."
+      "back": "To the **Council of Notaries** or the **Minister of Justice** ([[znnd:77:1|Art. 77(1)]] and [[znnd:80б:2|80б(2) ЗННД]])."
     }
   ],
   "quiz": [
@@ -67,7 +67,7 @@
         "Recommend a lawyer of the office, for a commission"
       ],
       "answer": 0,
-      "explanation": "Art. 25(1) ЗННД: the notary protects the rights of the parties, clarifies their will and explains the legal consequences to them clearly. The clerk does not advise; a commission for a recommendation conflicts with impartiality (Art. 24).",
+      "explanation": "[[znnd:25:1]]: the notary protects the rights of the parties, clarifies their will and explains the legal consequences to them clearly. The clerk does not advise; a commission for a recommendation conflicts with impartiality ([[znnd:24|Art. 24]]).",
       "refs": [
         "znnd:25:1",
         "znnd:24"
@@ -82,7 +82,7 @@
         "The nephew signs the deed instead of the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 20 ЗННД: the notary meets alone with the person who asked for the act, unless that person wants others present. The seller, not the nephew, decides; a signature by the nephew needs a power of attorney.",
+      "explanation": "[[znnd:20]]: the notary meets alone with the person who asked for the act, unless that person wants others present. The seller, not the nephew, decides; a signature by the nephew needs a power of attorney.",
       "refs": [
         "znnd:20"
       ]
@@ -96,7 +96,7 @@
         "Yes, if the seller agrees to the buyer as interpreter"
       ],
       "answer": 0,
-      "explanation": "Art. 582 ГПК: when a participant does not know Bulgarian, the notary appoints an interpreter; Art. 584 item 4: a person in whose favour the act contains a disposition cannot be an interpreter. The seller's consent does not remove the bar.",
+      "explanation": "[[gpk:582]]: when a participant does not know Bulgarian, the notary appoints an interpreter; [[gpk:584::4|Art. 584 item 4]]: a person in whose favour the act contains a disposition cannot be an interpreter. The seller's consent does not remove the bar.",
       "refs": [
         "gpk:582",
         "gpk:584"
@@ -111,7 +111,7 @@
         "Take a photograph of the seller and proceed with the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 25(3) ЗННД: for every certification about rights in real estate the notary checks the database of identity documents (Art. 19(2)). A different photo is a warning sign of an impostor; the notary refuses the act when the doubt remains (Art. 574 ГПК).",
+      "explanation": "[[znnd:25:3]]: for every certification about rights in real estate the notary checks the database of identity documents ([[znnd:19:2|Art. 19(2)]]). A different photo is a warning sign of an impostor; the notary refuses the act when the doubt remains ([[gpk:574]]).",
       "refs": [
         "znnd:25:3",
         "gpk:574"
@@ -126,7 +126,7 @@
         "The clerk calls the lawyer of the agent for an explanation"
       ],
       "answer": 0,
-      "explanation": "Art. 41(1) ЗЗД: the power ends with its revocation; the revocation is entered in the information system (Art. 9а item 2 Наредба № 32) so that notaries see it. The original in the agent's hands and the buyer's good faith give no authority.",
+      "explanation": "[[zzd:41:1]]: the power ends with its revocation; the revocation is entered in the information system ([[n32:9а::2|Art. 9а item 2 Наредба № 32]]) so that notaries see it. The original in the agent's hands and the buyer's good faith give no authority.",
       "refs": [
         "n32:9а",
         "zzd:41"
@@ -141,7 +141,7 @@
         "Only for a gift, where no tax is due"
       ],
       "answer": 0,
-      "explanation": "Art. 580 item 1 ГПК: the deed states the true date and place; Art. 574: the notary performs no act contrary to the law. A false official document is a crime under Art. 311 of the Criminal Code (outside the library).",
+      "explanation": "[[gpk:580::1|Art. 580 item 1 ГПК]]: the deed states the true date and place; [[gpk:574|Art. 574]]: the notary performs no act contrary to the law. A false official document is a crime under Art. 311 of the Criminal Code (outside the library).",
       "refs": [
         "gpk:574",
         "gpk:580"
@@ -156,7 +156,7 @@
         "A recommendation of another notary of the district"
       ],
       "answer": 0,
-      "explanation": "Art. 577(1) ГПК: a refusal to perform a notarial certification is appealed with a private appeal before the regional court; Art. 275(1): within one week of the notice. The written refusal with reasons and date lets the client appeal in time.",
+      "explanation": "[[gpk:577:1]]: a refusal to perform a notarial certification is appealed with a private appeal before the regional court; [[gpk:275:1|Art. 275(1)]]: within one week of the notice. The written refusal with reasons and date lets the client appeal in time.",
       "refs": [
         "gpk:577:1",
         "gpk:275:1"
@@ -171,7 +171,7 @@
         "The mayor answers for the witnesses, not the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 587(2) ГПК: the witnesses are, as far as possible, neighbours; the notary questions them and decides. Identical statements are a warning sign of false testimony; Art. 587(3): the notary decides with a reasoned decision and may refuse to recognise the ownership.",
+      "explanation": "[[gpk:587:2]]: the witnesses are, as far as possible, neighbours; the notary questions them and decides. Identical statements are a warning sign of false testimony; [[gpk:587:3|Art. 587(3)]]: the notary decides with a reasoned decision and may refuse to recognise the ownership.",
       "refs": [
         "gpk:587:2",
         "gpk:587:3"
@@ -186,7 +186,7 @@
         "Sends it to the Notary Chamber directly"
       ],
       "answer": 0,
-      "explanation": "A complaint may lead to a disciplinary proceeding (Art. 77(1) ЗННД) or an inspection ordered by the Minister of Justice (Art. 80б(2)). The notary must know at once and answers personally; the clerk neither hides nor answers the complaint.",
+      "explanation": "A complaint may lead to a disciplinary proceeding ([[znnd:77:1]]) or an inspection ordered by the Minister of Justice ([[znnd:80б:2|Art. 80б(2)]]). The notary must know at once and answers personally; the clerk neither hides nor answers the complaint.",
       "refs": [
         "znnd:77:1",
         "znnd:80б:2"
@@ -201,7 +201,7 @@
         "The liability passes to the other notary who later acts"
       ],
       "answer": 0,
-      "explanation": "Art. 73(1) ЗННД: the notary is liable for the damage caused by a culpable breach of his duties, up to the certified material interest. A refusal may be appealed (Art. 577 ГПК), so it does not end the matter, but it causes no damage to the real owner.",
+      "explanation": "[[znnd:73:1]]: the notary is liable for the damage caused by a culpable breach of his duties, up to the certified material interest. A refusal may be appealed ([[gpk:577]]), so it does not end the matter, but it causes no damage to the real owner.",
       "refs": [
         "znnd:73:1",
         "gpk:577:1"
@@ -216,7 +216,7 @@
         "Yes, if the seller agrees in writing to the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 23 ЗННД: the notary examines every request, unless he has an interest in the act or special relations with a party that raise a justified doubt of his impartiality. Art. 575 ГПК lists the relatives who always disqualify; a friendship is judged under Art. 23.",
+      "explanation": "[[znnd:23]]: the notary examines every request, unless he has an interest in the act or special relations with a party that raise a justified doubt of his impartiality. [[gpk:575]] lists the relatives who always disqualify; a friendship is judged under [[znnd:23|Art. 23]].",
       "refs": [
         "znnd:23",
         "gpk:575"
@@ -231,7 +231,7 @@
         "Accepts, if the agent is registered as a company"
       ],
       "answer": 0,
-      "explanation": "Art. 24 ЗННД: the notary takes no side; a bonus from an agent ties the office to one party. Art. 34(1): the notary keeps the professional ethics and the prestige of the profession under the statute of the Chamber, and trains the staff in it (Art. 34(2)).",
+      "explanation": "[[znnd:24]]: the notary takes no side; a bonus from an agent ties the office to one party. [[znnd:34:1|Art. 34(1)]]: the notary keeps the professional ethics and the prestige of the profession under the statute of the Chamber, and trains the staff in it ([[znnd:34:2|Art. 34(2)]]).",
       "refs": [
         "znnd:24",
         "znnd:34"

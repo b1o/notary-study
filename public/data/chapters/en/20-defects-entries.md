@@ -1,10 +1,10 @@
 ## Where notarial proceedings sit in the Code
 
-Part Six of the Civil Procedure Code regulates the **non-contentious proceedings** ({{охранителни производства}}). In that part, the chapter "General rules" (Art. 530–541) applies to all of them, and a later chapter sets the notarial proceedings (Art. 569–594). The general rules apply to every non-contentious proceeding as far as no special rules exist ([[gpk:530]]). The rules of claim proceedings also apply accordingly, except Art. 207–266 and 303–388 ([[gpk:540]]).
+Part Six of the Civil Procedure Code regulates the **non-contentious proceedings** ({{охранителни производства}}). In that part, the chapter "General rules" ([[gpk:530|Art. 530–541]]) applies to all of them, and a later chapter sets the notarial proceedings ([[gpk:569|Art. 569–594]]). The general rules apply to every non-contentious proceeding as far as no special rules exist ([[gpk:530]]). The rules of claim proceedings also apply accordingly, except Art. 207–266 and 303–388 ([[gpk:540]]).
 
 A non-contentious proceeding has no opposing party. A person asks an authority to create or certify a right, and the authority checks the conditions. It does not decide a dispute between two persons. When a dispute appears, it goes to a court by a claim ([[gpk:536:1]], [[gpk:537:2]]). This is the key to most questions in this chapter: the notary certifies, but the court decides who is right.
 
-| Question | General rule (Art. 530–541) | Special rule for notaries (Art. 569–594) |
+| Question | General rule ([[gpk:530|Art. 530–541]]) | Special rule for notaries ([[gpk:569|Art. 569–594]]) |
 |---|---|---|
 | How does it start? | A written request ([[gpk:531:1]]) | An oral request; a written request only for real estate deeds, declaratory deeds and entries ([[gpk:571]]) |
 | Which authority? | The district court of the applicant's permanent address ([[gpk:531:2]]) | The notary of the property's district, or any notary ([[gpk:570]]) |
@@ -19,7 +19,7 @@ The general rules speak of "the court". The notary applies the special rules fir
 
 An act that grants the request is **not appealed** ([[gpk:537:1]]). If it affects the rights of a third person, the dispute is settled **by a claim** against the persons who benefit from the act; when the claim succeeds, the court **cancels or changes** the act ([[gpk:537:2]]). The prosecutor may also sue to cancel an act issued in breach of the law ([[gpk:537:3]]).
 
-The Supreme Court of Cassation limited this cancellation in Interpretative Decision No. 3 of 29 November 2012 (case 3/2012, General Assembly of the Civil College): only **declaratory deeds** of ownership are cancelled under Art. 537(2). A deed of a transaction, such as a sale or a gift, is not cancelled. A third person who claims the property sues, and enters the claim so that later buyers are bound by the result ([[zs:114]], [[pv:11]]).
+The Supreme Court of Cassation limited this cancellation in Interpretative Decision No. 3 of 29 November 2012 (case 3/2012, General Assembly of the Civil College): only **declaratory deeds** of ownership are cancelled under [[gpk:537:2]]. A deed of a transaction, such as a sale or a gift, is not cancelled. A third person who claims the property sues, and enters the claim so that later buyers are bound by the result ([[zs:114]], [[pv:11]]).
 
 ### The evidential force of a declaratory deed
 
@@ -38,7 +38,7 @@ A notarial act can fail in different ways. The remedy depends on the kind of def
 
 | Defect | Example | Effect | What follows |
 |---|---|---|---|
-| The notary had no power, or broke a rule listed in Art. 576 | A deed by a notary of another district; a party who did not appear personally; missing signatures | The notarial act is **null** ([[gpk:576]]). A deal that needs notarial form is then void for lack of form ([[zzd:26:2]]) | A new act in the proper form |
+| The notary had no power, or broke a rule listed in [[gpk:576]] | A deed by a notary of another district; a party who did not appear personally; missing signatures | The notarial act is **null** ([[gpk:576]]). A deal that needs notarial form is then void for lack of form ([[zzd:26:2]]) | A new act in the proper form |
 | The deal itself is void or voidable | No capacity, threat, a sham price | The notarial form does not cure the deal ([[zzd:26]], [[zzd:27]]) | A claim in court; the claim is entered ([[pv:11]]) |
 | A declaratory deed names the wrong owner | Witnesses hid that the possession was not exclusive | Valid until a court decides; then **cancelled** ([[gpk:537:2]]) | A claim against the holder of the deed |
 | A wrong date or a false certification | A back-dated endorsement | The authenticity of the document can be contested ([[gpk:193]]); the court sends a false document to the prosecutor ([[gpk:194:2]]) | Criminal and disciplinary liability (chapter 4) |

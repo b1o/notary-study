@@ -10,63 +10,63 @@
   "cards": [
     {
       "front": "When and where does an inheritance open?",
-      "back": "At the moment of **death**, at the **last domicile** of the deceased (Art. 1 ЗН)."
+      "back": "At the moment of **death**, at the **last domicile** of the deceased ([[zn:1]])."
     },
     {
       "front": "A man dies and leaves a wife and three children. What is the wife's share of his estate?",
-      "back": "**1/4**: a share equal to each child (Art. 9(1) ЗН). Her own half of the community property is not part of the estate (Art. 28 СК)."
+      "back": "**1/4**: a share equal to each child ([[zn:9:1]]). Her own half of the community property is not part of the estate ([[sk:28]])."
     },
     {
       "front": "Share of the spouse with parents after 12 years of marriage?",
-      "back": "**2/3** (1/2 if the marriage lasted less than 10 years) (Art. 9(2) ЗН)."
+      "back": "**2/3** (1/2 if the marriage lasted less than 10 years) ([[zn:9:2]])."
     },
     {
       "front": "What do half-siblings receive compared with full siblings?",
-      "back": "**Half** of a full sibling's share (Art. 8(3) ЗН)."
+      "back": "**Half** of a full sibling's share ([[zn:8:3]])."
     },
     {
       "front": "An heir wants to renounce the inherited debts and keep the flat. Is that possible?",
-      "back": "**No**: a renunciation for a part of the inheritance is invalid (Art. 54 ЗН). The heir accepts **by inventory** to limit the liability to the value of the estate (Art. 60(2), 61 ЗН)."
+      "back": "**No**: a renunciation for a part of the inheritance is invalid ([[zn:54]]). The heir accepts **by inventory** to limit the liability to the value of the estate ([[zn:60:2|Art. 60(2)]], [[zn:61|61 ЗН]])."
     },
     {
       "front": "Minimum age to make a will?",
-      "back": "**18** (Art. 13 ЗН)."
+      "back": "**18** ([[zn:13]])."
     },
     {
       "front": "Requirements of a notarial will?",
-      "back": "Oral statement to the notary, **two witnesses**, reading, notes of formalities, place and date, signatures (Art. 24 ЗН)."
+      "back": "Oral statement to the notary, **two witnesses**, reading, notes of formalities, place and date, signatures ([[zn:24]])."
     },
     {
       "front": "Requirements of a holographic will?",
-      "back": "Written **entirely by hand**, **dated**, **signed after** the dispositions (Art. 25(1) ЗН)."
+      "back": "Written **entirely by hand**, **dated**, **signed after** the dispositions ([[zn:25:1]])."
     },
     {
       "front": "A nephew comes with a power of attorney to take back his aunt's deposited will. What follows?",
-      "back": "Refusal: only the **testator personally** may take a deposited will back; the note in the register is signed by the testator, two witnesses and the notary (Art. 26 ЗН)."
+      "back": "Refusal: only the **testator personally** may take a deposited will back; the note in the register is signed by the testator, two witnesses and the notary ([[zn:26]])."
     },
     {
       "front": "Reserved portion with two children and no spouse?",
-      "back": "**2/3** together; freely disposable **1/3** (Art. 29(1) ЗН)."
+      "back": "**2/3** together; freely disposable **1/3** ([[zn:29:1]])."
     },
     {
       "front": "Freely disposable portion with a spouse and three children?",
-      "back": "**1/6** (Art. 29(3) ЗН)."
+      "back": "**1/6** ([[zn:29:3]])."
     },
     {
       "front": "Where is an inheritance renounced?",
-      "back": "By a written statement to the **district judge** where the inheritance opened (Art. 52 and 49 ЗН)."
+      "back": "By a written statement to the **district judge** where the inheritance opened ([[zn:52|Art. 52]] and [[zn:49|49 ЗН]])."
     },
     {
       "front": "Deadline for acceptance by inventory?",
-      "back": "**Three months** from learning of the opening, extendable by three months (Art. 61 ЗН)."
+      "back": "**Three months** from learning of the opening, extendable by three months ([[zn:61]])."
     },
     {
       "front": "Effect of a partition without one co-heir?",
-      "back": "**Entirely void** (Art. 75(2) ЗН)."
+      "back": "**Entirely void** ([[zn:75:2]])."
     },
     {
       "front": "Who pays no inheritance tax?",
-      "back": "The surviving **spouse** and heirs in the **direct line** (Art. 31(2) ЗМДТ)."
+      "back": "The surviving **spouse** and heirs in the **direct line** ([[zmdt:31:2]])."
     }
   ],
   "quiz": [
@@ -79,7 +79,7 @@
         "Nothing"
       ],
       "answer": 0,
-      "explanation": "Art. 9(1) ЗН: the spouse inherits a share equal to each child; with three children, four equal shares of 1/4. The other half of the flat is already hers as community property (Art. 28 СК) and is not inherited.",
+      "explanation": "[[zn:9:1]]: the spouse inherits a share equal to each child; with three children, four equal shares of 1/4. The other half of the flat is already hers as community property ([[sk:28]]) and is not inherited.",
       "refs": [
         "zn:9:1",
         "sk:28"
@@ -94,7 +94,7 @@
         "Everything"
       ],
       "answer": 0,
-      "explanation": "Art. 9(2) ЗН: with parents or siblings, the spouse gets 1/2 when the inheritance opened before ten years of marriage and 2/3 after ten years; 1/3 applies when parents and siblings both survive. After six years: 1/2 to the husband, 1/2 to the father.",
+      "explanation": "[[zn:9:2]]: with parents or siblings, the spouse gets 1/2 when the inheritance opened before ten years of marriage and 2/3 after ten years; 1/3 applies when parents and siblings both survive. After six years: 1/2 to the husband, 1/2 to the father.",
       "refs": [
         "zn:9:2"
       ]
@@ -108,7 +108,7 @@
         "Only half of the father's share, as a grandchild"
       ],
       "answer": 0,
-      "explanation": "Art. 10(1) ЗН: the descendants of a child who died before the deceased take the child's place without limit of degree, per stirpes. The grandchild takes the whole share of the father; a living child of the grandmother does not exclude the grandchild.",
+      "explanation": "[[zn:10:1]]: the descendants of a child who died before the deceased take the child's place without limit of degree, per stirpes. The grandchild takes the whole share of the father; a living child of the grandmother does not exclude the grandchild.",
       "refs": [
         "zn:10:1"
       ]
@@ -122,7 +122,7 @@
         "A will written by hand by two spouses and signed by both"
       ],
       "answer": 0,
-      "explanation": "Art. 25(1) ЗН: a holographic will is written entirely by hand, dated and signed after the dispositions; a typed text or a missing date makes it void (Art. 42). Two persons may not make a will in one act (Art. 15).",
+      "explanation": "[[zn:25:1]]: a holographic will is written entirely by hand, dated and signed after the dispositions; a typed text or a missing date makes it void ([[zn:42|Art. 42]]). Two persons may not make a will in one act ([[zn:15|Art. 15]]).",
       "refs": [
         "zn:25:1",
         "zn:15",
@@ -138,7 +138,7 @@
         "Three"
       ],
       "answer": 0,
-      "explanation": "Art. 24(1) ЗН: the notarial will is made before the notary in the presence of two witnesses, who must meet Art. 584 ГПК; the notary reads the will to the testator in their presence (Art. 24(2)).",
+      "explanation": "[[zn:24:1]]: the notarial will is made before the notary in the presence of two witnesses, who must meet [[gpk:584]]; the notary reads the will to the testator in their presence ([[zn:24:2|Art. 24(2)]]).",
       "refs": [
         "zn:24:1",
         "gpk:584"
@@ -153,7 +153,7 @@
         "Yes, but only outside the office"
       ],
       "answer": 0,
-      "explanation": "Art. 40(1) item 3 ЗННД excludes notarial wills and their revocation from the powers of an assistant notary; only the notary, or a registered substitute (Art. 46), makes a will.",
+      "explanation": "[[znnd:40:1:3|Art. 40(1) item 3 ЗННД]] excludes notarial wills and their revocation from the powers of an assistant notary; only the notary, or a registered substitute ([[znnd:46|Art. 46]]), makes a will.",
       "refs": [
         "znnd:40:1",
         "znnd:46:1"
@@ -168,7 +168,7 @@
         "1/4 of the estate"
       ],
       "answer": 0,
-      "explanation": "Art. 29(1) ЗН: with one child and no spouse, the reserved portion is 1/2; the freely disposable portion is the other 1/2 (Art. 28(2)). The child may ask for the reduction of the will beyond that (Art. 30).",
+      "explanation": "[[zn:29:1]]: with one child and no spouse, the reserved portion is 1/2; the freely disposable portion is the other 1/2 ([[zn:28:2|Art. 28(2)]]). The child may ask for the reduction of the will beyond that ([[zn:30|Art. 30]]).",
       "refs": [
         "zn:29:1",
         "zn:28",
@@ -184,7 +184,7 @@
         "Never; only wills are reduced, not gifts"
       ],
       "answer": 0,
-      "explanation": "Art. 32 and 33 ЗН: wills are reduced first, proportionally; gifts only when the wills do not suffice, starting from the latest gift. Transfers by the donee within a year of the opening may be set aside (Art. 37).",
+      "explanation": "[[zn:32|Art. 32]] and [[zn:33|33 ЗН]]: wills are reduced first, proportionally; gifts only when the wills do not suffice, starting from the latest gift. Transfers by the donee within a year of the opening may be set aside ([[zn:37|Art. 37]]).",
       "refs": [
         "zn:33",
         "zn:32"
@@ -199,7 +199,7 @@
         "With the Registry Agency, in the property register"
       ],
       "answer": 0,
-      "explanation": "Art. 52 with Art. 49(1) ЗН: acceptance and renunciation are made by a written statement to the district judge of the place where the inheritance opened, entered in a special book. The notary only certifies the signature on the statement when the heir does not file it in person.",
+      "explanation": "[[zn:52|Art. 52]] with [[zn:49:1]]: acceptance and renunciation are made by a written statement to the district judge of the place where the inheritance opened, entered in a special book. The notary only certifies the signature on the statement when the heir does not file it in person.",
       "refs": [
         "zn:52",
         "zn:49:1"
@@ -214,7 +214,7 @@
         "Yes, within three months of the opening of the inheritance"
       ],
       "answer": 0,
-      "explanation": "Art. 54(1) ЗН: acceptance or renunciation under a condition, with a term or for a part of the inheritance is invalid. The tool to limit liability for debts is acceptance by inventory (Art. 60(2), 61), within three months of learning of the opening.",
+      "explanation": "[[zn:54:1]]: acceptance or renunciation under a condition, with a term or for a part of the inheritance is invalid. The tool to limit liability for debts is acceptance by inventory ([[zn:60:2|Art. 60(2)]], [[zn:61|61]]), within three months of learning of the opening.",
       "refs": [
         "zn:54:1",
         "zn:60:2",
@@ -230,7 +230,7 @@
         "It is valid if the fourth heir is paid later"
       ],
       "answer": 0,
-      "explanation": "Art. 75(2) ЗН: a partition made without one of the co-heirs is entirely void, also between the three who signed. The one-year term concerns a partition challenged for a mistake of more than a quarter (Art. 74).",
+      "explanation": "[[zn:75:2]]: a partition made without one of the co-heirs is entirely void, also between the three who signed. The one-year term concerns a partition challenged for a mistake of more than a quarter ([[zn:74|Art. 74]]).",
       "refs": [
         "zn:75:2",
         "zn:74"
@@ -245,7 +245,7 @@
         "No; relatives are always exempt from the tax"
       ],
       "answer": 0,
-      "explanation": "Art. 31(2) ЗМДТ: only the surviving spouse and the direct line are exempt. A nephew is a child of a sibling: Art. 36 item 1 sets 0.4–0.8% on the part of the share above 250,000 лв. (127,822.97 euro); other persons pay 3.3–6.6% (item 2). Below the threshold no tax is due.",
+      "explanation": "[[zmdt:31:2]]: only the surviving spouse and the direct line are exempt. A nephew is a child of a sibling: [[zmdt:36::1|Art. 36 item 1]] sets 0.4–0.8% on the part of the share above 250,000 лв. (127,822.97 euro); other persons pay 3.3–6.6% (item 2). Below the threshold no tax is due.",
       "refs": [
         "zmdt:31:2",
         "zmdt:36"

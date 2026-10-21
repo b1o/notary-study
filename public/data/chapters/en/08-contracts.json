@@ -10,63 +10,63 @@
   "cards": [
     {
       "front": "A flat with a tenant is sold. Does the lease bind the buyer?",
-      "back": "An **entered** lease binds the buyer for its whole term; a lease with a certain date, not entered, for at most **one year** after the transfer; a lease without a certain date only as a lease without a term (Art. 237 ЗЗД)."
+      "back": "An **entered** lease binds the buyer for its whole term; a lease with a certain date, not entered, for at most **one year** after the transfer; a lease without a certain date only as a lease without a term ([[zzd:237]])."
     },
     {
       "front": "What form does a preliminary contract for the sale of real estate need?",
-      "back": "**Written** form with the **essential terms** of the final contract (Art. 19 ЗЗД)."
+      "back": "**Written** form with the **essential terms** of the final contract ([[zzd:19]])."
     },
     {
       "front": "Earnest money of 3,000 euro was given. The buyer withdraws; or the seller withdraws. What follows?",
-      "back": "The buyer fails: the seller may withdraw and **keep** the 3,000 euro. The seller fails: the buyer may withdraw and claim **6,000 euro**, double the earnest money (Art. 93 ЗЗД)."
+      "back": "The buyer fails: the seller may withdraw and **keep** the 3,000 euro. The seller fails: the buyer may withdraw and claim **6,000 euro**, double the earnest money ([[zzd:93]])."
     },
     {
       "front": "A debtor donates his flat to his daughter before the bailiff comes. What may the creditor do?",
-      "back": "Sue to declare the gift **ineffective towards the creditor** (Art. 135 ЗЗД). For a spouse, a descendant, an ascendant, a brother or a sister of the debtor, the knowledge of the harm is **presumed** (Art. 135(2))."
+      "back": "Sue to declare the gift **ineffective towards the creditor** ([[zzd:135]]). For a spouse, a descendant, an ascendant, a brother or a sister of the debtor, the knowledge of the harm is **presumed** ([[zzd:135:2|Art. 135(2)]])."
     },
     {
       "front": "What is a sham contract and its effect?",
-      "back": "A contract that hides the real deal; it is **void**, and the hidden contract applies if valid (Art. 17 and 26 ЗЗД)."
+      "back": "A contract that hides the real deal; it is **void**, and the hidden contract applies if valid ([[zzd:17|Art. 17]] and [[zzd:26|26 ЗЗД]])."
     },
     {
       "front": "What do the parties declare about the price in a real estate deal?",
-      "back": "That it is the **payment actually agreed** (Art. 25(9) ЗННД)."
+      "back": "That it is the **payment actually agreed** ([[znnd:25:9]])."
     },
     {
       "front": "How is a contract that transfers real estate terminated?",
-      "back": "Only **by a court** (Art. 87 ЗЗД)."
+      "back": "Only **by a court** ([[zzd:87]])."
     },
     {
       "front": "General limitation period?",
-      "back": "**Five years** (Art. 110 ЗЗД). Rent, interest, penalties: **three years** (Art. 111 ЗЗД)."
+      "back": "**Five years** ([[zzd:110]]). Rent, interest, penalties: **three years** ([[zzd:111]])."
     },
     {
       "front": "Who pays the costs of a sale of real estate?",
-      "back": "The parties **equally**, unless agreed otherwise; in other sales, the buyer (Art. 186 ЗЗД)."
+      "back": "The parties **equally**, unless agreed otherwise; in other sales, the buyer ([[zzd:186]])."
     },
     {
       "front": "When can a gift be revoked?",
-      "back": "Attempt on the donor's life, false accusation of a serious crime, refusal of needed support; claim within **one year** (Art. 227 ЗЗД)."
+      "back": "Attempt on the donor's life, false accusation of a serious crime, refusal of needed support; claim within **one year** ([[zzd:227]])."
     },
     {
       "front": "Is a promise of a gift binding?",
-      "back": "**No**; a gift of future property is void (Art. 226 ЗЗД)."
+      "back": "**No**; a gift of future property is void ([[zzd:226]])."
     },
     {
       "front": "When does an assignment of a claim bind the debtor?",
-      "back": "From the day the **old creditor notifies** the debtor (Art. 99 ЗЗД)."
+      "back": "From the day the **old creditor notifies** the debtor ([[zzd:99]])."
     },
     {
       "front": "How long is a mortgage entry effective?",
-      "back": "**10 years**, renewable before expiry (Art. 172 ЗЗД)."
+      "back": "**10 years**, renewable before expiry ([[zzd:172]])."
     },
     {
       "front": "How is a mortgage deleted?",
-      "back": "On the creditor's consent in **notarially certified form**, or on a final court decision (Art. 179 ЗЗД)."
+      "back": "On the creditor's consent in **notarially certified form**, or on a final court decision ([[zzd:179]])."
     },
     {
       "front": "Which court claims about entered deeds are entered in the property register?",
-      "back": "Termination, annulment, revocation of gift, nullity, and claims for a final contract under Art. 19(3) ЗЗД (Art. 11 ПВ)."
+      "back": "Termination, annulment, revocation of gift, nullity, and claims for a final contract under [[zzd:19:3]] ([[pv:11]])."
     }
   ],
   "quiz": [
@@ -79,7 +79,7 @@
         "Yes; a court can set the price when the parties disagree"
       ],
       "answer": 0,
-      "explanation": "Art. 19(1)–(2) ЗЗД: a preliminary contract for a deal in notarial form must be in writing and must contain the essential terms of the final contract; for a sale the price is essential. A court declares the final contract concluded only on those terms (Art. 19(3)); a certification adds proof, not content.",
+      "explanation": "[[zzd:19:1|Art. 19(1)]]–[[zzd:19:2|(2) ЗЗД]]: a preliminary contract for a deal in notarial form must be in writing and must contain the essential terms of the final contract; for a sale the price is essential. A court declares the final contract concluded only on those terms ([[zzd:19:3|Art. 19(3)]]); a certification adds proof, not content.",
       "refs": [
         "zzd:19"
       ]
@@ -93,7 +93,7 @@
         "Nothing without a court decision on the sale"
       ],
       "answer": 0,
-      "explanation": "Art. 93 ЗЗД: when the party who received the earnest money fails to perform, the other party may withdraw and claim double. When the party who gave it fails, the other party keeps it. The buyer may instead ask the court for the final contract (Art. 19(3)).",
+      "explanation": "[[zzd:93]]: when the party who received the earnest money fails to perform, the other party may withdraw and claim double. When the party who gave it fails, the other party keeps it. The buyer may instead ask the court for the final contract ([[zzd:19:3|Art. 19(3)]]).",
       "refs": [
         "zzd:93",
         "zzd:19"
@@ -108,7 +108,7 @@
         "Writes the tax assessment instead of the price"
       ],
       "answer": 0,
-      "explanation": "Art. 25(9) ЗННД: the participants declare in the deed that the stated amount is the payment actually agreed; a false declaration is a crime (Art. 313 НК). A lower price saves nothing, because fees and tax use the higher of the price and the tax assessment (Art. 96(3) ЗННД), and the buyer could recover only the stated price after an annulment (Art. 34 ЗЗД).",
+      "explanation": "[[znnd:25:9]]: the participants declare in the deed that the stated amount is the payment actually agreed; a false declaration is a crime (Art. 313 НК). A lower price saves nothing, because fees and tax use the higher of the price and the tax assessment ([[znnd:96:3]]), and the buyer could recover only the stated price after an annulment ([[zzd:34]]).",
       "refs": [
         "znnd:25:9",
         "znnd:96:3",
@@ -124,7 +124,7 @@
         "By a new deed signed only by the seller"
       ],
       "answer": 0,
-      "explanation": "Art. 87 ЗЗД: contracts that transfer, create, recognise or end real rights in real estate are terminated only by a court. A written warning with a term terminates other contracts; the claim is entered in the property register (Art. 11 ПВ).",
+      "explanation": "[[zzd:87]]: contracts that transfer, create, recognise or end real rights in real estate are terminated only by a court. A written warning with a term terminates other contracts; the claim is entered in the property register ([[pv:11]]).",
       "refs": [
         "zzd:87",
         "pv:11"
@@ -139,7 +139,7 @@
         "The party who chose the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 186 ЗЗД: the costs of the contract and of the transfer are for the buyer, except in a sale of real estate, where the parties pay them equally unless they agree otherwise. The local tax is a separate charge on the acquirer (Art. 45(1) ЗМДТ).",
+      "explanation": "[[zzd:186]]: the costs of the contract and of the transfer are for the buyer, except in a sale of real estate, where the parties pay them equally unless they agree otherwise. The local tax is a separate charge on the acquirer ([[zmdt:45:1]]).",
       "refs": [
         "zzd:186",
         "zmdt:45:1"
@@ -154,7 +154,7 @@
         "It works as a preliminary contract for a gift"
       ],
       "answer": 0,
-      "explanation": "Art. 226 ЗЗД: a promise of a gift has no effect, and a gift of future property is void. A preliminary contract exists for contracts with mutual obligations, not for a gift, which transfers at once and free of charge (Art. 225).",
+      "explanation": "[[zzd:226]]: a promise of a gift has no effect, and a gift of future property is void. A preliminary contract exists for contracts with mutual obligations, not for a gift, which transfers at once and free of charge ([[zzd:225|Art. 225]]).",
       "refs": [
         "zzd:226",
         "zzd:225"
@@ -169,7 +169,7 @@
         "At any time during the donor's life"
       ],
       "answer": 0,
-      "explanation": "Art. 227 ЗЗД: the claim for revocation may be filed within one year after the donor learns of the ground; if the donor dies within that year, the heirs may file it. The grounds are an attempt on the life, a false accusation of a serious crime and a refusal of needed support.",
+      "explanation": "[[zzd:227]]: the claim for revocation may be filed within one year after the donor learns of the ground; if the donor dies within that year, the heirs may file it. The grounds are an attempt on the life, a false accusation of a serious crime and a refusal of needed support.",
       "refs": [
         "zzd:227"
       ]
@@ -183,7 +183,7 @@
         "When the borrower agrees to the new creditor"
       ],
       "answer": 0,
-      "explanation": "Art. 99 ЗЗД: the assignment is effective towards the debtor and third persons from the day the old creditor notifies the debtor; a call from the new creditor or the debtor's agreement is not required. A notarial invitation proves the notification.",
+      "explanation": "[[zzd:99]]: the assignment is effective towards the debtor and third persons from the day the old creditor notifies the debtor; a call from the new creditor or the debtor's agreement is not required. A notarial invitation proves the notification.",
       "refs": [
         "zzd:99"
       ]
@@ -197,7 +197,7 @@
         "The entry was deleted automatically in 2021"
       ],
       "answer": 0,
-      "explanation": "Art. 172 ЗЗД: the entry of a mortgage is effective for 10 years from the day it was made and can be renewed before that term ends; after it, a new entry has rank only from its date. The debt itself survives; the mortgage security does not, and nothing turns it into a pledge.",
+      "explanation": "[[zzd:172]]: the entry of a mortgage is effective for 10 years from the day it was made and can be renewed before that term ends; after it, a new entry has rank only from its date. The debt itself survives; the mortgage security does not, and nothing turns it into a pledge.",
       "refs": [
         "zzd:172"
       ]
@@ -211,7 +211,7 @@
         "A receipt of payment from the borrower"
       ],
       "answer": 0,
-      "explanation": "Art. 179 ЗЗД: the entry is deleted on the creditor's consent given in notarially certified form, or on a final court decision; a letter, an e-mail or a receipt does not meet the form. The deletion is made on a request with the consent attached.",
+      "explanation": "[[zzd:179]]: the entry is deleted on the creditor's consent given in notarially certified form, or on a final court decision; a letter, an e-mail or a receipt does not meet the form. The deletion is made on a request with the consent attached.",
       "refs": [
         "zzd:179"
       ]
@@ -225,7 +225,7 @@
         "Three months from discovery"
       ],
       "answer": 0,
-      "explanation": "Art. 197 ЗЗД: the buyer's claims for defects of real estate lapse one year after delivery, six months for movables; three years when the seller knowingly concealed the defect. The general five-year limitation (Art. 110) does not apply here.",
+      "explanation": "[[zzd:197]]: the buyer's claims for defects of real estate lapse one year after delivery, six months for movables; three years when the seller knowingly concealed the defect. The general five-year limitation ([[zzd:110|Art. 110]]) does not apply here.",
       "refs": [
         "zzd:197",
         "zzd:110"
@@ -240,7 +240,7 @@
         "A claim for unpaid rent of a car"
       ],
       "answer": 0,
-      "explanation": "Art. 11 ПВ: claims for the termination, annulment, revocation or nullity of entered acts, and claims for a final contract under Art. 19(3) ЗЗД, are entered in the property register. Claims about salaries, accidents or movables concern no entered act.",
+      "explanation": "[[pv:11]]: claims for the termination, annulment, revocation or nullity of entered acts, and claims for a final contract under [[zzd:19:3]], are entered in the property register. Claims about salaries, accidents or movables concern no entered act.",
       "refs": [
         "pv:11"
       ]

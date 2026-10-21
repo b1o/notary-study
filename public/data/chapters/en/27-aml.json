@@ -10,59 +10,59 @@
   "cards": [
     {
       "front": "Are notaries obliged persons under the AML Act?",
-      "back": "**Yes**: notaries and substitute assistant notaries (Art. 4 item 14 ЗМИП)."
+      "back": "**Yes**: notaries and substitute assistant notaries ([[zmip:4::14|Art. 4 item 14 ЗМИП]])."
     },
     {
       "front": "What is the threshold for due diligence in an occasional deal?",
-      "back": "**15,000 euro** or more (Art. 11(1) item 2 ЗМИП)."
+      "back": "**15,000 euro** or more ([[zmip:11:1:2|Art. 11(1) item 2 ЗМИП]])."
     },
     {
       "front": "A buyer pays 4,000 euro in cash for a garage. Is due diligence required?",
-      "back": "**Not by the amount**: the cash threshold is 5,000 euro (Art. 11(1) item 3 ЗМИП). Any suspicion requires it regardless of the amount (item 6)."
+      "back": "**Not by the amount**: the cash threshold is 5,000 euro ([[zmip:11:1:3|Art. 11(1) item 3 ЗМИП]]). Any suspicion requires it regardless of the amount (item 6)."
     },
     {
       "front": "When is due diligence required regardless of the amount?",
-      "back": "In every case of **suspicion**, and when there is **doubt about the identification data** (Art. 11(1) items 6 and 7 ЗМИП)."
+      "back": "In every case of **suspicion**, and when there is **doubt about the identification data** ([[zmip:11:1:6|Art. 11(1) items 6]] and [[zmip:11:1:7|7 ЗМИП]])."
     },
     {
       "front": "What data does the office collect about a natural person?",
-      "back": "Names; date and place of birth; identity number from a valid document with a photo; all citizenships; country of residence and address (Art. 53 ЗМИП)."
+      "back": "Names; date and place of birth; identity number from a valid document with a photo; all citizenships; country of residence and address ([[zmip:53]])."
     },
     {
       "front": "Who is the beneficial owner?",
-      "back": "The **natural person** who ultimately owns or controls the client (Art. 59 ЗМИП; § 2 of the additional provisions)."
+      "back": "The **natural person** who ultimately owns or controls the client ([[zmip:59]]; § 2 of the additional provisions)."
     },
     {
       "front": "When is a beneficial owner declaration required?",
-      "back": "When the register data and the documents are **insufficient or contradictory** (Art. 59(1) item 3 ЗМИП)."
+      "back": "When the register data and the documents are **insufficient or contradictory** ([[zmip:59:1:3|Art. 59(1) item 3 ЗМИП]])."
     },
     {
       "front": "How is the origin of funds clarified?",
-      "back": "By at least **two** methods of the act; by a **written declaration** when they fail or contradict each other (Art. 66 ЗМИП)."
+      "back": "By at least **two** methods of the act; by a **written declaration** when they fail or contradict each other ([[zmip:66]])."
     },
     {
       "front": "The buyer is the deputy mayor of a municipality. What follows?",
-      "back": "**Enhanced due diligence**: mayors and deputy mayors of municipalities and districts are politically exposed persons (Art. 36(2) item 9 ЗМИП)."
+      "back": "**Enhanced due diligence**: mayors and deputy mayors of municipalities and districts are politically exposed persons ([[zmip:36:2:9|Art. 36(2) item 9 ЗМИП]])."
     },
     {
       "front": "Can the PEP check rely only on the client's declaration?",
-      "back": "**No** (Art. 42(3) ЗМИП)."
+      "back": "**No** ([[zmip:42:3]])."
     },
     {
       "front": "How long are AML records kept?",
-      "back": "**5 years** (Art. 67(1) ЗМИП)."
+      "back": "**5 years** ([[zmip:67:1]])."
     },
     {
       "front": "When must a suspicion be reported, and to whom?",
-      "back": "**At once, before the deal**, to the **Financial Intelligence Directorate of SANS** (Art. 72(1) ЗМИП)."
+      "back": "**At once, before the deal**, to the **Financial Intelligence Directorate of SANS** ([[zmip:72:1]])."
     },
     {
       "front": "For how long can the directorate suspend a deal?",
-      "back": "Up to **5 working days** from the day after the order (Art. 73(1) ЗМИП)."
+      "back": "Up to **5 working days** from the day after the order ([[zmip:73:1]])."
     },
     {
       "front": "A client asks: \"Did you report me?\" What may the office say?",
-      "back": "**Nothing about a report**: the office, the notary and the employees may not tell the client or third persons about a report (Art. 80(1) ЗМИП)."
+      "back": "**Nothing about a report**: the office, the notary and the employees may not tell the client or third persons about a report ([[zmip:80:1]])."
     }
   ],
   "quiz": [
@@ -75,7 +75,7 @@
         "Yes; every real estate deal requires it"
       ],
       "answer": 0,
-      "explanation": "Art. 11(1) item 3 ЗМИП: an occasional deal paid in cash requires due diligence from 5,000 euro; 4,000 euro is below it. Item 6: a suspicion requires it regardless of the amount, so the clerk still watches for warning signs.",
+      "explanation": "[[zmip:11:1:3|Art. 11(1) item 3 ЗМИП]]: an occasional deal paid in cash requires due diligence from 5,000 euro; 4,000 euro is below it. Item 6: a suspicion requires it regardless of the amount, so the clerk still watches for warning signs.",
       "refs": [
         "zmip:11:1"
       ]
@@ -89,7 +89,7 @@
         "Only when the buyer is a foreign citizen"
       ],
       "answer": 0,
-      "explanation": "Art. 11(1) item 2 ЗМИП: an occasional deal of 15,000 euro or more requires due diligence, whatever the way of payment and the citizenship of the parties. Both parties are identified (Art. 53).",
+      "explanation": "[[zmip:11:1:2|Art. 11(1) item 2 ЗМИП]]: an occasional deal of 15,000 euro or more requires due diligence, whatever the way of payment and the citizenship of the parties. Both parties are identified ([[zmip:53|Art. 53]]).",
       "refs": [
         "zmip:11:1",
         "zmip:53:1"
@@ -104,7 +104,7 @@
         "Only if the client cannot show a second document"
       ],
       "answer": 0,
-      "explanation": "Art. 11(1) item 7 ЗМИП: due diligence is required when there is doubt about the truth or the adequacy of the identification data, whatever the amount; item 6 adds any suspicion. The office records the check and reports when the doubt becomes a suspicion (Art. 72).",
+      "explanation": "[[zmip:11:1:7|Art. 11(1) item 7 ЗМИП]]: due diligence is required when there is doubt about the truth or the adequacy of the identification data, whatever the amount; item 6 adds any suspicion. The office records the check and reports when the doubt becomes a suspicion ([[zmip:72|Art. 72]]).",
       "refs": [
         "zmip:11:1"
       ]
@@ -118,7 +118,7 @@
         "Refuses the deal with every company without an entry"
       ],
       "answer": 0,
-      "explanation": "Art. 59(1) ЗМИП: the beneficial owner is identified from the register (item 1) and from documents (item 2); when the information is insufficient, a declaration by the legal representative or agent is required (item 3). The manager is not the owner by default.",
+      "explanation": "[[zmip:59:1]]: the beneficial owner is identified from the register (item 1) and from documents (item 2); when the information is insufficient, a declaration by the legal representative or agent is required (item 3). The manager is not the owner by default.",
       "refs": [
         "zmip:59:1"
       ]
@@ -132,7 +132,7 @@
         "Only a declaration that the money is his own"
       ],
       "answer": 0,
-      "explanation": "Art. 36(2) item 9 ЗМИП: mayors and deputy mayors of municipalities and districts and chairs of municipal councils are politically exposed persons; Art. 36(1) requires enhanced due diligence for them and for their related persons. The deal is not prohibited.",
+      "explanation": "[[zmip:36:2:9|Art. 36(2) item 9 ЗМИП]]: mayors and deputy mayors of municipalities and districts and chairs of municipal councils are politically exposed persons; [[zmip:36:1|Art. 36(1)]] requires enhanced due diligence for them and for their related persons. The deal is not prohibited.",
       "refs": [
         "zmip:36"
       ]
@@ -146,7 +146,7 @@
         "No check; the client states it when asked"
       ],
       "answer": 0,
-      "explanation": "Art. 42(3) ЗМИП: the finding whether a client is a politically exposed person may not rest only on the client's declaration; the office uses its internal system and other sources together with the declaration.",
+      "explanation": "[[zmip:42:3]]: the finding whether a client is a politically exposed person may not rest only on the client's declaration; the office uses its internal system and other sources together with the declaration.",
       "refs": [
         "zmip:42"
       ]
@@ -160,7 +160,7 @@
         "Calls the bank of the buyer and asks about the funds"
       ],
       "answer": 0,
-      "explanation": "Art. 72(1) ЗМИП: on a suspicion of money laundering or funds of criminal origin, the obliged person notifies the Financial Intelligence Directorate of SANS at once, before the deal, and delays the deal within the permitted term. Telling the buyer is tipping off (Art. 80).",
+      "explanation": "[[zmip:72:1]]: on a suspicion of money laundering or funds of criminal origin, the obliged person notifies the Financial Intelligence Directorate of SANS at once, before the deal, and delays the deal within the permitted term. Telling the buyer is tipping off ([[zmip:80|Art. 80]]).",
       "refs": [
         "zmip:72:1"
       ]
@@ -174,7 +174,7 @@
         "Asks the registry office to cancel the entry of the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 72(2) ЗМИП: when a delay of the deal is objectively impossible, the obliged person notifies the directorate at once after the deal and states the reasons; Art. 72(5): the duty exists also when the deal was not completed.",
+      "explanation": "[[zmip:72:2]]: when a delay of the deal is objectively impossible, the obliged person notifies the directorate at once after the deal and states the reasons; [[zmip:72:5|Art. 72(5)]]: the duty exists also when the deal was not completed.",
       "refs": [
         "zmip:72:2",
         "zmip:72:5"
@@ -189,7 +189,7 @@
         "That the notary will call the agency for the client"
       ],
       "answer": 0,
-      "explanation": "Art. 80(1) ЗМИП: the obliged persons, their managers and their employees may not inform the client or third persons about a report. The clerk neither confirms nor denies; a false denial is also information about the report.",
+      "explanation": "[[zmip:80:1]]: the obliged persons, their managers and their employees may not inform the client or third persons about a report. The clerk neither confirms nor denies; a false denial is also information about the report.",
       "refs": [
         "zmip:80"
       ]
@@ -203,7 +203,7 @@
         "A court decision that the money is lawful"
       ],
       "answer": 0,
-      "explanation": "Art. 66(1) ЗМИП: the origin of funds is clarified by at least two of the listed methods; Art. 66(2): when they fail or give contradictory information, by a written declaration of the client or the representative. The declaration is kept in the file (Art. 66(3)).",
+      "explanation": "[[zmip:66:1]]: the origin of funds is clarified by at least two of the listed methods; [[zmip:66:2|Art. 66(2)]]: when they fail or give contradictory information, by a written declaration of the client or the representative. The declaration is kept in the file ([[zmip:66:3|Art. 66(3)]]).",
       "refs": [
         "zmip:66"
       ]
@@ -217,7 +217,7 @@
         "Nobody; small offices are exempt from the control"
       ],
       "answer": 0,
-      "explanation": "Art. 107(1)–(3) ЗМИП (in force 1 July 2026): the notary creates a specialised service or performs the internal control personally, and may designate in writing an employee in a senior position; the directorate is informed of that employee (Art. 107(4)).",
+      "explanation": "[[zmip:107:1|Art. 107(1)]]–[[zmip:107:3|(3) ЗМИП]] (in force 1 July 2026): the notary creates a specialised service or performs the internal control personally, and may designate in writing an employee in a senior position; the directorate is informed of that employee ([[zmip:107:4|Art. 107(4)]]).",
       "refs": [
         "zmip:107"
       ]
@@ -231,7 +231,7 @@
         "Allowed; the limit applies to leva, not to euro"
       ],
       "answer": 0,
-      "explanation": "Art. 3(1) items 1 and 2 ЗОПБ: payments of 10,000 лв. or more, and smaller payments that are part of related operations on the same ground, go through a payment account; the limit covers foreign currency (Art. 3(2)). Splitting to avoid a threshold is a ground for suspicion under Art. 11(1) item 6 ЗМИП.",
+      "explanation": "[[zopvb:3:1:1|Art. 3(1) items 1]] and [[zopvb:3:1:2|2 ЗОПБ]]: payments of 10,000 лв. or more, and smaller payments that are part of related operations on the same ground, go through a payment account; the limit covers foreign currency ([[zopvb:3:2|Art. 3(2)]]). Splitting to avoid a threshold is a ground for suspicion under [[zmip:11:1:6|Art. 11(1) item 6 ЗМИП]].",
       "refs": [
         "zopvb:3:1",
         "zmip:11:1"

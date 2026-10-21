@@ -10,51 +10,51 @@
   "cards": [
     {
       "front": "What form does a power of attorney to sell real estate need?",
-      "back": "Written, with **signature and content certified at the same time** (Art. 37 ЗЗД)."
+      "back": "Written, with **signature and content certified at the same time** ([[zzd:37]])."
     },
     {
       "front": "Can a marriage contract or a will be signed through an agent?",
-      "back": "**No**; both are personal acts (Art. 39(1) СК; Art. 24 ЗН)."
+      "back": "**No**; both are personal acts ([[sk:39:1]]; [[zn:24]])."
     },
     {
       "front": "What defines the scope of the agent's power towards third parties?",
-      "back": "**What the principal stated** (Art. 39(1) ЗЗД)."
+      "back": "**What the principal stated** ([[zzd:39:1]])."
     },
     {
       "front": "When may an agent sell the principal's property to himself?",
-      "back": "Only with the principal's **consent** (Art. 38(1) ЗЗД)."
+      "back": "Only with the principal's **consent** ([[zzd:38:1]])."
     },
     {
       "front": "A power says it is \"irrevocable\". May the principal still revoke it?",
-      "back": "**Yes**: the principal may always revoke; a waiver of that right is invalid (Art. 38(2) ЗЗД)."
+      "back": "**Yes**: the principal may always revoke; a waiver of that right is invalid ([[zzd:38:2]])."
     },
     {
       "front": "An agent re-delegated his power without authority and without need. Does the sub-agent have power?",
-      "back": "**No** (Art. 43(1) ЗЗД). An agent who does not inform the principal of a re-delegation answers for the sub-agent's acts as for his own (Art. 43(3))."
+      "back": "**No** ([[zzd:43:1]]). An agent who does not inform the principal of a re-delegation answers for the sub-agent's acts as for his own ([[zzd:43:3|Art. 43(3)]])."
     },
     {
       "front": "List the grounds on which a power of attorney ends.",
-      "back": "Revocation, renunciation, death or judicial disability of either side, end of a legal entity (Art. 41(1) ЗЗД)."
+      "back": "Revocation, renunciation, death or judicial disability of either side, end of a legal entity ([[zzd:41:1]])."
     },
     {
       "front": "Does the end of a power affect a third party in good faith?",
-      "back": "**No**, unless the end was subject to entry and was entered (Art. 41(2) ЗЗД)."
+      "back": "**No**, unless the end was subject to entry and was entered ([[zzd:41:2]])."
     },
     {
       "front": "What does the notary enter in the information system after certifying a revocation?",
-      "back": "An extract with the parties and the **number and date** of the revoked power and its notary (Art. 9а item 2 Наредба № 32)."
+      "back": "An extract with the parties and the **number and date** of the revoked power and its notary ([[n32:9а::2|Art. 9а item 2 Наредба № 32]])."
     },
     {
       "front": "How can a principal confirm an act made without power?",
-      "back": "In the **form required for the power** of attorney (Art. 42(2) ЗЗД)."
+      "back": "In the **form required for the power** of attorney ([[zzd:42:2]])."
     },
     {
       "front": "What is the fee for the signature on a re-delegation?",
-      "back": "**Double** the normal signature fee (item 5 ТНТ)."
+      "back": "**Double** the normal signature fee ([[tarifa:5|item 5 ТНТ]])."
     },
     {
       "front": "A power signed in Germany has only the signature certified by a German notary. Is the form valid?",
-      "back": "As to form, **yes**: the form of the place of signing is enough (Art. 61 КМЧП). For real estate, notaries in practice expect signature and content, an apostille and a translation with the translator's signature certified (Art. 21а(1) ПЛЗП)."
+      "back": "As to form, **yes**: the form of the place of signing is enough ([[kmchp:61]]). For real estate, notaries in practice expect signature and content, an apostille and a translation with the translator's signature certified ([[plzp:21а:1]])."
     }
   ],
   "quiz": [
@@ -67,7 +67,7 @@
         "A notarial deed of the power of attorney, before a notary"
       ],
       "answer": 0,
-      "explanation": "Art. 37 ЗЗД: the power follows the form of the deal; when the deal needs a notarial deed, as a mortgage does (Art. 167(1) ЗЗД), the power may be written with signature and content certified at the same time. A bank power concerns operations, not the mortgage itself.",
+      "explanation": "[[zzd:37]]: the power follows the form of the deal; when the deal needs a notarial deed, as a mortgage does ([[zzd:167:1]]), the power may be written with signature and content certified at the same time. A bank power concerns operations, not the mortgage itself.",
       "refs": [
         "zzd:37",
         "zzd:167:1"
@@ -82,7 +82,7 @@
         "Yes, if the wife accepts the gift in person"
       ],
       "answer": 0,
-      "explanation": "Art. 39(1) ЗЗД: the scope of the power towards third parties is what the principal stated; a sale and a gift are different deals. A deal that benefits the agent through his wife also calls for the principal's express consent, as self-contracting does (Art. 38(1)).",
+      "explanation": "[[zzd:39:1]]: the scope of the power towards third parties is what the principal stated; a sale and a gift are different deals. A deal that benefits the agent through his wife also calls for the principal's express consent, as self-contracting does ([[zzd:38:1|Art. 38(1)]]).",
       "refs": [
         "zzd:39",
         "zzd:38"
@@ -97,7 +97,7 @@
         "The consent of the notary, in the deed"
       ],
       "answer": 0,
-      "explanation": "Art. 38(1) ЗЗД: the agent may not contract in the name of the principal with himself, or with another person he also represents, unless the principal consented. The consent comes from the principal, not from a court or the notary.",
+      "explanation": "[[zzd:38:1]]: the agent may not contract in the name of the principal with himself, or with another person he also represents, unless the principal consented. The consent comes from the principal, not from a court or the notary.",
       "refs": [
         "zzd:38"
       ]
@@ -111,7 +111,7 @@
         "It can be revoked only after one year, by a notice"
       ],
       "answer": 0,
-      "explanation": "Art. 38(2) ЗЗД: the principal may always revoke the power and the agent may always renounce it; a waiver of that right by either side is invalid. The word \"irrevocable\" has no effect.",
+      "explanation": "[[zzd:38:2]]: the principal may always revoke the power and the agent may always renounce it; a waiver of that right by either side is invalid. The word \"irrevocable\" has no effect.",
       "refs": [
         "zzd:38"
       ]
@@ -125,7 +125,7 @@
         "Proceeds, if the power was certified by a notary"
       ],
       "answer": 0,
-      "explanation": "Art. 41(1) ЗЗД: the power ends with the death of the principal. The heirs may sell themselves, or give a new power; an oral consent is not a power.",
+      "explanation": "[[zzd:41:1]]: the power ends with the death of the principal. The heirs may sell themselves, or give a new power; an oral consent is not a power.",
       "refs": [
         "zzd:41"
       ]
@@ -139,7 +139,7 @@
         "It is valid for movables, but not for real estate"
       ],
       "answer": 0,
-      "explanation": "Art. 43(1) ЗЗД: an agent may re-delegate only when authorised, or when the re-delegation became necessary to protect the interests of the principal. A certification does not create a power that the agent could not give.",
+      "explanation": "[[zzd:43:1]]: an agent may re-delegate only when authorised, or when the re-delegation became necessary to protect the interests of the principal. A certification does not create a power that the agent could not give.",
       "refs": [
         "zzd:43"
       ]
@@ -153,7 +153,7 @@
         "Destroy the copy of the old power in the office's file"
       ],
       "answer": 0,
-      "explanation": "Art. 9а item 2 of Ordinance No. 32: after certifying a document that revokes a power, the notary enters and sends at once to the information system an extract with the data of the parties, the number and date of the revoked power and the name and number of the notary who certified it.",
+      "explanation": "[[n32:9а::2|Art. 9а item 2 of Ordinance No. 32]]: after certifying a document that revokes a power, the notary enters and sends at once to the information system an extract with the data of the parties, the number and date of the revoked power and the name and number of the notary who certified it.",
       "refs": [
         "n32:9а"
       ]
@@ -167,7 +167,7 @@
         "Yes, by a simple letter to the buyer and the notary"
       ],
       "answer": 0,
-      "explanation": "Art. 42(2) ЗЗД: the person in whose name a contract was concluded without power may confirm it, in the form required for the power to conclude that contract: for a sale of real estate, signature and content certified at the same time (Art. 37).",
+      "explanation": "[[zzd:42:2]]: the person in whose name a contract was concluded without power may confirm it, in the form required for the power to conclude that contract: for a sale of real estate, signature and content certified at the same time ([[zzd:37|Art. 37]]).",
       "refs": [
         "zzd:42",
         "zzd:37"
@@ -182,7 +182,7 @@
         "A power signed before an officer of a Canadian bank, with a translation"
       ],
       "answer": 0,
-      "explanation": "Art. 61 КМЧП: the form of the place of signing is enough. For real estate, Bulgarian notaries in practice expect a certification of the signature and the content, an apostille and a translation into Bulgarian with the translator's signature certified (Art. 21а(1) ПЛЗП). A bank officer is not a certifying authority.",
+      "explanation": "[[kmchp:61]]: the form of the place of signing is enough. For real estate, Bulgarian notaries in practice expect a certification of the signature and the content, an apostille and a translation into Bulgarian with the translator's signature certified ([[plzp:21а:1]]). A bank officer is not a certifying authority.",
       "refs": [
         "kmchp:61",
         "plzp:21а:1"
@@ -197,7 +197,7 @@
         "Yes, but only if the agent returns the money to the principal"
       ],
       "answer": 0,
-      "explanation": "Art. 41(2) ЗЗД: the end of a power cannot be opposed to third persons who contracted with the agent in good faith, unless the end was subject to entry and was entered. The extract in the Chamber's system serves the notaries' checks; it is not such an entry. The principal informs the bank and claims from the agent.",
+      "explanation": "[[zzd:41:2]]: the end of a power cannot be opposed to third persons who contracted with the agent in good faith, unless the end was subject to entry and was entered. The extract in the Chamber's system serves the notaries' checks; it is not such an entry. The principal informs the bank and claims from the agent.",
       "refs": [
         "zzd:41",
         "n32:9а"
@@ -212,7 +212,7 @@
         "That the declarant will keep the promise"
       ],
       "answer": 0,
-      "explanation": "Art. 589(2) ГПК: the notary certifies that the person signed, or confirmed the signature, before the notary on that date. Art. 180 ГПК: a private document proves that its statements were made by the signatory, not that they are true; a false declaration is a crime (Art. 313 НК).",
+      "explanation": "[[gpk:589:2]]: the notary certifies that the person signed, or confirmed the signature, before the notary on that date. [[gpk:180]]: a private document proves that its statements were made by the signatory, not that they are true; a false declaration is a crime (Art. 313 НК).",
       "refs": [
         "gpk:180",
         "gpk:589:2"
@@ -227,7 +227,7 @@
         "Yes, but only with the written consent of the other agent"
       ],
       "answer": 0,
-      "explanation": "Art. 39(2) ЗЗД: when several persons are authorised for an act, each of them may perform it alone, unless the authorisation shows otherwise. A principal who wants joint action writes it in the power.",
+      "explanation": "[[zzd:39:2]]: when several persons are authorised for an act, each of them may perform it alone, unless the authorisation shows otherwise. A principal who wants joint action writes it in the power.",
       "refs": [
         "zzd:39"
       ]

@@ -67,7 +67,7 @@ Key points for the deed:
 ## Voluntary partition (доброволна делба)
 
 - Every co-owner and every co-heir may ask for partition at any time ([[zs:34]], [[zn:69:1]]).
-- A voluntary partition of real estate needs written form with notarially certified signatures; persons without capacity or absent persons need court permission ([[zs:35]]). In practice the notary issues a partition contract under item 8 of the tariff ([[tarifa:8]]), and it is entered ([[pv:4]]).
+- A voluntary partition of real estate needs written form with notarially certified signatures; persons without capacity or absent persons need court permission ([[zs:35]]). In practice the notary issues a partition contract under [[tarifa:8|item 8 of the tariff]], and it is entered ([[pv:4]]).
 - **All co-heirs** must take part; otherwise the partition is **entirely void** ([[zn:75:2]]).
 - Material interest: the market price of **all the shares** ([[znnd:96:1]]).
 - Local tax: only on the **increase** of a co-owner's share ([[zmdt:47:3]]).
@@ -82,7 +82,7 @@ Key points for the deed:
 - A mortgage may secure one's own debt or another person's debt ([[zzd:149]]). A child's property can secure another's debt only with court permission in exceptional cases ([[sk:130:4]]).
 - Priority follows the order of entry ([[zzd:169]]). The entry is effective for 10 years and can be renewed ([[zzd:172]]).
 - An agreement that the creditor becomes the owner if the debt is not paid, or any other agreed way of satisfaction different from the law, is **invalid** ([[zzd:152]]).
-- Material interest: the secured amount, as the nominal value of a monetary claim under item 7 of Art. 97(1) ([[znnd:97:1]]).
+- Material interest: the secured amount, as the nominal value of a monetary claim under [[znnd:97:1:7|item 7 of Art. 97(1) ЗННД]].
 
 ### The statutory mortgage
 
