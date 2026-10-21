@@ -131,6 +131,10 @@ Fontsource. Both keep the standard Cyrillic letter forms when the page language 
 `tools/import_laws.py` downloads the acts from lex.bg and writes `public/data/laws`. The texts are
 unofficial consolidated versions. Check the State Gazette (Държавен вестник) before you rely on one.
 
+An act in `tools/laws.config.json` with `include` is a partial import. It keeps the listed articles
+(`"25"`, `"7-8"`) and the listed provisions of the act's own final blocks (`"§5"`). The final
+blocks of amending acts are never kept. A full import also keeps the annexes as notes.
+
 lex.bg marks chapters and sections in most acts. In some older acts (ЗЗД, ЗЛС, ЗН) every heading has
 the same mark, so the importer finds the outline from the numbering: "ОБЩА ЧАСТ", "I.", "1.", "А)".
 The rules and examples are in `outline_levels`; run `python -m doctest tools/import_laws.py` after a change.

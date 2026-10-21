@@ -5,6 +5,11 @@ headings, articles (чл.) and provisions (§), and writes one JSON file per act
 to public/data/laws/acts/<id>.json plus the catalog public/data/laws/catalog.json.
 Hand-made acts (the fee tariff) come from tools/manual/<id>.json.
 
+An act with "include" is a partial import: only the listed articles ("25", "7-8", "24а-24б") and
+the listed provisions of the act's own final blocks ("§5") are kept. The final blocks of
+amending acts ("... КЪМ ЗАКОНА ЗА ИЗМЕНЕНИЕ ...") are never kept. A full import keeps all
+articles and provisions of the act, and keeps an annex ("Приложение") as a note under its own heading.
+
 Usage (from the project root):
     python tools/import_laws.py            # import all acts
     python tools/import_laws.py znnd zzd   # import only these acts
@@ -127,6 +132,8 @@ def number_key(num):
 def parse_ranges(specs):
     ranges = []
     for spec in specs:
+        if spec.startswith("§"):
+            continue  # a provision of the final blocks, see included_provisions
         lo, _, hi = spec.partition("-")
         hi = hi or lo
         lo_key = number_key(lo)
@@ -144,7 +151,16 @@ def included(num, ranges):
     return any(lo <= key <= hi for lo, hi in ranges)
 
 
-def parse_law(text, ranges, bare_numbers=False):
+def included_provisions(specs):
+    """The provisions of the final blocks that a partial import keeps, for example {"§5"}.
+
+    >>> sorted(included_provisions(["1", "7-8", "§5", "§ 1а"]))
+    ['§1а', '§5']
+    """
+    return {spec.replace(" ", "") for spec in specs if spec.startswith("§")}
+
+
+def parse_law(text, ranges, bare_numbers=False, provisions=frozenset()):
     # The act ends where the right-hand column of the page (ads, news) begins. Without this cut
     # the last block of the act runs to the end of the page and takes in the news headlines.
     end = text.find('<div id="colright"')
@@ -153,11 +169,20 @@ def parse_law(text, ranges, bare_numbers=False):
     items = []
     pending_headings = []
     in_skipped_final_block = False
+    # Final blocks of an amending act ("... КЪМ ЗАКОНА ЗА ИЗМЕНЕНИЕ ...") are never kept.
+    in_amending_block = False
+    # In a partial import, the heading of a final block waits for the first provision it keeps.
+    pending_final_heading = None
     starts = [m for m in BLOCK_RE.finditer(text)]
     for i, m in enumerate(starts):
         kind = m.group(1)
         stop = starts[i + 1].start() if i + 1 < len(starts) else len(text)
         block = text[m.start():stop]
+        if kind == "Heading" and title_of(block).upper().startswith("КЪМ "):
+            # lex.bg sometimes opens the provisions of an amending act with a plain heading.
+            in_skipped_final_block = in_amending_block = True
+            pending_final_heading = None
+            continue
         if kind in ("Heading", "Section"):
             heading = {"k": "h" if kind == "Heading" else "s", "t": title_of(block)}
             if ranges is None:
@@ -170,18 +195,26 @@ def parse_law(text, ranges, bare_numbers=False):
             continue
         if kind in ("AdditionalEdicts", "TransitionalFinalEdicts", "FinalEdicts"):
             heading_text = title_of(block)
-            in_skipped_final_block = ranges is not None or " към " in f" {heading_text.lower()} "
+            in_amending_block = " към " in f" {heading_text.lower()} "
+            in_skipped_final_block = ranges is not None or in_amending_block
+            pending_final_heading = None
             if not in_skipped_final_block:
                 items.append({"k": "h", "t": heading_text})
+            elif not in_amending_block:
+                pending_final_heading = {"k": "h", "t": heading_text}
             continue
         lines = body_of(block)
         if not lines:
             continue
         if kind == "FinalEdictsArticle":
-            if in_skipped_final_block:
-                continue
             pm = PARAGRAPH_NO_RE.match(lines[0])
             num = "§" + (pm.group(1) + pm.group(2) if pm else str(len(items)))
+            if in_skipped_final_block:
+                if in_amending_block or num not in provisions:
+                    continue
+                if pending_final_heading:
+                    items.append(pending_final_heading)
+                    pending_final_heading = None
             items.append({"k": "p", "n": num, "p": lines})
             continue
         am = ARTICLE_NO_RE.match(lines[0])
@@ -192,6 +225,11 @@ def parse_law(text, ranges, bare_numbers=False):
         if not am:
             # Annex text or an unnumbered element: keep it only in full imports.
             if ranges is None:
+                if lines[0].startswith("Приложение"):
+                    # An annex ("Приложение към чл. 3, ал. 2") ends the final blocks and gets a heading.
+                    in_skipped_final_block = in_amending_block = False
+                    items.append({"k": "h", "t": lines[0]})
+                    lines = lines[1:]
                 items.append({"k": "x", "t": title_of(block), "p": lines})
             continue
         num = am.group(1) + am.group(2)
@@ -328,7 +366,8 @@ def main(argv):
             continue
         text = decode(fetch(law["lex"], cache_dir))
         ranges = parse_ranges(law["include"]) if law.get("include") else None
-        items = parse_law(text, ranges, law.get("bareNumbers", False))
+        provisions = included_provisions(law.get("include", []))
+        items = parse_law(text, ranges, law.get("bareNumbers", False), provisions)
         articles = sum(1 for it in items if it["k"] == "a")
         if articles == 0:
             print(f"!! {law['id']}: no articles parsed, keeping the old data")
