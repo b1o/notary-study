@@ -31,7 +31,7 @@
 
 .bill {
   --tooth: 0.875em;
-  padding: calc(var(--tooth) + 1.25em) clamp(1.25em, 6%, 2em);
+  padding: calc(var(--tooth) + 1.25em) clamp(0.75em, 5%, 2em);
   background: var(--color-paper);
   mask:
     conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--tooth) 51%
@@ -75,8 +75,9 @@
   color: var(--color-ink-3);
 }
 
+/* The amount in leva goes to the next line as a whole when the line is full. */
 .bill__interest .bill__leva {
-  display: inline;
+  display: inline-block;
   margin-inline-start: 0.35em;
 }
 
@@ -98,7 +99,7 @@
 }
 
 .bill__lines td {
-  padding-inline-start: var(--space-4);
+  padding-inline-start: var(--space-3);
   text-align: end;
   white-space: nowrap;
 }
