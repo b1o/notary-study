@@ -7,6 +7,8 @@
  *   - an article number uses a Latin letter instead of the Cyrillic one (25a instead of 25а);
  *   - a chapter link (chapter: '...') names a chapter that the manifest does not have;
  *   - a chapter is missing in one language, or the two languages have different numbers of cards or questions;
+ *   - a card has no id, repeats an id of its chapter, or has another id in the other language
+ *     (the saved flashcard boxes use the id);
  *   - a quiz question has fewer than two options or an answer index outside the options;
  *   - in a chapter, the right answer is the longest option in more than a third of the questions
  *     (a reader can pass such a test without knowledge);
@@ -232,6 +234,7 @@ for (const part of manifest.parts) {
 
 for (const meta of manifest.chapters) {
   const counts: string[] = [];
+  const cardIds: string[] = [];
   for (const language of LANGUAGES) {
     const where = `chapters/${language}/${meta.file}`;
     if (!existsSync(join(DATA, 'chapters', language, `${meta.file}.md`))) {
@@ -243,7 +246,14 @@ for (const meta of manifest.chapters) {
     checkPlainReferences(lesson, `${where}.md`, language);
     const data = readJson<ChapterData>('chapters', language, `${meta.file}.json`);
     if (data.id !== meta.id) problems.push(`${where}.json: id "${data.id}" should be "${meta.id}"`);
+    const ids = new Set<number>();
     data.cards.forEach((card, index) => {
+      if (!Number.isInteger(card.id) || card.id < 0) {
+        problems.push(`${where}.json: card ${index + 1} has no id (a whole number from 0)`);
+      } else if (ids.has(card.id)) {
+        problems.push(`${where}.json: card ${index + 1} repeats the id ${card.id}`);
+      }
+      ids.add(card.id);
       const text = `${card.front}\n${card.back}`;
       checkMarkdown(text, `${where}.json`, language === 'en');
       checkPlainReferences(text, `${where}.json card ${index + 1}`, language);
@@ -264,11 +274,14 @@ for (const meta of manifest.chapters) {
     });
     checkLengthBias(data.quiz, `${where}.json`);
     counts.push(`${data.cards.length}/${data.quiz.length}`);
+    cardIds.push(data.cards.map((card) => card.id).join(','));
   }
   if (counts.length === 2 && counts[0] !== counts[1]) {
     problems.push(
       `chapters/*/${meta.file}.json: cards/questions differ between languages (${counts.join(' vs ')})`,
     );
+  } else if (cardIds.length === 2 && cardIds[0] !== cardIds[1]) {
+    problems.push(`chapters/*/${meta.file}.json: the card ids differ between languages`);
   }
 }
 

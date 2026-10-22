@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Who may make a notarial will?",
       "back": "Only the **notary personally**; not an assistant notary ([[znnd:40:1]])."
     },
     {
+      "id": 1,
       "front": "How many witnesses does a notarial will need?",
       "back": "**Two** ([[zn:24:1]])."
     },
     {
+      "id": 2,
       "front": "The testator's daughter, who inherits under the will, offers to be a witness. May she?",
       "back": "**No**: a person in whose favour the act contains a disposition cannot be a witness, nor can a close relative ([[gpk:584::3|Art. 584 items 3]] and [[gpk:584::4|4 ГПК]])."
     },
     {
+      "id": 3,
       "front": "What if the testator cannot sign a notarial will?",
       "back": "The testator states the **reason**, and the notary records it **before reading** the will ([[zn:24:3]])."
     },
     {
+      "id": 4,
       "front": "What is the deadline to present a notarial will to the registration judge?",
       "back": "**3 days** from the will ([[n32:21:2]])."
     },
     {
+      "id": 5,
       "front": "What is entered in the information system about wills?",
       "back": "The **name and ЕГН of the testator** ([[n32:9а::3|Art. 9а item 3 Наредба № 32]])."
     },
     {
+      "id": 6,
       "front": "How is a holographic will deposited?",
       "back": "In a **closed envelope**; the notary writes a protocol on the envelope, signed by the depositor and the notary ([[zn:25:2]])."
     },
     {
+      "id": 7,
       "front": "The testator's son asks for his father's deposited will. May the office give it to him?",
       "back": "**No**: only the **testator personally** may take it back, with a note in the register signed by the testator, two witnesses and the notary ([[zn:26]])."
     },
     {
+      "id": 8,
       "front": "Which notary announces a deposited holographic will?",
       "back": "The notary **who keeps it** ([[zn:27:4]])."
     },
     {
+      "id": 9,
       "front": "A niece presents her late aunt's holographic will. Who signs the announcement protocol?",
       "back": "The **niece**, as the person who presented the will, and the **notary**; both countersign every page of the will ([[zn:27:3]])."
     },
     {
+      "id": 10,
       "front": "Is a copy of an announced will entered in the property register?",
       "back": "**Yes**, when it concerns real estate ([[pv:4|Art. 4]](к) ПВ)."
     },
     {
+      "id": 11,
       "front": "What is the fee for a notarial will?",
       "back": "**50%** of the [[tarifa:8|item 8]] fee, at least 30 лв. = 15.34 € ([[tarifa:9|item 9 ТНТ]])."
     }

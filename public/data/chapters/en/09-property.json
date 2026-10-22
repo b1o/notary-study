@@ -9,62 +9,77 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Name three ways to acquire ownership.",
       "back": "Legal transaction, prescription, other ways in law such as inheritance ([[zs:77]])."
     },
     {
+      "id": 1,
       "front": "Prescription period for real estate?",
       "back": "**10 years** of uninterrupted possession; **5 years** in good faith ([[zs:79]])."
     },
     {
+      "id": 2,
       "front": "What interrupts the prescription period?",
       "back": "Loss of possession for more than **six months** ([[zs:81]])."
     },
     {
+      "id": 3,
       "front": "Possession vs holding?",
       "back": "Possession: control as **one's own**. Holding: control **not** as one's own, e.g. a tenant ([[zs:68]])."
     },
     {
+      "id": 4,
       "front": "Are shares of co-owners equal?",
       "back": "They are **presumed equal** until the contrary is proven ([[zs:30]])."
     },
     {
+      "id": 5,
       "front": "What must a co-owner present to the notary before selling a share to a third person?",
       "back": "Written evidence of an **offer to the other co-owners on the same terms** and a written declaration that **no one accepted** ([[zs:33]])."
     },
     {
+      "id": 6,
       "front": "Time limit for a co-owner's redemption claim?",
       "back": "**Two months** from the sale ([[zs:33]])."
     },
     {
+      "id": 7,
       "front": "Form of a voluntary partition of real estate?",
       "back": "Written with **notarially certified signatures**; court permission if persons without capacity or absent persons take part ([[zs:35]])."
     },
     {
+      "id": 8,
       "front": "Can common parts of a condominium be divided?",
       "back": "**No** ([[zs:38]])."
     },
     {
+      "id": 9,
       "front": "A building right of 2019 was never used. May the holder start building in 2026?",
       "back": "**No.** The right to build on another's land lapses after **5 years** of non-use ([[zs:67]])."
     },
     {
+      "id": 10,
       "front": "Material interest for a building right deed?",
       "back": "**90%** of the market price of the land ([[znnd:96:2]])."
     },
     {
+      "id": 11,
       "front": "A father kept a right of use after a gift and then lived in a care home for six years. What happened to the right?",
       "back": "It **lapsed**: a right of use ends when it is not exercised for **5 years** ([[zs:59]]). It also cannot be sold ([[zs:56|Art. 56]])."
     },
     {
+      "id": 12,
       "front": "When does a right of use end?",
       "back": "Death of the holder (unless shorter term), end of a legal entity, loss of the thing, **5 years** of non-use ([[zs:59]])."
     },
     {
+      "id": 13,
       "front": "Form of a waiver of ownership of real estate?",
       "back": "Written with **notarially certified signature**, and **entered** in the property register ([[zs:100]])."
     },
     {
+      "id": 14,
       "front": "The seller sold the same flat twice; the second buyer entered first. Who owns it?",
       "back": "The **second** buyer: an unentered act cannot be opposed to a third person who acquired from the same owner and **entered** first ([[zs:113]])."
     }

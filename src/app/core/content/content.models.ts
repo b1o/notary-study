@@ -27,6 +27,11 @@ export interface Manifest {
 }
 
 export interface Flashcard {
+  /**
+   * The card's own number in its chapter, the same in both languages. The saved Leitner box of the
+   * card uses it, so it never changes and is never given to another card (docs/content-workflow.md).
+   */
+  readonly id: number;
   readonly front: string;
   readonly back: string;
 }

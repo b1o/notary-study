@@ -8,50 +8,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "How many assistant notaries may a notary appoint?",
       "back": "**One** ([[znnd:41:1]])."
     },
     {
+      "id": 1,
       "front": "What are the requirements for an assistant notary?",
       "back": "The requirements for a notary, **regardless of age and experience**: citizenship, law degree, legal capacity, clean criminal record and the others in [[znnd:8:1]] ([[znnd:41:1]])."
     },
     {
+      "id": 2,
       "front": "What does an assistant notary add to the signature?",
       "back": "\"помощник\" ([[znnd:40:2]]). A substitute adds \"по заместване\" ([[znnd:46:1]])."
     },
     {
+      "id": 3,
       "front": "An assistant notary makes a mistake that costs a client money. Who pays?",
       "back": "The notary, **jointly** with the assistant ([[znnd:40:3]]). The notary's insurance covers the faults of the assistant ([[znnd:30:1]])."
     },
     {
+      "id": 4,
       "front": "An assistant with two years of legal experience asks to be entered as a substitute. What follows?",
       "back": "Refusal: a substitute needs **three years** of legal experience under [[znnd:8:1:3|Art. 8(1) item 3]] and an **exam** for the first term ([[znnd:46:1|Art. 46(1)]], [[znnd:46:3|(3) ЗННД]])."
     },
     {
+      "id": 5,
       "front": "Maximum term of a substitution by an assistant notary?",
       "back": "**Two years** from the entry in the register ([[znnd:46:2]])."
     },
     {
+      "id": 6,
       "front": "When is the exam for substitutes held, and what form does it have?",
       "back": "Twice a year, in **April** and **October**. It is **oral**, with one theoretical and one practical ticket. Pass mark: good (4) (Ordinance No. 2 of 2003)."
     },
     {
+      "id": 7,
       "front": "A 62-year-old lawyer wants to apply for a notary place. When is that possible?",
       "back": "Only when the term of the competition is extended for lack of candidates ([[znnd:11:5]]). The normal limit is **60 years** ([[znnd:8:1|Art. 8(1)]])."
     },
     {
+      "id": 8,
       "front": "How many notary places does a district have?",
       "back": "At least **two**; one place for every **10,000 inhabitants** ([[znnd:10:1]])."
     },
     {
+      "id": 9,
       "front": "What are the parts of the competition for notaries?",
       "back": "A **written** exam (3 hours, anonymous) and an **oral** exam. Grade at least 4 in each; ranking by the average (Ordinance No. 36)."
     },
     {
+      "id": 10,
       "front": "What must the notary office have?",
       "back": "**Two or more functionally connected rooms** with the chancery and the archive; only one office in the district ([[znnd:13]])."
     },
     {
+      "id": 11,
       "front": "A notary is elected municipal councillor. May the notary keep practising?",
       "back": "**No.** The post of a councillor is incompatible with the profession ([[znnd:9:1]]), and an incompatibility is a ground for loss of capacity ([[znnd:35]])."
     }

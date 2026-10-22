@@ -9,58 +9,72 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Is the state liable for the acts of a notary?",
       "back": "**No** ([[znnd:73:2]]). The notary is liable, up to the certified material interest, and must be insured."
     },
     {
+      "id": 1,
       "front": "A notary's error voids a sale with a price of 90,000 euro; the buyer's loss is 150,000 euro. How much does the notary owe?",
       "back": "Up to the **certified material interest**: 90,000 euro ([[znnd:73:1]]), paid through the insurance ([[znnd:30]])."
     },
     {
+      "id": 2,
       "front": "Whose faults does the notary's insurance cover?",
       "back": "Those of the notary, the **assistant notary** and the **employees** ([[znnd:30:1]])."
     },
     {
+      "id": 3,
       "front": "Can a notary act outside the district?",
       "back": "**No.** Such an act is null ([[gpk:573:1|Art. 573(1)]] and [[gpk:576|576 ГПК]])."
     },
     {
+      "id": 4,
       "front": "When may a notary refuse to deal with a request?",
       "back": "When the notary has an interest in the act or a special relation with the party that raises a well-founded doubt about impartiality ([[znnd:23]])."
     },
     {
+      "id": 5,
       "front": "What must the parties declare about the price in a sale of real estate?",
       "back": "That the amount in the deed is the **payment actually agreed** ([[znnd:25:9]])."
     },
     {
+      "id": 6,
       "front": "The buyer paid the price into the special account of the notary. When does the seller receive the money?",
       "back": "Under the **written agreement** of [[znnd:25а:2]], usually after the entry of the deed. The notary's creditors cannot touch the money ([[znnd:25а:3|Art. 25а(3)]])."
     },
     {
+      "id": 7,
       "front": "How are payments over 10,000 leva in real estate deals made?",
       "back": "Through the **special bank account of the notary** or a bank account in a bank chosen by the parties ([[znnd:25:10]])."
     },
     {
+      "id": 8,
       "front": "What does the notary check at the National Revenue Agency before a sale of real estate?",
       "back": "That the transferor has **no unpaid public debts subject to enforcement** ([[dopk:264:1]])."
     },
     {
+      "id": 9,
       "front": "Name the four bodies of the Notary Chamber.",
       "back": "General Assembly, Council of Notaries, Control Council, Disciplinary Commission ([[znnd:52]])."
     },
     {
+      "id": 10,
       "front": "List the four disciplinary penalties.",
       "back": "Reprimand; fine of 1,000–5,000 лв.; warning of deprivation; deprivation of capacity for 3 months to 5 years ([[znnd:75]])."
     },
     {
+      "id": 11,
       "front": "A breach of 2024 is discovered in 2027. Can the Chamber still punish it?",
       "back": "**No.** Liability lapses six months after the discovery and at most **two years** after the breach ([[znnd:76:1]])."
     },
     {
+      "id": 12,
       "front": "Where is a disciplinary decision appealed, and when?",
       "back": "Before the **Supreme Court of Cassation** within **14 days** ([[znnd:80]])."
     },
     {
+      "id": 13,
       "front": "A notary dies on Monday. What happens in the office?",
       "back": "No act is performed. The president of the district court orders the **sealing** of the archive with an inventory ([[znnd:36]]); the Council of Notaries records who receives it ([[znnd:37|Art. 37]])."
     }

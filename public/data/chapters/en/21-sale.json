@@ -9,58 +9,72 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "A client in Sofia asks you to prepare the sale of her flat in Burgas. Which notary issues the deed?",
       "back": "A notary of the **Burgas district** ([[gpk:570:1]]). A power of attorney for the sale may be certified by any notary ([[gpk:570:2|Art. 570(2)]])."
     },
     {
+      "id": 1,
       "front": "Which certificate gives the tax assessment and shows unpaid property taxes?",
       "back": "The certificate of **tax assessment** under [[dopk:264:1]], from the municipality."
     },
     {
+      "id": 2,
       "front": "What must be attached to the request for entry of a deed?",
       "back": "A **sketch** from the cadastral map, or a **scheme** for a separate object in a building ([[zkir:77:2]])."
     },
     {
+      "id": 3,
       "front": "What does the notary check at the National Revenue Agency?",
       "back": "That the seller has **no unpaid public debts subject to enforcement** ([[dopk:264:1]])."
     },
     {
+      "id": 4,
       "front": "The NRA check shows a public debt of the seller. May the deed go ahead today?",
       "back": "**Yes**, after the debt is paid, or when the seller consents in writing that it is paid from the price and the buyer pays it into the budget ([[dopk:264:4]])."
     },
     {
+      "id": 5,
       "front": "What is the limit for cash payments in Bulgaria?",
       "back": "Payments of **10,000 лв. (5,112.92 €) or more** only by transfer or deposit to a payment account ([[zopvb:3:1]])."
     },
     {
+      "id": 6,
       "front": "How are payments over 10,000 лв. in real estate deals made?",
       "back": "Through the notary's **special account** or a bank account in a bank chosen by the parties ([[znnd:25:10]])."
     },
     {
+      "id": 7,
       "front": "What is the base for the notarial fee in a sale?",
       "back": "The **higher** of the price and the tax assessment ([[znnd:96:3]])."
     },
     {
+      "id": 8,
       "front": "Who pays the local acquisition tax by default?",
       "back": "The **acquirer** ([[zmdt:45:1]])."
     },
     {
+      "id": 9,
       "front": "What must the notary establish about the local tax?",
       "back": "That it **is paid** before the deed ([[zmdt:50:1]])."
     },
     {
+      "id": 10,
       "front": "Within what time does the notary notify the municipality after a sale?",
       "back": "**7 days** from the deal ([[zmdt:51:2]])."
     },
     {
+      "id": 11,
       "front": "Does the buyer file an annual property tax declaration after buying by notarial deed?",
       "back": "**No** ([[zmdt:14:3]])."
     },
     {
+      "id": 12,
       "front": "The register shows a distraint on the flat. May the sale go ahead?",
       "back": "**Not before it is lifted**: a transfer after the entry of the distraint is not effective against that creditor (Art. 452(2) and 453 ГПК, outside the library)."
     },
     {
+      "id": 13,
       "front": "How long a chain of ownership do careful checks cover?",
       "back": "At least **10 years**, the period of ownership by prescription ([[zs:79]])."
     }

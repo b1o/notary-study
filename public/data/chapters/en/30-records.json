@@ -8,50 +8,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "What does the official archive contain?",
       "back": "Registers and books, case files, other documents, and the **seal** ([[znnd:28:2]])."
     },
     {
+      "id": 1,
       "front": "Who may access the archive?",
       "back": "Nobody without the notary's **consent**, except in the cases provided by law ([[znnd:21:1]])."
     },
     {
+      "id": 2,
       "front": "A police officer asks to take a case file to the station. What does the office need?",
       "back": "A **written order of a judge or prosecutor**; copies go against signature to the official named in it; originals leave only with the notary personally ([[znnd:28:3|Art. 28(3)]]–[[znnd:28:4|(4) ЗННД]])."
     },
     {
+      "id": 3,
       "front": "When does the numbering restart?",
       "back": "On **1 January** each year ([[n32:5|Art. 5]]–[[n32:6|6]] and [[n32:10:4|10(4) Наредба № 32]])."
     },
     {
+      "id": 4,
       "front": "How long are case files for deeds kept?",
       "back": "**5 years**; files for wills and deposits, and decisions on circumstantial verifications, **100 years** ([[n32:10:5]])."
     },
     {
+      "id": 5,
       "front": "What happens to records after 100 years?",
       "back": "They go to the **State Archives** for permanent storage ([[znnd:28а:3]])."
     },
     {
+      "id": 6,
       "front": "How are expired records destroyed?",
       "back": "Only after **agreement with the State Archives** ([[znnd:28а:2]])."
     },
     {
+      "id": 7,
       "front": "The notary dies. Who orders the sealing of the archive?",
       "back": "The **president of the district court** ([[znnd:36:2]]); the heirs must ask for it at once, else the mayor or the district judge ([[n32:22:2|Art. 22(2)]]–[[n32:22:3|(3) Наредба № 32]])."
     },
     {
+      "id": 8,
       "front": "Who inspects notaries?",
       "back": "Inspectors of the **Ministry of Justice** with **inspector-notaries** ([[znnd:80б]])."
     },
     {
+      "id": 9,
       "front": "A clerk wants to photocopy a client's identity card \"for the file\". When is that allowed?",
       "back": "Only when **a law provides** for it, for example AML due diligence ([[zzld:25г]]; [[zmip:53:1]]). Otherwise the office records the data."
     },
     {
+      "id": 10,
       "front": "Is free public access to identity numbers allowed?",
       "back": "**No**, unless a law provides otherwise ([[zzld:25ж:1]])."
     },
     {
+      "id": 11,
       "front": "What is the deadline under the Regulation to notify a risky data breach?",
       "back": "**72 hours** to the Commission for Personal Data Protection (Art. 33 of Regulation (EU) 2016/679)."
     }

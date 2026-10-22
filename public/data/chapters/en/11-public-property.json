@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Which state property can be sold or acquired by prescription?",
       "back": "Only **private** state property ([[zds:7:3]]). Public state property can be neither ([[zds:7:1]])."
     },
     {
+      "id": 1,
       "front": "Can public municipal property be acquired by prescription?",
       "back": "**No**, nor the land of the municipal land fund or municipal forests ([[zos:7:1]]; [[zs:86]])."
     },
     {
+      "id": 2,
       "front": "Who declares public municipal property private, and with what majority?",
       "back": "The **municipal council**, with **two thirds** of all councillors ([[zos:6:1|Art. 6(1)]], [[zos:6:3|(3) ЗОС]])."
     },
     {
+      "id": 3,
       "front": "Is the property of a municipal EAD municipal property?",
       "back": "**No**: the property of companies is not municipal property, even if the municipality owned all of it ([[zos:2:2]])."
     },
     {
+      "id": 4,
       "front": "Possession of a private municipal plot began in 1998. Which years count for prescription?",
       "back": "Until **31 May 2006** and from **8 March 2022**: the moratorium of § 1 ЗД ЗС (2006) and Constitutional Court Decision No. 3 of 2022; outside the library."
     },
     {
+      "id": 5,
       "front": "Does an act of municipal property create the municipality's ownership?",
       "back": "**No**. It is an official document with **no constitutive effect** ([[zos:5:2|Art. 5(2)]]–[[zos:5:3|(3) ЗОС]]); the right comes from its ground."
     },
     {
+      "id": 6,
       "front": "In what form does a municipality sell a plot?",
       "back": "A **written contract** signed by the **mayor**, after a council decision and an auction, entered in the property register ([[zos:34:7|Art. 34(7)]], [[zos:35:1|35(1) ЗОС]])."
     },
     {
+      "id": 7,
       "front": "What must be entered before a municipality signs a contract of disposal?",
       "back": "The **act of municipal property** for the property ([[zos:34:8]])."
     },
     {
+      "id": 8,
       "front": "Who sells private state property with a tax assessment above 10,000 лв.?",
       "back": "The **Agency for Public Enterprises and Control**, on the electronic platform; up to that amount, the **regional governor** ([[zds:44:1|Art. 44(1)]]–[[zds:44:2|(2) ЗДС]])."
     },
     {
+      "id": 9,
       "front": "What is the value of a final decision of the agricultural office in old boundaries, with a sketch?",
       "back": "It certifies ownership and has the **force of a declaratory notarial deed** ([[zspzz:14:1:1]]), except for land in settlements under [[zspzz:10:7|Art. 10(7)]]."
     },
     {
+      "id": 10,
       "front": "A decision restores land to the heirs of a deceased owner. How are their shares set?",
       "back": "By the **Inheritance Act**; the decision does not state them ([[zspzz:14:1:1]])."
     },
     {
+      "id": 11,
       "front": "When is urban property not restored under ЗВСОНИ?",
       "back": "When the owner received **compensation** in money or an equivalent property ([[zvsoni:4:1]]), or the property no longer exists in its real dimensions ([[zvsoni:2:3|Art. 2(3)]])."
     }

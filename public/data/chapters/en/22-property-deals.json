@@ -9,58 +9,72 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Which gifts are exempt from local tax?",
       "back": "Gifts between relatives in the **direct line** and between **spouses** ([[zmdt:44:6]])."
     },
     {
+      "id": 1,
       "front": "What is the gift tax between siblings?",
       "back": "**0.4–0.8%**, set by the municipal council ([[zmdt:47:1]])."
     },
     {
+      "id": 2,
       "front": "A mother donates a flat to her 10-year-old daughter. Who accepts the gift for the child?",
       "back": "The **father**, as the other parent; if he cannot act, a **special representative** ([[zzd:38]]; [[sk:129:2]])."
     },
     {
+      "id": 3,
       "front": "A father gave a flat to his son and kept the right of use. The father dies. What happens to the right?",
       "back": "It **ends by law** ([[zs:59]]). In practice the son presents the death certificate to the registry office for a note."
     },
     {
+      "id": 4,
       "front": "On which property is the local tax due in an exchange?",
       "back": "On the property of **higher value** ([[zmdt:47:2]]); the acquirer of that property pays it ([[zmdt:45:1|Art. 45(1)]])."
     },
     {
+      "id": 5,
       "front": "How is a transfer against maintenance and care terminated?",
       "back": "Only **through a court** ([[zzd:87]])."
     },
     {
+      "id": 6,
       "front": "What is the material interest for a building right?",
       "back": "**90%** of the market price of the land ([[znnd:96:2]])."
     },
     {
+      "id": 7,
       "front": "What is the material interest for a right of use without a term?",
       "back": "The market rent for **3 years** ([[znnd:96:2]])."
     },
     {
+      "id": 8,
       "front": "When is a voluntary partition void?",
       "back": "When a **co-heir did not take part** ([[zn:75:2]])."
     },
     {
+      "id": 9,
       "front": "What is the local tax in a partition?",
       "back": "Only on the **increase** of a co-owner's share ([[zmdt:47:3]])."
     },
     {
+      "id": 10,
       "front": "A mortgage deed names the loan but not the secured amount. Is the mortgage valid?",
       "back": "**No**: uncertainty about the creditor, the owner, the debtor, the property, the claim or the amount makes it invalid ([[zzd:170]])."
     },
     {
+      "id": 11,
       "front": "Is a clause \"the bank becomes owner if the loan is not paid\" valid?",
       "back": "**No** ([[zzd:152]])."
     },
     {
+      "id": 12,
       "front": "Who has a statutory mortgage?",
       "back": "The **transferor** for claims under the contract (for example the unpaid price), and a **co-sharer** owed compensation ([[zzd:168]])."
     },
     {
+      "id": 13,
       "front": "What form does the transfer of a mortgage-secured claim need?",
       "back": "Written form with **notarially certified signatures**, and **entry** ([[zzd:171]])."
     }

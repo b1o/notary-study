@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Name the five certifications a notary performs on private documents and copies.",
       "back": "Date, signature, content, signature and content at the same time, copy ([[gpk:589|Art. 589]]–[[gpk:591|591 ГПК]])."
     },
     {
+      "id": 1,
       "front": "What must a person do for a signature certification?",
       "back": "**Appear personally** and sign before the notary, or confirm a signature already made ([[gpk:589:2]])."
     },
     {
+      "id": 2,
       "front": "A client signed a declaration for a real estate deal at home. What happens at the office?",
       "back": "She **writes her full name** by hand and **confirms** the signature before the notary ([[gpk:589:2]]); fee 10 лв. = 5.11 € per signature ([[tarifa:5|item 5 ТНТ]])."
     },
     {
+      "id": 3,
       "front": "How many copies for a simultaneous certification of signature and content?",
       "back": "**Two or more** identical copies; one is filed in a special book ([[gpk:590:4]])."
     },
     {
+      "id": 4,
       "front": "Which documents need signature and content certified at the same time?",
       "back": "A power of attorney for a deal in notarial form; a transfer of company shares; a transfer of an enterprise; a marriage contract ([[zzd:37]], 129 and 15 ТЗ, 39 СК)."
     },
     {
+      "id": 5,
       "front": "A client presents a certified copy of a diploma and asks for a copy of it. What does the endorsement say?",
       "back": "Who presented the document and that the copy was made **from another copy**, not from the original; any corrections or peculiarities ([[gpk:591:1]])."
     },
     {
+      "id": 6,
       "front": "A lease has a certified date. The flat is sold a year later. Does the lease bind the buyer?",
       "back": "**Yes**, until its term, but for no more than **one year** after the transfer ([[zzd:237]]). The certified date is the certain date ([[gpk:589:1]])."
     },
     {
+      "id": 7,
       "front": "Where are date and signature certifications recorded?",
       "back": "In a special register: the **general register** ([[gpk:590:2]]; [[n32:7]])."
     },
     {
+      "id": 8,
       "front": "What happens to the private document after the certification?",
       "back": "It is **returned** to the person who presented it ([[gpk:590:3]])."
     },
     {
+      "id": 9,
       "front": "What is the fee for the first signature without material interest?",
       "back": "5 лв. = **2.56 €**; each next signature 2 лв. = 1.02 € ([[tarifa:5|item 5 ТНТ]])."
     },
     {
+      "id": 10,
       "front": "What is the fee for certifying a one-page copy?",
       "back": "3 лв. = **1.53 €**; each next page 2 лв. ([[tarifa:6|item 6 ТНТ]])."
     },
     {
+      "id": 11,
       "front": "What happens when the person did not appear personally for a signature certification?",
       "back": "The certification is **null** ([[gpk:576]])."
     }

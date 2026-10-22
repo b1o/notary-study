@@ -9,62 +9,77 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "A flat with a tenant is sold. Does the lease bind the buyer?",
       "back": "An **entered** lease binds the buyer for its whole term; a lease with a certain date, not entered, for at most **one year** after the transfer; a lease without a certain date only as a lease without a term ([[zzd:237]])."
     },
     {
+      "id": 1,
       "front": "What form does a preliminary contract for the sale of real estate need?",
       "back": "**Written** form with the **essential terms** of the final contract ([[zzd:19]])."
     },
     {
+      "id": 2,
       "front": "Earnest money of 3,000 euro was given. The buyer withdraws; or the seller withdraws. What follows?",
       "back": "The buyer fails: the seller may withdraw and **keep** the 3,000 euro. The seller fails: the buyer may withdraw and claim **6,000 euro**, double the earnest money ([[zzd:93]])."
     },
     {
+      "id": 3,
       "front": "A debtor donates his flat to his daughter before the bailiff comes. What may the creditor do?",
       "back": "Sue to declare the gift **ineffective towards the creditor** ([[zzd:135]]). For a spouse, a descendant, an ascendant, a brother or a sister of the debtor, the knowledge of the harm is **presumed** ([[zzd:135:2|Art. 135(2)]])."
     },
     {
+      "id": 4,
       "front": "What is a sham contract and its effect?",
       "back": "A contract that hides the real deal; it is **void**, and the hidden contract applies if valid ([[zzd:17|Art. 17]] and [[zzd:26|26 ЗЗД]])."
     },
     {
+      "id": 5,
       "front": "What do the parties declare about the price in a real estate deal?",
       "back": "That it is the **payment actually agreed** ([[znnd:25:9]])."
     },
     {
+      "id": 6,
       "front": "How is a contract that transfers real estate terminated?",
       "back": "Only **by a court** ([[zzd:87]])."
     },
     {
+      "id": 7,
       "front": "General limitation period?",
       "back": "**Five years** ([[zzd:110]]). Rent, interest, penalties: **three years** ([[zzd:111]])."
     },
     {
+      "id": 8,
       "front": "Who pays the costs of a sale of real estate?",
       "back": "The parties **equally**, unless agreed otherwise; in other sales, the buyer ([[zzd:186]])."
     },
     {
+      "id": 9,
       "front": "When can a gift be revoked?",
       "back": "Attempt on the donor's life, false accusation of a serious crime, refusal of needed support; claim within **one year** ([[zzd:227]])."
     },
     {
+      "id": 10,
       "front": "Is a promise of a gift binding?",
       "back": "**No**; a gift of future property is void ([[zzd:226]])."
     },
     {
+      "id": 11,
       "front": "When does an assignment of a claim bind the debtor?",
       "back": "From the day the **old creditor notifies** the debtor ([[zzd:99]])."
     },
     {
+      "id": 12,
       "front": "How long is a mortgage entry effective?",
       "back": "**10 years**, renewable before expiry ([[zzd:172]])."
     },
     {
+      "id": 13,
       "front": "How is a mortgage deleted?",
       "back": "On the creditor's consent in **notarially certified form**, or on a final court decision ([[zzd:179]])."
     },
     {
+      "id": 14,
       "front": "Which court claims about entered deeds are entered in the property register?",
       "back": "Termination, annulment, revocation of gift, nullity, and claims for a final contract under [[zzd:19:3]] ([[pv:11]])."
     }

@@ -8,46 +8,57 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Who other than a notary may perform notarial functions?",
       "back": "Only persons for whom **a law** provides it ([[znnd:81]]): assistant notaries, substitutes, registration judges, certain municipal officials and consuls."
     },
     {
+      "id": 1,
       "front": "A deed of sale shows \"помощник-нотариус\" and no \"по заместване\". What follows?",
       "back": "The assistant had no power for a real-estate deed ([[znnd:40:1]]); the act is **null** ([[gpk:576]]). A substitute signs with \"по заместване\" ([[znnd:46:1]])."
     },
     {
+      "id": 2,
       "front": "How does another notary substitute a colleague?",
       "back": "Under a **contract**, only a notary **from the same district**, for up to **two years**; using the archive of the substituted notary but their own signature and seal ([[znnd:47]])."
     },
     {
+      "id": 3,
       "front": "When does the registration judge perform notarial acts?",
       "back": "When the district has **no notary**; when nobody substitutes an absent notary (urgent acts); and on documents in the registry archive ([[znnd:48|Art. 48]] and [[znnd:82|82 ЗННД]])."
     },
     {
+      "id": 4,
       "front": "Where may a mayor certify signatures?",
       "back": "In a settlement with **no notary and no district court** ([[znnd:83:1]])."
     },
     {
+      "id": 5,
       "front": "What may a mayor certify?",
       "back": "Signatures on unilateral private documents not subject to entry; signature **and** content of a power of attorney under [[zzd:37]]; copies ([[znnd:83:1]])."
     },
     {
+      "id": 6,
       "front": "A mayor certified the signatures on a transfer of OOD shares. What follows?",
       "back": "The certification is outside the mayor's powers ([[znnd:83:2]]), and the Commercial Register refuses the entry. Only a notary certifies such signatures ([[tz:129:2]])."
     },
     {
+      "id": 7,
       "front": "In which language must a document be for a Bulgarian consul to certify it?",
       "back": "**Bulgarian** ([[znnd:84:1]])."
     },
     {
+      "id": 8,
       "front": "Who issues the apostille on a Bulgarian notarial certification?",
       "back": "The **Ministry of Justice**, within two working days ([[plzp:17а:2|Art. 17а(2)]]–[[plzp:17а:3|(3) ПЛЗП]])."
     },
     {
+      "id": 9,
       "front": "A translator brings a translation of a French deed for use in Bulgaria. What does the office certify?",
       "back": "The **translator's signature** on the translation ([[plzp:21а:1]]), not the accuracy of the translation."
     },
     {
+      "id": 10,
       "front": "Where do the fees go when a mayor or a registration judge performs a notarial act?",
       "back": "Mayor: to the **municipal** budget; registration judge: to the **state** budget ([[znnd:86]])."
     }

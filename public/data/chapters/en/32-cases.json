@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "A flat bought during the marriage in the husband's name. Who sells?",
       "back": "**Both spouses**: common property ([[sk:21:1]]) is disposed of jointly ([[sk:24:3]])."
     },
     {
+      "id": 1,
       "front": "The seller has public debts. What are the two ways to proceed?",
       "back": "Pay them first, or the seller declares that they are paid from the price and the buyer pays them into the budget ([[dopk:264:4]])."
     },
     {
+      "id": 2,
       "front": "What is the order of acts in a sale with two banks?",
       "back": "Consent to delete the old mortgage, sale deed, new mortgage deed; all entered the same day, because the rank of a mortgage follows the entry ([[zzd:169]])."
     },
     {
+      "id": 3,
       "front": "Can parents sign a gift deed at home?",
       "back": "**No**: deeds for entry are issued only in the office in working hours ([[gpk:573:2]]). A power of attorney can be certified at home ([[gpk:573:3|Art. 573(3)]])."
     },
     {
+      "id": 4,
       "front": "The notary certifies a power of attorney at the donors' home in the same town, in working hours. What is added to the fee?",
       "back": "**+25%** for an act outside the office in working hours ([[tarifa:23|item 23]] letter \"а\" ТНТ); out of hours: 50% (letter \"в\")."
     },
     {
+      "id": 5,
       "front": "A 15-year-old heir sells her share. What is needed?",
       "back": "She signs with a parent's **consent** ([[sk:129]]) and the **permission of the district court** of her current address ([[sk:130:3]])."
     },
     {
+      "id": 6,
       "front": "A co-owner sells a share to a third person. What comes first?",
       "back": "A written **offer** to the other co-owners and a declaration before the notary that nobody accepted ([[zs:33]])."
     },
     {
+      "id": 7,
       "front": "A car insured for 8,000 € is sold for 8,500 €. What is the fee base?",
       "back": "**8,500 €**: the contract price applies when it is higher than the insured value ([[znnd:97:1|Art. 97(1)]] and [[znnd:97:3|(3) ЗННД]])."
     },
     {
+      "id": 8,
       "front": "Can the applicant's son be a witness in a circumstantial verification?",
       "back": "**No**: relatives in the direct line are excluded ([[gpk:584::3|Art. 584 item 3]] and [[gpk:575]])."
     },
     {
+      "id": 9,
       "front": "Is the fee for a circumstantial verification returned after a refusal?",
       "back": "**No**: it is due when the request is filed and is not returned (note to [[tarifa:11|item 11 ТНТ]]; [[znnd:88:1]])."
     },
     {
+      "id": 10,
       "front": "Who may take back a deposited holographic will?",
       "back": "Only the **testator personally** ([[zn:26:1]]); the note of the return in the register is signed by the testator, two witnesses and the notary ([[zn:26:2|Art. 26(2)]])."
     },
     {
+      "id": 11,
       "front": "An OOD has four partners with equal shares. Three vote to admit the buyer of a share. Is the buyer admitted?",
       "back": "**No**: three of four is exactly three quarters; the decision needs **more than** three quarters of the capital ([[tz:137:3]])."
     }

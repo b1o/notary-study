@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "In how many copies is a notarial invitation presented?",
       "back": "**Three** identical copies ([[gpk:592:1]])."
     },
     {
+      "id": 1,
       "front": "Who keeps the three copies after the service?",
       "back": "One for the **requester**, one in the notary's **book**, one for the **addressee** ([[gpk:592:1]])."
     },
     {
+      "id": 2,
       "front": "Who may serve notarial invitations?",
       "back": "An **employee** whom the notary assigns, under [[gpk:37|Art. 37]]–[[gpk:58|58 ГПК]] ([[znnd:50]])."
     },
     {
+      "id": 3,
       "front": "The server finds only the addressee's 16-year-old daughter at home. May she receive the invitation?",
       "back": "**No**. Only an **adult** household member or person living at the address, or a worker, employee or employer of the addressee, who **agrees**, may receive it ([[gpk:46:2]])."
     },
     {
+      "id": 4,
       "front": "When may the server post a notice?",
       "back": "When the addressee cannot be found for **one month** and nobody agrees to receive the paper ([[gpk:47:1]])."
     },
     {
+      "id": 5,
       "front": "How is it established that the addressee cannot be found?",
       "back": "At least **three visits**, at least **one week** apart, at least **one on a non-working day** ([[gpk:47:1]])."
     },
     {
+      "id": 6,
       "front": "How long may the addressee collect the papers after a notice is posted?",
       "back": "**Two weeks**; the service is deemed made when the term expires ([[gpk:47:2|Art. 47(2)]], [[gpk:47:5|(5) ГПК]])."
     },
     {
+      "id": 7,
       "front": "The addressee opens the door and refuses to take the invitation. Is the service valid?",
       "back": "**Yes**. The server notes the refusal and certifies it with a signature ([[gpk:44:1]])."
     },
     {
+      "id": 8,
       "front": "The server finds the company's office locked and nobody who agrees to receive the papers. What now?",
       "back": "The server posts a notice under [[gpk:47:1|Art. 47(1)]]; a **second notice is not posted** ([[gpk:50:4]])."
     },
     {
+      "id": 9,
       "front": "What does a declaratory protocol certify?",
       "back": "The **appearance or non-appearance** of persons before the notary, and their consent or disagreement ([[gpk:593]])."
     },
     {
+      "id": 10,
       "front": "How is a deposit of documents recorded?",
       "back": "An **acceptance protocol** in two copies; on the return, a **handover protocol** ([[gpk:594]])."
     },
     {
+      "id": 11,
       "front": "What is the fee for a notarial invitation?",
       "back": "**20 лв. (10.23 €)**; the other copies as copies; half for a service ex officio ([[tarifa:3|item 3 ТНТ]])."
     }

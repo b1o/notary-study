@@ -8,50 +8,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "What are the five parts of a property register partida?",
       "back": "А – property; Б – owner; В – other rights, claims, contracts; Г – mortgages; Д – distraints ([[zkir:59|Art. 59]]–[[zkir:64|64 ЗКИР]])."
     },
     {
+      "id": 1,
       "front": "The partida shows the seller as owner. Is this proof of ownership?",
       "back": "**No**: the partida announces facts; it is not evidence of them ([[zkir:59:4]]). The acts in the file prove the ownership."
     },
     {
+      "id": 2,
       "front": "What must the request for entry contain?",
       "back": "Applicant, fact entered, description, **identifier**, partida number, signature; a **sketch or scheme** attached ([[zkir:77]])."
     },
     {
+      "id": 3,
       "front": "What makes an entry invalid?",
       "back": "No order of the registration judge, or no certification under [[zkir:84:1|Art. 84(1)]] ([[zkir:85]])."
     },
     {
+      "id": 4,
       "front": "What certifies an entry since 30 January 2025, in addition to the order and the signature?",
       "back": "A **qualified electronic time stamp** ([[zkir:84:5]])."
     },
     {
+      "id": 5,
       "front": "Who gives cadastral identifiers?",
       "back": "The **Geodesy, Cartography and Cadastre Agency** ([[zkir:26:3]])."
     },
     {
+      "id": 6,
       "front": "What does an identifier always contain?",
       "back": "The **EKATTE** code of the settlement ([[zkir:26:2]])."
     },
     {
+      "id": 7,
       "front": "Two heirs divide a plot into two new plots. What do they need from the cadastre?",
       "back": "A **sketch-project** for the new plots, issued on the basis of a draft amendment of the cadastral map ([[zkir:52:1]])."
     },
     {
+      "id": 8,
       "front": "Who issues the certificate of tax assessment?",
       "back": "The **municipality** ([[dopk:264:1]])."
     },
     {
+      "id": 9,
       "front": "Whom does the registry office notify after an entry?",
       "back": "The **cadastre office** at once ([[zkir:86]]) and the **municipality** within 7 days ([[zmdt:51:1]])."
     },
     {
+      "id": 10,
       "front": "The ministry sends the office a sample of its inquiries in the population database. What must the notary do?",
       "back": "State the **ground** of each inquiry in the sample within **one month** ([[nnbd:10|Art. 10]]–[[nnbd:11|11]] of the ordinance on access to НБД \"Население\")."
     },
     {
+      "id": 11,
       "front": "What right of access to offices does the notary have?",
       "back": "Free access to court and administrative offices, files and copies, **with priority** ([[znnd:19:1]])."
     }

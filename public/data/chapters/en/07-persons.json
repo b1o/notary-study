@@ -9,58 +9,72 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "What three things does the notary check about each participant before a deed?",
       "back": "**Identity, capacity to act and representative power** ([[gpk:578:4]])."
     },
     {
+      "id": 1,
       "front": "How is identity established without an identity document?",
       "back": "With **two witnesses** whose identity is established ([[gpk:578:5]])."
     },
     {
+      "id": 2,
       "front": "Which Bulgarian documents prove identity?",
       "back": "Identity card; passport (incl. diplomatic, service, seaman's); military ID card; **driving licence** ([[zbld:13:1]])."
     },
     {
+      "id": 3,
       "front": "Who may access the National Population Database individually?",
       "back": "Only **notaries and assistant notaries** in the register ([[nnbd:2:1|Art. 2(1)]] of the access ordinance)."
     },
     {
+      "id": 4,
       "front": "What can the population database show besides the address?",
       "back": "Legal restrictions, marital status, marriage and divorce, death data, relatives ([[nnbd:3:2|Art. 3(2)]] of the access ordinance)."
     },
     {
+      "id": 5,
       "front": "Parents want to mortgage their child's flat for their own loan. Is that possible?",
       "back": "Only by **exception**: the court may permit a pledge or a mortgage for a clear benefit of the child or an extraordinary need of the family ([[sk:130:4]]). A gift, a waiver or a loan by the minor is void."
     },
     {
+      "id": 6,
       "front": "Who signs for a person under full judicial disability?",
       "back": "The **guardian**, with court permission for dispositions ([[zls:5]]; [[sk:165:4]])."
     },
     {
+      "id": 7,
       "front": "How does an illiterate person sign a notarial deed?",
       "back": "With the print of the **right thumb**; a notarial deed is **not** countersigned by witnesses ([[gpk:579:2|Art. 579(2)]] and [[gpk:189|189 ГПК]])."
     },
     {
+      "id": 8,
       "front": "A buyer speaks only Greek, and the notary knows no Greek. What follows?",
       "back": "The notary appoints an **interpreter** ([[gpk:582]]), who promises to translate truly and signs ([[gpk:585]])."
     },
     {
+      "id": 9,
       "front": "The seller has no document and brings his brother and a clerk of the office as witnesses. What follows?",
       "back": "Neither may witness: a relative of a party ([[gpk:584::3|Art. 584 item 3]] with [[gpk:575]]) and an employee of the office ([[gpk:584::6|Art. 584 item 6]]) are excluded."
     },
     {
+      "id": 10,
       "front": "Which law governs the capacity of a foreigner?",
       "back": "The law of the state of **citizenship** ([[kmchp:50:1]])."
     },
     {
+      "id": 11,
       "front": "A procurator signs a deed to sell the company's warehouse. What does the office check?",
       "back": "A **special authorisation** for real estate ([[tz:22:2]]); the procuration alone does not cover a sale or an encumbrance of real estate."
     },
     {
+      "id": 12,
       "front": "Who decides on the disposal of real estate in an OOD?",
       "back": "The **general meeting** ([[tz:137:1:7]])."
     },
     {
+      "id": 13,
       "front": "What form does a power of attorney for a sale of real estate need?",
       "back": "Written, with **signature and content certified at the same time** ([[zzd:37]])."
     }
