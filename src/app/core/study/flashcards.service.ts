@@ -12,7 +12,7 @@ export const SPECIAL_DECKS = ['due', 'all', 'glossary'] as const;
 
 /** A card to study. Front and back are Markdown. */
 export interface StudyCard {
-  /** Key of the card's box: "deeds:3" for the fourth card of a chapter, "g:нотариус" for a term. */
+  /** Key of the card's box: "deeds:3" for the card with id 3, "g:нотариус" for a term. */
   readonly key: string;
   readonly front: string;
   readonly back: string;
@@ -80,8 +80,8 @@ export class FlashcardsService {
       chapters.map((chapter) => this.content.loadData(chapter, language)),
     );
     return data.flatMap((chapterData, i) =>
-      chapterData.cards.map((card, n) => ({
-        key: `${chapters[i].id}:${n}`,
+      chapterData.cards.map((card) => ({
+        key: `${chapters[i].id}:${card.id}`,
         front: card.front,
         back: card.back,
         chapterId: chapters[i].id,

@@ -9,54 +9,67 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Is a sole trader a legal entity?",
       "back": "**No**; the natural person is liable with all personal property ([[tz:56]])."
     },
     {
+      "id": 1,
       "front": "Minimum capital of an OOD?",
       "back": "**1 euro**; each share at least one euro cent ([[tz:117:1]])."
     },
     {
+      "id": 2,
       "front": "Name the types of commercial companies.",
       "back": "СД, КД, ООД, АД, КДА, and the company with variable capital ([[tz:64]])."
     },
     {
+      "id": 3,
       "front": "What does the public trust of the Commercial Register mean?",
       "back": "Third parties in good faith may rely on entries; facts not entered do not exist for them ([[ztr:10]])."
     },
     {
+      "id": 4,
       "front": "Which OOD decisions need a protocol with notarially certified signatures and content?",
       "back": "Admission/expulsion and consent to share transfer; capital; election of manager; acquisition and disposal of real estate, unless the articles provide written form ([[tz:137:4]])."
     },
     {
+      "id": 5,
       "front": "The partners sign a protocol for the sale of the company's shop with simple signatures; the articles say nothing about form. What follows?",
       "back": "The decision is **null** ([[tz:137:4|Art. 137(4)]]–[[tz:137:5|(5) ТЗ]]). The notary refuses the deed until a protocol with certified signatures and content exists."
     },
     {
+      "id": 6,
       "front": "Form of a contract for the transfer of a company share?",
       "back": "Written with notarial certification of **signatures and content at the same time** ([[tz:129:2]])."
     },
     {
+      "id": 7,
       "front": "Conditions for transferring an OOD share to a third person?",
       "back": "Admission by the general meeting and **no unpaid wages and social contributions** ([[tz:129:1]])."
     },
     {
+      "id": 8,
       "front": "Form of a contract for the transfer of a commercial enterprise?",
       "back": "Written with notarial certification of **signatures and content at the same time** ([[tz:15:1]])."
     },
     {
+      "id": 9,
       "front": "A procurator brings a draft deed to mortgage the merchant's warehouse. What does the notary check?",
       "back": "A **special authorisation** for real estate ([[tz:22:2]]); the procuration alone, even entered in the register, does not allow a sale or an encumbrance of real estate."
     },
     {
+      "id": 10,
       "front": "How does a special pledge arise?",
       "back": "By **entry** in the Central Register of Special Pledges on the basis of a pledge contract ([[zoz:2:1]])."
     },
     {
+      "id": 11,
       "front": "Who makes the protest of a bill of exchange?",
       "back": "The **notary of the place of payment or acceptance**, at the written request of the holder ([[tz:501]])."
     },
     {
+      "id": 12,
       "front": "A promissory note was due on Friday and was not paid. Until when can the protest be made?",
       "back": "On **Monday or Tuesday**: within one of the two working days after the day of payment ([[tz:498]]). A late protest loses the claims against the endorsers and the drawer ([[tz:514|Art. 514]])."
     }

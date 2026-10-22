@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Which notary issues a deed of sale of real estate?",
       "back": "The notary in whose **district the property is** ([[gpk:570:1]])."
     },
     {
+      "id": 1,
       "front": "A testator in Sofia wants a notarial will for a house in Burgas. Which notary?",
       "back": "**Any** notary: wills and all acts other than real-estate deeds and certifications of ownership are not tied to the district ([[gpk:570:2]])."
     },
     {
+      "id": 2,
       "front": "The notary's brother-in-law, the husband of the sister, is a party. Is the notary recused?",
       "back": "**Not by law**: in-laws are covered only to the first degree, parents-in-law and children-in-law ([[gpk:575:1]]). The notary may still decline under [[znnd:23]] when impartiality is in doubt."
     },
     {
+      "id": 3,
       "front": "Parties vs participants?",
       "back": "**Parties**: in whose name the act is requested. **Participants**: whose personal statements the notary certifies ([[gpk:572]])."
     },
     {
+      "id": 4,
       "front": "Where and when may deeds for entry be issued?",
       "back": "Only **in the office** and only **in working hours** ([[gpk:573:2]])."
     },
     {
+      "id": 5,
       "front": "Which relatives cause recusal?",
       "back": "Spouse/cohabitant; ascendants and descendants; collaterals to the **4th degree**; in-laws to the **1st degree**; guardianship, adoption, foster relations ([[gpk:575:1]])."
     },
     {
+      "id": 6,
       "front": "Does recusal apply if the document only benefits the notary's relative?",
       "back": "**Yes**, if it contains a disposition in their favour ([[gpk:575:2]])."
     },
     {
+      "id": 7,
       "front": "Name four breaches that make a notarial act null.",
       "back": "No competence or wrong district; outside the district; illegal deal; recusal; no personal appearance; no reading/signing; missing essential content; no interpreter ([[gpk:576]])."
     },
     {
+      "id": 8,
       "front": "Where is a notary's refusal appealed?",
       "back": "With a **private appeal** before the **regional court** ([[gpk:577:1]])."
     },
     {
+      "id": 9,
       "front": "Time limit for a private appeal?",
       "back": "**One week** from notification ([[gpk:275:1]])."
     },
     {
+      "id": 10,
       "front": "A client lends 20,000 euro and wants the fastest way to enforce if the borrower does not pay. Which form?",
       "back": "A contract with **notarially certified signatures** (or a notarial deed): it allows an order for immediate enforcement, whatever the amount ([[gpk:417::3|Art. 417 item 3]] and [[gpk:418]])."
     },
     {
+      "id": 11,
       "front": "When are notarial fees due?",
       "back": "When the act is **performed**; for a circumstantial verification, when the request is **made** ([[znnd:88]])."
     }

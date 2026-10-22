@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Name the kinds of territory by their basic purpose.",
       "back": "Urbanised, agricultural, forest, protected, damaged, covered by water, and territories of transport ([[zut:7:1]])."
     },
     {
+      "id": 1,
       "front": "Where is the specific purpose of a plot set?",
       "back": "In the **detailed development plan** ([[zut:8]])."
     },
     {
+      "id": 2,
       "front": "What is a regulated land plot?",
       "back": "A plot for which a **detailed development plan** set boundaries, access, a specific purpose and building rules (§ 5, item 11 of the Additional Provisions of ЗУТ)."
     },
     {
+      "id": 3,
       "front": "May anybody build on a plot without a detailed development plan?",
       "back": "**No**: building is allowed only if an effective detailed development plan provides for it ([[zut:12:2]])."
     },
     {
+      "id": 4,
       "front": "Minimum regulated plot for low residential building in a town?",
       "back": "**14 m** frontage and **300 m²** ([[zut:19:1:1]])."
     },
     {
+      "id": 5,
       "front": "A buyer wants a real part of a town plot below the minimum size. What follows?",
       "back": "The deal is **not possible** ([[zut:200:1]]), unless the part joins a neighbouring plot and the rest still meets the minimum ([[zut:200:2|Art. 200(2)]])."
     },
     {
+      "id": 6,
       "front": "Co-owners want to divide a house into two flats by a deed. What does the office ask for?",
       "back": "A certificate of the **municipality** that the parts match **approved investment projects** ([[zut:202]])."
     },
     {
+      "id": 7,
       "front": "From which stage is a flat in a new building sold as a flat?",
       "back": "After the **rough construction**, stated by a protocol ([[zut:181:2|Art. 181(2)]]–[[zut:181:3|(3) ЗУТ]]). Before it, the building right is transferred ([[zut:181:1|Art. 181(1)]])."
     },
     {
+      "id": 8,
       "front": "A co-owner of a regulated plot wants to build a house. What form does the agreement with the other co-owners need?",
       "back": "A contract **in notarial form** ([[zut:183:1]])."
     },
     {
+      "id": 9,
       "front": "A developer adds a floor to a condominium building. What is signed?",
       "back": "A contract with the owner of the plot **in notarial form**, and a declaration of consent of **all owners** in the condominium with certified signatures ([[zut:183:2]])."
     },
     {
+      "id": 10,
       "front": "An owner wants to join part of the common corridor to the flat. What form?",
       "back": "A contract for the transfer of ownership **in notarial form** with the other owners; it is entered ([[zut:185:3|Art. 185(3)]], [[zut:185:7|(7) ЗУТ]])."
     },
     {
+      "id": 11,
       "front": "What form does a right of passage through a neighbour's plot need?",
       "back": "A **written contract with notarially certified signatures**, entered in the partidas of both plots ([[zut:192:1|Art. 192(1)]], [[zut:192:7|(7) ЗУТ]])."
     }

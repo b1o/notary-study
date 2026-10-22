@@ -8,50 +8,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Which vehicles need notarially certified signatures on the sale contract?",
       "back": "Registered **cars**, **trailers over 10 t**, **wheeled tractors**, **motorcycles over 350 cm³** ([[zdvp:144:2]])."
     },
     {
+      "id": 1,
       "front": "Name the exceptions from the certification requirement.",
       "back": "End-of-life vehicles; vehicles whose acquirer is abroad without a later Bulgarian registration; vehicles deregistered after a total loss ([[zdvp:144:2]])."
     },
     {
+      "id": 2,
       "front": "A car registered in Varna is sold by a seller who lives in Sofia. Which notary may certify the contract?",
       "back": "**Any** notary: a certification of signatures is not bound to a district ([[gpk:570:2]])."
     },
     {
+      "id": 3,
       "front": "What does the notary check about the vehicle tax?",
       "back": "That the **seller paid** the vehicle tax, through the Ministry of Finance system or a municipal document ([[dopk:264:2]])."
     },
     {
+      "id": 4,
       "front": "What is the material interest for the fee on a car sale?",
       "back": "The value for which the vehicle is **insured** ([[znnd:97:1]]), or the price when it is higher ([[znnd:97:3|Art. 97(3)]])."
     },
     {
+      "id": 5,
       "front": "Which tariff item applies to a car sale?",
       "back": "[[tarifa:11|Item 11]]: the **full [[tarifa:8|item 8]] fee** ([[tarifa:11|item 11 ТНТ]])."
     },
     {
+      "id": 6,
       "front": "What does the notary enter in the information system after a car sale?",
       "back": "A **scan** of the contract; the office keeps a copy with the representation documents and the declarations for **two years** ([[n32:9а::6|Art. 9а item 6 Наредба № 32]])."
     },
     {
+      "id": 7,
       "front": "What is the deadline for the buyer to register the car?",
       "back": "**One month** ([[zdvp:145:2]])."
     },
     {
+      "id": 8,
       "front": "The seller paid the vehicle tax for the whole year. Does the buyer pay it again?",
       "back": "**No**: the new owner does not pay the tax when the previous owner paid it until the end of the calendar year ([[zmdt:58:3]])."
     },
     {
+      "id": 9,
       "front": "Can a person without a Bulgarian address buy a registered car directly?",
       "back": "Only after the registration is **terminated** and the plates are returned ([[zdvp:144:3]])."
     },
     {
+      "id": 10,
       "front": "What form does a power of attorney to sell a car need?",
       "back": "A **notarially certified signature**, because the power follows the form of the deal ([[zzd:37]], first sentence)."
     },
     {
+      "id": 11,
       "front": "A power of attorney to sell a car was certified by a mayor. Is it valid?",
       "back": "**Yes**: a mayor may certify signatures where the settlement has no notary and no district court ([[znnd:83:1]]); mayors cannot enter the power in the information system (Council of Notaries, January 2024; chapter 5)."
     }

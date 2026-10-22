@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "A third person joins a debt by agreement with the creditor. Who is liable?",
       "back": "The old debtor and the new one, **jointly**; once the creditor approved, the agreement cannot be changed without the creditor ([[zzd:101]])."
     },
     {
+      "id": 1,
       "front": "What does a replacement of the debtor need, and what happens to the old debtor?",
       "back": "The **express consent** of the creditor; the old debtor is **released**. A pledge and a mortgage of the old debtor stay ([[zzd:102]])."
     },
     {
+      "id": 2,
       "front": "A buyer replaces the seller as debtor of a mortgage loan. What form?",
       "back": "Written with **notarially certified signatures**, and **entry** in the property register ([[zzd:171]])."
     },
     {
+      "id": 3,
       "front": "What form does a guarantee need?",
       "back": "**Written** form ([[zzd:138]]); a certification is not required by law."
     },
     {
+      "id": 4,
       "front": "The owner keeps a pledged painting at home. Is the pledge valid?",
       "back": "**No**: a pledge is valid only if the thing is handed to the creditor or to a person they chose ([[zzd:156]])."
     },
     {
+      "id": 5,
       "front": "A claim against a tenant is pledged. What makes the pledge effective against third persons?",
       "back": "A **notice to the debtor** and, above the small amount, a document with a **certain date** ([[zzd:162]])."
     },
     {
+      "id": 6,
       "front": "For how long can two private persons lease a flat?",
       "back": "At most **ten years**; persons who may only manage, at most **three** ([[zzd:229]])."
     },
     {
+      "id": 7,
       "front": "What is the material interest of a lease?",
       "back": "The total rent for the **whole term**; without a term, for **3 years** ([[znnd:97:1:7]])."
     },
     {
+      "id": 8,
       "front": "What does the notary check in an agricultural lease of a co-owned field?",
       "back": "That the lessor holds **more than 50%**, alone or with express **notarially certified** powers of co-owners ([[zaz:3:1|Art. 3(1)]], [[zaz:3:4|(4) ЗАЗ]])."
     },
     {
+      "id": 9,
       "front": "Minimum term of an agricultural lease?",
       "back": "**Five** business years ([[zaz:4:1]])."
     },
     {
+      "id": 10,
       "front": "How is an agricultural lease terminated by mutual consent?",
       "back": "In writing with **notarially certified signatures**; the termination is **entered** and **registered** ([[zaz:27:1:3|Art. 27(1), item 3]], [[zaz:27:2|(2) ЗАЗ]])."
     },
     {
+      "id": 11,
       "front": "What form does the sale of an inheritance need, and when does it bind third persons?",
       "back": "Written with **notarially certified signatures**; with real estate in it, it binds third persons only when **entered** ([[zzd:212]])."
     }

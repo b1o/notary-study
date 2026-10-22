@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "What form does a power of attorney to sell real estate need?",
       "back": "Written, with **signature and content certified at the same time** ([[zzd:37]])."
     },
     {
+      "id": 1,
       "front": "Can a marriage contract or a will be signed through an agent?",
       "back": "**No**; both are personal acts ([[sk:39:1]]; [[zn:24]])."
     },
     {
+      "id": 2,
       "front": "What defines the scope of the agent's power towards third parties?",
       "back": "**What the principal stated** ([[zzd:39:1]])."
     },
     {
+      "id": 3,
       "front": "When may an agent sell the principal's property to himself?",
       "back": "Only with the principal's **consent** ([[zzd:38:1]])."
     },
     {
+      "id": 4,
       "front": "A power says it is \"irrevocable\". May the principal still revoke it?",
       "back": "**Yes**: the principal may always revoke; a waiver of that right is invalid ([[zzd:38:2]])."
     },
     {
+      "id": 5,
       "front": "An agent re-delegated his power without authority and without need. Does the sub-agent have power?",
       "back": "**No** ([[zzd:43:1]]). An agent who does not inform the principal of a re-delegation answers for the sub-agent's acts as for his own ([[zzd:43:3|Art. 43(3)]])."
     },
     {
+      "id": 6,
       "front": "List the grounds on which a power of attorney ends.",
       "back": "Revocation, renunciation, death or judicial disability of either side, end of a legal entity ([[zzd:41:1]])."
     },
     {
+      "id": 7,
       "front": "Does the end of a power affect a third party in good faith?",
       "back": "**No**, unless the end was subject to entry and was entered ([[zzd:41:2]])."
     },
     {
+      "id": 8,
       "front": "What does the notary enter in the information system after certifying a revocation?",
       "back": "An extract with the parties and the **number and date** of the revoked power and its notary ([[n32:9а::2|Art. 9а item 2 Наредба № 32]])."
     },
     {
+      "id": 9,
       "front": "How can a principal confirm an act made without power?",
       "back": "In the **form required for the power** of attorney ([[zzd:42:2]])."
     },
     {
+      "id": 10,
       "front": "What is the fee for the signature on a re-delegation?",
       "back": "**Double** the normal signature fee ([[tarifa:5|item 5 ТНТ]])."
     },
     {
+      "id": 11,
       "front": "A power signed in Germany has only the signature certified by a German notary. Is the form valid?",
       "back": "As to form, **yes**: the form of the place of signing is enough ([[kmchp:61]]). For real estate, notaries in practice expect signature and content, an apostille and a translation with the translator's signature certified ([[plzp:21а:1]])."
     }

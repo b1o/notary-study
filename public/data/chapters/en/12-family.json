@@ -9,62 +9,77 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Name the three matrimonial property regimes.",
       "back": "Statutory community, statutory separation, contractual regime ([[sk:18]])."
     },
     {
+      "id": 1,
       "front": "Which regime applies when the spouses chose none?",
       "back": "The **statutory community** ([[sk:18:2]])."
     },
     {
+      "id": 2,
       "front": "Where are marriage contracts and regimes registered?",
       "back": "In the **central electronic register** at the Registry Agency ([[sk:19]])."
     },
     {
+      "id": 3,
       "front": "Georgi sold his premarital flat and bought a new one during the marriage with all that money. Whose is the new flat?",
       "back": "**Personal**, when acquired entirely with personal money ([[sk:23:1]]). The deed usually states the origin of the money and the other spouse's confirmation; otherwise joint contribution is presumed ([[sk:21:3|Art. 21(3)]])."
     },
     {
+      "id": 4,
       "front": "Name three kinds of personal property.",
       "back": "Acquired before the marriage; by inheritance or gift; with entirely personal money ([[sk:22|Art. 22]]–[[sk:23|23 СК]])."
     },
     {
+      "id": 5,
       "front": "Who disposes of common property?",
       "back": "**Both spouses together** ([[sk:24:3]])."
     },
     {
+      "id": 6,
       "front": "The husband sold a common flat alone. What may the wife do?",
       "back": "Sue to challenge the sale within **6 months** of learning of it, and at most **3 years** after it ([[sk:24:4]])."
     },
     {
+      "id": 7,
       "front": "When does the sale of a personal family home need the other spouse's consent?",
       "back": "When the spouses have **no other home** ([[sk:26]])."
     },
     {
+      "id": 8,
       "front": "Shares of spouses when the community ends?",
       "back": "**Equal** ([[sk:28]])."
     },
     {
+      "id": 9,
       "front": "Form of a marriage contract?",
       "back": "Signed **personally**, in writing, with notarial certification of **content and signatures** ([[sk:39:1]])."
     },
     {
+      "id": 10,
       "front": "A marriage contract signed in May transfers a flat; the wedding is in July. When is it entered?",
       "back": "On the day the notary receives the **marriage certificate** ([[sk:39:3]]; [[znnd:25:5]]). It takes effect from the marriage ([[sk:40|Art. 40]])."
     },
     {
+      "id": 11,
       "front": "What can a marriage contract NOT contain?",
       "back": "Dispositions in case of death; a clause making premarital property common ([[sk:38]])."
     },
     {
+      "id": 12,
       "front": "What needs court permission for a child's property?",
       "back": "Disposals of real estate, of movables by formal deal, of deposits and securities ([[sk:130:3]])."
     },
     {
+      "id": 13,
       "front": "Can one parent alone represent a child?",
       "back": "**Yes**, in the child's interest; with a conflict of interest, a special representative is appointed ([[sk:129]])."
     },
     {
+      "id": 14,
       "front": "What document allows a child to travel abroad with one parent?",
       "back": "A **declaration of consent** of the other parent; the act names no form ([[zbld:76]]), and the border authorities ask for a **notarially certified signature**. Disputes go to the district court ([[sk:127а]])."
     }

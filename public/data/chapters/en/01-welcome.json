@@ -8,42 +8,52 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Who is a notary under Bulgarian law?",
       "back": "A person to whom **the state assigns** the notarial acts provided for by law, and who is entered in the **register of the Notary Chamber** ([[znnd:2]])."
     },
     {
+      "id": 1,
       "front": "The notary is at lunch and a client needs a signature certified now. What may the clerk do?",
       "back": "Prepare the endorsement and wait. Only the notary, an assistant notary within [[znnd:40]] or a registered substitute certifies; a certification by anyone else is null ([[gpk:576]])."
     },
     {
+      "id": 2,
       "front": "Which acts may an assistant notary NOT perform?",
       "back": "Deeds that create, transfer, change or end real rights in real estate; acts that recognise ownership or limited real rights in real estate; notarial wills and their revocation; mortgages ([[znnd:40:1]])."
     },
     {
+      "id": 3,
       "front": "A deed is signed at 11:00 on Tuesday. By when does it reach the registry office?",
       "back": "**The same day** ([[znnd:25:5]]). Until the entry, the parties get no copy of the deed."
     },
     {
+      "id": 4,
       "front": "Where and when are deeds that need entry issued?",
       "back": "Only **in the office** of the notary and only **in working hours** ([[gpk:573:2]])."
     },
     {
+      "id": 5,
       "front": "What evidential force does a notarial certification have?",
       "back": "It is an **official document**: it proves the facts it certifies until somebody proves the contrary ([[gpk:179]])."
     },
     {
+      "id": 6,
       "front": "What duty of secrecy do employees of the notary have?",
       "back": "The **same** as the notary ([[znnd:49]])."
     },
     {
+      "id": 7,
       "front": "A buyer does not speak Bulgarian. What follows?",
       "back": "The document stays in Bulgarian. When the notary does not know the language of the buyer, the notary appoints an interpreter ([[gpk:582]])."
     },
     {
+      "id": 8,
       "front": "How long are the notarial books with deeds kept?",
       "back": "**100 years**, then they go to the State Archives ([[znnd:28а:3]])."
     },
     {
+      "id": 9,
       "front": "What is the euro conversion rate for amounts in leva in legal acts?",
       "back": "**1.95583 leva = 1 euro**, with rounding to the cent ([[zvevro:11|Art. 11]]–[[zvevro:13|13 ЗВЕРБ]])."
     }

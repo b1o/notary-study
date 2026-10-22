@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Which rules apply to a notarial proceeding where the special rules say nothing?",
       "back": "The **general rules of non-contentious proceedings** ([[gpk:530]]); the rules of claim proceedings apply accordingly, with exceptions ([[gpk:540]])."
     },
     {
+      "id": 1,
       "front": "Is a notarial act that grants a request appealed?",
       "back": "**No** ([[gpk:537:1]]). A third person whose rights it affects sues; if the claim succeeds, the court cancels or changes the act ([[gpk:537:2|Art. 537(2)]])."
     },
     {
+      "id": 2,
       "front": "Which notarial acts does a court cancel under [[gpk:537:2]]?",
       "back": "Only **declaratory deeds** of ownership, not deeds of transactions (Interpretative Decision No. 3/2012, General Assembly of the Civil College)."
     },
     {
+      "id": 3,
       "front": "A neighbour without any document disputes a declaratory deed in court. Who bears the burden of proof?",
       "back": "The **neighbour**: the deed legitimises its holder as the owner (Interpretative Decision No. 11/2012, General Assembly of the Civil College)."
     },
     {
+      "id": 4,
       "front": "What does a declaratory deed prove with binding force?",
       "back": "The **acts of the notary**: who issued it, when, where and on which documents ([[gpk:179:1]]). It does not prove who owns the property."
     },
     {
+      "id": 5,
       "front": "A party says that the date of a certification was changed afterwards. How is that disputed?",
       "back": "By contesting the **authenticity** of the document; the contesting party bears the burden of proof ([[gpk:193:1|Art. 193(1)]], [[gpk:193:3|(3) ГПК]])."
     },
     {
+      "id": 6,
       "front": "Who orders an entry in the property register?",
       "back": "The **registration judge** of the registry office where the property is ([[gpk:570:1]]; [[pv:7]])."
     },
     {
+      "id": 7,
       "front": "On whose request is a sale deed entered?",
       "back": "On the **written request of the notary** who made it ([[pv:8:1]])."
     },
     {
+      "id": 8,
       "front": "What does the registration judge check before an entry?",
       "back": "That the act is **subject to entry** and has the **form** and the **content** of ПВ; not the substantive conditions, unless a law requires it (Interpretative Decision No. 7/2012, General Assembly of the Civil and Commercial Colleges)."
     },
     {
+      "id": 9,
       "front": "The regional court sets aside a refusal of entry. From when does the entry count?",
       "back": "From the record of the act in the **incoming register**, so the rank is kept ([[pv:32в]]; [[gpk:577:3]])."
     },
     {
+      "id": 10,
       "front": "A mortgage entry is eleven years old and was never renewed. How is it deleted?",
       "back": "On the **request** of anybody interested, without other evidence ([[pv:22]])."
     },
     {
+      "id": 11,
       "front": "The partida shows other data than the entered act. What is it, and who fixes it?",
       "back": "A **technical error** ([[pv:33в:1]]). The person concerned or the notary asks, and the Registry Agency corrects it ([[pv:33в:2|Art. 33в(2)]]–[[pv:33в:3|(3) ПВ]])."
     }

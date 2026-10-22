@@ -14,7 +14,7 @@ This document tells how to write and change the course content and the law data.
 | `tools/manual/tarifa.json`, `tools/manual/tdtav.json` | Hand-made acts: the notarial fee tariff (ТНТ) and section I of the Registry Agency tariff (ТДТАВ). The importer writes them to `laws/acts` on every run. |
 | `public/data/glossary.json`, `templates.json`, `checklists.json` | Glossary, document templates, checklists. |
 
-The progress of a reader, the flashcard boxes and the test results use the chapter `id`, not the number. A card key is `<chapter id>:<card index>`.
+The progress of a reader, the flashcard boxes and the test results use the chapter `id`, not the number. A card key is `<chapter id>:<card id>` (see "Cards and questions").
 
 The two languages have the same structure: the same headings, tables and callouts, the same number of cards and questions, and the same citations in the same order.
 
@@ -49,6 +49,9 @@ Every statement of law cites its provision. A citation is a link that opens the 
 
 ### Cards and questions
 
+- Each card has an `id`: a whole number that is unique in its chapter. The same card has the same `id` in both languages. The saved flashcard box of a reader uses the `id`, so you can add, delete and move cards without a change to the box of another card.
+- Give a new card the highest `id` of its chapter plus one, at any place in the list. Never change an `id`. Never give the `id` of a deleted card to a new card, because the new card then gets the box of the old card.
+- The first ids (October 2026) are the positions of the cards at that time. Before that, the key was the position, so the ids kept every saved box on its card.
 - `answer` is always `0`. The app shuffles the options.
 - `refs` lists the provisions of the question. The explanation cites them too, and it says why the wrong options are wrong.
 - In each chapter, the right option may be the only longest option in at most a third of the questions. Keep the right option shorter than twice the mean of the wrong options. Do not repeat a word of the question only in the right option. `docs/research/course-content/00-method.md` describes these measures.
@@ -60,7 +63,7 @@ Bulgaria uses the euro since 1 January 2026. Lev amounts in the acts apply throu
 ## Adding or renumbering a chapter
 
 1. Add the entry to `chapters` and to its part in `manifest.json`.
-2. Write the `.md` and `.json` files in both languages.
+2. Write the `.md` and `.json` files in both languages. The card ids of a new chapter start at `0`.
 3. If the numbers of other chapters move, rename their files and change every "chapter N" and "глава N" in the lessons, cards and explanations of both languages.
 4. Update the counts in `README.md`.
 
@@ -86,7 +89,7 @@ bun run build
 bunx prettier --check "src/**/*.{ts,html,scss}"
 ```
 
-`bun run check:content` fails when a citation names an act, an article, a paragraph or an item that the library does not have. It also fails on a Latin letter in an article number, an unknown chapter link, different counts in the two languages, a bad answer index, right options that are too often the longest, HTML left in a law text, or a translation of an article that the act does not have. It warns about untranslated cited articles, very long right options and plain references.
+`bun run check:content` fails when a citation names an act, an article, a paragraph or an item that the library does not have. It also fails on a Latin letter in an article number, an unknown chapter link, different counts in the two languages, a card without an `id`, a repeated card `id`, different card ids in the two languages, a bad answer index, right options that are too often the longest, HTML left in a law text, or a translation of an article that the act does not have. It warns about untranslated cited articles, very long right options and plain references.
 
 ## Publishing
 
@@ -97,6 +100,7 @@ A push to `main` publishes the site (`.github/workflows/pages.yml`). Push only w
 - Python `write_text` writes CRLF. Write with `newline="\n"`.
 - Python prints Cyrillic only after `sys.stdout.reconfigure(encoding="utf-8")`. With `python -I`, `PYTHONIOENCODING` has no effect.
 - A Bash heredoc can change backslashes. Put a script with regular expressions in a file, or use an editor tool.
+- In Git Bash, a `node -e` script of more than one line does nothing: it prints nothing and exits with `0`. Put the script in a file.
 
 ## Research notes
 

@@ -8,50 +8,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Partner A sells her share to partner B. Must the general meeting consent?",
       "back": "**No**: a transfer between partners is free ([[tz:129:1]]). The contract still needs signatures and content certified at the same time ([[tz:129:2|Art. 129(2)]])."
     },
     {
+      "id": 1,
       "front": "What majority admits a new partner in an OOD?",
       "back": "More than **three quarters** of the capital, unless the articles require more ([[tz:137:3]])."
     },
     {
+      "id": 2,
       "front": "What declaration accompanies a share transfer to a third person?",
       "back": "A declaration by the manager and the transferor that there are **no unpaid wages**, compensations or social contributions of the workers ([[tz:129:2]])."
     },
     {
+      "id": 3,
       "front": "In how many copies is a share transfer contract certified?",
       "back": "**Two or more** identical copies; one stays with the notary ([[gpk:590:4]])."
     },
     {
+      "id": 4,
       "front": "What is the deadline to file a change in the Commercial Register?",
       "back": "**7 days** from the change ([[ztr:6:2]])."
     },
     {
+      "id": 5,
       "front": "What does a new manager present to the register?",
       "back": "A notarially certified **consent with a specimen signature** ([[tz:141:3]])."
     },
     {
+      "id": 6,
       "front": "Which OOD decisions need protocols with signatures and content certified?",
       "back": "Admission and expulsion of partners and consent to a transfer; capital changes; election of a manager; real estate ([[tz:137:4]])."
     },
     {
+      "id": 7,
       "front": "The articles of an OOD provide written form for decisions. Is a protocol with simple signatures enough to elect a manager?",
       "back": "**Yes**: the notarial form of [[tz:137:4]] applies unless the articles provide written form."
     },
     {
+      "id": 8,
       "front": "Which fee does [[znnd:90:2]] make ordinary?",
       "back": "The fee for the **content** that the Commerce Act or the Special Pledges Act requires to be certified with the signatures. The provision does not name the fee for the signatures."
     },
     {
+      "id": 9,
       "front": "A new manager was entered on 1 March. On 10 March a supplier contracted with the old manager, unaware of the change. Is the supplier bound by the entry?",
       "back": "An entered fact is deemed known from the entry, but for **15 days** it cannot be opposed to a third person who proves that it was impossible to know it ([[ztr:7:1]])."
     },
     {
+      "id": 10,
       "front": "Where is a special pledge over company shares entered?",
       "back": "In the **Central Register of Special Pledges** ([[zoz:2:1]])."
     },
     {
+      "id": 11,
       "front": "How does the notary identify the beneficial owner of a company?",
       "back": "From the register data; when they are insufficient or contradictory, a **declaration** by the representative ([[zmip:59:1]])."
     }

@@ -9,50 +9,62 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "How many copies of a draft deed for entry does Ordinance No. 32 require?",
       "back": "At least **five** identical copies ([[n32:18:1]])."
     },
     {
+      "id": 1,
       "front": "How are numbers written in a draft deed?",
       "back": "In figures **and in words** when they concern the content of the deal ([[gpk:578:3]])."
     },
     {
+      "id": 2,
       "front": "The parties signed the draft at home before coming. What happens at the office?",
       "back": "After the reading, they write their **full name** by hand and **confirm** the signatures before the notary ([[gpk:579:1]]). Empty spaces in the draft are crossed out ([[gpk:578:3|Art. 578(3)]])."
     },
     {
+      "id": 3,
       "front": "List the required content of a notarial deed.",
       "back": "Date (and hour/place if needed); notary; names, ЕГН and ID data of participants; content; documents for [[gpk:586:1|Art. 586(1)]]; signatures and full names ([[gpk:580]])."
     },
     {
+      "id": 4,
       "front": "What does the notary do before the parties sign?",
       "back": "**Reads** the content to them ([[gpk:579:1]])."
     },
     {
+      "id": 5,
       "front": "How do participants sign a deed?",
       "back": "They write their **full name** by hand and sign before the notary, or confirm signatures already made ([[gpk:579:1]])."
     },
     {
+      "id": 6,
       "front": "How is a correction made in a deed before signing ends?",
       "back": "With an **express note** signed like the deed itself ([[gpk:579:3]])."
     },
     {
+      "id": 7,
       "front": "The seller's deed of 1998 was never entered. May the sale go ahead?",
       "back": "**No**: the new deed is not issued until the transferor's document of ownership is entered ([[gpk:586:4]]). The office presents the old deed for entry first."
     },
     {
+      "id": 8,
       "front": "What are the two ways to a declaratory deed?",
       "back": "By **written evidence**, or by **circumstantial verification** with three witnesses ([[gpk:587]])."
     },
     {
+      "id": 9,
       "front": "Who names the witnesses in a circumstantial verification?",
       "back": "The **mayor** (or an official he designates), at the owner's suggestion; as far as possible **neighbours** ([[gpk:587:2]])."
     },
     {
+      "id": 10,
       "front": "A wrong identity number is found the day after the entry. How is it corrected?",
       "back": "By a **correction deed** signed by the same parties ([[tarifa:1|item 1 of the tariff]]: 30 лв. = 15.34 €), then entered. No crossing out after the signing has ended ([[gpk:579:3]])."
     },
     {
+      "id": 11,
       "front": "When do the parties receive their copies of a deed for entry?",
       "back": "After the deed is **entered**; before that, no copy ([[znnd:25:5]]; [[gpk:581]])."
     }

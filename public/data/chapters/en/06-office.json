@@ -9,66 +9,82 @@
   ],
   "cards": [
     {
+      "id": 0,
       "front": "Minimum premises of a notary office?",
       "back": "**Two or more functionally connected rooms** with the chancery and the official archive ([[znnd:13:2]]; [[n32:25]])."
     },
     {
+      "id": 1,
       "front": "A clerk keeps the general register in a spreadsheet and prints nothing. What is wrong?",
       "back": "A register kept on a computer is **printed**: each sheet dated, signed and sealed by the notary and joined to the previous one ([[n32:5:4|Art. 5(4)]]–[[n32:5:5|(5) Наредба № 32]])."
     },
     {
+      "id": 2,
       "front": "The registry office receives documents until 16:00. When does work on deeds for entry stop?",
       "back": "At **14:00**: at least two hours before the end of the reception time of the registry office ([[n32:27:2]])."
     },
     {
+      "id": 3,
       "front": "How long can an office close temporarily?",
       "back": "Up to **25 working days a year** and up to **2 hours a day** ([[n32:28]])."
     },
     {
+      "id": 4,
       "front": "Name the seven registers and books of a notary.",
       "back": "General register; alphabetical index; register of holographic wills and deposits; book of acts subject to entry; book of notarial wills; book of invitations, protests, protocols and copies; expense book ([[znnd:28а]])."
     },
     {
+      "id": 5,
       "front": "The registration judge refused to enter a deed, and the regional court confirmed the refusal. Where does the deed go?",
       "back": "Into the book of acts subject to entry, **with the court decision attached** ([[n32:6:2]])."
     },
     {
+      "id": 6,
       "front": "How is the day closed in the registers?",
       "back": "With the **signature and seal** of the notary before the first entry of the next day ([[n32:5:1]])."
     },
     {
+      "id": 7,
       "front": "How is an error in a register corrected?",
       "back": "By a **note** signed and sealed by the notary that says exactly how the correction reads; no erasures ([[n32:5:3]])."
     },
     {
+      "id": 8,
       "front": "How many documents does a volume of a notarial book hold?",
       "back": "**200**; numbering starts again each year ([[n32:6:1]])."
     },
     {
+      "id": 9,
       "front": "What goes into a notarial case file for a deed?",
       "back": "The request, a copy of the signed deed, the declarations about the special requirements of the law, the proof of representation, and the accounting documents for the fees ([[n32:11]])."
     },
     {
+      "id": 10,
       "front": "How long are case files for deeds kept?",
       "back": "**5 years**; files for wills and deposits and decisions in circumstantial verifications: **100 years** ([[n32:10:5]])."
     },
     {
+      "id": 11,
       "front": "The rubber seal of the notary is lost. What follows?",
       "back": "The notary informs the Notary Chamber **at once**, and a new seal is made ([[n32:16]]). The seal is round, 40 mm, of the approved model ([[n32:14|Art. 14]])."
     },
     {
+      "id": 12,
       "front": "How many copies of a draft deed that must be entered?",
       "back": "At least **five** identical copies; wills: at least four ([[n32:18:1]])."
     },
     {
+      "id": 13,
       "front": "How many copies go to the registry office?",
       "back": "**Four** identical copies, one may be only signed, plus the request in two copies with the fee proof ([[n32:21:1]])."
     },
     {
+      "id": 14,
       "front": "Deadline to send a notarial will to the registration judge?",
       "back": "**Three days** ([[n32:21:2]])."
     },
     {
+      "id": 15,
       "front": "Who may receive information from a notarial case file?",
       "back": "Only the parties, their successors and their representatives; a non-lawyer needs an **express** power of attorney with a certified signature ([[znnd:28а:4]])."
     }
