@@ -1,4 +1,4 @@
-import { effect, signal, type WritableSignal } from '@angular/core';
+import { DestroyRef, DOCUMENT, effect, inject, signal, type WritableSignal } from '@angular/core';
 
 /** Turns a stored value (unknown JSON) into a valid value, or returns the fallback. */
 export type Restore<T> = (stored: unknown, fallback: T) => T;
@@ -7,10 +7,23 @@ export type Restore<T> = (stored: unknown, fallback: T) => T;
  * A signal whose value is kept in the browser's localStorage under `key`.
  * Call it in an injection context (for example in a service field), because it creates an effect.
  * When storage is not available (private mode, blocked site data), the value lives in memory only.
+ *
+ * When another tab of the app saves the key, the signal takes over that value. Otherwise the next
+ * change in this tab would save this tab's older value over the change of the other tab.
  */
 export function storedSignal<T>(key: string, fallback: T, restore: Restore<T>): WritableSignal<T> {
   const value = signal(readStored(key, fallback, restore));
   effect(() => writeStored(key, value()));
+
+  // The browser sends "storage" only to the other tabs, and only when the value changes, so the
+  // effect that saves the same value again here starts no loop. A null key means that the other
+  // tab cleared the whole storage.
+  const window = inject(DOCUMENT).defaultView;
+  const onStorage = (event: StorageEvent) => {
+    if (event.key === key || event.key === null) value.set(readStored(key, fallback, restore));
+  };
+  window?.addEventListener('storage', onStorage);
+  inject(DestroyRef).onDestroy(() => window?.removeEventListener('storage', onStorage));
   return value;
 }
 
